@@ -39,7 +39,7 @@ src="../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 </u>- DatUtil v1.31<br>
 <br>
 - When saving data files in listinfo format, 'crc 00000000' is now<br>
-              written out as 'status nodump'.</font></p>
+              written out as 'flags nodump'.</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>24 January 2004</strong>
 </u>- DatUtil v1.30<br>

@@ -35,7 +35,8 @@ width="38" height="38"></a></p>
 
 <p align="center"><strong><u>31 January 2004</u></strong> - MAMEDiff v1.25</p>
 
-<p align="center">When generating data files and log files, 'crc 00000000' is now written out as 'status nodump'.</p>
+<p align="center">When generating data files and log files, 'crc 00000000' is now written out as
+'flags nodump'.</p>
 
 <p align="center"><strong><u>24 January 2004</u></strong> - MAMEDiff v1.24</p>
 
