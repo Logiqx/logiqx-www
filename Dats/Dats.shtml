@@ -97,25 +97,25 @@
 			
 <tr>
           <td>
-            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.68</a>
+            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.69</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>21/05/2003</strong>
+            <strong>25/05/2003</strong>
           </td>
           <td align="center">
-            <strong>3936</strong>
+            <strong>3964</strong>
           </td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.68</a>
+            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.69</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>21/05/2003</strong>
+            <strong>25/05/2003</strong>
           </td>
           <td align="center">
             <strong>Various</strong>
@@ -125,14 +125,14 @@
 			
 <tr>
           <td>
-            <a href="MAMETestDrivers/MAMETestDrivers.shtml">MAME Test Drivers v0.68</a>
+            <a href="MAMETestDrivers/MAMETestDrivers.shtml">MAME Test Drivers v0.69</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>21/05/2003</strong>
+            <strong>25/05/2003</strong>
           </td>
           <td align="center">
-            <strong>271</strong>
+            <strong>283</strong>
           </td>
         </tr>
 
@@ -160,7 +160,7 @@
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>21/05/2003</strong>
+            <strong>25/05/2003</strong>
           </td>
           <td align="center">
             <strong>389</strong>
@@ -328,7 +328,7 @@
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>21/05/2003</strong>
+            <strong>25/05/2003</strong>
           </td>
           <td align="center">
             <strong>164</strong>
@@ -378,14 +378,13 @@
 			
 <tr>
           <td>
-            <a href="M1/M1.shtml">M1 v0.7.1</a>
-          </td>
+            <a href="M1/M1.shtml">M1 v0.7.2</a> (suitable for v0.7.2a)</td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>21/05/2003</strong>
+            <strong>01/06/2003</strong>
           </td>
           <td align="center">
-            <strong>737</strong>
+            <strong>937</strong>
           </td>
         </tr>
 
@@ -492,25 +491,25 @@
 			
 <tr>
           <td>
-            <a href="MAMEIcons/MAMEIcons.shtml">MAME Icons 20030517</a>
+            <a href="MAMEIcons/MAMEIcons.shtml">MAME Icons 20030523</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>21/05/2003</strong>
+            <strong>25/05/2003</strong>
           </td>
           <td align="center">
-            <strong>3961</strong>
+            <strong>3989</strong>
           </td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="MAMEMarquees/MAMEMarquees.shtml">MAME Marquees 20030515</a>
+            <a href="MAMEMarquees/MAMEMarquees.shtml">MAME Marquees 20030524</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>21/05/2003</strong>
+            <strong>25/05/2003</strong>
           </td>
           <td align="center">
             <strong>1233</strong>
@@ -544,28 +543,28 @@
 			
 <tr>
           <td>
-            <a href="MAMESnaps/MAMESnaps.shtml">MAME Snaps 20030517</a>
+            <a href="MAMESnaps/MAMESnaps.shtml">MAME Snaps 20030523</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>21/05/2003</strong>
+            <strong>25/05/2003</strong>
           </td>
           <td align="center">
-            <strong>2254</strong>
+            <strong>2258</strong>
           </td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="MAMETitles/MAMETitles.shtml">MAME Titles 20030517</a>
+            <a href="MAMETitles/MAMETitles.shtml">MAME Titles 20030528</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>21/05/2003</strong>
+            <strong>01/06/2003</strong>
           </td>
           <td align="center">
-            <strong>2254</strong>
+            <strong>2258</strong>
           </td>
         </tr>
 

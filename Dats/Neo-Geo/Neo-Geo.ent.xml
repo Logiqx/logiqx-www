@@ -5,7 +5,7 @@
 	<version>20030506</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>21/05/2003</date>
+	<date>25/05/2003</date>
 	<games>164</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>25 May 2003</date>
+			<comment>Updated supplements to match MAME v0.69.</comment>
+		</revision>
 		<revision>
 			<date>21 May 2003</date>
 			<comment>Updated supplements to match MAME v0.68.</comment>

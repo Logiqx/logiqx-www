@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>M1 v0.7.1</title>
+    <title>M1 v0.7.2</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="M1.gif" width="35" height="40"></p>
-	<p>737 games of M1 v0.7.1</p>
+	<p>937 games of M1 v0.7.2<br>(suitable for v0.7.2a)</p>
 	
 	
 	
@@ -23,21 +23,35 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="M1%20v0.7.1%20(cm).zip">M1 dat for CMPro</a> (77KB)</p>
+            <p>Download <a href="M1%20v0.7.2%20(cm).zip">M1 dat for CMPro</a> (119KB)</p>
             <p>
-              <a href="M1%20v0.7.1%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="M1%20v0.7.2%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="M1%20v0.7.1%20(rc).zip">M1 dat for ROMCenter</a> (74KB)</p>
+            <p>Download <a href="M1%20v0.7.2%20(rc).zip">M1 dat for ROMCenter</a> (116KB)</p>
             <p>
-              <a href="M1%20v0.7.1%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="M1%20v0.7.2%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>1 June 2003</u>
+        </strong> - 
+			
+			Updated for M1 v0.7.2 and MAME supplements.
+		</p>
+      <p>
+        <strong>
+          <u>25 May 2003</u>
+        </strong> - 
+			
+			Updated supplementary dats for MAME v0.69.
+		</p>
       <p>
         <strong>
           <u>21 May 2003</u>

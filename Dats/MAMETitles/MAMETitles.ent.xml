@@ -2,26 +2,34 @@
 <emulator id="MAMETitles">
 	<img src="MAMETitles.gif" width="150" height="40"/>
 	<name>MAME Titles</name>
-	<version>20030517</version>
+	<version>20030528</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>21/05/2003</date>
-	<games>2254</games>
-	<author href="http://server4.websytz.com/~petr1fied/titles.html">Petr1fied</author>
+	<date>01/06/2003</date>
+	<games>2258</games>
+	<author href="http://www.mametitles.com/">Petr1fied</author>
 	<comment>
-		<p>Maintained by <a href="http://server4.websytz.com/~petr1fied/titles.html">Petr1fied</a>.</p>
+		<p>Maintained by <a href="http://www.mametitles.com/">Petr1fied</a>.</p>
 	</comment>
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Titles%2020030517%20(cm).zip" size="34"/>
+			<file name="MAME%20Titles%2020030528%20(cm).zip" size="34"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Titles%2020030517%20(rc).zip" size="33"/>
+			<file name="MAME%20Titles%2020030528%20(rc).zip" size="33"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>1 June 2003</date>
+			<comment>A small update to the data file for MAME v0.69 by Petr1fied.</comment>
+		</revision>
+		<revision>
+			<date>25 May 2003</date>
+			<comment>Data file for MAME v0.69 by Petr1fied.</comment>
+		</revision>
 		<revision>
 			<date>21 May 2003</date>
 			<comment>Data file for MAME v0.68 by Petr1fied.</comment>

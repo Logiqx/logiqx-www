@@ -2,11 +2,11 @@
 <emulator id="MAMEIcons">
 	<img src="MAMEIcons.gif" width="150" height="40"/>
 	<name>MAME Icons</name>
-	<version>20030517</version>
+	<version>20030523</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>21/05/2003</date>
-	<games>3961</games>
+	<date>25/05/2003</date>
+	<games>3989</games>
 	<author href="http://www.classicgaming.com/mame32qa/">John IV</author>
 	<comment>
 		<p>Maintained by <a href="http://www.classicgaming.com/mame32qa/">John IV</a>.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Icons%2020030517%20(cm).zip" size="42"/>
+			<file name="MAME%20Icons%2020030523%20(cm).zip" size="42"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Icons%2020030517%20(rc).zip" size="42"/>
+			<file name="MAME%20Icons%2020030523%20(rc).zip" size="42"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>25 May 2003</date>
+			<comment>Official data file for MAME v0.69 by John IV.</comment>
+		</revision>
 		<revision>
 			<date>21 May 2003</date>
 			<comment>Official data file for MAME v0.68 by John IV.</comment>

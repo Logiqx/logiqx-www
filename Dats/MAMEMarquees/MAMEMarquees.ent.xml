@@ -2,10 +2,10 @@
 <emulator id="MAMEMarquees">
 	<img src="MAMEMarquees.gif" width="203" height="40"/>
 	<name>MAME Marquees</name>
-	<version>20030515</version>
+	<version>20030524</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>21/05/2003</date>
+	<date>25/05/2003</date>
 	<games>1233</games>
 	<author href="http://emam.mameworld.net/">Eldio</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Marquees%2020030515%20(cm).zip" size="21"/>
+			<file name="MAME%20Marquees%2020030524%20(cm).zip" size="21"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Marquees%2020030515%20(rc).zip" size="21"/>
+			<file name="MAME%20Marquees%2020030524%20(rc).zip" size="21"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>25 May 2003</date>
+			<comment>Uploaded the latest release by Eldio for MAME v0.69.</comment>
+		</revision>
 		<revision>
 			<date>21 May 2003</date>
 			<comment>Uploaded the latest release by Eldio for MAME v0.68.</comment>
