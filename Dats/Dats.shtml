@@ -107,16 +107,6 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="NebulaModel2/NebulaModel2.shtml">Nebula Model 2 v0.9b</a>
-          </td>
-          <td align="center"></td>
-          <td align="center">11/07/2004</td>
-          <td align="center">24</td>
-        </tr>
-
-			
-<tr>
-          <td>
             <a href="RAINE/RAINE.shtml">RAINE v0.41.1</a>
           </td>
           <td align="center"></td>
@@ -128,9 +118,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="SEGAModel2Emulator/SEGAModel2Emulator.shtml">SEGA Model 2 Emulator v0.1</a>
           </td>
-          <td align="center"></td>
-          <td align="center">27/07/2004</td>
-          <td align="center">21</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>25/10/2004</strong>
+          </td>
+          <td align="center">
+            <strong>21</strong>
+          </td>
         </tr>
 
 			
@@ -193,9 +187,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="OlderEmus/OlderEmus.shtml">Older Emus (almost 200 different ones!)</a>
           </td>
-          <td align="center"></td>
-          <td align="center">01/08/2004</td>
-          <td align="center">100s of</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>25/10/2004</strong>
+          </td>
+          <td align="center">
+            <strong>100s of</strong>
+          </td>
         </tr>
 
 		</table>
@@ -348,11 +346,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="MAMESamples/MAMESamples.shtml">MAME Samples 20040922</a>
+            <a href="MAMESamples/MAMESamples.shtml">MAME Samples 20041025</a>
           </td>
-          <td align="center"></td>
-          <td align="center">23/09/2004</td>
-          <td align="center">57</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>25/10/2004</strong>
+          </td>
+          <td align="center">
+            <strong>62</strong>
+          </td>
         </tr>
 
 		</table>

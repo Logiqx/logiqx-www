@@ -6,7 +6,6 @@
 	<!ENTITY MAMEBeta SYSTEM "MAMEBeta/MAMEBeta.ent.xml">
 	<!ENTITY MAMEChanges SYSTEM "MAMEChanges/MAMEChanges.ent.xml">
 	<!ENTITY Nebula SYSTEM "Nebula/Nebula.ent.xml">
-	<!ENTITY NebulaModel2 SYSTEM "NebulaModel2/NebulaModel2.ent.xml">
 	<!ENTITY SEGAModel2Emulator SYSTEM "SEGAModel2Emulator/SEGAModel2Emulator.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
 	<!ENTITY Tickle SYSTEM "Tickle/Tickle.ent.xml">
@@ -35,7 +34,6 @@
 			&MAMEBeta;
 			&MAMEChanges;
 			&Nebula;
-			&NebulaModel2;
 			&RAINE;
 			&SEGAModel2Emulator;
 			&Tickle;

@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY NebulaModel2 SYSTEM "NebulaModel2.ent.xml">
-]>
-
-<emulator_page>
-	&NebulaModel2;
-</emulator_page>
