@@ -27,9 +27,9 @@ dats</a> that I have produced you can generate ROM sets for practically any emul
 MAME ROMs. In fact, the only ROMs you can't generate from MAME sets are where MAME doesn't
 support the game.</p>
 
-<p align="center">Download <a href="rbuild25.zip">ROMBuild v2.5</a> (105KB)</p>
+<p align="center">Download <a href="rbuild26.zip">ROMBuild v2.6</a> (105KB)</p>
 
-<p align="center"><a href="rbuild25.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="rbuild26.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <p align="center">There is also the special version that I created for the
@@ -45,6 +45,10 @@ width="38" height="38"></a></p>
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>28 March 2005</u></strong> - ROMBuild v2.6.</p>
+
+<p align="center"> - Updated altbeast ROMs (Calice and System16) to match MAME v0.95.</p>
 
 <p align="center"><strong><u>28 February 2005</u></strong> - ROMBuild v2.5.</p>
 

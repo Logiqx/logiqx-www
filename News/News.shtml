@@ -40,6 +40,8 @@ e-mailed about.</p>
         <p align="center"> MAME v0.95 and RAINE v0.42.4 have been released.</p>
         <p align="center"> The data file updates are in the <a href="../Dats/Dats.shtml">usual
         place</a>.</p>
+        <p align="center"> I have also updated <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>
+        (v2.6).</p>
     </td>
   </tr>
 </table>
