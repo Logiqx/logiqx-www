@@ -2,10 +2,10 @@
 <emulator id="MAMESamples">
 	<img src="MAMESamples.gif" width="188" height="40"/>
 	<name>MAME Samples</name>
-	<version>20040307</version>
+	<version>20040702</version>
 	<suitability/>
-	<status></status>
-	<date>15/03/2004</date>
+	<status>Updated</status>
+	<date>13/07/2004</date>
 	<games>57</games>
 	<author href="http://www.clrmame.com/">Roman Scherzer</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Samples%2020040307%20(cm).zip" size="27"/>
+			<file name="MAME%20Samples%2020040702%20(cm).zip" size="27"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Samples%2020040307%20(rc).zip" size="11"/>
+			<file name="MAME%20Samples%2020040702%20(rc).zip" size="11"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>13 July 2004</date>
+			<comment>I missed the rename of BOOM.wav to boom.wav! Use version 20040702 to correct it.</comment>
+		</revision>
 		<revision>
 			<date>2 July 2004</date>
 			<comment>No change required for MAME v0.84.</comment>

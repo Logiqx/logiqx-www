@@ -383,11 +383,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="MAMESamples/MAMESamples.shtml">MAME Samples 20040307</a>
+            <a href="MAMESamples/MAMESamples.shtml">MAME Samples 20040702</a>
           </td>
-          <td align="center"></td>
-          <td align="center">15/03/2004</td>
-          <td align="center">57</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>13/07/2004</strong>
+          </td>
+          <td align="center">
+            <strong>57</strong>
+          </td>
         </tr>
 
 		</table>
