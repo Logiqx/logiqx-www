@@ -80,13 +80,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="WinKawaks/WinKawaks.shtml">Kawaks v1.54</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>06/03/2005</strong>
-          </td>
-          <td align="center">
-            <strong>444</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">06/03/2005</td>
+          <td align="center">444</td>
         </tr>
 
 			
@@ -94,37 +90,33 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="M1/M1.shtml">M1 v0.7.5a3</a>
           </td>
+          <td align="center"></td>
+          <td align="center">06/03/2005</td>
+          <td align="center">1076</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.95</a>
+          </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>06/03/2005</strong>
+            <strong>28/03/2005</strong>
           </td>
           <td align="center">
-            <strong>1076</strong>
+            <strong>5578</strong>
           </td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.94</a>
+            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.95</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>06/03/2005</strong>
-          </td>
-          <td align="center">
-            <strong>5538</strong>
-          </td>
-        </tr>
-
-			
-<tr>
-          <td>
-            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.94</a>
-          </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>06/03/2005</strong>
+            <strong>28/03/2005</strong>
           </td>
           <td align="center">
             <strong>Various</strong>
@@ -173,11 +165,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="RAINE/RAINE.shtml">RAINE v0.42.3</a>
+            <a href="RAINE/RAINE.shtml">RAINE v0.42.4</a>
           </td>
-          <td align="center"></td>
-          <td align="center">04/01/2005</td>
-          <td align="center">544</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>28/03/2005</strong>
+          </td>
+          <td align="center">
+            <strong>547</strong>
+          </td>
         </tr>
 
 			<tr>
@@ -277,13 +273,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="CPS-2/CPS-2.shtml">CPS-2 20050306</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>06/03/2005</strong>
-          </td>
-          <td align="center">
-            <strong>180</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">06/03/2005</td>
+          <td align="center">180</td>
         </tr>
 
 			

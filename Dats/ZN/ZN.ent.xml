@@ -24,6 +24,10 @@
 
 	<revisions>
 		<revision>
+			<date>28 March 2005</date>
+			<comment>No change required for MAME v0.95.</comment>
+		</revision>
+		<revision>
 			<date>6 March 2005</date>
 			<comment>No change required for MAME v0.94.</comment>
 		</revision>
