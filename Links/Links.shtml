@@ -16,6 +16,8 @@
 
 <p align="center"><img src="Links.gif" width="64" height="40"></p>
 
+<p align="center"><b>Windows Tools</b></p>
+
 <p align="center">In order to use the data files provided on this site, you will
 need either ClrMamePro or RomCenter.</p>
 
@@ -31,6 +33,21 @@ need either ClrMamePro or RomCenter.</p>
       The most powerful ROM manager available.</td>
     <td valign="top"><p align="center">RomCenter by Eric Bole-Feysot.<br>
     Easier for beginners than ClrMame Pro.</td>
+  </tr>
+</table>
+
+<p align="center"><b>Linux Tools</b></p>
+<p align="center">If you are using Linux, you might like to try one of these
+tools (I have not used them myself though):</p>
+
+<table border="0" width="100%">
+  <tr>
+    <td align="center" valign="bottom" width="50%"><p align="center"><a href="http://advancemame.sourceforge.net/"><img border="0" src="advance-logo.png" width="250" height="46"></a></td>
+    <td align="center" valign="bottom" width="50%"><p align="center"><a href="http://mamory.sourceforge.net/"><img border="0" src="mamory.png" width="233" height="48"></a></td>
+  </tr>
+  <tr>
+    <td valign="top"><p align="center">AdvanceScan by Andrea Mazzoleni.</td>
+    <td valign="top"><p align="center">Mamory by Pierre Mazière.</td>
   </tr>
 </table>
 
