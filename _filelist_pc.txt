@@ -1,4 +1,5 @@
 .	_archive_bit_clear.bat	133
+.	_filelist_compare.sh	1040
 .	_filelist_pc.bat	289
 .	_filelist_pc.txt	0
 .	_filelist_ztnet.sh	261
@@ -27,13 +28,9 @@ cgi	untar_all.sh	146
 cgi/CVS	Entries	678
 cgi/CVS	Repository	27
 cgi/CVS	Root	26
-CVS	Entries	532
+CVS	Entries	636
 CVS	Repository	23
 CVS	Root	26
-Dats	_filelist_compare.sh	1036
-Dats	_filelist_pc.bat	289
-Dats	_filelist_pc.txt	7920
-Dats	_filelist_ztnet.sh	261
 Dats	_rebuild_all.bat	55
 Dats	_rebuild_all.mak	1714
 Dats	Dats.gif	1722
@@ -82,7 +79,7 @@ Dats/CrystalSystemEmulator	CrystalSystemEmulator.xml	216
 Dats/CrystalSystemEmulator/CVS	Entries	396
 Dats/CrystalSystemEmulator/CVS	Repository	50
 Dats/CrystalSystemEmulator/CVS	Root	26
-Dats/CVS	Entries	1249
+Dats/CVS	Entries	1035
 Dats/CVS	Repository	28
 Dats/CVS	Root	26
 Dats/Daphne	Daphne v0.99.6 (cm).zip	5927
@@ -527,7 +524,6 @@ Tools/ZIPIdent/CVS	Entries	149
 Tools/ZIPIdent/CVS	Repository	38
 Tools/ZIPIdent/CVS	Root	26
 upload	_upload.bat	515
-upload	all.tar.gz	45
 upload/CVS	Entries	52
 upload/CVS	Repository	30
 upload/CVS	Root	26
