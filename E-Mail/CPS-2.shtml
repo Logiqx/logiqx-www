@@ -14,7 +14,7 @@
 
 <h2 align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"></h2>
 
-<p align="center">Last updated 22th October 2003</p>
+<p align="center">Last updated 31st January 2004</p>
 
 <h2 align="left">Introduction</h2>
 
@@ -67,7 +67,7 @@ on this list.</p>
     </td>
     <td>
 
-<p>114 of the 160 dumped games have been decrypted.</p>
+<p>114 of the 161 dumped games have been decrypted.</p>
 
 <p>There were two releases for 005 and no release for 055.&nbsp;</p>
 
@@ -124,6 +124,10 @@ on this list.</p>
   <td align="center" bgcolor="#FFFF00" height="19">011</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">armwar  </td>
   <td bgcolor="#FFFF00" height="19">armwar  </td>
+  <td bgcolor="#FFFF00" height="19">Armored Warriors (Euro 941024)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
+<tr><td height="19">        </td>
+  <td bgcolor="#FFFF00" height="19">armwarr1  </td>
   <td bgcolor="#FFFF00" height="19">Armored Warriors (Euro 941011)</td>
   <td align="center" bgcolor="#FFFF00" height="19">061</td></tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">armwara </td>
@@ -434,10 +438,10 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#00FF00" height="19">smbombr1</td>
   <td bgcolor="#00FF00" height="19">Super Muscle Bomber: The International Blowout (Japan 940808)</td>
   <td align="center" bgcolor="#00FF00" height="19">047</td></tr>
-<tr><td bgcolor="#C0C0C0" height="19">rckmanj </td>
-  <td bgcolor="#C0C0C0" height="19">rckmanj </td>
-  <td bgcolor="#C0C0C0" height="19">Rockman: The Power Battle (Japan 950922)</td>
-  <td align="center" bgcolor="#C0C0C0" height="19">&nbsp;</td></tr>
+<tr><td bgcolor="#FF0000" height="19">rckmanj </td>
+  <td bgcolor="#FF0000" height="19">rckmanj </td>
+  <td bgcolor="#FF0000" height="19">Rockman: The Power Battle (Japan 950922)</td>
+  <td align="center" bgcolor="#FF0000" height="19">&nbsp;</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">sfa     </td>
   <td bgcolor="#FFFF00" height="19">sfa     </td>
   <td bgcolor="#FFFF00" height="19">Street Fighter Alpha: Warriors' Dreams (Euro 950727)</td>
@@ -698,11 +702,11 @@ on this list.</p>
 <p align="left">There are several CPS-2 emulators available:</p>
 
 <p align="left"><a href="http://cps2shock.retrogames.com"
-target="cps2shock">CPS2MAME</a> - A CPS-2 only version of MAME for DOS, produced by CPS2Shock. There are other
+target="cps2shock">CPS2MAME</a> - A CPS-2 only version of MAME, produced by CPS2Shock. There are
 variants available for DOS, Windows and Linux.</p>
 
 <p align="left"><a href="http://kawaks.retrogames.com/" target="kawaks">Kawaks</a> -
-My favorite CPS-1 and CPS-2 emulator.</p>
+My favourite CPS-1 and CPS-2 emulator.</p>
 
 <p align="left"><a href="http://nebula.emulatronia.com/"
 target="nebula">Nebula</a> - A good CPS-2 emulator for Windows and can have new games
@@ -712,12 +716,8 @@ added quickly and easily using text drivers.</p>
 Burn Alpha</a>&nbsp; - Another good CPS-2 (and Sega) emulator for Windows that
 is being maintained by the Final Burn Alpha team.</p>
 
-<p align="left"><a href="http://calice.emuunlim.com/" target="calice">Calice</a>
-- The CPS-2 emulator for Windows by David Raingeard. Another emulator where drivers are
-text based but they are more complicated than in Nebula.</p>
-
-<p align="left"><a href="http://ace.emuunlim.com/" target="ace">ACE</a> - The
-newest CPS-2 emu on the block but doesn't yet support all of the games.</p>
+<p align="left">Other emulators also exist but you would be advised to use the
+ones shown above.</p>
 
 <hr>
 
@@ -731,7 +731,7 @@ target="retrogames">CPS-2 board</a> at Retrogames.</p>
 
 <hr>
 
-<h2 align="left">When will my favorate game be decrypted and emulated?</h2>
+<h2 align="left">When will my favourite game be decrypted and emulated?</h2>
 
 <p align="left">I am not a clairvoyant. Go to your local fun fair and ask the fortune
 teller what she can see in her crystal ball. :p</p>

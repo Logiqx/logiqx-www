@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>CPS-2 20031019</title>
+    <title>CPS-2 20040131</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="CPS-2.gif" width="80" height="40"></p>
-	<p>160 games of CPS-2 20031019</p>
+	<p>161 games of CPS-2 20040131</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="CPS-2%2020031019%20(cm).zip">CPS-2 dat for CMPro</a> (31KB)</p>
+            <p>Download <a href="CPS-2%2020040131%20(cm).zip">CPS-2 dat for CMPro</a> (30KB)</p>
             <p>
-              <a href="CPS-2%2020031019%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="CPS-2%2020040131%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="CPS-2%2020031019%20(rc).zip">CPS-2 dat for ROMCenter</a> (38KB)</p>
+            <p>Download <a href="CPS-2%2020040131%20(rc).zip">CPS-2 dat for ROMCenter</a> (37KB)</p>
             <p>
-              <a href="CPS-2%2020031019%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="CPS-2%2020040131%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>31 January 2004</u>
+        </strong> - 
+			
+			Renamed armwar-&gt;armwarr1 and added new armwar.<br>Changed sound ROM (rcm.58) in rockmanj.<br>Added SIMs to progearj.<br>Now matches MAME v0.79.
+		</p>
       <p>
         <strong>
           <u>13 November 2003</u>
