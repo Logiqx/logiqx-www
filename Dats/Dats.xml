@@ -26,20 +26,10 @@
 ]>
 <contents_page>
 	<section>
-		<img src="OlderEmus.gif" width="140" height="40"/>
-		<type>Emulator</type>
-		<comment>
-			<p>Emulators that are more than six months old.</p>
-		</comment>
-		<emulators>
-			&OlderEmus;
-		</emulators>
-	</section>
-	<section>
 		<img src="RecentEmus.gif" width="158" height="40"/>
 		<type>Emulator</type>
 		<comment>
-			<p>Emulators that are up to six months old or likely to receive further updates.<br/>These data files correspond to the <a href="http://caesar.logiqx.com/html/emus/recent.shtml" target="_blank">recent emulators</a> listed at CAESAR.</p>
+			<p>Emulators that are up to a year old, still active or likely to receive further updates.<br/>These data files correspond to the <a href="http://caesar.logiqx.com/html/emus/recent.shtml" target="_blank">recent emulators</a> listed at CAESAR.</p>
 		</comment>
 		<emulators>
 			&CrystalSystemEmulator;
@@ -57,6 +47,16 @@
 			&SEGAModel2Emulator;
 			&Tickle;
 			&Zinc;
+		</emulators>
+	</section>
+	<section>
+		<img src="OlderEmus.gif" width="140" height="40"/>
+		<type>Emulator</type>
+		<comment>
+			<p>Emulators that are no longer regarded as 'recent'.</p>
+		</comment>
+		<emulators>
+			&OlderEmus;
 		</emulators>
 	</section>
 	<section>

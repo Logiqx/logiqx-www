@@ -27,47 +27,11 @@
         </script>
 and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they work correctly for both managers and are suitable for CAESAR. I will take no credit for your dats but I would like to check them over before they are released (rather than submit changes after they are public).</p>
 	<hr>
-      <p><img src="OlderEmus.gif" width="140" height="40"></p>
-		
-		
-		
-			<p>Emulators that are more than six months old.</p>
-		
-		<table border="0" width="100%" bgcolor="#ECF5FF">
-        <tr>
-          <td>
-            <strong>Emulator</strong>
-          </td>
-          <td align="center" width="110"></td>
-          <td align="center" width="110">
-            <strong>Dat Updated</strong>
-          </td>
-          <td align="center" width="110">
-            <strong>Games</strong>
-          </td>
-        </tr>
-			
-<tr>
-          <td>
-            <a href="OlderEmus/OlderEmus.shtml">Older Emus 20050116</a>
-          </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>16/01/2005</strong>
-          </td>
-          <td align="center">
-            <strong>Thousands of</strong>
-          </td>
-        </tr>
-
-		</table>
-	
-	<hr>
       <p><img src="RecentEmus.gif" width="158" height="40"></p>
 		
 		
 		
-			<p>Emulators that are up to six months old or likely to receive further updates.<br>These data files correspond to the <a href="http://caesar.logiqx.com/html/emus/recent.shtml" target="_blank">recent emulators</a> listed at CAESAR.</p>
+			<p>Emulators that are up to a year old, still active or likely to receive further updates.<br>These data files correspond to the <a href="http://caesar.logiqx.com/html/emus/recent.shtml" target="_blank">recent emulators</a> listed at CAESAR.</p>
 		
 		<table border="0" width="100%" bgcolor="#ECF5FF">
         <tr>
@@ -86,13 +50,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 <tr>
           <td>
             <a href="CrystalSystemEmulator/CrystalSystemEmulator.shtml">Crystal System Emulator v1.1</a> (suitable for v1.2)</td>
-          <td align="center"><img src="../Resources/New.gif" width="53" height="14"></td>
-          <td align="center">
-            <strong>31/12/2004</strong>
-          </td>
-          <td align="center">
-            <strong>2</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">31/12/2004</td>
+          <td align="center">2</td>
         </tr>
 
 			
@@ -108,11 +68,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="FinalBurnAlpha/FinalBurnAlpha.shtml">FBA v0.2.94.98</a>
+            <a href="FinalBurnAlpha/FinalBurnAlpha.shtml">FBA v0.2.95.22</a>
           </td>
-          <td align="center"></td>
-          <td align="center">24/11/2004</td>
-          <td align="center">494</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>22/01/2005</strong>
+          </td>
+          <td align="center">
+            <strong>534</strong>
+          </td>
         </tr>
 
 			
@@ -134,13 +98,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="M1/M1.shtml">M1 v0.7.5a3</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>04/01/2005</strong>
-          </td>
-          <td align="center">
-            <strong>1076</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">04/01/2005</td>
+          <td align="center">1076</td>
         </tr>
 
 			
@@ -148,13 +108,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.90</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>04/01/2005</strong>
-          </td>
-          <td align="center">
-            <strong>5393</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">04/01/2005</td>
+          <td align="center">5393</td>
         </tr>
 
 			
@@ -162,13 +118,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.90</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>04/01/2005</strong>
-          </td>
-          <td align="center">
-            <strong>Various</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">04/01/2005</td>
+          <td align="center">Various</td>
         </tr>
 
 			
@@ -186,20 +138,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="NebulaJukebox/NebulaJukebox.shtml">Nebula Jukebox v2.9</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>04/01/2005</strong>
-          </td>
-          <td align="center">
-            <strong>249</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">04/01/2005</td>
+          <td align="center">249</td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="Pacifi3D/Pacifi3D.shtml">Pacifi3D v0.1</a>
-          </td>
+            <a href="Pacifi3D/Pacifi3D.shtml">Pacifi3D v0.1</a> (suitable for v0.2)</td>
           <td align="center"><img src="../Resources/New.gif" width="53" height="14"></td>
           <td align="center">
             <strong>16/01/2005</strong>
@@ -214,13 +161,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="RadikalBikersEmulator/RadikalBikersEmulator.shtml">Radikal Bikers Emulator v0.9</a>
           </td>
-          <td align="center"><img src="../Resources/New.gif" width="53" height="14"></td>
-          <td align="center">
-            <strong>31/12/2004</strong>
-          </td>
-          <td align="center">
-            <strong>1</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">31/12/2004</td>
+          <td align="center">1</td>
         </tr>
 
 			
@@ -228,13 +171,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="RAINE/RAINE.shtml">RAINE v0.42.3</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>04/01/2005</strong>
-          </td>
-          <td align="center">
-            <strong>544</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">04/01/2005</td>
+          <td align="center">544</td>
         </tr>
 
 			<tr>
@@ -268,6 +207,42 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 		</table>
 	
 	<hr>
+      <p><img src="OlderEmus.gif" width="140" height="40"></p>
+		
+		
+		
+			<p>Emulators that are no longer regarded as 'recent'.</p>
+		
+		<table border="0" width="100%" bgcolor="#ECF5FF">
+        <tr>
+          <td>
+            <strong>Emulator</strong>
+          </td>
+          <td align="center" width="110"></td>
+          <td align="center" width="110">
+            <strong>Dat Updated</strong>
+          </td>
+          <td align="center" width="110">
+            <strong>Games</strong>
+          </td>
+        </tr>
+			
+<tr>
+          <td>
+            <a href="OlderEmus/OlderEmus.shtml">Older Emus 20050116</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>16/01/2005</strong>
+          </td>
+          <td align="center">
+            <strong>Thousands of</strong>
+          </td>
+        </tr>
+
+		</table>
+	
+	<hr>
       <p><img src="Systems.gif" width="104" height="40"></p>
 		
 		
@@ -292,13 +267,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="CPS-1/CPS-1.shtml">CPS-1 20050104</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>04/01/2005</strong>
-          </td>
-          <td align="center">
-            <strong>116</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">04/01/2005</td>
+          <td align="center">116</td>
         </tr>
 
 			
@@ -365,13 +336,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="MAMEArtwork/MAMEArtwork.shtml">MAME Artwork 20050104</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>04/01/2005</strong>
-          </td>
-          <td align="center">
-            <strong>167</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">04/01/2005</td>
+          <td align="center">167</td>
         </tr>
 
 			
