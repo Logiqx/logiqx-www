@@ -37,7 +37,7 @@ e-mailed about.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-        <p align="center">I've released an updated data file for Zinc v1.0.1.<br>
+        <p align="center">I've released an updated data file for ZiNc v1.0.1.<br>
         A few of the ROMs turned out to use slightly different names to MAME.
         The data file should be 100% correct now.</p>
         <p align="center">Get it from the <a href="../Dats/Dats.shtml">data
@@ -53,7 +53,7 @@ e-mailed about.</p>
         <p align="center">Released all of the required updates for MAME v0.88.</p>
         <p align="center">Get them from the <a href="../Dats/Dats.shtml">data
         files</a> page.</p>
-        <p align="center">I have also generated a data file for Zinc v1.0.1 but
+        <p align="center">I have also generated a data file for ZiNc v1.0.1 but
         I won't have a chance to try the emulator out for a few days.<br>
         I've made it the data file available for download but please remember
         that it has not been tested with the emulator yet.</p>

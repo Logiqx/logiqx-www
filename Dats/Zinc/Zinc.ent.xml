@@ -1,6 +1,6 @@
 <emulator id="Zinc">
 	<img src="Zinc.gif" width="53" height="40"/>
-	<name>Zinc</name>
+	<name>ZiNc</name>
 	<version>v1.0.1</version>
 	<suitability></suitability>
 	<status>Updated</status>
@@ -13,29 +13,29 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Zinc%20v1.0.1%20(cm).zip" size="20"/>
+			<file name="Zinc%20v1.0.1%20(cm).zip" size="18"/>
 		</dat>
 
 		<dat>
 			&ROMCenter;
-			<file name="Zinc%20v1.0.1%20(rc).zip" size="9"/>
+			<file name="Zinc%20v1.0.1%20(rc).zip" size="8"/>
 		</dat>
 	</dats>
 
 	<revisions>
 		<revision>
 			<date>26 October 2004</date>
-			<comment>Released an updated data file for Zinc v1.0.1 (now tested).</comment>
+			<comment>Released an updated data file for ZiNc v1.0.1 (now tested).</comment>
 		</revision>
 
 		<revision>
 			<date>25 October 2004</date>
-			<comment>Released data file for Zinc v1.0.1 (n.b. untested).</comment>
+			<comment>Released data file for ZiNc v1.0.1 (n.b. untested).</comment>
 		</revision>
 
 		<revision>
 			<date>21 September 2003</date>
-			<comment>Released data file for Zinc v0.9 within the Older Emus archive.</comment>
+			<comment>Released data file for ZiNc v0.9 within the Older Emus archive.</comment>
 		</revision>
 
 		<revision>
@@ -45,12 +45,12 @@
 
 		<revision>
 			<date>9 April 2002</date>
-			<comment>Uploaded data files for Zinc v0.8 (renamed sound ROM in psyforce).</comment>
+			<comment>Uploaded data files for ZiNc v0.8 (renamed sound ROM in psyforce).</comment>
 		</revision>
 
 		<revision>
 			<date>24 March 2002</date>
-			<comment>Uploaded data files for Zinc v0.5.</comment>
+			<comment>Uploaded data files for ZiNc v0.5.</comment>
 		</revision>
 	</revisions>
 </emulator>
