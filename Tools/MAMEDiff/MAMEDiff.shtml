@@ -24,14 +24,22 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff214.zip">MAMEDiff v2.14</a> (140KB)</p>
+<p align="center">Download <a href="mdiff215.zip">MAMEDiff v2.15</a> (140KB)</p>
 
-<p align="center"><a href="mdiff214.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff215.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>22 February 2005</strong>
+</u>- MAMEDiff v2.15<br>
+<br>
+            - Uses DatLib v2.1.<br>
+            - Now outputs a listing of game name comparisons (mamediff.out).<br>
+            - Can identify listinfo files even if they only contain resources.<br>
+            - Changed the error messages that are given when files are missing.</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>15 February 2005</strong>
 </u>- MAMEDiff v2.14<br>

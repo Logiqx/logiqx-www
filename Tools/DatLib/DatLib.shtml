@@ -25,15 +25,28 @@ by tools such as DatUtil, MAMEDiff, ROMBuild, ROMInfo and ZipIdent.</p>
 <p align="center">This package is a source only release and is only required if
 you want to compile any of my tools.</p>
 
-<p align="center"><font color="#000000">Download </font><a href="datlib20.zip">DatLib
-v2.0</a><font color="#000000">        (75KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="datlib21.zip">DatLib
+v2.1</a><font color="#000000">        (75KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="datlib20.zip"><img
+<p align="center"><font color="#000000"><a href="datlib21.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>22 February 2005</strong>
+</u>- DatLib v2.1<br>
+<br>
+            - Made selections more flexible (can now use commas as a delimiter).<br>
+            - Added warnings for invalid game/sourcefile selections (-g and -G).<br>
+            - Added warning messages for duplicated games (i.e. same game name).<br>
+            - Can identify listinfo files even if they only contain resources.<br>
+            - The 'remove clones' option will retain the original dat format.<br>
+            - Fixed a crash caused by empty selection files (the '@' syntax).<br>
+            - Saving a RomCenter datafile will now report an error if the '¬'<br>
+              symbol is used in the game or ROM details (i.e. the dat is bad).<br>
+            - Changed the error messages that are given when files are missing.</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>15 February 2005</strong>
 </u>- DatLib v2.0<br>

@@ -94,10 +94,12 @@ versions of WinZip support this compression format so you don't need any additio
 <ol>
   <li>Create a directory called <em>D:\MINGW</em> </li>
   <li>Unzip the binutils, gcc, mingw-runtime and w32api archives into <em>D:\MINGW </em>(using WinZip or similar). Ensure that
-    you unzip the files in order that they are listed in this guide. This
+    you unzip the files in order that I described here (not necessarily the same
+    as the order in the above table). This
     is important because some files exist in more than one archive (notably GCC
-    and binutils) and you should use the latest
-    version (i.e. say 'yes' to overwrite prompts).</li>
+    and binutils) so you should use the latest
+    version based on the date that the module was released. Say 'yes' to overwrite
+    prompts, but only if you are replacing an older file with a newer one.</li>
   <li>Run <i>mingw32-make-3.80.0-3.exe</i> (which is an installer) and choose <em>D:\MINGW</em>
     as the location.</li>
   <li>When the steps above have been completed, configure your path variable. The procedure 
@@ -165,9 +167,9 @@ tools</a> in order to compile MAME and RAINE32:</p>
 <p>To install these commands: 
 
 <ol>
-  <li>Open <i>gnu-utils.zip</i> using WinZip and extract everything into a 
+  <li>Open <i>gnu-tools.zip</i> using WinZip and extract everything into a 
   directory that is in your path (e.g. <em>C:\WINDOWS\COMMAND</em> or <em>D:\MINGW\BIN</em>).
-    Note that the tools within the <i>gnu-utils.zip</i> are inside a 'bin'
+    Note that the tools within the <i>gnu-tools.zip</i> are inside a 'bin'
     directory so be sure that they end up in the directory that you intend them
     to and that you do not create an extra 'bin' directory.
   </li>

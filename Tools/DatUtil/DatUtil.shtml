@@ -42,15 +42,32 @@ cleanse dats. It supports a variety of formats...<br>
 <br>
   - Title List (for listing game titles - used by CPS-2 readme and RAINE docs)</p>
 
-<p align="center"><font color="#000000">Download </font><a href="dutil212.zip">DatUtil
-v2.12</a><font color="#000000">                     (118KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="dutil213.zip">DatUtil
+v2.13</a><font color="#000000">                      (119KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="dutil212.zip"><img
+<p align="center"><font color="#000000"><a href="dutil213.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>22 February 2005</strong>
+</u>- DatUtil v2.13<br>
+<br>
+            - Uses DatLib v2.1.<br>
+            - Added a test option (-t) where nothing is actually saved.<br>
+            - Log file is now automatically deleted if it is empty.<br>
+            - Made selections more flexible (can now use commas as a delimiter).<br>
+            - Added warnings for invalid game/sourcefile selections (-g and -G).<br>
+            - Added warning messages for duplicated games (i.e. same game name).<br>
+            - Can identify listinfo files even if they only contain resources.<br>
+            - The 'remove clones' option will retain the original dat format.<br>
+            - Fixed a crash caused by empty selection files (the '@' syntax).<br>
+            - Saving a RomCenter datafile will now report an error if the '¬'<br>
+              symbol is used in the game or ROM details (i.e. the dat is bad).<br>
+            - Changed the error messages that are given when files are missing.<br>
+            - Changed the command line help a little bit (explanation of -!).</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>15 February 2005</strong>
 </u>- DatUtil v2.12<br>

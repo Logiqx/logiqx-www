@@ -33,7 +33,23 @@ e-mailed about.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
-<p align="center"><strong><u>15 January 2005</u></strong></p>
+<p align="center"><strong><u>22 February 2005</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">It's been a whole week since I lasted updated my tools
+        so it's about time for more releases!</p>
+        <p align="center"> <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
+        v2.13</a>, <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v2.15</a> and <a href="../Tools/DatLib/DatLib.shtml">DatLib
+        v2.1</a></p>
+        <p align="center">I have also updated the documentation for
+        <a href="../Tools/ZIPIdent/ZIPIdent.shtml">ZIPIdent v2.3</a>  because it
+        mentioned MAME listinfo (rather than listxml).</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>15 February 2005</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
