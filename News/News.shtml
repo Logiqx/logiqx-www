@@ -38,6 +38,21 @@ etc.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>18 July 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have added some new features to <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff
+        v2.5</a> and <a href="../Tools/DatLib/DatLib.shtml">DatLib v1.6</a>.</p>
+        <p align="center">Sample and disk support has been added to the standard
+        MAMEDiff comparisons (i.e. when MAMEDiff is called without any options
+        or when using the -v option).&nbsp;</p>
+        <p align="center">I have also added support for non-separated BIOS ROMs
+        when using the -d1/-d2/-d3 modes. Switch it on using the -b option.</p>
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>17 July 2004</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>

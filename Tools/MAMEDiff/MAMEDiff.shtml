@@ -24,14 +24,20 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff24.zip">MAMEDiff v2.4</a> (83KB)</p>
+<p align="center">Download <a href="mdiff25.zip">MAMEDiff v2.5</a> (86KB)</p>
 
-<p align="center"><a href="mdiff24.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff25.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>18 July 2004</u></strong> - MAMEDiff v2.5</p>
+
+<p align="center">            - Added -b option (non-separated BIOS) for use with the -dX modes.<br>
+	    - Added sample and disk support to the standard comparison modes.<br>
+              i.e. Running MAMEDiff without options or in verbose mode (-v).</p>
 
 <p align="center"><strong><u>11 July 2004</u></strong> - MAMEDiff v2.4</p>
 
