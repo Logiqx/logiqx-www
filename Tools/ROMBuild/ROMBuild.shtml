@@ -27,14 +27,18 @@ dats</a> that I have produced you can generate ROM sets for practically any emul
 MAME ROMs. In fact, the only ROMs you can't generate from MAME sets are where MAME doesn't
 support the game.</p>
 
-<p align="center">Download <a href="rbuild21.zip">ROMBuild v2.1</a> (104KB)</p>
+<p align="center">Download <a href="rbuild22.zip">ROMBuild v2.2</a> (104KB)</p>
 
-<p align="center"><a href="rbuild21.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="rbuild22.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>26 October 2004</u></strong> - ROMBuild v2.2.</p>
+
+<p align="center"> - Added Dynasty Wars support for various emus following MAME v0.87.</p>
 
 <p align="center"><strong><u>10 September 2004</u></strong> - ROMBuild v2.1.</p>
 
