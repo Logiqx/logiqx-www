@@ -58,7 +58,7 @@ drive and location that you wish (so long as you think about what you are doing!
 
 <h1>2. Installing the Compiler</h1>
 
-<p><a href="http://sourceforge.net/projects/mingw">MinGW</a> comes as an executable that
+<p><a href="http://sourceforge.net/projects/mingw" target="_blank">MinGW</a> comes as an executable that
 does the entire installation:</p>
 
 <table border="1" width="100%">
@@ -68,7 +68,9 @@ does the entire installation:</p>
     <td bgcolor="#CCFFCC">Description</td>
   </tr>
   <tr>
-    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/MinGW-2.0.0-3.exe">MinGW-2.0.0-3.exe</a></td>
+    <td bgcolor="#CCFFCC"><a href="http://sourceforge.net/project/showfiles.php?group_id=2435&amp;package_id=82721">MinGW-2.0.0-3.exe</a>
+      <p>Sorry, it is too big to provide here!&nbsp;&nbsp;</p>
+    </td>
     <td bgcolor="#CCFFCC">MinGW 2.0.0
       <p>You can get the latest version of MinGW (currently 3.1.0-1) from the
       SourceForge link above. Select 'Current' from under 'Latest File
@@ -144,8 +146,7 @@ above).</p>
 
 <p><u>Supporting commands</u></p>
 
-<p>You will also need a few <a
-href="ftp://ftp.franken.de/pub/win32/develop/gnuwin32/mingw32/porters/Mikey/">
+<p>You will also need a few <a href="ftp://ftp.franken.de/pub/win32/develop/gnuwin32/mingw32/porters/Mikey/" target="_blank">
 supporting commands</a> in order to compile MAME and RAINE32:</p>
 
 <table border="1" width="100%">
@@ -224,7 +225,7 @@ files in the 'lib' directory). You should answer 'yes' to this question.</p>
 
 <h1>5. Installing Allegro (only needed for RAINE32)</h1>
 
-<p><a href="http://www.talula.demon.co.uk/allegro/">Allegro</a> (A Low Level Game Routines
+<p><a href="http://www.talula.demon.co.uk/allegro/" target="_blank">Allegro</a> (A Low Level Game Routines
 Library) is used by RAINE32 for graphics handling, sound and input handling. RAINE32
 uses a statically linked version of the library as this avoids a
 problem that was encountered with the dynamic version (DLL version). You need the following
@@ -343,7 +344,7 @@ UNIX_TOOLS=1 as described earlier!</p>
 
 <h1>7. Installing NASM</h1>
 
-<p><a href="http://sourceforge.net/projects/nasm/">NASM</a> (Netwide Assembler) is used by
+<p><a href="http://sourceforge.net/projects/nasm/" target="_blank">NASM</a> (Netwide Assembler) is used by
 MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
 
 <table border="1" width="100%">
@@ -379,7 +380,7 @@ MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
 
 <h1>8. Installing zlib</h1>
 
-<p><a href="http://www.gzip.org/zlib/">zlib</a> (ZIP library) is used by MAME and RAINE32 for loading zipped ROMs. You will require the following archive:</p>
+<p><a href="http://www.gzip.org/zlib/" target="_blank">zlib</a> (ZIP library) is used by MAME and RAINE32 for loading zipped ROMs. You will require the following archive:</p>
 
 <table border="1" width="100%">
 <TBODY>
@@ -479,7 +480,7 @@ used by RAINE32 for sound. You will need the following archive(s):</p>
 
 <h1>10. Installing UPX (only needed for RAINE32)</h1>
 
-<p><a href="http://upx.sourceforge.net/">UPX</a> (Ultimate Packer for
+<p><a href="http://upx.sourceforge.net/" target="_blank">UPX</a> (Ultimate Packer for
 eXecutables) is used to reduce the size of the RAINE32 executable. You will
 need the following archive:</p>
 

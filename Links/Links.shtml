@@ -16,58 +16,23 @@
 
 <p align="center"><img src="Links.gif" width="64" height="40"></p>
 
-<p align="center"><font color="#000000">Here are some sites that should be of interest to
-you...</font></p>
+<p align="center">In order to use the data files provided on this site, you will
+need either ClrMamePro or RomCenter.</p>
 
 <table border="0" width="100%">
   <tr>
-    <td align="center" valign="bottom" width="50%"><p align="center"><a href="http://www.clrmame.com/" target="cmpro"><img src="CMPro.gif" border="0"
+    <td align="center" valign="bottom" width="50%"><p align="center"><a href="http://www.clrmame.com/" target="_blank"><img src="CMPro.gif" border="0"
     width="120" height="78"></a></td>
-    <td align="center" valign="bottom" width="50%"><p align="center"><a
-    href="http://www.romcenter.com/" target="romcenter"><img src="RomCenter.gif" border="0"
+    <td align="center" valign="bottom" width="50%"><p align="center"><a href="http://www.romcenter.com/" target="_blank"><img src="RomCenter.gif" border="0"
     width="241" height="49"></a></td>
   </tr>
   <tr>
     <td valign="top"><p align="center">ClrMamePro by Roman Scherzer.<br>
-    Currently the most powerful ROM manager around.</td>
+      The most powerful ROM manager available.</td>
     <td valign="top"><p align="center">RomCenter by Eric Bole-Feysot.<br>
-    Easier for beginners to use than ClrMame Pro.</td>
+    Easier for beginners than ClrMame Pro.</td>
   </tr>
 </table>
 
-<p><br>
-</p>
-
-<table border="0" width="100%">
-  <tr>
-    <td valign="bottom"><p align="center"><a href="http://www.mame.dk/" target="mamedk"><img
-    src="MAMEDK.gif" border="0" width="88" height="31"></a></td>
-  </tr>
-  <tr>
-    <td valign="top"><p align="center">The definitive MAME ROM site!</td>
-  </tr>
-</table>
-
-<p><br>
-</p>
-
-<table border="0" width="100%">
-  <tr>
-    <td align="center" valign="bottom" width="50%"><a href="http://www.arcadeheaven.com/"
-    target="arcadeheaven"><img src="GuruChoc.gif" border="0" width="200" height="91"></a></td>
-    <td align="center" valign="bottom"><a href="http://www.sys2064.com/" target="sys2064"><img
-    src="SYS2064.gif" border="0" width="240" height="75"></a></td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">Guru Choc's Arcade ROM Heaven.<br>
-    Gives an insight into the next MAME release.</td>
-    <td align="center" valign="top" width="50%">The home of Till's MAME fixfiles.<br>
-    Should be your first stop after a new MAME release.</td>
-  </tr>
-</table>
-
-<hr>
-
-<p align="center"><font color="#000000">Last Page Update: 1st May 2000</font></p>
 </body>
 </html>

@@ -41,7 +41,7 @@ basically three options:
 <p>This is by far the simplest option and you simply need to visit the RAINE project page
 at SourceForge:</p>
 
-<p><a href="http://sourceforge.net/projects/raine/">http://sourceforge.net/projects/raine/</a></p>
+<p><a href="http://sourceforge.net/projects/raine/" target="_blank">http://sourceforge.net/projects/raine/</a></p>
 
 <p>The version that you download from here should not cause you any problems if your DJGPP
 environment is set up correctly.</p>
@@ -62,7 +62,7 @@ compile these versions.</p>
 
 <p>Anyway, now that you understand what you are downloading you can use the following URL:</p>
 
-<p><a href="http://cvs.sourceforge.net/cvstarballs/raine-cvsroot.tar.gz">http://cvs.sourceforge.net/cvstarballs/raine-cvsroot.tar.gz</a>
+<p><a href="http://cvs.sourceforge.net/cvstarballs/raine-cvsroot.tar.bz2">http://cvs.sourceforge.net/cvstarballs/raine-cvsroot.tar.bz2</a>
 </p>
 
 <p>You will need a copy of CVS (Concurrent Versions System) in order to use the contents

@@ -45,7 +45,7 @@ drive and location that you wish (so long as you think about what you are doing!
 
 <h1>2. Installing the Compiler</h1>
 
-<p><a href="ftp://ftp.simtel.net/pub/simtelnet/gnu/djgpp/v2/">DJGPP</a> comes as separate
+<p><a href="ftp://ftp.simtel.net/pub/simtelnet/gnu/djgpp/v2/" target="_blank">DJGPP</a> comes as separate
 downloadable <a href="ftp://ftp.simtel.net/pub/simtelnet/gnu/djgpp/v2gnu/">components</a>
 and you will need the following to compile DMAME and RAINE:</p>
 
@@ -169,7 +169,7 @@ You can choose one of two options:</p>
 
 <h1>4. Installing Allegro</h1>
 
-<p><a href="http://www.talula.demon.co.uk/allegro/">Allegro</a> (A Low Level Game Routines
+<p><a href="http://www.talula.demon.co.uk/allegro/" target="_blank">Allegro</a> (A Low Level Game Routines
 Library) is used by DMAME and RAINE for graphics handling and in the case of
 RAINE can be used for sound as well. Allegro is the one component of your DJGPP environment where DMAME and
 RAINE sometimes require different/incompatible versions to be installed (they 
@@ -283,7 +283,7 @@ avoid compiling it, in which case see below).</p>
 
 <h1>6. Installing NASM</h1>
 
-<p><a href="http://sourceforge.net/projects/nasm/">NASM</a>  (Netwide Assembler)
+<p><a href="http://sourceforge.net/projects/nasm/" target="_blank">NASM</a> (Netwide Assembler)
 is used by both DMAME and RAINE as their x86 assembler. You require the
 following archive:</p>
 
@@ -317,7 +317,7 @@ following archive:</p>
 
 <h1>7. Installing zlib</h1>
 
-<p><a href="http://www.gzip.org/zlib/">zlib</a> (ZIP library) is used by DMAME and RAINE
+<p><a href="http://www.gzip.org/zlib/" target="_blank">zlib</a> (ZIP library) is used by DMAME and RAINE
 for loading zipped ROMs. You will require the following archive(s):</p>
 
 <table border="1" width="100%">
@@ -428,7 +428,7 @@ DMAME and RAINE for sound. You will need the following archive(s):</p>
 
 <h1>9. Installing UPX (only needed for RAINE)</h1>
 
-<p><a href="http://upx.sourceforge.net/">UPX</a> (Ultimate Packer for
+<p><a href="http://upx.sourceforge.net/" target="_blank">UPX</a> (Ultimate Packer for
 eXecutables) is used to reduce the size of the  RAINE executable. You will need
 the following archive:</p>
 

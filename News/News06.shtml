@@ -154,8 +154,8 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center"><font size="3">Uploaded <a href="../MAMEMD5/MAMEMD5.shtml">MAMEMD5
-      v1.2</a>:</font>
+      <p align="center"><font size="3">Uploaded MAMEMD5
+      v1.2:</font>
       <p align="center">No functional changes (there's no need to re-check your
       ROMs).<br>
       Added a summary showing the number recognised/unrecognised ROMs.<br>
@@ -174,8 +174,8 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       How spooky is this... the day after I released MAMEMD5 to detect CRC
       conflicts, one appears in an emulator (Kingdom Grand Prix in
       this release of RAINE). It feels like I've entered Twilight Zone. ;)</font>
-      <p align="center"><font size="3">Uploaded <a href="../MAMEMD5/MAMEMD5.shtml">MAMEMD5
-      v1.1</a> which fixes a stupid bug in the original!&nbsp;&nbsp;</font>
+      <p align="center"><font size="3">Uploaded MAMEMD5
+      v1.1 which fixes a stupid bug in the original!&nbsp;&nbsp;</font>
     </td>
   </tr>
 </table>
@@ -188,7 +188,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       v1.30</a>.</font>
       <p align="center"><font size="3">Uploaded my little experiment to hunt for
       CRC conflicts within MAME ROM sets.<br>
-      Download <a href="../MAMEMD5/MAMEMD5.shtml">MAMEMD5</a> and take part, the
+      Download MAMEMD5 and take part, the
       more people the better!&nbsp;&nbsp;</font>
     </td>
   </tr>
