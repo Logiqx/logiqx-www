@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Introduce team login:"
+AuthUserFile /sites/logiqx.com/www/logiqx.pass
+require valid-user
