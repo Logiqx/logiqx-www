@@ -4,8 +4,8 @@
 	<name>Nebula Model 2</name>
 	<version>v0.9b</version>
 	<suitability/>
-	<status></status>
-	<date>16/11/2003</date>
+	<status>Updated</status>
+	<date>20/06/2004</date>
 	<games>24</games>
 	<author href="http://www.logiqx.com">rosewood</author>
 	<comment>
@@ -18,10 +18,14 @@
 		</dat>
 		<dat>
                         &ROMCenter;
-                        <file name="Nebula%20Model%202%20v0.9b%20(rc).zip" size="7"/>
+                        <file name="Nebula%20Model%202%20v0.9b%20(rc).zip" size="6"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>20 June 2004</date>
+			<comment>Just added year and manufacturer for stccb.</comment>
+		</revision>
 		<revision>
 			<date>16 November 2003</date>
 			<comment>Updated for v0.9b (stccb added).</comment>
