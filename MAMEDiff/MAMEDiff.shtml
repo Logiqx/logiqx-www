@@ -24,14 +24,19 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff116.zip">MAMEDiff v1.16</a> (39KB)</p>
+<p align="center">Download <a href="mdiff117.zip">MAMEDiff v1.17</a> (41KB)</p>
 
-<p align="center"><a href="mdiff116.zip"><img src="../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff117.zip"><img src="../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>19 May 2003</u></strong> - MAMEDiff v1.17</p>
+
+<p align="center">Fixed so that the missing konamigx resource in MAME v0.67 doesn't cause a crash!<br>
+                   Added support for the new 'nodump' syntax of MAME v0.68.</p>
 
 <p align="center"><strong><u>7 April 2003</u></strong> - MAMEDiff v1.16</p>
 
