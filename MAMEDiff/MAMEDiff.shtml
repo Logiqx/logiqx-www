@@ -24,14 +24,24 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff123.zip">MAMEDiff v1.23</a> (42KB)</p>
+<p align="center">Download <a href="mdiff124.zip">MAMEDiff v1.24</a> (41KB)</p>
 
-<p align="center"><a href="mdiff123.zip"><img src="../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff124.zip"><img src="../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>24 January 2004</u></strong> - MAMEDiff v1.24</p>
+
+<p align="center">Increased the maximum number of games from 5000 to 6000.<br>
+                   Added support for the 0x syntax used in some data files.<br>
+                   Fixed a small glitch in -S/-N/-M (used by 'MAME Changes') where
+some resources containing changes may not get output.<br>
+                   Note: This only used to happen when the resource was not required by any of the games in the output data file.<br>
+                   I finally got around to making a change so that new MAME resources don't need to be added to MAMEDiff ever again.<br>
+                   I guess I was being lazy and never expected so many of them!</p>
 
 <p align="center"><strong><u>20 January 2004</u></strong> - MAMEDiff v1.23</p>
 
