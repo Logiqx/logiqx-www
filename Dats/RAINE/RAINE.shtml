@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>RAINE v0.37.3</title>
+    <title>RAINE v0.38.1</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="RAINE.gif" width="82" height="40"></p>
-	<p>431 games of RAINE v0.37.3</p>
+	<p>448 games of RAINE v0.38.1</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="RAINE%20v0.37.3%20(cm).zip">RAINE dat for CMPro</a> (91KB)</p>
+            <p>Download <a href="RAINE%20v0.38.1%20(cm).zip">RAINE dat for CMPro</a> (84KB)</p>
             <p>
-              <a href="RAINE%20v0.37.3%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="RAINE%20v0.38.1%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="RAINE%20v0.37.3%20(rc).zip">RAINE dat for ROMCenter</a> (93KB)</p>
+            <p>Download <a href="RAINE%20v0.38.1%20(rc).zip">RAINE dat for ROMCenter</a> (88KB)</p>
             <p>
-              <a href="RAINE%20v0.37.3%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="RAINE%20v0.38.1%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>25 August 2003</u>
+        </strong> - 
+			
+			Updated to match RAINE v0.38.1 (some ROM changes and game additions).
+		</p>
       <p>
         <strong>
           <u>5 July 2003</u>
