@@ -21,6 +21,7 @@ EMULATORS= \
 	QPlayer/QPlayer.shtml \
 	Nebula/Nebula.shtml \
 	NebulaModel2/NebulaModel2.shtml \
+	SEGAModel2Emulator/SEGAModel2Emulator.shtml \
 	CPS-1/CPS-1.shtml \
 	CPS-2/CPS-2.shtml \
 	Neo-Geo/Neo-Geo.shtml \
