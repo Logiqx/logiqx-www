@@ -2,10 +2,10 @@
 <emulator id="MAMEPanels">
 	<img src="MAMEPanels.gif" width="168" height="40"/>
 	<name>MAME Panels</name>
-	<version>20030611</version>
+	<version>20030811</version>
 	<suitability/>
-	<status/>
-	<date>09/07/2003</date>
+	<status>Updated</status>
+	<date>07/09/2003</date>
 	<games>936</games>
 	<author href="http://www.clrmame.com/">Roman Scherzer</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Panels%2020030611%20(cm).zip" size="27"/>
+			<file name="MAME%20Panels%2020030811%20(cm).zip" size="27"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Panels%2020030611%20(rc).zip" size="14"/>
+			<file name="MAME%20Panels%2020030811%20(rc).zip" size="12"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>7 September 2003</date>
+			<comment>Uploaded the latest release by Roman (20030811).</comment>
+		</revision>
 		<revision>
 			<date>7 July 2003</date>
 			<comment>Uploaded the latest release by Roman (20030611).</comment>

@@ -2,10 +2,10 @@
 <emulator id="MAMEArtwork">
 	<img src="MAMEArtwork.gif" width="176" height="40"/>
 	<name>MAME Artwork</name>
-	<version>20030811</version>
+	<version>20030904</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>26/08/2003</date>
+	<date>07/09/2003</date>
 	<games>127</games>
 	<author href="http://www.clrmame.com/">R.Scherzer</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Artwork%2020030811%20(cm).zip" size="23"/>
+			<file name="MAME%20Artwork%2020030904%20(cm).zip" size="21"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Artwork%2020030811%20(rc).zip" size="9"/>
+			<file name="MAME%20Artwork%2020030904%20(rc).zip" size="9"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>7 September 2003</date>
+			<comment>Latest version by Roman (for MAME v0.73).</comment>
+		</revision>
 		<revision>
 			<date>26 August 2003</date>
 			<comment>Added SHA1 checksums to CMPro datfile.</comment>

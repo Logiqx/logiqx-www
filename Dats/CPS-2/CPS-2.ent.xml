@@ -5,7 +5,7 @@
 	<version>20030825</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>25/08/2003</date>
+	<date>07/09/2003</date>
 	<games>156</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,7 +14,7 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020030825%20(cm).zip" size="29"/>
+			<file name="CPS-2%2020030825%20(cm).zip" size="30"/>
 		</dat>
 		<dat>
 			&ROMCenter;
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>7 September 2003</date>
+			<comment>Updated supplementary dats for MAME v0.73.</comment>
+		</revision>
 		<revision>
 			<date>25 August 2003</date>
 			<comment>Renamed ddsom->ddsomr1, progear->progearj, xmvsfj->xmvsfjr1, xmvsfjr1->xmvsfjr2.<br/>Added csclub, ddsom, mshvsfb, sfz2b, sfz2br1, xmvsfj.<br/>Added XORs for 19xxjr1, ddsom, csclub.</comment>
