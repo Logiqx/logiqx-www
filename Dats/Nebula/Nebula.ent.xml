@@ -2,11 +2,11 @@
 <emulator id="Nebula">
 	<img src="Nebula.gif" width="85" height="40"/>
 	<name>Nebula</name>
-	<version>v2.22a</version>
+	<version>v2.23</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>19/02/2003</date>
-	<games>385</games>
+	<date>02/03/2003</date>
+	<games>386</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Nebula emulates Capcom CPS-1, CPS-2 and Neo-Geo games.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
                         &CMPro;
-                        <file name="Nebula%20v2.22a%20(cm).zip" size="72"/>
+                        <file name="Nebula%20v2.23%20(cm).zip" size="67"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-                        <file name="Nebula%20v2.22a%20(rc).zip" size="84"/>
+                        <file name="Nebula%20v2.23%20(rc).zip" size="80"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>2 March 2003</date>
+			<comment>Updated for Nebula v2.23 (added 1944 and renamed armware to armwar).</comment>
+		</revision>
 		<revision>
 			<date>19 February 2003</date>
 			<comment>Updated supplements for MAME v0.65. Also renamed armwar to armware (until ElSemi names it properly again).</comment>

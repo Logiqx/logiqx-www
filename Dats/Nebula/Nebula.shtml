@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Nebula v2.22a</title>
+    <title>Nebula v2.23</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="Nebula.gif" width="85" height="40"></p>
-	<p>385 games of Nebula v2.22a</p>
+	<p>386 games of Nebula v2.23</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="Nebula%20v2.22a%20(cm).zip">Nebula dat for CMPro</a> (72KB)</p>
+            <p>Download <a href="Nebula%20v2.23%20(cm).zip">Nebula dat for CMPro</a> (67KB)</p>
             <p>
-              <a href="Nebula%20v2.22a%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="Nebula%20v2.23%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="Nebula%20v2.22a%20(rc).zip">Nebula dat for ROMCenter</a> (84KB)</p>
+            <p>Download <a href="Nebula%20v2.23%20(rc).zip">Nebula dat for ROMCenter</a> (80KB)</p>
             <p>
-              <a href="Nebula%20v2.22a%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="Nebula%20v2.23%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>2 March 2003</u>
+        </strong> - 
+			
+			Updated for Nebula v2.23 (added 1944 and renamed armware to armwar).
+		</p>
       <p>
         <strong>
           <u>19 February 2003</u>
