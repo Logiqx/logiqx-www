@@ -1,5 +1,6 @@
 
-	<html>
+	
+<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Daphne v0.99.6</title>
@@ -16,7 +17,6 @@
 	
 	
 	
-
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
@@ -25,7 +25,6 @@
               <a href="Daphne%20v0.99.6%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
-
 		<td width="50%" align="center">
             <p>Download <a href="Daphne%20v0.99.6%20(rc).zip">Daphne dat for ROMCenter</a> (3KB)</p>
             <p>
@@ -34,7 +33,6 @@
           </td>
 	</tr>
       </table>
-
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
       <p>

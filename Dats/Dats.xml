@@ -7,7 +7,6 @@
 	<!ENTITY FinalBurn SYSTEM "FinalBurn/FinalBurn.ent.xml">
 	<!ENTITY MAMEBeta SYSTEM "MAMEBeta/MAMEBeta.ent.xml">
 	<!ENTITY MAMEChanges SYSTEM "MAMEChanges/MAMEChanges.ent.xml">
-	<!ENTITY MAMETestDrivers SYSTEM "MAMETestDrivers/MAMETestDrivers.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
 	<!ENTITY OlderEmus SYSTEM "OlderEmus/OlderEmus.ent.xml">
 	<!ENTITY CPS2 SYSTEM "CPS-2/CPS-2.ent.xml">
@@ -48,7 +47,6 @@
 			&FinalBurn;
 			&MAMEBeta;
 			&MAMEChanges;
-			&MAMETestDrivers;
 			&Nebula;
 			&NebulaModel2;
 			&RAINE;

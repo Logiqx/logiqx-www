@@ -1,5 +1,6 @@
 
-	<html>
+	
+<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Older Emus (175 different ones!)</title>
@@ -16,10 +17,10 @@
 	
 	
 	
-
-	<p>Click here to view <a href="ZIPContents.shtml">ZIP Contents</a>
-      </p>
-
+	
+		<p>Click here to view <a href="ZIPContents.shtml">ZIP Contents</a>
+		</p>
+	
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
@@ -28,7 +29,6 @@
               <a href="Older%20Emus%2020030921%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
-
 		<td width="50%" align="center">
             <p>Download <a href="Older%20Emus%2020030921%20(rc).zip">Older Emus dat for ROMCenter</a> (410KB)</p>
             <p>
@@ -37,7 +37,6 @@
           </td>
 	</tr>
       </table>
-
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
       <p>

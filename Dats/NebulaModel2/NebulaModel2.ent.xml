@@ -1,56 +1,54 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <emulator id="NebulaModel2">
-        <img src="NebulaModel2.gif" width="185" height="40"/>
-        <name>Nebula Model 2</name>
-        <version>v0.9</version>
-        <suitability></suitability>
-        <status></status>
-	<date>05/07/2003</date>
-        <games>23</games>
-        <author href="http://www.clrmame.com">Roman Scherzer</author>
-
-        <comment><p>Nebula Model 2 emulates Sega Model 2B/2C CRX games.</p></comment>
-
-        <dats>
-                <dat>
+	<img src="NebulaModel2.gif" width="185" height="40"/>
+	<name>Nebula Model 2</name>
+	<version>v0.9a</version>
+	<suitability/>
+	<status>Updated</status>
+	<date>14/10/2003</date>
+	<games>23</games>
+	<author href="http://www.logiqx.com">rosewood</author>
+	<comment>
+		<p>Nebula Model 2 emulates Sega Model 2B/2C CRX games.</p>
+	</comment>
+	<dats>
+		<dat>
                         &CMPro;
-                        <file name="Nebula%20Model%202%20v0.9%20(cm).zip" size="6"/>
-                </dat>
-
-                <dat>
+                        <file name="Nebula%20Model%202%20v0.9a%20(cm).zip" size="6"/>
+		</dat>
+		<dat>
                         &ROMCenter;
-                        <file name="Nebula%20Model%202%20v0.9%20(rc).zip" size="7"/>
-                </dat>
-        </dats>
-
-        <revisions>
-                <revision>
-                        <date>5 July 2003</date>
-                        <comment>Updated for v0.9 (hotd added).</comment>
-                </revision>
-
-                <revision>
-                        <date>7 April 2003</date>
-                        <comment>Updated for v0.8 (hotd removed).</comment>
-                </revision>
-
-                <revision>
-                        <date>22 March 2003</date>
-                        <comment>Updated for v0.7 (hotd, topskatr, lastbexp added and a few renames applied).</comment>
-                </revision>
-
-                <revision>
-                        <date>6 March 2003</date>
-                        <comment>Updated for release 4 (11 games added and many ROM renames).</comment>
-                </revision>
-
-                <revision>
-                        <date>1 December 2002</date>
-                        <comment>Updated for release 2 (3 games added and a few ROM renames).</comment>
-                </revision>
-
-                <revision>
-                        <date>27 October 2002</date>
-                        <comment>Uploaded dats for Nebula Model 2.</comment>
-                </revision>
-        </revisions>
+                        <file name="Nebula%20Model%202%20v0.9a%20(rc).zip" size="7"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>14 October 2003</date>
+			<comment>Updated for v0.9a (topskatr sound ROMs added).</comment>
+		</revision>
+		<revision>
+			<date>5 July 2003</date>
+			<comment>Updated for v0.9 (hotd added).</comment>
+		</revision>
+		<revision>
+			<date>7 April 2003</date>
+			<comment>Updated for v0.8 (hotd removed).</comment>
+		</revision>
+		<revision>
+			<date>22 March 2003</date>
+			<comment>Updated for v0.7 (hotd, topskatr, lastbexp added and a few renames applied).</comment>
+		</revision>
+		<revision>
+			<date>6 March 2003</date>
+			<comment>Updated for release 4 (11 games added and many ROM renames).</comment>
+		</revision>
+		<revision>
+			<date>1 December 2002</date>
+			<comment>Updated for release 2 (3 games added and a few ROM renames).</comment>
+		</revision>
+		<revision>
+			<date>27 October 2002</date>
+			<comment>Uploaded dats for Nebula Model 2.</comment>
+		</revision>
+	</revisions>
 </emulator>

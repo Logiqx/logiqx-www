@@ -5,7 +5,7 @@
 	<version>v1.47b</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>19/09/2003</date>
+	<date>14/10/2003</date>
 	<games>396</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="WinKawaks%20v1.47b%20(cm).zip" size="72"/>
+			<file name="WinKawaks%20v1.47b%20(cm).zip" size="78"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="WinKawaks%20v1.47b%20(rc).zip" size="84"/>
+			<file name="WinKawaks%20v1.47b%20(rc).zip" size="89"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>14 October 2003</date>
+			<comment>Updated supplements for MAME v0.75.</comment>
+		</revision>
 		<revision>
 			<date>19 September 2003</date>
 			<comment>Updated for WinKawaks v1.47b.</comment>

@@ -4,7 +4,7 @@
 	<name>MAME Cabinets</name>
 	<version>20030914</version>
 	<suitability/>
-	<status>Updated</status>
+	<status></status>
 	<date>18/09/2003</date>
 	<games>965</games>
 	<author href="http://www.classicgaming.com/mame32qa/">John IV</author>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>14 October 2003</date>
+			<comment>No change required for MAME v0.75.</comment>
+		</revision>
 		<revision>
 			<date>18 September 2003</date>
 			<comment>Official data file for MAME v0.74 by John IV.</comment>

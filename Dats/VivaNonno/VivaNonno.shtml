@@ -1,5 +1,6 @@
 
-	<html>
+	
+<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Viva Nonno v22.0.3</title>
@@ -16,9 +17,9 @@
 	
 	
 	
-
-	<p>Emulates Namco System 22 based games</p>
-
+	
+		<p>Emulates Namco System 22 based games</p>
+	
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
@@ -27,7 +28,6 @@
               <a href="Viva%20Nonno%20v22.0.3%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
-
 		<td width="50%" align="center">
             <p>Download <a href="Viva%20Nonno%20v22.0.3%20(rc).zip">Viva Nonno dat for ROMCenter</a> (2KB)</p>
             <p>
@@ -36,7 +36,6 @@
           </td>
 	</tr>
       </table>
-
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
       <p>
