@@ -32,6 +32,13 @@ support the game.</p>
 <p align="center"><a href="rbuild24.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
+<p align="center">There is also the special version that I created for the
+Neo-Geo changes around the time of MAME v0.80. The changes affected many
+emulators but this special release of my tool can build the new type of ROMs
+from the old ones. In total 23 games were affected, iirc:</p>
+
+<p align="center"><a href="rbmame80.zip">ROMBuild [MAME v0.80 special] (52KB)</a></p>
+
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
