@@ -4,6 +4,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <title>Common CPS-2 Questions</title>
+
+<script type="text/javascript">
+<!--
+  function write_email(name, domain, descr)
+  {
+    descr = descr == void 0 ? name + "@" + domain : descr;
+    document.write('<a href=\"mailto:' + name + '@' + domain + '\">');
+    document.write(descr + '</a>'); 
+  }
+//-->
+</script>
+
 </head>
 
 <body bgcolor="#FFFFFF">
@@ -19,7 +31,13 @@ alt="Logiqx.gif (5970 bytes)"></p>
 
 <p align="center">Okay, here's my e-mail address then:</p>
 
-<p align="center"><a href="mailto:logiqx[at]logiqx.com">logiqx[at]logiqx.com</a></p>
+<p align="center">
+  <script type="text/javascript">
+  <!--
+    write_email("logiqx", "logiqx.com"); 
+  //-->
+  </script> 
+</p>
 
 <p align="center">Any CPS-2 or Neo-Geo related e-mail will most likely be
 ignored so I wouldn't waste your time

@@ -2,26 +2,30 @@
 <emulator id="CPS-2">
 	<img src="CPS-2.gif" width="80" height="40"/>
 	<name>CPS-2</name>
-	<version>20030129</version>
+	<version>20030228</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>19/02/2003</date>
+	<date>28/02/2003</date>
 	<games>138</games>
-	<author href="http://www.logiqx.com">rosewood - Team Logiqx</author>
+	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Not all of these games are emulated yet (see my <a href="../../E-Mail/CPS-2.shtml">CPS-2</a> page for more information)...</p>
 	</comment>
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020030129%20(cm).zip" size="31"/>
+			<file name="CPS-2%2020030228%20(cm).zip" size="29"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020030129%20(rc).zip" size="37"/>
+			<file name="CPS-2%2020030228%20(rc).zip" size="35"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>28 February 2003</date>
+			<comment>Added XORs for 1944.</comment>
+		</revision>
 		<revision>
 			<date>19 February 2003</date>
 			<comment>Updated supplementary dats for MAME v0.65.</comment>
