@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAME Marquees 20030210</title>
+    <title>MAME Marquees 20030406</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="MAMEMarquees.gif" width="203" height="40"></p>
-	<p>1233 games of MAME Marquees 20030210</p>
+	<p>1233 games of MAME Marquees 20030406</p>
 	
 	
 	
@@ -18,26 +18,33 @@
 	
 	
 	
-		<p>Maintained by <a href="http://www.eldio.co.uk/">Eldio</a>.</p>
+		<p>Maintained by <a href="http://emam.mameworld.net/">Eldio</a>.</p>
 	
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Marquees%2020030210%20(cm).zip">MAME Marquees dat for CMPro</a> (47KB)</p>
+            <p>Download <a href="MAME%20Marquees%2020030406%20(cm).zip">MAME Marquees dat for CMPro</a> (21KB)</p>
             <p>
-              <a href="MAME%20Marquees%2020030210%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Marquees%2020030406%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Marquees%2020030210%20(rc).zip">MAME Marquees dat for ROMCenter</a> (21KB)</p>
+            <p>Download <a href="MAME%20Marquees%2020030406%20(rc).zip">MAME Marquees dat for ROMCenter</a> (21KB)</p>
             <p>
-              <a href="MAME%20Marquees%2020030210%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Marquees%2020030406%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>7 April 2003</u>
+        </strong> - 
+			
+			Uploaded the latest release by Eldio for MAME v0.67.
+		</p>
       <p>
         <strong>
           <u>14 February 2003</u>

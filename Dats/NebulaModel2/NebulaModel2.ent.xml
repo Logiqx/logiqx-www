@@ -1,11 +1,11 @@
 <emulator id="NebulaModel2">
         <img src="NebulaModel2.gif" width="185" height="40"/>
         <name>Nebula Model 2</name>
-        <version>v0.7</version>
+        <version>v0.8</version>
         <suitability></suitability>
         <status>Updated</status>
-        <date>22/03/2003</date>
-        <games>23</games>
+	<date>07/04/2003</date>
+        <games>22</games>
         <author href="http://www.logiqx.com">Logiqx</author>
 
         <comment><p>Nebula Model 2 emulates Sega Model 2B/2C CRX games.</p></comment>
@@ -13,16 +13,21 @@
         <dats>
                 <dat>
                         &CMPro;
-                        <file name="Nebula%20Model%202%20v0.7%20(cm).zip" size="6"/>
+                        <file name="Nebula%20Model%202%20v0.8%20(cm).zip" size="6"/>
                 </dat>
 
                 <dat>
                         &ROMCenter;
-                        <file name="Nebula%20Model%202%20v0.7%20(rc).zip" size="7"/>
+                        <file name="Nebula%20Model%202%20v0.8%20(rc).zip" size="6"/>
                 </dat>
         </dats>
 
         <revisions>
+                <revision>
+                        <date>7 April 2003</date>
+                        <comment>Updated for v0.8 (hotd removed).</comment>
+                </revision>
+
                 <revision>
                         <date>22 March 2003</date>
                         <comment>Updated for v0.7 (hotd, topskatr, lastbexp added and a few renames applied).</comment>

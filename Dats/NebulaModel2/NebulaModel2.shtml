@@ -2,18 +2,18 @@
 	<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Nebula Model 2 v0.7</title>
+    <title>Nebula Model 2 v0.8</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
         <p><img src="NebulaModel2.gif" width="185" height="40"></p>
-        <p>23 games of Nebula Model 2 v0.7</p>
+        <p>22 games of Nebula Model 2 v0.8</p>
         
         
         
-        
+	
         
         
 
@@ -22,16 +22,16 @@
         <table border="0" width="100%">
         <tr>
                 <td width="50%" align="center">
-            <p>Download <a href="Nebula%20Model%202%20v0.7%20(cm).zip">Nebula Model 2 dat for CMPro</a> (6KB)</p>
+            <p>Download <a href="Nebula%20Model%202%20v0.8%20(cm).zip">Nebula Model 2 dat for CMPro</a> (6KB)</p>
             <p>
-              <a href="Nebula%20Model%202%20v0.7%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="Nebula%20Model%202%20v0.8%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 
                 <td width="50%" align="center">
-            <p>Download <a href="Nebula%20Model%202%20v0.7%20(rc).zip">Nebula Model 2 dat for ROMCenter</a> (7KB)</p>
+            <p>Download <a href="Nebula%20Model%202%20v0.8%20(rc).zip">Nebula Model 2 dat for ROMCenter</a> (6KB)</p>
             <p>
-              <a href="Nebula%20Model%202%20v0.7%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="Nebula%20Model%202%20v0.8%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
         </tr>
@@ -39,6 +39,13 @@
 
         <hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>7 April 2003</u>
+        </strong> - 
+                        
+                        Updated for v0.8 (hotd removed).
+                </p>
       <p>
         <strong>
           <u>22 March 2003</u>
