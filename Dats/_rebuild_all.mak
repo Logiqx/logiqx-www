@@ -15,7 +15,6 @@ EMULATORS= \
 	FinalBurnAlpha/FinalBurnAlpha.shtml \
 	MAMEBeta/MAMEBeta.shtml \
 	MAMEChanges/MAMEChanges.shtml \
-	MAMETestDrivers/MAMETestDrivers.shtml \
 	RAINE/RAINE.shtml \
 	OlderEmus/OlderEmus.shtml \
 	Neo-Geo/Neo-Geo.shtml \

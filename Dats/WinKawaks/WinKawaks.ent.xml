@@ -4,7 +4,7 @@
 	<name>WinKawaks</name>
 	<version>v1.47b</version>
 	<suitability/>
-	<status>Updated</status>
+	<status/>
 	<date>14/10/2003</date>
 	<games>396</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>19 October 2003</date>
+			<comment>No update required, supplements are fine for MAME v0.76.</comment>
+		</revision>
 		<revision>
 			<date>14 October 2003</date>
 			<comment>Updated supplements for MAME v0.75.</comment>
