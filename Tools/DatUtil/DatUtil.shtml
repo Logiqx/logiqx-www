@@ -37,15 +37,21 @@ cleanse dats. It supports a variety of formats...<br>
 <br>
   - Title List (for listing game titles - used by CPS-2 readme and RAINE docs)</p>
 
-<p align="center"><font color="#000000">Download </font><a href="dutil22.zip">DatUtil
-v2.2</a><font color="#000000">               (70KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="dutil23.zip">DatUtil
+v2.3</a><font color="#000000">               (70KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="dutil22.zip"><img
+<p align="center"><font color="#000000"><a href="dutil23.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>17 July 2004</strong>
+</u>- DatUtil v2.3<br>
+<br>
+- Uses DatLib v1.5<br>
+	    - Added the -j option for Nebula Jukebox (Z80 and Samples only).</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>11 July 2004</strong>
 </u>- DatUtil v2.2<br>

@@ -38,6 +38,23 @@ etc.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>17 July 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have added Nebula Jukebox support to DatUtil and
+        DatLib:</p>
+        <p align="center"><a href="../Tools/DatUtil/DatUtil.shtml">DatUtil v2.3</a>
+        and <a href="../Tools/DatLib/DatLib.shtml">DatLib v1.5</a><p align="center">I have
+        therefore created a genuine <a href="../Dats/Dats.shtml">Nebula Jukebox</a>
+        data file that matches the emulator and also includes MAME supplements.<p align="center">In
+        addition to this, I have slightly updated the <a href="../Dats/Dats.shtml">Nebula</a>
+        data file and also written up to date <a href="../FAQs/DatFAQs.shtml">FAQs</a>
+        about the creation of data files for Nebula and Nebula Jukebox.
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>13 July 2004</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>

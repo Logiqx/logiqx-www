@@ -5,7 +5,7 @@
 	<version>v2.24</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>11/07/2004</date>
+	<date>17/07/2004</date>
 	<games>422</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,7 +14,7 @@
 	<dats>
 		<dat>
                         &CMPro;
-			<file name="Nebula%20v2.24%20(cm).zip" size="198"/>
+			<file name="Nebula%20v2.24%20(cm).zip" size="197"/>
 		</dat>
 		<dat>
                         &ROMCenter;
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>17 July 2004</date>
+			<comment>Minor update because I have come up with a better way for checking the correctness - again!</comment>
+		</revision>
 		<revision>
 			<date>11 July 2004</date>
 			<comment>Added SHA1 information.</comment>
