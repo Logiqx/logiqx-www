@@ -7,10 +7,12 @@ ROMCENTER_INF=RomCenter.inf
 FILELIST=Files.lst
 
 EMULATORS= \
+	CrystalSystemEmulator/CrystalSystemEmulator.shtml \
 	Daphne/Daphne.shtml \
 	FinalBurnAlpha/FinalBurnAlpha.shtml \
 	MAMEBeta/MAMEBeta.shtml \
 	MAMEChanges/MAMEChanges.shtml \
+	RadikalBikersEmulator/RadikalBikersEmulator.shtml \
 	RAINE/RAINE.shtml \
 	Tickle/Tickle.shtml \
 	WinKawaks/WinKawaks.shtml \

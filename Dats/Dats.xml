@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <!DOCTYPE contents_page SYSTEM "dtd/dats.dtd" [
+	<!ENTITY CrystalSystemEmulator SYSTEM "CrystalSystemEmulator/CrystalSystemEmulator.ent.xml">
 	<!ENTITY Daphne SYSTEM "Daphne/Daphne.ent.xml">
 	<!ENTITY FinalBurnAlpha SYSTEM "FinalBurnAlpha/FinalBurnAlpha.ent.xml">
 	<!ENTITY MAMEBeta SYSTEM "MAMEBeta/MAMEBeta.ent.xml">
@@ -8,6 +9,7 @@
 	<!ENTITY Nebula SYSTEM "Nebula/Nebula.ent.xml">
 	<!ENTITY SEGAModel2Emulator SYSTEM "SEGAModel2Emulator/SEGAModel2Emulator.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
+	<!ENTITY RadikalBikersEmulator SYSTEM "RadikalBikersEmulator/RadikalBikersEmulator.ent.xml">
 	<!ENTITY Tickle SYSTEM "Tickle/Tickle.ent.xml">
 	<!ENTITY WinKawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
 	<!ENTITY Zinc SYSTEM "Zinc/Zinc.ent.xml">
@@ -23,25 +25,6 @@
 ]>
 <contents_page>
 	<section>
-		<img src="RecentEmus.gif" width="158" height="40"/>
-		<type>Emulator</type>
-		<comment>
-			<p>Emulators that are up to six months old or likely to receive further updates.</p>
-		</comment>
-		<emulators>
-			&Daphne;
-			&FinalBurnAlpha;
-			&MAMEBeta;
-			&MAMEChanges;
-			&Nebula;
-			&RAINE;
-			&SEGAModel2Emulator;
-			&Tickle;
-			&WinKawaks;
-			&Zinc;
-		</emulators>
-	</section>
-	<section>
 		<img src="OlderEmus.gif" width="140" height="40"/>
 		<type>Emulator</type>
 		<comment>
@@ -49,6 +32,29 @@
 		</comment>
 		<emulators>
 			&OlderEmus;
+		</emulators>
+	</section>
+	<section>
+		<img src="RecentEmus.gif" width="158" height="40"/>
+		<type>Emulator</type>
+		<comment>
+			<p>Emulators that are up to six months old or likely to receive further updates.</p>
+		</comment>
+		<emulators>
+			&CrystalSystemEmulator;
+			&Daphne;
+			&FinalBurnAlpha;
+			&M1;
+			&MAMEBeta;
+			&MAMEChanges;
+			&Nebula;
+			&NebulaJukebox;
+			&RadikalBikersEmulator;
+			&RAINE;
+			&SEGAModel2Emulator;
+			&Tickle;
+			&WinKawaks;
+			&Zinc;
 		</emulators>
 	</section>
 	<section>
@@ -62,17 +68,6 @@
 			&CPS2;
 			&NeoGeo;
 			&ZN;
-		</emulators>
-	</section>
-	<section>
-		<img src="SoundEmus.gif" width="151" height="40"/>
-		<type>Emulator</type>
-		<comment>
-			<p>Emulators that can play sound from the games but not the games themselves.</p>
-		</comment>
-		<emulators>
-			&M1;
-			&NebulaJukebox;
 		</emulators>
 	</section>
 	<section>
