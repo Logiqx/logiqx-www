@@ -2,11 +2,11 @@
 <emulator id="MAMEFlyers">
 	<img src="MAMEFlyers.gif" width="159" height="40"/>
 	<name>MAME Flyers</name>
-	<version>20030310</version>
+	<version>20030701</version>
 	<suitability/>
-	<status/>
-	<date>10/03/2003</date>
-	<games>2022</games>
+	<status>Updated</status>
+	<date>05/07/2003</date>
+	<games>2098</games>
 	<author href="http://www.arcadeflyers.com">Gerard Maathuis (Xray1)</author>
 	<comment>
 		<p>Maintained by <a href="http://www.arcadeflyers.com">Gerard Maathuis (Xray1)</a>.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Flyers%2020030310%20(cm).zip" size="30"/>
+			<file name="MAME%20Flyers%2020030701%20(cm).zip" size="85"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Flyers%2020030310%20(rc).zip" size="30"/>
+			<file name="MAME%20Flyers%2020030701%20(rc).zip" size="31"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 July 2003</date>
+			<comment>Uploaded Xray1's data files for MAME v0.70u5.</comment>
+		</revision>
 		<revision>
 			<date>10 March 2003</date>
 			<comment>Roman updated for MAME v0.66.</comment>

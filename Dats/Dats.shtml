@@ -165,11 +165,15 @@
 
 			<tr>
           <td>
-            <a href="NebulaModel2/NebulaModel2.shtml">Nebula Model 2 v0.8</a>
+            <a href="NebulaModel2/NebulaModel2.shtml">Nebula Model 2 v0.9</a>
           </td>
-          <td align="center"></td>
-          <td align="center">07/04/2003</td>
-          <td align="center">22</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>05/07/2003</strong>
+          </td>
+          <td align="center">
+            <strong>23</strong>
+          </td>
         </tr>
 
 			
@@ -481,11 +485,15 @@
 			
 <tr>
           <td>
-            <a href="MAMEFlyers/MAMEFlyers.shtml">MAME Flyers 20030310</a>
+            <a href="MAMEFlyers/MAMEFlyers.shtml">MAME Flyers 20030701</a>
           </td>
-          <td align="center"></td>
-          <td align="center">10/03/2003</td>
-          <td align="center">2022</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>05/07/2003</strong>
+          </td>
+          <td align="center">
+            <strong>2098</strong>
+          </td>
         </tr>
 
 			
@@ -505,11 +513,11 @@
 			
 <tr>
           <td>
-            <a href="MAMEMarquees/MAMEMarquees.shtml">MAME Marquees 20030617</a>
+            <a href="MAMEMarquees/MAMEMarquees.shtml">MAME Marquees 20030704</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>19/06/2003</strong>
+            <strong>05/07/2003</strong>
           </td>
           <td align="center">
             <strong>1259</strong>
@@ -553,14 +561,14 @@
 			
 <tr>
           <td>
-            <a href="MAMETitles/MAMETitles.shtml">MAME Titles 20030613</a>
+            <a href="MAMETitles/MAMETitles.shtml">MAME Titles 20030705</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>15/06/2003</strong>
+            <strong>05/07/2003</strong>
           </td>
           <td align="center">
-            <strong>2266</strong>
+            <strong>2280</strong>
           </td>
         </tr>
 
