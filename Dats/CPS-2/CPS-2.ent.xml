@@ -4,8 +4,8 @@
 	<name>CPS-2</name>
 	<version>20030413</version>
 	<suitability/>
-	<status></status>
-	<date>13/04/2003</date>
+	<status>Updated</status>
+	<date>21/05/2003</date>
 	<games>139</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020030413%20(cm).zip" size="31"/>
+			<file name="CPS-2%2020030413%20(cm).zip" size="29"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020030413%20(rc).zip" size="37"/>
+			<file name="CPS-2%2020030413%20(rc).zip" size="35"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>21 May 2003</date>
+			<comment>Updated supplementary dats for MAME v0.68.</comment>
+		</revision>
 		<revision>
 			<date>13 April 2003</date>
 			<comment>Renamed ssf2->ssf2u, added new ssf2 (with XORs). Added XORs for mpangj. A few SIMM changes.</comment>

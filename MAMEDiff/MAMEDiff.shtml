@@ -24,14 +24,23 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff117.zip">MAMEDiff v1.17</a> (41KB)</p>
+<p align="center">Download <a href="mdiff119.zip">MAMEDiff v1.19</a> (41KB)</p>
 
-<p align="center"><a href="mdiff117.zip"><img src="../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff119.zip"><img src="../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>20 May 2003</u></strong> - MAMEDiff v1.19</p>
+
+<p align="center">Found a small glitch in 'fix merging' while testing the non-public v1.18.</p>
+
+<p align="center">MAMEDiff v1.18 (non-public)</p>
+
+<p align="center">  Fixed memory addressing bug (triggered by the many apparent [but not really] merge related changes in MAME v0.58).<br>
+                   Included 'fix merging' logic in the listinfo parser because MAME listinfo no longer includes merge details.</p>
 
 <p align="center"><strong><u>19 May 2003</u></strong> - MAMEDiff v1.17</p>
 

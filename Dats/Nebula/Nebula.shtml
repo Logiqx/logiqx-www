@@ -23,13 +23,13 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="Nebula%20v2.23b%20(cm).zip">Nebula dat for CMPro</a> (72KB)</p>
+            <p>Download <a href="Nebula%20v2.23b%20(cm).zip">Nebula dat for CMPro</a> (74KB)</p>
             <p>
               <a href="Nebula%20v2.23b%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="Nebula%20v2.23b%20(rc).zip">Nebula dat for ROMCenter</a> (84KB)</p>
+            <p>Download <a href="Nebula%20v2.23b%20(rc).zip">Nebula dat for ROMCenter</a> (86KB)</p>
             <p>
               <a href="Nebula%20v2.23b%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -38,6 +38,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>21 May 2003</u>
+        </strong> - 
+			
+			Updated supplements for MAME v0.68.
+		</p>
       <p>
         <strong>
           <u>24 April 2003</u>

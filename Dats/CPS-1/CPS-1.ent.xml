@@ -5,7 +5,7 @@
 	<version>20030506</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>06/05/2003</date>
+	<date>21/05/2003</date>
 	<games>112</games>
 	<author href="http://www.logiqx.com">rosewood - Team Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-1%2020030506%20(cm).zip" size="27"/>
+			<file name="CPS-1%2020030506%20(cm).zip" size="25"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-1%2020030506%20(rc).zip" size="30"/>
+			<file name="CPS-1%2020030506%20(rc).zip" size="29"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>21 May 2003</date>
+			<comment>Updated supplements to match MAME v0.68.</comment>
+		</revision>
 		<revision>
 			<date>6 May 2003</date>
 			<comment>Added mercsua and stridrua.</comment>

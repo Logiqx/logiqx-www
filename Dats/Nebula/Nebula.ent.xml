@@ -3,9 +3,9 @@
 	<img src="Nebula.gif" width="85" height="40"/>
 	<name>Nebula</name>
 	<version>v2.23b</version>
-	<suitability></suitability>
-	<status></status>
-	<date>24/04/2003</date>
+	<suitability/>
+	<status>Updated</status>
+	<date>21/05/2003</date>
 	<games>389</games>
 	<author href="http://www.logiqx.com">rosewood - Team Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
                         &CMPro;
-                        <file name="Nebula%20v2.23b%20(cm).zip" size="72"/>
+                        <file name="Nebula%20v2.23b%20(cm).zip" size="74"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-                        <file name="Nebula%20v2.23b%20(rc).zip" size="84"/>
+                        <file name="Nebula%20v2.23b%20(rc).zip" size="86"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>21 May 2003</date>
+			<comment>Updated supplements for MAME v0.68.</comment>
+		</revision>
 		<revision>
 			<date>24 April 2003</date>
 			<comment>Renamed batcir->batcire (again) and ssf2->ssf2u. Added mpangj, ssf2, jockeygp. Updated uni-bios.</comment>
