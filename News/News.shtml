@@ -33,12 +33,41 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>25 August 2003</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+      <p align="center">Sorry, been busy lately but here is some of the MAME
+      v0.72 stuff:
+      </p>
+      <p align="center"><b>Tools</b>
+      </p>
+      <p align="center"> <a href="../DatUtil/DatUtil.shtml">DatUtil</a> (v1.25)
+      and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> (v1.20).</p>
+      <p align="center"> <b>Data Files</b></p>
+      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME v0.72</a>, <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes
+      v0.72</a> and <a href="../Dats/MAMETestDrivers/MAMETestDrivers.shtml">MAME Test Drivers
+      v0.72</a></p>
+      <p align="center"> <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>,
+      <a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a></p>
+      <p align="center"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final Burn</a>,
+      <a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a></p>
+      <p align="center"> <a href="../Dats/NebulaJukebox/NebulaJukebox.shtml">Nebula
+      Jukebox</a>, <a href="../Dats/NeoJukeBox/NeoJukeBox.shtml">NeoJukeBox</a>,
+      <a href="../Dats/QPlayer/QPlayer.shtml">QPlayer</a> and <a href="../Dats/M1/M1.shtml">M1</a></p>
+      <p align="center"> <b>Still To Come</b></p>
+      <p align="center"> Data files for MAME resources, Kawaks (v1.47b) and
+      Nebula (v2.23c).</p>
+     </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>9 July 2003</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
       <p align="center">The last remaining MAME v0.71 data files:</p>
-      <p align="center"><a href="../Dats/MAMECabinets/MAMECabinets.shtml">Cabinets</a>, <a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>, <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a>, <a href="../Dats/MAMusIcons/MAMusIcons.shtml"><a href="../Dats/MAMEPanels/MAMEPanels.shtml">Panels</a></a>,
+      <p align="center"><a href="../Dats/MAMECabinets/MAMECabinets.shtml">Cabinets</a>, <a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>, <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a>, <a href="../Dats/MAMusIcons/MAMusIcons.shtml"></a><a href="../Dats/MAMEPanels/MAMEPanels.shtml">Panels</a>,
       <a href="../Dats/MAMusIcons/MAMusIcons.shtml">MAMu's
       Icons</a>  and <a href="../Dats/CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml">CrashTest's Screenshots</a></p> 
      </td>

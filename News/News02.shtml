@@ -2,7 +2,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <title>News</title>
 </head>
 
@@ -21,7 +21,7 @@
 <p align="center">As of 1st May 2000, EmuHQ have been kind enough to host me so my URL is
 now <strong>http://www.emuhq.com/logiqx</strong></p>
 
-<p align="center">I can also be e-mailed using <a href="mailto:logiqx@emuhq.com">logiqx@emuhq.com</a></p>
+<p align="center">Click here for my current <a href="../E-Mail/Question.shtml">e-mail address</a></p>
 
 <hr>
 
@@ -151,8 +151,8 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
     <p align="center"><font size="3">Updated dats for <a href="../Dats/CPS-2/CPS-2.shtml">Capcom
     System 2</a> so that they match Naz's new FAQ (v2.00m).</font></p>
     <p align="center"><font size="3">Another MAME release... MAME v0.37 beta 6</font></p>
-    <p align="center"><font size="3">Uploaded my <a href="../SampleFix/SampleFix.shtml">sample
-    fix</a> but I won't be able to upload the RomCenter/CMPro dats until tomorrow morning (UK
+    <p align="center"><font size="3">Uploaded my sample
+    fix but I won't be able to upload the RomCenter/CMPro dats until tomorrow morning (UK
     time)</font></td>
   </tr>
 </table>
@@ -219,8 +219,8 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
     <p align="center"><font size="3">83 games have been added (including clones) and MAMEDiff
     found another game not mentioned in whatsnew.txt:</font></p>
     <p align="center"><font size="3">Narc (rev 3.20) [name: narc3 - parent: narc]</font></p>
-    <p align="center"><font size="3">Anyway, added <a href="../SampleFix/SampleFix.shtml">sample
-    fix for MAME v0.37 beta 5</a></font></p>
+    <p align="center"><font size="3">Anyway, added sample
+    fix for MAME v0.37 beta 5</font></p>
     <p align="center"><font size="3">Added <a href="../Dats/MAMEBeta/MAMEBeta.shtml">dats for MAME v0.37
     beta 5</a> (CMPro dat includes correct sample information)</font></td>
   </tr>

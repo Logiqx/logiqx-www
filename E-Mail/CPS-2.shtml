@@ -14,7 +14,7 @@
 
 <h2 align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"></h2>
 
-<p align="center">Last updated 25th June 2003</p>
+<p align="center">Last updated 25th August 2003</p>
 
 <h2 align="left">Introduction</h2>
 
@@ -67,7 +67,7 @@ on this list.</p>
     </td>
     <td>
 
-<p>111 of the 150 dumped games have been decrypted.</p>
+<p>114 of the 156 dumped games have been decrypted.</p>
 
 <p>There were two releases for 005 and no release for 055.&nbsp;</p>
 
@@ -108,7 +108,7 @@ on this list.</p>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">19xxjr1 </td>
   <td bgcolor="#FFFF00" height="19">19XX: The War Against Destiny (Japan 951207)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
+  <td align="center" bgcolor="#FFFF00" height="19">114</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">avsp    </td>
   <td bgcolor="#FFFF00" height="19">avsp    </td>
   <td bgcolor="#FFFF00" height="19">Alien vs. Predator (Euro 940520)</td>
@@ -156,10 +156,10 @@ on this list.</p>
   <td bgcolor="#C0C0C0" height="19">Choko (Japan 010820)</td>
   <td align="center" bgcolor="#C0C0C0" height="19">&nbsp;</td>
 </tr>
-<tr><td bgcolor="#FFFF00" height="19">csclubj </td>
-  <td bgcolor="#FFFF00" height="19">csclubj </td>
-  <td bgcolor="#FFFF00" height="19">Capcom Sports Club (Japan 970722)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">044</td></tr>
+<tr><td bgcolor="#FFFF00" height="19">csclu </td>
+  <td bgcolor="#FFFF00" height="19">csclub </td>
+  <td bgcolor="#FFFF00" height="19">Capcom Sports Club (Euro 970722)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">113</td></tr>
 <tr>
   <td height="19">        </td><td bgcolor="#FFFF00" height="19">cscluba </td>
   <td bgcolor="#FFFF00" height="19">Capcom Sports Club (Asia 970722)</td>
@@ -168,6 +168,11 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">csclubh </td>
   <td bgcolor="#FFFF00" height="19">Capcom Sports Club (Hispanic 970722)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">csclubj </td>
+  <td bgcolor="#FFFF00" height="19">Capcom Sports Club (Japan 970722)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">044</td>
+</tr>
 <tr>
   <td bgcolor="#00FF00" height="19">cybots </td>
   <td bgcolor="#00FF00" height="19">cybots </td>
@@ -201,8 +206,13 @@ on this list.</p>
   <td align="center" bgcolor="#00FF00" height="19">049</td></tr>
 <tr><td bgcolor="#00FF00" height="19">ddsom   </td>
   <td bgcolor="#00FF00" height="19">ddsom   </td>
+  <td bgcolor="#00FF00" height="19">Dungeons &amp; Dragons: Shadow over Mystara (Euro 960619)</td>
+  <td align="center" bgcolor="#00FF00" height="19">112</td></tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#00FF00" height="19">ddsomr1  </td>
   <td bgcolor="#00FF00" height="19">Dungeons & Dragons: Shadow over Mystara (Euro 960209)</td>
-  <td align="center" bgcolor="#00FF00" height="19">056</td></tr>
+  <td align="center" bgcolor="#00FF00" height="19">056</td>
+</tr>
 <tr><td height="19">        </td><td bgcolor="#00FF00" height="19">ddsoma  </td>
   <td bgcolor="#00FF00" height="19">Dungeons & Dragons: Shadow over Mystara (Asia 960619)</td>
   <td align="center" bgcolor="#00FF00" height="19">110</td></tr>
@@ -320,6 +330,11 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">mshvsfa1</td>
   <td bgcolor="#FFFF00" height="19">Marvel Super Heroes Vs. Street Fighter (Asia 970620)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">mshvsfb </td>
+  <td bgcolor="#FFFF00" height="19">Marvel Super Heroes Vs. Street Fighter (Brazil 970827)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">mshvsfh </td>
   <td bgcolor="#FFFF00" height="19">Marvel Super Heroes Vs. Street Fighter (Hispanic 970625)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
@@ -381,14 +396,14 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">vhuntjr1</td>
   <td bgcolor="#FFFF00" height="19">Vampire Hunter: Darkstalkers Revenge (Japan 950302)</td>
   <td align="center" bgcolor="#FFFF00" height="19">090</td></tr>
-<tr><td bgcolor="#C0C0C0" height="19">progear </td>
-  <td bgcolor="#C0C0C0" height="19">progear </td>
-  <td bgcolor="#C0C0C0" height="19">Progear No Arashi (Japan 010117)</td>
-  <td align="center" bgcolor="#C0C0C0" height="19">&nbsp;</td></tr>
-<tr><td bgcolor="#C0C0C0" height="19">puzloop2</td>
-  <td bgcolor="#C0C0C0" height="19">puzloop2</td>
-  <td bgcolor="#C0C0C0" height="19">Puzz Loop 2 (Japan 010205)</td>
-  <td align="center" bgcolor="#C0C0C0" height="19">&nbsp;</td></tr>
+<tr><td bgcolor="#FF0000" height="19">progearj </td>
+  <td bgcolor="#FF0000" height="19">progearj </td>
+  <td bgcolor="#FF0000" height="19">Progear No Arashi (Japan 010117)</td>
+  <td align="center" bgcolor="#FF0000" height="19">&nbsp;</td></tr>
+<tr><td bgcolor="#FF0000" height="19">puzloop2</td>
+  <td bgcolor="#FF0000" height="19">puzloop2</td>
+  <td bgcolor="#FF0000" height="19">Puzz Loop 2 (Japan 010205)</td>
+  <td align="center" bgcolor="#FF0000" height="19">&nbsp;</td></tr>
 <tr><td bgcolor="#00FF00" height="19">qndream </td>
   <td bgcolor="#00FF00" height="19">qndream </td>
   <td bgcolor="#00FF00" height="19">Quiz Nanairo Dreams: Nijiirotyou no Kiseki (Japan 960826)</td>
@@ -443,9 +458,19 @@ on this list.</p>
   <td bgcolor="#FFFF00" height="19">sfa2    </td>
   <td bgcolor="#FFFF00" height="19">Street Fighter Alpha 2 (US 960306)</td>
   <td align="center" bgcolor="#FFFF00" height="19">013</td></tr>
-<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">sfz2a   </td>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">sfz2a   </td>
   <td bgcolor="#FFFF00" height="19">Street Fighter Zero 2 (Asia 960227)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">073</td></tr>
+  <td align="center" bgcolor="#FFFF00" height="19">073</td>
+</tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">sfz2b   </td>
+  <td bgcolor="#FFFF00" height="19">Street Fighter Zero 2 (Brazil 960531)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">sfz2br1   </td>
+  <td bgcolor="#FFFF00" height="19">Street Fighter Zero 2 (Brazil 960304)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
 <tr>
   <td height="19">        </td><td bgcolor="#FFFF00" height="19">sfz2aa  </td>
   <td bgcolor="#FFFF00" height="19">Street Fighter Zero 2 Alpha
@@ -621,11 +646,16 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">xmvsfh  </td>
   <td bgcolor="#FFFF00" height="19">X-Men Vs. Street Fighter (Hispanic 961004)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
-<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">xmvsfj  </td>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">xmvsfj  </td>
+  <td bgcolor="#FFFF00" height="19">X-Men Vs. Street Fighter (Japan 961004)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">xmvsfjr1  </td>
   <td bgcolor="#FFFF00" height="19">X-Men Vs. Street Fighter (Japan 960910)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
 <tr>
-  <td height="19">        </td><td bgcolor="#FFFF00" height="19">xmvsfjr1  </td>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">xmvsfjr2  </td>
   <td bgcolor="#FFFF00" height="19">X-Men Vs. Street Fighter (Japan
     960909)</td><td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
 </tr>

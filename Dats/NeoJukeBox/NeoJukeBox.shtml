@@ -10,7 +10,7 @@
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="NeoJukeBox.gif" width="150" height="40"></p>
-	<p>195 games of NeoJukeBox v2.7</p>
+	<p>197 games of NeoJukeBox v2.7</p>
 	
 	
 	
@@ -23,7 +23,7 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="NeoJukeBox%20v2.7%20(cm).zip">NeoJukeBox dat for CMPro</a> (12KB)</p>
+            <p>Download <a href="NeoJukeBox%20v2.7%20(cm).zip">NeoJukeBox dat for CMPro</a> (13KB)</p>
             <p>
               <a href="NeoJukeBox%20v2.7%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -38,6 +38,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>25 August 2003</u>
+        </strong> - 
+			
+			Updated to match MAME v0.72.
+		</p>
       <p>
         <strong>
           <u>5 July 2003</u>

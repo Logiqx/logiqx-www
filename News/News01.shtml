@@ -2,7 +2,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <title>News</title>
 </head>
 
@@ -21,7 +21,7 @@
 <p align="center">As of 1st May 2000, EmuHQ have been kind enough to host me so my URL is
 now <strong>http://www.emuhq.com/logiqx</strong></p>
 
-<p align="center">I can also be e-mailed using <a href="mailto:logiqx@emuhq.com">logiqx@emuhq.com</a></p>
+<p align="center">Click here for my current <a href="../E-Mail/Question.shtml">e-mail address</a></p>
 
 <hr>
 
@@ -49,8 +49,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Added dats for the new releases of <a
-    href="../Dats/Callus95/Callus95.shtml">Callus (patch 2.2)</a> and MESS
+    <td><p align="center"><font size="3">Added dats for the new releases of Callus (patch 2.2) and MESS
     (v0.37 b4).</font></p>
     <p align="center"><font size="3">Finally released the dats for Juno First v1.23, Vector
     Dream v2.3 and Sideway v0.22a (they have all been sitting on my hard disk for weeks!)</font></p>
@@ -63,8 +62,8 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Added <a href="../SampleFix/SampleFix.shtml">sample
-    fix for MAME v0.37 beta 4</a></font></p>
+    <td><p align="center"><font size="3">Added sample
+    fix for MAME v0.37 beta 4</font></p>
     <p align="center"><font size="3">Added <a href="../Dats/MAMEBeta/MAMEBeta.shtml">dats for MAME v0.37
     beta 4</a> (CMPro dat includes correct sample information)</font></td>
   </tr>
@@ -76,8 +75,8 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
   <tr>
     <td><p align="center"><font size="3">Released CMPro/RomCenter dats for <a
     href="../Dats/Mimic/Mimic.shtml">Mimic v1.01</a>.</font></p>
-    <p align="center"><font size="3">Added updated versions of Pi's notes to the patched <a
-    href="../Dats/Callus95/Callus95.shtml">Callus95</a> dats (no changes to the dats themselves)</font></td>
+    <p align="center"><font size="3">Added updated versions of Pi's notes to the patched
+    Callus95 dats (no changes to the dats themselves)</font></td>
   </tr>
 </table>
 
@@ -126,8 +125,8 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
   <tr>
     <td><p align="center"><font size="3">Added <a href="../Dats/Dats.shtml">CMPro/RomCenter
     dats for Sparcade v2.25 and v2.33 beta</a></font></p>
-    <p align="center"><font size="3">Added <a href="../Dats/Dats.shtml">CMPro/RomCenter dats
-    for Callus95 Patch 2</a></font></td>
+    <p align="center"><font size="3">Added CMPro/RomCenter dats
+    for Callus95 Patch 2</font></td>
   </tr>
 </table>
 
@@ -135,8 +134,8 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Added <a href="../SampleFix/SampleFix.shtml">sample
-    fix for MAME v0.37 beta 3</a></font></p>
+    <td><p align="center"><font size="3">Added sample
+    fix for MAME v0.37 beta 3</font></p>
     <p align="center"><font size="3">Added <a href="../Dats/Dats.shtml">dats for MAME v0.37
     beta 3</a> (CMPro dat includes correct sample information)</font></p>
     <p align="center"><font size="3">Updated <a href="../Dats/Dats.shtml">CMPro dat for MAME
@@ -155,7 +154,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Added <a href="../Dats/VAntAGE/VAntAGE.shtml">VAntAGE v1.0 dat</a> (23 games,
+    <td><p align="center">Added VAntAGE v1.0 dat (23 games,
     with samples)</td>
   </tr>
 </table>
@@ -167,7 +166,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
     <td><p align="center"><a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.02</a> - Added
     support for MESS (just a minor modification).<br>
     Added RAINE support too (since it was so easy)</p>
-    <p align="center"><a href="../SampleFix/SampleFix.shtml">MAME Sample Fix</a> - <font
+    <p align="center">MAME Sample Fix - <font
     size="3">Now a proper patch that can be applied using GNU Patch.<br>
     This should allow other ports of MAME to incorporate it.</font></p>
     <p align="center"><font size="3"><a href="../Dats/Dats.shtml">RomCenter Dats</a> - MAME
@@ -224,8 +223,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Added sample fix for <a
-    href="../SampleFix/SampleFix.shtml">MAME v0.37 beta 2</a></font></p>
+    <td><p align="center"><font size="3">Added sample fix for MAME v0.37 beta 2</font></p>
     <p align="center"><font size="3">(This also makes the new Warrior samples work)</font></td>
   </tr>
 </table>
@@ -288,8 +286,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Added sample fix for <a
-    href="../SampleFix/SampleFix.shtml">MAME v0.37 beta 1</a></font></td>
+    <td><p align="center"><font size="3">Added sample fix for MAME v0.37 beta 1</font></td>
   </tr>
 </table>
 
@@ -298,7 +295,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td><p align="center"><font size="3">Released <a href="../DatUtil/DatUtil.shtml">DatUtil
-    v1.0</a> and sample fix for <a href="../SampleFix/SampleFix.shtml">MAME v0.36 final</a>.</font></td>
+    v1.0</a> and sample fix for MAME v0.36 final.</font></td>
   </tr>
 </table>
 

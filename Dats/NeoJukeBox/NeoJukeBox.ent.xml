@@ -5,8 +5,8 @@
 	<version>v2.7</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>05/07/2003</date>
-	<games>195</games>
+	<date>25/08/2003</date>
+	<games>197</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Neo-Geo, CPS-1, CPS-2, ZN-1 and ZN-2 sound player</p>
@@ -14,7 +14,7 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="NeoJukeBox%20v2.7%20(cm).zip" size="12"/>
+			<file name="NeoJukeBox%20v2.7%20(cm).zip" size="13"/>
 		</dat>
 		<dat>
 			&ROMCenter;
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>25 August 2003</date>
+			<comment>Updated to match MAME v0.72.</comment>
+		</revision>
 		<revision>
 			<date>5 July 2003</date>
 			<comment>Updated to match MAME v0.71.</comment>

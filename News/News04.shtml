@@ -2,7 +2,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <title>News</title>
 </head>
 
@@ -20,7 +20,7 @@ alt="URLBig.gif (3995 bytes)"></p>
 <p align="center">Welcome to my arcade emulation page - home of my CMPro/ROMCenter arcade
 dats and other useful tools.</p>
 
-<p align="center">My e-mail address is <a href="mailto:logiqx@logiqx.com">logiqx@logiqx.com</a>
+<p align="center">Click here for my current <a href="../E-Mail/Question.shtml">e-mail address</a>
 but please do not use it to ask where you can find arcade ROMs.</p>
 
 <p align="center">Also, please do not query the validity of the CPS-2 dats. The process
@@ -256,8 +256,8 @@ people reporting non-existent errors in it!</p>
   <tr>
     <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
     Burn v0.107</a> (X-Men USA and Street Fighter 2 added, Jap X-Men removed).</font></p>
-    <p align="center"><font size="3">Released dats for <a href="../Dats/VAntAGE/VAntAGE.shtml">VAntAGE
-    v1.11</a>.</font></p>
+    <p align="center"><font size="3">Released dats for VAntAGE
+    v1.11.</font></p>
     <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
     dat</a>... XORs for X-Men (USA) added plus a couple of redumps and renames.</font></td>
   </tr>
@@ -331,8 +331,8 @@ people reporting non-existent errors in it!</p>
   <tr>
     <td><p align="center">Uploaded dats for <a href="../Dats/MAMEBeta/MAMEBeta.shtml"><font size="3">MAME
     v0.37 beta 12</font></a></p>
-    <p align="center"><font size="3">Updated dats for <a href="../Dats/tROMbone/tROMbone.shtml">tROMbone
-    v0.11</a></font></td>
+    <p align="center"><font size="3">Updated dats for tROMbone
+    v0.11</font></td>
   </tr>
 </table>
 
@@ -399,8 +399,8 @@ people reporting non-existent errors in it!</p>
     <td><p align="center"><font size="3">Okay, some important new for ROMCenter users:</font></p>
     <p align="center"><font size="3">All new ROMCenter datafiles will be in ROMCenter 2 format
     so if you haven't already upgraded then you had better do so!</font></p>
-    <p align="center"><font size="3">Released dats for <a href="../Dats/VAntAGE/VAntAGE.shtml">VAntAGE
-    v1.1</a> (52 games added).</font></p>
+    <p align="center"><font size="3">Released dats for VAntAGE
+    v1.1 (52 games added).</font></p>
     <p align="center">Released <a href="../DatUtil/DatUtil.shtml">DatUtil v1.5</a> (only a
     minor update):</p>
     <p align="center">- Some handling of the playch10 and cvs resources in MAME dats.<br>

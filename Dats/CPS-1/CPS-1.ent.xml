@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-1%2020030625%20(cm).zip" size="25"/>
+			<file name="CPS-1%2020030625%20(cm).zip" size="24"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-1%2020030625%20(rc).zip" size="30"/>
+			<file name="CPS-1%2020030625%20(rc).zip" size="28"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>25 August 2003</date>
+			<comment>No update required, supplements are fine for MAME v0.72.</comment>
+		</revision>
 		<revision>
 			<date>5 July 2003</date>
 			<comment>No update required, supplements are fine for MAME v0.71.</comment>

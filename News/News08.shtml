@@ -237,8 +237,8 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center"><font size="3">Created <a href="../Dats/SledgeHammer/SledgeHammer.shtml">SledgeHammer
-      v0.02</a> data files.</font></p>
+      <p align="center"><font size="3">Created SledgeHammer
+      v0.02 data files.</font></p>
       <p align="center"><font size="3">Not quite sure why I created them as the
       emulator doesn't actually do much yet!</font></p>
       <p align="center"><font size="3">Has anyone worked out who the author is?
@@ -276,7 +276,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
   <tr>
     <td>
       <p align="center"><font size="3">New data files: <a href="../Dats/RAINE/RAINE.shtml">RAINE
-      v0.35</a> and <a href="../Dats/ACE/ACE.shtml">ACE</a> (thanks to CyrussD).</font> </p>
+      v0.35</a> and ACE (thanks to CyrussD).</font> </p>
     </td>
   </tr>
 </table>
@@ -335,7 +335,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center"><font size="3">Created <a href="../Dats/YAAME/YAAME.shtml">YAAME</a>
+      <p align="center"><font size="3">Created YAAME
       data files.</font></p>
     </td>
   </tr>
@@ -356,7 +356,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center"> Updated <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>, <font size="3"><a href="../Dats/ACE/ACE.shtml">ACE</a>
+      <p align="center"> Updated <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>, <font size="3">ACE
       </font><font size="3">and <a href="../Dats/MAMEFlyers/MAMEFlyers.shtml">MAME
       Flyers</a>  </font>data files.</p>
     </td>

@@ -2,6 +2,16 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>CMPro/ROMCenter Dats</title>
+    <script type="text/javascript">
+      <!--
+  				function write_email(name, domain, descr)
+  				{
+    					descr = descr == void 0 ? name + "@" + domain : descr;
+    					document.write('<a href=\"mailto:' + name + '@' + domain + '\">');
+    					document.write(descr + '</a>'); 
+  				}
+				-->
+    </script>
   </head>
   <body>
     <center>
@@ -9,7 +19,13 @@
       <hr>
       <p align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"></p>
       <p align="center"><img src="Dats.gif" width="57" height="40"></p>
-      <p align="left">As a result of the developing CAESAR there are now CMPro and ROMCenter dats for every arcade emulator that I could get my hands on (about 150 of them)! Furthermore, once inside CAESAR I have been able to identify the bad dumps in old sets and correct the dats accordingly. Some of the old emulators require ROMs that are different to ones in MAME but only in the way that they have been split/joined/interleaved/padded etc. These ROMs can be reconstructed using <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>, after which you can use your favorite ROM manager to build a proper ROM set from them. As you should have gathered, I am keen that all available dats are of the highest quality and would like to keep them this way. If you produce any dats then please send them on to <a href="mailto:logiqx@logiqx.com">me</a> and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they work correctly for both managers and are suitable for CAESAR. I will take no credit for your dats but I would like to check them over before they are released (rather than submit changes after they are public).</p>
+      <p align="left">As a result of the developing CAESAR there are now CMPro and ROMCenter dats for every arcade emulator that I could get my hands on (about 150 of them)! Furthermore, once inside CAESAR I have been able to identify the bad dumps in old sets and correct the dats accordingly. Some of the old emulators require ROMs that are different to ones in MAME but only in the way that they have been split/joined/interleaved/padded etc. These ROMs can be reconstructed using <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>, after which you can use your favorite ROM manager to build a proper ROM set from them. As you should have gathered, I am keen that all available dats are of the highest quality and would like to keep them this way. If you produce any dats then please send them on to
+<script type="text/javascript">
+          <!--
+  write_email("logiqx", "logiqx.com", "me"); 
+-->
+        </script>
+and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they work correctly for both managers and are suitable for CAESAR. I will take no credit for your dats but I would like to check them over before they are released (rather than submit changes after they are public).</p>
 	<hr>
       <p><img src="RecentEmus.gif" width="158" height="40"></p>
 		
@@ -65,7 +81,7 @@
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>05/07/2003</strong>
+            <strong>25/08/2003</strong>
           </td>
           <td align="center">
             <strong>235</strong>
@@ -76,9 +92,13 @@
 <tr>
           <td>
             <a href="FinalBurn/FinalBurn.shtml">Final Burn v0.517</a> (suitable for v0.518)</td>
-          <td align="center"></td>
-          <td align="center">21/05/2003</td>
-          <td align="center">57</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>25/08/2003</strong>
+          </td>
+          <td align="center">
+            <strong>57</strong>
+          </td>
         </tr>
 
 			<tr>
@@ -93,25 +113,25 @@
 			
 <tr>
           <td>
-            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.71</a>
+            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.72</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>05/07/2003</strong>
+            <strong>25/08/2003</strong>
           </td>
           <td align="center">
-            <strong>4024</strong>
+            <strong>4083</strong>
           </td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.71</a>
+            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.72</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>05/07/2003</strong>
+            <strong>25/08/2003</strong>
           </td>
           <td align="center">
             <strong>Various</strong>
@@ -121,14 +141,14 @@
 			
 <tr>
           <td>
-            <a href="MAMETestDrivers/MAMETestDrivers.shtml">MAME Test Drivers v0.71</a>
+            <a href="MAMETestDrivers/MAMETestDrivers.shtml">MAME Test Drivers v0.72</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>05/07/2003</strong>
+            <strong>25/08/2003</strong>
           </td>
           <td align="center">
-            <strong>308</strong>
+            <strong>321</strong>
           </td>
         </tr>
 
@@ -154,26 +174,18 @@
           <td>
             <a href="Nebula/Nebula.shtml">Nebula v2.23b</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>05/07/2003</strong>
-          </td>
-          <td align="center">
-            <strong>389</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">05/07/2003</td>
+          <td align="center">389</td>
         </tr>
 
 			<tr>
           <td>
             <a href="NebulaModel2/NebulaModel2.shtml">Nebula Model 2 v0.9</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>05/07/2003</strong>
-          </td>
-          <td align="center">
-            <strong>23</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">05/07/2003</td>
+          <td align="center">23</td>
         </tr>
 
 			
@@ -218,13 +230,9 @@
           <td>
             <a href="WinKawaks/WinKawaks.shtml">WinKawaks v1.46</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>05/07/2003</strong>
-          </td>
-          <td align="center">
-            <strong>378</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">05/07/2003</td>
+          <td align="center">378</td>
         </tr>
 
 			<tr>
@@ -302,25 +310,25 @@
 			
 <tr>
           <td>
-            <a href="CPS-2/CPS-2.shtml">CPS-2 20030625</a>
+            <a href="CPS-2/CPS-2.shtml">CPS-2 20030825</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>05/07/2003</strong>
+            <strong>25/08/2003</strong>
           </td>
           <td align="center">
-            <strong>150</strong>
+            <strong>156</strong>
           </td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20030705</a>
+            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20030825</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>05/07/2003</strong>
+            <strong>25/08/2003</strong>
           </td>
           <td align="center">
             <strong>173</strong>
@@ -373,7 +381,7 @@
             <a href="M1/M1.shtml">M1 v0.7.2</a> (suitable for v0.7.2a)</td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>05/07/2003</strong>
+            <strong>25/08/2003</strong>
           </td>
           <td align="center">
             <strong>937</strong>
@@ -387,10 +395,10 @@
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>05/07/2003</strong>
+            <strong>25/08/2003</strong>
           </td>
           <td align="center">
-            <strong>254</strong>
+            <strong>256</strong>
           </td>
         </tr>
 
@@ -401,10 +409,10 @@
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>05/07/2003</strong>
+            <strong>25/08/2003</strong>
           </td>
           <td align="center">
-            <strong>195</strong>
+            <strong>197</strong>
           </td>
         </tr>
 
@@ -414,7 +422,7 @@
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>05/07/2003</strong>
+            <strong>25/08/2003</strong>
           </td>
           <td align="center">
             <strong>50</strong>
@@ -449,13 +457,9 @@
           <td>
             <a href="CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml">CrashTest's MAME Screenshots v0.71</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>09/07/2003</strong>
-          </td>
-          <td align="center">
-            <strong>Various</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">09/07/2003</td>
+          <td align="center">Various</td>
         </tr>
 
 			
@@ -473,13 +477,9 @@
           <td>
             <a href="MAMECabinets/MAMECabinets.shtml">MAME Cabinets 20030704</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>09/07/2003</strong>
-          </td>
-          <td align="center">
-            <strong>965</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">09/07/2003</td>
+          <td align="center">965</td>
         </tr>
 
 			
@@ -487,13 +487,9 @@
           <td>
             <a href="MAMEFlyers/MAMEFlyers.shtml">MAME Flyers 20030701</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>05/07/2003</strong>
-          </td>
-          <td align="center">
-            <strong>2098</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">05/07/2003</td>
+          <td align="center">2098</td>
         </tr>
 
 			
@@ -501,13 +497,9 @@
           <td>
             <a href="MAMEIcons/MAMEIcons.shtml">MAME Icons 20030704</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>09/07/2003</strong>
-          </td>
-          <td align="center">
-            <strong>4049</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">09/07/2003</td>
+          <td align="center">4049</td>
         </tr>
 
 			
@@ -515,13 +507,9 @@
           <td>
             <a href="MAMEMarquees/MAMEMarquees.shtml">MAME Marquees 20030704</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>05/07/2003</strong>
-          </td>
-          <td align="center">
-            <strong>1259</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">05/07/2003</td>
+          <td align="center">1259</td>
         </tr>
 
 			
@@ -529,13 +517,9 @@
           <td>
             <a href="MAMEPanels/MAMEPanels.shtml">MAME Panels 20030611</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>09/07/2003</strong>
-          </td>
-          <td align="center">
-            <strong>936</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">09/07/2003</td>
+          <td align="center">936</td>
         </tr>
 
 			
@@ -553,13 +537,9 @@
           <td>
             <a href="MAMESnaps/MAMESnaps.shtml">MAME Snaps 20030704</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>09/07/2003</strong>
-          </td>
-          <td align="center">
-            <strong>2280</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">09/07/2003</td>
+          <td align="center">2280</td>
         </tr>
 
 			
@@ -567,13 +547,9 @@
           <td>
             <a href="MAMETitles/MAMETitles.shtml">MAME Titles 20030705</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>05/07/2003</strong>
-          </td>
-          <td align="center">
-            <strong>2280</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">05/07/2003</td>
+          <td align="center">2280</td>
         </tr>
 
 			
@@ -581,13 +557,9 @@
           <td>
             <a href="MAMusIcons/MAMusIcons.shtml">MAMu's Icons 20030704</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>09/07/2003</strong>
-          </td>
-          <td align="center">
-            <strong>2722</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">09/07/2003</td>
+          <td align="center">2722</td>
         </tr>
 
 		</table>

@@ -2,11 +2,11 @@
 <emulator id="CPS-2">
 	<img src="CPS-2.gif" width="80" height="40"/>
 	<name>CPS-2</name>
-	<version>20030625</version>
+	<version>20030825</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>05/07/2003</date>
-	<games>150</games>
+	<date>25/08/2003</date>
+	<games>156</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Not all of these games are emulated yet (see my <a href="../../E-Mail/CPS-2.shtml">CPS-2</a> page for more information)...</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020030625%20(cm).zip" size="30"/>
+			<file name="CPS-2%2020030825%20(cm).zip" size="29"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020030625%20(rc).zip" size="37"/>
+			<file name="CPS-2%2020030825%20(rc).zip" size="36"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>25 August 2003</date>
+			<comment>Renamed ddsom->ddsomr1, progear->progearj, xmvsfj->xmvsfjr1, xmvsfjr1->xmvsfjr2.<br/>Added csclub, ddsom, mshvsfb, sfz2b, sfz2br1, xmvsfj.<br/>Added XORs for 19xxjr1, ddsom, csclub.</comment>
+		</revision>
 		<revision>
 			<date>5 July 2003</date>
 			<comment>Updated supplementary dats for MAME v0.71.</comment>
