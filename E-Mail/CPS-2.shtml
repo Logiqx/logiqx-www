@@ -14,7 +14,7 @@
 
 <h2 align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"></h2>
 
-<p align="center">Last updated 28th February 2003</p>
+<p align="center">Last updated 13th April 2003</p>
 
 <h2 align="left">Introduction</h2>
 
@@ -67,7 +67,7 @@ on this list.</p>
     </td>
     <td>
 
-<p>106 of the 138 dumped games have been decrypted.</p>
+<p>108 of the 139 dumped games have been decrypted.</p>
 
 <p>There were two releases for 005 and no release for 055.&nbsp;</p>
 
@@ -323,10 +323,10 @@ on this list.</p>
 <tr><td height="16"></td><td bgcolor="#00FF00" height="16">mmatrixj</td>
   <td bgcolor="#00FF00" height="16">Mars Matrix: Hyper Solid Shooting (Japan 000412)</td>
   <td align="center" bgcolor="#00FF00" height="16">105</td></tr>
-<tr><td bgcolor="#C0C0C0" height="19">mpangj  </td>
-  <td bgcolor="#C0C0C0" height="19">mpangj  </td>
-  <td bgcolor="#C0C0C0" height="19">Mighty! Pang (Japan 001011)</td>
-  <td align="center" bgcolor="#C0C0C0" height="19">&nbsp;</td></tr>
+<tr><td bgcolor="#00FF00" height="19">mpangj  </td>
+  <td bgcolor="#00FF00" height="19">mpangj  </td>
+  <td bgcolor="#00FF00" height="19">Mighty! Pang (Japan 001011)</td>
+  <td align="center" bgcolor="#00FF00" height="19">108</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">nwarr   </td>
   <td bgcolor="#FFFF00" height="19">nwarr   </td>
   <td bgcolor="#FFFF00" height="19">Night Warriors: Darkstalkers Revenge (US 950406)</td>
@@ -459,8 +459,9 @@ on this list.</p>
   <td align="center" bgcolor="#00FF00" height="19">035</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">ssf2    </td>
   <td bgcolor="#FFFF00" height="19">ssf2    </td>
-  <td bgcolor="#FFFF00" height="19">Super Street Fighter 2: The New Challengers (US 930911)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">010</td></tr>
+  <td bgcolor="#FFFF00" height="19">Super Street Fighter 2: The New Challengers
+    (World 930911)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">107</td></tr>
 <tr>
   <td height="19">        </td><td bgcolor="#FFFF00" height="19">ssf2a   </td>
   <td bgcolor="#FFFF00" height="19">Super Street Fighter 2: The New Challengers (Asia 931005)</td>
@@ -475,9 +476,14 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ssf2jr1 </td>
   <td bgcolor="#FFFF00" height="19">Super Street Fighter 2: The New Challengers (Japan 930911)</td>
   <td align="center" bgcolor="#FFFF00" height="19">024</td></tr>
-<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ssf2jr2 </td>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">ssf2jr2 </td>
   <td bgcolor="#FFFF00" height="19">Super Street Fighter 2: The New Challengers (Japan 930910)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">023</td></tr>
+  <td align="center" bgcolor="#FFFF00" height="19">023</td>
+</tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ssf2u </td>
+  <td bgcolor="#FFFF00" height="19">Super Street Fighter 2: The New Challengers (US 930911)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">010</td></tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ssf2tb  </td>
   <td bgcolor="#FFFF00" height="19">Super Street Fighter 2: The Tournament Battle (World 931119)</td>
   <td align="center" bgcolor="#FFFF00" height="19">043</td></tr>
