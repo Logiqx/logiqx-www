@@ -38,6 +38,7 @@
 	<!ENTITY MAMESnaps SYSTEM "MAMESnaps/MAMESnaps.ent.xml">
 	<!ENTITY MAMETitles SYSTEM "MAMETitles/MAMETitles.ent.xml">
 	<!ENTITY MAMusIcons SYSTEM "MAMusIcons/MAMusIcons.ent.xml">
+	<!ENTITY CrashTestsMAMEScreenshots SYSTEM "CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.ent.xml">
 	<!ENTITY M1 SYSTEM "M1/M1.ent.xml">
 	<!ENTITY Hoot SYSTEM "Hoot/Hoot.ent.xml">
 	<!ENTITY GXP SYSTEM "GXP/GXP.ent.xml">
@@ -50,7 +51,6 @@
 	<!ENTITY Zinc SYSTEM "Zinc/Zinc.ent.xml">
 	<!ENTITY VivaNonno SYSTEM "VivaNonno/VivaNonno.ent.xml">
 	<!ENTITY SegaSystem24Emulator SYSTEM "SegaSystem24Emulator/SegaSystem24Emulator.ent.xml">
-
 ]>
 <contents_page>
 	<section>
@@ -130,6 +130,7 @@
 			<p>These are not created by me so if you have questions about their contents, please contact the author of the dat (e-mail details are in the dats themselves).</p>
 		</comment>
 		<emulators>
+			&CrashTestsMAMEScreenshots;
 			&MAMEArtwork;
 			&MAMECabinets;
 			&MAMEFlyers;

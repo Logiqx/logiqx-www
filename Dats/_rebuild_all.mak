@@ -45,6 +45,7 @@ EMULATORS= \
 	Nebula/Nebula.shtml \
 	NebulaModel2/NebulaModel2.shtml \
 	MAMEImages/MAMEImages.shtml \
+	CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml \
 	MAMEArtwork/MAMEArtwork.shtml \
 	MAMECabinets/MAMECabinets.shtml \
 	MAMEFlyers/MAMEFlyers.shtml \

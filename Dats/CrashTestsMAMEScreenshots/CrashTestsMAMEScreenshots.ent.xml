@@ -1,0 +1,30 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="CrashTestsMAMEScreenshots">
+	<img src="CrashTestsMAMEScreenshots.gif" width="382" height="40"/>
+	<name>CrashTest's MAME Screenshots</name>
+	<version>v0.66</version>
+	<suitability/>
+	<status>New</status>
+	<date>11/03/2003</date>
+	<games>Various</games>
+	<author href="http://crashtest.retrogames.com/">CrashTest</author>
+	<comment>
+		<p>Maintained by <a href="http://crashtest.retrogames.com/">CrashTest</a>.</p>
+	</comment>
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="CrashTest's%20MAME%20Screenshots%20v0.66%20(cm).zip" size="277"/>
+		</dat>
+		<dat>
+			&ROMCenter;
+			<file name="CrashTest's%20MAME%20Screenshots%20v0.66%20(rc).zip" size="108"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>11 March 2003</date>
+			<comment>Data file for MAME v0.66 by CrashTest.</comment>
+		</revision>
+	</revisions>
+</emulator>
