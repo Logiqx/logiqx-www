@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAME Artwork 20030113</title>
+    <title>MAME Artwork 20030310</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="MAMEArtwork.gif" width="176" height="40"></p>
-	<p>127 games of MAME Artwork 20030113</p>
+	<p>127 games of MAME Artwork 20030310</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Artwork%2020030113%20(cm).zip">MAME Artwork dat for CMPro</a> (10KB)</p>
+            <p>Download <a href="MAME%20Artwork%2020030310%20(cm).zip">MAME Artwork dat for CMPro</a> (10KB)</p>
             <p>
-              <a href="MAME%20Artwork%2020030113%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Artwork%2020030310%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Artwork%2020030113%20(rc).zip">MAME Artwork dat for ROMCenter</a> (9KB)</p>
+            <p>Download <a href="MAME%20Artwork%2020030310%20(rc).zip">MAME Artwork dat for ROMCenter</a> (9KB)</p>
             <p>
-              <a href="MAME%20Artwork%2020030113%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Artwork%2020030310%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>10 March 2003</u>
+        </strong> - 
+			
+			Data file for MAME v0.66 by Roman Scherzer.
+		</p>
       <p>
         <strong>
           <u>18 January 2003</u>

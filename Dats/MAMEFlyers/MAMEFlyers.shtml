@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAME Flyers 20030116</title>
+    <title>MAME Flyers 20030310</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="MAMEFlyers.gif" width="159" height="40"></p>
-	<p>2022 games of MAME Flyers 20030116</p>
+	<p>2022 games of MAME Flyers 20030310</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Flyers%2020030116%20(cm).zip">MAME Flyers dat for CMPro</a> (30KB)</p>
+            <p>Download <a href="MAME%20Flyers%2020030310%20(cm).zip">MAME Flyers dat for CMPro</a> (30KB)</p>
             <p>
-              <a href="MAME%20Flyers%2020030116%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Flyers%2020030310%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Flyers%2020030116%20(rc).zip">MAME Flyers dat for ROMCenter</a> (30KB)</p>
+            <p>Download <a href="MAME%20Flyers%2020030310%20(rc).zip">MAME Flyers dat for ROMCenter</a> (30KB)</p>
             <p>
-              <a href="MAME%20Flyers%2020030116%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Flyers%2020030310%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>10 March 2003</u>
+        </strong> - 
+			
+			Roman updated for MAME v0.66.
+		</p>
       <p>
         <strong>
           <u>19 January 2003</u>

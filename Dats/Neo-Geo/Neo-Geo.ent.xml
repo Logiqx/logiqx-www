@@ -4,8 +4,8 @@
 	<name>Neo-Geo</name>
 	<version>20030215</version>
 	<suitability/>
-	<status></status>
-	<date>19/02/2003</date>
+	<status>Updated</status>
+	<date>10/03/2003</date>
 	<games>163</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Neo-Geo%2020030215%20(cm).zip" size="40"/>
+			<file name="Neo-Geo%2020030215%20(cm).zip" size="38"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Neo-Geo%2020030215%20(rc).zip" size="45"/>
+			<file name="Neo-Geo%2020030215%20(rc).zip" size="43"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>10 March 2003</date>
+			<comment>Updated supplements to match MAME v0.66.</comment>
+		</revision>
 		<revision>
 			<date>19 February 2003</date>
 			<comment>Updated supplement information to show MAME v0.65. Added kof2002 and rotd.</comment>

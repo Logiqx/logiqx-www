@@ -5,7 +5,7 @@
 	<version>20030228</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>28/02/2003</date>
+	<date>10/03/2003</date>
 	<games>138</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020030228%20(cm).zip" size="29"/>
+			<file name="CPS-2%2020030228%20(cm).zip" size="30"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020030228%20(rc).zip" size="35"/>
+			<file name="CPS-2%2020030228%20(rc).zip" size="36"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>10 March 2003</date>
+			<comment>Updated supplementary dats for MAME v0.66.</comment>
+		</revision>
 		<revision>
 			<date>28 February 2003</date>
 			<comment>Added XORs for 1944.</comment>

@@ -4,8 +4,8 @@
 	<name>CPS-1</name>
 	<version>20030215</version>
 	<suitability/>
-	<status></status>
-	<date>19/02/2003</date>
+	<status>Updated</status>
+	<date>10/03/2003</date>
 	<games>110</games>
 	<author href="http://www.logiqx.com">rosewood - Team Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-1%2020030215%20(cm).zip" size="25"/>
+			<file name="CPS-1%2020030215%20(cm).zip" size="23"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-1%2020030215%20(rc).zip" size="29"/>
+			<file name="CPS-1%2020030215%20(rc).zip" size="28"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>10 March 2003</date>
+			<comment>Updated supplements to match MAME v0.66.</comment>
+		</revision>
 		<revision>
 			<date>19 February 2003</date>
 			<comment>Updated to match MAME v0.65.</comment>
