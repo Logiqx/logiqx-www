@@ -24,14 +24,18 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff28.zip">MAMEDiff v2.8</a> (94KB)</p>
+<p align="center">Download <a href="mdiff29.zip">MAMEDiff v2.9</a> (95KB)</p>
 
-<p align="center"><a href="mdiff28.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff29.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>2 August 2004</u></strong> - MAMEDiff v2.9</p>
+
+<p align="center">- Fixed a bug that was introduced in v2.6 and affected -d3 option.</p>
 
 <p align="center"><strong><u>30 July 2004</u></strong> - MAMEDiff v2.8</p>
 
