@@ -1,0 +1,214 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>DatUtil</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><!--#include virtual="/ads/top.shtml" --> </p>
+
+<hr>
+
+<p align="center"><img src="CMProRC.gif" width="233" height="142"></p>
+
+<p align="center"><img src="DatUtil.gif" width="81" height="40"></p>
+
+<p align="left">DatUtil was created to aid in the creation of dat files for Rom Managers
+such as ClrMamePro and RomCenter (Roman Scherzer / Eric Bole-Feysot). It can convert
+between formats, compare dats, extract individual games (and optionally their clones),
+cleanse dats etc. It currently handles a wide variety of formats including MAME Listinfo
+(used by ClrMamePro), RomCenter 1 and 2 Datafiles, MESS Listinfo, RAINE Gameinfo, Shark
+Listinfo, Retrocade Romlist, Callus Gamelist, System16 GCS, JFF.TXT, Sparcade RAT, JAS
+Romlist, Mimic. Adding support for additional formats is really easy too if you know a
+little bit of C.</p>
+
+<p align="center"><font color="#000000">Download </font><a href="dutil121.zip">DatUtil
+v1.21</a><font color="#000000">      (90KB)</font></p>
+
+<p align="center"><font color="#000000"><a href="dutil121.zip"><img
+src="../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
+
+<hr>
+
+<p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>18 January 2003</u></strong> -
+DatUtil v1.21</font></p>
+
+<p align="center">- Removed 'cloneof neogeo' from 'neocd' in Nebula driver.<br>
+            - Added knowledge of skns and stvbios resources.</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>20 May 2002</u></strong> -
+DatUtil v1.20</font></p>
+
+<p align="center">- New resource ROMs in MAME listinfo are automatically detected.<br>
+            - ClrMamePro log and Nebula driver loaders now use the STORE_ROM<br>
+              macro (this makes -g work correctly, amongst other things).<br>
+            - Improved -m (fix merging) behaviour for resource ROMs.<br>
+            - Nebula drivers now output the correct 'romof' for Neo-Geo clones.</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>22 April 2002</u></strong> -
+DatUtil v1.19</font></p>
+
+<p align="center">- Added support for the PGM resource.</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>20 April 2002</u></strong> -
+DatUtil v1.18</font></p>
+
+<p align="center">- Increased maximum number of samples to 10,000 (for PinMAME).<br>
+            - Exceeding the sample limit now results in a graceful exit.</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>4 April 2002</u></strong> -
+DatUtil v1.17</font></p>
+
+<p align="center">- Made 'fix-merging' option check the CRC as well as the name.<br>
+            - Fix merging option warns of CRC conflicts it finds. Useful test!<br>
+            - Strips trailing spaces from Nebula ROM names (for convenience).<br>
+            - Executable is called 'datutil.exe' again.</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>29 March 2002</u></strong> -
+DatUtil v1.16</font></p>
+
+<p align="center"><font color="#000000" size="3">            - Added Nebula driver support (useful for data file validation).<br>
+            - Supports the new '0x' syntax of CMPro logs.<br>
+            - ZIP scanner now removes '.Zip' from filenames (case sensitive).<br>
+            - Increased maximum line length to 16384 bytes (for MAME history).<br>
+            - Increased maximum number of ROMs to 75000.<br>
+            - Exceeding the game or ROM limits now results in a graceful exit.<br>
+- Compiled with zlib v1.1.4</font></p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>10 February 2002</u></strong> -
+DatUtil v1.15</font></p>
+
+<p align="center"><font color="#000000" size="3">- Enhanced Calice support to cope with Neo-Geo sound ROMs.<br>
+            - Modified source to compile easily with CygWin (and FreeBSD?).</font></p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>11 November 2001</u></strong> -
+DatUtil v1.14</font></p>
+
+<p align="center"><font color="#000000" size="3">- Added knowledge of ng-lo.rom.</font></p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>27 September 2001</u></strong> -
+DatUtil v1.13</font></p>
+
+<p align="center">- Supports CPSE driver file.<br>
+            - Added 'ignore funny size' option (-z) for non-arcade dats.<br>
+            - Added 'make lower case' option (-l). Affects names and CRCs.<br>
+            - Puts "s around empty CMPro header items.<br>
+            - Fixed directory/zip scanner for ROM names containing spaces.<br>
+            - Fixed zip scanner to strip uppercase '.ZIP' from game names.<br>
+            - Improved the 'funny size' warning relating to RomCenter 2 dats.</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>28 August 2001</u></strong> -
+DatUtil v1.12</font></p>
+
+<p align="center">- Supports new ROM loading introduced in Calice v0.3.8 to v0.4.4.</p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>28 June 2001</strong> </u> -
+DatUtil v1.11</font></p>
+
+<p align="center">- Added some warnings for bad quality RomCenter dats<br>
+(wrong version number in header and missing ROM sizes).
+</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>23 June 2001</u></strong> -
+DatUtil v1.10</font>
+</p>
+
+<p align="center">- Fixed detection of RAINE32 dat format.<br>
+            - Improved ZIP scanner (not case sensitive when searching for zips).
+</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>8 June 2001</u></strong> -
+DatUtil v1.9</font></p>
+
+<p align="center">- Added directory scanning feature (reads ZIPs and subdirectories).<br>
+            - Calice loader now uses the main driver code, not 'verifyroms'.<br>
+            - RomCenter 2 loader fixes missing 'romof' details automatically.
+</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>18 May 2001</u></strong> -
+DatUtil v1.8</font></p>
+
+<p align="center">- Fixed a minor bug in the '-m' feature (bug introduced in v1.7).<br>
+- Now compiled with MinGW (no long filename problems on NT now).<br>
+</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>26 April 2001</u></strong> -
+DatUtil v1.7</font></p>
+
+<p align="center">- Added handling of decocass resource in MAME dats.<br>
+- Added load/save support for CMPro element 'clrmamepro' and ROMCenter headers.<br>
+- Added preliminary support for Calice Driver files.<br>
+- Added load support for ClrMamePro log files (i.e. to convert into a dat format).<br>
+- Further improved the '-m' feature ('fix merging' option).<br>
+- RomCenter2 save routine strips redundant 'merge' information from non-clones.<br>
+- DJGPP compilation now uses -Wall option.<br>
+- Can now be compiled with Microsoft Visual C++.</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>22 February 2001</u></strong>
+- DatUtil v1.6</font></p>
+
+<p align="center">- Added option to improve MAME's merging information ('-m').</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>6 February 2001</u></strong> -
+DatUtil v1.5</font></p>
+
+<p align="center">- Some handling of the playch10 and cvs resources in MAME dats.<br>
+- RomCenter 2 is now the default save format when converting CMPro dats.</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>18 December 2000</u></strong>
+- DatUtil v1.4</font></p>
+
+<p align="center"><font color="#000000" size="3">- Mimic HWC support.<br>
+- New format to list game titles ('-f titlelist').<br>
+- Year/Manufacturer support for formats that can include them.<br>
+- Can specify values for ROMCenter/ROMCenter2 headers.<br>
+- Remove clones factility ('-r').<br>
+- GWC loader now understands '.speech' tags (System16 Beta).<br>
+- Callus95 Patch renamed 'directory' to 'parent'. Now supported.<br>
+- Auto sorts when converting to RomCenter format or a Title List.<br>
+- Improved sorting (ensures each parent precedes it's clones).<br>
+- RAINE and MESS files are converted to CMPro format by default.<br>
+- Fixed a problem with the '-g' option and RAINE gameinfo files.<br>
+- Increased maximum ROM size to 9 characters (~1GB) for U64Emu.<br>
+- Increased number of lines scanned when identifying CMPro dats.<br>
+- Source: Added a makefile and included a SAVE_ONLY_FORMAT.<br>
+- Source: Changed parameter passing (uses a structure now).<br>
+- Preliminary: 'Verify Merging' facility (currently disabled).</font></p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>19 May 2000</u></strong> -
+DatUtil v1.3</font></p>
+
+<p align="center">- RomCenter 2 support.<br>
+- New method of sorting (useful for RomCenter).<br>
+- Two EXEs. This is because the long ROM name version eats memory<br>
+and is slow on machines without much physical memory.<br>
+- Improved handling of invalid parents.<br>
+- Warns of funny ROM sizes.<br>
+- Generates log of warnings during conversion.</p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>28 April 2000</u></strong> -
+DatUtil v1.2</font></p>
+
+<p align="center"><font color="#000000" size="3">- Increased game/rom name length to 80
+characters.<br>
+That's about it!</font></p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>8 April 2000</u></strong> -
+DatUtil v1.1</font></p>
+
+<p align="center"><font color="#000000" size="3">- Added support for JFF.TXT, Sparcade RAT
+and JAS Romlist.<br>
+- Increased maximum number of games from 4096 to 5000.<br>
+- Increased game/rom name length to 50 characters.<br>
+- Improved listinfo parser so that it can handle odd formatting.<br>
+- Other minor modifications.</font></p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>1 April 2000</u></strong> -
+DatUtil v1.0</font></p>
+</body>
+</html>

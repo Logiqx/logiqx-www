@@ -1,0 +1,60 @@
+
+	<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Hoot 20011002</title>
+  </head>
+  <body>
+    <center>
+      <!--#include virtual="/ads/top.shtml"-->
+      <hr>
+	<p><img src="Hoot.gif" width="58" height="40"></p>
+	<p>248 games of Hoot 20011002</p>
+	
+	
+	
+	
+	
+	
+
+	<p>Arcade machine sound player. Data file created to match <a href="http://crashtest.retrogames.com/Hoot/index.html">CrashTest's Hoot</a> configuration.</p>
+
+	<table border="0" width="100%">
+        <tr>
+		<td width="50%" align="center">
+            <p>Download <a href="Hoot%2020011002%20(cm).zip">Hoot dat for CMPro</a> (14KB)</p>
+            <p>
+              <a href="Hoot%2020011002%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+            </p>
+          </td>
+
+		<td width="50%" align="center">
+            <p>Download <a href="Hoot%2020011002%20(rc).zip">Hoot dat for ROMCenter</a> (13KB)</p>
+            <p>
+              <a href="Hoot%2020011002%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+            </p>
+          </td>
+	</tr>
+      </table>
+
+	<hr>
+      <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>21 December 2002</u>
+        </strong> - 
+			
+			Added CRCs for wrunsuzu.
+		</p>
+      <p>
+        <strong>
+          <u>19 December 2002</u>
+        </strong> - 
+			
+			First release (missing CRCs for wrunsuzu).
+		</p>
+</center>
+  </body>
+</html>
+
+

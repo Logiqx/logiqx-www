@@ -1,0 +1,56 @@
+<emulator id="U64Emu">
+	<img src="U64Emu.gif" width="103" height="40"/>
+	<name>U64Emu</name>
+	<version>v3.04</version>
+	<suitability>v3.05</suitability>
+	<status></status>
+	<date>09/10/2002</date>
+	<games>2</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<comment><p>U64Emu emulates Killer Instinct 1+2.</p></comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="U64Emu%20v3.04%20(cm).zip" size="2"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="U64Emu%20v3.04%20(rc).zip" size="2"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>9 October 2002</date>
+			<comment>Just put the data file back online with a new name.</comment>
+		</revision>
+
+		<revision>
+			<date>3 October 2002</date>
+			<comment>Moved data file into the 'Older Emus' archive.</comment>
+		</revision>
+
+		<revision>
+			<date>14 October 2001</date>
+			<comment>Released combined dat which uses factory restored HD images, the correct program ROMs for KI2 and allows choice of merging.</comment>
+		</revision>
+
+		<revision>
+			<date>9 October 2001</date>
+			<comment>Released data file for U64Emu2.</comment>
+		</revision>
+
+		<revision>
+			<date>26 October 2000</date>
+			<comment>Re-uploaded dats for CMPro and RomCenter (to match CMPro version number and fix HD size error in RC dat).</comment>
+		</revision>
+
+		<revision>
+			<date>25 October 2000</date>
+			<comment>Released dats for CMPro and RomCenter.</comment>
+		</revision>
+	</revisions>
+</emulator>

@@ -1,0 +1,67 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<style TYPE="text/css">
+<!--
+H1 { font-size: 1.5pc }
+H2 { font-size: 1pc }
+-->
+</style>
+<title>MAME Dat</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><!--#include virtual="/ads/top.shtml" --> </p>
+
+<hr>
+
+<p align="center"><img border="0" src="MAMEDat.gif" width="128" height="40"></p>
+
+<h1>Overview</h1>
+
+<p>Although MAME is capable of creating a CMPro data file using the '-listinfo' option
+it is sensible to clean up the output using DatUtil, thereby removing redundant
+information and making it more readable. Also, if you try to use the listinfo
+output directly with CMPro or RomCenter you will end up with slightly differing
+behaviour from the two tools (for a few games) due to merging of ROMs with
+different names. The way to avoid this difference in behaviour is to use the
+'fix merging' feature of DatUtil.
+</p>
+
+<hr>
+
+<h1>Data File Creation</h1>
+
+<h2>Creating the MAME Data File</h2>
+
+<p>1) First thing you want is a 'clean' CMPro dat:</p>
+
+<ul>
+  <li>mamew -listinfo &gt;mame.dat</li>
+  <li>datutilx -m -f listinfo mame.dat</li>
+</ul>
+<p>Note: the DatUtil 'fix merging' option ('-m' flag) is used.</p>
+<p>2) Now you need to load the data file into CMPro and correct all errors as they are
+reported. The errors reported will always be 'double ROMs' but if you don't get
+any reported then you have the warning option switched off (so switch it on). Correct
+the data file as each error is reported then reload it afterwards to check all errors
+have been corrected.</p>
+<p>3) The CMPro data file should now be perfect so convert it to RomCenter format
+using DatUtil.</p>
+<h2>Creation of 'Changes' Data Files</h2>
+<p>You will need the MAME data file from the previous MAME version in order to do
+this. When you have both data files to hand, use the MAMEDiff options -S, -M and -N to
+create data files the three set types. I do all of this generation
+using a 'makefile' (C programmers will know what that is) but a simple .bat
+script could be used to save effort when a new MAME release comes out.</p>
+<hr>
+<h1>Note</h1>
+<p>It is very important to use the 'fix merging' option of DatUtil otherwise a
+set that scans cleanly with one tool will report errors in the other (unneeded
+ROMs or missing ROMs usually)!</p>
+
+</body>
+</html>

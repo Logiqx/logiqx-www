@@ -1,0 +1,60 @@
+
+	<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>YAAME v0.3</title>
+  </head>
+  <body>
+    <center>
+      <!--#include virtual="/ads/top.shtml"-->
+      <hr>
+	<p><img src="YAAME.gif" width="95" height="40"></p>
+	<p>22 games of YAAME v0.3</p>
+	
+	
+	
+	
+	
+	
+
+	<p>Old Classics</p>
+
+	<table border="0" width="100%">
+        <tr>
+		<td width="50%" align="center">
+            <p>Download <a href="YAAME%20v0.3%20(cm).zip">YAAME dat for CMPro</a> (4KB)</p>
+            <p>
+              <a href="YAAME%20v0.3%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+            </p>
+          </td>
+
+		<td width="50%" align="center">
+            <p>Download <a href="YAAME%20v0.3%20(rc).zip">YAAME dat for ROMCenter</a> (3KB)</p>
+            <p>
+              <a href="YAAME%20v0.3%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+            </p>
+          </td>
+	</tr>
+      </table>
+
+	<hr>
+      <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>19 December 2002</u>
+        </strong> - 
+			
+			Updated for YAAME v0.3.<br>Added blockout, carnival, jjack and pacman.<br>Added sound ROMs to anteater, bombjack and scobra.<br>Removed radarscp.
+		</p>
+      <p>
+        <strong>
+          <u>4 February 2002</u>
+        </strong> - 
+			
+			Created for YAAME v0.2.
+		</p>
+</center>
+  </body>
+</html>
+
+

@@ -1,0 +1,101 @@
+
+	
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>CPS-1 20030215</title>
+  </head>
+  <body>
+    <center>
+      <!--#include virtual="/ads/top.shtml"-->
+      <hr>
+	<p><img src="CPS-1.gif" width="77" height="40"></p>
+	<p>110 games of CPS-1 20030215</p>
+	
+	
+	
+	
+	
+	
+	
+		<p>Capcom Play System 1</p>
+	
+	<table border="0" width="100%">
+        <tr>
+		<td width="50%" align="center">
+            <p>Download <a href="CPS-1%2020030215%20(cm).zip">CPS-1 dat for CMPro</a> (25KB)</p>
+            <p>
+              <a href="CPS-1%2020030215%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+            </p>
+          </td>
+		<td width="50%" align="center">
+            <p>Download <a href="CPS-1%2020030215%20(rc).zip">CPS-1 dat for ROMCenter</a> (29KB)</p>
+            <p>
+              <a href="CPS-1%2020030215%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+            </p>
+          </td>
+	</tr>
+      </table>
+	<hr>
+      <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>19 February 2003</u>
+        </strong> - 
+			
+			Updated to match MAME v0.65.
+		</p>
+      <p>
+        <strong>
+          <u>30 January 2003</u>
+        </strong> - 
+			
+			Added cawingu, sf2ceuc, sf2eg, sf2ud and willow, renamed willow to willowje.<br>Also updated the supplements to match MAME v0.64.
+		</p>
+      <p>
+        <strong>
+          <u>18 January 2003</u>
+        </strong> - 
+			
+			Added mswordr1, sf2uf and dinou. Supplements to MAME v0.63.
+		</p>
+      <p>
+        <strong>
+          <u>5 December 2002</u>
+        </strong> - 
+			
+			Uploaded with supplements to MAME v0.62.
+		</p>
+      <p>
+        <strong>
+          <u>23 October 2002</u>
+        </strong> - 
+			
+			Added the new Street Fighter II CE hacks from Nebula v2.20.
+		</p>
+      <p>
+        <strong>
+          <u>7 October 2002</u>
+        </strong> - 
+			
+			Added dinoh, knightsh, kouryu, sf2yyc, wofh. Also added MAME supplement data files.
+		</p>
+      <p>
+        <strong>
+          <u>24 March 2002</u>
+        </strong> - 
+			
+			Added Dynasty Wars (World).
+		</p>
+      <p>
+        <strong>
+          <u>3 October 2001</u>
+        </strong> - 
+			
+			First release.
+		</p>
+</center>
+  </body>
+</html>
+
+

@@ -1,0 +1,1692 @@
+Asunto: Getting things started!
+Fecha: Mon, 26 Aug 2002 20:08:47 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+A: <RealPosix@gmx.net>,
+     <pavel@press-sense.com>,
+     <hadbeen@socal.rr.com>,
+     <rosewoodj@hotmail.com>,
+     <haukur@mail.com>,
+     <odeon@tbaytel.net>,
+     "Andrea Scianna" <Dr.Zer0@libero.it>,
+     <metroid@sympatico.ca>,
+     <pi@logiqx.com>
+CC: <dave@emuverse.com>
+
+Hi,
+
+Thank you for getting in touch with Pi and for your patience with me. This
+last week I have been waiting on ztnet to set up a mailing list so that we
+can communicate but now given up on them (for the time being at least) and
+asked a friend to create one for us instead; Dave Ewing from Emuverse. You
+should receive an e-mail shortly from the Emuverse server so please follow
+it's instructions and you will be on the team mailing list. Dave also will
+be on the list for a few days but will then disappear once he is happy it is
+working okay.
+
+Once on the list, you can mail teamlogiqx@emuverse.com to send a mail to the
+full team. Once subscribed, can you please let Pi know and then either he or
+I can declare the list active when everyone is in attendance (I'd hate
+anyone to miss the initial conversations). Once everyone is on the list, we
+can all introduce ourselves and then I'll let you know how I see the best
+way to proceed with things. From your mails to Pi, I think I can see what
+you will each be able to contribute but simply expressing a wish to help has
+allowed a couple of inexperienced people onto the list (maybe as a quiet
+guests to begin with, but learning more as time goes on).
+
+Hopefully we'll be able to make a start on things soon but please bear with
+me a little. My current project at work keeps me away from home five days a
+week and e-mail access is very limited (no mornings or evenings, just the
+few minutes that I can grab during the day without being noticed by the
+client!). Weekends are just as busy too since I have other hobbies to enjoy
+and a girlfriend to spend time with.
+
+I'm sure we'll be able to make a success of Team Logiqx and will happily
+impart as much of my knowledge as possible (I am sure that you will also
+learn from each other too). Welcome to the list, once you've subscribed that
+is! :)
+
+Mike (aka Logiqx)
+
+Asunto: [TeamLogiqx] Test (should have done it earlier!)
+Fecha: Mon, 26 Aug 2002 21:18:04 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Please ignore
+
+Asunto: [TeamLogiqx] hi.
+Fecha: Mon, 26 Aug 2002 14:24:57 -0700
+De: "HaDBeEN" <hadbeen@socal.rr.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+can i get the list of the team?
+
+Asunto: Re: [TeamLogiqx] Test (should have done it earlier!)
+Fecha: Tue, 27 Aug 2002 09:43:35 +0200
+De: "Pavel" <pavel@press-sense.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+test
+
+Asunto: [TeamLogiqx] Hello world
+Fecha: Tue, 27 Aug 2002 11:05:04 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi to everyone !!!
+
+Asunto: [TeamLogiqx] List
+Fecha: Wed, 28 Aug 2002 12:19:44 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi
+
+I feel this is needed:
+
+Up to now, six members have signed the list: Logiqx himself, of
+course, and me, what would you do without me :) And:
+LostClown
+Dr. Zer0
+Shadowpri
+HaDBeEN
+
+We are waiting four more:
+Rosewood
+RealPosix
+Odeon
+Metroid
+
+Those are the nicks, I have written down around here who prefers
+to be called by name in the list and who prefers nick, but well
+that will be clear when everyone does his own introduction. But
+that will not happen until everyone has joined the list. This is
+a remainder that you should not send messages to the list until
+Logiqx states that the list is complete. Be patient.
+
+(If you are reading this and you are in the "waiting list", you
+have to tell me that you've joined so we know when to say the
+list is complete!)
+
+Sorry guys, no girls in the list for now ;)
+
+regards, Pi
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+Asunto: [TeamLogiqx] RE: Welcome... time for introductions!
+Fecha: Mon, 2 Sep 2002 12:10:55 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi everyone,
+
+I don't think that everyone has subscribed yet but as I'm keen to get you
+all started I think it's time to declare this list open. :)
+
+So that we all have an idea of who we are, let's introduce ourselves with a
+short e-mail. Just simple things like age, occupation, hobbies, location,
+time zone etc. All information should be regarded as confidential and only
+for the eyes of people on this list. I'll start!
+
+I'm 30 years old and work in computers (surprise eh?), creating business
+intelligence solutions. My job title is technical consultant but in simple
+terms I do everything from the the initial design of systems, through to the
+development and implementation. As well as having arcade emulation as a
+hobby I am a keen windsurfer and also do Salsa (great way to pick up chicks
+btw!). I live in the county of Hertfordshire (UK), which is about 30 minutes
+north of London. My time zone is obviously GMT in the winter and GMT+1 in
+the summer.
+
+I have prepared a couple of things for you all so I'll write a mail to
+explain them in a few minutes.
+
+Mike
+
+Asunto: [TeamLogiqx] Batch scripts for uploading to logiqx.com
+Fecha: Mon, 2 Sep 2002 12:11:33 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+The plan is to have one person responsible for uploading stuff to the site
+but I would like as many people as possible to know how it is done (for
+holiday cover, rest breaks etc). If several people know how it works then it
+also makes explaining it to new people easier when it becomes necessary (as
+it is not reliant on just me).
+
+In order to upload stuff to the site, I propose that we use the same system
+that I have been using for CAESAR. The idea is that we only want to upload
+files that are new or have changed and the easiest way to do this is with a
+couple of simple batch scripts. I won't go into too much detail as to why I
+do this when there are so many site upload tools (one of which I like very
+much and use regularly) but they really hate such a huge website as CAESAR.
+:)
+
+Okay, here are the scripts I prepared for you all:
+
+http://www.logiqx.com/Team/scripts.zip
+
+Drop them into the directory that you extracted logiqx_www.zip into. Only
+two of the scripts are really important to you but the other two are handy
+while you are playing/learning:
+
+xcopy_to_upload_dir.bat
+-----------------------
+
+Copies all new or updated files into c:\upload\logiqx.www
+Once files have been copied to c:\upload\logiqx.www they will not be copied
+again unless they change.
+
+It will also copy the tar_all_for_upload.bat script into
+c:\upload\logiqx.www (from where it should be run).
+
+c:\upload\logiqx.www\tar_all_for_upload.bat (put there by the xcopy)
+--------------------------------------------------------------------
+
+Creates a single file for upload.
+
+I will explain how to upload this file in a separate e-mail (basically just
+an FTP upload and a CGI call - using the URL that I provide).
+
+If you have not got Cygwin installed then you will need a couple of Unix
+commands. I have put them here so just extract them to a directory somewhere
+in your path (c:\windows\command for example):
+
+http://www.logiqx.com/Team/targz.zip
+
+archive_bit_clear.bar archive_bit_set.bat
+-----------------------------------------
+
+The xcopy script utilises the archive bit. For those that don't know, the
+archive bit of each file gets 'set' every time the file is saved. My xcopy
+script copies files that have the archive bit set then clears it
+automatically (so that the file doesn't get processed again the next time
+the xcopy is run).
+
+You won't need to use the 'set' script very often but the 'clear' script
+will be useful to avoid uploading stuff that you don't wish to (i.e. run it
+before you start making changes to a something).
+
+Tips
+----
+
+All scripts prompt you before they do their job. If you run the wrong script
+by accident then just close the command window (the 'x' at the top tight of
+the window) and the action will not take place.
+
+Please let me know when you have got the hang of these scripts. If someone
+has problems then helping them out will ensure that your understanding is as
+good as you think it is. :)
+
+Mike
+
+Asunto: [TeamLogiqx] First task
+Fecha: Mon, 2 Sep 2002 13:27:51 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+To get things started, I think the first thing is to work out what needs
+updating. Many of the resources (snaps, flyers, marquees, artwork etc) have
+been updated and I also created dats for the last MAME release (within one
+of the ZIPs that you all downloaded). I updated the 'Older Emus' to
+correspond to the last MAME release too.
+
+If we can put together a list of what needs uploading to logiqx.com, then we
+can use those dats to practice the procedure of issuing new XML+ZIPs for
+upload. All of the dats mentioned have been created already so it makes
+sense to get them online first.
+
+Once we are all up to date with that, we can start on updating the dats that
+need it (Kawaks, Nebula, FBA, Laser, Calice, Cottage spring to mind). When
+we start on these I will offer advice to make life easier but I don't want
+to flood the list with too much information at this time. ;)
+
+Would someone like to volunteer for maintaining the list of what needs
+uploading first? Everyone can help investigate what is out of date but until
+we're on top of it all I think it will make things much simpler if one
+person keeps track of our progress.
+
+Mike
+
+Asunto: Re: [TeamLogiqx] RE: Welcome... time for introductions!
+Fecha: Mon, 02 Sep 2002 23:12:10 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Logiqx ha escrito:
+
+> Hi everyone,
+>
+> I don't think that everyone has subscribed yet but as I'm keen to get you
+> all started I think it's time to declare this list open. :)
+
+*Applauses*
+
+> So that we all have an idea of who we are, let's introduce ourselves with
+a
+> short e-mail.
+
+Define "short". Well it all started on a stormy night on October 1972.....
+
+I don't think I need introduction since you all contacted me (in some cases
+before Logiqx himself). I'm Pi. Not that I want to keep my name secret (Juan
+Miguel anyway, but not-tell-it) but everyone calls me Pi, except my family.
+I'm
+29, from Spain, single, blah blah blah. I worked as programmer some eons
+ago,
+currently unemployed. Besides emulation, I like movies and books, I NEED
+heavy
+doses of music every day (Mike Oldfield and Jean Michel Jarre are my favs),
+and
+optionally I play games like The Sims, GTA, and oldies/abandonware.
+
+I'm an obsessive compulsive collector of everything. I have a big collection
+of
+Chloe Jones (2000 pics), a big collection of song lyrics(50,000 i think), a
+huge
+collection of mods/s3m (18,000), and now I'm starting with movie scripts
+(only
+200 for now). Just as an example.
+
+Other than that I'm a lazy, boring, bored guy.
+
+Btw Logiqx, I will maintain the list of what emus need to be updated. Also I
+know which ones have been updated and when :) I'll post the list once I
+finish
+doing it. Not tonight, not tomorrow. Dentist appoinment, I don't think I
+will
+have humour after it :-p
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+Asunto: Re: [TeamLogiqx] RE: Welcome... time for introductions!
+Fecha: Tue, 3 Sep 2002 00:28:31 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+...pass the year 1979 and in a night of april I was born...
+
+And after 23 years I'm writing this Electronic-Mail (miracle of science).
+
+Hello to everyone (again), my real name is: Scianna Andrea, but please don't
+use that name outside this wall, please !
+As you see, I chose "Dr.Zer0" as my Net-Name, of course I like
+old-robot-cartoon, etc (like F....man).
+
+I'm came from Italy (GMT +1), and I NOT(hate) computer, NOT(hate) film, and
+I NOT(hate) music, I know emulation community since MAME v0.33 (I count the
+time with the MAME version), but this is the first time that I'm doing
+something in emulation comunity, hope this is start of more long
+"contribute" in this beautiful world of emulation.........................
+:-). Ok Ok I like science fiction (Star Wars, Star Trek, etc.), and my dream
+is to see every system emulated one day.
+
+I'm study at University, and I'm just learn Turbo Pascel, and now I'm start
+learnig ANSI C. For real I'm alredy do same DAT for personal use, and I
+share this with Logiqx and Feysoft (?), but I consider that DAT like an
+exception of  the rule.
+
+For now I think this is enough, end excuse me for my bad English, hope you
+can understand.
+
+Andrea
+
+Asunto: [TeamLogiqx] Where is the ZIP with updated MAME dat? (nt)
+Fecha: Tue, 3 Sep 2002 01:04:52 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+
+
+Asunto: Re: [TeamLogiqx] Where is the ZIP with updated MAME dat? (nt)
+Fecha: Tue, 3 Sep 2002 06:30:03 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+The original archive that was created for Team members:
+
+www.logiqx.com/Team/logiqx_dats.zip
+
+----- Original Message -----
+From: "Dr.Zer0" <dr.zer0@libero.it>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, September 03, 2002 12:04 AM
+Subject: [TeamLogiqx] Where is the ZIP with updated MAME dat? (nt)
+
+Asunto: [TeamLogiqx] Sorry Logiqx, I haven't see inside Multi, but one question ?
+Fecha: Tue, 3 Sep 2002 11:36:53 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Why in "\Dats\Recent" there are the .DAT for MAME v0.55 and v0.56, these
+.DAT have trick me !
+
+----- Original Message -----
+From: "Logiqx" <logiqx@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, September 03, 2002 7:30 AM
+Subject: Re: [TeamLogiqx] Where is the ZIP with updated MAME dat? (nt)
+
+> The original archive that was created for Team members:
+>
+> www.logiqx.com/Team/logiqx_dats.zip
+>
+> ----- Original Message -----
+> From: "Dr.Zer0" <dr.zer0@libero.it>
+> To: <teamlogiqx@emuverse.com>
+> Sent: Tuesday, September 03, 2002 12:04 AM
+> Subject: [TeamLogiqx] Where is the ZIP with updated MAME dat? (nt)
+>
+>
+>
+
+Asunto: RE: [TeamLogiqx] Sorry Logiqx, I haven't see inside Multi, but one question ?
+Fecha: Tue, 3 Sep 2002 11:45:54 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+So that the makefile can generate the MAME changes and diff dats
+automatically. ;)
+
+-----Original Message-----
+From: majordomo-owner@emuverse.com
+[mailto:majordomo-owner@emuverse.com]On Behalf Of Dr.Zer0
+Sent: 03 September 2002 10:37
+To: teamlogiqx@emuverse.com
+Subject: [TeamLogiqx] Sorry Logiqx, I haven't see inside Multi, but one
+question ?
+
+Why in "\Dats\Recent" there are the .DAT for MAME v0.55 and v0.56, these
+.DAT have trick me !
+
+----- Original Message -----
+From: "Logiqx" <logiqx@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, September 03, 2002 7:30 AM
+Subject: Re: [TeamLogiqx] Where is the ZIP with updated MAME dat? (nt)
+
+> The original archive that was created for Team members:
+>
+> www.logiqx.com/Team/logiqx_dats.zip
+>
+> ----- Original Message -----
+> From: "Dr.Zer0" <dr.zer0@libero.it>
+> To: <teamlogiqx@emuverse.com>
+> Sent: Tuesday, September 03, 2002 12:04 AM
+> Subject: [TeamLogiqx] Where is the ZIP with updated MAME dat? (nt)
+>
+>
+>
+
+Asunto: [TeamLogiqx] Onother question (Again) ?
+Fecha: Tue, 3 Sep 2002 13:28:22 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Why I may want generate "Changes" and "diff" file from MAME v0.55 and v0.56
+? when we are at version 0.61.
+
+I may want generate "Changes" and "diff" between MAME v0.60 and v0.61,
+correct me if I wrong (I wrong for sure :-)).
+
+----- Original Message -----
+From: "Logiqx" <logiqx@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, September 03, 2002 12:45 PM
+Subject: RE: [TeamLogiqx] Sorry Logiqx, I haven't see inside Multi, but one
+question ?
+
+> So that the makefile can generate the MAME changes and diff dats
+> automatically. ;)
+>
+> -----Original Message-----
+> From: majordomo-owner@emuverse.com
+> [mailto:majordomo-owner@emuverse.com]On Behalf Of Dr.Zer0
+> Sent: 03 September 2002 10:37
+> To: teamlogiqx@emuverse.com
+> Subject: [TeamLogiqx] Sorry Logiqx, I haven't see inside Multi, but one
+> question ?
+>
+>
+> Why in "\Dats\Recent" there are the .DAT for MAME v0.55 and v0.56, these
+> .DAT have trick me !
+>
+> ----- Original Message -----
+> From: "Logiqx" <logiqx@logiqx.com>
+> To: <teamlogiqx@emuverse.com>
+> Sent: Tuesday, September 03, 2002 7:30 AM
+> Subject: Re: [TeamLogiqx] Where is the ZIP with updated MAME dat? (nt)
+>
+>
+> > The original archive that was created for Team members:
+> >
+> > www.logiqx.com/Team/logiqx_dats.zip
+> >
+> > ----- Original Message -----
+> > From: "Dr.Zer0" <dr.zer0@libero.it>
+> > To: <teamlogiqx@emuverse.com>
+> > Sent: Tuesday, September 03, 2002 12:04 AM
+> > Subject: [TeamLogiqx] Where is the ZIP with updated MAME dat? (nt)
+> >
+> >
+> >
+>
+>
+
+Asunto: RE: [TeamLogiqx] Onother question (Again) ?
+Fecha: Tue, 3 Sep 2002 13:28:58 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Sorry, I didn't give proper consideration to the version numbers you
+mentioned. I probably put them there once upon a time to look at something
+and never removed them again!
+
+-----Original Message-----
+From: majordomo-owner@emuverse.com
+[mailto:majordomo-owner@emuverse.com]On Behalf Of Dr.Zer0
+Sent: 03 September 2002 12:28
+To: teamlogiqx@emuverse.com
+Subject: [TeamLogiqx] Onother question (Again) ?
+
+Why I may want generate "Changes" and "diff" file from MAME v0.55 and v0.56
+? when we are at version 0.61.
+
+I may want generate "Changes" and "diff" between MAME v0.60 and v0.61,
+correct me if I wrong (I wrong for sure :-)).
+
+----- Original Message -----
+From: "Logiqx" <logiqx@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, September 03, 2002 12:45 PM
+Subject: RE: [TeamLogiqx] Sorry Logiqx, I haven't see inside Multi, but one
+question ?
+
+> So that the makefile can generate the MAME changes and diff dats
+> automatically. ;)
+>
+> -----Original Message-----
+> From: majordomo-owner@emuverse.com
+> [mailto:majordomo-owner@emuverse.com]On Behalf Of Dr.Zer0
+> Sent: 03 September 2002 10:37
+> To: teamlogiqx@emuverse.com
+> Subject: [TeamLogiqx] Sorry Logiqx, I haven't see inside Multi, but one
+> question ?
+>
+>
+> Why in "\Dats\Recent" there are the .DAT for MAME v0.55 and v0.56, these
+> .DAT have trick me !
+>
+> ----- Original Message -----
+> From: "Logiqx" <logiqx@logiqx.com>
+> To: <teamlogiqx@emuverse.com>
+> Sent: Tuesday, September 03, 2002 7:30 AM
+> Subject: Re: [TeamLogiqx] Where is the ZIP with updated MAME dat? (nt)
+>
+>
+> > The original archive that was created for Team members:
+> >
+> > www.logiqx.com/Team/logiqx_dats.zip
+> >
+> > ----- Original Message -----
+> > From: "Dr.Zer0" <dr.zer0@libero.it>
+> > To: <teamlogiqx@emuverse.com>
+> > Sent: Tuesday, September 03, 2002 12:04 AM
+> > Subject: [TeamLogiqx] Where is the ZIP with updated MAME dat? (nt)
+> >
+> >
+> >
+>
+>
+
+Asunto: Re: [TeamLogiqx] RE: Welcome... time for introductions!
+Fecha: Tue, 03 Sep 2002 22:40:17 +0000
+De: "Haukur K. Bragason" <haukur@mail.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hello all.
+
+Nice to witness this list come alive :)
+
+I'm 33 years old and live in Iceland.  For the last 5 years I have mostly
+been working as a programmer.  Before that time I was studying Computer
+Science at The Unuversity of Iceland.  Started working before I completed
+my B.S. degree.  And finally now I am planning to finish it this winter
+while working only half time (if this isn't luxury :)
+
+The timezone in Iceland is GMT all year round.  This is like us having
+summertime all year round, which I think is fine.  Currently I am working
+at The National and University Library of Iceland on projects that handle
+digitization of old material and digital preservation of the same material
+and also new material that only exists digitally.
+
+I have more hobbies than I have time to tackle.  Have been singing in a
+choir for a few years and like it a lot.  Keeps me from working overtime
+two nights a week :)  Also I like traveling and caving.  Have a tendency
+for collecting.  Don't know if it is obsessive as with PI :)  And then
+I like music alot.  And it seems I have some things in common with Pi
+as Mike Oldfield and Jean Michelle Jarre are two of my many favorites.
+
+Then I like reading books.  And rather than writing my own books I often
+like to write programs in my spare time.  I have never bothered carrying
+a camera until recently when I bought a digital one which might become
+a new hobby.
+
+Computer games are always a good way to relax.  My first experince with them
+was playing MsPacman.  And my first computer, a Sinclair Spectrum 48K was
+a great playground.  My first experience of emulation was actually
+downloading a Spectrum emulator.
+
+If you think this introduction is getting a bit long then I can also tell
+you that once in a while I dive into the field of genealogy or read
+philosophy so I can whole hartedly tell you that this has been a short
+introduction :)
+
+It seems as I have forgotten to mention my name! which is Haukur Kristofer
+Bragason.  I ask you to please keep my real name away from the world
+outside this list.  LostClown is my official nick :)
+
+I have downloaded the two zips previously mention on the list, but will
+probably be to busy to look seriously into them for the next few days.
+
+Best regards,
+LostClown
+
+Asunto: Re: [TeamLogiqx] RE: Welcome... time for introductions!
+Fecha: Tue, 3 Sep 2002 18:17:36 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey everyone,
+
+My name is Rob.  You may remember me during my brief season as a news poster
+for CAESAR and arcade dat list manager for RomCenter (before the page was
+automated), and as the past and present maintainer of the MAME artwork and
+samples datfiles.  I'm a 33 year old Canadian, currently struggling my way
+through a degree in Computer Engineering.  I have been a devotee of MAME and
+emulation for about 3 years and believe that the hundreds (thousands?) of
+hours of fun I have drawn from the efforts of so many brilliant and inspired
+people should be repaid with whatever of my efforts I can provide.
+
+> And it seems I have some things in common with Pi
+> as Mike Oldfield and Jean Michelle Jarre are two of my many favorites.
+
+Then that makes 3 of us. :)
+
+> Computer games are always a good way to relax.
+
+I have loved video and computer games since I gazed upon my first Pong
+machine during a family trip to the US in 1974.  Even at the tender age of
+5, I knew that this was a watershed moment in history.
+
+> I ask you to please keep my real name away from the world
+> outside this list.  LostClown is my official nick :)
+
+No problem, although Haukur is a very cool sounding name. :)
+
+> I have downloaded the two zips previously mention on the list, but will
+> probably be to busy to look seriously into them for the next few days.
+
+I'm new to the list, so I only have a link to logiqx_dats.zip - could
+someone please send a link to the other file?  Thank you.  I have yet to
+play around with Roman's Dir2Dat functionality.  Any comments about this vs.
+DatUtil?
+
+I look forward to knowing and working with you all.  My programming skills
+are not yet developed, but I am keen to learn.  So who else is involved,
+aside from Haukur, Mike, Pi (what IS your name?) and myself?
+
+Talk to you soon,
+Rob
+
+Asunto: [TeamLogiqx] Introduction
+Fecha: Wed, 4 Sep 2002 09:23:55 +0200
+De: "Pavel" <pavel@press-sense.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey everyone !
+My name is Pavel.I don't think somebody from this list know me,I was never
+involved in
+any emulation activity.I'm 17 year old from Israel .
+My hobbies are emulation,computer games,chess,tennis,a little ping pong here
+and there.
+Favorite retro game is Space Invaders,cause it's the ONLY arcade game i'm
+good in.
+I don't use Mame as much as i want to,more standalone emulators like
+Kawaks,Gens,Pj64,Zsnes.
+Mostly console emus and new arcade .
+Cps2 is the only system i *try* to collect all roms for...i'm bad collector
+:)
+I have some basic knowledge of C and some windows Api programming,and good
+knowledge of some Web related things,Html,Javascript,VBscript,PHP,Mysql.I'm
+working part time in small web developing company as programmer.
+What else ?
+I hope i will learn something from the project and contribute something to
+it.
+Best wishes to all people in the team :)
+Ah,almost forgot,my nick is Shadowpri.Sorry for bad english.
+
+
+Asunto: RE: [TeamLogiqx] RE: Welcome... time for introductions!
+Fecha: Wed, 4 Sep 2002 10:06:32 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>Then that makes 3 of us. :)
+
+Me too. Let's call the list 'The JMJ and MO appreciation group', lol. :)
+
+Mike
+
+Asunto: RE: [TeamLogiqx] RE: Welcome... time for introductions!
+Fecha: Wed, 4 Sep 2002 10:15:54 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>I'm new to the list, so I only have a link to logiqx_dats.zip - could
+>someone please send a link to the other file?  Thank you.  I have yet to
+
+I've just put a quick index page up. Use this URL:
+
+http://www.logiqx.com/Team
+
+Mike
+
+Asunto: Re: [TeamLogiqx] RE: Welcome... time for introductions!
+Fecha: Thu, 05 Sep 2002 00:34:12 +0000
+De: LostClown <haukur@mail.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+At 3.9.2002 23:17, you wrote:
+> > I ask you to please keep my real name away from the world
+> > outside this list.  LostClown is my official nick :)
+>
+>No problem, although Haukur is a very cool sounding name. :)
+
+Thank you.  Yes, of course it's cool :)
+But wait 'till your hear it pronounced!
+
+Regards,
+Haukur, the LostClwon
+
+Asunto: RE: [TeamLogiqx] RE: Welcome... time for introductions!
+Fecha: Thu, 05 Sep 2002 00:37:12 +0000
+De: LostClown <haukur@mail.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+At 4.9.2002 09:06, you wrote:
+> >Then that makes 3 of us. :)
+>
+>Me too. Let's call the list 'The JMJ and MO appreciation group', lol. :)
+
+LOL.
+I like this!
+
+LostClown
+
+Asunto: [TeamLogiqx] Investigating dats to update
+Fecha: Thu, 5 Sep 2002 09:31:07 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+How is this going Pi? I've written the CGI scripts needed for uploading so
+once the 'need to update' list is ready, work can begin.
+
+Mike
+
+Asunto: [TeamLogiqx] Are you there Robin?
+Fecha: Thu, 5 Sep 2002 09:33:56 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Not heard from you since you joined the list. Perhaps you are on holiday or
+something?
+
+Hopefully we'll soon be in a position to start uploading stuff, at which
+point you will be able to help out.
+
+Mike
+
+Asunto: [TeamLogiqx] I'm back! Here's the list
+Fecha: Thu, 05 Sep 2002 16:40:26 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi everyone, again.
+
+Apologies for being late. I've been the last 2 days without
+phone, I'm on dial up so basically I couldn't do anything. Not
+even able to connect from a friend's puter to say "I'm off" due
+to some bad coincidences.
+
+Well I've placed a list of emus at
+http://caesar.logiqx.com/team/pi/emulist4dat.xls (16kb). If
+anyone can't read Excel files (you can import them in Word for
+example) don't worry as I'll htmlize it later. It contains the
+emus, where to download them (for the ones with weak bookmarks),
+the current version, and the last dat made by Logiqx for that
+emu.
+
+For Mike, there is a list of emus which I consider might be added
+to the "older emus" package cause they are old. Covered with
+spiderwebs and dust. Old. I'd call the package "emu geriatric"
+but I guess Mike will not like it :)
+
+Also there is a list of when the last system dats were updated,
+but I guess no one will want to touch those until familiar with
+the rest of the dat making. That's all in the excel file.
+
+For some more dats, head to
+http://caesar.logiqx.com/team/pi/dats.html or
+http://www.clrmame.com and finally the FBA dats are at
+http://caesar.logiqx.com/team/pi/dats/fba_dats.zip (70kb) and
+were done and sent by TrebleWinner (one of the FBA team).
+
+Probably later I will receive some notes from Logiqx so the list
+will be updated again. I'll then htmlize it and post again for
+every update at a fixed URL.
+
+For Mike: I've received a note from Phil, he sent the
+authorization, but he is not in the list. Maybe the others also
+signed in but it didn't work. Could you please resend the
+invitations to join the list?
+
+For Rob: Good to have here someone with good taste in music and
+in news posters :) One of these days I will want to brag about it
+and show you one of my fan emails (Mike saw it already).
+Curiosity killed the cat, but since you're not a cat, my real
+(and private) name is Juan Miguel. No one calls me Juan except my
+family. My friends and the rest of the world know me as Pi.
+
+For the rest: GREAT!
+
+(If you haven't noted it yet, I'm a MAMETesters member, since a
+week or so. Forgot to mention it in my introduction. Being a
+MAMETesters is something great to have in your curriculum vitae.)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+Asunto: [TeamLogiqx] New list
+Fecha: Fri, 06 Sep 2002 00:06:49 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+http://caesar.logiqx.com/team/pi/emulist.html
+
+Htmlized in 1 minute - if anyone doesn't see it well pls tell me.
+In future updates it will have a "last updated" header so you
+know what are you looking at.
+
+Team Logiqx RUL3Z!
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+Asunto: [TeamLogiqx] Ok I got this !!!
+Fecha: Fri, 6 Sep 2002 00:14:42 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+----- Original Message -----
+From: "Pi" <pi@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Friday, September 06, 2002 12:06 AM
+Subject: [TeamLogiqx] New list
+
+> http://caesar.logiqx.com/team/pi/emulist.html
+>
+> Htmlized in 1 minute - if anyone doesn't see it well pls tell me.
+> In future updates it will have a "last updated" header so you
+> know what are you looking at.
+>
+> Team Logiqx RUL3Z!
+>
+> --
+> Pi - News Poster at CAESAR
+> http://caesar.logiqx.com
+>
+>
+
+Asunto: Re: [TeamLogiqx] I'm back! Here's the list
+Fecha: Thu, 5 Sep 2002 23:43:26 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Okay, I'm finally back home but it's late and I'm tired so I haven't time to
+read this fully tonight.
+
+However, please don't start any emulator dats until I give tips as to the
+best way to do them. Each one has useful tricks to save time and ensure
+accuracy so I don't want anyone to waste their time (or mine in checking the
+results).
+
+What I really want first is for people to gather together the resource dats
+that are already available, package them up, do the XML and release them.
+This means that half of the task of releasing stuff is learnt before the
+complication of creating dats as well. We'll start creating dats when the
+resources are up on the website (people can say 'i want to do xxx' and I'll
+give useful tips before they start).
+
+Anyway, time for bed as I am shattered...
+
+Mike
+
+----- Original Message -----
+From: "Pi" <pi@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, September 05, 2002 3:40 PM
+Subject: [TeamLogiqx] I'm back! Here's the list
+
+> Hi everyone, again.
+>
+> Apologies for being late. I've been the last 2 days without
+> phone, I'm on dial up so basically I couldn't do anything. Not
+> even able to connect from a friend's puter to say "I'm off" due
+> to some bad coincidences.
+>
+> Well I've placed a list of emus at
+> http://caesar.logiqx.com/team/pi/emulist4dat.xls (16kb). If
+> anyone can't read Excel files (you can import them in Word for
+> example) don't worry as I'll htmlize it later. It contains the
+> emus, where to download them (for the ones with weak bookmarks),
+> the current version, and the last dat made by Logiqx for that
+> emu.
+>
+> For Mike, there is a list of emus which I consider might be added
+> to the "older emus" package cause they are old. Covered with
+> spiderwebs and dust. Old. I'd call the package "emu geriatric"
+> but I guess Mike will not like it :)
+>
+> Also there is a list of when the last system dats were updated,
+> but I guess no one will want to touch those until familiar with
+> the rest of the dat making. That's all in the excel file.
+>
+> For some more dats, head to
+> http://caesar.logiqx.com/team/pi/dats.html or
+> http://www.clrmame.com and finally the FBA dats are at
+> http://caesar.logiqx.com/team/pi/dats/fba_dats.zip (70kb) and
+> were done and sent by TrebleWinner (one of the FBA team).
+>
+> Probably later I will receive some notes from Logiqx so the list
+> will be updated again. I'll then htmlize it and post again for
+> every update at a fixed URL.
+>
+> For Mike: I've received a note from Phil, he sent the
+> authorization, but he is not in the list. Maybe the others also
+> signed in but it didn't work. Could you please resend the
+> invitations to join the list?
+>
+> For Rob: Good to have here someone with good taste in music and
+> in news posters :) One of these days I will want to brag about it
+> and show you one of my fan emails (Mike saw it already).
+> Curiosity killed the cat, but since you're not a cat, my real
+> (and private) name is Juan Miguel. No one calls me Juan except my
+> family. My friends and the rest of the world know me as Pi.
+>
+> For the rest: GREAT!
+>
+> (If you haven't noted it yet, I'm a MAMETesters member, since a
+> week or so. Forgot to mention it in my introduction. Being a
+> MAMETesters is something great to have in your curriculum vitae.)
+>
+> --
+> Pi - News Poster at CAESAR
+> http://caesar.logiqx.com
+>
+>
+
+Asunto: [TeamLogiqx] Unofficial Emulist Update :-)
+Fecha: Fri, 6 Sep 2002 01:10:37 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+This update to Emulist make by Pi, transform the URL to the emulator WEB
+site, in REAL link, so you can Bookmark, and Navigate trough in with less
+problem.
+
+Hope this can help someone.
+
+http://digilander.libero.it/the_mad_doctor/teamlogiqx/emulist%20(real%20link).html.
+
+Dr.Zer0
+
+Asunto: [TeamLogiqx] List
+Fecha: Fri, 06 Sep 2002 19:35:33 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Updated http://caesar.logiqx.com/team/pi/emulist.html
+
+(another 1-minute htmlization)
+Now I realize two things I've not mentioned:
+* There is an updated CPS2 dat done by Raz only, at cps2shock.
+* There are no links for the old emus, I'll fix them in the next
+one-minute update of the list.
+
+:-p
+
+Q for Logiqx: What do we do with JAE? Cause JAE is at CAESAR,
+right?
+
+Did *everyone* read Logiqx's FAQs about dat making?????
+
+Now I'm going to search the missing members of the list and then
+prolly go out for some LOTR.
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+Asunto: Re: [TeamLogiqx] List
+Fecha: Fri, 6 Sep 2002 21:59:21 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Q for Logiqx: What do we do with JAE? Cause JAE is at CAESAR,
+> right?
+
+There is a dat (for CAESAR) but it never got released publically. I have a
+feeling there were some funny things about it so I didn't want to release it
+publically at that point. ;)
+
+Mike
+
+Asunto: [TeamLogiqx] Digest
+Fecha: Sat, 07 Sep 2002 11:44:33 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+http://caesar.logiqx.com/team/pi/teamlogixdigest.txt
+
+I'm just testing how would it look in digest mode. I don't know
+if the list offers this capability so I made one. I will make
+another one when everyone is in the list (hi Metroid, can you
+introduce yourself?)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+Asunto: Re: [TeamLogiqx] Digest
+Fecha: Sat, 7 Sep 2002 11:31:41 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Cool.
+
+----- Original Message -----
+From: "Pi" <pi@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Saturday, September 07, 2002 10:44 AM
+Subject: [TeamLogiqx] Digest
+
+> http://caesar.logiqx.com/team/pi/teamlogixdigest.txt
+>
+> I'm just testing how would it look in digest mode. I don't know
+> if the list offers this capability so I made one. I will make
+> another one when everyone is in the list (hi Metroid, can you
+> introduce yourself?)
+>
+> --
+> Pi - News Poster at CAESAR
+> http://caesar.logiqx.com
+>
+>
+
+Asunto: [TeamLogiqx] Everyone is now present!
+Fecha: Mon, 9 Sep 2002 09:25:37 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Great, everyone is here now.
+
+For anyone that missed the posts made last week, Pi has provided a digest
+for you:
+
+http://caesar.logiqx.com/team/pi/teamlogixdigest.txt
+
+Could those that haven't yet introduced themselves please do so. :)
+
+Mike
+
+Asunto: [TeamLogiqx] ROM Comparison
+Fecha: Mon, 9 Sep 2002 10:10:44 +0100
+De: "Michael George" <michael.george@clarityblue.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hmmm. I can't mail Leslaw directly so I may as well put this out on the
+list...
+
+-----Original Message-----
+From: Logiqx [mailto:logiqx@logiqx.com]
+Sent: 09 September 2002 09:34
+To: Leslaw Skrzypek
+Subject: RE: Re[2]: Fw: Returned mail: see transcript for details]
+
+>Hmm, I sure you had have realized that saying this I had to ask you to send
+me
+>this dat (or even better this starcas rom - it's only 4kb).
+
+http://www.logiqx.com/Team
+
+>What about these junoboot rom for JunoFirst emulator, astorm for
+>System 16, or m4 for Sideway.
+
+I haven't pursued them as I am too busy to worry about such things. ;)
+
+>(I have some other roms for m4 (4 roms - different crc), and astorm
+>(though it has been changed many times in mame) (it consists some -
+>strange sized rom - pal's rom or sth) ). I need to take a look at it.
+>Do you want me to send this to you?
+
+Try 'romcmp -d old.zip new.zip' to fathom out what is different or whether
+the old ROM is bad.
+
+I need to skill other people up in this area so if you want to discuss such
+things then the list is a good place. ;)
+
+Mike
+
+Asunto: RE: [TeamLogiqx] ROM Comparison
+Fecha: Mon, 9 Sep 2002 10:26:01 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Can you all delete that last e-mail from me please. I don't want my work
+address accidentally getting passed around. The message text is below, so
+that you have a record of it's content. Dumb Microsoft software to blame!
+
+Mike
+
+Original:
+
+Hmmm. I can't mail Leslaw directly so I may as well put this out on the
+list...
+
+-----Original Message-----
+From: Logiqx [mailto:logiqx@logiqx.com]
+Sent: 09 September 2002 09:34
+To: Leslaw Skrzypek
+Subject: RE: Re[2]: Fw: Returned mail: see transcript for details]
+
+>Hmm, I sure you had have realized that saying this I had to ask you to send
+me
+>this dat (or even better this starcas rom - it's only 4kb).
+
+http://www.logiqx.com/Team
+
+>What about these junoboot rom for JunoFirst emulator, astorm for
+>System 16, or m4 for Sideway.
+
+I haven't pursued them as I am too busy to worry about such things. ;)
+
+>(I have some other roms for m4 (4 roms - different crc), and astorm
+>(though it has been changed many times in mame) (it consists some -
+>strange sized rom - pal's rom or sth) ). I need to take a look at it.
+>Do you want me to send this to you?
+
+Try 'romcmp -d old.zip new.zip' to fathom out what is different or whether
+the old ROM is bad.
+
+I need to skill other people up in this area so if you want to discuss such
+things then the list is a good place. ;)
+
+Mike
+
+Asunto: [TeamLogiqx] Leslaw (SLA)
+Fecha: Mon, 9 Sep 2002 14:23:40 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+Hi guys,
+
+Not so much time, but i will help you as much as I can.
+I am writing from my work address. So please don't give it out.
+(You can reach me also at audiomaniak@poczta.onet.pl).
+
+I am mathematician.
+I am polish.
+
+I like music of 70's 80's.
+I like Robotron 2084. I have working PCB but I am missing the original
+wooden box, still try to find one.
+
+BTW: I can set up ftp for use of our group.
+
+SLA
+
+(Leslaw)
+
+--
+SLA
+
+Asunto: Re[2]: [TeamLogiqx] ROM Comparison
+Fecha: Mon, 9 Sep 2002 15:27:13 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+>>Hmm, I sure you had have realized that saying this I had to ask you to
+send
+L> me
+>>this dat (or even better this starcas rom - it's only 4kb).
+
+L> http://www.logiqx.com/Team
+
+yeah, i have checked the dat - you have just changed the config of
+this emu. It's a kind of bypass the problem.
+I am pretty sure there is rom of starcas containing menu.e, menu.o
+though.
+
+>>What about these junoboot rom for JunoFirst emulator, astorm for
+>>System 16, or m4 for Sideway.
+
+L> I haven't pursued them as I am too busy to worry about such things. ;)
+
+I think we can try to find it in spare time ;).
+I am sure some people have a vast colections of roms, (I still have
+old CD's with old roms).
+
+>>(I have some other roms for m4 (4 roms - different crc), and astorm
+>>(though it has been changed many times in mame) (it consists some -
+>>strange sized rom - pal's rom or sth) ). I need to take a look at it.
+>>Do you want me to send this to you?
+
+L> Try 'romcmp -d old.zip new.zip' to fathom out what is different or
+whether
+L> the old ROM is bad.
+
+L> I need to skill other people up in this area so if you want to discuss
+such
+L> things then the list is a good place. ;)
+
+Great,
+Here what i have done:
+First i have put all my old CD's into hardrive, then using datutil i
+have created dat for each CD!!!.
+Then i have left on my HD only dats.
+
+Then there is rominfo, It could find a desired crc in dats.
+
+I have created dats for MAME:
+version: 0.29,0.30,0.31,0.33,0.34final, break, 0.35b01 all till 0.61.
+I have missing 0.34b01 and so on dats because mame don't have
+-listinfo supported, dat for 0.30 and 0.31 was created by Ben-Jos and
+checked by me and 0.29 i have created by myself.
+i thought of creating a database of roms released (now, and in the
+past) - this will be an easy way to recognize roms.
+Anyone interested?
+
+That's why i knew which roms have been changed.
+
+So what we're going to do now?
+Is there a list "what to do" or sth?
+
+Leslaw
+
+--
+SLA
+
+Asunto: [TeamLogiqx] About Astorm
+Fecha: Mon, 9 Sep 2002 15:52:42 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I work with a dat for system16 arcade emulator an year or so ago, and I have
+same problem with "Alien Storm" ROMs, I search this ROMs all around the net
+:-) (I'm search for i it "alot"), but at the end I realize that this ROMs in
+a sort of memory dump related to "Speech Emulation", I think that the only
+way to find out that ROMs is to contact the author directly.
+
+I don't know if you alredy know this, but this is what I know !
+
+Dr.Zer0
+
+Asunto: Re: [TeamLogiqx] ROM Comparison
+Fecha: Mon, 09 Sep 2002 16:01:29 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Leslaw Skrzypek ha escrito:
+
+> So what we're going to do now?
+> Is there a list "what to do" or sth?
+
+We are waiting for Logiqx to have some little time to give us directions on
+each
+dat and how to use his "tools" on helping with the task. Well, the others. I
+don't
+do dats (just in case there is some confusion on that, I DON'T).
+
+The to-do list is at http://caesar.logiqx.com/team/pi/emulist.html
+I've updated it today and added some eye-candy as a reward for the team :)
+
+Btw welcome to the list/team :)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+Asunto: RE: Re[2]: [TeamLogiqx] ROM Comparison
+Fecha: Mon, 9 Sep 2002 15:01:37 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>yeah, i have checked the dat - you have just changed the config of
+>this emu. It's a kind of bypass the problem.
+
+No. I spoke to the author and he made a mistake. He was trying to create a
+Cinematronics multi system and was using the emulator to test it (the Star
+Castle driver to be precise). He simply forgot to put the driver back to how
+it should be before releasing an update to his emulator.
+
+>>What about these junoboot rom for JunoFirst emulator, astorm for
+>>System 16, or m4 for Sideway.
+>I think we can try to find it in spare time ;).
+
+You won't find the Juno Boot ROMs because I know the Chris Hardy personally
+(met in the flesh several times) and he is the only one with them. The other
+Sideway ROMs are a mistake (I spoke to the author) and I suspect the astorm
+problem was something Thierry did while experimenting (no real ROM for it
+maybe).
+
+L> Try 'romcmp -d old.zip new.zip' to fathom out what is different or
+whether
+L> the old ROM is bad.
+>That's why i knew which roms have been changed.
+
+Don't rely on just CRCs to compare ROMs... use ROMCMP and you'll gain an
+understanding of why they have changed (byte swapping, overdumps,
+underdumps, stuck bits, interleaving, etc). CRCs are good for catalogues but
+bad for comparisons. ;)
+
+>Is there a list "what to do" or sth?
+
+First task is to get my site up to date with things like resource dats
+(flyers, snaps, samples, artwork, marquees, etc). This means that people can
+practice the business of packaging things up and updating the XML pages.
+Once everyone can do this I'll start explaining how I update the various
+dats with a view to people being able to do it themselves. I don't want to
+say 'just do them' without exlpaining things as there is more to it than
+just typing in what the updater thinks is right (and it almost always
+avoiding use of DatUtil or CMPro to generate a dat). ;) When I get a chance
+(hopefully later this week) I will go over MAME and CPS-2. Both of these
+have hugely far reaching consequences for CAESAR and other emulators but
+I'll explain it a bit at a time or the whole thing will overload everyone!
+
+Mike
+
+Asunto: [TeamLogiqx] Dats
+Fecha: Mon, 9 Sep 2002 16:08:16 +0200
+De: Leslaw <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+A few questions about dats:
+
+First:
+Mame 0.61 (very easy to do, "mame -listinfo > mame.txt" then Datutil
+"datutil -f listinfo mame.txt"  and Mamediff (let say splitted roms)
+"mamediff -S mame60.dat mame61.dat). (I have done it)
+WinKawaks 1.45, it has built-in "clrmame" dat generation,
+FinalBurn 2.9.3 also has built-in "clrmame" dat generation,
+Nebula 2.19b has built-in Romcenter dat generation, use datutil
+"datutil -f listinfo nebula_romcenter.dat", the author says the dat
+genereration is fixed now, but Logiqx has put info in his dats that
+this generation is not accurate, one has to check it - how? Some
+script or so?
+
+So anyway, i have all the dats above - no problems for them - i have
+sent them to Mike (Logiqx) a week ago I can post it here.
+The case is: Do we somehow validate the automatic genereated dats?
+If yes how? By running each game one by one?
+
+Best;
+SLA
+
+--
+SLA
+
+Asunto: RE: [TeamLogiqx] ROM Comparison
+Fecha: Mon, 9 Sep 2002 15:15:00 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>I've updated it today and added some eye-candy as a reward for the team :)
+
+Hey, that's a great way to encourage people to check what needs doing! :)
+
+Mike
+
+Asunto: Re[2]: [TeamLogiqx] ROM Comparison
+Fecha: Mon, 9 Sep 2002 16:23:45 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+>>I've updated it today and added some eye-candy as a reward for the team :)
+
+L> Hey, that's a great way to encourage people to check what needs doing! :)
+
+yup, nice - can i get a jpg?
+
+Les
+
+--
+SLA
+
+Asunto: [TeamLogiqx] Explanation of MAME, Kawaks, Nebula, FB/FBA
+Fecha: Mon, 9 Sep 2002 15:44:00 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Patience young Padawan.
+
+>Mame 0.61 (very easy to do, "mame -listinfo > mame.txt" then Datutil
+>"datutil -f listinfo mame.txt"
+
+Then load into CMPro with error checking on and remove all duplicates that
+are reported.
+
+I won't go into the CAESAR stuff now as that is very involved (games in
+other emulators need remapping to the new names when MAME uses, bad dumps
+need identifying and fixing in old emus, ROMCmp support often needs creating
+when MAME splits/joins/interleaves ROMs). All this is reported by stuff I
+have written at the back of CAESAR. This won't be explained for months
+though! Just keep in the back of your mind that such things do get done.
+
+I updated all that lot on the day that the last MAME came out but never got
+a chance to upload it.
+
+>and Mamediff (let say splitted roms)
+>"mamediff -S mame60.dat mame61.dat). (I have done it)
+
+Yes, but it is done automatically with makefiles. Download the
+'loqiqx_dats.zip' and you will see that everything is automated. Changing
+the version number of MAME also regenerates the 'supplement' dats for all of
+the emulators such as Nebula, Kawaks, RANIE , etc.
+
+>WinKawaks 1.45, it has built-in "clrmame" dat generation,
+
+We need the year and manufacturer in our dats (for CAESAR and CMPro report
+window). However, Kawaks is good in that he is very thorough checking his
+ROM details. In the first few releases of his emulator I helped him out a
+bit and explained dat generation (how merging should be specified etc) but
+since then he hasn't really made any mistakes.
+
+The way to create the Kawaks dat is to do a MAMEDiff between the emulator
+dat and the last Logiqx dat. Differences should be incorporated into the
+Logiqx dat but I don't simply copy from the Kawaks dat. I copy the details
+from another source (CPS-2 dat, MAME dat or something) and that way I spot
+if he has made errors (I do a MAMEDiff between his dat and my dat). I report
+errors to him and then alter my dat to be correct for the emulator.
+
+The supplement dats are handled by the makefile. If the Kawaks dat or MAME
+dat changes then the Kawaks supplements are re-generated automatically. I
+load them into CMPro and scan my ROMs to determine if anything has changed.
+
+>FinalBurn 2.9.3 also has built-in "clrmame" dat generation,
+
+I don't think FB has year or manufacturer though. I added them to FBA but I
+think the original still lacks them (apologies if 2.9.3 is FBA but I don't
+know... I am not up to date at the moment). I use a very similar process to
+the Kawaks dat updates when updating FB. For FBA I use their dat 100% and
+the makefile generates the supplement dats.
+
+>Nebula 2.19b has built-in Romcenter dat generation, use datutil
+>"datutil -f listinfo nebula_romcenter.dat", the author says the dat
+>genereration is fixed now, but Logiqx has put info in his dats that
+>this generation is not accurate, one has to check it - how? Some
+>script or so?
+
+Prior to my disappearance from public view, the dat generation in Nebula was
+not using the driver information. It was simply a huge number of printf
+statements in his code (basically)! He may have changed it to use the
+drivers now but it will be simple to figure out if he has. In
+logiqx_dats.zip, inside Dats/Recent/Multi/Nebula you will find a cmoparison
+script that I have been using to check my dat is correct based on the
+drivers. Use a modified version to compare his generated dat with the
+drivers that created it. The original script was this:
+
+cmp.bat
+=======
+
+@echo off
+
+sh cmp.sh
+
+datutil -m all.txt
+
+mamediff -v datutil.dat Nebula*.dat
+grep -v "already in MAME" mamediff.log >tmp.log
+gvim tmp.log
+
+rm all.txt tmp.log datutil.log mamediff.dat mamediff.log
+
+mamediff -S -t Nebula*.dat datutil.dat
+gvim mamediff.dat
+
+rm datutil.dat mamediff.dat mamediff.log
+
+cmp.sh
+======
+
+>all.txt
+
+for i in CPS* cps* neo*
+do
+        cat $i >>all.txt
+        echo >>all.txt
+        echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% >>all.txt
+done
+
+Use a similar script to compare his data against his drivers. If it checks
+out then we can start using the WinKawaks method to update our Nebula dat
+(i.e. incorporate changes by hand so that mistakes can be spotted). The 'by
+hand' process is also important as it helped me recognise new games that
+weren't yet in CAESAR (CPS-2, Neo-Geo etc).
+
+Of course, the way to check that a Nebula dat really works is to run the ROM
+checknig routines in the emulator (all should be green). If anyone ever
+tried to use the 'incorrect' dats that Nebula itself generated they would
+have got many red gamed (trust me, I tried it). I do this test for both the
+full Nebula dat and supplementary dats.
+
+>The case is: Do we somehow validate the automatic genereated dats?
+>If yes how? By running each game one by one?
+
+As you can see from my explanations, I use the generated dats to see what
+has changed in the emulators (I normally check the release notes too) then
+add the details that I believe are correct for these games into my dats. By
+comparing my dat to the auto generated dat I can tell if the emulator author
+has made any naming mistakes etc (almost always with Calice, sometimes with
+Nebula, rare with Kawaks).
+
+Hope this provides a little insight into things. These are the easy dats
+though... when there is no generated dat to play with, things get even more
+fun! :)
+
+Mike
+
+Asunto: [TeamLogiqx] Chloe
+Fecha: Mon, 09 Sep 2002 17:06:49 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Leslaw Skrzypek ha escrito:
+
+> >>I've updated it today and added some eye-candy as a reward for the team
+:)
+>
+> L> Hey, that's a great way to encourage people to check what needs doing!
+:)
+
+> yup, nice - can i get a jpg?
+
+Ok it's the ONLY time I'm going to do this.
+http://caesar.logiqx.com/team/pi/chloebig.jpg
+It's only one of my 850 pics (divided in 50 assorted galleries). Maybe not
+the
+most sexy but in this one she's specially beautiful. That's like 5 years
+ago?
+Before she became a cyberwhore, her DVD is crap.
+
+Don't think weird. I had to have some other hobby besides arcade! ;)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+Asunto: [TeamLogiqx] Nebula dat still wrong...
+Fecha: Mon, 9 Sep 2002 17:55:38 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>Prior to my disappearance from public view, the dat generation in Nebula
+was
+>not using the driver information. It was simply a huge number of printf
+>statements in his code (basically)! He may have changed it to use the
+>drivers now but it will be simple to figure out if he has. In
+
+Okay, my curiosity got the better of me so I spent five minutes downloading
+and checking Nebula!
+
+I scripted up the things needed to check Nebula's generated dat and it is
+incorrect. ElSemi is still not using the drivers to generate a dat...
+
+For the more techy of you who are interested in how I did the check, see the
+attached.
+
+- cmp.bat and cmp.sh do the checks
+
+- log1.txt shows errors in the generated dat:
+
+  i) All Neo-Geo clones miss the resource information
+  ii) Some games have incorrect merge information
+  iii) Some games have incorrect information
+
+  Ignore:
+
+  i) Ignore the 'games requiring additional roms' that don't list any.
+     This is a side effect of how the CPS-2 drivers don't list all parent
+ROMs.
+  ii) PGM games at the bottom (they don't have drivers so they can't be
+checked).
+
+- log2.txt shows ROMs mssnig from the Nebula generated dat
+
+Mike, a.k.a. the dat scripting God. lol.
+
+  -----------------------------------------------------------------
+                 Name: nebula.zip
+   nebula.zip    Type: Zip Compressed Data (application/x-zip-compressed)
+             Encoding: base64
+
+Asunto: RE: [TeamLogiqx] Nebula dat still wrong...
+Fecha: Mon, 9 Sep 2002 18:01:13 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Forgot to mention the CRC conflicts that DatUtil reported too (same rmo name
+in parent and clone but with a different CRC).
+
+Mike
+
+-----Original Message-----
+From: majordomo-owner@emuverse.com
+[mailto:majordomo-owner@emuverse.com]On Behalf Of Logiqx
+Sent: 09 September 2002 17:56
+To: teamlogiqx@emuverse.com
+Subject: [TeamLogiqx] Nebula dat still wrong...
+
+>Prior to my disappearance from public view, the dat generation in Nebula
+was
+>not using the driver information. It was simply a huge number of printf
+>statements in his code (basically)! He may have changed it to use the
+>drivers now but it will be simple to figure out if he has. In
+
+Okay, my curiosity got the better of me so I spent five minutes downloading
+and checking Nebula!
+
+I scripted up the things needed to check Nebula's generated dat and it is
+incorrect. ElSemi is still not using the drivers to generate a dat...
+
+For the more techy of you who are interested in how I did the check, see the
+attached.
+
+- cmp.bat and cmp.sh do the checks
+
+- log1.txt shows errors in the generated dat:
+
+  i) All Neo-Geo clones miss the resource information
+  ii) Some games have incorrect merge information
+  iii) Some games have incorrect information
+
+  Ignore:
+
+  i) Ignore the 'games requiring additional roms' that don't list any.
+     This is a side effect of how the CPS-2 drivers don't list all parent
+ROMs.
+  ii) PGM games at the bottom (they don't have drivers so they can't be
+checked).
+
+- log2.txt shows ROMs mssnig from the Nebula generated dat
+
+Mike, a.k.a. the dat scripting God. lol.

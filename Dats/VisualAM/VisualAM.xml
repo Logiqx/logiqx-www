@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
+	<!ENTITY VisualAM SYSTEM "VisualAM.ent.xml">
+]>
+
+<emulator_page>
+	&VisualAM;
+</emulator_page>

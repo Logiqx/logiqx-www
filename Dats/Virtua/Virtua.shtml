@@ -1,0 +1,31 @@
+
+	<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Virtua (unfinished)</title></head><body><center><!--#include virtual="/ads/top.shtml"--><hr>
+	<p><img src="Virtua.gif" width="71" height="40"></p>
+	<p>11 games of Virtua (unfinished)</p>
+	
+	
+	
+	
+	
+	
+
+	<p>Emulates Sega Model 2 games such as Virtua Fighter 2 but without polygon support.</p>
+
+	<table border="0" width="100%"><tr>
+		<td width="50%" align="center"><p>Download <a href="virtua.zip">Virtua dat for </a> (3KB)</p><p><a href="virtua.zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></p></td>
+
+		<td width="50%" align="center"><p>Download <a href="Virtua.zip">Virtua dat for </a> (3KB)</p><p><a href="Virtua.zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></p></td>
+	</tr></table>
+
+	<hr><p><img src="../../Resources/History.gif" width="85" height="40"></p><p><strong><u>20 April 2001</u></strong> - 
+			
+			Slightly improved Gunblade (complimented CRCs instead of 00000000s) and corrected a CRC in Virtua Fighter.
+		</p><p><strong><u>20 December 2000</u></strong> - 
+			
+			Kayamon provided updated CRCs (different to roms.ini).
+		</p><p><strong><u>05 December 2000</u></strong> - 
+			
+			Uploaded dats for the unfinished release of Virtua.
+		</p>
+</center></body></html>
+

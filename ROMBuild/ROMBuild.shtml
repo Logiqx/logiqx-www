@@ -1,0 +1,114 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>ROMBuild</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><!--#include virtual="/ads/top.shtml" --> </p>
+
+<hr>
+
+<p align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"></p>
+
+<p align="center"><img src="ROMBuild.gif" width="120" height="40"></p>
+
+<p align="left">ROMBuild is a ROM manipulation tool that is capable of creating ROMs for
+the older arcade emus using MAME ones. An example of this is by splitting ROMs in two or
+joining two together but ROMBuild supports much more than this. It can can split, join,
+extract, fill, patch, pad, interleave etc but to you the user that doesn't really matter.
+The important thing is that MAME ROMs go in and ROMs for another emulator come out. :)</p>
+
+<p align="left">When used in conjunction with the <a href="../Dats/Dats.shtml">CMPro/ROMCenter
+dats</a> that I have produced you can generate ROM sets for practically any emulator from
+MAME ROMs. In fact, the only ROMs you can't generate from MAME sets are where MAME doesn't
+support the game.</p>
+
+<p align="center">Download <a href="rmbld113.zip">ROMBuild v1.13</a>  (88KB)</p>
+
+<p align="center"><a href="rmbld113.zip"><img src="../Resources/Disk.gif" border="0"
+width="38" height="38"></a></p>
+
+<hr>
+
+<p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>18 January 2003</u></strong> - Released ROMBuild
+v1.13.</p>
+
+<p align="center">Added ThunderForce AC (Bootleg) for Sega System C2 Emulator v0.2b.</p>
+
+<p align="center"><strong><u>24 March 2002</u></strong> - Released ROMBuild
+v1.12.</p>
+
+<p align="center">Changed internals for Space Invaders Galactica to match MAME v0.59.<br>
+            Added support for Tower of Druaga ROMs (HiVE v1.04).</p>
+
+<p align="center"><strong><u>23 March 2002</u></strong> - Released ROMBuild
+v1.11.</p>
+
+<p align="center">
+            Changed source to compile without modification on FreeBSD.<br>
+            Changed internal Neo-Geo ROM names to match MAME v0.59.<br>
+            Added support for Pisces graphics ROMs (changed in MAME v0.59):</p>
+
+<p align="center"><i>              Xcade v0.85, MacMoon v0.86, Arcade Emulator v0.7, GalEmu v40.9,<br>
+              PASMulator v0.22, Replay v0.04, Rockulator++ v0.98a, SAGE v1.16,<br>
+              Sparcade v2.33b, VAntAGE v1.11</i></p>
+
+<p align="center"><strong><u>11 November 2001</u></strong> - Released ROMBuild
+v1.10.</p>
+
+<p align="center">Changed internal details of wboy, wbml and tnzs for MAME v0.56.<br>
+            Unfortunately it is also impossible to build alpham2 for NeoRAGEx now (due to MAME using a new and completely different dump).</p>
+
+<p align="center"><strong><u>28 August 2001</u></strong> - Released ROMBuild
+v1.9.</p>
+
+<p align="center">Changed internal details for Pacman clones to match MAME v0.53<br>
+            Added Altered Beast for Calice (why does it use old ROM sets)!</p>
+
+<p align="center"><strong><u>22 July 2001</u></strong> - Released ROMBuild v1.8.</p>
+
+<p align="center">Added Super Galaxians for Mimic v1.08.<br>
+Ms Pacman was renamed in MAME v0.37b16. Changed ROMBuild to match.</p>
+
+<p align="center"><strong><u>8 June 2001</u></strong> - Released ROMBuild v1.7.</p>
+
+<p align="center">Added Speed Freak for Cinelator 95 Beta.<br>
+            Now compiled using MinGW and the -Wall option (for clean code).</p>
+
+<p align="center"><strong><u>17 March 2001</u></strong> - Released ROMBuild v1.6.</p>
+
+<p align="center">Fixed problem affecting NeoRAGEx/Callus builds from unzipped ROMs.<br>
+Added '-L' option to list all of the ROMs that ROMBuild supports.<br>
+Removed Xevious Emulator Demo v1.6 (no longer necessary).<br>
+Changed xevious and sxevious PROMs in HiVE to use clean MAME PROMs.</p>
+
+<p align="center"><strong><u>11 March 2001</u></strong> - Released ROMBuild v1.5.</p>
+
+<p align="center">Added SonSon support for RAGE, Replay, Rockulator++ and SonSon Emulator.</p>
+
+<p align="center"><strong><u>1 March 2001</u></strong> - Released ROMBuild v1.4.</p>
+
+<p align="center">Added full support for NeoRAGEx v0.6 and QSound Player v2.</p>
+
+<p align="center"><strong><u>1 February 2001</u></strong> - Released ROMBuild v1.3.</p>
+
+<p align="center">Added Road Runner support for Sideway and removed RAINE (no longer
+required).</p>
+
+<p align="center"><strong><u>18 January 2001</u></strong> - Released ROMBuild v1.2.</p>
+
+<p align="center">Updated to handle Galaxian ROM changes of MAME v0.37 b11.</p>
+
+<p align="center"><strong><u>18 December 2000</u></strong> - Released ROMBuild v1.1.</p>
+
+<p align="center">New in v1.1: Jump Bug Emulator v0.50 and Kung Fu Master v0.0000001a.</p>
+
+<p align="center"><strong><u>8 December 2000</u></strong> - Released ROMBuild v1.0.</p>
+</body>
+</html>

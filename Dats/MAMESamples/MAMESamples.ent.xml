@@ -1,0 +1,62 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="MAMESamples">
+	<img src="MAMESamples.gif" width="188" height="40"/>
+	<name>MAME Samples</name>
+	<version>20030113</version>
+	<suitability/>
+	<status/>
+	<date>19/01/2003</date>
+	<games>52</games>
+	<author href="http://www.clrmame.com/">Roman Scherzer</author>
+	<comment>
+		<p>Created and maintained by Roman Scherzer (<a href="http://www.clrmame.com/">http://www.clrmame.com/</a>).</p>
+	</comment>
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="MAME%20Samples%2020030113%20(cm).zip" size="12"/>
+		</dat>
+		<dat>
+			&ROMCenter;
+			<file name="MAME%20Samples%2020030113%20(rc).zip" size="12"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>19 January 2003</date>
+			<comment>Updated for MAME v0.63 by Roman Scherzer.</comment>
+		</revision>
+		<revision>
+			<date>5 December 2002</date>
+			<comment>Updated for MAME v0.62 by Roman Scherzer.</comment>
+		</revision>
+		<revision>
+			<date>3 October 2002</date>
+			<comment>Updated for MAME v0.61.</comment>
+		</revision>
+		<revision>
+			<date>7 February 2002</date>
+			<comment>Rob submitted his dat, containing proper game titles.</comment>
+		</revision>
+		<revision>
+			<date>6 February 2002</date>
+			<comment>Added samples for Buck Rogers and Gridlee. Removed VLM5030 samples (update by Roman).</comment>
+		</revision>
+		<revision>
+			<date>4 November 2001</date>
+			<comment>Renamed gotya sampleset to thehand.</comment>
+		</revision>
+		<revision>
+			<date>1 September 2001</date>
+			<comment>Updated samples for Star Castle, Star Cruiser and Xevious.  Added Shark Attack samples.  All new samples courtesy of <a href="http://www.mameworld.net/dith/">Dith's Enhanced MAME Samples</a>.</comment>
+		</revision>
+		<revision>
+			<date>9 July 2001</date>
+			<comment>Added new Xevious samples.</comment>
+		</revision>
+		<revision>
+			<date>1 May 2001</date>
+			<comment>First release.</comment>
+		</revision>
+	</revisions>
+</emulator>

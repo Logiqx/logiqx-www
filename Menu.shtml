@@ -1,0 +1,254 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<title>Logiqx Menu</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+<script language="JavaScript">
+
+
+
+<!-- Hide from older browsers
+
+
+
+browserName=navigator.appName;
+
+browserVer = parseInt( navigator.appVersion )
+
+
+
+if ( browserName == "Netscape" && browserVer >= 3 ) menuAnimationOn = true;
+
+else if ( browserName == "Netscape" && browserVer >= 2 ) menuAnimationOn = false;
+
+else if ( browserName == "Microsoft Internet Explorer" && browserVer >= 4 ) menuAnimationOn = true;
+
+else if ( browserName == "Microsoft Internet Explorer" && browserVer >= 2 ) menuAnimationOn = false;
+
+else menuAnimationOn = false;
+
+
+
+if ( menuAnimationOn ) {
+
+
+
+NewsOff = new Image;
+
+NewsOn = new Image;
+
+  NewsOn.src = "Menu/NewsOn.gif";
+
+  NewsOff.src = "Menu/NewsOff.gif";
+
+
+
+CAESAROff = new Image;
+CAESAROn = new Image;
+  CAESAROn.src = "Menu/CAESAROn.gif";
+  CAESAROff.src = "Menu/CAESAROff.gif";
+
+MAMEDiffOff = new Image;
+
+MAMEDiffOn = new Image;
+
+  MAMEDiffOn.src = "Menu/MAMEDiffOn.gif";
+
+  MAMEDiffOff.src = "Menu/MAMEDiffOff.gif";
+
+
+
+DatUtilOff = new Image;
+
+DatUtilOn = new Image;
+
+  DatUtilOn.src = "Menu/DatUtilOn.gif";
+
+  DatUtilOff.src = "Menu/DatUtilOff.gif";
+
+
+ZIPIdentOff = new Image;
+
+ZIPIdentOn = new Image;
+
+  ZIPIdentOn.src = "Menu/ZIPIdentOn.gif";
+
+  ZIPIdentOff.src = "Menu/ZIPIdentOff.gif";
+
+
+MAMEMD5Off = new Image;
+
+MAMEMD5On = new Image;
+
+  MAMEMD5On.src = "Menu/MAMEMD5On.gif";
+
+  MAMEMD5Off.src = "Menu/MAMEMD5Off.gif";
+
+
+ROMBuildOff = new Image;
+ROMBuildOn = new Image;
+  ROMBuildOn.src = "Menu/ROMBuildOn.gif";
+  ROMBuildOff.src = "Menu/ROMBuildOff.gif";
+
+ROMInfoOff = new Image;
+ROMInfoOn = new Image;
+  ROMInfoOn.src = "Menu/ROMInfoOn.gif";
+  ROMInfoOff.src = "Menu/ROMInfoOff.gif";
+
+SampleFixOff = new Image;
+
+SampleFixOn = new Image;
+
+  SampleFixOn.src = "Menu/SampleFixOn.gif";
+
+  SampleFixOff.src = "Menu/SampleFixOff.gif";
+
+
+
+LinksOff = new Image;
+
+LinksOn = new Image;
+
+  LinksOn.src = "Menu/LinksOn.gif";
+
+  LinksOff.src = "Menu/LinksOff.gif";
+
+
+
+DatsOff = new Image;
+
+DatsOn = new Image;
+
+  DatsOn.src = "Menu/DatsOn.gif";
+
+  DatsOff.src = "Menu/DatsOff.gif";
+
+
+DatFAQsOff = new Image;
+
+DatFAQsOn = new Image;
+
+  DatFAQsOn.src = "Menu/DatFAQsOn.gif";
+
+  DatFAQsOff.src = "Menu/DatFAQsOff.gif";
+
+
+
+HowToOff = new Image;
+
+HowToOn = new Image;
+
+  HowToOn.src = "Menu/HowToOn.gif";
+
+  HowToOff.src = "Menu/HowToOff.gif";
+
+
+
+}
+
+
+
+function image_on( iName ) {
+
+  if ( menuAnimationOn ) {
+
+    locImg = eval( iName + "On.src" );
+
+    document [iName].src = locImg;
+
+  }
+
+}
+
+
+
+function image_off( iName ) {
+
+  if ( menuAnimationOn ) {
+
+    locImg = eval( iName + "Off.src" );
+
+    document [iName].src = locImg;
+
+  }
+
+}
+
+
+
+// -->
+
+</script>
+
+
+<p align="center"><img src="Menu/Arcade.gif" width="87" height="164"></p>
+
+<hr>
+
+<p align="center"><a href="News/News.shtml" target="main" alt="News"
+onmouseover="image_on('News')" onmouseout="image_off('News')"><img src="Menu/NewsOff.gif"
+alt="News" border="0" width="40" height="20" name="News"></a></p>
+
+<p align="center"><a href="http://caesar.logiqx.com/" target="caesar" alt="CAESAR"
+onmouseover="image_on('CAESAR')" onmouseout="image_off('CAESAR')"><img
+src="Menu/CAESAROff.gif" alt="CAESAR" border="0" width="64" height="20" name="CAESAR"></a></p>
+
+<p align="center"><a href="Dats/Dats.shtml" target="main" alt="Dats"
+onmouseover="image_on('Dats')" onmouseout="image_off('Dats')"><img src="Menu/DatsOff.gif"
+alt="Dats" border="0" width="33" height="20" name="Dats"></a></p>
+
+<p align="center"><a href="FAQs/DatFAQs.shtml" target="main" alt="DatFAQs"
+onmouseover="image_on('DatFAQs')" onmouseout="image_off('DatFAQs')"><img src="Menu/DatFAQsOff.gif"
+alt="DatFAQs" border="0" width="69" height="20" name="DatFAQs"></a></p>
+
+<p align="center"><a href="MAMEDiff/MAMEDiff.shtml" target="main" alt="MAMEDiff"
+onmouseover="image_on('MAMEDiff')" onmouseout="image_off('MAMEDiff')"><img
+src="Menu/MAMEDiffOff.gif" alt="MAMEDiff" border="0" width="72" height="20"
+name="MAMEDiff"></a></p>
+
+<p align="center"><a href="DatUtil/DatUtil.shtml" target="main" alt="DatUtil"
+onmouseover="image_on('DatUtil')" onmouseout="image_off('DatUtil')"><img
+src="Menu/DatUtilOff.gif" alt="DatUtil" border="0" width="47" height="20" name="DatUtil"></a></p>
+
+<p align="center"><a href="ROMBuild/ROMBuild.shtml" target="main" alt="ROMBuild"
+onmouseover="image_on('ROMBuild')" onmouseout="image_off('ROMBuild')"><img
+src="Menu/ROMBuildOff.gif" alt="ROMBuild" border="0" width="70" height="20"
+name="ROMBuild"></a></p>
+
+<p align="center"><a href="ZIPIdent/ZIPIdent.shtml" target="main" alt="ZIPIdent"
+onmouseover="image_on('ZIPIdent')" onmouseout="image_off('ZIPIdent')"><img
+src="Menu/ZIPIdentOff.gif" alt="ZIPIdent" border="0" width="61" height="20" name="ZIPIdent"></a></p>
+
+<p align="center"><a href="ROMInfo/ROMInfo.shtml" target="main" alt="ROMInfo"
+onmouseover="image_on('ROMInfo')" onmouseout="image_off('ROMInfo')"><img
+src="Menu/ROMInfoOff.gif" alt="ROMInfo" border="0" width="63" height="20" name="ROMInfo"></a></p>
+
+<p align="center"><a href="MAMEMD5/MAMEMD5.shtml" target="main" alt="MAMEMD5"
+onmouseover="image_on('MAMEMD5')" onmouseout="image_off('MAMEMD5')"><img
+src="Menu/MAMEMD5Off.gif" alt="MAMEMD5" border="0" width="80" height="20" name="MAMEMD5"></a></p>
+
+<p align="center"><a href="HowTo/HowTo.shtml" target="main" alt="How To Compile"
+onmouseover="image_on('HowTo')" onmouseout="image_off('HowTo')"><img
+src="Menu/HowToOff.gif" alt="HowTo" border="0" width="116" height="20" name="HowTo"></a></p>
+
+<p align="center"><a href="Links/Links.shtml" target="main" alt="Software"
+onmouseover="image_on('Links')" onmouseout="image_off('Links')"><img
+src="Menu/LinksOff.gif" alt="Links" border="0" width="37" height="20" name="Links"></a></p>
+
+<hr>
+<p>
+<!--#include virtual="/ads/cube.shtml" -->
+</p>
+<hr>
+
+<p align="center"><font color="#000000" size="1">Visitors since<br>
+1 April 2000:</font></p>
+<p align="center">
+<!--#include virtual="/cgi/counter.cgi" -->
+</p>
+</body>
+</html>

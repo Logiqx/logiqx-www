@@ -1,0 +1,55 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>ROMInfo</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><!--#include virtual="/ads/top.shtml" --> </p>
+
+<hr>
+
+<p align="center"><img src="../Resources/Logiqx.gif" width="327"
+height="68"></p>
+
+<p align="center"><img src="ROMInfo.gif" width="107" height="40"></p>
+
+<p align="center">ROMInfo is for identifying arcade ROMs and
+checking if they are emulated yet.<br>
+It does this using the <a href="../Dats/Dats.shtml">CMPro dats</a>
+from the <a href="http://caesar.logiqx.com/" target="caesar">CAESAR</a>
+database and should cover every arcade game emulated so far.</p>
+
+<p align="center">Download <a href="rinfo103.zip">ROMInfo v1.03</a>
+(68KB)</p>
+
+<p align="center"><a href="rinfo103.zip"><img
+src="../Resources/Disk.gif" border="0" width="38" height="38"></a></p>
+
+<hr>
+
+<p align="center"><img src="../Resources/History.gif" width="85"
+height="40"></p>
+
+<p align="center"><strong><u>22 January 2001</u></strong>-
+Released ROMInfo v1.03.</p>
+
+<p align="center">Added standard file support<br>
+Added support for multiple CRCs/files/zips<br>
+Added automatic logging (sends output to rominfo.log)<br>
+Other minor improvements to the output format and the source code</p>
+
+<p align="center"><strong><u>6 January 2001</u></strong>-
+Released ROMInfo v1.02 (drag and drop support added).</p>
+
+<p align="center"><strong><u>31 December 2000</u></strong> -
+Released ROMInfo v1.01 (ZIP support added).</p>
+
+<p align="center"><strong><u>30 December 2000</u></strong> -
+Released ROMInfo v1.0.</p>
+</body>
+</html>

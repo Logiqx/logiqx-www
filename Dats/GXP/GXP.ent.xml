@@ -1,0 +1,31 @@
+<emulator id="GXP">
+	<img src="GXP.gif" width="57" height="40"/>
+	<name>GXP</name>
+	<version>v0.1</version>
+	<suitability></suitability>
+	<status></status>
+	<date>14/10/2001</date>
+	<games>9</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<comment><p>Konami GX Sound Player.</p></comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="gxp_01.zip" size="1"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="GXP%20v0.1.zip" size="2"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>14 October 2001</date>
+			<comment>First release.</comment>
+		</revision>
+	</revisions>
+</emulator>

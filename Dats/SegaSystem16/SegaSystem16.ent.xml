@@ -1,0 +1,29 @@
+<emulator id="SegaSystem16">
+	<img src="SegaSystem16.gif" width="194" height="40"/>
+	<name>Sega System 16 Emulator</name>
+	<version>v1.0</version>
+	<suitability></suitability>
+	<status></status>
+	<date>08/12/2000</date>
+	<games>1</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="segas16.zip" size="1"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="Sega%20System%2016%20v1.0.zip" size="1"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>08 December 2000</date>
+			<comment>Initial Release.</comment>
+		</revision>
+	</revisions>
+</emulator>

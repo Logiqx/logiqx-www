@@ -1,0 +1,115 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<style TYPE="text/css">
+<!--
+H1 { font-size: 1.5pc }
+H2 { font-size: 1pc }
+-->
+</style>
+<title>Calice Dat</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><!--#include virtual="/ads/top.shtml" --> </p>
+
+<hr>
+
+<p align="center"><img border="0" src="CaliceDat.gif" width="123" height="40"></p>
+
+<h1>Overview</h1>
+
+<p>Although Calice is not capable of creating a CMPro or RomCenter data file itself
+you can validate your own data file against the Calice drivers using DatUtil. In order
+to do this you need to go into the 'drv' directory of Calice and use the Unix
+command 'cat *.drv &gt;drivers.txt' (to concatenate all of the drivers into a
+single file called drivers.txt). Once this has been done you can use DatUtil to
+compare drivers.txt against you Calice data file (whether it be CMPro or RomCenter
+format).
+</p>
+
+<hr>
+
+<h1>Initial Creation (won't need to be done again)</h1>
+
+<h2>Quick Creation</h2>
+
+<p>As a first stab at creating the Calice data file I created a list of game names then
+extracted their details from the MAME dat. The way I did this was to list all
+the driver files (.drv files) using the Unix 'ls' command and redirect the
+output to a file. I then used 'vi' (the best text editor
+ever) to convert each line in the file to a 'datutilx -g' command and saved the resulting
+commands as a '.bat' file. It looked something like this:</p>
+<p>datutilx -g sfa -f listinfo -a new.dat mame.dat<br>
+...etc.</p>
+<p>How did I do this in vi? It took no more than thirty seconds to type:</p>
+<p>1) :%s/^/datutilx -g /<br>
+2) :%s/\.drv/ -f listinfo -a new.dat mame.dat/</p>
+<p>Note: this could also be done using the Unix command 'sed' (I use CygWin for
+Unix commands on the PC) . If I used Microsoft's notepad then it would have
+taken lots of copy and paste! </p>
+<p>After running this script I had a file called new.dat containing all the games as extracted
+from a MAME dat. This was about 95% of the way to a finished Calice data file!</p>
+<h2>Checking the Data File Contents</h2>
+<p>To check for games that weren't extracted from MAME (i.e. recently decrypted
+CPS-2 games) and check for other discrepancies between my data file and the Calice
+drivers I used the comparison feature of DatUtil (i.e. 'datutilx new.dat
+drivers.txt').</p>
+<p>What this showed was that a lot of drivers used different ROM names to MAME so
+the Calice data file needed changing accordingly. </p>
+<p>After the changes, no differences were reported. </p>
+<h2>Loading into CMPro</h2>
+<p>Loading a data file into CMPro is an important check because CMPro will report
+missing parents. In the case of CPS-2 games several clones are emulated where
+the parent is not, so you therefore need to add the parents into the data file so that
+standard merging/splitting is possible.</p>
+<p>The way that I added the un-emulated parents to the data file was by having two files;
+one containing the emulated games (the new.dat that I created earlier) and the other containing the un-emulated
+parents. While loading the emulated games data file into CMPro I created a 'parents.dat' dat,
+adding the missing parents as they were reported (copying/pasting from the CPS-2 data
+file). After this I then combined
+the two data files (emulated games and extra parents) into a single data file using a simple
+.bat script. The resultant data file was what went out to the public and the emulated
+games data file was used by CAESAR.</p>
+<h2>Building ROMs and Testing them from Calice</h2>
+<p>Once the data file was loaded into CMPro I built a split set (from scratch) using
+the rebuilder option of CMPro. The only way to check the data file was correct was to
+load each and every game but I only do it for new games now. Split sets are in my opinion the
+best type to have and they are also the most useful when testing the correctness
+of a data file. If your data file contains subtle errors then they may not show up when
+using fully merged ROMs. However, they will almost certainly show up when using
+a split set.</p>
+<h2>RomCenter Data File Generation</h2>
+<p>Once happy that the CMPro data file was correct, a RomCenter version was created
+using DatUtil and both data files released to the public.</p>
+<hr>
+<h1>
+Data File Updates</h1>
+<h2>Identifying Necessary Changes</h2>
+<p>In order to identify ROM changes in a new version of Calice, firstly create a
+new 'drivers.txt' file using the Unix 'cat' command (as described above). All that
+then needs to be done is a comparison made between the last 'emulated
+games' data file (i.e. the one without the extra parents) and
+the new drivers.txt file. Any differences reported need to be rectified by copy and
+pasting details from the MAME or CPS-2 data files into the Calice data file. Once DatUtil doesn't report any
+differences then the command that combines the 'emulated
+games'
+and 'extra parents' data files can be run to create the full CMPro data file. This can then loaded into CMPro
+and the standard tests done. If the ROMs work okay from Calice then the CMPro data file can be run through DatUtil to create a RomCenter data
+file.</p>
+<hr>
+<h1>Final Notes</h1>
+<ol>
+  <li>One of the Calice drivers uses the wrong ROM names and this causes a name
+    conflict between ROMs in a parent and clone set (RomCenter reports this
+    error when loading the dat). The only resolution to this problem is to
+    remove the parent/clone relationship for the affected clone.</li>
+  <li>Testing the games from Calice is not completely necessary (due to the
+    DatUtil check) but it is advisable.</li>
+</ol>
+
+</body>
+</html>

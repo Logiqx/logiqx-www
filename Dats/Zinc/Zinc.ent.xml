@@ -1,0 +1,41 @@
+<emulator id="Zinc">
+	<img src="Zinc.gif" width="53" height="40"/>
+	<name>Zinc</name>
+	<version>v0.9</version>
+	<suitability></suitability>
+	<status></status>
+	<date>03/10/2002</date>
+	<games>26</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<comment><p>Emulates Sony ZN-1, ZN-2 and Namco System 11 based games</p></comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="Zinc%20v0.9%20(cm).zip" size="4"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="Zinc%20v0.9%20(rc).zip" size="4"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>3 October 2002</date>
+			<comment>Corrected a minor error in the merging details of sfexpj. No effect on your ROMs!</comment>
+		</revision>
+
+		<revision>
+			<date>9 April 2002</date>
+			<comment>Uploaded data files for Zinc v0.8 (renamed sound ROM in psyforce).</comment>
+		</revision>
+
+		<revision>
+			<date>24 March 2002</date>
+			<comment>Uploaded data files for Zinc v0.5.</comment>
+		</revision>
+	</revisions>
+</emulator>

@@ -1,0 +1,133 @@
+
+	<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Mimic v2.10</title>
+  </head>
+  <body>
+    <center>
+      <!--#include virtual="/ads/top.shtml"-->
+      <hr>
+	<p><img src="Mimic.gif" width="69" height="40"></p>
+	<p>36 games of Mimic v2.10<br>(suitable for v2.11)</p>
+	
+	
+	
+	
+	
+	
+
+	
+		<p>Mimic uses text based drivers (HWC files).</p>
+		<p>Most games can be built from MAME sets. Several games are not in MAME though.</p>
+	
+
+	<table border="0" width="100%">
+        <tr>
+		<td width="50%" align="center">
+            <p>Download <a href="Mimic%20v2.10%20(cm).zip">Mimic dat for CMPro</a> (6KB)</p>
+            <p>
+              <a href="Mimic%20v2.10%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+            </p>
+          </td>
+
+		<td width="50%" align="center">
+            <p>Download <a href="Mimic%20v2.10%20(rc).zip">Mimic dat for ROMCenter</a> (6KB)</p>
+            <p>
+              <a href="Mimic%20v2.10%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+            </p>
+          </td>
+	</tr>
+      </table>
+
+	<hr>
+      <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>31 October 2002</u>
+        </strong> - 
+			
+			Updated dats for Mimic v2.10 (Frogger re-added).
+		</p>
+      <p>
+        <strong>
+          <u>9 October 2002</u>
+        </strong> - 
+			
+			Updated dats for Mimic v2.08 (Zaxxon removed, Afterburner 1, Afterburner 2, Thunderblade, Alien Syndrome and Tetris bootleg added).
+		</p>
+      <p>
+        <strong>
+          <u>27 March 2002</u>
+        </strong> - 
+			
+			Updated dats for Mimic v2.00 (some System-E games removed and Asteroids, Gals Pinball, Hot Pinball added).
+		</p>
+      <p>
+        <strong>
+          <u>22 July 2001</u>
+        </strong> - 
+			
+			Updated dats for Mimic v1.08 (Mat Mania and some Galaxian clones added).
+		</p>
+      <p>
+        <strong>
+          <u>14 April 2001</u>
+        </strong> - 
+			
+			Updated dats for Mimic v1.06 (Moon Cresta added).
+		</p>
+      <p>
+        <strong>
+          <u>9 April 2001</u>
+        </strong> - 
+			
+			Updated dats for Mimic v1.05 (13 games added).
+		</p>
+      <p>
+        <strong>
+          <u>12 November 2000</u>
+        </strong> - 
+			
+			Added Lucky Today to the dats.
+		</p>
+      <p>
+        <strong>
+          <u>20 October 2000</u>
+        </strong> - 
+			
+			Added new HWC files for v1.04.
+		</p>
+      <p>
+        <strong>
+          <u>14 July 2000</u>
+        </strong> - 
+			
+			Added Ms. Pac-man to the dats.
+		</p>
+      <p>
+        <strong>
+          <u>11 July 2000</u>
+        </strong> - 
+			
+			Released CMPro/RomCenter dats for Mimic v1.02.
+		</p>
+      <p>
+        <strong>
+          <u>12 June 2000</u>
+        </strong> - 
+			
+			Released CMPro/RomCenter dats for Mimic v1.01.
+		</p>
+      <p>
+        <strong>
+          <u>1 June 2000</u>
+        </strong> - 
+			
+			Logiqx released CMPro/RomCenter dats for Mimic v1.00.
+		</p>
+</center>
+  </body>
+</html>
+
+

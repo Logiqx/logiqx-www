@@ -1,0 +1,70 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="MAMEArtwork">
+	<img src="MAMEArtwork.gif" width="176" height="40"/>
+	<name>MAME Artwork</name>
+	<version>20030113</version>
+	<suitability/>
+	<status/>
+	<date>18/01/2003</date>
+	<games>127</games>
+	<author href="http://www.clrmame.com/">R.Scherzer</author>
+	<comment>
+		<p>Created and maintained by R.Scherzer (<a href="http://www.clrmame.com/">http://www.clrmame.com/</a>).</p>
+	</comment>
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="MAME%20Artwork%2020030113%20(cm).zip" size="10"/>
+		</dat>
+		<dat>
+			&ROMCenter;
+			<file name="MAME%20Artwork%2020030113%20(rc).zip" size="9"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>18 January 2003</date>
+			<comment>Updated for MAME v0.63.</comment>
+		</revision>
+		<revision>
+			<date>15 December 2002</date>
+			<comment>Updated for artwork uploaded to mame.net on December 9th.</comment>
+		</revision>
+		<revision>
+			<date>5 December 2002</date>
+			<comment>Data file for MAME v0.62 by Roman Scherzer.</comment>
+		</revision>
+		<revision>
+			<date>3 October 2002</date>
+			<comment>Uploaded the latest dat from Roman's site.</comment>
+		</revision>
+		<revision>
+			<date>7 February 2002</date>
+			<comment>Rob submitted his dat, containing proper game titles.</comment>
+		</revision>
+		<revision>
+			<date>6 February 2002</date>
+			<comment>Added Boothill artwork (update by Roman).</comment>
+		</revision>
+		<revision>
+			<date>4 November 2001</date>
+			<comment>Added Demon artwork.</comment>
+		</revision>
+		<revision>
+			<date>26 August 2001</date>
+			<comment>Updated Discs of Tron artwork (again).</comment>
+		</revision>
+		<revision>
+			<date>25 August 2001</date>
+			<comment>Updated Discs of Tron artwork (MAME 0.54).</comment>
+		</revision>
+		<revision>
+			<date>3 May 2001</date>
+			<comment>Minor fix for Lunar Lander (rev 1).</comment>
+		</revision>
+		<revision>
+			<date>1 May 2001</date>
+			<comment>First release.</comment>
+		</revision>
+	</revisions>
+</emulator>

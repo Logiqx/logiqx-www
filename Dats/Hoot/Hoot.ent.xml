@@ -1,0 +1,36 @@
+<emulator id="Hoot">
+	<img src="Hoot.gif" width="58" height="40"/>
+	<name>Hoot</name>
+	<version>20011002</version>
+	<suitability></suitability>
+	<status></status>
+	<date>21/12/2002</date>
+	<games>248</games>
+	<author href="http://www.logiqx.com">Ben Jos</author>
+
+	<comment><p>Arcade machine sound player. Data file created to match <a href="http://crashtest.retrogames.com/Hoot/index.html">CrashTest's Hoot</a> configuration.</p></comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="Hoot%2020011002%20(cm).zip" size="14"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="Hoot%2020011002%20(rc).zip" size="13"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>21 December 2002</date>
+			<comment>Added CRCs for wrunsuzu.</comment>
+		</revision>
+
+		<revision>
+			<date>19 December 2002</date>
+			<comment>First release (missing CRCs for wrunsuzu).</comment>
+		</revision>
+	</revisions>
+</emulator>

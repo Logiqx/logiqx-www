@@ -1,0 +1,46 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="MAMETestDrivers">
+	<img src="MAMETestDrivers.gif" width="229" height="40"/>
+	<name>MAME Test Drivers</name>
+	<version>v0.65</version>
+	<suitability/>
+	<status>Updated</status>
+	<date>19/02/2003</date>
+	<games>260</games>
+	<author href="http://www.logiqx.com">Ben Jos</author>
+	<comment>
+		<p>Created and maintained by <a href="http://www.logiqx.com">Ben Jos</a>.</p>
+	</comment>
+	<dats>
+		<dat>
+      &CMPro;
+      <file name="MAME%20Test%20Drivers%20v0.65%20(cm).zip" size="269"/>
+		</dat>
+		<dat>
+      &ROMCenter;
+      <file name="MAME%20Test%20Drivers%20v0.65%20(rc).zip" size="265"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>19 February 2003</date>
+			<comment>Uploaded dats for MAME v0.65.</comment>
+		</revision>
+		<revision>
+			<date>30 January 2003</date>
+			<comment>Uploaded dats for MAME v0.64.</comment>
+		</revision>
+		<revision>
+			<date>18 January 2003</date>
+			<comment>Uploaded dats for MAME v0.63.</comment>
+		</revision>
+		<revision>
+			<date>9 December 2002</date>
+			<comment>Added supplement dats (so that you don't have to duplicate games already in MAME).</comment>
+		</revision>
+		<revision>
+			<date>7 December 2002</date>
+			<comment>Uploaded dats for MAME v0.62.</comment>
+		</revision>
+	</revisions>
+</emulator>

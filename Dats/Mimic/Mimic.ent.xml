@@ -1,0 +1,89 @@
+<emulator id="Mimic">
+	<img src="Mimic.gif" width="69" height="40"/>
+	<name>Mimic</name>
+	<version>v2.10</version>
+	<suitability>v2.11</suitability>
+	<status></status>
+	<date>31/10/2002</date>
+	<games>36</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<comment>
+		<p>Mimic uses text based drivers (HWC files).</p>
+		<p>Most games can be built from MAME sets. Several games are not in MAME though.</p>
+	</comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="Mimic%20v2.10%20(cm).zip" size="6"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="Mimic%20v2.10%20(rc).zip" size="6"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>31 October 2002</date>
+			<comment>Updated dats for Mimic v2.10 (Frogger re-added).</comment>
+		</revision>
+
+		<revision>
+			<date>9 October 2002</date>
+			<comment>Updated dats for Mimic v2.08 (Zaxxon removed, Afterburner 1, Afterburner 2, Thunderblade, Alien Syndrome and Tetris bootleg added).</comment>
+		</revision>
+
+		<revision>
+			<date>27 March 2002</date>
+			<comment>Updated dats for Mimic v2.00 (some System-E games removed and Asteroids, Gals Pinball, Hot Pinball added).</comment>
+		</revision>
+
+		<revision>
+			<date>22 July 2001</date>
+			<comment>Updated dats for Mimic v1.08 (Mat Mania and some Galaxian clones added).</comment>
+		</revision>
+
+		<revision>
+			<date>14 April 2001</date>
+			<comment>Updated dats for Mimic v1.06 (Moon Cresta added).</comment>
+		</revision>
+
+		<revision>
+			<date>9 April 2001</date>
+			<comment>Updated dats for Mimic v1.05 (13 games added).</comment>
+		</revision>
+
+		<revision>
+			<date>12 November 2000</date>
+			<comment>Added Lucky Today to the dats.</comment>
+		</revision>
+
+		<revision>
+			<date>20 October 2000</date>
+			<comment>Added new HWC files for v1.04.</comment>
+		</revision>
+
+		<revision>
+			<date>14 July 2000</date>
+			<comment>Added Ms. Pac-man to the dats.</comment>
+		</revision>
+
+		<revision>
+			<date>11 July 2000</date>
+			<comment>Released CMPro/RomCenter dats for Mimic v1.02.</comment>
+		</revision>
+
+		<revision>
+			<date>12 June 2000</date>
+			<comment>Released CMPro/RomCenter dats for Mimic v1.01.</comment>
+		</revision>
+
+		<revision>
+			<date>1 June 2000</date>
+			<comment>Logiqx released CMPro/RomCenter dats for Mimic v1.00.</comment>
+		</revision>
+	</revisions>
+</emulator>

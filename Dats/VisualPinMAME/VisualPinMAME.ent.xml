@@ -1,0 +1,60 @@
+<emulator id="VisualPinMAME">
+	<img src="VisualPinMAME.gif" width="283" height="40"/>
+	<name>Visual PinMAME Tables</name>
+	<version>20010524</version>
+	<suitability></suitability>
+	<status>Updated</status>
+	<date>24/05/2001</date>
+	<games>33</games>
+
+	<comment><p>Created and maintained by <a href="mailto:mila76@iol.it">Mila76 (mila76@iol.it)</a>.</p></comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="vpmt0524.zip" size="6"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="Visual%20PinMAME%20Tables%2020010524.zip" size="6"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>24 May 2001</date>
+			<comment>Added FirePower II and a ROMs dat that corresponds to the tables.</comment>
+		</revision>
+
+		<revision>
+			<date>23 May 2001</date>
+			<comment>A variety of new/updated tables.</comment>
+		</revision>
+
+		<revision>
+			<date>13 May 2001</date>
+			<comment>Ownership now taken over by Mila76. There are many updates in this release.</comment>
+		</revision>
+
+		<revision>
+			<date>4 May 2001</date>
+			<comment>Two tables added and other tables updated. Visual Basic Scripts are now seperated out too.</comment>
+		</revision>
+
+		<revision>
+			<date>30 April 2001</date>
+			<comment>Six tables updated and Laser Cue added.</comment>
+		</revision>
+
+		<revision>
+			<date>28 April 2001</date>
+			<comment>New tables added. Should cleanly scan original ZIPs now.</comment>
+		</revision>
+
+		<revision>
+			<date>24 April 2001</date>
+			<comment>First release by Wilman (v0.12).</comment>
+		</revision>
+	</revisions>
+</emulator>

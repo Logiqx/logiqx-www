@@ -1,0 +1,70 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="MAMECabinets">
+	<img src="MAMECabinets.gif" width="190" height="40"/>
+	<name>MAME Cabinets</name>
+	<version>20030210</version>
+	<suitability/>
+	<status>Updated</status>
+	<date>14/02/2003</date>
+	<games>958</games>
+	<author href="http://www.classicgaming.com/mame32qa/">John IV</author>
+	<comment>
+		<p>Maintained by <a href="http://www.classicgaming.com/mame32qa/">John IV</a>.</p>
+	</comment>
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="MAME%20Cabinets%2020030210%20(cm).zip" size="15"/>
+		</dat>
+		<dat>
+			&ROMCenter;
+			<file name="MAME%20Cabinets%2020030210%20(rc).zip" size="15"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>14 February 2003</date>
+			<comment>Official data file for MAME v0.65 by John IV.</comment>
+		</revision>
+		<revision>
+			<date>28 January 2003</date>
+			<comment>Official data file for MAME v0.64 by John IV.</comment>
+		</revision>
+		<revision>
+			<date>19 January 2003</date>
+			<comment>Official data file for MAME v0.63 by John IV.</comment>
+		</revision>
+		<revision>
+			<date>5 December 2002</date>
+			<comment>Official data file for MAME v0.62 by John IV.</comment>
+		</revision>
+		<revision>
+			<date>2 May 2002</date>
+			<comment>Official data file for MAME v0.60 by John IV.</comment>
+		</revision>
+		<revision>
+			<date>23 March 2002</date>
+			<comment>Official data file for MAME v0.59 by John IV.</comment>
+		</revision>
+		<revision>
+			<date>6 February 2002</date>
+			<comment>Official data file for MAME v0.58 by John IV.</comment>
+		</revision>
+		<revision>
+			<date>2 January 2002</date>
+			<comment>Official data file by John IV.</comment>
+		</revision>
+		<revision>
+			<date>12 December 2001</date>
+			<comment>Updated to MAME v0.55 and John IV's Cabinet Pack 14 (Dave).</comment>
+		</revision>
+		<revision>
+			<date>21 September 2001</date>
+			<comment>Updated to MAME v0.55 and John IV's Cabinet Pack 13 (Rob).</comment>
+		</revision>
+		<revision>
+			<date>24 April 2001</date>
+			<comment>First release.</comment>
+		</revision>
+	</revisions>
+</emulator>

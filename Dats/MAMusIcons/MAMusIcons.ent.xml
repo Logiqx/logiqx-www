@@ -1,0 +1,46 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="MAMusIcons">
+	<img src="MAMusIcons.gif" width="165" height="40"/>
+	<name>MAMu's Icons</name>
+	<version>20030214</version>
+	<suitability/>
+	<status>Updated</status>
+	<date>19/02/2003</date>
+	<games>2564</games>
+	<author href="http://www.eldio.co.uk/">Eldio</author>
+	<comment>
+		<p>Maintained by <a href="http://www.eldio.co.uk/">Eldio</a>.</p>
+	</comment>
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="MAMu's%20Icons%2020030214%20(cm).zip" size="85"/>
+		</dat>
+		<dat>
+			&ROMCenter;
+			<file name="MAMu's%20Icons%2020030214%20(rc).zip" size="31"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>19 February 2003</date>
+			<comment>Uploaded the MAME v0.65 release by Eldio.</comment>
+		</revision>
+		<revision>
+			<date>6 February 2003</date>
+			<comment>Uploaded the latest release by Eldio.</comment>
+		</revision>
+		<revision>
+			<date>30 January 2003</date>
+			<comment>Uploaded the MAME v0.64 release by Eldio.</comment>
+		</revision>
+		<revision>
+			<date>19 January 2003</date>
+			<comment>Uploaded the latest release by Eldio.</comment>
+		</revision>
+		<revision>
+			<date>7 December 2002</date>
+			<comment>Uploaded data file for MAME v0.62.</comment>
+		</revision>
+	</revisions>
+</emulator>

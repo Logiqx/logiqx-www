@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
+	<!ENTITY MPU SYSTEM "MPU.ent.xml">
+]>
+
+<emulator_page>
+	&MPU;
+</emulator_page>

@@ -1,0 +1,50 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<style TYPE="text/css">
+<!--
+H1 { font-size: 1.5pc }
+H2 { font-size: 1pc }
+-->
+</style>
+<title>Dat FAQs</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><!--#include virtual="/ads/top.shtml" --> </p>
+
+<hr>
+
+<p align="center"><img border="0" src="DatFAQs.gif" width="117" height="40"></p>
+
+<p align="center">These pages have been written for anyone that is considering
+creating and releasing their own data files for CMPro or RomCenter.</p>
+
+<p align="center">I suggest that you have a read of them as there are lots of
+potential pitfalls and my advice should help you to avoid them.&nbsp;&nbsp;</p>
+
+<hr>
+
+<h2 align="center">General ROM Information</h2>
+
+<p align="center"><a href="ROMQuestions.shtml">ROM Questions</a></p>
+
+<h2 align="center">Data File Creation</h2>
+
+<p align="center"><a href="DatCreation.shtml">Principals and Guidelines<br>
+</a><a href="CMPro.shtml">CMPro Format<br>
+</a><a href="RomCenter.shtml">RomCenter Format</a></p>
+
+<h2 align="center">Case Studies!</h2>
+
+<p align="center"><a href="MAMEDat.shtml">MAME</a><br>
+<a href="CaliceDat.shtml">
+Calice</a><br>
+<a href="WinKawaksDat.shtml">
+WinKawaks</a></p>
+
+</body>
+</html>

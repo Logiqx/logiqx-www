@@ -1,0 +1,43 @@
+<emulator id="MAME">
+	<img src="MAME.gif" width="80" height="40"/>
+	<name>MAME</name>
+	<version>v0.36</version>
+	<suitability></suitability>
+	<status></status>
+	<date>27/05/2000</date>
+	<games>2048</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<comment>
+		<p>Both dats were generated using DatUtil (with sorting switched on) and are intended for:</p>
+		<ul>
+			<li><p>Users of MAME32 (where listinfo is not available)</p></li>
+			<li><p>CMPro users of MAME (if they haven't compiled in my sample fix)</p></li>
+			<li><p>Anyone who uses RomCenter (you <u>must</u> use this dat for correct behaviour)</p></li>
+		</ul>
+	</comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="mame36.zip" size="294"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="mame%2036.zip" size="310"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>27 May 2000</date>
+			<comment>Updated CMPro dat to contain correct sample information (used my sample fix).</comment>
+		</revision>
+
+		<revision>
+			<date>23 May 2000</date>
+			<comment>Added v0.36 dats for CMPro and RomCenter.</comment>
+		</revision>
+	</revisions>
+</emulator>

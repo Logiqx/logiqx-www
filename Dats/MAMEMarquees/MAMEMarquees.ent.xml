@@ -1,0 +1,98 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="MAMEMarquees">
+	<img src="MAMEMarquees.gif" width="203" height="40"/>
+	<name>MAME Marquees</name>
+	<version>20030210</version>
+	<suitability/>
+	<status>Updated</status>
+	<date>14/02/2003</date>
+	<games>1233</games>
+	<author href="http://www.eldio.co.uk/">Eldio</author>
+	<comment>
+		<p>Maintained by <a href="http://www.eldio.co.uk/">Eldio</a>.</p>
+	</comment>
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="MAME%20Marquees%2020030210%20(cm).zip" size="47"/>
+		</dat>
+		<dat>
+			&ROMCenter;
+			<file name="MAME%20Marquees%2020030210%20(rc).zip" size="21"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>14 February 2003</date>
+			<comment>Uploaded the latest release by Eldio.</comment>
+		</revision>
+		<revision>
+			<date>6 February 2003</date>
+			<comment>Uploaded the latest release by Eldio (contains details for Marquee Pack 11).</comment>
+		</revision>
+		<revision>
+			<date>19 January 2003</date>
+			<comment>Eldio renamed ghostmun.png -> gmgalax.png for MAME v0.63.</comment>
+		</revision>
+		<revision>
+			<date>15 December 2002</date>
+			<comment>Uploaded the latest release by Eldio (contains details for Marquee Pack 10).</comment>
+		</revision>
+		<revision>
+			<date>5 December 2002</date>
+			<comment>Uploaded MAME v0.62 updates by Roman Scherzer.</comment>
+		</revision>
+		<revision>
+			<date>3 October 2002</date>
+			<comment>Uploaded the latest release by Eldio (contains details for Marquee Pack 9).</comment>
+		</revision>
+		<revision>
+			<date>17 September 2002</date>
+			<comment>Uploaded the latest release by Eldio. Now matches MAME v0.61.</comment>
+		</revision>
+		<revision>
+			<date>15 November 2001</date>
+			<comment>Eldio updated for Marquee pack 15 / MAME v0.56.</comment>
+		</revision>
+		<revision>
+			<date>5 November 2001</date>
+			<comment>Eldio updated for MAME v0.56.</comment>
+		</revision>
+		<revision>
+			<date>24 October 2001</date>
+			<comment>Eldio updated for Marquee Packs 12, 13 and 14 / MAME v0.55.</comment>
+		</revision>
+		<revision>
+			<date>2 October 2001</date>
+			<comment>Eldio updated for new Marquee Pack 11 / MAME v0.55.</comment>
+		</revision>
+		<revision>
+			<date>27 September 2001</date>
+			<comment>Eldio updated for new Marquee Packs 08, 09 and 10 / MAME v0.55.</comment>
+		</revision>
+		<revision>
+			<date>19 September 2001</date>
+			<comment>Eldio updated for new Mame release / MAME v0.55.</comment>
+		</revision>
+		<revision>
+			<date>7 September 2001</date>
+			<comment>Eldio updated for Marquee Pack 07 / MAME v0.54.</comment>
+		</revision>
+		<revision>
+			<date>31 August 2001</date>
+			<comment>Eldio updated for Marquee Pack 06 / MAME v0.54.</comment>
+		</revision>
+		<revision>
+			<date>28 August 2001</date>
+			<comment>Eldio updated for new Marquee Packs / MAME v0.54.</comment>
+		</revision>
+		<revision>
+			<date>7 July 2001</date>
+			<comment>Dare updated for Marquee Pack 06.</comment>
+		</revision>
+		<revision>
+			<date>24 April 2001</date>
+			<comment>First release by Dare.</comment>
+		</revision>
+	</revisions>
+</emulator>

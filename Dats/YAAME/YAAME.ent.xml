@@ -1,0 +1,36 @@
+<emulator id="YAAME">
+	<img src="YAAME.gif" width="95" height="40"/>
+	<name>YAAME</name>
+	<version>v0.3</version>
+	<suitability></suitability>
+	<status></status>
+	<date>19/12/2002</date>
+	<games>22</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<comment><p>Old Classics</p></comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="YAAME%20v0.3%20(cm).zip" size="4"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="YAAME%20v0.3%20(rc).zip" size="3"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>19 December 2002</date>
+			<comment>Updated for YAAME v0.3.<br/>Added blockout, carnival, jjack and pacman.<br/>Added sound ROMs to anteater, bombjack and scobra.<br/>Removed radarscp.</comment>
+		</revision>
+
+		<revision>
+			<date>4 February 2002</date>
+			<comment>Created for YAAME v0.2.</comment>
+		</revision>
+	</revisions>
+</emulator>

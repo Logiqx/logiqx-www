@@ -1,0 +1,101 @@
+<emulator id="Laser">
+	<img src="Laser.gif" width="68" height="40"/>
+	<name>Laser</name>
+	<version>v0.20a</version>
+	<suitability></suitability>
+	<status></status>
+	<date>07/12/2002</date>
+	<games>76</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<comment><p>Space invaders and other games on 8080 Hardware.</p><p>All games can be built from MAME sets.</p></comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="Laser%20v0.20a%20(cm).zip" size="7"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="Laser%20v0.20a%20(rc).zip" size="6"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>7 December 2002</date>
+			<comment>Updated dats for Laser v0.20a (added 'Ace').</comment>
+		</revision>
+
+		<revision>
+			<date>9 October 2002</date>
+			<comment>Updated dats for Laser v0.20 (there are 45 more games now).</comment>
+		</revision>
+
+		<revision>
+			<date>2 June 2002</date>
+			<comment>Updated dats for Laser v0.19 (laser and yosakdon added).</comment>
+		</revision>
+
+		<revision>
+			<date>11 November 2001</date>
+			<comment>Updated dats for Laser v0.18 (various games added and removed due to the new driver system).</comment>
+		</revision>
+
+		<revision>
+			<date>28 October 2001</date>
+			<comment>Updated dats for Laser v0.17 (yosakdon added).</comment>
+		</revision>
+
+		<revision>
+			<date>13 October 2001</date>
+			<comment>Updated dats for Laser v0.16 (several games added).</comment>
+		</revision>
+
+		<revision>
+			<date>2 February 2001</date>
+			<comment>Updated dats for Laser v0.16 (Ozma Wars, Solar Fight, Space Phantoms, Star Wars added).</comment>
+		</revision>
+
+		<revision>
+			<date>27 December 2000</date>
+			<comment>Updated dats for Laser v0.15 (Space Chaser added).</comment>
+		</revision>
+
+		<revision>
+			<date>12 December 2000</date>
+			<comment>Updated dats for Laser v0.14 (Clowns and Lupin III added).</comment>
+		</revision>
+
+		<revision>
+			<date>27 October 2000</date>
+			<comment>Updated dats for Laser v0.13 (two games added).</comment>
+		</revision>
+
+		<revision>
+			<date>20 September 2000</date>
+			<comment>Updated dats for Laser v0.11a (two games added).</comment>
+		</revision>
+
+		<revision>
+			<date>1 August 2000</date>
+			<comment>Updated dats for Laser v0.9.</comment>
+		</revision>
+
+		<revision>
+			<date>28 July 2000</date>
+			<comment>Updated dats for Laser v0.8.</comment>
+		</revision>
+
+		<revision>
+			<date>12 June 2000</date>
+			<comment>Just to mention that the existing dat is suitable for Laser v0.6.</comment>
+		</revision>
+
+		<revision>
+			<date>1 June 2000</date>
+			<comment>Logiqx released CMPro/RomCenter dats for Laser v0.5.</comment>
+		</revision>
+	</revisions>
+</emulator>

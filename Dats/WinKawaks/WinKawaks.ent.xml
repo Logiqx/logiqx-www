@@ -1,0 +1,122 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="WinKawaks">
+	<img src="WinKawaks.gif" width="141" height="40"/>
+	<name>WinKawaks</name>
+	<version>v1.45</version>
+	<suitability/>
+	<status>Updated</status>
+	<date>19/02/2003</date>
+	<games>355</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+	<comment>
+		<p>Kawaks emulates CPS-1, CPS-2 and Neo-Geo games.</p>
+	</comment>
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="WinKawaks%20v1.45%20(cm).zip" size="67"/>
+		</dat>
+		<dat>
+			&ROMCenter;
+			<file name="WinKawaks%20v1.45%20(rc).zip" size="77"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>19 February 2003</date>
+			<comment>Updated supplements for MAME v0.65.</comment>
+		</revision>
+		<revision>
+			<date>30 January 2003</date>
+			<comment>Updated supplements for MAME v0.64.</comment>
+		</revision>
+		<revision>
+			<date>18 January 2003</date>
+			<comment>Updated supplementary dats for MAME v0.63.</comment>
+		</revision>
+		<revision>
+			<date>30 November 2002</date>
+			<comment>Updated supplementary dats for MAME v0.62.</comment>
+		</revision>
+		<revision>
+			<date>31 October 2002</date>
+			<comment>A few minor fixes but fairly trivial.</comment>
+		</revision>
+		<revision>
+			<date>20 September 2002</date>
+			<comment>Released WinKawaks v1.45 dats.</comment>
+		</revision>
+		<revision>
+			<date>2 May 2002</date>
+			<comment>Released WinKawaks v1.43 dats.</comment>
+		</revision>
+		<revision>
+			<date>2 April 2002</date>
+			<comment>Released WinKawaks v1.42 dats.</comment>
+		</revision>
+		<revision>
+			<date>15 March 2002</date>
+			<comment>Released WinKawaks v1.41 dats including MAME Supplementary dats.</comment>
+		</revision>
+		<revision>
+			<date>18 November 2001</date>
+			<comment>Updated for Kawaks v1.36 (latest XORs added and some changes to the KOF2000 sets).</comment>
+		</revision>
+		<revision>
+			<date>11 November 2001</date>
+			<comment>Updated for Kawaks v1.35 (loads of Neo-Geo changes and additions).</comment>
+		</revision>
+		<revision>
+			<date>10 October 2001</date>
+			<comment>Updated for Kawaks v1.32.<br/>Added playable games armwar, mshvsf, mshvsfj, mshvsfj1 and vsav.<br/>Added 'dummy parents' ddtod and xmvsf.</comment>
+		</revision>
+		<revision>
+			<date>12 September 2001</date>
+			<comment>Added XORs for dstlk, dstlkr1, ddsom, sfa and sfar1.</comment>
+		</revision>
+		<revision>
+			<date>6 September 2001</date>
+			<comment>Added Neo-Geo games for Kawaks v1.30.</comment>
+		</revision>
+		<revision>
+			<date>7 August 2001</date>
+			<comment>Added slammast, slammasu, mbomberj, mbombrd, mbombrdj, 3wonderu, pang3j, batcirj, ecofghtr, sfa3, sfa3r1, sfz3j and vampjr1 for Kawaks v1.20. Renamed some ROMs in xmcota.</comment>
+		</revision>
+		<revision>
+			<date>28 July 2001</date>
+			<comment>Updated for Kawaks v1.14 (added smbomb, smbombr1, mshj, sf2ja and also did some renaming).</comment>
+		</revision>
+		<revision>
+			<date>19 July 2001</date>
+			<comment>Added Pang 3 for Kawaks v1.13.</comment>
+		</revision>
+		<revision>
+			<date>11 July 2001</date>
+			<comment>Added Capcom Sports Club, Capcom World and SSF2 Tournament Battle for Kawaks v1.10.</comment>
+		</revision>
+		<revision>
+			<date>27 June 2001</date>
+			<comment>Added sfz2aj and avsp (Euro) for Kawaks v1.07.</comment>
+		</revision>
+		<revision>
+			<date>24 June 2001</date>
+			<comment>Added Forgotten Worlds and Lost Worlds for Kawaks v1.06.</comment>
+		</revision>
+		<revision>
+			<date>20 June 2001</date>
+			<comment>Added XORs for Armored Warriors plus two new games (sfzch and dwj).</comment>
+		</revision>
+		<revision>
+			<date>13 June 2001</date>
+			<comment>Uploaded dats for Kawaks v1.04.<br/>Street Fighter Zero 2 was added and many SF changes made (to match MAME).</comment>
+		</revision>
+		<revision>
+			<date>7 June 2001</date>
+			<comment>Uploaded dats for Kawaks v1.02.</comment>
+		</revision>
+		<revision>
+			<date>6 June 2001</date>
+			<comment>Uploaded dats for Kawaks v1.00.</comment>
+		</revision>
+	</revisions>
+</emulator>

@@ -1,0 +1,190 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<style TYPE="text/css">
+<!--
+H1 { font-size: 1.5pc }
+H2 { font-size: 1pc }
+-->
+</style>
+<title>RomCenter Data File Format</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><!--#include virtual="/ads/top.shtml" --> </p>
+
+<hr>
+
+<p align="center"><img border="0" src="RomCenter.gif" width="202" height="39"></p>
+
+<h1>Version 1 or 2?</h1>
+
+<p>There are two RomCenter file formats:</p>
+
+<ul>
+  <li>v1.92 for RomCenter 1 (discontinued).</li>
+  <li>v2.00 for RomCenter 2.</li>
+</ul>
+<p>I would strongly urge you to create your data files for RomCenter 2 as the
+new format includes some important information that is impossible to represent
+in the old format. For example, RomCenter version 2 has proper support for the
+MAME resources and also allows more complicated merging definitions. Everyone
+should use RomCenter 2 nowadays as it is far better than the original version!</p>
+
+<p>The main differences between the two formats are:</p>
+
+<ul>
+  <li>Three fields removed from the 'EMULATOR' section of v1.92 dats ('exe', 'runcmd', 'romspaths').</li>
+  <li>Change in how merging is specified (old format used ¬N¬O for normal ROMs
+    and ¬N¬N for merged ROMs).</li>
+  <li>Resource ROMs needed removing from all games in the old format.</li>
+  <li>The old format needed sorting (so that parents and clones were contiguous) in
+    order to avoid a strange bug.</li>
+</ul>
+<p>This document will just explain the creation of RomCenter 2 format dats but if
+you need dats in the old format then you can always do
+a conversion using DatUtil.&nbsp;&nbsp;</p>
+<hr>
+<h1>Header</h1>
+<p>RomCenter data files have a header at the top to specify details such as the
+emulator name, description, category and the data file version.</p>
+<pre>[CREDITS]
+Author=Logiqx, http://www.logiqx.com/
+Version=20010526
+Comment=Capcom CPS-1
+[DAT]
+version=2.00
+[EMULATOR]
+refname=Calice
+version=Calice v0.2.9</pre>
+<p>The meanings of these fields is as follows:</p>
+<table border="1">
+  <tbody>
+    <tr>
+      <th>RomCenter<br>
+        Element</th>
+      <th>CMPro<br>
+        Equivelant</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>CREDITS/Author</td>
+      <td>author</td>
+      <td>Your name and e-mail/web address.</td>
+    </tr>
+    <tr>
+      <td>CREDITS/Version</td>
+      <td>version</td>
+      <td>Version number of the data file. I would recommend using something
+        like a date encoded version number (YYYYMMDD is preferable to DDMMYYYY
+        as it can be sorted and is unambiguous).</td>
+    </tr>
+    <tr>
+      <td>CREDITS/Comment</td>
+      <td>category</td>
+      <td>General comment about the emulator (e.g. the systems or game types it
+        supports).</td>
+    </tr>
+    <tr>
+      <td>DAT/version</td>
+      <td>N/A</td>
+      <td>Format of the data file (1.92 or 2.00). Many 1.92 data files
+        incorrectly show 2.00 and this confuses DatUtil!</td>
+    </tr>
+    <tr>
+      <td>EMULATOR/refname</td>
+      <td>name</td>
+      <td>Name of the emulator <u>without</u> a version number. This field is
+        used to identify the emulator from one version of the data file to
+        another.</td>
+    </tr>
+    <tr>
+      <td>EMULATOR/version</td>
+      <td>description</td>
+      <td>Name of the emulator <u>with</u> a version number. This is the name
+        displayed by RomCenter.</td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<h1>Game ROMs</h1>
+<p>Game details and ROM details are specified together as follows:</p>
+<pre>[GAMES]
+¬invaders¬Space Invaders¬invaders¬Space Invaders¬invaders.h¬734f5ad8¬2048¬¬¬
+¬invaders¬Space Invaders¬invaders¬Space Invaders¬invaders.g¬6bfaca4a¬2048¬¬¬
+¬invaders¬Space Invaders¬invaders¬Space Invaders¬invaders.f¬0ccead96¬2048¬¬¬
+¬invaders¬Space Invaders¬invaders¬Space Invaders¬invaders.e¬14e538b0¬2048¬¬¬</pre>
+<p>The fields are:</p>
+<p>¬parent name¬parent description¬game name¬game description¬rom name¬rom
+crc¬rom size¬romof name¬merge name¬</p>
+<p>In CMPro terms these are cloneof, description (from parent), name (game),
+description, name (rom), crc, size, romof, merge.</p>
+<p> If you
+maintain RomCenter data files by hand it is very easy to make mistakes (due to
+the duplication of game details) so
+I recommend you create data files in CMPro format then convert them to RomCenter
+using DatUtil.&nbsp;</p>
+<p>Merging is specified by having a different 'parent name/game name' and by using
+the last two fields of each line in the data file. No matter whether a ROM is available
+in the parent set or not, the 'romof' field should always be specified. The 'merge name' field
+should only be specified where the ROM exists in the parent game though. e.g.</p>
+<pre>¬invaders¬Space Invaders¬sisv¬Space Invaders (SV Version)¬sv0h.bin¬86bb8cb6¬1024¬invaders¬¬
+¬invaders¬Space Invaders¬sisv¬Space Invaders (SV Version)¬sv02.bin¬0e159534¬1024¬invaders¬¬
+¬invaders¬Space Invaders¬sisv¬Space Invaders (SV Version)¬invaders.g¬6bfaca4a¬2048¬invaders¬invaders.g¬
+¬invaders¬Space Invaders¬sisv¬Space Invaders (SV Version)¬invaders.f¬0ccead96¬2048¬invaders¬invaders.f¬
+¬invaders¬Space Invaders¬sisv¬Space Invaders (SV Version)¬tv04.m1¬cd2c67f6¬2048¬invaders¬¬</pre>
+<hr>
+<h1>Samples</h1>
+<p>The RomCenter file format has no support for samples at this time. If you
+convert a CMPro data file to RomCenter format then convert it back again you
+will lose the sample information.</p>
+<hr>
+<h1>Resources</h1>
+<p>Resources are used by MAME for the sharing of common ROMs for a particular
+system (e.g. NeoGeo, PlayChoice-10, Deco Cassette, CVS).</p>
+<pre>resource (
+	name neogeo
+	description &quot;Neo Geo BIOS&quot;
+	rom ( name neo-geo.rom size 131072 crc 9036d879 )
+	rom ( name ng-sm1.rom size 131072 crc 97cf998b )
+	rom ( name ng-sfix.rom size 131072 crc 354029fc )
+)</pre>
+<p>Resources are included in the 'GAMES' section of RomCenter data files. This
+will cause the number of games reported to be incorrect but the handling of the
+resources will be correct.</p>
+<p>As with CMPro data files, you should use the 'romof' field in games that
+should use the resource ZIP but the 'merge' field should only be used for ROMs
+that are shared. e.g.</p>
+<pre>¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sngku_p1.rom¬f8a63983¬524288¬neogeo¬¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sngku_p2.rom¬3024bbb3¬131072¬neogeo¬¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sngku_s1.rom¬b246204d¬131072¬neogeo¬¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬ng-sfix.rom¬354029fc¬131072¬neogeo¬ng-sfix.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬neo-geo.rom¬9036d879¬131072¬neogeo¬neo-geo.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬ng-sm1.rom¬97cf998b¬131072¬neogeo¬ng-sm1.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sngku_m1.rom¬9b4f34c6¬131072¬neogeo¬¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sngku_v1.rom¬23663295¬1048576¬neogeo¬¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sngku_v2.rom¬f61e6765¬1048576¬neogeo¬¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sngku_c1.rom¬b4eb82a1¬1048576¬neogeo¬¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sngku_c2.rom¬d55c550d¬1048576¬neogeo¬¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sngku_c3.rom¬ed51ef65¬1048576¬neogeo¬¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sngku_c4.rom¬f4f3c9cb¬1048576¬neogeo¬¬</pre>
+<p>In the case of games that are clones and need access to the resource ROMs,
+they should only specify the parent game. e.g.</p>
+<pre>¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬sngkh_p1.rom¬33eccae0¬524288¬sengoku¬¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬sngku_p2.rom¬3024bbb3¬131072¬sengoku¬sngku_p2.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬sngku_s1.rom¬b246204d¬131072¬sengoku¬sngku_s1.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬ng-sfix.rom¬354029fc¬131072¬sengoku¬ng-sfix.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬neo-geo.rom¬9036d879¬131072¬sengoku¬neo-geo.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬ng-sm1.rom¬97cf998b¬131072¬sengoku¬ng-sm1.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬sngku_m1.rom¬9b4f34c6¬131072¬sengoku¬sngku_m1.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬sngku_v1.rom¬23663295¬1048576¬sengoku¬sngku_v1.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬sngku_v2.rom¬f61e6765¬1048576¬sengoku¬sngku_v2.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬sngku_c1.rom¬b4eb82a1¬1048576¬sengoku¬sngku_c1.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬sngku_c2.rom¬d55c550d¬1048576¬sengoku¬sngku_c2.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬sngku_c3.rom¬ed51ef65¬1048576¬sengoku¬sngku_c3.rom¬
+¬sengoku¬Sengoku / Sengoku Denshou (set 1)¬sengokh¬Sengoku / Sengoku Denshou (set 2)¬sngku_c4.rom¬f4f3c9cb¬1048576¬sengoku¬sngku_c4.rom¬</pre>
+</body>
+</html>

@@ -1,0 +1,1655 @@
+Asunto: [TeamLogiqx] Outtahere..... :-)
+Fecha: Mon, 9 Sep 2002 20:28:23 +0100
+De: Dave Ewing <dave@emuverse.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Mike (and everyone else!)
+
+Now that everyone is on the list, I'm outta here.
+My work here is done...  :)
+
+If you have any problems with the list, contact me
+at dave@emuverse.com
+
+--
+Regards,
+ Dave                            mailto:dave@emuverse.com
+
+Asunto: [TeamLogiqx] What does "sh" command do ?
+Fecha: Mon, 9 Sep 2002 22:34:03 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Excuse me for this possible stupid question, but what does "sh" command do,
+and where can I found info for it description ?
+
+TIA
+
+Dr.Zer0
+
+Asunto: [TeamLogiqx] I finally managed to get onto the list!
+Fecha: Mon, 09 Sep 2002 22:48:56 +0200
+De: Phil Höhn <RealPosix@gmx.net>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Ok,
+I don't know how you made it work but I am glad I'm on the list now.
+As this is my first mail to Team Logiqx I am going to introduce myself.
+
+My name is Phil and I'm a 17-year-old guy from Germany... (timezone
+--> GMT +1)
+I'm propably the 'fledgling' of the team ;)
+I will finish school in 2004 so things start to get serious now.
+The reason that made me join Team Logiqx was my wish to be grateful
+for what Mike did!
+I had so much fun fixing the games that I thought I want to give him
+something back!
+The only prob about this is that I'm propably the most bloodiest noob
+you can ever imagine!
+If I will stay in the Team you will have to start at Adam & Eva with me!
+
+I won't be disappointed or angry if you would kick me cos I'm no use for
+the team.... I will understand that...
+
+So what can I do to get started with all this? (...but remember Adam &
+Eva!!)
+I'm interested in emulators like Kawaks, Nebula, Raine, WinUAE &
+PinMame.
+
+Most of the mails some team members have sent lately doesn't make much
+sense to me =/
+I think I'm to bad missing experience with this....
+
+anyway,
+it's ur decision if I'm any use...
+
+greets,
+
+Phil
+
+Asunto: [TeamLogiqx] No problem guy !
+Fecha: Mon, 9 Sep 2002 22:59:53 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Go http://caesar.logiqx.com/team/pi/chloebig.jpg and download this beautiful
+picture, just for start ;-)
+
+Dr.Zer0 of TeamLogiqx
+
+Asunto: [TeamLogiqx] oops - I forgot to say this
+Fecha: Mon, 9 Sep 2002 23:06:59 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+The picture is the background for this:
+http://caesar.logiqx.com/team/pi/emulist.html, a list of the emulators that
+must be update, after that Logiqx show us the method !!!
+
+Asunto: [TeamLogiqx] No role assigned yet (n/t)
+Fecha: Mon, 9 Sep 2002 23:11:36 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+
+
+Asunto: [TeamLogiqx] Email Flood is confusing me! ~lol~
+Fecha: Mon, 09 Sep 2002 23:15:57 +0200
+De: Phil Höhn <RealPosix@gmx.net>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+...that chick doesn't really look good to me :)
+I don't like blonds ;)
+
+Anyway,
+I've just finished reading the 'teamlogixdigest.txt'...
+
+This is for Haukur:
+I ADORE Iceland! I was blown away as I heard you being
+Icelandic!
+Unfortunately I've never been there but definatly wanna
+go there!
+The pictures of Iceland people showed me took my breath
+away! I couldn't take all that beauty...
+
+well... this is going to far... ;)
+Is it true they are going to destroy 'Vatnajokull' (sp?) with
+that damn refenery?!!?
+
+To Pavel:
+You haven't played on Kaillera as 'Player X' have you!? Cos
+I know a Russian boy from Israel whos in my age :)
+That would really be funny...
+
+Does some of you guys have ICQ? I think that would be
+useful...
+
+mine is 84130299. Feel free to add me! ^_^
+
+Hope to hear from ya soon!
+
+Good nite!
+
+Asunto: Re[2]: [TeamLogiqx] Nebula dat still wrong...
+Fecha: Tue, 10 Sep 2002 00:09:30 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+L> Forgot to mention the CRC conflicts that DatUtil reported too (same rmo
+name
+L> in parent and clone but with a different CRC).
+
+yeah, but this we can do nothing about.
+as i remember well two games were affected.
+
+L> Okay, my curiosity got the better of me so I spent five minutes
+downloading
+L> and checking Nebula!
+
+L> I scripted up the things needed to check Nebula's generated dat and it is
+L> incorrect. ElSemi is still not using the drivers to generate a dat...
+
+yeah,
+
+Nebula v2.19:
+
+"Changes:
+
+PGM
+
+Fixed gfx glitches in Dragon World 2
+
+Fixed zooming (very noticeable in dragwld2 intro)
+
+Fixed missing parts of some sprites (KOV flashes)
+CPS1
+
+Fixed some remaining music speeds...
+NEOGEO
+
+Fixed Garou missing animations (esp. some Grant moves).
+
+Select button should be working in all games now (not only garou).
+
+Added the game slot switch button to switch games forwards (key 9=switch
+backwards, key 0=switch forwards)
+GENERAL
+
+Fixed (hopefully) Romcenter Dat generation."
+
+It seams he didn't fixed it.
+
+
+L> Mike, a.k.a. the dat scripting God. lol.
+
+yup.
+
+gonna learn a bit
+
+--
+SLA
+
+Asunto: Re: [TeamLogiqx] I finally managed to get onto the list!
+Fecha: Tue, 10 Sep 2002 00:12:49 +0200
+De: "pavel" <pavel@press-sense.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: Press-sense
+A: <teamlogiqx@emuverse.com>
+
+Good to see someone of my age here :).
+Anyway,i'm worried abit too about content of latest posts to the list.
+Not make much sense to me too.Can someone explain what exactly my role here
+?
+How i create xmls? what is that dat creating faq Pi was talking about ?
+
+ok,gonna download this pic,for a start :)
+
+Asunto: [TeamLogiqx] Question to Logiqx
+Fecha: Tue, 10 Sep 2002 00:14:44 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I don't understand what this line do ?
+
+"grep -v "already in MAME" mamediff.log >tmp.log"; remove something ? or
+what ?!?!
+
+TIA
+
+Dr.Zer0
+
+Asunto: Re: [TeamLogiqx] oops - I forgot to say this
+Fecha: Tue, 10 Sep 2002 00:16:02 +0200
+De: "pavel" <pavel@press-sense.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: Press-sense
+A: <teamlogiqx@emuverse.com>
+
+Ok,this is i already got,but who and how supposed to do updates to the list
+?
+
+
+Asunto: RE: [TeamLogiqx] What does "sh" command do ?
+Fecha: Tue, 10 Sep 2002 09:35:17 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+You'll need CygWin installed to use such cmomands.
+
+'sh' is a Unix shell (kind of like a DOS environment on a PC). Unix
+scripting is far more powereful than DOS scripting so I often use it instead
+(hence the batch script calling an sh script).
+
+Mike
+Asunto: RE: [TeamLogiqx] I finally managed to get onto the list!
+Fecha: Tue, 10 Sep 2002 09:44:52 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Don't worry about experience. So long as people are well behaved then they
+can stay on the list and will gradually learn stuff through their
+attendance. Some of the stuff I covered yersterday was a little complicated
+but I posted it because Leslaw and Dr. Zero are familiar with dat creation
+already and would benefit from it.
+
+I plan to start getting some things up to date soon (MAME and CPS-2 first).
+I will explain exactly what I do and then newbies can try repeating the
+process so that they understand how it works. Do not worry about the
+complicated scripting and comparison work yet, not everyone needs to be
+capabale of that. ;)
+
+Over the next few weeks I'm sure we'll get an idea of what tasks we are all
+capable of and allocate things accordingly. It may turn out that some people
+simply keep an eye out for updates that are necessary and gather
+information. Other people may own one or more of the dats but I don't want
+this to be too regimented. I want to allow people to do things that they are
+happy about and capable of.
+
+Mike
+
+-----Original Message-----
+From: majordomo-owner@emuverse.com
+[mailto:majordomo-owner@emuverse.com]On Behalf Of pavel
+Sent: 09 September 2002 23:13
+To: teamlogiqx@emuverse.com
+Subject: Re: [TeamLogiqx] I finally managed to get onto the list!
+
+Good to see someone of my age here :).
+Anyway,i'm worried abit too about content of latest posts to the list.
+Not make much sense to me too.Can someone explain what exactly my role here
+?
+How i create xmls? what is that dat creating faq Pi was talking about ?
+
+ok,gonna download this pic,for a start :)
+
+
+Asunto: RE: [TeamLogiqx] oops - I forgot to say this
+Fecha: Tue, 10 Sep 2002 09:47:58 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Just drop a quick note to the mailing list and Pi will update the page.
+
+It's better this way because several people updating such a page could lead
+to changes getting lost (one person overwriting another person's changes).
+
+Mike
+Asunto: RE: Re[2]: [TeamLogiqx] Nebula dat still wrong...
+Fecha: Tue, 10 Sep 2002 09:56:49 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+S>yeah, but this we can do nothing about.
+S>as i remember well two games were affected.
+
+It is one of two things:
+
+- Sometimes it is a completely incorrect CRC causing the conflict (i.e. ROM
+from a completely different game) which means we can simply use the correct
+one.
+- Other times it is just the ROM name that is wrong and in this circumstance
+we can give it the correct name (since I know the correct CPS-2 ROM names).
+
+Either way, we can create a dat without conflicts and report the correct
+driver fix to ElSemi (as I always have done in the past).
+
+I will look into which scenario it is when I actually get around to that
+dat.
+
+L> Mike, a.k.a. the dat scripting God. lol.
+S>yup.
+S>gonna learn a bit
+
+Hopefully. :)
+
+Anyway, people need not worry about the ability to write such scripts. I can
+do that and other people simply have to understand how to interpret the
+results.
+
+Mike
+
+
+Asunto: RE: [TeamLogiqx] Question to Logiqx
+Fecha: Tue, 10 Sep 2002 10:06:00 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Yes, 'grep' prints lines matching a pattern (called a regular expression in
+Unix). The -v option does the opposite (i.e. prints lines not containing the
+pattern).
+
+Mike
+Asunto: [TeamLogiqx] FW: Message from HaDBeEN
+Fecha: Tue, 10 Sep 2002 11:43:16 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+
+-----Original Message-----
+From: HaDBeEN [mailto:hadbeen@socal.rr.com]
+Sent: 10 September 2002 06:41
+To: Pi; Phil Höhn; pavel; Logiqx; Dr.Zer0; Dave Ewing
+Subject: Hi guys..
+
+This is HaDBeEN but you all can call me Robin if I haven't introduced myself
+to you yet.
+
+Anyways. I like many of the other people of this team are new to the
+group. Unfortunately I won't be able to email you guys this whole week, not
+that i'm not interested in working with you guys.
+
+I actually can't wait to really talk to you all and and be part of a team.
+But right now I have alot of really important projects and tests due this
+week for school so I won't be able to part-take in the site.
+
+But please update me with your progress so I won't loose track on what you
+are all doing.
+
+also, Logigx or Pi, can you email me all previous inportant email that i'll
+need. I have to format my computer and i lost all previous emails. sorry.
+
+anyways. ttyl & good luck.
+
+Asunto: Re: [TeamLogiqx] About Astorm
+Fecha: Tue, 10 Sep 2002 15:14:23 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+DZ> I work with a dat for system16 arcade emulator an year or so ago, and I
+have same
+DZ> problem with "Alien Storm" ROMs,
+DZ>  I search this ROMs all around the net :-) (I'm search for i it "alot"),
+but at
+DZ> the end I realize that this ROMs in a sort of memory dump related to
+"Speech Emulation",
+DZ>  I think that the only way to find out that ROMs is to contact the
+author directly.
+
+Have you found that rom (in attachment): ASTORMBL.RAM (size 8901),
+BTW: What's that?
+
+Leslaw
+
+--
+SLA
+
+  -----------------------------------------------------------------
+                   Name: astormbl.zip
+   astormbl.zip    Type: Zip Compressed Data (application/x-zip-compressed)
+               Encoding: base64
+
+
+Asunto: Re: [TeamLogiqx] FW: Message from HaDBeEN
+Fecha: Tue, 10 Sep 2002 06:40:52 -0700
+De: "HaDBeEN" <hadbeen@socal.rr.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+?
+Asunto: Re: [TeamLogiqx] Email Flood is confusing me! ~lol~
+Fecha: Tue, 10 Sep 2002 06:42:23 -0700
+De: "HaDBeEN" <hadbeen@socal.rr.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+same here. what are we suppose to focus one. which emails are inportant to
+us?
+----- Original Message -----
+From: "Phil Höhn" <RealPosix@gmx.net>
+To: <teamlogiqx@emuverse.com>
+Sent: Monday, September 09, 2002 2:15 PM
+Subject: [TeamLogiqx] Email Flood is confusing me! ~lol~
+
+> ...that chick doesn't really look good to me :)
+> I don't like blonds ;)
+>
+> Anyway,
+> I've just finished reading the 'teamlogixdigest.txt'...
+>
+> This is for Haukur:
+> I ADORE Iceland! I was blown away as I heard you being
+> Icelandic!
+> Unfortunately I've never been there but definatly wanna
+> go there!
+> The pictures of Iceland people showed me took my breath
+> away! I couldn't take all that beauty...
+>
+> well... this is going to far... ;)
+> Is it true they are going to destroy 'Vatnajokull' (sp?) with
+> that damn refenery?!!?
+>
+> To Pavel:
+> You haven't played on Kaillera as 'Player X' have you!? Cos
+> I know a Russian boy from Israel whos in my age :)
+> That would really be funny...
+>
+>
+> Does some of you guys have ICQ? I think that would be
+> useful...
+>
+> mine is 84130299. Feel free to add me! ^_^
+>
+>
+> Hope to hear from ya soon!
+>
+> Good nite!
+>
+>
+>
+
+Asunto: [TeamLogiqx] IMPORTANT, please READ and RESPOND
+Fecha: Tue, 10 Sep 2002 15:43:11 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Sorry for the flood. I did not intend for it to happen this way so let's all
+hold back on asking questions until I have things under control. I will soon
+have things at a point where I can start passing on my skills and I'll title
+those e-mails 'LESSON 1', 'LESSON 2' etc.
+
+Only two posts contain useful/important info right now but they are quite
+complex. Only people familiar with dat creation, DatUtil and MAMEDiff will
+understand them. If you did understand my posts then great, if you did not
+then do not worry about it, I did not expect everyone to understand them.
+The content rich posts were:
+
+[TeamLogiqx] Explanation of MAME, Kawaks, Nebula, FB/FBA
+[TeamLogiqx] Nebula dat still wrong...
+
+Okay, so that I can get things moving I have constructed this page:
+
+http://www.logiqx.com/Team/team.html
+
+Can you please let me know (post to the teamlogiqx) what you believe you are
+currently capable of in terms of these columns:
+
+Role
+----
+
+Apprentice - here to watch and learn
+Dat Packager - can obtain resource dats from their home (MAME32QA etc),
+re-zip and update the web page XML (prior to upload).
+Dat Creator - as the name implies
+Lurker - for Pi. Just kidding, lol.
+
+Dat Complexity - for dat creators
+--------------
+
+1 - Can handle very simple dats
+2 - Can handle medium complexity dats
+3 - Can handle the most complex of dats (invent scripts for validation etc).
+
+Packager - Yes or No
+--------
+
+Only people with a role of 'Dat packager' or 'Dat creator' should say 'Yes'.
+Some dat creators may not be prepared to do such a mundane activity though.
+;)
+
+Uploader
+--------
+
+Currently just me. Until we are operating effectively I don't want the added
+confusion of lots of people uploading stuff. ;)
+
+Answering these questions is important as it serves three very useful
+purposes:
+
+1) Everyone can see who can do what
+2) I will know what audience to target in my 'lesson' posts at.
+3) I can hand out some tasks to people and get things moving.
+
+I fully expect people to become more capable over time and the page will be
+updated to reflect this. I also expect it will have other niformation like
+who owns which dats. However, for now I just need a rough idea of where you
+think you stand so that I can get things going.
+
+I'm hoping Pi will be updating this page but I haven't heard from him yet.
+
+Mike
+
+-----Original Message-----
+From: majordomo-owner@emuverse.com
+[mailto:majordomo-owner@emuverse.com]On Behalf Of HaDBeEN
+Sent: 10 September 2002 14:42
+To: teamlogiqx@emuverse.com
+Subject: Re: [TeamLogiqx] Email Flood is confusing me! ~lol~
+
+same here. what are we suppose to focus one. which emails are inportant to
+us?
+----- Original Message -----
+From: "Phil Höhn" <RealPosix@gmx.net>
+To: <teamlogiqx@emuverse.com>
+Sent: Monday, September 09, 2002 2:15 PM
+Subject: [TeamLogiqx] Email Flood is confusing me! ~lol~
+
+> ...that chick doesn't really look good to me :)
+> I don't like blonds ;)
+>
+> Anyway,
+> I've just finished reading the 'teamlogixdigest.txt'...
+>
+> This is for Haukur:
+> I ADORE Iceland! I was blown away as I heard you being
+> Icelandic!
+> Unfortunately I've never been there but definatly wanna
+> go there!
+> The pictures of Iceland people showed me took my breath
+> away! I couldn't take all that beauty...
+>
+> well... this is going to far... ;)
+> Is it true they are going to destroy 'Vatnajokull' (sp?) with
+> that damn refenery?!!?
+>
+> To Pavel:
+> You haven't played on Kaillera as 'Player X' have you!? Cos
+> I know a Russian boy from Israel whos in my age :)
+> That would really be funny...
+>
+>
+> Does some of you guys have ICQ? I think that would be
+> useful...
+>
+> mine is 84130299. Feel free to add me! ^_^
+>
+>
+> Hope to hear from ya soon!
+>
+> Good nite!
+>
+>
+>
+
+Asunto: [TeamLogiqx] Question(s) to be answered...
+Fecha: Tue, 10 Sep 2002 18:07:38 +0200
+De: Phil Höhn <RealPosix@gmx.net>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi everyone,
+
+to Mike (hope you don't mind that I dislike nicks (even urs is very nice)):
+http://www.logiqx.com/Team/team.html <--- very useful and interesting
+thing!
+
+My role: definitely 'Apprentice' !
+But I'm willing to learn ^_-
+
+the only thing I did concerning dats and emus and stuff was fixing my
+games with ....(~running for cover~) RomCenter !!! ...for which I
+used Logiqx' dats ^_^
+
+I tried to get into ClrMamePro several times but this program is just
+confusing me with it's millions of checkboxes everywhere and more
+than 5 menus and what not...
+
+Could someone explain to me what ClrMamePro can that RC doesn't?!
+To me it seems that in the end they are both doing exactly the same
+with the only difference that RC is less complicated, looks better and
+is much more simple!
+
+Try to supress the desire to flame me for this ;)
+Thx for answers,
+
+greets,
+
+Phil
+
+Asunto: Re: [TeamLogiqx] I finally managed to get onto the list!
+Fecha: Tue, 10 Sep 2002 11:30:34 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hello Phil,
+
+> The only prob about this is that I'm propably the most bloodiest noob
+> you can ever imagine!
+> If I will stay in the Team you will have to start at Adam & Eva with me!
+>
+> I won't be disappointed or angry if you would kick me cos I'm no use for
+> the team.... I will understand that...
+
+I can't speak for the rest of the team, but I wouldn't worry about lacking
+experience.  A year ago, I didn't know anything relevant to this kind of
+work.  Now, thanks to Logiqx and his various programs, I can update a couple
+of smaller dats and update the XML for CAESAR for these dats.  A little
+patience makes this work less overwhelming. :)
+
+Talk to you soon,
+Rob
+
+Asunto: RE: [TeamLogiqx] Question(s) to be answered...
+Fecha: Tue, 10 Sep 2002 17:32:34 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>Could someone explain to me what ClrMamePro can that RC doesn't?!
+
+>From my point of view it is better for dat creation for a few reasons:
+
+- Dat errors are far more likely to show up in CMPro.
+- It offers me more control over what it is doing.
+- It's scan results are very useful during dat creation/validation.
+- CMPro has a better file format.
+
+In the past, some of RomCenter's handling of weird cases (merging errors
+etc) has not been ideal but it is much better nowadays. RomCenter is still a
+great tool though, hence my support for it. I just use CMPro as my master
+tool and generate RomCenter dats using DatUtil.
+
+I have no problem with other people in the team using RomCenter as their
+first choice but any dats created need to be done in CMPro format first and
+then converted to RomCenter for testing. ;)
+
+Mike
+
+Asunto: Re: [TeamLogiqx] Question(s) to be answered...
+Fecha: Tue, 10 Sep 2002 11:37:44 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hello Phil,
+
+> the only thing I did concerning dats and emus and stuff was fixing my
+> games with ....(~running for cover~) RomCenter !!! ...for which I
+> used Logiqx' dats ^_^
+>
+> I tried to get into ClrMamePro several times but this program is just
+> confusing me with it's millions of checkboxes everywhere and more
+> than 5 menus and what not...
+
+I also started with RC (hell, I even beta-test!) and found CMP to be awkward
+and non-user-friendly.  With time (and patience), I learned to use CMP and
+now it's my rom manager of choice (sorry Eric...).
+
+> Could someone explain to me what ClrMamePro can that RC doesn't?!
+> To me it seems that in the end they are both doing exactly the same
+> with the only difference that RC is less complicated, looks better and
+> is much more simple!
+
+I agree with you - RC is less complicated, looks better and is much simpler.
+However, CMP wins when it comes to power.  In RC, you have to select 'Fix
+this' or 'Fix that', and sometimes a bad choice of context locks RC up
+rather badly (a good example: try fixing icons.zip...).  In CMP, you simply
+check 'Fix' for whatever item you want (hint: don't check 'Fix Unneeded' if
+you're scanning your MAME roms with a CPS-2 dat - no, I haven't done this
+:p).  I have only used the Rebuilder once, although it went very well.
+Also, once you set up CMP properly, life is easier.
+
+Talk to you soon,
+Rob
+
+Asunto: Re: [TeamLogiqx] IMPORTANT, please READ and RESPOND - Rob's Response
+Fecha: Tue, 10 Sep 2002 11:49:14 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+> Dat Creator
+> 2 - Can handle medium complexity dats (I may be able to take it to 3 with
+some coaching and a lot of sample scripts)
+
+> Packager - Yes (just like before, Mike?)
+
+> Uploader - a little upskilling is needed here ;)
+
+Talk to you soon,
+Rob (GMT-6)
+
+P.S.  Wow!  3 Canadians!
+
+Asunto: [TeamLogiqx] ~feeling better now~
+Fecha: Tue, 10 Sep 2002 19:55:01 +0200
+De: Phil Höhn <RealPosix@gmx.net>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Thx Rob that was very nice!
+I feel relieved now... ^_^
+who knows, maybe I will use CMPro in near future ;)
+
+Mike,
+I think we aren't allowed to ask questions since you
+have started with Lesson1, Lesson2 and so on... are we?
+
+Propably most wonderings will be burried with time passes
+or can I just begin to ask loads of things? :)
+
+I can't wait to get started! (don't worry, I know that
+patience is most important!) ^_-
+
+ok,
+byebye
+
+Asunto: Re: [TeamLogiqx] About Astorm
+Fecha: Tue, 10 Sep 2002 22:01:35 +0200
+De: "Andrea Scianna" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+If I remember right, I have find a .ram fine in another ROM SET, maybe
+"Sonic Arcade Beta" for SEGA System 32, and referred to that set a dumper (I
+don't remeber who) say me that that file is a sort of "subproduct" of
+dumping process, that may help the emulator author to make emulator, repeat
+I'm not sure of this, but for sure it isn't tha file we are searching for.
+
+However I think that Logiqx may know more about "astormbl.ram", hope :-)
+
+----- Original Message -----
+From: "Leslaw Skrzypek" <skrzypek@im.uj.edu.pl>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, September 10, 2002 3:14 PM
+Subject: Re: [TeamLogiqx] About Astorm
+
+>
+> DZ> I work with a dat for system16 arcade emulator an year or so ago, and
+I have same
+> DZ> problem with "Alien Storm" ROMs,
+> DZ>  I search this ROMs all around the net :-) (I'm search for i it
+"alot"), but at
+> DZ> the end I realize that this ROMs in a sort of memory dump related to
+"Speech Emulation",
+> DZ>  I think that the only way to find out that ROMs is to contact the
+author directly.
+>
+> Have you found that rom (in attachment): ASTORMBL.RAM (size 8901),
+> BTW: What's that?
+>
+> Leslaw
+>
+>
+> --
+> SLA
+
+Asunto: Re: [TeamLogiqx] IMPORTANT, please READ and RESPOND
+Fecha: Tue, 10 Sep 2002 22:16:43 +0200
+De: "Andrea Scianna" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I think that my role will be "Dat Creator", first because I like the
+"tricky" of make dat, and second because this will be a good mode to help
+emulation community with my knowledge (hope), about my skill, I think that
+handle "medium complexity dat" isn't a problem for me hope that with your
+help, and with effort of the team, in the near future can handle most
+complexity dat, like nebula one [ElSemi docet]. I response yes to package
+answer too, however this isn't my first role ;-), at least I have very basic
+knowledge of HTML, XML, etc and therefore this role isn't for me, there are
+more prepared guy in the list that can do this.
+
+Long life to TeamLogiqx
+
+Dr.Zer0
+----- Original Message -----
+From: "Logiqx" <logiqx@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, September 10, 2002 4:43 PM
+Subject: [TeamLogiqx] IMPORTANT, please READ and RESPOND
+
+> Sorry for the flood. I did not intend for it to happen this way so let's
+all
+> hold back on asking questions until I have things under control. I will
+soon
+> have things at a point where I can start passing on my skills and I'll
+title
+> those e-mails 'LESSON 1', 'LESSON 2' etc.
+>
+> Only two posts contain useful/important info right now but they are quite
+> complex. Only people familiar with dat creation, DatUtil and MAMEDiff will
+> understand them. If you did understand my posts then great, if you did not
+> then do not worry about it, I did not expect everyone to understand them.
+> The content rich posts were:
+>
+> [TeamLogiqx] Explanation of MAME, Kawaks, Nebula, FB/FBA
+> [TeamLogiqx] Nebula dat still wrong...
+>
+>
+> Okay, so that I can get things moving I have constructed this page:
+>
+> http://www.logiqx.com/Team/team.html
+>
+>
+> Can you please let me know (post to the teamlogiqx) what you believe you
+are
+> currently capable of in terms of these columns:
+>
+> Role
+> ----
+>
+> Apprentice - here to watch and learn
+> Dat Packager - can obtain resource dats from their home (MAME32QA etc),
+> re-zip and update the web page XML (prior to upload).
+> Dat Creator - as the name implies
+> Lurker - for Pi. Just kidding, lol.
+>
+> Dat Complexity - for dat creators
+> --------------
+>
+> 1 - Can handle very simple dats
+> 2 - Can handle medium complexity dats
+> 3 - Can handle the most complex of dats (invent scripts for validation
+etc).
+>
+> Packager - Yes or No
+> --------
+>
+> Only people with a role of 'Dat packager' or 'Dat creator' should say
+'Yes'.
+> Some dat creators may not be prepared to do such a mundane activity
+though.
+> ;)
+>
+> Uploader
+> --------
+>
+> Currently just me. Until we are operating effectively I don't want the
+added
+> confusion of lots of people uploading stuff. ;)
+>
+>
+> Answering these questions is important as it serves three very useful
+> purposes:
+>
+> 1) Everyone can see who can do what
+> 2) I will know what audience to target in my 'lesson' posts at.
+> 3) I can hand out some tasks to people and get things moving.
+>
+> I fully expect people to become more capable over time and the page will
+be
+> updated to reflect this. I also expect it will have other niformation like
+> who owns which dats. However, for now I just need a rough idea of where
+you
+> think you stand so that I can get things going.
+>
+>
+> I'm hoping Pi will be updating this page but I haven't heard from him yet.
+>
+>
+> Mike
+>
+> -----Original Message-----
+> From: majordomo-owner@emuverse.com
+> [mailto:majordomo-owner@emuverse.com]On Behalf Of HaDBeEN
+> Sent: 10 September 2002 14:42
+> To: teamlogiqx@emuverse.com
+> Subject: Re: [TeamLogiqx] Email Flood is confusing me! ~lol~
+>
+>
+> same here. what are we suppose to focus one. which emails are inportant to
+> us?
+> ----- Original Message -----
+> From: "Phil Höhn" <RealPosix@gmx.net>
+> To: <teamlogiqx@emuverse.com>
+> Sent: Monday, September 09, 2002 2:15 PM
+> Subject: [TeamLogiqx] Email Flood is confusing me! ~lol~
+>
+>
+> > ...that chick doesn't really look good to me :)
+> > I don't like blonds ;)
+> >
+> > Anyway,
+> > I've just finished reading the 'teamlogixdigest.txt'...
+> >
+> > This is for Haukur:
+> > I ADORE Iceland! I was blown away as I heard you being
+> > Icelandic!
+> > Unfortunately I've never been there but definatly wanna
+> > go there!
+> > The pictures of Iceland people showed me took my breath
+> > away! I couldn't take all that beauty...
+> >
+> > well... this is going to far... ;)
+> > Is it true they are going to destroy 'Vatnajokull' (sp?) with
+> > that damn refenery?!!?
+> >
+> > To Pavel:
+> > You haven't played on Kaillera as 'Player X' have you!? Cos
+> > I know a Russian boy from Israel whos in my age :)
+> > That would really be funny...
+> >
+> >
+> > Does some of you guys have ICQ? I think that would be
+> > useful...
+> >
+> > mine is 84130299. Feel free to add me! ^_^
+> >
+> >
+> > Hope to hear from ya soon!
+> >
+> > Good nite!
+> >
+> >
+> >
+>
+>
+
+Asunto: [TeamLogiqx] just wanna introduce myself...
+Fecha: Tue, 10 Sep 2002 22:20:07 +0200
+De: "rosewoodj" <rosewoodj@hotmail.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+hi all,
+
+after some troubles joining the list and some heavy re-partitioning
+this weekend i'm finally be able to go online and to read all my mails,
+ oh well...
+
+now, let me introduce myself, i'm a web-programmer from germany (gmt+1)
+(that makes us two now, right?), 24 years old and you can call
+me stefan if you like (there so many nicks of me floating arround
+in the  net, 'rosewood' is fine too...).
+right now i'm self-employed and doing some jobs for a mini-game
+company, mostly html and php/mysql stuff (ever heard of the
+'moorhuhn'?).
+
+i first found out about emulation in 1998, 'back then' a friend
+gave me a cd w/ some snes roms and zsnes, though it just had
+about 5 fps i was still amazed and couldn't wait to get a faster
+pc to run the games in their full glory.
+first it was only console emulation, like snes, nes, genesis, gb/c,
+and then came the neo-geo to invite me in the world of arcade emulation.
+i didn't like mame very much back then so i had to play w/ neoragex.
+then came the first neogeocd emu and the iso trading sites, for some
+time i was member of 'neogeo team 2000' and 'neogeonocide' and was
+maintaining the cd-cover sections there (those sites are still alive).
+later then came finalburn and the cps-2 hype and romcenter, finally
+a tool to keep track of all the collected roms...
+
+at that time i thought it would be cool to have a complete database
+w/ every game ever released, but logiqx allredy had invented caesar,
+i didn't want to interfere/compete w/ that database back then, but
+then logiqx/pi were asking for help, and here i am, willing to give
+something back to emulation community!!!
+
+@logiqx, regarding 'IMPORTANT, please READ and RESPOND':
+about the role:
+'apprentice' = yes, i'm always learning...
+'dat packager' = yes, i think i can handle that, complexity = 1-2
+'uploader' = yes of course, i'm living in the web... ;-)
+--
+i could create a database-driven site for the team to reflect everything
+that has been done and is to be done to the dat files, tell me what you
+think about that ...
+
+@pi:
+'rosewoodj' is not intended to be 1337 (who is 1377 anway? ;-)), the
+'j' is just there because rosewood was taken allready, what about
+the @logiqx.com address? :-)
+
+-------
+
+ciao.rosewood
+
+Asunto: [TeamLogiqx] Please read and Cancel my previus post m/t
+Fecha: Tue, 10 Sep 2002 22:21:05 +0200
+De: "Giovanni Scianna" <gioscianna@katamail.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I don't like that my name become public.
+
+Thank's to mother Microsoft for this :-||
+
+Asunto: [TeamLogiqx] please cancel previous post (again) OutLook suck
+Fecha: Tue, 10 Sep 2002 22:32:38 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+ don't like that my name become public.
+
+Thank's to mother Microsoft for this :-||
+
+
+Asunto: Re: [TeamLogiqx] just wanna introduce myself...
+Fecha: Tue, 10 Sep 2002 22:15:52 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> i could create a database-driven site for the team to reflect everything
+> that has been done and is to be done to the dat files, tell me what you
+> think about that ...
+
+That is an interesting idea but I think that once we are up to date with
+everything there won't be too much need for it (there should only ever be a
+small handful of things outstanding at most). I'll ceratinly keep it in the
+back of my mind though. :)
+
+> the @logiqx.com address? :-)
+
+Getting such things set up is a real pain. Expect a month's worth of
+reminder e-mails to the ZTnet admins before that happens! Once it is
+apparent who is going to stick with the team, we'll certainly go about
+getting them set up but it is too much trouble when I don't know who will
+stay for sure. An example of their speed is that I've still not had a reply
+to my request for teamlogiqx@logiqx.com (requested a week before I asked
+dave@emuverse)!
+
+Mike
+
+Asunto: Re: [TeamLogiqx] IMPORTANT, please READ and RESPOND
+Fecha: Tue, 10 Sep 2002 22:18:36 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Well...i'll take APPRENTICE.Prolly going to spend my experience points on
+> DAT CREATOR III class in the future.
+
+I'm sure you'll soon clock up your experience points. ;)
+
+Asunto: Re: [TeamLogiqx] IMPORTANT, please READ and RESPOND
+Fecha: Tue, 10 Sep 2002 23:29:51 +0200
+De: "pavel" <pavel@press-sense.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: Press-sense
+A: <teamlogiqx@emuverse.com>
+
+I'm a big fan of Role Playing Games :)
+Such a shame that we don't have currently too much classes to choose from.
+Well...i'll take APPRENTICE.Prolly going to spend my experience points on
+DAT CREATOR III class in the future.
+Waiting for lessons :).
+
+Asunto: [TeamLogiqx] Team Page
+Fecha: Tue, 10 Sep 2002 22:54:02 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I have updated the team page a bit more:
+
+http://www.logiqx.com/Team/team.html
+
+I've taken peoples surnames away and associated e-mail addresses against the
+real names or nicks. People who have specified the role that they would like
+initially have had that filled in too.
+
+Mike
+
+Asunto: Re: [TeamLogiqx] IMPORTANT, please READ and RESPOND
+Fecha: Wed, 11 Sep 2002 00:23:36 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Logiqx ha escrito:
+
+> http://www.logiqx.com/Team/team.html
+
+really that capital T drives me nutz.
+
+> Can you please let me know (post to the teamlogiqx) what you believe you
+are
+> currently capable of in terms of these columns:
+>
+> Role
+> ----
+
+Lurker, guinea pig for lessons, all around nice and funny guy.
+
+> Dat Complexity - for dat creators
+> --------------
+
+-17
+
+> Packager - Yes or No
+> --------
+
+No, never. I'm not on drugs, you know.
+
+> Uploader
+> --------
+
+Only Chloe pics.
+
+> I'm hoping Pi will be updating this page but I haven't heard from him yet.
+
+I will update it but don't think of instant-updates. I'm a lurker :-p
+
+To Leslaw: I think that .RAM file is a leftover of the Emu configuration,
+despite the file date. I don't think it's a rom at all.
+
+To Logiqx: Don't send lesson 1 until friday pls.
+
+To Rosewood: Bad luck with the l33t addy :-p Also I think Logiqx can also
+say
+something about an extra letter in the nick :)
+
+To the rest of the team: glad to have you all here! Only needed 37 days :)
+
+pi
+
+Asunto: RE: [TeamLogiqx] IMPORTANT, please READ and RESPOND
+Fecha: Wed, 11 Sep 2002 09:46:35 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> http://www.logiqx.com/Team/team.html
+> really that capital T drives me nutz.
+
+Lower t works now (can use upper or lower).
+
+>To Logiqx: Don't send lesson 1 until friday pls.
+
+Ok, lesson 1 will be on Friday. I may write it tonight though and ask
+Rosewood to sanity check it so that I can send it to the list on Friday.
+
+Lesson 0 will be sent to the list today though, ha ha! Lesson 0 will just be
+installing the pre-requisite software (i.e. selected parts of Cygwin, my
+tools and the XML tool). I am packaging it all up to make it as simple as
+possible. Kay (my gf) is away until Friday so I must make use of the time
+while I have some. ;)
+
+Mike
+
+Asunto: [TeamLogiqx] LESSON 0 - Tools to install
+Fecha: Wed, 11 Sep 2002 15:06:42 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Before we start doing the lessons proper, you will need to install a few
+tools
+on your PC. Please ensure you do this before you begin the lessons
+themselves.
+
+This shouldn't take more than 5 or 10 minutes. Let me know how you get on.
+;)
+
+STEP 1 - Create a 'Logiqx' directory
+======
+
+- Create a directory called 'Logiqx' on a drive that is convenient for you
+  (this will probably be 'c:\' for most people).
+
+STEP 2 - Download the tools needed
+======
+
+- Download all of the 'bin' archives from
+http://www.logiqx.com/team/download/
+
+- Extract all of the archives into your 'Logiqx' directory (e.g. c:\Logiqx)
+
+STEP 3 - Configure your path
+======
+
+Windows 95 or 98:
+
+- Add these lines to c:\autoexec.bat
+
+  SET LOGIQX=c:\Logiqx
+  SET PATH=%PATH%;%LOGIQX%\bin
+
+- Once you autoexec.bat is updated you will need to reboot your PC.
+
+Windows NT, 2000 or XP (do not use c:\autoexec.bat, that is naughty, lol):
+
+I only have Windows 2000 as reference but NT and XP are almost identical...
+
+- From the Start Menu, select 'Settings->Control Panel'
+- Double-click the 'System' icon
+
+- Select the 'Advanced' sheet (on Windows 2000, called 'Environment' on NT)
+- Click on 'Environment Variables...'
+
+- Click on 'New...' (under the 'System variables' section)
+- Specify a variable name of 'LOGIQX' and value of 'c:\Logiqx'
+
+- Select 'Path' (under the 'System variables' section)
+- Click 'Edit...'
+- Add ';%LOGIQX%\bin' at the end of the value line and press 'OK'
+
+On NT/2000/XP there is no need for a reboot (if you followed my steps
+above).
+
+STEP 4 - Test it works!
+======
+
+- Open a command prompt (what some people call a 'DOS window')
+
+- Execute 'echo %LOGIQX%'. This should show something like 'c:\Logiqx'.
+
+- Execute 'path'. This should show 'c:\Logiqx\bin' at the end of the line.
+
+- Execute 'ls -l'. This should show a Unix directory listing.
+
+If everything worked as expected then you have done everything right. :)
+
+Mike
+
+Asunto: Re: [TeamLogiqx] LESSON 0 - Tools to install
+Fecha: Wed, 11 Sep 2002 18:36:49 +0200
+De: Phil Höhn <RealPosix@gmx.net>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Am 11.09.2002 16:06:42, schrieb "Logiqx" <logiqx@logiqx.com>:
+
+>Before we start doing the lessons proper, you will need to install a few
+>tools
+>on your PC. Please ensure you do this before you begin the lessons
+>themselves.
+>
+>This shouldn't take more than 5 or 10 minutes. Let me know how you get on.
+>;)
+>
+>
+>STEP 1 - Create a 'Logiqx' directory
+>======
+>
+>- Create a directory called 'Logiqx' on a drive that is convenient for you
+>  (this will probably be 'c:\' for most people).
+>
+>
+>STEP 2 - Download the tools needed
+>======
+>
+>- Download all of the 'bin' archives from
+>http://www.logiqx.com/team/download/
+>
+>- Extract all of the archives into your 'Logiqx' directory (e.g. c:\Logiqx)
+>
+>
+>STEP 3 - Configure your path
+>======
+>
+>Windows 95 or 98:
+>
+>- Add these lines to c:\autoexec.bat
+>
+>  SET LOGIQX=c:\Logiqx
+>  SET PATH=%PATH%;%LOGIQX%\bin
+>
+>- Once you autoexec.bat is updated you will need to reboot your PC.
+>
+>
+>Windows NT, 2000 or XP (do not use c:\autoexec.bat, that is naughty, lol):
+>
+>I only have Windows 2000 as reference but NT and XP are almost identical...
+>
+>- From the Start Menu, select 'Settings->Control Panel'
+>- Double-click the 'System' icon
+>
+>- Select the 'Advanced' sheet (on Windows 2000, called 'Environment' on NT)
+>- Click on 'Environment Variables...'
+>
+>- Click on 'New...' (under the 'System variables' section)
+>- Specify a variable name of 'LOGIQX' and value of 'c:\Logiqx'
+>
+>- Select 'Path' (under the 'System variables' section)
+>- Click 'Edit...'
+>- Add ';%LOGIQX%\bin' at the end of the value line and press 'OK'
+>
+>On NT/2000/XP there is no need for a reboot (if you followed my steps
+>above).
+>
+>
+>STEP 4 - Test it works!
+>======
+>
+>- Open a command prompt (what some people call a 'DOS window')
+>
+>- Execute 'echo %LOGIQX%'. This should show something like 'c:\Logiqx'.
+>
+>- Execute 'path'. This should show 'c:\Logiqx\bin' at the end of the line.
+>
+>- Execute 'ls -l'. This should show a Unix directory listing.
+>
+>
+>If everything worked as expected then you have done everything right. :)
+>
+>
+>Mike
+>
+>
+>
+
+Wow! This was really fun!! ^_^
+I'm really glad everything worked!
+
+>- Click on 'New...' (under the 'System variables' section)
+>- Specify a variable name of 'LOGIQX' and value of 'c:\Logiqx'
+
+---> Some people might have probs here cos it is not sure that the
+path is 'c:\Logiqx'. e.g. for me thats 'd:\Logiqx' ...
+
+Don't think I'm big-headed or something! I just wanna prevent
+eventuell probs ;) (...though I'm sure I'm the only one who was
+lil unsure on that)
+
+Asunto: [TeamLogiqx] Updated things
+Fecha: Wed, 11 Sep 2002 19:35:25 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi people
+
+>From now on, all things related to the team will be found at:
+http://www.logiqx.com/team
+
+Please go there to see what's available, including a new digest
+up-to-date, a new emulator list reflecting today's releases (bet
+that Kawaks and MAME will be today too) and some other things.
+The digest will be updated every once in a while and then broken
+by months.
+
+Also I tried to keep track with the team list, but I'm sure I'm
+missing things. Everyone please check your line there and if you
+think something is wrong or missing or want to change it, just
+drop a line here or directly to me.
+
+Is there any vote against that Chloe is our mascot? :) Oh I
+changed the background to be more artsy but I doubt you can
+notice it...
+
+Peace!
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+Asunto: [TeamLogiqx] Doh ! what that e-mail flood!!!!
+Fecha: Wed, 11 Sep 2002 13:50:03 -0400
+De: "johnny larouche" <johnnylarouche@aei.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Wa!
+
+I cannot leave 2 days and I find my mailbox full!!
+
+Will read all this later and introduce myself after
+
+Thanks
+Metroid
+
+Asunto: Re: [TeamLogiqx] LESSON 0 - Tools to install
+Fecha: Wed, 11 Sep 2002 18:20:07 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+Done, however...
+
+> - Execute 'echo %LOGIQX%'. This should show something like 'c:\Logiqx'.
+
+Fine.
+
+> - Execute 'path'. This should show 'c:\Logiqx\bin' at the end of the line.
+
+Close.
+
+> - Execute 'ls -l'. This should show a Unix directory listing.
+
+See attached.
+
+Talk to you soon,
+Rob
+
+  -----------------------------------------------------------------
+                      Name: output_test.txt
+   output_test.txt    Type: Plain Text (text/plain)
+                  Encoding: 7bit
+
+Asunto: Re: [TeamLogiqx] LESSON 0 - Tools to install
+Fecha: Thu, 12 Sep 2002 00:31:19 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Does anyone else have XP? XP may well be the cause of Rob's problem but I
+have no machine with XP installed.
+
+Rob, in the meantime just specify e:\logiqx\bin in your path (rather than
+using the %LOGIQX% variable).
+
+Mike
+
+----- Original Message -----
+From: "Rob" <umrostec@cc.UManitoba.CA>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, September 12, 2002 12:20 AM
+Subject: Re: [TeamLogiqx] LESSON 0 - Tools to install
+
+> Hey all,
+>
+> Done, however...
+>
+> > - Execute 'echo %LOGIQX%'. This should show something like 'c:\Logiqx'.
+>
+> Fine.
+>
+> > - Execute 'path'. This should show 'c:\Logiqx\bin' at the end of the
+line.
+>
+> Close.
+>
+> > - Execute 'ls -l'. This should show a Unix directory listing.
+>
+> See attached.
+>
+> Talk to you soon,
+> Rob
+>
+
+Asunto: RE: [TeamLogiqx] LESSON 0 - Tools to install
+Fecha: Thu, 12 Sep 2002 01:36:18 +0200
+De: "rosewoodj" <rosewoodj@hotmail.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+hi
+
+  > Does anyone else have XP? XP may well be the cause of Rob's
+  > problem but I have no machine with XP installed.
+  >
+  > Rob, in the meantime just specify e:\logiqx\bin in your
+  > path (rather than using the %LOGIQX% variable).
+
+i'm using xp here, everything is running fine...
+
+rob, can you run the 'ls' command from your %LOGIQX%\bin directory?
+maybe you just extracted the tools to the wrong directory...
+
+ciao.stefan
+
+Asunto: Re: [TeamLogiqx] LESSON 0 - Tools to install
+Fecha: Thu, 12 Sep 2002 02:32:23 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+The problem is in command 2 (not in 3), the path should be:
+
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;e:\Logiqx\bin
+
+instead of:
+
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;%LOGIQX%\bin
+
+I have Windows XP too and it work fine, know i'll try to reproduce this
+error myself and will see !
+----- Original Message -----
+From: "Logiqx" <logiqx@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, September 12, 2002 1:31 AM
+Subject: Re: [TeamLogiqx] LESSON 0 - Tools to install
+
+> Does anyone else have XP? XP may well be the cause of Rob's problem but I
+> have no machine with XP installed.
+>
+> Rob, in the meantime just specify e:\logiqx\bin in your path (rather than
+> using the %LOGIQX% variable).
+>
+> Mike
+>
+> ----- Original Message -----
+> From: "Rob" <umrostec@cc.UManitoba.CA>
+> To: <teamlogiqx@emuverse.com>
+> Sent: Thursday, September 12, 2002 12:20 AM
+> Subject: Re: [TeamLogiqx] LESSON 0 - Tools to install
+>
+>
+> > Hey all,
+> >
+> > Done, however...
+> >
+> > > - Execute 'echo %LOGIQX%'. This should show something like
+'c:\Logiqx'.
+> >
+> > Fine.
+> >
+> > > - Execute 'path'. This should show 'c:\Logiqx\bin' at the end of the
+> line.
+> >
+> > Close.
+> >
+> > > - Execute 'ls -l'. This should show a Unix directory listing.
+> >
+> > See attached.
+> >
+> > Talk to you soon,
+> > Rob
+> >
+>
+
+Asunto: Re: [TeamLogiqx] LESSON 0 - Tools to install
+Fecha: Wed, 11 Sep 2002 21:22:54 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+> Rob, in the meantime just specify e:\logiqx\bin in your path (rather than
+> using the %LOGIQX% variable).
+
+Yup, works now.  The question is why?  My _guess_ is some kinda wacky NT/2K
+vs. 9X hybridization thing...
+
+Talk to you soon,
+Rob
+
+Asunto: Re: [TeamLogiqx] LESSON 0 - Tools to install
+Fecha: Wed, 11 Sep 2002 21:25:01 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+> i'm using xp here, everything is running fine...
+
+I'm using XP Pro SP1.
+
+> rob, can you run the 'ls' command from your %LOGIQX%\bin directory?
+> maybe you just extracted the tools to the wrong directory...
+
+Extract was OK.  It didn't work until after Mike's fix (...;e:\logiqx\bin).
+Again, why?
+
+Talk to you soon,
+Rob
+
+Asunto: Re: [TeamLogiqx] LESSON 0 - Tools to install
+Fecha: Wed, 11 Sep 2002 21:31:11 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+> The problem is in command 2 (not in 3), the path should be:
+>
+> PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;e:\Logiqx\bin
+>
+> instead of:
+>
+> PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;%LOGIQX%\bin
+>
+> I have Windows XP too and it work fine, know i'll try to reproduce this
+> error myself and will see !
+
+Yet command 1 worked fine...
+XP obviously recognizes the system variable, yet won't substitute it into
+the path.  Hmm....
+Did you try "...;%LOGIQX%\bin" or "...;e:\Logiqx\bin" or both?
+
+Talk to you soon,
+Rob
+
+Asunto: RE: [TeamLogiqx] LESSON 0 - Tools to install
+Fecha: Thu, 12 Sep 2002 04:59:58 +0200
+De: "rosewoodj" <rosewoodj@hotmail.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+hi rob,
+
+  > Yet command 1 worked fine...
+  > XP obviously recognizes the system variable, yet won't
+  > substitute it into the path.  Hmm.... Did you try
+  > "...;%LOGIQX%\bin" or "...;e:\Logiqx\bin" or both?
+
+i'm using xp sp1 (1106) too, and i tried '%LOGIQX%\bin',
+just checked the settings, xp translated my path
+variable to 'x:\logiqx\bin' after restart...
+
+btw, the current user and system both have their own path variable,
+the length shouldn't extend 512 (?) chars!
+
+another possibility, does this have something to do w/ the
+admin rights?
+
+ciao.stefan

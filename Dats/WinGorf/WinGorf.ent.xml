@@ -1,0 +1,29 @@
+<emulator id="WinGorf">
+	<img src="WinGorf.gif" width="101" height="40"/>
+	<name>WinGorf</name>
+	<version>v1.2</version>
+	<suitability></suitability>
+	<status></status>
+	<date>08/12/2000</date>
+	<games>2</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="wingrf12.zip" size="1"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="WinGorf%20v1.2.zip" size="1"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>08 December 2000</date>
+			<comment>Initial Release.</comment>
+		</revision>
+	</revisions>
+</emulator>

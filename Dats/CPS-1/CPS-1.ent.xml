@@ -1,0 +1,58 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="CPS-1">
+	<img src="CPS-1.gif" width="77" height="40"/>
+	<name>CPS-1</name>
+	<version>20030215</version>
+	<suitability/>
+	<status>Updated</status>
+	<date>19/02/2003</date>
+	<games>110</games>
+	<author href="http://www.logiqx.com">rosewood - Team Logiqx</author>
+	<comment>
+		<p>Capcom Play System 1</p>
+	</comment>
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="CPS-1%2020030215%20(cm).zip" size="25"/>
+		</dat>
+		<dat>
+			&ROMCenter;
+			<file name="CPS-1%2020030215%20(rc).zip" size="29"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>19 February 2003</date>
+			<comment>Updated to match MAME v0.65.</comment>
+		</revision>
+		<revision>
+			<date>30 January 2003</date>
+			<comment>Added cawingu, sf2ceuc, sf2eg, sf2ud and willow, renamed willow to willowje.<br/>Also updated the supplements to match MAME v0.64.</comment>
+		</revision>
+		<revision>
+			<date>18 January 2003</date>
+			<comment>Added mswordr1, sf2uf and dinou. Supplements to MAME v0.63.</comment>
+		</revision>
+		<revision>
+			<date>5 December 2002</date>
+			<comment>Uploaded with supplements to MAME v0.62.</comment>
+		</revision>
+		<revision>
+			<date>23 October 2002</date>
+			<comment>Added the new Street Fighter II CE hacks from Nebula v2.20.</comment>
+		</revision>
+		<revision>
+			<date>7 October 2002</date>
+			<comment>Added dinoh, knightsh, kouryu, sf2yyc, wofh. Also added MAME supplement data files.</comment>
+		</revision>
+		<revision>
+			<date>24 March 2002</date>
+			<comment>Added Dynasty Wars (World).</comment>
+		</revision>
+		<revision>
+			<date>3 October 2001</date>
+			<comment>First release.</comment>
+		</revision>
+	</revisions>
+</emulator>

@@ -1,0 +1,194 @@
+
+[info]
+HomePage=www.romcenter.com
+RomType=arcade
+email=support@romcenter.com
+
+// Status ; title(*) ; version(*) ; nb of games ; author ; author link; comment ; release date ; url(*)
+//(*) are mandatory
+[datafiles]
+
+		
+	
+		
+		
+		
+			
+		
+		
+;ACE;v1.9;85;Logiqx;http://www.logiqx.com;;03/10/2002;http://www.logiqx.com/Dats/ACE/ACE%20v1.9%20(rc).zip
+
+
+;Calice;v0.6.6;350;Logiqx;http://www.logiqx.com;;19/01/2003;http://www.logiqx.com/Dats/Calice/Calice%20v0.6.6%20(rc).zip
+
+;CottAGE;v0.12;136;Logiqx;http://www.logiqx.com;;17/12/2002;http://www.logiqx.com/Dats/CottAGE/CottAGE%20v0.12%20(rc).zip
+
+;Daphne;v0.99.5a;21;Logiqx;http://www.logiqx.com;;07/11/2002;http://www.logiqx.com/Dats/Daphne/Daphne%20v0.99.5a%20(rc).zip
+
+
+updated;FBA;v0.2.94;235;Logiqx;http://www.logiqx.com;;19/02/2003;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.94%20(rc).zip
+
+
+updated;Final Burn;v0.517;57;Logiqx;http://www.logiqx.com;;19/02/2003;http://www.logiqx.com/Dats/FinalBurn/Final%20Burn%20v0.517%20(rc).zip
+
+;Laser;v0.20a;76;Logiqx;http://www.logiqx.com;;07/12/2002;http://www.logiqx.com/Dats/Laser/Laser%20v0.20a%20(rc).zip
+
+
+updated;MAME;v0.65;3749;Logiqx;http://www.logiqx.com;;19/02/2003;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.65%20(rc).zip
+
+
+updated;MAME Changes;v0.65;Various;Logiqx;http://www.logiqx.com;;19/02/2003;http://www.logiqx.com/Dats/MAMEChanges/MAME%20Changes%20v0.65%20(rc).zip
+
+
+updated;MAME Test Drivers;v0.65;260;Ben Jos;http://www.logiqx.com;;19/02/2003;http://www.logiqx.com/Dats/MAMETestDrivers/MAME%20Test%20Drivers%20v0.65%20(rc).zip
+
+;Mimic;v2.10;36;Logiqx;http://www.logiqx.com;;31/10/2002;http://www.logiqx.com/Dats/Mimic/Mimic%20v2.10%20(rc).zip
+
+;Modeler;v0.9.3a;20;Logiqx;http://www.logiqx.com;;09/12/2001;http://www.logiqx.com/Dats/ModelerNew/Modeler%20v0.9.3a.zip
+
+
+updated;Nebula;v2.22a;385;Logiqx;http://www.logiqx.com;;19/02/2003;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.22a%20(rc).zip
+
+;Nebula Model 2;Test Release 2;9;Logiqx;http://www.logiqx.com;;01/12/2002;http://www.logiqx.com/Dats/NebulaModel2/Nebula%20Model%202%20Test%20Release%202%20(rc).zip
+
+
+updated;RAINE;v0.37.3;431;Logiqx;http://www.logiqx.com;;19/02/2003;http://www.logiqx.com/Dats/RAINE/RAINE%20v0.37.3%20(rc).zip
+
+
+new;Sega System 24 Emulator;20030208;6;rosewood;http://www.logiqx.com;;14/02/2003;http://www.logiqx.com/Dats/SegaSystem24Emulator/Sega%20System%2024%20Emulator%2020030208%20(rc).zip
+
+;SledgeHammer;v0.02;6;Logiqx;http://www.logiqx.com;;14/03/2002;http://www.logiqx.com/Dats/SledgeHammer/SledgeHammer%20v0.02.zip
+
+;U64Emu;v3.04;2;Logiqx;http://www.logiqx.com;;09/10/2002;http://www.logiqx.com/Dats/U64Emu/U64Emu%20v3.04%20(rc).zip
+
+;Viva Nonno;v22.0.3;6;Logiqx;http://www.logiqx.com;;03/10/2002;http://www.logiqx.com/Dats/VivaNonno/Viva%20Nonno%20v22.0.3%20(rc).zip
+
+
+updated;WinKawaks;v1.45;355;Logiqx;http://www.logiqx.com;;19/02/2003;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.45%20(rc).zip
+
+;YAAME;v0.3;22;Logiqx;http://www.logiqx.com;;19/12/2002;http://www.logiqx.com/Dats/YAAME/YAAME%20v0.3%20(rc).zip
+
+;Zinc;v0.9;26;Logiqx;http://www.logiqx.com;;03/10/2002;http://www.logiqx.com/Dats/Zinc/Zinc%20v0.9%20(rc).zip
+
+		
+	
+	
+		
+		
+		
+			
+		
+		
+;Older Emus;(162 different ones!);100s of;Logiqx;http://www.logiqx.com;;19/01/2003;http://www.logiqx.com/Dats/OlderEmus/Older%20Emus%2020030118%20(rc).zip
+
+		
+	
+	
+		
+		
+		
+			
+		
+		
+updated;NeoRAGEx Supplement (recent games);20021223;22;Mr Flycboy;mailto:flycboy@hotmail.com;;29/12/2002;http://www.logiqx.com/Dats/NeoRAGExSupp/Neoragex%20v0.6b%2020021223(rc).zip
+
+		
+	
+	
+		
+		
+		
+			
+		
+		
+
+updated;CPS-1;20030215;110;rosewood - Team Logiqx;http://www.logiqx.com;;19/02/2003;http://www.logiqx.com/Dats/CPS-1/CPS-1%2020030215%20(rc).zip
+
+
+updated;CPS-2;20030129;138;rosewood - Team Logiqx;http://www.logiqx.com;;19/02/2003;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020030129%20(rc).zip
+
+
+updated;Neo-Geo;20030215;163;Logiqx;http://www.logiqx.com;;19/02/2003;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020030215%20(rc).zip
+
+;ZN;20021002;19;Logiqx;http://www.logiqx.com;;01/12/2002;http://www.logiqx.com/Dats/ZN/ZN%2020021201%20(rc).zip
+
+		
+	
+	
+		
+		
+		
+			
+		
+		
+;MPU;20010808;5;Firewave;mailto:firewave@breaken.de;;08/08/2001;http://www.logiqx.com/Dats/MPU/MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip
+
+;PinMAME (ROMs);1.10;388;DataDragon;mailto:datadragon@home.com;;05/02/2002;http://www.logiqx.com/Dats/PinMAME/Pinmame110dat.zip
+
+;PinMAME/Pinball (Tables);20010805;?;DataDragon;mailto:datadragon@home.com;;05/08/2001;http://www.logiqx.com/Dats/VisualPinball/pinball%2008052001.zip
+
+		
+	
+	
+		
+		
+		
+			
+		
+		
+;GXP;v0.1;9;Logiqx;http://www.logiqx.com;;14/10/2001;http://www.logiqx.com/Dats/GXP/GXP%20v0.1.zip
+
+;Hoot;20011002;248;Ben Jos;http://www.logiqx.com;;21/12/2002;http://www.logiqx.com/Dats/Hoot/Hoot%2020011002%20(rc).zip
+
+
+updated;M1;v0.7.1;737;Logiqx;http://www.logiqx.com;;19/02/2003;http://www.logiqx.com/Dats/M1/M1%20v0.7.1%20(rc).zip
+
+
+updated;Nebula Jukebox;v2.7;250;Logiqx;http://www.logiqx.com;;21/02/2003;http://www.logiqx.com/Dats/NebulaJukebox/Nebula%20Jukebox%20v2.7%20(rc).zip
+
+
+;NeoJukeBox;v2.7;191;Logiqx;http://www.logiqx.com;;18/01/2003;http://www.logiqx.com/Dats/NeoJukeBox/NeoJukeBox%20v2.7%20(rc).zip
+
+;QPlayer;v1.4.3;49;Logiqx;http://www.logiqx.com;;18/01/2003;http://www.logiqx.com/Dats/QPlayer/QPlayer%20v1.4.3%20(rc).zip
+
+		
+	
+	
+		
+		
+		
+			
+		
+		
+
+;MAME Artwork;20030113;127;R.Scherzer;http://www.clrmame.com/;;18/01/2003;http://www.logiqx.com/Dats/MAMEArtwork/MAME%20Artwork%2020030113%20(rc).zip
+
+
+updated;MAME Cabinets;20030210;958;John IV;http://www.classicgaming.com/mame32qa/;;14/02/2003;http://www.logiqx.com/Dats/MAMECabinets/MAME%20Cabinets%2020030210%20(rc).zip
+
+
+;MAME Flyers;20030116;2022;Gerard Maathuis (Xray1);http://www.arcadeflyers.com;;19/01/2003;http://www.logiqx.com/Dats/MAMEFlyers/MAME%20Flyers%2020030116%20(rc).zip
+
+
+updated;MAME Icons;20030210;3774;John IV;http://www.classicgaming.com/mame32qa/;;14/02/2003;http://www.logiqx.com/Dats/MAMEIcons/MAME%20Icons%2020030210%20(rc).zip
+
+
+updated;MAME Marquees;20030210;1233;Eldio;http://www.eldio.co.uk/;;14/02/2003;http://www.logiqx.com/Dats/MAMEMarquees/MAME%20Marquees%2020030210%20(rc).zip
+
+
+updated;MAME Panels;20030210;936;Eldio;http://www.eldio.co.uk/;;14/02/2003;http://www.logiqx.com/Dats/MAMEPanels/MAME%20Panels%2020030210%20(rc).zip
+
+
+;MAME Samples;20030113;52;Roman Scherzer;http://www.clrmame.com/;;19/01/2003;http://www.logiqx.com/Dats/MAMESamples/MAME%20Samples%2020030113%20(rc).zip
+
+
+updated;MAME Snaps;20030210;2142;John IV;http://www.classicgaming.com/mame32qa/;;14/02/2003;http://www.logiqx.com/Dats/MAMESnaps/MAME%20Snaps%2020030210%20(rc).zip
+
+
+updated;MAME Titles;20030210;2142;John IV;http://www.classicgaming.com/mame32qa/;;14/02/2003;http://www.logiqx.com/Dats/MAMETitles/MAME%20Titles%2020030210%20(rc).zip
+
+
+updated;MAMu's Icons;20030214;2564;Eldio;http://www.eldio.co.uk/;;19/02/2003;http://www.logiqx.com/Dats/MAMusIcons/MAMu's%20Icons%2020030214%20(rc).zip
+
+		
+	

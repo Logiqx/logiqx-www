@@ -1,0 +1,36 @@
+<emulator id="S11Emu">
+	<img src="S11Emu.gif" width="102" height="40"/>
+	<name>S11Emu</name>
+	<version>v0.2</version>
+	<suitability></suitability>
+	<status></status>
+	<date>21/12/2001</date>
+	<games>8</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<comment><p>Emulates Namco System 11 based games</p></comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="s11emu02.zip" size="2"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="S11Emu%20v0.2.zip" size="2"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>21 December 2001</date>
+			<comment>Uploaded data files for S11Emu v0.2 (Kosodate Quiz My Angel 3 added).</comment>
+		</revision>
+
+		<revision>
+			<date>19 December 2001</date>
+			<comment>Uploaded data files for S11Emu v0.1.</comment>
+		</revision>
+	</revisions>
+</emulator>

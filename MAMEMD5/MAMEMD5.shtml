@@ -1,0 +1,77 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>MAMEMD5</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><!--#include virtual="/ads/top.shtml" --> </p>
+
+<hr>
+
+<p align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"></p>
+
+<p align="center"><img border="0" src="MAMEMD5.gif" width="136" height="40"></p>
+
+<p align="left">Emulators like MAME often use the CRC32 algorithm to identify game ROMs and I
+sometimes wonder whether there are any conflicts yet (i.e. where two differing ROMs have the same CRC). MAMEMD5 has been written to find this out!<br>
+<br>
+Although CRC32 is extremely good for checking if a file has been corrupted during transmission (there is only a 1 in 4 billion chance of a corruption not
+affecting the CRC) the chance of two files in a large group having CRCs that match is actually higher than expected.</p>
+<p align="left">For MAME v0.54 I calculate a probability of 34.119769% (when
+considering complemented CRC functionality which effectively doubles the
+number of CRCs used). However, this is ignoring the ROM sizes which being known reduce these odds to
+4.000046%. Rob has kindly drawn up some pretty charts to show the
+probability in relation to the number of ROMs; you can choose between a <a href="CRC-32%20-%20MAME%200.54%20-%20NicestCloseUp.png">close
+up</a> or <a href="CRC-32%20-%20MAME%200.54%20-%20NicestFull.png">overall</a> view.</p>
+<p align="left">There are just two ROMs in MAME that currently share the
+same CRC (albeit through complementing):</p>
+<p align="left">chukatai: 128KB ROM with CRC of 6cb1e8fc<br>
+ninjemak/youma: 32KB ROM with CRC of 934e1703 (which has a complement of
+6cb1e8fc)</p>
+<p align="left">What I am more interested to know is if any games have ROMs with
+the same size and matching CRCs but differing contents. It is also possible that
+non-genuine files have accidentally got into the scene and this tool should spot
+them. If you run MAMEMD5 over your sets and it reports some kind of discrepancy
+then you have found what I wish to know!
+</p>
+<p align="center"><i>Please take part in my little experiment and let me know
+your findings!</i></p>
+
+<p align="center"><i>Results so far: 16 without conflicts (v1.2), 4 without
+conflicts (not sure of version).</i></p>
+
+<p align="center">Download <a href="mamemd512.zip">MAMEMD5 v1.2</a> (53KB)</p>
+
+<p align="center"><a href="mamemd512.zip"><img src="../Resources/Disk.gif" border="0"
+width="38" height="38"></a></p>
+
+<p align="center">Download MD5 data file for <a href="md5dat54.zip">MAME v0.54</a>
+(1501KB)</p>
+
+<p align="center"><a href="md5dat54.zip"><img src="../Resources/Disk.gif" border="0"
+width="38" height="38"></a></p>
+
+<hr>
+
+<p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>8 September 2001</u></strong> - Released MAMEMD5
+v1.2.</p>
+
+<p align="center">No functional changes (there's no need to re-check your ROMs).<br>
+            Added a summary showing the number recognised/unrecognised ROMs.<br>
+            Added an extra message about when corrupted zip data is found.</p>
+
+<p align="center"><strong><u>7 September 2001</u></strong> - Released MAMEMD5
+v1.1.</p>
+
+<p align="center">Sorry, I introduced a really silly bug into v1.0 so it will
+miss some collisions.</p>
+
+<p align="center"><strong><u>5 September 2001</u></strong> - Released MAMEMD5 v1.0.</p>
+</body>
+</html>

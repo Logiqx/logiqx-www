@@ -1,0 +1,517 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<style TYPE="text/css">
+<!--
+H1 { font-size: 1pc }
+-->
+</style>
+<title>Compiling MAME and RAINE</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><!--#include virtual="/ads/top.shtml" --> </p>
+
+<hr>
+
+<p align="center"><img src="Compiling.gif" width="317" height="40"
+alt="Compiling.gif (4992 bytes)"></p>
+
+<p align="center">25th January 2003</p>
+
+<p align="center">Tested with DMAME v0.63 and RAINE v0.37.0</p>
+
+<h1>1. Introduction</h1>
+
+<p>This guide describes how to set up a DJGPP environment that is suitable for compiling
+both DMAME and RAINE. There are already various documents that explain how to set
+up DJGPP for either DMAME or RAINE but the installation explained here will work 
+for both of them. With the help of this guide any proficient PC user should be able to set up DJGPP
+for DMAME and RAINE in around 10 to 20 minutes (assuming the required files are downloaded
+beforehand). The guide has been written with the intention that the user will gain an
+understanding of what they are doing rather than just follow instructions parrot fashion 
+or using pre-prepared installations.
+It will not tell you how to do basic tasks such as <em>creating</em> a directory or <em>extracting</em>
+files from a ZIP, it will tell you <em>where</em> to create a directory or <em>where </em>to
+extract a ZIP. So long as you have those basic skills then you should have no problems.</p>
+
+<p>The guide will explain how to install DJGPP onto the D: drive but you can choose any
+drive and location that you wish (so long as you think about what you are doing!).</p>
+
+<hr>
+
+<h1>2. Installing the Compiler</h1>
+
+<p><a href="ftp://ftp.simtel.net/pub/simtelnet/gnu/djgpp/v2/">DJGPP</a> comes as separate
+downloadable <a href="ftp://ftp.simtel.net/pub/simtelnet/gnu/djgpp/v2gnu/">components</a>
+and you will need the following to compile DMAME and RAINE:</p>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="150">File</td>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/djgpp/djdev203.zip">djdev203.zip</a></td>
+    <td>DJGPP 2.03 (Development kit and libraries)</td>
+  </tr>
+  <tr>
+    <td>
+    <a href="http://caesar.logiqx.com/zips/tools/compilers/djgpp/gcc321b.zip">
+    gcc321b.zip</a></td>
+    <td>GCC 3.21 binaries (GNU C Compiler)</td>
+  </tr>
+  <tr>
+    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/djgpp/mak3791b.zip">mak3791b.zip</a></td>
+    <td>GNU Make 3.79.1 binaries for DJGPP v2</td>
+  </tr>
+  <tr>
+    <td>
+    <a href="http://caesar.logiqx.com/zips/tools/compilers/djgpp/bnu213b.zip">
+    bnu213b.zip</a></td>
+    <td>GNU Binutils 2.13 binaries for DJGPP v2</td>
+  </tr>
+  <tr>
+    <td>
+    <a href="http://caesar.logiqx.com/zips/tools/compilers/djgpp/fil41b.zip">
+    fil41b.zip</a></td>
+    <td>GNU Fileutils 4.1 binaries for DJGPP v2</td>
+  </tr>
+  <tr>
+    <td>
+    <a href="http://caesar.logiqx.com/zips/tools/compilers/djgpp/txi42b.zip">
+    txi42b.zip</a></td>
+    <td>GNU Texinfo 4.2 binaries for DJGPP v2 (only needed for a full Allegro build - not
+    necessary for DMAME or RAINE)</td>
+  </tr>
+  <tr>
+    <td>
+    <a href="http://caesar.logiqx.com/zips/tools/compilers/djgpp/pat253b.zip">
+    pat253b.zip</a></td>
+    <td>GNU Patch 2.5.3 (only needed for RAINE's Allegro hack)</td>
+  </tr>
+</table>
+
+<p>To install these components: 
+
+<ol>
+  <li>Create a directory called <em>D:\DJGPP</em></li>
+  <li>Unzip all of the components into <em>D:\DJGPP </em>(using WinZip or similar)</li>
+  <li>Configure your path variable. The procedure varies slightly according to 
+  your OS so follow the relevant section below! </li>
+</ol>
+
+<p><u>MS-DOS, Windows 95/98/ME:</u></p>
+<p>Add the following two lines to <em>C:\AUTOEXEC.BAT</em></p>
+
+<p><font face="Courier New">SET PATH=%PATH%;D:\DJGPP\BIN<br>
+SET DJGPP=D:\DJGPP\DJGPP.ENV</font></p>
+
+<p>That's it. You now have a fully functional version of DJGPP!</p>
+
+<p> DMAME and RAINE need some additional libraries installing but before you do anything
+else <strong>restart your PC</strong> so that the changes in AUTOEXEC.BAT become active.
+More experienced users will know how to avoid having to do a reboot but if you don't know
+a way then just reboot!</p>
+
+<p><u>Windows NT/2000/XP:</u></p>
+
+<p>Each OS is slightly different but they are almost identical... </p>
+<ul>
+  <li>From the Start Menu, select 'Settings-&gt;Control Panel' (just 'Control 
+  Panel' on Windows XP)</li>
+  <li>Double-click the 'System' icon (under 'Performance and Maintenance' on 
+  Windows XP).</li>
+</ul>
+<ul>
+  <li>Select the 'Advanced' sheet (on Windows 2000, called 'Environment' on NT)
+  </li>
+  <li>Click on 'Environment Variables...' </li>
+</ul>
+<ul>
+  <li>Click on 'New...' (under the 'System variables' section) </li>
+  <li>Specify a variable name of 'DJGPP' and value of 'd:\djgpp\djgpp.env' 
+  (change the 'd:' as appropriate, if you are using a different disk!) </li>
+</ul>
+<ul>
+  <li>Select 'Path' (under the 'System variables' section) </li>
+  <li>Click 'Edit...' </li>
+  <li>Add ';d:\djgpp\bin' at the end of the value line and press 'OK' </li>
+</ul>
+
+<p>That's it. You now have a fully functional version of DJGPP!</p>
+
+<p>Note: On NT/2000/XP there is no need for a reboot, the next command prompt
+that you open will be ready to compile from.</p>
+
+<hr>
+
+<h1>3. A potential problem - PATH conflicts!</h1>
+
+<p>You may find that other directories in your PATH contain commands that
+conflict with DJGPP (e.g. different versions of make, gcc, C libraries, etc).</p>
+
+<p>If you are suffering unexplained compilation errors then you probably need to
+reset your PATH variable within the command prompt that you are compiling from.
+You can choose one of two options:</p>
+
+<ul>
+  <li><font face="Courier New">SET PATH=D:\DJGPP\BIN;%PATH%</font></li>
+  <li><font face="Courier New">SET PATH=D:\DJGPP\BIN</font></li>
+</ul>
+<p>Obviously, you can put this command into a little .BAT script if you wish
+(for ease of use).</p>
+
+<hr>
+
+<h1>4. Installing Allegro</h1>
+
+<p><a href="http://www.talula.demon.co.uk/allegro/">Allegro</a> (A Low Level Game Routines
+Library) is used by DMAME and RAINE for graphics handling and in the case of
+RAINE can be used for sound as well. Allegro is the one component of your DJGPP environment where DMAME and
+RAINE sometimes require different/incompatible versions to be installed (they 
+can both use 4.0.3 beta 1 right now). You therefore need the following archive(s):</p>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="150">File</td>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td>
+    <a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/all403b1.zip">
+    all403b1.zip</a></td>
+    <td>Source code for Allegro 4.0.3 beta 1</td>
+  </tr>
+  <tr>
+    <td>
+    <a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/all403b1-djgpp.zip">
+    all403b1-djgpp.zip</a></td>
+    <td>Pre-compiled version of Allegro 4.0.3 beta 1, including RAINE triple 
+    buffer hack - for lazy people!</td>
+  </tr>
+  <tr>
+    <td><a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/ahack400.zip">ahack400.zip</a></td>
+    <td>RAINE triple buffer hack for Allegro 4.0.0. Patch over 4.0.3 beta 1 using
+      'patch -p1 &lt;raine_allegro_hacks-u.diff'</td>
+  </tr>
+</table>
+
+<p><u>To compile Allegro from the source:</u> 
+
+<p>Important! If you have a MINGW environment installed then ensure that the
+UNIX_TOOLS variable is not set otherwise you will not be able to compile
+Allegro. 
+
+<ol>
+  <li>Extract <em>all403b1.zip</em> to <em>D:\</em> (a directory called <em>ALLEGRO</em> will
+    be created automatically).</li>
+  <li>Extract <i>ahack400.zip </i>to <i>D:\ALLEGRO</i>.</li>
+  <li>Open a DOS window and change directory to <em>D:\ALLEGRO.</em></li>
+  <li>Apply the RAINE triple buffer hack: type 'patch -p1 &lt;raine_allegro_hacks-u.diff'
+    and press return.</li>
+  <li>Type 'set UNIX_TOOLS=' and press return (only necessary if you have set up
+    a MINGW environment according to my instructions).</li>
+  <li>Type 'make lib'<em> </em>and press return. Your computer will take quite a while to
+    compile Allegro so get a drink or something.</li>
+</ol>
+
+<p>After compiling install it as follows: 
+
+<ol>
+  <li>Open a DOS window and change directory to <em>D:\ALLEGRO</em></li>
+  <li>Type 'make install'. This will install the relevant Allegro files into you DJGPP
+    directory.</li>
+</ol>
+
+<p>Important: Once you have installed a version of Allegro you need to run the command
+'make uninstall' before you can 'make install' a different version (although at this time
+you shouldn't need to switch versions). If you do not do an uninstall then the
+installation of a new version will not copy all of the files correctly. However, by doing
+'make uninstall' followed by a 'make install' you change the version of Allegro that DJGPP
+is using as often as you require. To do this you obviously need to keep multiple Allegro directories
+on your machine  though (i.e. rename directories to <em>allegro.36</em> or <i>allegro.40</i> for example).</p>
+
+<p>Tip: You can keep your Allegro directories anywhere you wish as the D: drive was just
+used for simplicity. You will also notice that the first make command was 'make lib'. If
+you wish to do a full Allegro build (which includes examples and is about 40MB bigger than
+the library alone) you can use 'make' instead of 'make lib'. Only the library is required
+to compile RAINE and DMAME though so it is up to you.</p>
+
+<p><u>To install Allegro using the pre-compiled version (to avoid compiling it):</u> 
+
+<ol>
+  <li>Extract <em>all403b1-djgpp.zip </em>into <em>D:\DJGPP</em> using WinZip (or similar).</li>
+</ol>
+
+<p>Allegro is now installed for DJGPP.</p>
+
+<hr>
+
+<h1>5. Installing EXEDAT (only needed for RAINE)</h1>
+
+<p>EXEDAT is used to append RAINE.dat (available from SourceForge) onto RAINE.EXE. It is
+part of Allegro so you don't need to download anything extra (unless you want to
+avoid compiling it, in which case see below).</p>
+
+<p>Compile EXEDAT as follows: 
+
+<ol>
+  <li>Open a DOS window and change to the Allegro directory<em>.</em></li>
+  <li>Type 'make exedat'<em> </em>and press return. This will now create <em>exedat.exe</em>
+    in the <em>tools</em> directory of Allegro.</li>
+  <li>Copy <em>exedat.exe</em>  into a directory
+    that is in your PATH (e.g. <em>C:\WINDOWS\COMMAND</em> or <em>D:\DJGPP\BIN</em>).</li>
+</ol>
+
+<p>EXEDAT is now installed.</p>
+
+<p><u>To install EXEDAT using a pre-compiled version (to avoid compiling it):</u> 
+
+<ol>
+  <li>Extract <em><a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/exedat-djgpp.zip">exedat-djgpp.zip</a></em>
+    into a directory
+    that is in your PATH (e.g. <em>C:\WINDOWS\COMMAND</em> or <em>D:\DJGPP\BIN</em>).</li>
+</ol>
+
+<p>EXEDAT is now installed.</p>
+
+<hr>
+
+<h1>6. Installing NASM</h1>
+
+<p><a href="http://sourceforge.net/projects/nasm/">NASM</a>  (Netwide Assembler)
+is used by both DMAME and RAINE as their x86 assembler. You require the
+following archive:</p>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="150">File</td>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td>
+    <a href="http://caesar.logiqx.com/zips/tools/assemblers/nasm/nasm-0.98.35-djgpp.zip">
+    nasm-0.98.35-djgpp.zip</a></td>
+    <td>NASM 0.98 for DJGPP</td>
+  </tr>
+</table>
+
+<p>To install NASM: 
+
+<ol>
+  <li>Open <em>nasm-0.98.35-djgpp.zip</em> using WinZip then extract <em>NASM.EXE</em> 
+  and <em>NDISASM.EXE</em> into a directory
+    that is in your PATH (e.g. <em>C:\WINDOWS\COMMAND</em> or <em>
+  D:\DJGPP\BIN</em>).</li>
+  <li>Make a copy (not a rename!) of <em>NASM.EXE</em> called <em>NASMW.EXE</em> 
+  (this is needed when compiling RAINE).</li>
+</ol>
+
+<p>NASM is now installed.</p>
+
+<hr>
+
+<h1>7. Installing zlib</h1>
+
+<p><a href="http://www.gzip.org/zlib/">zlib</a> (ZIP library) is used by DMAME and RAINE
+for loading zipped ROMs. You will require the following archive(s):</p>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="150">File</td>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib114.zip">zlib114.zip</a></td>
+    <td>Source code for zlib 1.1.4</td>
+  </tr>
+  <tr>
+    <td><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib114-djgpp.zip">zlib114-djgpp.zip</a></td>
+    <td>Pre-compiled version of zlib 1.1.4 - for lazy people!</td>
+  </tr>
+</table>
+
+<p><u>To compile zlib from the source:</u> 
+
+<ol>
+  <li>Create a directory called <em>D:\ZLIB</em> and extract <em>zlib114.zip</em> into it
+    using WinZip (or similar).</li>
+  <li>Open a DOS window and change directory to <em>D:\ZLIB</em></li>
+  <li>Type 'make -fmsdos/makefile.dj2' and press return. This shouldn't take too long to run.</li>
+</ol>
+
+<p>After compiling zlib, install it for DJGPP as follows: 
+
+<ol>
+  <li>Copy <em>LIBZ.A to D:\DJGPP\LIB</em></li>
+  <li>Copy <em>ZLIB.H to D:\DJGPP\INCLUDE</em></li>
+  <li>Copy <em>ZCONF.H to D:\DJGPP\INCLUDE</em></li>
+</ol>
+
+<p>Once you have installed the required files you can delete <em>D:\ZLIB </em>if you wish.
+Programmers may wish to keep it for reference purposes but other than that you won't need
+it any longer.</p>
+
+<p>Tip: Just like Allegro, it is not necessary that you use the D: drive for compiling zlib;
+it can be done anywhere on your machine.</p>
+
+<p><u>To install zlib using the pre-compiled version (to avoid compiling it):</u> 
+
+<ol>
+  <li>Extract <em>zlib114-djgpp.zip </em>into <em>D:\DJGPP</em> using WinZip (or similar).</li>
+</ol>
+
+<p>zlib is now installed for DJGPP.</p>
+
+<hr>
+
+<h1>8. Installing SEAL</h1>
+
+<p>SEAL (Synthetic Audio Library) is used by
+DMAME and RAINE for sound. You will need the following archive(s):</p>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="150">File</td>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td><a href="http://caesar.logiqx.com/zips/tools/snd_libs/seal/seal107.zip">seal107.zip</a></td>
+    <td>Source code for SEAL 1.07</td>
+  </tr>
+  <tr>
+    <td><a href="http://caesar.logiqx.com/zips/tools/snd_libs/seal/mameseal107src.zip">mameseal107src.zip</a></td>
+    <td>Source patch for SEAL 1.07 (fixes SoundBlaster PCI128 and 16-bit problems)</td>
+  </tr>
+  <tr>
+    <td><a href="http://caesar.logiqx.com/zips/tools/snd_libs/seal/mameseal107.zip">mameseal107.zip</a></td>
+    <td>Pre-compiled version of SEAL 1.07 for MAME and RAINE - for lazy people!</td>
+  </tr>
+</table>
+
+<p><u>To compile SEAL 1.07 from the source: </u>
+
+<ol>
+  <li>Extract <em>seal107.zip</em> to <em>D:\</em> (a directory called <em>SEAL-1.07</em> will
+    be created automatically).</li>
+  <li>Rename the <em>SEAL-1.07 </em>directory to <em>SEAL</em>.</li>
+  <li>Extract <em>mameseal107src</em> to <em>D:\</em> (this will overwrite files in the SEAL
+    directory).</li>
+  <li>Edit <em>D:\SEAL\SRC\NONDRV.C</em> to remove line 24 (which is 'typedef unsigned long
+    time_t;').</li>
+  <li>Open a DOS window and change directory to <em>D:\SEAL\SRC</em></li>
+  <li>Type 'make -f dos\dpmi32\djgpp\makefile'<em> </em>and press return.</li>
+</ol>
+
+<p>After compiling SEAL, install it for DJGPP as follows: 
+
+<ol>
+  <li>Copy <em>LIB\DOS\LIBAUDIO.A to D:\DJGPP\LIB</em></li>
+  <li>Copy <em>SRC\AUDIO.H to D:\DJGPP\INCLUDE</em></li>
+</ol>
+
+<p>SEAL is now installed for DJGPP.</p>
+
+<p><u>To install SEAL using the pre-compiled version (to avoid compiling it): </u>
+
+<ol>
+  <li>Extract <em>mameseal107.zip </em>into <em>D:\DJGPP</em> using WinZip (or similar).</li>
+</ol>
+
+<p>SEAL is now installed for DJGPP.</p>
+
+<hr>
+
+<h1>9. Installing UPX (only needed for RAINE)</h1>
+
+<p><a href="http://upx.sourceforge.net/">UPX</a> (Ultimate Packer for
+eXecutables) is used to reduce the size of the  RAINE executable. You will need
+the following archive:</p>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="150">File</td>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/djgpp/upx124d.zip">upx124d.zip</a></td>
+    <td>UPX 1.24 for DOS</td>
+  </tr>
+</table>
+
+<p>To install UPX: 
+
+<ol>
+  <li>Open <em>upx124d.zip</em> using WinZip and extract <em>UPX.EXE</em> into a directory
+    that is in your PATH (e.g. <em>C:\WINDOWS\COMMAND</em> or <em>D:\DJGPP\BIN</em>).</li>
+</ol>
+
+<p>UPX is now installed and you can use it to compress any .EXE file that you wish (not
+just RAINE).</p>
+
+<hr>
+
+<h1>10. Ready to Compile!</h1>
+
+<p>You are now ready to compile DMAME or RAINE but remember to use the correct version
+of Allegro before you start (use 'make uninstall' and 'make install' as described above). 
+This only applies at times when DMAME and RAINE require different versions of 
+Allegro though.</p>
+
+<hr>
+
+<h1>11. Compiling DMAME</h1>
+
+<p>The DMAME source comes as a ZIP inside a ZIP to gain the greatest compression possible.
+To compile DMAME follow these steps: 
+
+<ol>
+  <li>Create a directory called <em>D:\MAME</em> and extract the MAME source into it.</li>
+  <li>Extract the DOS source code changes into <em>D:\MAME</em></li>
+  <li>Open a DOS window and change directory to <em>D:\MAME</em></li>
+  <li>Type 'make MAMEOS=msdos' and press return.</li>
+</ol>
+
+<p>With v0.63, you will need to make one minor fix in order for it to compile 
+(it only compiles without any problems when using DJGPP v2.04 alpha):</p>
+<ol>
+  <li>Copy <em>SRC\WINDOWS\SNPRINTF.C</em> into <em>SRC\MSDOS</em></li>
+  <li><em style="font-style: normal">Add '$(OBJ)/msdos/snprintf.o' to the '</em><em>OSOBJS</em><em style="font-style: normal">' 
+  line in </em> <em>SRC\WINDOWS\MSDOS.MAK</em></li>
+</ol>
+
+<p>A reasonable computer will take about 20 minutes to compile DMAME but a
+low-spec machine could take some time!</p>
+
+<p>When compiling from pure DOS, the process may stop several times saying 'Out of DOS memory', 'No DPMI
+selectors' or maybe even 'illegal operation'. Just run 'make' again and DJGPP will
+continue from where it failed. This problem does not occur when compiling from a 
+Windows command prompt though (it may not even affect pure DOS nowadays but I
+haven't checked) .</p>
+
+<hr>
+
+<h1>11. Compiling RAINE</h1>
+
+<p>To compile RAINE follow these steps: 
+
+<ol>
+  <li>Create a directory called <em>D:\RAINE</em> and extract the RAINE source into it
+    (acquiring the source is described in <a href="Downloading.shtml">this document</a>).</li>
+  <li>Ensure that you have an
+  <a href="http://caesar.logiqx.com/zips/emus/multi/raine/raineicons.zip">icon</a> 
+  called <i>RAINE.ICO</i>  in <i>D:\RAINE</i></li>
+  <li>Open a DOS window and change directory to <em>D:\RAINE</em></li>
+  <li>Type 'make' and press return. </li>
+  <li>Type 'make compress' to attach <em>RAINE.DAT</em> and run UPX.</li>
+</ol>
+
+<p>A reasonable computer will take under 10 minutes to compile RAINE and
+compress it.</p>
+
+</body>
+</html>

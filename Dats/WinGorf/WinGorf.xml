@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
+	<!ENTITY WinGorf SYSTEM "WinGorf.ent.xml">
+]>
+
+<emulator_page>
+	&WinGorf;
+</emulator_page>

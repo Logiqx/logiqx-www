@@ -1,0 +1,272 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="CPS-2">
+	<img src="CPS-2.gif" width="80" height="40"/>
+	<name>CPS-2</name>
+	<version>20030129</version>
+	<suitability/>
+	<status>Updated</status>
+	<date>19/02/2003</date>
+	<games>138</games>
+	<author href="http://www.logiqx.com">rosewood - Team Logiqx</author>
+	<comment>
+		<p>Not all of these games are emulated yet (see my <a href="../../E-Mail/CPS-2.shtml">CPS-2</a> page for more information)...</p>
+	</comment>
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="CPS-2%2020030129%20(cm).zip" size="31"/>
+		</dat>
+		<dat>
+			&ROMCenter;
+			<file name="CPS-2%2020030129%20(rc).zip" size="37"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>19 February 2003</date>
+			<comment>Updated supplementary dats for MAME v0.65.</comment>
+		</revision>
+		<revision>
+			<date>30 January 2003</date>
+			<comment>Added XORs for mmatrix and mmatrixj. Also updated supplementary dats for MAME v0.64.</comment>
+		</revision>
+		<revision>
+			<date>18 January 2003</date>
+			<comment>Updated supplementary dats for MAME v0.63.</comment>
+		</revision>
+		<revision>
+			<date>5 December 2002</date>
+			<comment>Added batcir.<br/>Added XORs for batcir, dimahoo and gmahou.<br/>Added additional ROMs to 1944 and 1944j.</comment>
+		</revision>
+		<revision>
+			<date>12 September 2002</date>
+			<comment>Renamed mshvsf->mshvsfu1. Added gigawing, megaman2, mshvsf, xmcotaa, 1944.<br/>Added XORs for ddsomu, vhunt2, mshvsf, megaman2, sfz2aa, xmcotaa, cybots, gigawing, gwingj.<br/>Added QSound ROMs for jgokushi, progear, puzloop2.</comment>
+		</revision>
+		<revision>
+			<date>2 May 2002</date>
+			<comment>Added sfz2aa.<br/>Added XORs for ddtodh, nwarr, vhuntj, vhuntjr1. Parents swapped for cscluba/j and batcira/j.</comment>
+		</revision>
+		<revision>
+			<date>29 March 2002</date>
+			<comment>Added jgokushi and xmvsfjr1.<br/>Added XORs for spf2t, sgemf, sgemfa, pfghtj, ssf2a, ssf2ar1.</comment>
+		</revision>
+		<revision>
+			<date>20 March 2002</date>
+			<comment>Renamed ddsomu->ddsomur1, sfar1->sfar2, ssf2a->ssf2ar1.<br/>Added choko, cybots (parent for cybotsj), ddsomu, ddtodh, mmatrix (parent for mmatrixj), sfar1, ssf2a.</comment>
+		</revision>
+		<revision>
+			<date>13 January 2002</date>
+			<comment>Renamed dstlk->dstlku, dstlkr1->dstlkur1. Added dstlk.<br/>Added XORs for mvsc, mvsca, mvscj, mvscjr1.</comment>
+		</revision>
+		<revision>
+			<date>25 December 2001</date>
+			<comment>Renamed vsav->vsavu.<br/>Added msha, progear, sfz2a, sgemfa, vsav.<br/>Added XORs for dstlka, msha, rckman2j, sfz2a, vsav.</comment>
+		</revision>
+		<revision>
+			<date>18 November 2001</date>
+			<comment>Renamed vampa->dstlka and xmcota->xmcotau.<br/>Added mpangj, nwarrh and xmcota.<br/>Added XORs for ddtod, sfz3a, vsav2, vsava, xmvsf and xmcota.</comment>
+		</revision>
+		<revision>
+			<date>10 October 2001</date>
+			<comment>Added ROM details for armwar, ddtod, mvsca, rckmanj, sfz3a, vsava and xmvsf.<br/>Added XORs for armwar, mshvsf, mshvsfj, mshvsfj1 and vsav.</comment>
+		</revision>
+		<revision>
+			<date>3 October 2001</date>
+			<comment>Added sound ROM dats.</comment>
+		</revision>
+		<revision>
+			<date>12 September 2001</date>
+			<comment>Added XOR details for ddsom, dstlk, dstlkr1, sfa and sfar1. Seven new clones were added in total.</comment>
+		</revision>
+		<revision>
+			<date>7 August 2001</date>
+			<comment>Added XOR details for batcirj, ecofghtr, sfa3, sfa3r1, sfz3j and vampjr1. Also added xmcotah and did some renaming in xmcota.</comment>
+		</revision>
+		<revision>
+			<date>27 July 2001</date>
+			<comment>Added XOR details for smbomb, smbombr1, mshj. Also added 19xxjr1, ddsomjr1, mshvsfh, ssftbj, vampjr1 and did some renaming.</comment>
+		</revision>
+		<revision>
+			<date>11 July 2001</date>
+			<comment>Added XOR details for csclubj, cscluba and ssf2tb. Also added Hispanic games vsavh and xmvsfh.</comment>
+		</revision>
+		<revision>
+			<date>27 June 2001</date>
+			<comment>Added XOR details for sfz2a and added avsp (Euro).</comment>
+		</revision>
+		<revision>
+			<date>20 June 2001</date>
+			<comment>Added XOR details for Armored Warriors and added two new sets (mshvsfa1 and sfz2ah).<br/>Some renaming in mshvsf clones too.</comment>
+		</revision>
+		<revision>
+			<date>13 June 2001</date>
+			<comment>Added XOR details for Street Fighter Zero 2.</comment>
+		</revision>
+		<revision>
+			<date>7 June 2001</date>
+			<comment>Added XOR details for X-Men (rent version) plus new dumps of mshvsf and sfa3.</comment>
+		</revision>
+		<revision>
+			<date>26 May 2001</date>
+			<comment>Added XOR details for Super Street Fighter 2 X and Street Fighter Zero 3 as well as adding Capcom Sports Club dumps.</comment>
+		</revision>
+		<revision>
+			<date>17 May 2001</date>
+			<comment>Added XOR details for Super Puzzle Fighter 2 X, added another four games and did some ROM renames.</comment>
+		</revision>
+		<revision>
+			<date>11 May 2001</date>
+			<comment>Added XOR details for D&amp;D: Shadow over Mystara (US).</comment>
+		</revision>
+		<revision>
+			<date>7 May 2001</date>
+			<comment>Added XOR details for D&amp;D: Tower of Doom (Japan) and added four new games (dimahoo, gmahou, gwingj, mmatrixj).</comment>
+		</revision>
+		<revision>
+			<date>27 April 2001</date>
+			<comment>Added XOR details for Powered Gear (Japan).</comment>
+		</revision>
+		<revision>
+			<date>22 April 2001</date>
+			<comment>Added XOR details for Marvel Super Heroes (Hispanic).</comment>
+		</revision>
+		<revision>
+			<date>15 April 2001</date>
+			<comment>Added XOR details for 19XX (Hispanic).</comment>
+		</revision>
+		<revision>
+			<date>9 April 2001</date>
+			<comment>Added XOR details for Dungeons &amp; Dragons: Shadow over Mystara (Japan).</comment>
+		</revision>
+		<revision>
+			<date>5 April 2001</date>
+			<comment>Added XOR details for Street Fighter Zero (Japan 950605).</comment>
+		</revision>
+		<revision>
+			<date>29 March 2001</date>
+			<comment>Added XOR details for X-Men Vs Street Fighter.</comment>
+		</revision>
+		<revision>
+			<date>20 March 2001</date>
+			<comment>Added XOR details for the Japanese versions of Super Street Fighter 2.</comment>
+		</revision>
+		<revision>
+			<date>17 March 2001</date>
+			<comment>Changed some CRCs for cybotsj (been redumped by Team Japump).</comment>
+		</revision>
+		<revision>
+			<date>16 March 2001</date>
+			<comment>Added XOR files for cybotsj.</comment>
+		</revision>
+		<revision>
+			<date>13 March 2001</date>
+			<comment>Added XOR files for avspj and a couple of renames in xmvsf.</comment>
+		</revision>
+		<revision>
+			<date>6 March 2001</date>
+			<comment>Added XOR files for 19xx and ROM details for Alien vs Predator (Japan).</comment>
+		</revision>
+		<revision>
+			<date>6 March 2001</date>
+			<comment>Added XOR files for Super Street Fighter 2 Turbo USA.</comment>
+		</revision>
+		<revision>
+			<date>4 March 2001</date>
+			<comment>Added XOR files for Quiz Nanairo Dreams.</comment>
+		</revision>
+		<revision>
+			<date>2 March 2001</date>
+			<comment>Added XOR files for Ring of Destruction: Slammasters II.</comment>
+		</revision>
+		<revision>
+			<date>26 February 2001</date>
+			<comment>Added XOR files for X-Men (USA) plus a couple of renames and redumps.</comment>
+		</revision>
+		<revision>
+			<date>21 February 2001</date>
+			<comment>Added XOR files for Super Street Fighter 2 Turbo and a few ROM redumps.</comment>
+		</revision>
+		<revision>
+			<date>16 February 2001</date>
+			<comment>MAME v0.37b12 plus additional info from CPS2Shock.</comment>
+		</revision>
+		<revision>
+			<date>10 February 2001</date>
+			<comment>Fixed bad ROM in Alien Vs Predator.</comment>
+		</revision>
+		<revision>
+			<date>7 February 2001</date>
+			<comment>Added decrypt fies for Super Street Fighter 2 (USA).</comment>
+		</revision>
+		<revision>
+			<date>4 February 2001</date>
+			<comment>Added a couple more games.</comment>
+		</revision>
+		<revision>
+			<date>2 February 2001</date>
+			<comment>Added decrypt files for ddtod and ddtodr1.</comment>
+		</revision>
+		<revision>
+			<date>1 February 2001</date>
+			<comment>Added decrypt files for xmcotaj.</comment>
+		</revision>
+		<revision>
+			<date>30 January 2001</date>
+			<comment>Some name changes (related to MAME).</comment>
+		</revision>
+		<revision>
+			<date>26 January 2001</date>
+			<comment>Two new clones and some reorganisation.</comment>
+		</revision>
+		<revision>
+			<date>21 January 2001</date>
+			<comment>Second update: Added decode files for vsavj.</comment>
+		</revision>
+		<revision>
+			<date>21 January 2001</date>
+			<comment>sfar1 changed to sfaer1 (confirmed as Euro version). Program XOR masks added into dats.</comment>
+		</revision>
+		<revision>
+			<date>19 January 2001</date>
+			<comment>A couple of ROM renames in Street Fighter Alpha/Zero.</comment>
+		</revision>
+		<revision>
+			<date>18 January 2001</date>
+			<comment>Added 'pgear' and 'ddtoj'.</comment>
+		</revision>
+		<revision>
+			<date>17 November 2000</date>
+			<comment>Added 19XX: The War Against Destiny (Japan 951207).</comment>
+		</revision>
+		<revision>
+			<date>3 October 2000</date>
+			<comment>Another release... fixed an incorrect CRC in sfa3<br/>
+				<br/>Previously: Somehow Street Fighter Zero Changer got into the dat (so there are really only five new games).<br/>Uploaded a new dat with sfzch removed (only difference to the one a few hours ago).</comment>
+		</revision>
+		<revision>
+			<date>2 October 2000</date>
+			<comment>Released new dat to go with the latest MAME driver information (six new games added).<br/>This also incorporates details from Naz's FAQ (v2.10).</comment>
+		</revision>
+		<revision>
+			<date>3 September 2000</date>
+			<comment>Corrected CRC of xmnj.06 in X-men (Jap 941219).</comment>
+		</revision>
+		<revision>
+			<date>31 August 2000</date>
+			<comment>Released version 20000831 of the CPS-2 dats.<br/>This update adds information that will be in the next FAQ and also matches the latest MAME submission.</comment>
+		</revision>
+		<revision>
+			<date>24 August 2000</date>
+			<comment>Released v2.00m2 of the dats (fixes some mistypes in the FAQ).</comment>
+		</revision>
+		<revision>
+			<date>20 August 2000</date>
+			<comment>Released v2.00m of the dats (version number corresponds to Naz's FAQ).</comment>
+		</revision>
+		<revision>
+			<date>30 June 2000</date>
+			<comment>Released v1.82a of the dats (version number corresponds to Naz's FAQ).<br/>These dats are consistent with Naz's FAQ and the information at CPS2Shock.<br/>Thanks to Dr. Zero for his contribution.<br/>
+				<br/>There were other CPS-2 dats before this but now CPS2Shock, ClrMamePro and RomCenter all match. :)</comment>
+		</revision>
+	</revisions>
+</emulator>

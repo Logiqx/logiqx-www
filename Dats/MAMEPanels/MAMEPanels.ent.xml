@@ -1,0 +1,38 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="MAMEPanels">
+	<img src="MAMEPanels.gif" width="168" height="40"/>
+	<name>MAME Panels</name>
+	<version>20030210</version>
+	<suitability/>
+	<status>Updated</status>
+	<date>14/02/2003</date>
+	<games>936</games>
+	<author href="http://www.eldio.co.uk/">Eldio</author>
+	<comment>
+		<p>Maintained by <a href="http://www.eldio.co.uk/">Eldio</a>.</p>
+	</comment>
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="MAME%20Panels%2020030210%20(cm).zip" size="32"/>
+		</dat>
+		<dat>
+			&ROMCenter;
+			<file name="MAME%20Panels%2020030210%20(rc).zip" size="16"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>14 February 2003</date>
+			<comment>Uploaded the latest release by Eldio.</comment>
+		</revision>
+		<revision>
+			<date>6 February 2003</date>
+			<comment>Uploaded the latest release by Eldio (contains details for Control Panel Pack 16).</comment>
+		</revision>
+		<revision>
+			<date>20 January 2003</date>
+			<comment>First release by Eldio.</comment>
+		</revision>
+	</revisions>
+</emulator>

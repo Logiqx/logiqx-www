@@ -1,0 +1,41 @@
+<emulator id="Virtua">
+	<img src="Virtua.gif" width="71" height="40"/>
+	<name>Virtua</name>
+	<version>(unfinished)</version>
+	<suitability></suitability>
+	<status></status>
+	<date>20/04/2000</date>
+	<games>11</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<comment><p>Emulates Sega Model 2 games such as Virtua Fighter 2 but without polygon support.</p></comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="virtua.zip" size="3"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="Virtua.zip" size="3"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>20 April 2001</date>
+			<comment>Slightly improved Gunblade (complimented CRCs instead of 00000000s) and corrected a CRC in Virtua Fighter.</comment>
+		</revision>
+
+		<revision>
+			<date>20 December 2000</date>
+			<comment>Kayamon provided updated CRCs (different to roms.ini).</comment>
+		</revision>
+
+		<revision>
+			<date>05 December 2000</date>
+			<comment>Uploaded dats for the unfinished release of Virtua.</comment>
+		</revision>
+	</revisions>
+</emulator>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
+	<!ENTITY TheNewZealandStory SYSTEM "TheNewZealandStory.ent.xml">
+]>
+
+<emulator_page>
+	&TheNewZealandStory;
+</emulator_page>

@@ -1,0 +1,31 @@
+<emulator id="MPU">
+	<img src="MPU.gif" width="37" height="40"/>
+	<name>MPU</name>
+	<version>20010808</version>
+	<suitability></suitability>
+	<status></status>
+	<date>08/08/2001</date>
+	<games>5</games>
+	<author href="mailto:firewave@breaken.de">Firewave</author>
+
+	<comment><p>MPU Games</p></comment>
+
+	<dats>
+		<dat>
+			&ROMCenter;
+			<file name="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip" size="3"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip" size="3"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>8 August 2001</date>
+			<comment>First release.</comment>
+		</revision>
+	</revisions>
+</emulator>

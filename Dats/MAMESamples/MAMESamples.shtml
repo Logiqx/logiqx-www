@@ -1,0 +1,108 @@
+
+	
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>MAME Samples 20030113</title>
+  </head>
+  <body>
+    <center>
+      <!--#include virtual="/ads/top.shtml"-->
+      <hr>
+	<p><img src="MAMESamples.gif" width="188" height="40"></p>
+	<p>52 games of MAME Samples 20030113</p>
+	
+	
+	
+	
+	
+	
+	
+		<p>Created and maintained by Roman Scherzer (<a href="http://www.clrmame.com/">http://www.clrmame.com/</a>).</p>
+	
+	<table border="0" width="100%">
+        <tr>
+		<td width="50%" align="center">
+            <p>Download <a href="MAME%20Samples%2020030113%20(cm).zip">MAME Samples dat for CMPro</a> (12KB)</p>
+            <p>
+              <a href="MAME%20Samples%2020030113%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+            </p>
+          </td>
+		<td width="50%" align="center">
+            <p>Download <a href="MAME%20Samples%2020030113%20(rc).zip">MAME Samples dat for ROMCenter</a> (12KB)</p>
+            <p>
+              <a href="MAME%20Samples%2020030113%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+            </p>
+          </td>
+	</tr>
+      </table>
+	<hr>
+      <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>19 January 2003</u>
+        </strong> - 
+			
+			Updated for MAME v0.63 by Roman Scherzer.
+		</p>
+      <p>
+        <strong>
+          <u>5 December 2002</u>
+        </strong> - 
+			
+			Updated for MAME v0.62 by Roman Scherzer.
+		</p>
+      <p>
+        <strong>
+          <u>3 October 2002</u>
+        </strong> - 
+			
+			Updated for MAME v0.61.
+		</p>
+      <p>
+        <strong>
+          <u>7 February 2002</u>
+        </strong> - 
+			
+			Rob submitted his dat, containing proper game titles.
+		</p>
+      <p>
+        <strong>
+          <u>6 February 2002</u>
+        </strong> - 
+			
+			Added samples for Buck Rogers and Gridlee. Removed VLM5030 samples (update by Roman).
+		</p>
+      <p>
+        <strong>
+          <u>4 November 2001</u>
+        </strong> - 
+			
+			Renamed gotya sampleset to thehand.
+		</p>
+      <p>
+        <strong>
+          <u>1 September 2001</u>
+        </strong> - 
+			
+			Updated samples for Star Castle, Star Cruiser and Xevious.  Added Shark Attack samples.  All new samples courtesy of <a href="http://www.mameworld.net/dith/">Dith's Enhanced MAME Samples</a>.
+		</p>
+      <p>
+        <strong>
+          <u>9 July 2001</u>
+        </strong> - 
+			
+			Added new Xevious samples.
+		</p>
+      <p>
+        <strong>
+          <u>1 May 2001</u>
+        </strong> - 
+			
+			First release.
+		</p>
+</center>
+  </body>
+</html>
+
+

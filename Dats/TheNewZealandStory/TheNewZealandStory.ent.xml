@@ -1,0 +1,31 @@
+<emulator id="TheNewZealandStory">
+	<img src="TheNewZealandStory.gif" width="269" height="40"/>
+	<name>The NewZealand Story</name>
+	<version></version>
+	<suitability></suitability>
+	<status></status>
+	<date>16/05/2001</date>
+	<games>1</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<comment><p>Emulates The NewZealand Story.</p></comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="tnzs.zip" size="1"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="The%20NewZealand%20Story.zip" size="1"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>16 May 2001</date>
+			<comment>Uploaded dats for The NewZealand Story.</comment>
+		</revision>
+	</revisions>
+</emulator>

@@ -1,0 +1,276 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<html>
+
+<head>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+   <meta name="Author" content="Pi">
+
+   <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+
+   <title>Dat dependencies</title>
+
+</head>
+
+<body>
+
+Last updated: <b><font size="+1">29-Jan-2003</font></b>
+
+<h1>How to read this document!</h1>
+<p>Point 1: Firstly, all possible dependencies are listed under the relevant 
+section header. For example, when you need to know which dats are dependant on a 
+MAME release you only need to read the MAME section, NOT the CPS-1, CPS-2 or 
+Neo-Geo sections. For example, whilst the CPS-2 supplement is dependant on the 
+MAME dat, the CPS-2 dat itself is not so DO NOT read the CPS-2 section. This is 
+significant because jumping from the MAME section to the CPS-2 section would 
+make you check Calice which is completely unrelated to MAME. Everything that can 
+possibly be affected by MAME is listed under the MAME section. There are rare 
+occasions when the CPS-2 dat and MAME are updated at the same time but do not 
+mistake that for MAME forcing updates to the CPS-2 dat, it is not. Under such 
+circumstances, both the MAME and CPS-2 sections are relevant since both dats 
+have been updated independantly.</p>
+<p>Point 2: When reading the dependencies (which are hierarchical), as soon as 
+you discover that a dat has not changed then stop reading down that branch of 
+the hierarchy. For example, if you are processing a MAME update and you discover 
+that the CPS-1 dat (semi-automatic) has not changed then do not check it's 
+dependants (sound dats and CPS-1 supplement) since they can not have changed. 
+However, the sound emulator dats may still change as a consequence of Neo-Geo 
+related changes (as can be seen from the listed dependencies).</p>
+<h1>Dats to check/update after a MAME release:</h1>
+
+<p><tt>Multi/MAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Multi/FBA (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Multi/Final Burn (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Multi/MAME (Changes)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Multi/MAME (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Multi/MAME Test Drivers&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Semi-Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp; &nbsp; Multi/MAME Test Drivers (Supps)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Multi/Nebula (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Multi/RAINE (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Multi/WinKawaks (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Sound/M1 (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic<br>
+&nbsp;&nbsp; Systems/CPS-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Semi-Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Systems/CPS-1 (QSound)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Manual</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/Nebula Jukebox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/NeoJukeBox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/QPlayer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Systems/CPS-1 (YM-2151 + OKI6295)&nbsp;&nbsp;&nbsp;
+
+Manual</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/Nebula Jukebox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Systems/CPS-1 (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/CPS-1 (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/CPS-2 (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/Neo-Geo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Semi-Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Systems/Neo-Geo (Sound)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Manual</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/Nebula Jukebox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/NeoJukeBox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Systems/Neo-Geo (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/Neo-Geo (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt><tt></tt>
+
+<h1>Dats to check/update after a CPS-1 release:</h1>
+
+<p>Note: CPS-1 is usually updated for new dumps not yet in MAME.<p><tt>Systems/CPS-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Semi-Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/CPS-1 (QSound)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Manual</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/Nebula Jukebox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/NeoJukeBox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/QPlayer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/CPS-1 (YM-2151 + OKI6295)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Manual</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/Nebula Jukebox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/CPS-1 (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt><tt></tt>
+
+<h1>Dats to check/update after a CPS-2 release:</h1>
+
+<p>Note: CPS-2 is updated following new information from Raz:<p><tt>Systems/CPS-2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Multi/Calice&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Manual (*)</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/CPS-2 (QSound, not XORed)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Manual</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/Nebula Jukebox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/NeoJukeBox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/QPlayer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/CPS-2 (XORed)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Manual</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/Nebula Jukebox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/NeoJukeBox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/QPlayer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/CPS-2 (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt><tt></tt>
+
+<p><tt>(*) New XORs can replace 00000000s in the dat</tt><h1>Dats to 
+check/update after a Neo-Geo release:</h1>
+
+<p>Note: Neo-Geo is usually updated for new dumps not yet in MAME.<p><tt>Systems/Neo-Geo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Semi-Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/Neo-Geo (Sound)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Manual</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/Nebula Jukebox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/NeoJukeBox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/Neo-Geo (Supplements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt><tt></tt>
+
+<h1>After a ZN release:</h1>
+
+<p><tt>Systems/ZN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Manual</tt>
+
+<br><tt>&nbsp;&nbsp; Systems/ZN (QSound)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Manual</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/Nebula Jukebox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/NeoJukeBox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt>
+
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sound/QPlayer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Automatic</tt><tt></tt>
+
+</body>
+
+</html>

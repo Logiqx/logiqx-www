@@ -1,0 +1,619 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>CMPro/ROMCenter Dats</title>
+  </head>
+  <body>
+    <center>
+      <!--#include virtual="/ads/top.shtml"-->
+      <hr>
+      <p align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"></p>
+      <p align="center"><img src="Dats.gif" width="57" height="40"></p>
+      <p align="left">As a result of the developing CAESAR there are now CMPro and ROMCenter dats for every arcade emulator that I could get my hands on (about 150 of them)! Furthermore, once inside CAESAR I have been able to identify the bad dumps in old sets and correct the dats accordingly. Some of the old emulators require ROMs that are different to ones in MAME but only in the way that they have been split/joined/interleaved/padded etc. These ROMs can be reconstructed using <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>, after which you can use your favorite ROM manager to build a proper ROM set from them. As you should have gathered, I am keen that all available dats are of the highest quality and would like to keep them this way. If you produce any dats then please send them on to <a href="mailto:logiqx@logiqx.com">me</a> and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they work correctly for both managers and are suitable for CAESAR. I will take no credit for your dats but I would like to check them over before they are released (rather than submit changes after they are public).</p>
+	<hr>
+      <p><img src="RecentEmus.gif" width="158" height="40"></p>
+		
+		
+		
+			<p>Emulators that are up to six months old or likely to receive further updates.</p>
+		
+		<table border="0" width="100%" bgcolor="#ECF5FF">
+        <tr>
+          <td>
+            <strong>Emulator</strong>
+          </td>
+          <td align="center" width="110"></td>
+          <td align="center" width="110">
+            <strong>Dat Updated</strong>
+          </td>
+          <td align="center" width="110">
+            <strong>Games</strong>
+          </td>
+        </tr>
+			<tr>
+          <td>
+            <a href="ACE/ACE.shtml">ACE v1.9</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">03/10/2002</td>
+          <td align="center">85</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="Calice/Calice.shtml">Calice v0.6.6</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">19/01/2003</td>
+          <td align="center">350</td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="CottAGE/CottAGE.shtml">CottAGE v0.12</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">17/12/2002</td>
+          <td align="center">136</td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="Daphne/Daphne.shtml">Daphne v0.99.5a</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">07/11/2002</td>
+          <td align="center">21</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="FinalBurnAlpha/FinalBurnAlpha.shtml">FBA v0.2.94</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>235</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="FinalBurn/FinalBurn.shtml">Final Burn v0.517</a> (suitable for v0.518)</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>57</strong>
+          </td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="Laser/Laser.shtml">Laser v0.20a</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">07/12/2002</td>
+          <td align="center">76</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.65</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>3749</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.65</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>Various</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMETestDrivers/MAMETestDrivers.shtml">MAME Test Drivers v0.65</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>260</strong>
+          </td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="Mimic/Mimic.shtml">Mimic v2.10</a> (suitable for v2.11)</td>
+          <td align="center"></td>
+          <td align="center">31/10/2002</td>
+          <td align="center">36</td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="ModelerNew/ModelerNew.shtml">Modeler v0.9.3a</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">09/12/2001</td>
+          <td align="center">20</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="Nebula/Nebula.shtml">Nebula v2.22a</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>385</strong>
+          </td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="NebulaModel2/NebulaModel2.shtml">Nebula Model 2 Test Release 2</a> (suitable for Test Release 3)</td>
+          <td align="center"></td>
+          <td align="center">01/12/2002</td>
+          <td align="center">9</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="RAINE/RAINE.shtml">RAINE v0.37.3</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>431</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="SegaSystem24Emulator/SegaSystem24Emulator.shtml">Sega System 24 Emulator 20030208</a>
+          </td>
+          <td align="center"><img src="../Resources/New.gif" width="53" height="14"></td>
+          <td align="center">
+            <strong>14/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>6</strong>
+          </td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="SledgeHammer/SledgeHammer.shtml">SledgeHammer v0.02</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">14/03/2002</td>
+          <td align="center">6</td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="U64Emu/U64Emu.shtml">U64Emu v3.04</a> (suitable for v3.05)</td>
+          <td align="center"></td>
+          <td align="center">09/10/2002</td>
+          <td align="center">2</td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="VivaNonno/VivaNonno.shtml">Viva Nonno v22.0.3</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">03/10/2002</td>
+          <td align="center">6</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="WinKawaks/WinKawaks.shtml">WinKawaks v1.45</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>355</strong>
+          </td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="YAAME/YAAME.shtml">YAAME v0.3</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">19/12/2002</td>
+          <td align="center">22</td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="Zinc/Zinc.shtml">Zinc v0.9</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">03/10/2002</td>
+          <td align="center">26</td>
+        </tr>
+
+		</table>
+	
+	<hr>
+      <p><img src="OlderEmus.gif" width="140" height="40"></p>
+		
+		
+		
+			<p>Emulators that are more than six months old.</p>
+		
+		<table border="0" width="100%" bgcolor="#ECF5FF">
+        <tr>
+          <td>
+            <strong>Emulator</strong>
+          </td>
+          <td align="center" width="110"></td>
+          <td align="center" width="110">
+            <strong>Dat Updated</strong>
+          </td>
+          <td align="center" width="110">
+            <strong>Games</strong>
+          </td>
+        </tr>
+			<tr>
+          <td>
+            <a href="OlderEmus/OlderEmus.shtml">Older Emus (162 different ones!)</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">19/01/2003</td>
+          <td align="center">100s of</td>
+        </tr>
+
+		</table>
+	
+	<hr>
+      <p><img src="Systems.gif" width="104" height="40"></p>
+		
+		
+		
+			<p>General systems used by multiple emulators.</p>
+		
+		<table border="0" width="100%" bgcolor="#ECF5FF">
+        <tr>
+          <td>
+            <strong>System</strong>
+          </td>
+          <td align="center" width="110"></td>
+          <td align="center" width="110">
+            <strong>Dat Updated</strong>
+          </td>
+          <td align="center" width="110">
+            <strong>Games</strong>
+          </td>
+        </tr>
+			
+<tr>
+          <td>
+            <a href="CPS-1/CPS-1.shtml">CPS-1 20030215</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>110</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="CPS-2/CPS-2.shtml">CPS-2 20030129</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>138</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20030215</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>163</strong>
+          </td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="ZN/ZN.shtml">ZN 20021002</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">01/12/2002</td>
+          <td align="center">19</td>
+        </tr>
+
+		</table>
+	
+	<hr>
+      <p><img src="SoundEmus.gif" width="151" height="40"></p>
+		
+		
+		
+			<p>Emulators that can play sound from the games but not the games themselves.</p>
+		
+		<table border="0" width="100%" bgcolor="#ECF5FF">
+        <tr>
+          <td>
+            <strong>Emulator</strong>
+          </td>
+          <td align="center" width="110"></td>
+          <td align="center" width="110">
+            <strong>Dat Updated</strong>
+          </td>
+          <td align="center" width="110">
+            <strong>Games</strong>
+          </td>
+        </tr>
+			<tr>
+          <td>
+            <a href="GXP/GXP.shtml">GXP v0.1</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">14/10/2001</td>
+          <td align="center">9</td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="Hoot/Hoot.shtml">Hoot 20011002</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">21/12/2002</td>
+          <td align="center">248</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="M1/M1.shtml">M1 v0.7.1</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>737</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="NebulaJukebox/NebulaJukebox.shtml">Nebula Jukebox v2.7</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>21/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>250</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="NeoJukeBox/NeoJukeBox.shtml">NeoJukeBox v2.7</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">18/01/2003</td>
+          <td align="center">191</td>
+        </tr>
+
+			<tr>
+          <td>
+            <a href="QPlayer/QPlayer.shtml">QPlayer v1.4.3</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">18/01/2003</td>
+          <td align="center">49</td>
+        </tr>
+
+		</table>
+	
+	<hr>
+      <p><img src="ResourceFiles.gif" width="177" height="40"></p>
+		
+		
+		
+			<p>Dats for emulator resource files.</p>
+			<p>These are not created by me so if you have questions about their contents, please contact the author of the dat (e-mail details are in the dats themselves).</p>
+		
+		<table border="0" width="100%" bgcolor="#ECF5FF">
+        <tr>
+          <td>
+            <strong>Resource</strong>
+          </td>
+          <td align="center" width="110"></td>
+          <td align="center" width="110">
+            <strong>Dat Updated</strong>
+          </td>
+          <td align="center" width="110">
+            <strong>Games</strong>
+          </td>
+        </tr>
+			
+<tr>
+          <td>
+            <a href="MAMEArtwork/MAMEArtwork.shtml">MAME Artwork 20030113</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">18/01/2003</td>
+          <td align="center">127</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMECabinets/MAMECabinets.shtml">MAME Cabinets 20030210</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>14/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>958</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMEFlyers/MAMEFlyers.shtml">MAME Flyers 20030116</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">19/01/2003</td>
+          <td align="center">2022</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMEIcons/MAMEIcons.shtml">MAME Icons 20030210</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>14/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>3774</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMEMarquees/MAMEMarquees.shtml">MAME Marquees 20030210</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>14/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>1233</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMEPanels/MAMEPanels.shtml">MAME Panels 20030210</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>14/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>936</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMESamples/MAMESamples.shtml">MAME Samples 20030113</a>
+          </td>
+          <td align="center"></td>
+          <td align="center">19/01/2003</td>
+          <td align="center">52</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMESnaps/MAMESnaps.shtml">MAME Snaps 20030210</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>14/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>2142</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMETitles/MAMETitles.shtml">MAME Titles 20030210</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>14/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>2142</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMusIcons/MAMusIcons.shtml">MAMu's Icons 20030214</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>19/02/2003</strong>
+          </td>
+          <td align="center">
+            <strong>2564</strong>
+          </td>
+        </tr>
+
+		</table>
+	
+</center>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<emulator id="NeoRAGExSupp">
+	<img src="NeoRAGExSupp.gif" width="37" height="40"/>
+	<name>NeoRAGEx Supplement (recent games)</name>
+	<version>20021223</version>
+	<suitability></suitability>
+	<status>Updated</status>
+	<date>29/12/2002</date>
+	<games>22</games>
+	<author href="mailto:flycboy@hotmail.com">Mr Flycboy</author>
+
+	<comment></comment>
+
+	<dats>
+		<dat>
+			&ROMCenter;
+			<file name="Neoragex%20v0.6b%2020021223(rc).zip" size="5"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="Neoragex%20v0.6b%2020021223(rc).zip" size="5"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>29 December 2002</date>
+			<comment>Released version 20021223.</comment>
+		</revision>
+
+		<revision>
+			<date>20 May 2002</date>
+			<comment>Released version 20020512.</comment>
+		</revision>
+
+		<revision>
+			<date>15 February 2002</date>
+			<comment>First release.</comment>
+		</revision>
+	</revisions>
+</emulator>

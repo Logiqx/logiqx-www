@@ -1,0 +1,39 @@
+<emulator id="tROMbone">
+	<img src="tROMbone.gif" width="131" height="40"/>
+	<name>tROMbone</name>
+	<version>v0.11</version>
+	<suitability></suitability>
+	<status></status>
+	<date>10/06/2001</date>
+	<games>103</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="tromb011.zip" size="5"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="trombone%200.11.zip" size="4"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>10 June 2001</date>
+			<comment>Added CRC for Ninja Clowns (was unknown before MAME v0.37b15).</comment>
+		</revision>
+
+		<revision>
+			<date>15 January 2001</date>
+			<comment>Updated a size error (incorrect details from tROMbone).</comment>
+		</revision>
+
+		<revision>
+			<date>27 December 2000</date>
+			<comment>Initial Release.</comment>
+		</revision>
+	</revisions>
+</emulator>

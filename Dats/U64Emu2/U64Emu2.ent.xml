@@ -1,0 +1,31 @@
+<emulator id="U64Emu2">
+	<img src="U64Emu2.gif" width="119" height="40"/>
+	<name>U64Emu2</name>
+	<version>v1.94 beta</version>
+	<suitability>v1.94a</suitability>
+	<status>New</status>
+	<date>09/10/2001</date>
+	<games>1</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+
+	<comment><p>This emulates Killer Instinct 2 (Nintendo's Ultra 64 Hardware).</p></comment>
+
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="u64e2194.zip" size="1"/>
+		</dat>
+
+		<dat>
+			&ROMCenter;
+			<file name="U64Emu2%20v1.94%20beta.zip" size="1"/>
+		</dat>
+	</dats>
+
+	<revisions>
+		<revision>
+			<date>9 October 2001</date>
+			<comment>Released first version.</comment>
+		</revision>
+	</revisions>
+</emulator>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
+	<!ENTITY VisualPinMAME SYSTEM "VisualPinMAME.ent.xml">
+]>
+
+<emulator_page>
+	&VisualPinMAME;
+</emulator_page>
