@@ -19,9 +19,9 @@ H1 { font-size: 1pc }
 
 <p align="center"><img border="0" src="Compiling.gif" width="317" height="40"></p>
 
-<p align="center">21st June 2003</p>
+<p align="center">17th January 2004</p>
 
-<p align="center">Tested with MAME v0.68 and RAINE32 v0.37.0</p>
+<p align="center">Tested with MAME v0.78 and RAINE32 v0.37.0</p>
 
 <h1>1. Introduction</h1>
 
@@ -36,8 +36,23 @@ basic tasks such as <em>creating</em> a directory or <em>extracting</em> files f
 it will tell you <em>where</em> to create a directory or <em>where </em>to extract a ZIP.
 So long as you have those basic skills then you should have no problems.</p>
 
+<p>One of the big advantages of explaining things in this manner is that you can
+update your own environment to use newer versions of the tools as they come out,
+without being dependant on someone else doing it for you.</p>
+
 <p>The guide will explain how to install MinGW onto the D: drive but you can choose any
 drive and location that you wish (so long as you think about what you are doing!).</p>
+
+<p>Colour Key:</p>
+
+<table border="1" width="300">
+  <tr>
+    <td width="100%" bgcolor="#CCFFCC">Green: Required for MAME and RAINE</td>
+  </tr>
+  <tr>
+    <td width="100%" bgcolor="#CCFFFF">Blue: Required for RAINE only</td>
+  </tr>
+</table>
 
 <hr>
 
@@ -49,17 +64,28 @@ does the entire installation:</p>
 <table border="1" width="100%">
 <TBODY>
   <tr>
-    <td width="250">File</td>
-    <td>Description</td>
+    <td width="250" bgcolor="#CCFFCC">File</td>
+    <td bgcolor="#CCFFCC">Description</td>
   </tr>
   <tr>
-    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/MinGW-2.0.0-3.exe">MinGW-2.0.0-3.exe</a></td>
-    <td>MinGW 2.0.0</td>
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/MinGW-2.0.0-3.exe">MinGW-2.0.0-3.exe</a></td>
+    <td bgcolor="#CCFFCC">MinGW 2.0.0
+      <p>You can get the latest version of MinGW (currently 3.1.0-1) from the
+      SourceForge link above. Select 'Current' from under 'Latest File
+      Releases', then download the 32-bit Windows .exe for 'MinGW'.</p>
+    </td>
   </tr>
   <tr>
-    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/make-3.79.1-20010722.tar.gz">
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/make-3.79.1-20010722.tar.gz">
     make-3.79.1-20010722.tar.gz</a></td>
-    <td>GNU Make 3.79.1 for MinGW</td>
+    <td bgcolor="#CCFFCC">GNU Make 3.79.1 for MinGW
+      <p>You can get the latest version of make (currently 3.80.0-3) from the
+      SourceForge link above. Select 'Current' from under 'Latest File
+      Releases', then download the 32-bit Windows .exe for 'make'.</p>
+      <p>Note: The latest version of make is called mingw32-make.exe rather than
+      make.exe. This means that any time you need to run the make command, you
+      must run mingw32-make instead.</p>
+    </td>
   </tr>
 </TBODY>
 </table>
@@ -125,13 +151,13 @@ supporting commands</a> in order to compile MAME and RAINE32:</p>
 <table border="1" width="100%">
 <TBODY>
   <tr>
-    <td width="150">File</td>
-    <td>Description</td>
+    <td width="150" bgcolor="#CCFFCC">File</td>
+    <td bgcolor="#CCFFCC">Description</td>
   </tr>
   <tr>
-    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/misc-utils.zip">
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/misc-utils.zip">
     misc-utils.zip</a></td>
-    <td>MinGW ports of cat, cp, echo, mkdir, patch (actually the DJGPP one), rm, 
+    <td bgcolor="#CCFFCC">MinGW ports of cat, cp, echo, mkdir, patch (actually the DJGPP one), rm, 
     sh, sort</td>
   </tr>
 </TBODY>
@@ -165,31 +191,34 @@ You can choose one of two options:</p>
 
 <hr>
 
-<h1>4. Installing DirectX 7.0 Headers</h1>
+<h1>4. Installing DirectX 7.0</h1>
 
-<p>Although RAINE32 uses Allegro (not DirectX directly), Allegro needs the DirectX 
-7.0 headers when it is compiled.</p>
+<p>Although RAINE32 uses Allegro (not DirectX directly), Allegro needs DirectX 
+7.0 when it is compiled.</p>
 
 <table border="1" width="100%">
 <TBODY>
   <tr>
-    <td width="150">File</td>
-    <td>Description</td>
+    <td width="150" bgcolor="#CCFFCC">File</td>
+    <td bgcolor="#CCFFCC">Description</td>
   </tr>
   <tr>
-    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/dx70_mgw.zip">
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/dx70_mgw.zip">
     dx70_mgw.zip</a></td>
-    <td>DirectX 7.0 libraries and headers</td>
+    <td bgcolor="#CCFFCC">DirectX 7.0 libraries and headers</td>
   </tr>
 </TBODY>
 </table>
 
-<p>To install the DirectX  7.0 headers: 
+<p>To install DirectX  7.0: 
 
 <ol>
-  <li>Open<i> dx70_mgw.zip </i>with WinZip and extract the 38 'include' files into <em>
-  D:\MINGW\INCLUDE</em></li>
+  <li>Open<i> dx70_mgw.zip </i>with WinZip and extract into <em>
+  D:\MINGW.</em></li>
 </ol>
+
+<p>Note: You will be asked if you want to overwrite some existing files (.a
+files in the 'lib' directory). You should answer 'yes' to this question.</p>
 
 <hr>
 
@@ -203,25 +232,29 @@ archives:</p>
 
 <table border="1" width="100%">
   <tr>
-    <td width="150">File</td>
-    <td>Description</td>
+    <td width="150" bgcolor="#CCFFFF">File</td>
+    <td bgcolor="#CCFFFF">Description</td>
   </tr>
   <tr>
-    <td>
+    <td bgcolor="#CCFFFF">
     <a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/all403b1.zip">
     all403b1.zip</a></td>
-    <td>Source code for Allegro 4.0.3 beta 1</td>
+    <td bgcolor="#CCFFFF">Source code for Allegro 4.0.3 beta 1
+      <p>You can get the latest version of Allegro (currently 4.0.3 stable) from
+      the Demon link above. Just download the latest source code in DOS/Windows
+      friendly format.</p>
+    </td>
   </tr>
   <tr>
-    <td>
+    <td bgcolor="#CCFFFF">
     <a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/all403b1-mingw.zip">
     all403b1-mingw.zip</a></td>
-    <td>Pre-compiled version of Allegro 4.0.3 beta 1, including RAINE triple 
+    <td bgcolor="#CCFFFF">Pre-compiled version of Allegro 4.0.3 beta 1, including RAINE triple 
     buffer hack - for lazy people!</td>
   </tr>
   <tr>
-    <td><a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/ahack400.zip">ahack400.zip</a></td>
-    <td>RAINE triple buffer hack for Allegro 4.0.0 (fine for 4.0.3 beta 1)</td>
+    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/ahack400.zip">ahack400.zip</a></td>
+    <td bgcolor="#CCFFFF">RAINE triple buffer hack for Allegro 4.0.0 (fine for 4.0.3 beta 1)</td>
   </tr>
 </table>
 
@@ -316,14 +349,18 @@ MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
 <table border="1" width="100%">
 <TBODY>
   <tr>
-    <td width="150">File</td>
-    <td>Description</td>
+    <td width="150" bgcolor="#CCFFCC">File</td>
+    <td bgcolor="#CCFFCC">Description</td>
   </tr>
   <tr>
-    <td>
+    <td bgcolor="#CCFFCC">
     <a href="http://caesar.logiqx.com/zips/tools/assemblers/nasm/nasm-0.98.35-win32.zip">
     nasm-0.98.35-win32.zip</a></td>
-    <td>NASM 0.98.35 for Win32</td>
+    <td bgcolor="#CCFFCC">NASM 0.98.35 for Win32
+      <p>You can get the latest version of NASM (currently 0.98.38) from the
+      SourceForge link above. Select 'Win32 binaries' from under 'Latest File
+      Releases', then download the latest .zip file.</p>
+    </td>
   </tr>
 </TBODY>
 </table>
@@ -347,16 +384,19 @@ MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
 <table border="1" width="100%">
 <TBODY>
   <tr>
-    <td width="150">File</td>
-    <td>Description</td>
+    <td width="150" bgcolor="#CCFFCC">File</td>
+    <td bgcolor="#CCFFCC">Description</td>
   </tr>
   <tr>
-    <td><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib114.zip">zlib114.zip</a></td>
-    <td>Source code for zlib 1.1.4</td>
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib114.zip">zlib114.zip</a></td>
+    <td bgcolor="#CCFFCC">Source code for zlib 1.1.4
+      <p>You can get the latest version of zlib (currently 1.2.1) from the gzip
+      link above. Just download the latest zlib source code in zipfile format.</p>
+    </td>
   </tr>
   <tr>
-    <td><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib114-mingw.zip">zlib114-mingw.zip</a></td>
-    <td>Pre-compiled version of zlib 1.1.4 - for lazy people!</td>
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib114-mingw.zip">zlib114-mingw.zip</a></td>
+    <td bgcolor="#CCFFCC">Pre-compiled version of zlib 1.1.4 - for lazy people!</td>
   </tr>
 </TBODY>
 </table>
@@ -369,6 +409,9 @@ MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
   <li>Open a DOS window and change directory to <em>D:\ZLIB</em> </li>
   <li>Type 'make -f nt/makefile.gcc' and press return. This shouldn't take too long to run. </li>
 </ol>
+
+<p>Note: The newer versions of zlib (e.g. 1.2.1) need compiling by using 'make -f
+win32/makefile.gcc'.</p>
 
 <p>After compiling zlib, install it for MinGW as follows: 
 
@@ -400,17 +443,17 @@ it can be done anywhere on your machine.</p>
 used by RAINE32 for sound. You will need the following archive(s):</p>
 <table border="1" width="100%">
   <tr>
-    <td width="150">File</td>
-    <td>Description</td>
+    <td width="150" bgcolor="#CCFFFF">File</td>
+    <td bgcolor="#CCFFFF">Description</td>
   </tr>
   <tr>
-    <td><a href="http://caesar.logiqx.com/zips/tools/snd_libs/seal/raineseal107src.zip">raineseal107src.zip</a></td>
-    <td>Source for SEAL 1.07 (updated for MinGW, also fixes SoundBlaster PCI128
+    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/snd_libs/seal/raineseal107src.zip">raineseal107src.zip</a></td>
+    <td bgcolor="#CCFFFF">Source for SEAL 1.07 (updated for MinGW, also fixes SoundBlaster PCI128
       and 16-bit problems)</td>
   </tr>
   <tr>
-    <td><a href="http://caesar.logiqx.com/zips/tools/snd_libs/seal/raineseal107.zip">raineseal107.zip</a></td>
-    <td>Pre-compiled version of SEAL 1.07 for RAINE32 - for lazy people!</td>
+    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/snd_libs/seal/raineseal107.zip">raineseal107.zip</a></td>
+    <td bgcolor="#CCFFFF">Pre-compiled version of SEAL 1.07 for RAINE32 - for lazy people!</td>
   </tr>
 </table>
 <p><u>To compile SEAL 1.07 from the source:</u>
@@ -443,12 +486,12 @@ need the following archive:</p>
 <table border="1" width="100%">
 <TBODY>
   <tr>
-    <td width="150">File</td>
-    <td>Description</td>
+    <td width="150" bgcolor="#CCFFFF">File</td>
+    <td bgcolor="#CCFFFF">Description</td>
   </tr>
   <tr>
-    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/upx124w.zip">upx124w.zip</a></td>
-    <td>UPX 1.24 for Win32</td>
+    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/upx124w.zip">upx124w.zip</a></td>
+    <td bgcolor="#CCFFFF">UPX 1.24 for Win32</td>
   </tr>
 </TBODY>
 </table>
@@ -478,9 +521,6 @@ To compile MAME follow these steps:
 
 <p>A reasonable computer will take about 20 minutes to compile MAME but a
 low-spec machine could take some time!</p>
-
-<p>Note: Remember that MAME requires the headers for DirectX v6.1
-(NOT DirectX 7.0).</p>
 
 <hr>
 
