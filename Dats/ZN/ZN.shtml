@@ -2,14 +2,14 @@
 	<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>ZN 20021002</title>
+    <title>ZN 20040131</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="ZN.gif" width="37" height="40"></p>
-	<p>19 games of ZN 20021002</p>
+	<p>20 games of ZN 20040131</p>
 	
 	
 	
@@ -17,21 +17,21 @@
 	
 	
 
-	<p>Sony ZN-1 and ZN-2</p>
+	<p>Capcom ZN-1 and ZN-2</p>
 
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="ZN%2020021201%20(cm).zip">ZN dat for CMPro</a> (4KB)</p>
+            <p>Download <a href="ZN%2020040131%20(cm).zip">ZN dat for CMPro</a> (7KB)</p>
             <p>
-              <a href="ZN%2020021201%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="ZN%2020040131%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 
 		<td width="50%" align="center">
-            <p>Download <a href="ZN%2020021201%20(rc).zip">ZN dat for ROMCenter</a> (4KB)</p>
+            <p>Download <a href="ZN%2020040131%20(rc).zip">ZN dat for ROMCenter</a> (7KB)</p>
             <p>
-              <a href="ZN%2020021201%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="ZN%2020040131%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
@@ -39,6 +39,13 @@
 
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>31 January 2004</u>
+        </strong> - 
+			
+			Synchronised with MAME v0.79 (including the use of resources).<br>Removed games that are not Capcom ZN-1 or ZN-2 (beastorizer, mgcldate, psyforce, sncwgltd).
+		</p>
       <p>
         <strong>
           <u>1 December 2002</u>

@@ -1,28 +1,33 @@
 <emulator id="ZN">
 	<img src="ZN.gif" width="37" height="40"/>
 	<name>ZN</name>
-	<version>20021002</version>
+	<version>20040131</version>
 	<suitability></suitability>
-	<status></status>
-	<date>01/12/2002</date>
-	<games>19</games>
+	<status>Updated</status>
+	<date>31/01/2004</date>
+	<games>20</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 
-	<comment><p>Sony ZN-1 and ZN-2</p></comment>
+	<comment><p>Capcom ZN-1 and ZN-2</p></comment>
 
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="ZN%2020021201%20(cm).zip" size="4"/>
+			<file name="ZN%2020040131%20(cm).zip" size="7"/>
 		</dat>
 
 		<dat>
 			&ROMCenter;
-			<file name="ZN%2020021201%20(rc).zip" size="4"/>
+			<file name="ZN%2020040131%20(rc).zip" size="7"/>
 		</dat>
 	</dats>
 
 	<revisions>
+		<revision>
+			<date>31 January 2004</date>
+			<comment>Synchronised with MAME v0.79 (including the use of resources).<br/>Removed games that are not Capcom ZN-1 or ZN-2 (beastorizer, mgcldate, psyforce, sncwgltd).</comment>
+		</revision>
+
 		<revision>
 			<date>1 December 2002</date>
 			<comment>Added new Strider 2 Hiryu dumps (US redump and new Asia dump).</comment>
