@@ -19,9 +19,9 @@ H1 { font-size: 1pc }
 
 <p align="center"><img border="0" src="Compiling.gif" width="317" height="40"></p>
 
-<p align="center">17th January 2004</p>
+<p align="center">2nd December 2004</p>
 
-<p align="center">Tested with MAME v0.78 and RAINE32 v0.37.0</p>
+<p align="center">Tested with MAME v0.89 (I need to re-test with RAINE32)</p>
 
 <h1>1. Introduction</h1>
 
@@ -58,8 +58,8 @@ drive and location that you wish (so long as you think about what you are doing!
 
 <h1>2. Installing the Compiler</h1>
 
-<p><a href="http://sourceforge.net/projects/mingw" target="_blank">MinGW</a> comes as an executable that
-does the entire installation:</p>
+<p><a href="http://sourceforge.net/projects/mingw">MinGW</a> comes as separate
+downloadable components so you will need the following to compile MAME and RAINE32:</p>
 
 <table border="1" width="100%">
 <TBODY>
@@ -68,14 +68,24 @@ does the entire installation:</p>
     <td bgcolor="#CCFFCC">Description</td>
   </tr>
   <tr>
-    <td bgcolor="#CCFFCC"><a href="http://sourceforge.net/project/showfiles.php?group_id=2435&amp;package_id=82721">MinGW-2.0.0-3.exe</a>
-      <p>Sorry, it is too big to provide here!&nbsp;&nbsp;</p>
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/gcc-3.2.3-20030504-1.tar.gz">gcc-3.2.3-20030504-1.tar.gz</a></td>
+    <td bgcolor="#CCFFCC">GCC 3.2.3 (GNU C Compiler).
+      <p>Note: GCC 3.3.1 and up won't compile MAME at this time (MAME v0.89).
+      GCC reports 'defined but not used' errors in a number of the MAME source
+      files. Until such time as the MAME source is updated, use GCC 3.2.3.</p>
     </td>
-    <td bgcolor="#CCFFCC">MinGW 2.0.0
-      <p>You can get the latest version of MinGW (currently 3.1.0-1) from the
-      SourceForge link above. Select 'Current' from under 'Latest File
-      Releases', then download the 32-bit Windows .exe for 'MinGW'.</p>
-    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/binutils-2.15.91-20040904-1.tar.gz">binutils-2.15.91-20040904-1.tar.gz</a></td>
+    <td bgcolor="#CCFFCC">GNU binutils 2.15.91 (binary and object handling)</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/mingw-runtime-3.5.tar.gz">mingw-runtime-3.5.tar.gz</a></td>
+    <td bgcolor="#CCFFCC">MinGW runtime libraries 3.5 (stdio etc)</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/w32api-3.1.tar.gz">w32api-3.1.tar.gz</a></td>
+    <td bgcolor="#CCFFCC">Win32 API 3.1 (needed during linking)</td>
   </tr>
   <tr>
     <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/make-3.79.1-20010722.tar.gz">
@@ -92,11 +102,20 @@ does the entire installation:</p>
 </TBODY>
 </table>
 
+<p>Note that the above files have the extension '.tar.gz'. This format originates from the
+Unix community and the files are actually created using two tools ('tar' creates a single
+archive of all the files and 'gzip' is used to compress the tar file). However, recent
+versions of WinZip support this compression format so you don't need any additional tools.</p>
+
 <p>To install MinGW: 
 
 <ol>
-  <li>Run <em>MinGW-2.0.0-3.exe</em></li>
-  <li>When prompted for a directory to install MinGW into, specify <em>D:\MINGW</em> </li>
+  <li>Create a directory called <em>D:\MINGW</em> </li>
+  <li>Unzip the gcc, binutils, mingw-runtime and w32api archives into <em>D:\MINGW </em>(using WinZip or similar). Ensure that
+    you unzip the files in order that they are listed in this guide. This
+    is important because some files exist in more than one archive (notably GCC
+    and binutils) and you should use the latest
+    version (i.e. say 'yes' to overwrite prompts).</li>
   <li>Open <i>make-3.79.1-20010722.tar.gz</i> using WinZip and extract <em>
   MAKE.EXE</em> into <em>D:\MINGW\BIN</em>.</li>
   <li>When the installation is done, configure your path variable. The procedure 
@@ -355,10 +374,9 @@ MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
   </tr>
   <tr>
     <td bgcolor="#CCFFCC">
-    <a href="http://caesar.logiqx.com/zips/tools/assemblers/nasm/nasm-0.98.35-win32.zip">
-    nasm-0.98.35-win32.zip</a></td>
-    <td bgcolor="#CCFFCC">NASM 0.98.35 for Win32
-      <p>You can get the latest version of NASM (currently 0.98.38) from the
+    <a href="http://caesar.logiqx.com/zips/tools/assemblers/nasm/nasm-0.98.38-win32.zip">nasm-0.98.38-win32.zip</a></td>
+    <td bgcolor="#CCFFCC">NASM 0.98.38 for Win32
+      <p>You can get the latest version of NASM from the
       SourceForge link above. Select 'Win32 binaries' from under 'Latest File
       Releases', then download the latest .zip file.</p>
     </td>
@@ -369,7 +387,7 @@ MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
 <p>To install NASM: 
 
 <ol>
-  <li>Open <em>nasm-0.98.35-win32.zip</em> using WinZip then extract <em>NASMW.EXE</em> 
+  <li>Open <em>nasm-0.98.38-win32.zip</em> using WinZip then extract <em>NASMW.EXE</em> 
     and <i>NDISASMW.EXE</i> into a directory
     that is in your PATH (e.g. <em>C:\WINDOWS\COMMAND</em> or <em>D:\MINGW\BIN</em>).</li>
 </ol>
@@ -378,26 +396,26 @@ MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
 
 <hr>
 
-<h1>8. Installing zlib</h1>
+<h1>8. Installing zlib (only needed for RAINE32 because MAME comes with zlib)</h1>
 
 <p><a href="http://www.gzip.org/zlib/" target="_blank">zlib</a> (ZIP library) is used by MAME and RAINE32 for loading zipped ROMs. You will require the following archive:</p>
 
 <table border="1" width="100%">
 <TBODY>
   <tr>
-    <td width="150" bgcolor="#CCFFCC">File</td>
-    <td bgcolor="#CCFFCC">Description</td>
+    <td width="150" bgcolor="#CCFFFF">File</td>
+    <td bgcolor="#CCFFFF">Description</td>
   </tr>
   <tr>
-    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib114.zip">zlib114.zip</a></td>
-    <td bgcolor="#CCFFCC">Source code for zlib 1.1.4
-      <p>You can get the latest version of zlib (currently 1.2.1) from the gzip
-      link above. Just download the latest zlib source code in zipfile format.</p>
+    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib-1.2.1.tar.gz">zlib-1.2.1.tar.gz</a></td>
+    <td bgcolor="#CCFFFF">Source code for zlib 1.2.1
+      <p>You can get the latest version of zlib from the gzip
+      link above.</p>
     </td>
   </tr>
   <tr>
-    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib114-mingw.zip">zlib114-mingw.zip</a></td>
-    <td bgcolor="#CCFFCC">Pre-compiled version of zlib 1.1.4 - for lazy people!</td>
+    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib-1.2.1-mingw.zip">zlib-1.2.1-mingw.zip</a></td>
+    <td bgcolor="#CCFFFF">Pre-compiled version of zlib 1.2.1 - for lazy people!</td>
   </tr>
 </TBODY>
 </table>
@@ -405,14 +423,12 @@ MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
 <p><u>To compile zlib from the source:</u> 
 
 <ol>
-  <li>Create a directory called <em>D:\ZLIB</em> and extract <em>zlib114.zip</em> into it
+  <li>Create a directory called <em>D:\ZLIB</em> and extract <em>zlib-1.2.1.tar.gz</em>
+    into it
     using WinZip (or similar). </li>
   <li>Open a DOS window and change directory to <em>D:\ZLIB</em> </li>
-  <li>Type 'make -f nt/makefile.gcc' and press return. This shouldn't take too long to run. </li>
+  <li>Type 'make -f win32/makefile.gcc' and press return. This shouldn't take too long to run. </li>
 </ol>
-
-<p>Note: The newer versions of zlib (e.g. 1.2.1) need compiling by using 'make -f
-win32/makefile.gcc'.</p>
 
 <p>After compiling zlib, install it for MinGW as follows: 
 
@@ -432,7 +448,7 @@ it can be done anywhere on your machine.</p>
 <p><u>To install zlib using the pre-compiled version (to avoid compiling it):</u> 
 
 <ol>
-  <li>Extract <em>zlib114-mingw.zip </em>into <em>D:\MINGW</em> using WinZip (or similar).</li>
+  <li>Extract <em>zlib-1.2.1-mingw.zip </em>into <em>D:\MINGW</em> using WinZip (or similar).</li>
 </ol>
 
 <p>zlib is now installed for MinGW.</p>
@@ -491,8 +507,8 @@ need the following archive:</p>
     <td bgcolor="#CCFFFF">Description</td>
   </tr>
   <tr>
-    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/upx124w.zip">upx124w.zip</a></td>
-    <td bgcolor="#CCFFFF">UPX 1.24 for Win32</td>
+    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/upx125w.zip">upx125w.zip</a></td>
+    <td bgcolor="#CCFFFF">UPX 1.25 for Win32</td>
   </tr>
 </TBODY>
 </table>
