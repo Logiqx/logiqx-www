@@ -1,6 +1,6 @@
 #!/bin/sh
 
-HOME=/sites/logiqx.com/www
+HOME=/home/lac/www
 
 cd $HOME
 

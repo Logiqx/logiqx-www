@@ -1,6 +1,6 @@
 #!/bin/sh
 
-HOME=/home/logiqx/web
+HOME=/home/lac/www
 UPLOAD=$HOME/upload
 
 cd $HOME
