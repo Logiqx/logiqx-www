@@ -40,6 +40,13 @@
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
       <p>
         <strong>
+          <u>6 January 2005</u>
+        </strong> - 
+			
+			Added missing SHA1 information in some clones (no functional change).
+		</p>
+      <p>
+        <strong>
           <u>4 January 2005</u>
         </strong> - 
 			

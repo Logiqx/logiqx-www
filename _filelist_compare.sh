@@ -5,6 +5,8 @@ PC_TMP=_filelist_pc.tmp
 ZTNET_TXT=_filelist_ztnet.txt
 ZTNET_TMP=_filelist_ztnet.tmp
 
+EXCLUSIONS="CVS	|MAMEBeta.*zip|MAMEChanges.*zip|^. team/download"
+
 CMP_TMP=_filelist_compare.tmp
 TIDY_SH=_filelist_tidy.sh
 
@@ -20,13 +22,17 @@ diff $ZTNET_TXT $PC_TXT >$CMP_TMP
 
 # --- Show missing/incorrect files
 
-echo "Missing/incorrect files: "`grep '^>' $CMP_TMP|grep -v "_filelist_.*\.txt"|grep -v "CVS	"|wc -l|awk '{print $1}'`
-grep '^>' $CMP_TMP|grep -v "_filelist_.*\.txt"|grep -v "CVS	"
+printf "Missing/incorrect files: "
+grep '^>' $CMP_TMP|egrep -v "$EXCLUSIONS|^> \.	$PC_TXT"|wc -l|awk '{print $1}'
+
+grep '^>' $CMP_TMP|egrep -v "$EXCLUSIONS|^> \.	$PC_TXT"
 
 # --- Show unneeded files
 
-grep '^<' $CMP_TMP|egrep -v "MAMEBeta|MAMEChanges|team/download|_filelist"|awk -F'	' '{print "rm -f \""$1"/"$2"\""}'|sed 's/< //' >$TIDY_SH
-echo "Unneeded files: "`wc -l $TIDY_SH|awk '{print $1}'`
+grep '^<' $CMP_TMP|egrep -v "$EXCLUSIONS|^< \.	_filelist_"|awk -F'	' '{print "rm -f \""$1"/"$2"\""}'|sed 's/< //' >$TIDY_SH
+
+printf "Unneeded files: "
+wc -l $TIDY_SH|awk '{print $1}'
 
 # --- Tidy up!
 

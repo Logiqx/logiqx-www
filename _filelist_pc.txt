@@ -1,5 +1,5 @@
 .	_archive_bit_clear.bat	133
-.	_filelist_compare.sh	1040
+.	_filelist_compare.sh	1083
 .	_filelist_pc.bat	289
 .	_filelist_pc.txt	0
 .	_filelist_ztnet.sh	261

@@ -33,6 +33,20 @@ e-mailed about.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>6 January 2005</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have added some missing SHA1 information to the
+        Neo-Geo 20050104 data file.</p>
+        <p align="center">There is no functional change but you can get it from the <a href="../Dats/Dats.shtml">data
+        files</a> page.</p>
+        <p align="center">I have also release <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild
+        v2.3</a></p>
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>5 January 2005</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
