@@ -14,7 +14,7 @@
 
 <h2 align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"></h2>
 
-<p align="center">Last updated 13th April 2003</p>
+<p align="center">Last updated 16th June 2003</p>
 
 <h2 align="left">Introduction</h2>
 
@@ -67,7 +67,7 @@ on this list.</p>
     </td>
     <td>
 
-<p>108 of the 139 dumped games have been decrypted.</p>
+<p>110 of the 146 dumped games have been decrypted.</p>
 
 <p>There were two releases for 005 and no release for 055.&nbsp;</p>
 
@@ -88,13 +88,18 @@ on this list.</p>
   <td bgcolor="#FFFF00" height="19">1944: The Loop Master
     (US 000620)</td><td align="center" bgcolor="#FFFF00" height="19">106</td>
 </tr>
-<tr><td height="19">&nbsp;   </td><td bgcolor="#FFFF00" height="19">1944j   </td>
+<tr><td height="19"></td><td bgcolor="#FFFF00" height="19">1944j   </td>
   <td bgcolor="#FFFF00" height="19">1944: The Loop Master (Japan 000620)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">19xx    </td>
   <td bgcolor="#FFFF00" height="19">19xx    </td>
   <td bgcolor="#FFFF00" height="19">19XX: The War Against Destiny (US 951207)</td>
   <td align="center" bgcolor="#FFFF00" height="19">020</td></tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">19xxa   </td>
+  <td bgcolor="#FFFF00" height="19">19XX: The War Against Destiny (Asia 951207)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">19xxh   </td>
   <td bgcolor="#FFFF00" height="19">19XX: The War Against Destiny (Hispanic 951218)</td>
   <td align="center" bgcolor="#FFFF00" height="19">029</td></tr>
@@ -151,20 +156,25 @@ on this list.</p>
   <td bgcolor="#C0C0C0" height="19">Choko (Japan 010820)</td>
   <td align="center" bgcolor="#C0C0C0" height="19">&nbsp;</td>
 </tr>
-<tr><td bgcolor="#00FF00" height="19">csclubj </td>
-  <td bgcolor="#00FF00" height="19">csclubj </td>
-  <td bgcolor="#00FF00" height="19">Capcom Sports Club (Japan 970722)</td>
-  <td align="center" bgcolor="#00FF00" height="19">044</td></tr>
-<tr><td height="19">        </td><td bgcolor="#00FF00" height="19">cscluba </td>
-  <td bgcolor="#00FF00" height="19">Capcom Sports Club (Asia 970722)</td>
-  <td align="center" bgcolor="#00FF00" height="19">045</td></tr>
+<tr><td bgcolor="#FFFF00" height="19">csclubj </td>
+  <td bgcolor="#FFFF00" height="19">csclubj </td>
+  <td bgcolor="#FFFF00" height="19">Capcom Sports Club (Japan 970722)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">044</td></tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">cscluba </td>
+  <td bgcolor="#FFFF00" height="19">Capcom Sports Club (Asia 970722)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">045</td>
+</tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">csclubh </td>
+  <td bgcolor="#FFFF00" height="19">Capcom Sports Club (Hispanic 970722)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
 <tr>
   <td bgcolor="#00FF00" height="19">cybots </td>
   <td bgcolor="#00FF00" height="19">cybots </td>
   <td bgcolor="#00FF00" height="19">Cyberbots: Fullmetal Madness (US
     950424)</td><td align="center" bgcolor="#00FF00" height="19">098</td>
 </tr>
-<tr><td height="19">&nbsp; </td><td bgcolor="#00FF00" height="19">cybotsj </td>
+<tr><td height="19"></td><td bgcolor="#00FF00" height="19">cybotsj </td>
   <td bgcolor="#00FF00" height="19">Cyberbots: Fullmetal Madness (Japan 950420)</td>
   <td align="center" bgcolor="#00FF00" height="19">022</td></tr>
 <tr><td bgcolor="#00FF00" height="19">dstlk   </td>
@@ -195,7 +205,7 @@ on this list.</p>
   <td align="center" bgcolor="#FFFF00" height="19">056</td></tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ddsoma  </td>
   <td bgcolor="#FFFF00" height="19">Dungeons & Dragons: Shadow over Mystara (Asia 960619)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
+  <td align="center" bgcolor="#FFFF00" height="19">110</td></tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ddsomj  </td>
   <td bgcolor="#FFFF00" height="19">Dungeons & Dragons: Shadow over Mystara (Japan 960619)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
@@ -252,7 +262,7 @@ on this list.</p>
   <td bgcolor="#00FF00" height="19">Giga Wing (US 990222)</td>
   <td align="center" bgcolor="#00FF00" height="19">099</td>
 </tr>
-<tr><td height="19">&nbsp;  </td><td bgcolor="#00FF00" height="19">gwingj  </td>
+<tr><td height="19"></td><td bgcolor="#00FF00" height="19">gwingj  </td>
   <td bgcolor="#00FF00" height="19">Giga Wing (Japan 990223)</td>
   <td align="center" bgcolor="#00FF00" height="19">100</td></tr>
 <tr>
@@ -261,19 +271,40 @@ on this list.</p>
   <td bgcolor="#C0C0C0" height="19">Jyangokushi: Haoh no Saihai (Japan 990527)</td>
   <td align="center" bgcolor="#C0C0C0" height="19">&nbsp;</td>
 </tr>
-<tr><td bgcolor="#00FF00" height="19">msh     </td>
-  <td bgcolor="#00FF00" height="19">msh     </td>
-  <td bgcolor="#00FF00" height="19">Marvel Super Heroes (US 951024)</td>
-  <td align="center" bgcolor="#00FF00" height="19">012</td></tr>
-<tr><td height="19">        </td><td bgcolor="#00FF00" height="19">msha    </td>
-  <td bgcolor="#00FF00" height="19">Marvel Super Heroes (Asia 951024)</td>
-  <td align="center" bgcolor="#00FF00" height="19">074</td></tr>
-<tr><td height="19">        </td><td bgcolor="#00FF00" height="19">mshh    </td>
-  <td bgcolor="#00FF00" height="19">Marvel Super Heroes (Hispanic 951117)</td>
-  <td align="center" bgcolor="#00FF00" height="19">030</td></tr>
-<tr><td height="19">        </td><td bgcolor="#00FF00" height="19">mshj    </td>
-  <td bgcolor="#00FF00" height="19">Marvel Super Heroes (Japan 951024)</td>
-  <td align="center" bgcolor="#00FF00" height="19">048</td></tr>
+<tr>
+  <td bgcolor="#FFFF00" height="19">megaman2</td>
+  <td bgcolor="#FFFF00" height="19">megaman2</td>
+  <td bgcolor="#FFFF00" height="19">Mega Man 2: The Power Fighters (US 960708)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">095</td>
+</tr>
+<tr>
+  <td height="19"></td><td bgcolor="#FFFF00" height="19">megamn2a</td>
+  <td bgcolor="#FFFF00" height="19">Mega Man 2: The Power Fighters (Asia 960708)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
+<tr>
+  <td height="19"></td><td bgcolor="#FFFF00" height="19">rckman2j</td>
+  <td bgcolor="#FFFF00" height="19">Rockman 2: The Power Fighters (Japan 960708)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">072</td>
+</tr>
+<tr><td bgcolor="#FFFF00" height="19">msh     </td>
+  <td bgcolor="#FFFF00" height="19">msh     </td>
+  <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (US 951024)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">012</td></tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">msha    </td>
+  <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (Asia 951024)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">074</td></tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">mshb    </td>
+  <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (Brazil 951117)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">mshh    </td>
+  <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (Hispanic 951117)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">030</td></tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">mshj    </td>
+  <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (Japan 951024)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">048</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">mshvsf  </td>
   <td bgcolor="#FFFF00" height="19">mshvsf  </td>
   <td bgcolor="#FFFF00" height="19">Marvel Super Heroes Vs. Street Fighter (US
@@ -295,9 +326,14 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">mshvsfj </td>
   <td bgcolor="#FFFF00" height="19">Marvel Super Heroes Vs. Street Fighter (Japan 970707)</td>
   <td align="center" bgcolor="#FFFF00" height="19">064</td></tr>
-<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">mshvsfj1</td>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">mshvsfj1</td>
   <td bgcolor="#FFFF00" height="19">Marvel Super Heroes Vs. Street Fighter (Japan 970702)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">065</td></tr>
+  <td align="center" bgcolor="#FFFF00" height="19">065</td>
+</tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">mshvsfj2</td>
+  <td bgcolor="#FFFF00" height="19">Marvel Super Heroes Vs. Street Fighter (Japan 970625)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">mvsc    </td>
   <td bgcolor="#FFFF00" height="19">mvsc    </td>
   <td bgcolor="#FFFF00" height="19">Marvel Vs. Capcom: Clash of Super Heroes (US 980123)</td>
@@ -331,6 +367,11 @@ on this list.</p>
   <td bgcolor="#FFFF00" height="19">nwarr   </td>
   <td bgcolor="#FFFF00" height="19">Night Warriors: Darkstalkers Revenge (US 950406)</td>
   <td align="center" bgcolor="#FFFF00" height="19">088</td></tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">nwarrb  </td>
+  <td bgcolor="#FFFF00" height="19">Night Warriors: Darkstalkers' Revenge (Brazil 950403)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">nwarrh  </td>
   <td bgcolor="#FFFF00" height="19">Night Warriors: Darkstalkers Revenge (Hispanic 950403)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
@@ -366,13 +407,6 @@ on this list.</p>
   <td bgcolor="#C0C0C0" height="19">rckmanj </td>
   <td bgcolor="#C0C0C0" height="19">Rockman: The Power Battle (Japan 950922)</td>
   <td align="center" bgcolor="#C0C0C0" height="19">&nbsp;</td></tr>
-<tr><td bgcolor="#00FF00" height="19">megaman2</td>
-  <td bgcolor="#00FF00" height="19">megaman2</td>
-  <td bgcolor="#00FF00" height="19">Mega Man 2: The Power Fighters (US 960708)</td>
-  <td align="center" bgcolor="#00FF00" height="19">095</td></tr>
-<tr><td height="19">&nbsp;</td><td bgcolor="#00FF00" height="19">rckman2j</td>
-  <td bgcolor="#00FF00" height="19">Rockman 2: The Power Fighters (Japan 960708)</td>
-  <td align="center" bgcolor="#00FF00" height="19">072</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">sfa     </td>
   <td bgcolor="#FFFF00" height="19">sfa     </td>
   <td bgcolor="#FFFF00" height="19">Street Fighter Alpha: Warriors' Dreams (Euro 950727)</td>
@@ -380,7 +414,7 @@ on this list.</p>
 <tr>
   <td height="19">        </td><td bgcolor="#FFFF00" height="19">sfar1   </td>
   <td bgcolor="#FFFF00" height="19">Street Fighter Alpha: Warriors' Dreams (Euro 950718)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+  <td align="center" bgcolor="#FFFF00" height="19">109</td>
 </tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">sfar2   </td>
   <td bgcolor="#FFFF00" height="19">Street Fighter Alpha: Warriors' Dreams (Euro 950605)</td>
@@ -388,6 +422,11 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">sfau    </td>
   <td bgcolor="#FFFF00" height="19">Street Fighter Alpha: Warriors' Dreams (US 950627)</td>
   <td align="center" bgcolor="#FFFF00" height="19">003</td></tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">sfzb    </td>
+  <td bgcolor="#FFFF00" height="19">Street Fighter Zero (Brazil 951109)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">sfzh    </td>
   <td bgcolor="#FFFF00" height="19">Street Fighter Zero (Hispanic 950627)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>

@@ -2,10 +2,10 @@
 <emulator id="CrashTestsMAMEScreenshots">
 	<img src="CrashTestsMAMEScreenshots.gif" width="382" height="40"/>
 	<name>CrashTest's MAME Screenshots</name>
-	<version>v0.68</version>
+	<version>v0.70</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>21/05/2003</date>
+	<date>15/06/2003</date>
 	<games>Various</games>
 	<author href="http://crashtest.retrogames.com/">CrashTest</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CrashTest's%20MAME%20Screenshots%20v0.68%20(cm).zip" size="300"/>
+			<file name="CrashTest's%20MAME%20Screenshots%20v0.70%20(cm).zip" size="304"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CrashTest's%20MAME%20Screenshots%20v0.68%20(rc).zip" size="117"/>
+			<file name="CrashTest's%20MAME%20Screenshots%20v0.70%20(rc).zip" size="119"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>15 June 2003</date>
+			<comment>Uploaded the latest release by CrashTest for MAME v0.70.</comment>
+		</revision>
 		<revision>
 			<date>21 May 2003</date>
 			<comment>Uploaded the latest release by CrashTest for MAME v0.68.</comment>

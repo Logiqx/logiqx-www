@@ -5,7 +5,7 @@
 	<version>20030601</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>01/06/2003</date>
+	<date>15/06/2003</date>
 	<games>113</games>
 	<author href="http://www.logiqx.com">rosewood - Team Logiqx</author>
 	<comment>
@@ -18,10 +18,14 @@
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-1%2020030601%20(rc).zip" size="29"/>
+			<file name="CPS-1%2020030601%20(rc).zip" size="30"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>15 June 2003</date>
+			<comment>Updated supplements to match MAME v0.70.</comment>
+		</revision>
 		<revision>
 			<date>1 June 2003</date>
 			<comment>Updated to match the latest changes in MAME v0.69.<br/> (mercsua, stridrua and added sf2uk.)</comment>

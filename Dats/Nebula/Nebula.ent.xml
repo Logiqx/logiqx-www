@@ -5,7 +5,7 @@
 	<version>v2.23b</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>25/05/2003</date>
+	<date>15/06/2003</date>
 	<games>389</games>
 	<author href="http://www.logiqx.com">rosewood - Team Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
                         &CMPro;
-                        <file name="Nebula%20v2.23b%20(cm).zip" size="75"/>
+                        <file name="Nebula%20v2.23b%20(cm).zip" size="76"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-                        <file name="Nebula%20v2.23b%20(rc).zip" size="86"/>
+                        <file name="Nebula%20v2.23b%20(rc).zip" size="87"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>15 June 2003</date>
+			<comment>Updated supplements for MAME v0.70.</comment>
+		</revision>
 		<revision>
 			<date>25 May 2003</date>
 			<comment>Updated supplements for MAME v0.69.</comment>

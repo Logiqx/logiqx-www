@@ -4,7 +4,7 @@
 	<name>FBA</name>
 	<version>v0.2.94</version>
 	<suitability/>
-	<status>Updated</status>
+	<status/>
 	<date>21/05/2003</date>
 	<games>235</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
@@ -19,6 +19,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>15 June 2003</date>
+			<comment>No update required, supplements are fine for MAME v0.70.</comment>
+		</revision>
 		<revision>
 			<date>21 May 2003</date>
 			<comment>Updated supplements for MAME v0.68.</comment>
