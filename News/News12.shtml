@@ -230,13 +230,13 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       If you want don't care what everything is and don't want to compile RAINE
       then just use the downloads at the MAME page. ;)</p>
       <p align="center">The biggest changes in this update are:</p>
-          <p align="center">1. Both the <a href="../HowTo/Compiling.shtml"> DJGPP</a> and
+          <p align="center">1. Both the DJGPP and
           <a href="../HowTo/WinMAME.shtml"> MinGW</a> environments use GCC 3
           (previously they used GCC 2).<br>
           2. You can create a single <a href="../HowTo/WinMAME.shtml"> MinGW</a>
           environment that works
           with MAME and RAINE32 (no more DirectX conflicts).<br>
-          3. The <a href="../HowTo/Compiling.shtml"> DJGPP</a> environment now works under NT and XP (no
+          3. The DJGPP environment now works under NT and XP (no
           more 'Out of DOS memory', 'No DPMI selectors', etc).
     </td>
   </tr>
