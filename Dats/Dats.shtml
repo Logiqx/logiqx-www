@@ -67,11 +67,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
           <td>
-            <a href="Daphne/Daphne.shtml">Daphne v0.99.5a</a>
+            <a href="Daphne/Daphne.shtml">Daphne v0.99.6</a>
           </td>
-          <td align="center"></td>
-          <td align="center">07/11/2002</td>
-          <td align="center">21</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>14/09/2003</strong>
+          </td>
+          <td align="center">
+            <strong>30</strong>
+          </td>
         </tr>
 
 			
@@ -168,11 +172,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="Nebula/Nebula.shtml">Nebula v2.23b</a>
+            <a href="Nebula/Nebula.shtml">Nebula v2.23c</a>
           </td>
-          <td align="center"></td>
-          <td align="center">05/07/2003</td>
-          <td align="center">389</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>14/09/2003</strong>
+          </td>
+          <td align="center">
+            <strong>403</strong>
+          </td>
         </tr>
 
 			<tr>

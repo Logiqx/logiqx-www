@@ -33,6 +33,24 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>14 September 2003</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+      <p align="center">Released <a href="../DatUtil/DatUtil.shtml">DatUtil</a> 
+      (v1.26)
+      and data file for <a href="../Dats/Nebula/Nebula.shtml">Nebula v2.23c</a>.</p>
+      <p align="center">Finally released a data file for <a href="../Dats/Daphne/Daphne.shtml">Daphne
+      v0.99.6</a>.</p>
+      <p align="center">Also, for those of you who would like to know how to
+      create the various flavours of the MAME data files (changes, supplements,
+      etc) there has been a <a href="http://www.geocities.com/datcreate/DatCreate.htm">guide</a>
+      written for you by Amiga Boy. It looks accurate to me and is well worth a
+      try when the next MAME release comes out . :)</p>
+     </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>7 September 2003</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
