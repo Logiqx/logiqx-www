@@ -21,6 +21,9 @@ H2 { font-size: 1pc }
 <p align="center"><b><u><img border="0" src="ListinfoHistory.gif" width="174" height="40"></u></b>
 </p>
 
+<p align="center">Last updated: 30th June 2004
+</p>
+
 <p align="center"><b><u>0.27</u></b><br>
 <br>
 A (proprietary) checksum was introduced, to add some degree of certainty that the correct ROMs were being loaded. Before this version, MAME did not use
@@ -108,6 +111,10 @@ Elimination of Test Drivers.<br>
 <b><u>0.77u1</u></b><br>
 <br>
 Introduction of SHA1 digests for disks.<br>
+<br>
+<b><u>0.84</u></b><br>
+<br>
+ListInfo is going to be removed (just ListXML will remain).
 </p>
 
 </body>

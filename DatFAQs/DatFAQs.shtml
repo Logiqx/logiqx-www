@@ -20,6 +20,8 @@ H2 { font-size: 1pc }
 
 <p align="center"><img border="0" src="DatFAQs.gif" width="117" height="40"></p>
 
+<p align="center">Last updated: 30th June 2004</p>
+
 <p align="center">These pages have been written for anyone that is considering
 creating and releasing their own data files for CMPro or RomCenter.</p>
 
@@ -40,9 +42,9 @@ potential pitfalls and my advice should help you to avoid them.&nbsp;&nbsp;</p>
 
 <h2 align="center">Case Studies!</h2>
 
-<p align="center"><a href="MAMEDat.shtml">MAME</a> - see below<br>
-<a href="CaliceDat.shtml">
-Calice</a><br>
+<p align="center"><a href="MAMEDat.shtml">MAME</a> - see below for details about
+listinfo changes over time.<br>
+<a href="NebulaDat.shtml">Nebula</a><br>
 <a href="WinKawaksDat.shtml">
 WinKawaks</a></p>
 

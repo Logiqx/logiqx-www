@@ -24,14 +24,29 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff126.zip">MAMEDiff v1.26</a> (41KB)</p>
+<p align="center">Download <a href="mdiff20.zip">MAMEDiff v2.0</a>  (81KB)</p>
 
-<p align="center"><a href="mdiff126.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff20.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>2 July 2004</u></strong> - MAMEDiff v2.0</p>
+
+<p align="center">- Modified to use DatLib so there should be no size limitations now.<br>
+            - Basically a complete rewrite of all dat generation routines!<br>
+            - Supports all of the DatLib formats (CMPro, XML, RomCenter, Nebula Drivers, etc.)<br>
+            - Does not re-order games and ROMs in output data files now.<br>
+            - Outputs SHA1, MD5, flags (baddump and nodump) and regions now.<br>
+            - Better at spotting renames now due to a different game checksum.<br>
+            - Better internal 'fix merging' results in more accurate output.<br>
+            - The prefix 'Neo-Geo' is no longer added to Neo-Geo games.<br>
+            - Supports full-width game descriptions now (i.e. >100 characters).<br>
+	    - Replaced -M, -S, -N, -t, -T options with -d1, -d2, -d3, -r, -z.<br>
+              Read the documentation for full details of the new options.<br>
+            - Update and supplement dats will be different, hopefully better!</p>
 
 <p align="center"><strong><u>4 March 2004</u></strong> - MAMEDiff v1.26</p>
 

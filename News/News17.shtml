@@ -38,35 +38,73 @@ etc.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
-<p align="center"><strong><u>2 July 2004</u></strong></p>
+<p align="center"><strong><u>20 June 2004</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-	    <p align="center">I was going to release these updates on Sunday 4th
-        July but the unexpected release of MAME v0.84 has forced me to do it
-        early!
-	    <p align="center">To celebrate my birthday on Sunday, I have some goodies for you
-        all.
-      <p align="center">I'd almost given up hope of finding time to create these
-      but I've actually managed to work on them recently...
-      <p align="center"><a href="../Tools/DatUtil/DatUtil.shtml">DatUtil v2.0</a>
-      and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v2.0</a> are
-      basically complete rewrites and are now far more powerful.
-      <p align="center"><a href="../Tools/DatLib/DatLib.shtml">DatLib v1.0</a>
-      is now at the heart of all my tools so there are more even tool updates:
-      <p align="center"><a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild v2.0</a>,
-      <a href="../Tools/ROMInfo/ROMInfo.shtml">ROMInfo v2.0</a> and <a href="../Tools/ZipIdent/ZipIdent.shtml">ZIPIdent
-      v2.0</a>.
-      <p align="center">I have also brought my <a href="../FAQs/DatFAQs.shtml">FAQs</a>
-      up to date and added a <a href="../FAQs/NebulaDat.shtml">Nebula case study</a>.<br>
-      Lots of new information has been added so they may be worth reading again!
+      <p align="center">I have made a couple of minor changes to the data files
+      for <a href="../Dats/Dats.shtml">Nebula</a>
+      and <a href="../Dats/Dats.shtml">Nebula Model 2</a>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>5 June 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+      <p align="center">Released the data files for MAME v0.83:</p>
+      <p align="center"><a href="../Dats/Dats.shtml">MAME</a> and <a href="../Dats/Dats.shtml">MAME
+      Changes</a></p>
+      <p align="center">
+      <a href="../Dats/Dats.shtml">RAINE</a>  (v0.40.2 + Supplements),
+      <a href="../Dats/Dats.shtml">M1</a> (Supplements)</p>
+      <p align="center">
+      <a href="../Dats/Dats.shtml">ZN</a> 
+      (20040410)</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>9 May 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+      <p align="center">Hardly any new data files required for MAME v0.82:</p>
+      <p align="center"><a href="../Dats/Dats.shtml">MAME</a> and <a href="../Dats/Dats.shtml">MAME
+      Changes</a></p>
+      <p align="center">
+      <a href="../Dats/Dats.shtml">M1</a> (Supplements) and <a href="../Dats/Dats.shtml">Neo-Geo</a>
+      (20040509)</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>10 April 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+      <p align="center">Released some new data files for MAME v0.81:</p>
+      <p align="center"><a href="../Dats/Dats.shtml">MAME</a> and <a href="../Dats/Dats.shtml">MAME
+      Changes</a></p>
+      <p align="center">
+      <a href="../Dats/Dats.shtml">RAINE</a> (v0.40.0 + Supplements),
+      <a href="../Dats/Dats.shtml">FBA</a>
+      (Supplements), <a href="../Dats/Dats.shtml">Nebula</a>
+      (Supplements), <a href="../Dats/Dats.shtml">WinKawaks</a>
+      (Supplements)</p>
+      <p align="center"><a href="../Dats/Dats.shtml">Neo-Geo</a>
+      (20040410), <a href="../Dats/Dats.shtml">CPS-2</a>
+      (20040409), <a href="../Dats/Dats.shtml">ZN</a> 
+      (20040410)
+      </p>
     </td>
   </tr>
 </table>
 
 <hr>
 
-<p align="center"><a href="News17.shtml">April to June 2004</a> - <a href="News16.shtml">January to March 2004</a></p>
+<p align="center"><a href="News16.shtml">January to March 2004</a></p>
 
 <p align="center"><a href="News15.shtml">October to December 2003</a> - <a href="News14.shtml">July to September 2003</a> - <a href="News13.shtml">April to June 2003</a> - <a href="News12.shtml">January to March 2003</a></p>
 

@@ -20,46 +20,61 @@ H2 { font-size: 1pc }
 
 <p align="center"><img border="0" src="RomCenter.gif" width="202" height="39"></p>
 
-<h1>Version 1 or 2?</h1>
+<p align="center">Last updated: 30th June 2004</p>
 
-<p>There are two RomCenter file formats:</p>
+<h1>Version 1.92, 2.00 or 2.50?</h1>
+
+<p>There are three RomCenter file formats:</p>
 
 <ul>
   <li>v1.92 for RomCenter 1 (discontinued).</li>
-  <li>v2.00 for RomCenter 2.</li>
+  <li>v2.00 for RomCenter 2 (superceded).</li>
+  <li>v2.50 for RomCenter 2.</li>
 </ul>
-<p>I would strongly urge you to create your data files for RomCenter 2 as the
-new format includes some important information that is impossible to represent
-in the old format. For example, RomCenter version 2 has proper support for the
-MAME resources and also allows more complicated merging definitions. Everyone
-should use RomCenter 2 nowadays as it is far better than the original version!</p>
+<p>I would strongly urge you to create your data files in the 2.50 format
+because it includes some important information that is impossible to represent
+in the older formats. For example, 2.50 format has proper support for the
+MAME resources and also supports more complicated merging definitions. Everyone
+should use the latest version of RomCenter nowadays so nothing should hold you
+back from using the new format!</p>
 
-<p>The main differences between the two formats are:</p>
+<p>The main differences between the 1.92 and 2.00 formats are:</p>
 
 <ul>
-  <li>Three fields removed from the 'EMULATOR' section of v1.92 dats ('exe', 'runcmd', 'romspaths').</li>
-  <li>Change in how merging is specified (old format used ¬N¬O for normal ROMs
+  <li>Three fields were removed from the 'EMULATOR' section of v1.92 dats ('exe',
+    'runcmd', 'romspaths').</li>
+  <li>A change in how merging is specified (the old format used ¬N¬O for normal ROMs
     and ¬N¬N for merged ROMs).</li>
+  <li>A change in the way Neo-Geo games are handled (the old format used ¬O¬O
+    and ¬O¬N for Neo-Geo ROMs).</li>
   <li>Resource ROMs needed removing from all games in the old format.</li>
   <li>The old format needed sorting (so that parents and clones were contiguous) in
     order to avoid a strange bug.</li>
 </ul>
-<p>This document will just explain the creation of RomCenter 2 format dats but if
-you need dats in the old format then you can always do
-a conversion using DatUtil.&nbsp;&nbsp;</p>
+
+<p>The main differences between the 2.00 and 2.50 formats are:</p>
+
+<ul>
+  <li>New fields in the [CREDITS] section (email, homepage, url and date).</li>
+  <li>New fields in the [DAT] section (plugin, split, merge).</li>
+  <li>A new [RESOURCES] section.&nbsp;</li>
+</ul>
 <hr>
 <h1>Header</h1>
 <p>RomCenter data files have a header at the top to specify details such as the
 emulator name, description, category and the data file version.</p>
 <pre>[CREDITS]
-Author=Logiqx, http://www.logiqx.com/
-Version=20010526
-Comment=Capcom CPS-1
+author=Logiqx, http://www.logiqx.com/
+version=20021031
+comment=Laserdisk Emulator
 [DAT]
-version=2.00
+version=2.50
+plugin=arcade.dll
+split=1
+merge=1
 [EMULATOR]
-refname=Calice
-version=Calice v0.2.9</pre>
+refname=Daphne
+version=Daphne v0.99.5a</pre>
 <p>The meanings of these fields is as follows:</p>
 <table border="1">
   <tbody>
@@ -71,19 +86,19 @@ version=Calice v0.2.9</pre>
       <th>Description</th>
     </tr>
     <tr>
-      <td>CREDITS/Author</td>
+      <td>CREDITS/author</td>
       <td>author</td>
       <td>Your name and e-mail/web address.</td>
     </tr>
     <tr>
-      <td>CREDITS/Version</td>
+      <td>CREDITS/version</td>
       <td>version</td>
       <td>Version number of the data file. I would recommend using something
         like a date encoded version number (YYYYMMDD is preferable to DDMMYYYY
         as it can be sorted and is unambiguous).</td>
     </tr>
     <tr>
-      <td>CREDITS/Comment</td>
+      <td>CREDITS/comment</td>
       <td>category</td>
       <td>General comment about the emulator (e.g. the systems or game types it
         supports).</td>
@@ -93,6 +108,24 @@ version=Calice v0.2.9</pre>
       <td>N/A</td>
       <td>Format of the data file (1.92 or 2.00). Many 1.92 data files
         incorrectly show 2.00 and this confuses DatUtil!</td>
+    </tr>
+    <tr>
+      <td>DAT/plugin</td>
+      <td>N/A</td>
+      <td>Used to specify how the ROMs are interpreted by RomCenter. If you are
+        using standard arcade ROMs or ROMs without headers, use arcade.dll</td>
+    </tr>
+    <tr>
+      <td>DAT/split</td>
+      <td>forcemerging</td>
+      <td>Used to specify whether parent and clones should be split (0 or
+        1).&nbsp;</td>
+    </tr>
+    <tr>
+      <td>DAT/merge</td>
+      <td>forcemerging</td>
+      <td>Used to specify whether common ROMs of parents and clones should be
+        merged (0 or 1).</td>
     </tr>
     <tr>
       <td>EMULATOR/refname</td>
@@ -137,10 +170,10 @@ should only be specified where the ROM exists in the parent game though. e.g.</p
 ¬invaders¬Space Invaders¬sisv¬Space Invaders (SV Version)¬invaders.f¬0ccead96¬2048¬invaders¬invaders.f¬
 ¬invaders¬Space Invaders¬sisv¬Space Invaders (SV Version)¬tv04.m1¬cd2c67f6¬2048¬invaders¬¬</pre>
 <hr>
-<h1>Samples</h1>
-<p>The RomCenter file format has no support for samples at this time. If you
+<h1>Disks and Samples</h1>
+<p>The RomCenter file format has no support for disks or samples at this time. If you
 convert a CMPro data file to RomCenter format then convert it back again you
-will lose the sample information.</p>
+will lose the disk and sample information.</p>
 <hr>
 <h1>Resources</h1>
 <p>Resources are used by MAME for the sharing of common ROMs for a particular
@@ -152,9 +185,19 @@ system (e.g. NeoGeo, PlayChoice-10, Deco Cassette, CVS).</p>
 	rom ( name ng-sm1.rom size 131072 crc 97cf998b )
 	rom ( name ng-sfix.rom size 131072 crc 354029fc )
 )</pre>
-<p>Resources are included in the 'GAMES' section of RomCenter data files. This
-will cause the number of games reported to be incorrect but the handling of the
-resources will be correct.</p>
+<p>Resources are included in the [RESOURCES] section of RomCenter data files.
+For example:</p>
+<pre>[RESOURCES]
+¬neogeo¬Neo-Geo¬neogeo¬Neo-Geo¬sp-s2.sp1¬9036d879¬131072¬¬¬
+¬neogeo¬Neo-Geo¬neogeo¬Neo-Geo¬sp-s.sp1¬c7f2fa45¬131072¬¬¬
+¬neogeo¬Neo-Geo¬neogeo¬Neo-Geo¬usa_2slt.bin¬e72943de¬131072¬¬¬
+¬neogeo¬Neo-Geo¬neogeo¬Neo-Geo¬sp-e.sp1¬2723a5b5¬131072¬¬¬
+¬neogeo¬Neo-Geo¬neogeo¬Neo-Geo¬asia-s3.rom¬91b64be3¬131072¬¬¬
+¬neogeo¬Neo-Geo¬neogeo¬Neo-Geo¬vs-bios.rom¬f0e8f27d¬131072¬¬¬
+¬neogeo¬Neo-Geo¬neogeo¬Neo-Geo¬sp-j2.rom¬acede59c¬131072¬¬¬
+¬neogeo¬Neo-Geo¬neogeo¬Neo-Geo¬sm1.sm1¬97cf998b¬131072¬¬¬
+¬neogeo¬Neo-Geo¬neogeo¬Neo-Geo¬000-lo.lo¬e09e253c¬65536¬¬¬
+¬neogeo¬Neo-Geo¬neogeo¬Neo-Geo¬sfix.sfx¬354029fc¬131072¬¬¬</pre>
 <p>As with CMPro data files, you should use the 'romof' field in games that
 should use the resource ZIP but the 'merge' field should only be used for ROMs
 that are shared. e.g.</p>

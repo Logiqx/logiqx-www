@@ -19,24 +19,51 @@ H1 { font-size: 1pc }
 
 <p align="center"><img border="0" src="ROMQuestions.gif" width="188" height="40"></p>
 
+<p align="center">Last updated: 30th June 2004</p>
+
 <h1>What is a CRC?</h1>
 
-<p>ROMs can be identified using a special checksum algorithm called CRC32 (32 bit cyclic redundancy check). A perfect checksum algorithm applied to billions of different files should not have a tendency to generate a particular checksum more than any other. In other words,
-the chance of two differing files having the same CRC would only be a 1 in 4 billion (2^32=largest 32-bit number). CRC32 is the most effective
+<p>ROMs can be identified using a special checksum algorithm called CRC32 (a 32 bit cyclic redundancy check). A perfect checksum algorithm applied to billions of different files should not have a tendency to generate a particular checksum more than any other. In other words,
+the chance of two different files having the same CRC should only be about 1 in 4 billion (2^32=largest 32-bit number). CRC32 is the most effective
 checksum algorithm in this respect. Amongst other things, CRC32 is used by WinZIP to validate the integrity of ZIP archives and for hardware error detection in some types of network.</p>
 <hr>
 
-<h1>What does a CRC of 00000000 mean?</h1>
+<h1>What are MD5 and SHA1?</h1>
 
-<p>A CRC of 00000000 indicates that the ROM has not yet been dumped or that previous attempts have been unsuccessful. It is almost certain that a game will malfunction without the correct dump but there are some games that appear to work fine without them (Lunar Lander for example). Note that if a dummy ROM is created by your ROM manager (just filled with 00s) then WinZIP will not show a CRC of 00000000, it will show a normal looking CRC.</p>
+<p>MD5 and SHA1 can be thought of as more advanced alternatives to CRC32. Both
+MD5 and SHA1 are more secure than CRC32 and it is harder to create fake files of
+a given MD5 or SHA1. For a full description of how MD5 and SHA1 work, take a
+look at the <a href="http://www.rsasecurity.com/rsalabs/node.asp?id=2247">Crypto
+FAQ</a> by RSA Security.</p>
+
+<p>At this moment in time, standard archives such as ZIP files do not contain
+MD5 or SHA1 details in the header record. In order to validate that files within
+a ZIP have the correct MD5 or SHA1, they must be uncompressed in full and the
+checksum calculated before it can be checked. Validating CRCs is much faster
+because they are stored within the ZIP header and can be retrieved without
+uncompressing the ZIP.</p>
 <hr>
 
-<h1>What is a complemented CRC?</h1>
+<h1>What does a CRC of 00000000 mean? What is the 'nodump' flag?</h1>
+
+<p>For a long time in emulation, a CRC of 00000000 has indicated that the ROM has not yet been dumped or that previous attempts have been unsuccessful. It is almost certain that a game will malfunction without the correct dump but there are some games that appear to work fine without them (Lunar Lander for example). Note that if a dummy ROM is created by your ROM manager (just filled with 00s) then WinZIP will not show a CRC of 00000000, it will show a normal looking CRC.</p>
+<p>Since MAME v0.68, a new method of specifying these ROMs has been used; MAME
+now uses a ROM flag of 'nodump' to indicate that the ROM has not been dumped.
+Data files for ClrMamePro should now use the 'flag nodump' syntax but RomCenter
+and many other emulator still need to use CRCs of 00000000.</p>
+<hr>
+
+<h1>What is a complemented CRC? What is the 'baddump' flag?</h1>
 
 <p>A complemented CRC (sometimes represented using the notation ~) means that the ROM may be incorrect/incomplete/bad but is the best available at that time. The
 complemented CRC is calculated by inverting the CRC for the best available ROM  (i.e. binary 0's turned to 1's and 1's turned to 0's).
 Complemented CRCs allow emulators and ROM managers to identify the
 best available ROM but understand that it may not be 100% correct.</p>
+<p>Since MAME v0.68, a new method of specifying these ROMs has been used; MAME
+now uses a ROM flag of 'baddump' to indicate that the ROM is
+incorrect/incomplete/bad. Data files for ClrMamePro should now use the 'flag
+baddump' syntax in addition to the actual CRC but RomCenter and many other
+emulators still need to use complemented CRCs.</p>
 <hr>
 
 <h1>What is a bad dump?</h1>
@@ -56,17 +83,20 @@ byte swapping (where odd and even bytes are swapped over).</p>
 
 <p>If it is simply ROM renaming then you can use one of the ROM managers that are available. In addition to the ROM manager you will also need a
 'data file' that contains information about the ROMs required by a particular emulator.
-Data files for every arcade emulator are available from my site (http://www.logiqx.com/).
+Data files for every arcade emulator are available from my site (<a href="http://www.logiqx.com/">http://www.logiqx.com/</a>).
 
-If the ROMs are not just renames and need concatenating, interleaving, etc. then you can use ROMBuild to convert the MAME ROMs. ROMBuild contains the information required to identify the necessary MAME ROMs and also what conversion needs to be applied to them. Once you have generated the correct ROMs using ROMBuild you can then build a usable set with your favorite ROM manager.</p>
+If the ROMs are not just renames and need concatenating, interleaving, etc. then you can use ROMBuild to convert the MAME ROMs. ROMBuild contains the information required to identify the necessary MAME ROMs and also what conversion needs to be applied to them. Once you have generated the correct ROMs using ROMBuild you can then build a usable set with your
+favourite ROM manager.</p>
 <hr>
 
 <h1>How do ROM managers work?</h1>
 
-<p>As you should now understand the concept of CRCs you should be able to see how a ROM manager can identify ROMs by their CRC then rename them to whatever a particular emulator requires. ROMBuild uses CRCs to identify the necessary source files then applies the appropriate conversion routines to them.</p>
+<p>As you should now understand the concept of CRCs you should be able to see how a ROM manager can identify ROMs by their CRC then rename them to whatever a particular emulator requires. ROMBuild uses CRCs to identify the necessary source files then applies the appropriate conversion routines to them.
+ClrMamePro also supports MD5 and SHA1 but when enabled, processing is a lot
+slower than simply using CRCs.&nbsp;&nbsp;&nbsp;</p>
 <hr>
 
-<h1>How can the filesize of a ROM be incorrect when the CRC is okay?</h1>
+<h1>How can the file size of a ROM be incorrect when the CRC is okay?</h1>
 
 <p>If this happens then the file size is incorrectly specified in the emulator or ROM manager
 data file. This occasionally happens with any emulators that generate MAME listinfo style output (MAME, RAINE, PinMAME,
@@ -75,7 +105,7 @@ etc.) because the information is typed by hand and is susceptible to typos.</p>
 
 <h1>Why can an emulator still play games even when the ROM names are incorrect?</h1>
 
-<p>Some emulators (e.g. MAME, Final Burn, Nebula) load ROMs from ZIP files using the CRC32 instead of the ROM name. This means that the names of the ROMs don't have any real importance but it is still recommended that your ROMs are correctly named to avoid future name conflicts.</p>
+<p>Some emulators (e.g. MAME, RAINE, Kawaks, Nebula) load ROMs from ZIP files using the CRC32 instead of the ROM name. This means that the names of the ROMs don't have any real importance but it is still recommended that your ROMs are correctly named to avoid future name conflicts.</p>
 <hr>
 
 <h1>Are some arcade ROMs encrypted?</h1>

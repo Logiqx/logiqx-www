@@ -20,6 +20,8 @@ H2 { font-size: 1pc }
 
 <p align="center"><img border="0" src="CMPro.gif" width="145" height="40"></p>
 
+<p align="center">Last updated: 30th June 2004</p>
+
 <h1>General Layout</h1>
 
 <p>The first suggestion I'll make is the use of indentation (using a single
@@ -97,25 +99,26 @@ emulator name, description, category and the data file version.&nbsp;</p>
     </tr>
     <tr>
       <td>category</td>
-      <td>CREDITS/Comment</td>
+      <td>CREDITS/comment</td>
       <td>General comment about the emulator (e.g. the systems or game types it
         supports).</td>
     </tr>
     <tr>
       <td>version</td>
-      <td>CREDITS/Version</td>
+      <td>CREDITS/version</td>
       <td>Version number of the data file. I would recommend using something
         like a date encoded version number (YYYYMMDD is preferable to DDMMYYYY
         as it can be sorted and is unambiguous).</td>
     </tr>
     <tr>
       <td>author</td>
-      <td>CREDITS/Author</td>
+      <td>CREDITS/author</td>
       <td>Your name and e-mail/web address.</td>
     </tr>
     <tr>
       <td>forcemerging</td>
-      <td>N/A</td>
+      <td>DAT/split<br>
+        DAT/merge</td>
       <td>To force CMPro to use a particular merging format (none/split/full).
         Only do this if the emulator doesn't allow all three of the modes!</td>
     </tr>
@@ -176,12 +179,14 @@ work as expected in CMPro and RomCenter for all three merge types.&nbsp;</p>
 <ul>
   <li>Using indentation makes your data file more readable (use a single tab for
     the ROM lines).</li>
-  <li>The order of the sub-elements should be 'name', then 'size', then 'crc'.</li>
+  <li>The order of the sub-elements should be 'name', then 'size', then 'crc',
+    then 'sha1', then 'md5', then 'region', then 'flags'.</li>
   <li>CRCs should be 8 characters long (use leading zeros if necessary), they
     should be lower case and not use the prefix '0x'. All of these points are for the sake of
-    consistency and readability.</li>
+    consistency and readability. The same applies to SHA1 and MD5 but they are
+    40 and 32 characters long (respectively).</li>
   <li>It is essential to use quotes around the name if it contains spaces.  </li>
-  <li>If copying and pasting from the MAME listinfo output then remove the 'region' and 'offs'
+  <li>If copying and pasting from the MAME listinfo output then remove the 'offs'
     sub-elements. An easy way to achieve this is to run the data file through
     DatUtil.&nbsp;  </li>
 </ul>
@@ -208,9 +213,27 @@ element). However, in order for your dat to work correctly in RomCenter it must
 specify the 'merge' sub-element correctly. Always specify the merging
 information correctly or you cannot guarantee that your data file will
 work correctly in CMPro and RomCenter for all three merge types. In order to
-check that merge information is correct, run the data file through DatUtil using
-the 'fix merging' option (-m) and compare the generated data file to the
-original one.</p>
+check that merge information is correct, run the data file through DatUtil and
+check the log file to see if DatUtil found issues with your merging.</p>
+
+<hr>
+
+<h1>Disks</h1>
+
+<p>CMPro includes disk support but at this time, RomCenter does not. Both the
+MD5 and SHA1 should be specified in the data file:&nbsp;</p>
+
+<pre>game (
+	name jdredd
+	romof acpsx
+	description &quot;Judge Dredd (Rev C Dec. 17 1997)&quot;
+	year 1996
+	manufacturer &quot;Acclaim&quot;
+	rom ( name coh-1000a.353 merge coh-1000a.353 size 524288 crc 8d8d0764 )
+	rom ( name j-dread.u36 size 131072 crc 37addbf9 )
+	rom ( name j-dread.u35 size 131072 crc c1e17191 )
+<b>	disk ( name jdreddc sha1 83ed8df25d100b1c060f4dde2f162ba31803db7d md5 b66074f3df1e90ec4e3ff09dcdf33033 )
+</b>)</pre>
 
 <hr>
 
@@ -259,6 +282,8 @@ system (e.g. NeoGeo, PlayChoice-10, Deco Cassette, CVS).</p>
 <pre>resource (
 	name neogeo
 	description &quot;Neo Geo BIOS&quot;
+	year 1990
+	manufacturer &quot;SNK&quot;
 	rom ( name neo-geo.rom size 131072 crc 9036d879 )
 	rom ( name ng-sm1.rom size 131072 crc 97cf998b )
 	rom ( name ng-sfix.rom size 131072 crc 354029fc )
@@ -290,9 +315,6 @@ game (
 	cloneof sengoku
 	romof sengoku
 )</pre>
-
-<p>Note: MAME and NeoRAGEx are the only emulators to support resources at this
-time.</p>
 
 </body>
 </html>

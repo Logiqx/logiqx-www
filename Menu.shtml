@@ -80,6 +80,15 @@ ZIPIdentOn = new Image;
   ZIPIdentOff.src = "Menu/ZIPIdentOff.gif";
 
 
+DatLibOff = new Image;
+
+DatLibOn = new Image;
+
+  DatLibOn.src = "Menu/DatLibOn.gif";
+
+  DatLibOff.src = "Menu/DatLibOff.gif";
+
+
 MAMEMD5Off = new Image;
 
 MAMEMD5On = new Image;
@@ -224,6 +233,10 @@ src="Menu/ROMInfoOff.gif" alt="ROMInfo" border="0" width="63" height="20" name="
 <p align="center"><a href="Tools/ZIPIdent/ZIPIdent.shtml" target="main" alt="ZIPIdent"
 onmouseover="image_on('ZIPIdent')" onmouseout="image_off('ZIPIdent')"><img
 src="Menu/ZIPIdentOff.gif" alt="ZIPIdent" border="0" width="61" height="20" name="ZIPIdent"></a></p>
+
+<p align="center"><a href="Tools/DatLib/DatLib.shtml" target="main" alt="DatLib"
+onmouseover="image_on('DatLib')" onmouseout="image_off('DatLib')"><img
+src="Menu/DatLibOff.gif" alt="DatLib" border="0" width="46" height="20" name="DatLib"></a></p>
 
 <hr>
 

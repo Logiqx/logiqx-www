@@ -25,14 +25,21 @@ of the 'unemulated' collection and into a separate directory.<br>
 It is quite similar to MAME's '-romident' function except for the fact that it processes entire ROM collections, not just an individual ZIP. ZIPIdent
 probably has some additional logic that '-romident' doesn't contain too (not checked).</p>
 
-<p align="center">Download <a href="zidnt101.zip">ZIPIdent v1.01</a> (49KB)</p>
+<p align="center">Download <a href="zident20.zip">ZIPIdent v2.0</a>  (70KB)</p>
 
-<p align="center"><a href="zidnt101.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="zident20.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font size="3"><strong><u>2 July 2004</u></strong> - ZIPIdent
+v2.0</font></p>
+
+<p align="center"><font size="3">- Modified to use DatLib - there are no game or ROM limits anymore!<br>
+- Also supports all DatLib formats (ListInfo, XML, RomCenter, etc).<br>
+- Note: For XML support to work, you need xml2info.exe in your path.</font></p>
 
 <p align="center"><font size="3"><strong><u>19 January 2003</u></strong> - ZIPIdent
 v1.01</font></p>

@@ -16,24 +16,145 @@
 
 <p align="center"><img src="DatUtil.gif" width="81" height="40"></p>
 
-<p align="left">DatUtil was created to aid in the creation of dat files for Rom Managers
-such as ClrMamePro and RomCenter (Roman Scherzer / Eric Bole-Feysot). It can convert
-between formats, compare dats, extract individual games (and optionally their clones),
-cleanse dats etc. It currently handles a wide variety of formats including MAME Listinfo
-(used by ClrMamePro), RomCenter 1 and 2 Datafiles, MESS Listinfo, RAINE Gameinfo, Shark
-Listinfo, Retrocade Romlist, Callus Gamelist, System16 GCS, JFF.TXT, Sparcade RAT, JAS
-Romlist, Mimic. Adding support for additional formats is really easy too if you know a
-little bit of C.</p>
+<p align="center">DatUtil was created to aid in the creation of dat files for Rom Managers such
+as ClrMamePro and RomCenter (Roman Scherzer / Eric Bole-Feysot). It can convert between formats, extract individual games (and optionally their clones) and
+cleanse dats. It supports a variety of formats...<br>
+<br>
+<b>Load and Save:</b><br>
+<br>
+  - MAME ListInfo (ClrMamePro, MAME, MESS, RAINE, Shark)<br>
+  - RomCenter 2.50<br>
+<br>
+<b>Load only:</b><br>
+<br>
+  - RomCenter 1.90 and 2.00<br>
+  - MAME ListXML (xml2info.exe must be in your path for this feature to work)<br>
+  - Nebula Drivers<br>
+  - ClrMame Log<br>
+  - Folder Scan (subdirectories and zips)<br>
+<br>
+<b>Save only:</b><br>
+<br>
+  - Title List (for listing game titles - used by CPS-2 readme and RAINE docs)</p>
 
-<p align="center"><font color="#000000">Download </font><a href="dutil132.zip">DatUtil
-v1.32</a><font color="#000000">           (92KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="dutil20.zip">DatUtil
+v2.0</a><font color="#000000">             (67KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="dutil132.zip"><img
+<p align="center"><font color="#000000"><a href="dutil20.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>2 July 2004</strong>
+</u>- DatUtil v2.0<br>
+<br>
+            Wow, I never thought I'd get around to this rewrite but here it is!<br>
+<br>
+<b>Uses DatLib - The new library for handling dats of many formats</b><br>
+<br>
+- A generic dat structure with various loading and cleansing routines.<br>
+<br>
+- Far better memory handling. No longer uses huge blocks of fixed size memory.<br>
+<br>
+  Info: DatUtil used to allocate almost 45MB for a dat when it was loaded.<br>
+        This was without MD5/SHA1 support and for a limited number of games!<br>
+        DatLib now allocates only what it really requires (which is usually<br>
+        about twice the size of the dat file).<br>
+<br>
+- Multi-phase processing (pre-parse, parse, cleanse, save):<br>
+<br>
+  - Pre-parser translates dat into an intermediate dat format.<br>
+  - Parser interprets the intermediate format to populate the dat structure.<br>
+  - Cleanser does things like 'lowercase', 'remove dups', 'fix merging', etc.<br>
+  - Saving outputs the cleansed dat structure in the required output format.<br>
+<br>
+  Note: The main difference is the addition of the pre-parser (which removes<br>
+        common operations from the different dat parsers) and the separation<br>
+        of the cleansing operations from the loader (they used to be embedded<br>
+        in the various parsers, particularly painful for RomCenter format!).<br>
+<br>
+- No limit on the number of games, ROMs, disks, samples etc.<br>
+<br>
+- No limit on the length of file names, game titles, manufacturer names etc.<br>
+<br>
+- Improved size and CRC handling (now numeric, not text based).<br>
+<br>
+- Supports 'rebuildto' information for games.<br>
+<br>
+- Supports alternative checksums (MD5 and SHA1).<br>
+  N.B. The directory scanner also generates MD5 and SHA1 checksums for files.<br>
+<br>
+- Supports 'region' information of ROMs.<br>
+<br>
+- Improved driver system for developers adding new dat formats.<br>
+<br>
+- Fully supports the latest RomCenter dat format (2.50).<br>
+<br>
+- Improved RomCenter parser is not case sensitive like the old one was.<br>
+<br>
+- All cleansing features can now be used with all supported formats.<br>
+<br>
+- Improved 'fix merging'. Now operates across clones, not just parent/clone.<br>
+  Also fixes bad parent references and prevents clones of clones.<br>
+  The feature is run by default when a data file is loaded into memory.<br>
+  A summary of fixes is shown in datutil.log, use -v option for full details.<br>
+<br>
+- Duplicate ROMs are now removed when the data file is loaded into memory.<br>
+<br>
+- Added debugging information (to help me track down problems).<br>
+<br>
+- Removed alternate ROM support. It was only used by Shark and made data file<br>
+  comparisons unnecessarily complicated!<br>
+<br>
+- Removed code that fixed the bad parent 'pc' in MESS dats (the default<br>
+  'fix merging' code does the same job now but without being hard coded).<br>
+<br>
+- ClrMamePro log parser now supports disk images and alternative checksums.<br>
+<br>
+- Nebula parser is now much better. With the default 'fix merging' behaviour,<br>
+  the data file that is generated should be almost usable now!<br>
+<br>
+- Improved baddump and nodump handling.<br>
+  Also supports the syntax of MAME v0.68 (where the word 'flags' was missing).<br>
+<br>
+- Improved logging. Added a verbose (-v) option for even more detail!<br>
+<br>
+- You are given a warning if you try to convert a RomCenter data file where<br>
+  the plugin is not 'arcade.dll'. It is likely that such a conversion will<br>
+  not work correctly in ClrMamePro.<br>
+<br>
+- The -g and -c options can now be used on resources. You can therefore<br>
+  extract games for neogeo, zn1, etc. (e.g. 'datutil -g cpzn1 -c mame.dat').<br>
+<br>
+- Removed the dat comparison facility. Use MAMEDiff instead!<br>
+<br>
+- Added load support for MAME ListXML format (uses the xml2info tool).<br>
+<br>
+- Added a warning summary to datutil.log.<br>
+  Warnings are for missing details, funny ROM sizes and CRC conflicts.<br>
+  For full details of the warnings, use the DatUtil -v (verbose) option.<br>
+<br>
+- Added details of all information that is lost when saving in a different<br>
+  format (e.g. Years and Manufacturers are lost when using RomCenter format).<br>
+<br>
+<b>Unsupported formats - Not included in the rewrite as they are of little use!<br>
+</b><br>
+<u>Load and Save:</u><br>
+<br>
+  - Calice DRV (drivers)<br>
+<br>
+<u>Load only:</u><br>
+<br>
+  - Callus gamelist<br>
+  - CPSE data (drivers)<br>
+  - Mimic HWC (drivers)<br>
+  - System16 GCS (drivers)<br>
+  - Sparcade RAT (drivers)<br>
+  - Retrocade Romlist<br>
+  - JAS romlist<br>
+  - JFF text</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>26 February 2004</strong>
 </u>- DatUtil v1.32<br>

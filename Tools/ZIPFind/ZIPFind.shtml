@@ -17,19 +17,26 @@
 <p align="center">ZIPFind is a useful little tool that helps you to find ZIPs that you want from
 a friends FTP server (or whatever).</p>
 
-<p align="center">Download <a href="zfind100.zip">ZIPFind v1.00</a> (57KB)</p>
+<p align="center">Download <a href="zfind20.zip">ZIPFind v2.0</a>  (65KB)</p>
 
-<p align="center"><a href="zfind100.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="zfind20.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
 
+<p align="center"><font size="3"><strong><u>2 July 2004</u></strong> -
+ZIPFind v2.0</font></p>
+
+<p align="center"><font size="3">- </font><font size="3">Modified to use DatLib - there are no game or ROM limits anymore!<br>
+- Also supports all DatLib formats (ListInfo, XML, RomCenter, etc).<br>
+- Note: For XML support to work, you need xml2info.exe in your path.</font></p>
+
 <p align="center"><font size="3"><strong><u>2 February 2003</u></strong> -
 ZIPFind
 v1.00</font></p>
 
-<p align="center"><font size="3">- First public release.</font></p>
+<p align="center"><font size="3">- First private release.</font></p>
 </body>
 </html>

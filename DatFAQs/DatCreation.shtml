@@ -20,11 +20,13 @@ H2 { font-size: 1pc }
 
 <p align="center"><img border="0" src="DatCreation.gif" width="147" height="40"></p>
 
+<p align="center">Last updated: 30th June 2004</p>
+
 <h1>Introduction</h1>
 
 <p>Dats are required by ROM managers such as CMPro and RomCenter so that they
 can build and audit ROM sets for use in emulators. It is important to ensure
-that your dats are correct otherwise the ROM manager cannot do it's job properly
+that your dats are correct otherwise the ROM manager cannot do its job properly
 and may actually damage ROM sets. This document and the other supplementary
 documents should contain most of the details you need to know about data file creation
 and the potential pitfalls. At this time there are two main formats and if you
@@ -45,7 +47,8 @@ filenames are much easier on the human eye also. </p>
 
 <p>CRCs should be 8 characters long (use leading zeros if necessary), they
 should be lower case and not use the prefix '0x'. All of these points are for
-the sake of consistency and readability. </p>
+the sake of consistency and readability. ClrMamePro and my tools can both load
+CRCs with a prefix of '0x' but I think it looks ugly!&nbsp;&nbsp; </p>
 
 <h2>Merging </h2>
 
@@ -74,7 +77,7 @@ one or more clones.&nbsp; </p>
 <p>If an emulator supports ROM merging then the data files you produce should
 specify the ROM merging correctly. If you do not specify merging correctly then it not only prevents
 people from choosing the merge option they would like but can also cause
-misleading scan results. Take PacMan and one of it's clones as an example: </p>
+misleading scan results. Take PacMan and one of its clones as an example: </p>
 
 <pre>game (
 	name pacman
@@ -173,21 +176,23 @@ sin! </p>
 <p>The syntax for specify merging information is detailed in the <a href="CMPro.shtml">CMPro</a> and <a href="RomCenter.shtml">RomCenter</a>&nbsp;format
 documents. </p>
 
-<h2>Special CRCs </h2>
+<h2>Special CRCs and Flags </h2>
 
 <p>There are some special CRCs used by ROM managers and at times you may find
 them useful: </p>
 
 <ul>
   <li>00000000 CRCs should be used when a ROM name and size is known but the ROM
-    is unavailable (i.e. the CRC unknown).</li>
+    is unavailable (i.e. the CRC unknown). In CMPro data files, the 'flags
+    nodump' syntax should be used rather than a CRC of 00000000.</li>
   <li>Complemented CRCs should be used to indicate that a ROM is known to be
     incorrect but is the best available at the time (MAME uses complemented CRCs to
-    represent other things as well). The only time I have ever had to use
-    complemented CRCs is for the Virtua data file; where some ROMs are known to
+    represent other things as well). One example of using
+    complemented CRCs is in the Virtua data file; where some ROMs are known to
     be half the correct size but have not been re-dumped since. Specifying the
     available ROMs using complemented CRCs is the best thing to do until they
-    are re-dumped.&nbsp;</li>
+    are re-dumped.&nbsp;In CMPro data files, the 'flags baddump' syntax should
+    be used rather than complemented CRCs.</li>
 </ul>
 <p>Important note: 00000000 CRCs should not be used in RomCenter datafiles to
 list non-dumped games. If a
@@ -195,6 +200,16 @@ game hasn't been dumped then you can neither know the ROM names or their sizes.
 So, if a game hasn't been dumped yet then don't put it in a data file (after
 all, a data file is to identify and validate ROMs). If you want to document
 non-dumped games then provide a little text file with your data file! </p>
+
+
+
+<h2>Disks </h2>
+
+
+
+<p>If an emulator uses disk images then you can also include this information
+in a CMPro data file. At this time it is not possible to put this information
+into RomCenter. </p>
 
 
 
@@ -217,31 +232,27 @@ samples are not packaged with the emulator itself.&nbsp;&nbsp;&nbsp;&nbsp; </p>
 CMPro format and convert to RomCenter afterwards. The main reason for this is
 because is is easier to read, less prone to errors during editing and you will spot more mistakes
 too. Once a data file has been loaded into CMPro and is known to be free of
-errors it will convert to RomCenter format without problems. </p>
+errors it will convert to RomCenter format without problems. There is also a lot
+of additional information that can be stored in the CMPro data file format and
+you could not maintain it if RomCenter was your master format. </p>
 
 <h2>Scanning Directories/ZIPs </h2>
 
 <p>The quickest way to create a data file from a set of ZIP files is to scan the
-ZIPs using a data file creation tool. There are two options: </p>
+ZIPs using a data file creation tool. The best approach nowadays is probably to
+use DatUtil: </p>
 
 <ul>
-  <li>DataMa (by Eric Bole-Feysot) to generate a RomCenter data file then use
-    DatUtil to convert it to CMPro format.</li>
   <li><a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a> has a directory/ZIP scanner facility that can save in CMPro and
-    RomCenter format.</li>
+    RomCenter format. It will include CRC, MD5 and SHA1 information in the data
+    file that is generated.</li>
 </ul>
-<p>Be aware that certain versions of DataMa produce errors such as the inclusion
-of incorrect merging information or an incorrect version in the header (which
-will
-confuse DatUtil later on). These errors will stand out when you try to convert
-the RomCenter data file to CMPro format. Make the necessary corrections to your
-CMPro data file then convert back to RomCenter format when you are done (for a
-correct data file).</p>
 <p>You should be cautious when scanning directories or ZIPs because you could
 end up including files that do not belong in the data file (readme files, jed
 files, etc.).
 The filenames could also be a mixture of upper and lower case whereas it has
-already been mentioned that use of lowercase is preferable.&nbsp;</p>
+already been mentioned that use of lowercase is preferable.&nbsp;The mixed case
+can be fixed with the '-l' option of DatUtil though.</p>
 
 <h2>Creating by Hand (i.e. Text Editor) </h2>
 
@@ -264,7 +275,9 @@ fields is within the <a href="CMPro.shtml">CMPro</a> and <a href="RomCenter.shtm
 sections of this document.</p>
 
 <p>The header file of a CMPro data file can also specify the type ROM merging
-required by the emulator (non-merged, split-merged or fully-merged).&nbsp;</p>
+required by the emulator (non-merged, split-merged or fully-merged).&nbsp;RomCenter
+has a similar option since the introduction of the 2.50 format but it does not
+currently have any effect after the data file is first loaded.</p>
 
 <h2>Include Merge Information</h2>
 
@@ -281,11 +294,12 @@ data files are correct there will be no problems at all with this procedure.</p>
 are two common faults that can cause problems:</p>
 <ul>
   <li>An incorrect version number in the header (2.00 used in a 1.92 format
-    datafile)</li>
+    datafile). This is an old issue an unlikely to affect anyone nowadays.</li>
   <li>Some v1.92 data files are missing the ¬N¬O fields before the size
-    field.</li>
+    field. Again, this was a long time ago and most RomCenter data files will
+    now be in 2.00 or 2.50 format.&nbsp;</li>
 </ul>
-<p>To get around these problems you must fix the RomCenter file by hand.</p>
+<p>To get around these problems you must fix the old RomCenter file by hand.</p>
 <hr>
 <h1>Testing</h1>
 <h2>Checking Data Files for Errors</h2>
@@ -294,30 +308,26 @@ syntactical, logical and lexical errors.</p>
 <ul>
   <li>Load the CMPro format data file into CMPro itself as it will report some
     logical errors (invalid parents, duplicated ROMs, etc.).</li>
-  <li>Run it through DatUtil (i.e. CMPro&lt;-&gt;RomCenter) then convert it back
-    again. DatUtil will report anything that looks odd in the data file and the
-    resultant data file should also match the original perfectly (use DatUtil to
-    compare against the original).</li>
-  <li>Convert to RomCenter 1 format ('-f romcenter' in DatUtil) as that will
-    strip out some complex merging definitions. If the RomCenter dat doesn't
-    match the original (use DatUtil to compare) then you may have unintentially
-    messed up the merging information.</li>
-  <li>Try the 'fix merging' option of DatUtil ('-m' flag). The end result should not
-    differ from your original data file or you have probably got the original
-    merge information wrong (use DatUtil to do the comparison).</li>
+  <li>Run it through DatUtil, saving it in the original format (e.g. 'datutil -f
+    listinfo listinfo.dat'). DatUtil will report anything that looks odd in the data file and the
+    resultant data file should also match the original perfectly (do a text
+    comparison with your favourite diff tool). DatUtil will automatically do a
+    lot of cleansing and fixing so if the resultant data file is different, the
+    original contained errors and these will be reported in the DatUtil
+    log.&nbsp;</li>
 </ul>
-<h2>Use DatUtil to Check Against the Emu!</h2>
-<p>If the emulator can generate it's own data file or the emulator is natively supported by
-DatUtil then make use of this fact. For example:&nbsp;</p>
+<h2>Use MAMEDiff to Check Against the Emulator!</h2>
+<p>If the emulator can generate its own data file or the emulator is natively supported by
+MAMEDiff then make use of this fact. For example:&nbsp;</p>
 <ul>
-  <li> WinKawaks can generate a RomCenter data file. Use DatUtil to check your
+  <li> WinKawaks can generate a ClrMamePro data file. Use MAMEDiff to check your
     data file against the one generated by WinKawaks (this can identify errors
     in your data file and WinKawaks itself).</li>
-  <li>Calice drivers are supported by DatUtil. Concatenate the drivers together
-    ('cat *.drv &gt;drivers.txt') then use DatUtil to compare them against your
-    data file ('datutilx drivers.txt calice.dat').</li>
+  <li>Nebula drivers are supported by DatUtil and MAMEDiff. Concatenate the drivers together
+    ('cat *.drv &gt;drivers.txt') then use MAMEDiff to compare them against your
+    data file ('mamediff drivers.txt calice.dat').</li>
 </ul>
-<p>If the emulator can't generate it's own data file then you may have to resort
+<p>If the emulator can't generate its own data file then you may have to resort
 to a hex editor if you want to check ROM names! Before using the hex editor,
 make sure that you decompress the executable if it has been packed with UPX (use
 the '-d' option of UPX).</p>
@@ -342,10 +352,10 @@ set will also work (the reverse is not true however).&nbsp; </p>
 whether an emulator is 100% MAME compatible then do these two tests using CMPro:</p>
 <ul>
   <li>Scan a MAME set with the data file for the other emulator. This should
-    only report unneeded ROMs so if you disable 'show unneeded' then the scan
+    only report unneeded ROMs so if you disable 'show unneeded' in CMPro then the scan
     results should be empty.</li>
   <li>Use a MAME data file to scan a ROM set for the other emulator. This should
-    only report missing ROMs (so disable 'show missing' for empty scan results)
+    only report missing ROMs (so disable 'show missing' in CMPro for empty scan results)
     and a few games may also be reported as 'wrong name' (when a similar game is
     supported by the other emulator).</li>
 </ul>
@@ -365,14 +375,16 @@ it does have the big advantage that a MAME-compatible emulator can have a MAME c
 data file (whereas removing the parent/clone relationship would
 prevent this). This is common in the data files for the CPS-2 emulators because
 parent games are not always decrypted before the clones. </p>
-<h2>Impossible Merging</h2>
+<h2>Impossible Merging/CRC Conflicts</h2>
 <p>Occasionally an emulator may use the same filename for two ROMS in a parent
 and clone where the ROMs themselves differ (i.e. same name but different CRC).
 This would obviously cause a problem within a ROM manager because it is
 physically impossible to create a fully merged ROM set.
 The only way to solve this is to remove the parent/clone relationship until such
-time as the emulator is changed to use different ROM names. </p>
-<p>Note: RomCenter will report an error in any data file that contains
-conflicting CRCs in parents and clones.&nbsp; </p>
+time as the emulator is changed to use different ROM names. Alternatively, if
+the emulator can load ROMs by their CRC then you could rename the ROMs in your
+data file. </p>
+<p>Note: CMPro and RomCenter will report an error in any data file that contains
+conflicting CRCs in parents and clones. </p>
 </body>
 </html>

@@ -18,18 +18,26 @@
 frontends (e.g. icons, snaps, cabinets, marquees, flyers). It will verify image collections against a listinfo format datafile and can report unknown images as
 well as missing images. Image checks for clones and resources are optional.</p>
 
-<p align="center">Download <a href="imgchk100.zip">ImgChk v1.00</a> (36KB)</p>
+<p align="center">Download <a href="imgchk20.zip">ImgChk v2.0</a>  (61KB)</p>
 
-<p align="center"><a href="imgchk100.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="imgchk20.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
 
+<p align="center"><font size="3"><strong><u>2 July 2004</u></strong> -
+ImgChk v2.0</font></p>
+
+<p align="center"><font size="3">- Added directory support (previously it only supported ZIPs).<br>
+- Modified to use DatLib - there are no game or ROM limits anymore!<br>
+- Also supports all DatLib formats (ListInfo, XML, RomCenter, etc).<br>
+- Note: For XML support to work, you need xml2info.exe in your path.</font></p>
+
 <p align="center"><font size="3"><strong><u>21 January 2003</u></strong> -
 ImgChk v1.00</font></p>
 
-<p align="center"><font size="3">- First public release.</font></p>
+<p align="center"><font size="3">- First private release.</font></p>
 </body>
 </html>
