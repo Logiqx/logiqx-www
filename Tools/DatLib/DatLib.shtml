@@ -25,15 +25,20 @@ by tools such as DatUtil, MAMEDiff, ROMBuild, ROMInfo and ZipIdent.</p>
 <p align="center">This package is a source only release and is only required if
 you want to compile any of my tools.</p>
 
-<p align="center"><font color="#000000">Download </font><a href="datlib111.zip">DatLib
-v1.11</a><font color="#000000">      (59KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="datlib112.zip">DatLib
+v1.12</a><font color="#000000">      (59KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="datlib111.zip"><img
+<p align="center"><font color="#000000"><a href="datlib112.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>25 November 2004</strong>
+</u>- DatLib v1.12<br>
+<br>
+- Improved the handling of CRC conflicts within the 'fix merging'.</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>26 October 2004</strong>
 </u>- DatLib v1.11<br>

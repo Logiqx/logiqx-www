@@ -38,15 +38,21 @@ cleanse dats. It supports a variety of formats...<br>
 <br>
   - Title List (for listing game titles - used by CPS-2 readme and RAINE docs)</p>
 
-<p align="center"><font color="#000000">Download </font><a href="dutil28.zip">DatUtil
-v2.8</a><font color="#000000">                  (75KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="dutil29.zip">DatUtil
+v2.9</a><font color="#000000">                   (76KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="dutil28.zip"><img
+<p align="center"><font color="#000000"><a href="dutil29.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>25 November 2004</strong>
+</u>- DatUtil v2.9<br>
+<br>
+- Uses DatLib v1.12.<br>
+            - Improved the handling of CRC conflicts within the 'fix merging'.</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>26 October 2004</strong>
 </u>- DatUtil v2.8<br>
