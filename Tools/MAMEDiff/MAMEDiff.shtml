@@ -24,14 +24,20 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff26.zip">MAMEDiff v2.6</a> (92KB)</p>
+<p align="center">Download <a href="mdiff27.zip">MAMEDiff v2.7</a> (93KB)</p>
 
-<p align="center"><a href="mdiff26.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff27.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>22 July 2004</u></strong> - MAMEDiff v2.7</p>
+
+<p align="center">- Uses DatLib v1.8.<br>
+- Removed the need for xml2info by adding my own MAME XML parser.<br>
+- A nice side effect is that names like "Alien³: The Gun" work now!</p>
 
 <p align="center"><strong><u>21 July 2004</u></strong> - MAMEDiff v2.6</p>
 

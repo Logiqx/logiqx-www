@@ -18,14 +18,21 @@
 frontends (e.g. icons, snaps, cabinets, marquees, flyers). It will verify image collections against a listinfo format datafile and can report unknown images as
 well as missing images. Image checks for clones and resources are optional.</p>
 
-<p align="center">Download <a href="imgchk21.zip">ImgChk v2.1</a> (63KB)</p>
+<p align="center">Download <a href="imgchk22.zip">ImgChk v2.2</a> (67KB)</p>
 
-<p align="center"><a href="imgchk21.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="imgchk22.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font size="3"><strong><u>22 July 2004</u></strong>  - ImgChk
+v2.2</font></p>
+
+<p align="center"><font size="3">- Uses DatLib v1.8.<br>
+- Removed the need for xml2info by adding my own MAME XML parser.<br>
+- A nice side effect is that names like "Alien³: The Gun" work now!</font></p>
 
 <p align="center"><font size="3"><strong><u>11 July 2004</u></strong> -
 ImgChk v2.1</font></p>

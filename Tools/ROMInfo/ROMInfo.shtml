@@ -24,15 +24,21 @@ It does this using the <a href="../../Dats/Dats.shtml">CMPro dats</a>
 from the <a href="http://caesar.logiqx.com/" target="caesar">CAESAR</a>
 database and should cover every arcade game emulated so far.</p>
 
-<p align="center">Download <a href="rinfo21.zip">ROMInfo v2.1</a> (65KB)</p>
+<p align="center">Download <a href="rinfo22.zip">ROMInfo v2.2</a> (68KB)</p>
 
-<p align="center"><a href="rinfo21.zip"><img
+<p align="center"><a href="rinfo22.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85"
 height="40"></p>
+
+<p align="center"><strong><u>22 July 2004</u></strong>- ROMInfo v2.2.</p>
+
+<p align="center">- Uses DatLib v1.8.<br>
+- Removed the need for xml2info by adding my own MAME XML parser.<br>
+- A nice side effect is that names like "Alien³: The Gun" work now!</p>
 
 <p align="center"><strong><u>11 July 2004</u></strong>- ROMInfo v2.1.</p>
 

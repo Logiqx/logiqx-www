@@ -28,7 +28,7 @@ cleanse dats. It supports a variety of formats...<br>
 <b>Load only:</b><br>
 <br>
   - RomCenter 1.90 and 2.00<br>
-  - MAME ListXML (xml2info.exe must be in your path for this feature to work)<br>
+  - MAME and MESS ListXML<br>
   - Nebula Drivers<br>
   - ClrMame Log<br>
   - Folder Scan (subdirectories and zips)<br>
@@ -37,15 +37,22 @@ cleanse dats. It supports a variety of formats...<br>
 <br>
   - Title List (for listing game titles - used by CPS-2 readme and RAINE docs)</p>
 
-<p align="center"><font color="#000000">Download </font><a href="dutil24.zip">DatUtil
-v2.4</a><font color="#000000">                (73KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="dutil25.zip">DatUtil
+v2.5</a><font color="#000000">                 (74KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="dutil24.zip"><img
+<p align="center"><font color="#000000"><a href="dutil25.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>22 July 2004</strong>
+</u>- DatUtil v2.5<br>
+<br>
+            - Uses DatLib v1.8.<br>
+            - Removed the need for xml2info by adding my own MAME XML parser.<br>
+            - A nice side effect is that names like "Alien³: The Gun" work now!</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>21 July 2004</strong>
 </u>- DatUtil v2.4<br>

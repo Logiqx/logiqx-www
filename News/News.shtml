@@ -38,6 +38,21 @@ etc.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>22 July 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have now added an internal XML parser to <a href="../Tools/DatLib/DatLib.shtml">DatLib
+        v1.8</a> (so that xml2info.exe is not required anymore).</p>
+        <p align="center">The following tools have been recompiled so that they
+        include the new parser:&nbsp;</p>
+        <p align="center"><a href="../Tools/DatUtil/DatUtil.shtml">DatUtil v2.5</a>,
+        <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v2.7</a>, <a href="../Tools/ROMInfo/ROMInfo.shtml">ROMInfo
+        v2.2</a> and <a href="../Tools/ZIPIdent/ZIPIdent.shtml">ZIPIdent v2.2</a>.
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>21 July 2004</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
