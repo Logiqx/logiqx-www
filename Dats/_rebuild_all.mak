@@ -14,6 +14,7 @@ EMULATORS= \
 	RAINE/RAINE.shtml \
 	Tickle/Tickle.shtml \
 	WinKawaks/WinKawaks.shtml \
+	Zinc/Zinc.shtml \
 	OlderEmus/OlderEmus.shtml \
 	M1/M1.shtml \
 	NebulaJukebox/NebulaJukebox.shtml \

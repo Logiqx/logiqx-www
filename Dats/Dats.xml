@@ -11,6 +11,7 @@
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
 	<!ENTITY Tickle SYSTEM "Tickle/Tickle.ent.xml">
 	<!ENTITY WinKawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
+	<!ENTITY Zinc SYSTEM "Zinc/Zinc.ent.xml">
 	<!ENTITY OlderEmus SYSTEM "OlderEmus/OlderEmus.ent.xml">
 	<!ENTITY CPS1 SYSTEM "CPS-1/CPS-1.ent.xml">
 	<!ENTITY CPS2 SYSTEM "CPS-2/CPS-2.ent.xml">
@@ -39,6 +40,7 @@
 			&SEGAModel2Emulator;
 			&Tickle;
 			&WinKawaks;
+			&Zinc;
 		</emulators>
 	</section>
 	<section>
