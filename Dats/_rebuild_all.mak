@@ -17,8 +17,6 @@ EMULATORS= \
 	OlderEmus/OlderEmus.shtml \
 	M1/M1.shtml \
 	NebulaJukebox/NebulaJukebox.shtml \
-	NeoJukeBox/NeoJukeBox.shtml \
-	QPlayer/QPlayer.shtml \
 	Nebula/Nebula.shtml \
 	NebulaModel2/NebulaModel2.shtml \
 	SEGAModel2Emulator/SEGAModel2Emulator.shtml \

@@ -5,7 +5,7 @@
 	<version>(almost 200 different ones!)</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>11/07/2004</date>
+	<date>01/08/2004</date>
 	<games>100s of</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Older%20Emus%2020040711%20(cm).zip" size="1147"/>
+			<file name="Older%20Emus%2020040801%20(cm).zip" size="1178"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Older%20Emus%2020040711%20(rc).zip" size="478"/>
+			<file name="Older%20Emus%2020040801%20(rc).zip" size="491"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>1 August 2004</date>
+			<comment>Added NeoJukeBox and QPlayer. Added missing SHA1 information to Modeler (full sets).</comment>
+		</revision>
 		<revision>
 			<date>11 July 2004</date>
 			<comment>Added SHA1 information.</comment>

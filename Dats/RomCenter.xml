@@ -19,8 +19,6 @@
 	<!ENTITY MPU SYSTEM "MPU/MPU.ent.xml">
 	<!ENTITY M1 SYSTEM "M1/M1.ent.xml">
 	<!ENTITY NebulaJukebox SYSTEM "NebulaJukebox/NebulaJukebox.ent.xml">
-	<!ENTITY NeoJukeBox SYSTEM "NeoJukeBox/NeoJukeBox.ent.xml">
-	<!ENTITY QPlayer SYSTEM "QPlayer/QPlayer.ent.xml">
 	<!ENTITY MAMEArtwork SYSTEM "MAMEArtwork/MAMEArtwork.ent.xml">
 	<!ENTITY MAMESamples SYSTEM "MAMESamples/MAMESamples.ent.xml">
 ]>
@@ -86,8 +84,6 @@
 		<emulators>
 &M1;
 &NebulaJukebox;
-&NeoJukeBox;
-&QPlayer;
 		</emulators>
 	</section>
 	<section>

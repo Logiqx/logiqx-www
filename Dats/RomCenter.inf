@@ -17,45 +17,33 @@ email=support@romcenter.com
 		
 		
 
-updated;Daphne;v0.99.6;30;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/Daphne/Daphne%20v0.99.6%20(rc).zip
+;Daphne;v0.99.6;30;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/Daphne/Daphne%20v0.99.6%20(rc).zip
 
 
-updated;FBA;v0.2.94.98;494;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.94.98%20(rc).zip
+;FBA;v0.2.94.98;494;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.94.98%20(rc).zip
 
 
-updated;MAME;v0.84;5014;Logiqx;http://www.logiqx.com;;02/07/2004;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.84%20(rc).zip
+;MAME;v0.84;5014;Logiqx;http://www.logiqx.com;;02/07/2004;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.84%20(rc).zip
 
 
-updated;MAME Changes;v0.84;Various;Logiqx;http://www.logiqx.com;;02/07/2004;http://www.logiqx.com/Dats/MAMEChanges/MAME%20Changes%20v0.84%20(rc).zip
+;MAME Changes;v0.84;Various;Logiqx;http://www.logiqx.com;;02/07/2004;http://www.logiqx.com/Dats/MAMEChanges/MAME%20Changes%20v0.84%20(rc).zip
 
 
-updated;Nebula;v2.24;422;Logiqx;http://www.logiqx.com;;17/07/2004;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.24%20(rc).zip
+;Nebula;v2.24;422;Logiqx;http://www.logiqx.com;;17/07/2004;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.24%20(rc).zip
 
 
-updated;Nebula Model 2;v0.9b;24;rosewood;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/NebulaModel2/Nebula%20Model%202%20v0.9b%20(rc).zip
+;Nebula Model 2;v0.9b;24;rosewood;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/NebulaModel2/Nebula%20Model%202%20v0.9b%20(rc).zip
 
 
-updated;RAINE;v0.40.4;497;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/RAINE/RAINE%20v0.40.4%20(rc).zip
+;RAINE;v0.40.4;497;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/RAINE/RAINE%20v0.40.4%20(rc).zip
 
 new;SEGA Model 2 Emulator;v0.1;21;Logiqx;http://www.logiqx.com;;27/07/2004;http://www.logiqx.com/Dats/SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.1%20(rc).zip
 
 
-updated;Tickle;v0.92;27;Logiqx;http://www.logiqx.com;;13/07/2004;http://www.logiqx.com/Dats/Tickle/Tickle%20v0.92%20(rc).zip
+;Tickle;v0.92;27;Logiqx;http://www.logiqx.com;;13/07/2004;http://www.logiqx.com/Dats/Tickle/Tickle%20v0.92%20(rc).zip
 
 
-updated;WinKawaks;v1.49;409;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.49%20(rc).zip
-
-		
-	
-	
-		
-		
-		
-			
-		
-		
-
-updated;Older Emus;(almost 200 different ones!);100s of;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/OlderEmus/Older%20Emus%2020040711%20(rc).zip
+;WinKawaks;v1.49;409;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.49%20(rc).zip
 
 		
 	
@@ -67,15 +55,27 @@ updated;Older Emus;(almost 200 different ones!);100s of;Logiqx;http://www.logiqx
 		
 		
 
-updated;CPS-1;20040711;114;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/CPS-1/CPS-1%2020040711%20(rc).zip
+updated;Older Emus;(almost 200 different ones!);100s of;Logiqx;http://www.logiqx.com;;01/08/2004;http://www.logiqx.com/Dats/OlderEmus/Older%20Emus%2020040801%20(rc).zip
+
+		
+	
+	
+		
+		
+		
+			
+		
+		
+
+;CPS-1;20040711;114;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/CPS-1/CPS-1%2020040711%20(rc).zip
 
 
-updated;CPS-2;20040711;165;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020040711%20(rc).zip
+;CPS-2;20040711;165;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020040711%20(rc).zip
 
 
-updated;Neo-Geo;20040711;190;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020040711%20(rc).zip
+;Neo-Geo;20040711;190;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020040711%20(rc).zip
 
-updated;ZN;20040711;20;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/ZN/ZN%2020040711%20(rc).zip
+;ZN;20040711;20;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/ZN/ZN%2020040711%20(rc).zip
 
 		
 	
@@ -98,15 +98,10 @@ updated;ZN;20040711;20;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiq
 		
 		
 
-updated;M1;v0.7.5a3;1076;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/M1/M1%20v0.7.5a3%20(rc).zip
+updated;M1;v0.7.5a3;1076;Logiqx;http://www.logiqx.com;;01/08/2004;http://www.logiqx.com/Dats/M1/M1%20v0.7.5a3%20(rc).zip
 
 
-updated;Nebula Jukebox;v2.9;249;Logiqx;http://www.logiqx.com;;17/07/2004;http://www.logiqx.com/Dats/NebulaJukebox/Nebula%20Jukebox%20v2.9%20(rc).zip
-
-
-updated;NeoJukeBox;v2.7;205;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/NeoJukeBox/NeoJukeBox%20v2.7%20(rc).zip
-
-updated;QPlayer;v1.4.3;52;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/QPlayer/QPlayer%20v1.4.3%20(rc).zip
+;Nebula Jukebox;v2.9;249;Logiqx;http://www.logiqx.com;;17/07/2004;http://www.logiqx.com/Dats/NebulaJukebox/Nebula%20Jukebox%20v2.9%20(rc).zip
 
 		
 	
@@ -121,7 +116,7 @@ updated;QPlayer;v1.4.3;52;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.lo
 ;MAME Artwork;20040307;128;Roman Scherzer;http://www.clrmame.com/;;15/03/2004;http://www.logiqx.com/Dats/MAMEArtwork/MAME%20Artwork%2020040307%20(rc).zip
 
 
-updated;MAME Samples;20040702;57;Roman Scherzer;http://www.clrmame.com/;;13/07/2004;http://www.logiqx.com/Dats/MAMESamples/MAME%20Samples%2020040702%20(rc).zip
+;MAME Samples;20040702;57;Roman Scherzer;http://www.clrmame.com/;;13/07/2004;http://www.logiqx.com/Dats/MAMESamples/MAME%20Samples%2020040702%20(rc).zip
 
 		
 	

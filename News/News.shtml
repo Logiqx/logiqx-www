@@ -38,6 +38,19 @@ etc.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>1 August 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have created proper data files for NeoJukeBox and
+        QPlayer. They are both in the '<a href="../Dats/Dats.shtml">Older Emus</a>'
+        collection.
+        <p align="center">I have also updated the M1 data file to include the
+        final missing SHA1 information, thanks to RB for providing it to me.
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>30 July 2004</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>

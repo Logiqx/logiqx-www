@@ -23,7 +23,7 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="M1%20v0.7.5a3%20(cm).zip">M1 dat for CMPro</a> (227KB)</p>
+            <p>Download <a href="M1%20v0.7.5a3%20(cm).zip">M1 dat for CMPro</a> (228KB)</p>
             <p>
               <a href="M1%20v0.7.5a3%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -38,6 +38,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>1 August 2004</u>
+        </strong> - 
+			
+			Added missing SHA1 information (courtesy of RB).
+		</p>
       <p>
         <strong>
           <u>11 July 2004</u>
