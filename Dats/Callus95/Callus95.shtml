@@ -1,0 +1,52 @@
+
+	<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Callus95 v0.42 patch 2.4</title></head><body><center><!--#include virtual="/ads/top.shtml"--><hr>
+	<p><img src="Callus95.gif" width="106" height="40"></p>
+	<p>86 games of Callus95 v0.42 patch 2.4</p>
+	
+	
+	
+	
+	
+
+	<p>84 games can be built from the latest MAME ROM sets (Street Fighter Zero is not in MAME anymore and the QSound ROMs aren't in MAME either).</p><p>The Big Bird (QSound) ROMs come from ssf2 for the CPS2.</p>
+
+	<table border="0" width="100%"><tr>
+		<td width="50%" align="center"><p>Download <a href="cls95p24.zip">Callus95 dat for </a> (29KB)</p><p><a href="cls95p24.zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></p></td>
+
+		<td width="50%" align="center"><p>Download <a href="callus%20v0.42%20patch%202.4.zip">Callus95 dat for </a> (34KB)</p><p><a href="callus%20v0.42%20patch%202.4.zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></p></td>
+	</tr></table>
+
+	<hr><p><img src="../../Resources/History.gif" width="85" height="40"></p><p><strong><u>08 December 2000</u></strong> - 
+			
+			Fixed incorrect gfx ROMs in mbomberj (mb_gfx02.rom, mb_gfx04.rom) of the 'merged' dat.
+		</p><p><strong><u>21 November 2000</u></strong> - 
+			
+			Released dats for Callus v0.42 patch 2.4.
+		</p><p><strong><u>23 June 2000</u></strong> - 
+			
+			Released dats for Callus v0.42 patch 2.2.
+		</p><p><strong><u>12 June 2000</u></strong> - 
+			
+			Added updated versions of Pi's notes to the archives (no changes to the dats themselves).
+		</p><p><strong><u>8 June 2000</u></strong> - 
+			
+			Released dats for Callus v0.42 patch 2.1 (standard one plus the two space-saving variants).<br>
+			Also changed the archiving dat to be consistent with the other two.
+		</p><p><strong><u>6 June 2000</u></strong> - 
+			
+			Released first public version of 'merged' dats created by Pi (v1.1).
+		</p><p><strong><u>30 May 2000</u></strong> - 
+			
+			Updated both dats to Callus95 Patch 2.
+		</p><p><strong><u>3 May 2000</u></strong> - 
+			
+			CMPro dat: Logiqx added new 'forcemerge' tag.
+		</p><p><strong><u>11 March 2000</u></strong> - 
+			
+			RomCenter dat released by Logiqx (matches CMPro dat).
+		</p><p><strong><u>10 March 2000</u></strong> - 
+			
+			CMPro dat released by Logiqx (75 games).
+		</p>
+</center></body></html>
+

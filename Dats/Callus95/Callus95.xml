@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
+	<!ENTITY Callus95 SYSTEM "Callus95.ent.xml">
+]>
+
+<emulator_page>
+	&Callus95;
+</emulator_page>
