@@ -10,7 +10,7 @@
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="Nebula.gif" width="85" height="40"></p>
-	<p>386 games of Nebula v2.23</p>
+	<p>386 games of Nebula v2.23<br>(suitable for v2.23a)</p>
 	
 	
 	
@@ -23,13 +23,13 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="Nebula%20v2.23%20(cm).zip">Nebula dat for CMPro</a> (67KB)</p>
+            <p>Download <a href="Nebula%20v2.23%20(cm).zip">Nebula dat for CMPro</a> (71KB)</p>
             <p>
               <a href="Nebula%20v2.23%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="Nebula%20v2.23%20(rc).zip">Nebula dat for ROMCenter</a> (80KB)</p>
+            <p>Download <a href="Nebula%20v2.23%20(rc).zip">Nebula dat for ROMCenter</a> (82KB)</p>
             <p>
               <a href="Nebula%20v2.23%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -38,6 +38,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>10 March 2003</u>
+        </strong> - 
+			
+			Updated supplements for MAME v0.66.
+		</p>
       <p>
         <strong>
           <u>2 March 2003</u>
