@@ -14,7 +14,7 @@
 
 <h2 align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"></h2>
 
-<p align="center">Last updated 16th June 2003</p>
+<p align="center">Last updated 25th June 2003</p>
 
 <h2 align="left">Introduction</h2>
 
@@ -67,7 +67,7 @@ on this list.</p>
     </td>
     <td>
 
-<p>110 of the 146 dumped games have been decrypted.</p>
+<p>111 of the 150 dumped games have been decrypted.</p>
 
 <p>There were two releases for 005 and no release for 055.&nbsp;</p>
 
@@ -199,27 +199,27 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#00FF00" height="19">vampjr1 </td>
   <td bgcolor="#00FF00" height="19">Vampire: The Night Warriors (Japan 940630)</td>
   <td align="center" bgcolor="#00FF00" height="19">049</td></tr>
-<tr><td bgcolor="#FFFF00" height="19">ddsom   </td>
-  <td bgcolor="#FFFF00" height="19">ddsom   </td>
-  <td bgcolor="#FFFF00" height="19">Dungeons & Dragons: Shadow over Mystara (Euro 960209)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">056</td></tr>
-<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ddsoma  </td>
-  <td bgcolor="#FFFF00" height="19">Dungeons & Dragons: Shadow over Mystara (Asia 960619)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">110</td></tr>
-<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ddsomj  </td>
-  <td bgcolor="#FFFF00" height="19">Dungeons & Dragons: Shadow over Mystara (Japan 960619)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
-<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ddsomjr1</td>
-  <td bgcolor="#FFFF00" height="19">Dungeons & Dragons: Shadow over Mystara (Japan 960206)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">028</td></tr>
+<tr><td bgcolor="#00FF00" height="19">ddsom   </td>
+  <td bgcolor="#00FF00" height="19">ddsom   </td>
+  <td bgcolor="#00FF00" height="19">Dungeons & Dragons: Shadow over Mystara (Euro 960209)</td>
+  <td align="center" bgcolor="#00FF00" height="19">056</td></tr>
+<tr><td height="19">        </td><td bgcolor="#00FF00" height="19">ddsoma  </td>
+  <td bgcolor="#00FF00" height="19">Dungeons & Dragons: Shadow over Mystara (Asia 960619)</td>
+  <td align="center" bgcolor="#00FF00" height="19">110</td></tr>
+<tr><td height="19">        </td><td bgcolor="#00FF00" height="19">ddsomj  </td>
+  <td bgcolor="#00FF00" height="19">Dungeons & Dragons: Shadow over Mystara (Japan 960619)</td>
+  <td align="center" bgcolor="#00FF00" height="19">111</td></tr>
+<tr><td height="19">        </td><td bgcolor="#00FF00" height="19">ddsomjr1</td>
+  <td bgcolor="#00FF00" height="19">Dungeons & Dragons: Shadow over Mystara (Japan 960206)</td>
+  <td align="center" bgcolor="#00FF00" height="19">028</td></tr>
 <tr>
-  <td height="19">        </td><td bgcolor="#FFFF00" height="19">ddsomu  </td>
-  <td bgcolor="#FFFF00" height="19">Dungeons &amp; Dragons: Shadow over Mystara (US 960619)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">092</td>
+  <td height="19">        </td><td bgcolor="#00FF00" height="19">ddsomu  </td>
+  <td bgcolor="#00FF00" height="19">Dungeons &amp; Dragons: Shadow over Mystara (US 960619)</td>
+  <td align="center" bgcolor="#00FF00" height="19">092</td>
 </tr>
-<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ddsomur1  </td>
-  <td bgcolor="#FFFF00" height="19">Dungeons & Dragons: Shadow over Mystara (US 960209)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">034</td></tr>
+<tr><td height="19">        </td><td bgcolor="#00FF00" height="19">ddsomur1  </td>
+  <td bgcolor="#00FF00" height="19">Dungeons & Dragons: Shadow over Mystara (US 960209)</td>
+  <td align="center" bgcolor="#00FF00" height="19">034</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">ddtod   </td>
   <td bgcolor="#FFFF00" height="19">ddtod   </td>
   <td bgcolor="#FFFF00" height="19">Dungeons & Dragons: Tower of Doom (Euro 940412)</td>
@@ -451,6 +451,11 @@ on this list.</p>
   <td bgcolor="#FFFF00" height="19">Street Fighter Zero 2 Alpha
     (Asia 960826)</td><td align="center" bgcolor="#FFFF00" height="19">096</td>
 </tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">sfz2ab  </td>
+  <td bgcolor="#FFFF00" height="19">Street Fighter Zero 2 Alpha (Brazil 960813)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">sfz2ah  </td>
   <td bgcolor="#FFFF00" height="19">Street Fighter Zero 2 Alpha (Hispanic 960813)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
@@ -535,16 +540,28 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ssf2ta  </td>
   <td bgcolor="#FFFF00" height="19">Super Street Fighter 2 Turbo (Asia 940223)</td>
   <td align="center" bgcolor="#FFFF00" height="19">015</td></tr>
-<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ssf2tu  </td>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">ssf2tu  </td>
+  <td bgcolor="#FFFF00" height="19">Super Street Fighter 2 Turbo (US 940323)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">019</td>
+</tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ssf2tur1  </td>
   <td bgcolor="#FFFF00" height="19">Super Street Fighter 2 Turbo (US 940223)</td>
   <td align="center" bgcolor="#FFFF00" height="19">019</td></tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">ssf2xj  </td>
   <td bgcolor="#FFFF00" height="19">Super Street Fighter 2 X: Grand Master Challenge (Japan 940223)</td>
   <td align="center" bgcolor="#FFFF00" height="19">036</td></tr>
-<tr><td bgcolor="#00FF00" height="19">vhunt2  </td>
-  <td bgcolor="#00FF00" height="19">vhunt2  </td>
-  <td bgcolor="#00FF00" height="19">Vampire Hunter 2: Darkstalkers Revenge (Japan 970913)</td>
-  <td align="center" bgcolor="#00FF00" height="19">093</td></tr>
+<tr>
+  <td bgcolor="#FFFF00" height="19">vhunt2  </td>
+  <td bgcolor="#FFFF00" height="19">vhunt2  </td>
+  <td bgcolor="#FFFF00" height="19">Vampire Hunter 2: Darkstalkers Revenge (Japan
+    970929)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
+<tr><td bgcolor="#FFFFFF" height="19"></td>
+  <td bgcolor="#FFFF00" height="19">vhunt2r1  </td>
+  <td bgcolor="#FFFF00" height="19">Vampire Hunter 2: Darkstalkers Revenge (Japan 970913)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">093</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">vsav    </td>
   <td bgcolor="#FFFF00" height="19">vsav    </td>
   <td bgcolor="#FFFF00" height="19">Vampire Savior: The Lord of Vampire (Euro 970519)</td>
@@ -596,6 +613,11 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">xmvsfa  </td>
   <td bgcolor="#FFFF00" height="19">X-Men Vs. Street Fighter (Asia 961023)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">xmvsfb  </td>
+  <td bgcolor="#FFFF00" height="19">X-Men Vs. Street Fighter (Brazil 961023)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">xmvsfh  </td>
   <td bgcolor="#FFFF00" height="19">X-Men Vs. Street Fighter (Hispanic 961004)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>

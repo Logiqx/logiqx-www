@@ -2,11 +2,11 @@
 <emulator id="CPS-2">
 	<img src="CPS-2.gif" width="80" height="40"/>
 	<name>CPS-2</name>
-	<version>20030603</version>
+	<version>20030625</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>15/06/2003</date>
-	<games>146</games>
+	<date>25/06/2003</date>
+	<games>150</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Not all of these games are emulated yet (see my <a href="../../E-Mail/CPS-2.shtml">CPS-2</a> page for more information)...</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020030603%20(cm).zip" size="30"/>
+			<file name="CPS-2%2020030625%20(cm).zip" size="33"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020030603%20(rc).zip" size="36"/>
+			<file name="CPS-2%2020030625%20(rc).zip" size="40"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>25 June 2003</date>
+			<comment>Renamed ssf2tu->ssf2tur1, vhunt2->vhunt2r1.<br/>Renames in sfz2ah and ddsomj XORs added.<br/>sfz2ab, ssf2u, vhunt2 and xmvsfb added.</comment>
+		</revision>
 		<revision>
 			<date>15 June 2003</date>
 			<comment>Updated supplementary dats for MAME v0.70.</comment>
