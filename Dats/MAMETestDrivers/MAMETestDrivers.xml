@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY MAMETestDrivers SYSTEM "MAMETestDrivers.ent.xml">
-]>
-
-<emulator_page>
-	&MAMETestDrivers;
-</emulator_page>
