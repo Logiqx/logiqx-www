@@ -19,23 +19,22 @@ alt="HowTo.gif (3124 bytes)"></p>
 people who could compile MAME but also wanted to compile RAINE. At that time, MAME and
 RAINE needed different versions of Allegro (A Low Level Game Routines Library) so I wrote
 the documents in such a way that MAME and RAINE could easily be compiled without the need
-for two separate DJGPP environments. The latest document now explains how to
-compile Windows versions of MAME and RAINE with a single MinGW
+for two separate DJGPP environments. The latest documents now explain how to
+compile the Windows versions of MAME and RAINE with a single MinGW
 environment.&nbsp;&nbsp;</p>
 
 <p align="center">Important: These documents have been well tested by various
 non-development members of the RAINE team. I have released them in the hope that you may
 find them useful and to give you a better understanding of MinGW. If you have difficulties
 in understanding these instructions then please don't mail me directly asking for help as
-I am overworked as it is! I am sure you will find suitable assistance in the MAME and
+I am usually too busy! I am sure you will find suitable assistance in the MAME and
 RAINE message boards.</p>
 
 <p align="center">Documents:</p>
 
+<p align="center"><a href="WinMAME.shtml">Compiling MAME</a></p>
 <p align="center"><a href="Downloading.shtml">Downloading the RAINE source using
-DOS</a> or using <a href="jCVS.shtml">jCVS ( JAVA CVS</a>)</p>
-
-<p align="center"><a href="WinMAME.shtml">Compiling MAME and RAINE32 (Windows
-versions using MinGW)</a></p>
+CVS</a> or using <a href="jCVS.shtml">jCVS ( JAVA CVS</a>)</p>
+<p align="center"><a href="RAINE32.shtml">Compiling RAINE32</a></p>
 </body>
 </html>

@@ -1,0 +1,350 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>Compiling WinMAME</title>
+<style TYPE="text/css">
+<!--
+H1 { font-size: 1pc }
+-->
+</style>
+</head>
+
+<body>
+
+<p align="center"><!--#include virtual="/ads/top.shtml" --> </p>
+
+<hr>
+
+<p align="center"><img border="0" src="RAINE32.gif" width="237" height="40"></p>
+
+<p align="center">4th December 2004</p>
+
+<p align="center">Tested with RAINE32 v0.42.1</p>
+
+<p align="center"><b>Warning: This procedure does not work yet!<br>
+SDL will not compile using the tools that I have installed.</b></p>
+
+<h1>1. Introduction</h1>
+
+<p>This guide describes how to set up a MinGW environment that is suitable for compiling RAINE32. It is written in the same style as the document I wrote explaining how
+to create a DJGPP environment suitable for MAME and RAINE32. With the help of this guide any
+proficient PC user should be able to set up MinGW for RAINE32 in around 15 to 20 minutes (assuming the required files are downloaded beforehand). The guide has been
+written with the intention that the user will gain an understanding of what they are doing
+rather than just downloading a ready prepared distribution. It will not tell you how to do
+basic tasks such as <em>creating</em> a directory or <em>extracting</em> files from a ZIP,
+it will tell you <em>where</em> to create a directory or <em>where </em>to extract a ZIP.
+So long as you have those basic skills then you should have no problems.</p>
+
+<p>One of the big advantages of explaining things in this manner is that you can
+update your own environment to use newer versions of the tools as they come out,
+without being dependant on someone else doing it for you.</p>
+
+<p>The guide will explain how to install MinGW onto the D: drive but you can choose any
+drive and location that you wish (so long as you think about what you are doing!).</p>
+
+<hr>
+
+<h1>2. Installing the Compiler (MinGW), DirectX and NASM</h1>
+
+<p>First things first, you must follow the guide for <a href="WinMAME.shtml">compiling
+MAME</a>. You cannot continue with this guide until you have done that!</p>
+
+<p>RAINE should be compiled from within MSYS (a minimal POSIX system for <a href="http://sourceforge.net/projects/mingw">MinGW</a>):</p>
+
+<table border="1" width="100%">
+<TBODY>
+  <tr>
+    <td width="250" bgcolor="#CCFFFF">File</td>
+    <td bgcolor="#CCFFFF">Description</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/MSYS-1.0.10.exe">MSYS-1.0.10.exe</a></td>
+    <td bgcolor="#CCFFFF">MSYS 1.0.10
+    </td>
+  </tr>
+</TBODY>
+</table>
+
+<p>To install MSYS: 
+
+<ol>
+  <li>Run <i>MSYS-1.0.10.exe</i> which is a standard Windows style installer.</li>
+  <li>When asked where you would like to install MSYS, choose a location of your
+    own choice.</li>
+  <li>After the installation, a command window opens up and asks if you wish to
+    continue with the post install. Answer 'y'.</li>
+  <li>When asked if you have MinGW installed, answer 'y'.</li>
+  <li>When asked where your MinGW installation is, type in the path of your
+    MinGW directory.</li>
+  <li>Installation of MSYS should now be complete and it will be available on
+    your start menu.</li>
+</ol>
+
+<hr>
+
+<h1>3. Installing Allegro</h1>
+
+<p><a href="http://www.talula.demon.co.uk/allegro/" target="_blank">Allegro</a> (A Low Level Game Routines
+Library) is used by RAINE32 for graphics handling, sound and input handling. RAINE32
+uses a statically linked version of the library as this avoids a
+problem that was encountered with the dynamic version (DLL version). You need the following
+archives:</p>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="150" bgcolor="#CCFFFF">File</td>
+    <td bgcolor="#CCFFFF">Description</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCFFFF">
+    <a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/all403.zip">all403.zip</a></td>
+    <td bgcolor="#CCFFFF">Source code for Allegro 4.0.3
+      <p>You can get the latest version of Allegro from
+      the Demon link above. Just download the latest source code in DOS/Windows
+      friendly format.</p>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCFFFF">
+    <a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/all403-mingw.zip">all403-mingw.zip</a></td>
+    <td bgcolor="#CCFFFF">Pre-compiled version of Allegro 4.0.3, including RAINE triple 
+    buffer hack - for lazy people!</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/ahack400.zip">ahack400.zip</a></td>
+    <td bgcolor="#CCFFFF">RAINE triple buffer hack for Allegro 4.0.0 (fine for 4.0.3)</td>
+  </tr>
+</table>
+
+<p><u>To compile Allegro from the source:</u>
+
+<p>Firstly, if you didn't install the DirectX 7.0  headers then do it now!<ol>
+  <li>Extract <em>all403.zip</em> to <em>D:\</em> (a directory called <em>ALLEGRO</em> will
+    be created automatically).</li>
+  <li>Extract <i>ahack400.zip </i>to <i>D:\ALLEGRO</i>.</li>
+  <li>Open a command prompt and change directory to <em>D:\ALLEGRO</em></li>
+  <li>Apply the RAINE triple buffer hack: type 'patch -p1 &lt;raine_allegro_hacks-u.diff'
+    and press return.</li>
+  <li>Type 'fix mingw32' and press return.</li>
+  <li>Type 'mingw32-make lib'<em> </em>and press return. Your computer will take  a while to
+    compile Allegro so  get a drink or something.</li>
+</ol>
+
+<p>After compiling Allegro, install it as follows (from the command prompt that you
+compiled under) : 
+
+<ol>
+  <li>Type 'mingw32-make install'. This will install the relevant Allegro files into you
+    MinGW directory.</li>
+</ol>
+
+<p>Note: Attempts to install the library will be unsuccessful if you did not set 
+MINGDIR as described earlier! If you do not set MINGDIR, you will end up with a
+directory called 'include' in the root of your disk and a file called 'lib'.</p>
+
+<p>Tip: You can create your Allegro directory anywhere that you wish (I only
+used the D: 
+drive for simplicity). You will also notice that the first make 
+command was 'mingw32-make lib'. If you wish to do a full Allegro build (which includes
+example programs and is about 40MB bigger than the library alone) you can use 'mingw32-make' 
+instead of 'mingw32-make lib'. However, only the library is required
+to compile RAINE32  so it is fairly useless doing a full build just for RAINE32.</p>
+
+<p><u>To install Allegro using the pre-compiled version (to avoid compiling it):</u> 
+
+<ol>
+  <li>Extract <em>all403-mingw.zip</em> into <em>D:\MINGW</em> (using WinZip or similar).</li>
+</ol>
+
+<p>Allegro is now installed for MinGW.</p>
+
+<hr>
+
+<h1>4. Installing EXEDAT</h1>
+
+<p>EXEDAT is used to append RAINE.dat onto RAINE.EXE. It is
+part of Allegro so you don't need to download anything extra (unless you want to
+avoid compiling it, in which case see below).</p>
+
+<p>Compile EXEDAT as follows: 
+
+<ol>
+  <li>Open a command prompt and change to the Allegro directory (if you are not
+    already in it)<em>.</em></li>
+  <li>Type 'mingw32-make exedat'<em> </em>and press return. This will now create <em>exedat.exe</em>
+    in the <em>tools</em> directory of Allegro.</li>
+  <li>Copy <em>exedat.exe</em> into a directory
+    that is in your PATH (e.g. <em>C:\WINDOWS\COMMAND</em> or <em>D:\MINGW\BIN</em>).</li>
+</ol>
+
+<p>EXEDAT is now installed.</p>
+
+<p><u>To install EXEDAT using a pre-compiled version (to avoid compiling it):</u> 
+
+<ol>
+  <li>Extract <em><a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/exedat-mingw.zip">exedat-mingw.zip</a></em> into a directory
+    that is in your PATH (e.g. <em>C:\WINDOWS\COMMAND</em> or <em>D:\MINGW\BIN</em>).</li>
+</ol>
+
+<p>EXEDAT is now installed.</p>
+
+<hr>
+
+<h1>5. Installing SDL</h1>
+
+<p><a href="http://www.libsdl.org/" target="_blank">SDL</a> (Simple DirectMedia Layer) is used by RAINE32 for
+sound handling. You need the following archive:</p>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="150" bgcolor="#CCFFFF">File</td>
+    <td bgcolor="#CCFFFF">Description</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCFFFF">
+    <a href="http://caesar.logiqx.com/zips/tools/gfx_libs/sdl/SDL-1.2.7.tar.gz">SDL-1.2.7.tar.gz</a></td>
+    <td bgcolor="#CCFFFF">Source code for SDL 1.2.7
+      <p>You can get the latest version of SDL from
+      the link above. Just download the latest source code in tar.gz format.</p>
+    </td>
+  </tr>
+</table>
+
+<p><u>To compile SDL from the source:</u>
+
+<ol>
+  <li>Extract <em>SDL-1.2.7</em> to <em>D:\</em> (a directory called <em>SDL-1.2.7</em>
+    will
+    be created automatically).</li>
+  <li>Open an MSYS window and change directory to <em>D:/SDL-1.2.7</em> (note
+    the forward slash since you are using MSYS)</li>
+  <li>Type './configure' and press return. This procedure could take a few
+    minutes to run.</li>
+  <li>Type 'make' and press return. Your computer will take  a while to
+    compile SDL so  get another drink or something.</li>
+  <li>Type 'make install'<em> </em>and press return.</li>
+</ol>
+
+<p>SDL is now installed.</p>
+
+<hr>
+
+<h1>6. Installing zlib</h1>
+
+<p><a href="http://www.gzip.org/zlib/" target="_blank">zlib</a> (ZIP library) is used by RAINE32 for loading zipped ROMs. You will require the following archive:</p>
+
+<table border="1" width="100%">
+<TBODY>
+  <tr>
+    <td width="150" bgcolor="#CCFFFF">File</td>
+    <td bgcolor="#CCFFFF">Description</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib-1.2.1.tar.gz">zlib-1.2.1.tar.gz</a></td>
+    <td bgcolor="#CCFFFF">Source code for zlib 1.2.1
+      <p>You can get the latest version of zlib from the gzip
+      link above.</p>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib-1.2.1-mingw.zip">zlib-1.2.1-mingw.zip</a></td>
+    <td bgcolor="#CCFFFF">Pre-compiled version of zlib 1.2.1 - for lazy people!</td>
+  </tr>
+</TBODY>
+</table>
+
+<p><u>To compile zlib from the source:</u> 
+
+<ol>
+  <li>Create a directory called <em>D:\ZLIB</em> and extract <em>zlib-1.2.1.tar.gz</em>
+    into it
+    using WinZip (or similar). </li>
+  <li>Open a command prompt and change directory to <em>D:\ZLIB</em> </li>
+  <li>Type 'mingw32-make -f win32/makefile.gcc' and press return. This shouldn't take too long to run. </li>
+</ol>
+
+<p>After compiling zlib, install it for MinGW as follows: 
+
+<ol>
+  <li>Copy <em>LIBZ.A to D:\MINGW\LIB</em> </li>
+  <li>Copy <em>ZLIB.H to D:\MINGW\INCLUDE</em> </li>
+  <li>Copy <em>ZCONF.H to D:\MINGW\INCLUDE</em> </li>
+</ol>
+
+<p>Once you have installed the required files you can delete <em>D:\ZLIB </em>if you wish.
+Programmers may wish to keep it for reference purposes but other than that you won't need
+it any longer.</p>
+
+<p>Tip: As with Allegro it is not necessary that you use the D: drive for compiling zlib,
+it can be done anywhere on your machine.</p>
+
+<p><u>To install zlib using the pre-compiled version (to avoid compiling it):</u> 
+
+<ol>
+  <li>Extract <em>zlib-1.2.1-mingw.zip </em>into <em>D:\MINGW</em> using WinZip (or similar).</li>
+</ol>
+
+<p>zlib is now installed for MinGW.</p>
+
+<hr>
+
+<h1>7. Installing UPX</h1>
+
+<p><a href="http://upx.sourceforge.net/" target="_blank">UPX</a> (Ultimate Packer for
+eXecutables) is used to reduce the size of the RAINE32 executable. You will
+need the following archive:</p>
+
+<table border="1" width="100%">
+<TBODY>
+  <tr>
+    <td width="150" bgcolor="#CCFFFF">File</td>
+    <td bgcolor="#CCFFFF">Description</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCFFFF"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/upx125w.zip">upx125w.zip</a></td>
+    <td bgcolor="#CCFFFF">UPX 1.25 for Win32</td>
+  </tr>
+</TBODY>
+</table>
+
+<p>To install UPX: 
+
+<ol>
+  <li>Open the archive using WinZip and extract <em>UPX.EXE</em> into a directory that is in
+    your PATH (e.g. <em>C:\WINDOWS\COMMAND</em> or <em>D:\MINGW\BIN</em>). </li>
+</ol>
+
+<p>UPX is now installed and you can use it to compress any .EXE file that you wish (not
+just MAME and RAINE32).</p>
+
+<hr>
+
+<h1>8. Compiling RAINE32</h1>
+
+<p>To compile RAINE32 follow these steps: 
+
+<ol>
+  <li>Create a directory called <em>D:\RAINE</em> and extract the RAINE source into it
+    (acquiring the source is described in <a href="Downloading.shtml">this document</a>).</li>
+  <li>Ensure that you have an <a href="http://caesar.logiqx.com/zips/emus/multi/raine/raineicons.zip">icon</a>
+    called <i>RAINE.ICO</i> in <i>D:\RAINE</i> (it may or may not have been
+    provided with the source).</li>
+  <li>Open an MSYS window and change directory to <em>D:/RAINE</em> (note the
+    forward slash since you are using MSYS).</li>
+  <li>Type 'make' and press return.</li>
+  <li>Type 'make compress' to attach <em>RAINE.DAT</em> and run UPX.</li>
+</ol>
+
+<p>If you get an error message saying 'make: nasm: Command not found' then you
+need to make a second copy of 'nasmw.exe' called 'nasm.exe'. Both of these
+executables should reside in the 'bin' directory of your MinGW installation.</p>
+
+<p>A reasonable computer will take under 10 minutes to compile RAINE32 and
+compress it.</p>
+
+<p>Note: Attempts to compile RAINE will be unsuccessful if you did not set 
+MINGDIR as described earlier!</p>
+</body>
+</html>

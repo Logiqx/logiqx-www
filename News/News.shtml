@@ -33,6 +33,57 @@ e-mailed about.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>4 December 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have updated my guides about <a href="../HowTo/HowTo.shtml">compiling
+        MAME and RAINE</a> again!</p>
+        <p align="center">I have now split the guide into two parts since a lot
+        of stuff is RAINE specific and not needed by MAME.</p>
+        <p align="center"><b>The following changes have been made to the MAME
+        guide:</b></p>
+        <ul>
+          <li>
+            <p align="center">Updated the GNU tools to more recent versions
+            (taken from <a href="http://gnuwin32.sourceforge.net/">http://gnuwin32.sourceforge.net/</a>)</li>
+          <li>
+            <p align="center">Explained how to build a Pentium Pro optimised
+            version.</li>
+          <li>
+            <p align="center">Explained when 'make clean' should be used.</li>
+          <li>
+            <p align="center">Explained how to use apply MAME updates using
+            'patch' (for building interim releases).</li>
+          <li>
+            <p align="center">Removed the the UNIX_TOOLS variable (since it is
+            no longer required).</li>
+        </ul>
+        <p align="center"><b>The following changes have been made to the RAINE32
+        guide:</b></p>
+        <ul>
+          <li>
+            <p align="center">Added a section about MSYS because it is required
+            to compile SDL and RAINE.</li>
+          <li>
+            <p align="center">Added a section about SDL because it is used by
+            RAINE v0.40.3 onwards.</li>
+          <li>
+            <p align="center">Removed the section on SEAL because it is no
+            longer used (SDL is used instead).</li>
+          <li>
+            <p align="center">Updated Allegro to the stable 4.0.3 release.</li>
+          <li>
+            <p align="center">Updated zlib to version 1.2.1.</li>
+          <li>
+            <p align="center">Updated UPX to version 1.25.</li>
+        </ul>
+        <p align="center">There is still some work to be done on the RAINE guide
+        but is now better than it was!
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>2 December 2004</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
