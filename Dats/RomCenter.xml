@@ -15,7 +15,6 @@
 	<!ENTITY Mimic SYSTEM "Mimic/Mimic.ent.xml">
 	<!ENTITY ModelerNew SYSTEM "ModelerNew/ModelerNew.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
-	<!ENTITY PinMAME SYSTEM "PinMAME/PinMAME.ent.xml">
 	<!ENTITY OlderEmus SYSTEM "OlderEmus/OlderEmus.ent.xml">
 	<!ENTITY CPS2 SYSTEM "CPS-2/CPS-2.ent.xml">
 	<!ENTITY CPS1 SYSTEM "CPS-1/CPS-1.ent.xml">
@@ -50,7 +49,6 @@
 	<!ENTITY WinKawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
 	<!ENTITY Zinc SYSTEM "Zinc/Zinc.ent.xml">
 	<!ENTITY MPU SYSTEM "MPU/MPU.ent.xml">
-	<!ENTITY VisualPinball SYSTEM "VisualPinball/VisualPinball.ent.xml">
 	<!ENTITY VivaNonno SYSTEM "VivaNonno/VivaNonno.ent.xml">
 	<!ENTITY SegaSystem24Emulator SYSTEM "SegaSystem24Emulator/SegaSystem24Emulator.ent.xml">
 ]>
@@ -127,8 +125,6 @@
 		</comment>
 		<emulators>
 &MPU;
-&PinMAME;
-&VisualPinball;
 		</emulators>
 	</section>
 	<section>

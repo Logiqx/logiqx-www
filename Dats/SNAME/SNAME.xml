@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY SNAME SYSTEM "SNAME.ent.xml">
-]>
-
-<emulator_page>
-	&SNAME;
-</emulator_page>

@@ -10,8 +10,6 @@ EMULATORS= \
 	ACE/ACE.shtml \
 	CPS-2/CPS-2.shtml \
 	CPS-1/CPS-1.shtml \
-	Callus95/Callus95.shtml \
-	TheNewZealandStory/TheNewZealandStory.shtml \
 	Calice/Calice.shtml \
 	CottAGE/CottAGE.shtml \
 	Daphne/Daphne.shtml \
@@ -24,24 +22,14 @@ EMULATORS= \
 	Mimic/Mimic.shtml \
 	ModelerNew/ModelerNew.shtml \
 	RAINE/RAINE.shtml \
-	SegaSystem16/SegaSystem16.shtml \
 	SegaSystem24Emulator/SegaSystem24Emulator.shtml \
 	U64Emu/U64Emu.shtml \
-	Virtua/Virtua.shtml \
-	WinGorf/WinGorf.shtml \
-	PinMAME/PinMAME.shtml \
 	OlderEmus/OlderEmus.shtml \
-	MESS/MESS.shtml \
-	MESSBeta/MESSBeta.shtml \
-	VisualAM/VisualAM.shtml \
-	tROMbone/tROMbone.shtml \
-	SNAME/SNAME.shtml \
 	Neo-Geo/Neo-Geo.shtml \
 	ZN/ZN.shtml \
 	QPlayer/QPlayer.shtml \
 	NeoJukeBox/NeoJukeBox.shtml \
 	NebulaJukebox/NebulaJukebox.shtml \
-	VAntAGE/VAntAGE.shtml \
 	Nebula/Nebula.shtml \
 	NebulaModel2/NebulaModel2.shtml \
 	MAMEImages/MAMEImages.shtml \
@@ -56,12 +44,10 @@ EMULATORS= \
 	MAMESnaps/MAMESnaps.shtml \
 	MAMETitles/MAMETitles.shtml \
 	MAMusIcons/MAMusIcons.shtml \
-	VisualPinball/VisualPinball.shtml \
 	WinKawaks/WinKawaks.shtml \
 	M1/M1.shtml \
 	Hoot/Hoot.shtml \
 	GXP/GXP.shtml \
-	S11Emu/S11Emu.shtml \
 	YAAME/YAAME.shtml \
 	MPU/MPU.shtml \
 	NeoRAGExSupp/NeoRAGExSupp.shtml \

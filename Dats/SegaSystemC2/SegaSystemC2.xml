@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY SegaSystemC2 SYSTEM "SegaSystemC2.ent.xml">
-]>
-
-<emulator_page>
-	&SegaSystemC2;
-</emulator_page>

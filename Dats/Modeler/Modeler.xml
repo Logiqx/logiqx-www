@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY Modeler SYSTEM "Modeler.ent.xml">
-]>
-
-<emulator_page>
-	&Modeler;
-</emulator_page>

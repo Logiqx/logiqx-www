@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY SegaSystem16 SYSTEM "SegaSystem16.ent.xml">
-]>
-
-<emulator_page>
-	&SegaSystem16;
-</emulator_page>

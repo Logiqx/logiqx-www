@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY S11Emu SYSTEM "S11Emu.ent.xml">
-]>
-
-<emulator_page>
-	&S11Emu;
-</emulator_page>
