@@ -14,7 +14,7 @@
 
 <h2 align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"></h2>
 
-<p align="center">Last updated 31st January 2004</p>
+<p align="center">Last updated 9th April 2004</p>
 
 <h2 align="left">Introduction</h2>
 
@@ -67,7 +67,7 @@ on this list.</p>
     </td>
     <td>
 
-<p>114 of the 161 dumped games have been decrypted.</p>
+<p>114 of the 165 dumped games have been decrypted.</p>
 
 <p>There were two releases for 005 and no release for 055.&nbsp;</p>
 
@@ -285,6 +285,12 @@ on this list.</p>
   <td bgcolor="#00FF00" height="19">Giga Wing (Japan 990223)</td>
   <td align="center" bgcolor="#00FF00" height="19">100</td></tr>
 <tr>
+  <td bgcolor="#C0C0C0" height="19">hsf2a</td>
+  <td bgcolor="#C0C0C0" height="19">hsf2a</td>
+  <td bgcolor="#C0C0C0" height="19">Hyper Street Fighter 2: The Anniversary Edition (Asia 040202)</td>
+  <td align="center" bgcolor="#C0C0C0" height="19">&nbsp;</td>
+</tr>
+<tr>
   <td bgcolor="#C0C0C0" height="19">jgokushi  </td>
   <td bgcolor="#C0C0C0" height="19">jgokushi  </td>
   <td bgcolor="#C0C0C0" height="19">Jyangokushi: Haoh no Saihai (Japan 990527)</td>
@@ -323,6 +329,11 @@ on this list.</p>
   <td align="center" bgcolor="#FFFF00" height="19">030</td></tr>
 <tr>
   <td height="19">        </td><td bgcolor="#FFFF00" height="19">mshj    </td>
+  <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (Japan 951117)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">mshjr1    </td>
   <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (Japan 951024)</td>
   <td align="center" bgcolor="#FFFF00" height="19">048</td>
 </tr>
@@ -413,13 +424,18 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">vhuntj  </td>
   <td bgcolor="#FFFF00" height="19">Vampire Hunter: Darkstalkers Revenge (Japan 950316)</td>
   <td align="center" bgcolor="#FFFF00" height="19">089</td></tr>
-<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">vhuntjr1</td>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">vhuntjr1</td>
+  <td bgcolor="#FFFF00" height="19">Vampire Hunter: Darkstalkers Revenge (Japan 950307)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">vhuntjr2</td>
   <td bgcolor="#FFFF00" height="19">Vampire Hunter: Darkstalkers Revenge (Japan 950302)</td>
   <td align="center" bgcolor="#FFFF00" height="19">090</td></tr>
-<tr><td bgcolor="#FF0000" height="19">progearj </td>
-  <td bgcolor="#FF0000" height="19">progearj </td>
-  <td bgcolor="#FF0000" height="19">Progear No Arashi (Japan 010117)</td>
-  <td align="center" bgcolor="#FF0000" height="19">&nbsp;</td></tr>
+<tr><td bgcolor="#C0C0C0" height="19">progearj </td>
+  <td bgcolor="#C0C0C0" height="19">progearj </td>
+  <td bgcolor="#C0C0C0" height="19">Progear No Arashi (Japan 010117)</td>
+  <td align="center" bgcolor="#C0C0C0" height="19">&nbsp;</td></tr>
 <tr><td bgcolor="#FF0000" height="19">puzloop2</td>
   <td bgcolor="#FF0000" height="19">puzloop2</td>
   <td bgcolor="#FF0000" height="19">Puzz Loop 2 (Japan 010205)</td>
@@ -539,13 +555,18 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">pfghtj  </td>
   <td bgcolor="#FFFF00" height="19">Pocket Fighter (Japan 970904)</td>
   <td align="center" bgcolor="#FFFF00" height="19">084</td></tr>
-<tr><td bgcolor="#00FF00" height="19">spf2t   </td>
-  <td bgcolor="#00FF00" height="19">spf2t   </td>
-  <td bgcolor="#00FF00" height="19">Super Puzzle Fighter 2 Turbo (US 960620)</td>
-  <td align="center" bgcolor="#00FF00" height="19">085</td></tr>
-<tr><td height="19">        </td><td bgcolor="#00FF00" height="19">spf2xj  </td>
-  <td bgcolor="#00FF00" height="19">Super Puzzle Fighter 2 X (Japan 960531)</td>
-  <td align="center" bgcolor="#00FF00" height="19">035</td></tr>
+<tr><td bgcolor="#FFFF00" height="19">spf2t   </td>
+  <td bgcolor="#FFFF00" height="19">spf2t   </td>
+  <td bgcolor="#FFFF00" height="19">Super Puzzle Fighter 2 Turbo (US 960620)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">085</td></tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">spf2a  </td>
+  <td bgcolor="#FFFF00" height="19">Super Puzzle Fighter 2 Turbo (Asia 960529)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">spf2xj  </td>
+  <td bgcolor="#FFFF00" height="19">Super Puzzle Fighter 2 X (Japan 960531)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">035</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">ssf2    </td>
   <td bgcolor="#FFFF00" height="19">ssf2    </td>
   <td bgcolor="#FFFF00" height="19">Super Street Fighter 2: The New Challengers

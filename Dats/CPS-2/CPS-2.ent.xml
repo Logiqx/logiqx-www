@@ -2,11 +2,11 @@
 <emulator id="CPS-2">
 	<img src="CPS-2.gif" width="80" height="40"/>
 	<name>CPS-2</name>
-	<version>20040131</version>
+	<version>20040409</version>
 	<suitability/>
-	<status></status>
-	<date>31/01/2004</date>
-	<games>161</games>
+	<status>Updated</status>
+	<date>10/04/2004</date>
+	<games>165</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Not all of these games are emulated yet (see my <a href="../../E-Mail/CPS-2.shtml">CPS-2</a> page for more information)...</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020040131%20(cm).zip" size="30"/>
+			<file name="CPS-2%2020040409%20(cm).zip" size="30"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020040131%20(rc).zip" size="37"/>
+			<file name="CPS-2%2020040409%20(rc).zip" size="37"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>10 April 2004</date>
+			<comment>Updated for MAME v0.81.</comment>
+		</revision>
 		<revision>
 			<date>31 January 2004</date>
 			<comment>Renamed armwar->armwarr1 and added new armwar.<br/>Changed sound ROM (rcm.58) in rockmanj.<br/>Added SIMs to progearj.<br/>Now matches MAME v0.79.</comment>

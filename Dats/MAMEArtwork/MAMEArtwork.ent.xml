@@ -4,7 +4,7 @@
 	<name>MAME Artwork</name>
 	<version>20040307</version>
 	<suitability/>
-	<status>Updated</status>
+	<status></status>
 	<date>15/03/2004</date>
 	<games>128</games>
 	<author href="http://www.clrmame.com/">Roman Scherzer</author>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>10 April 2004</date>
+			<comment>No change required for MAME v0.81.</comment>
+		</revision>
 		<revision>
 			<date>15 March 2004</date>
 			<comment>Latest version by Roman (for MAME v0.80).</comment>

@@ -112,7 +112,7 @@
             <font face="Arial" size="2">494</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/03/2004</font>
+            <font face="Arial" size="2">10/04/2004</font>
           </td>
         </tr>
 
@@ -127,13 +127,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="MAMEBeta/MAME%20v0.80%20(rc).zip">
+              <a href="MAMEBeta/MAME%20v0.81%20(rc).zip">
                 <b>MAME</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">v0.80</font>
+            <font face="Arial" size="2">v0.81</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -143,10 +143,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">4796</font>
+            <font face="Arial" size="2">4841</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/03/2004</font>
+            <font face="Arial" size="2">10/04/2004</font>
           </td>
         </tr>
 
@@ -161,13 +161,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="MAMEChanges/MAME%20Changes%20v0.80%20(rc).zip">
+              <a href="MAMEChanges/MAME%20Changes%20v0.81%20(rc).zip">
                 <b>MAME Changes</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">v0.80</font>
+            <font face="Arial" size="2">v0.81</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -180,7 +180,7 @@
             <font face="Arial" size="2">Various</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/03/2004</font>
+            <font face="Arial" size="2">10/04/2004</font>
           </td>
         </tr>
 
@@ -214,7 +214,7 @@
             <font face="Arial" size="2">422</font>
           </td>
           <td>
-            <font face="Arial" size="2">08/03/2004</font>
+            <font face="Arial" size="2">10/04/2004</font>
           </td>
         </tr>
 
@@ -263,13 +263,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="RAINE/RAINE%20v0.39.4d%20(rc).zip">
+              <a href="RAINE/RAINE%20v0.40.0%20(rc).zip">
                 <b>RAINE</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">v0.39.4d</font>
+            <font face="Arial" size="2">v0.40.0</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -279,10 +279,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">471</font>
+            <font face="Arial" size="2">486</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/03/2004</font>
+            <font face="Arial" size="2">10/04/2004</font>
           </td>
         </tr>
 
@@ -316,7 +316,7 @@
             <font face="Arial" size="2">409</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/03/2004</font>
+            <font face="Arial" size="2">10/04/2004</font>
           </td>
         </tr>
 
@@ -475,19 +475,19 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						-
+						updated
 					</font>
             </b>
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="CPS-2/CPS-2%2020040131%20(rc).zip">
+              <a href="CPS-2/CPS-2%2020040409%20(rc).zip">
                 <b>CPS-2</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">20040131</font>
+            <font face="Arial" size="2">20040409</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -497,10 +497,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">161</font>
+            <font face="Arial" size="2">165</font>
           </td>
           <td>
-            <font face="Arial" size="2">31/01/2004</font>
+            <font face="Arial" size="2">10/04/2004</font>
           </td>
         </tr>
 
@@ -515,13 +515,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="Neo-Geo/Neo-Geo%2020040307%20(rc).zip">
+              <a href="Neo-Geo/Neo-Geo%2020040410%20(rc).zip">
                 <b>Neo-Geo</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">20040307</font>
+            <font face="Arial" size="2">20040410</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -531,10 +531,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">187</font>
+            <font face="Arial" size="2">189</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/03/2004</font>
+            <font face="Arial" size="2">10/04/2004</font>
           </td>
         </tr>
 
@@ -548,13 +548,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="ZN/ZN%2020040302%20(rc).zip">
+              <a href="ZN/ZN%2020040410%20(rc).zip">
                 <b>ZN</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">20040302</font>
+            <font face="Arial" size="2">20040410</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -564,10 +564,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">19</font>
+            <font face="Arial" size="2">20</font>
           </td>
           <td>
-            <font face="Arial" size="2">02/03/2004</font>
+            <font face="Arial" size="2">10/04/2004</font>
           </td>
         </tr>
 
@@ -691,7 +691,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						updated
+						-
 					</font>
             </b>
           </td>
@@ -725,7 +725,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						updated
+						-
 					</font>
             </b>
           </td>
@@ -759,7 +759,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						updated
+						-
 					</font>
             </b>
           </td>
@@ -867,7 +867,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						updated
+						-
 					</font>
             </b>
           </td>
@@ -901,7 +901,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						updated
+						-
 					</font>
             </b>
           </td>

@@ -1,11 +1,11 @@
 <emulator id="ZN">
 	<img src="ZN.gif" width="37" height="40"/>
 	<name>ZN</name>
-	<version>20040302</version>
+	<version>20040410</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>02/03/2004</date>
-	<games>19</games>
+	<date>10/04/2004</date>
+	<games>20</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 
 	<comment><p>Capcom ZN-1 and ZN-2</p></comment>
@@ -13,16 +13,20 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="ZN%2020040302%20(cm).zip" size="5"/>
+			<file name="ZN%2020040410%20(cm).zip" size="5"/>
 		</dat>
 
 		<dat>
 			&ROMCenter;
-			<file name="ZN%2020040302%20(rc).zip" size="5"/>
+			<file name="ZN%2020040410%20(rc).zip" size="5"/>
 		</dat>
 	</dats>
 
 	<revisions>
+		<revision>
+			<date>10 April 2004</date>
+			<comment>Updated data files to match MAME v0.81.</comment>
+		</revision>
 		<revision>
 			<date>2 March 2004</date>
 			<comment>Removed stridr2u because it was not a real dump.</comment>
