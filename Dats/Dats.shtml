@@ -332,11 +332,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="MAMESamples/MAMESamples.shtml">MAME Samples 20050110</a>
+            <a href="MAMESamples/MAMESamples.shtml">MAME Samples 20050329</a>
           </td>
-          <td align="center"></td>
-          <td align="center">13/01/2005</td>
-          <td align="center">64</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>29/03/2005</strong>
+          </td>
+          <td align="center">
+            <strong>67</strong>
+          </td>
         </tr>
 
 		</table>
