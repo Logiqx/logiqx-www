@@ -62,7 +62,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Updated the dat for <a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center"><font size="3">Updated the dat for <a href="../Dats/Dats.shtml">Final
     Burn v0.011</a></font></td>
   </tr>
 </table>
@@ -72,7 +72,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td><p align="center"><font size="3">Woohoo! MAME now includes my sample fix. :)</font></p>
-    <p align="center"><font size="3">Now online are the <a href="../Dats/MAMEBeta/MAMEBeta.shtml">dats
+    <p align="center"><font size="3">Now online are the <a href="../Dats/Dats.shtml">dats
     for MAME v0.37 beta 7</a></font></td>
   </tr>
 </table>
@@ -81,7 +81,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Updated the dat for <a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center"><font size="3">Updated the dat for <a href="../Dats/Dats.shtml">Final
     Burn v0.008</a></font></td>
   </tr>
 </table>
@@ -91,9 +91,9 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td><p align="center"><font size="3">Hopefully the last change to the <a
-    href="../Dats/CPS-2/CPS-2.shtml">CPS-2 dat</a> for a while (one CRC fixed).</font></p>
+    href="../Dats/Dats.shtml">CPS-2 dat</a> for a while (one CRC fixed).</font></p>
     <p align="center"><font size="3">Two new dats also: Sega System C2 (by Haze) and <a
-    href="../Dats/FinalBurn/FinalBurn.shtml">Final Burn v0.007</a></font></td>
+    href="../Dats/Dats.shtml">Final Burn v0.007</a></font></td>
   </tr>
 </table>
 
@@ -102,7 +102,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td><p align="center"><font size="3">Okay, people are getting confused so here's the
-    latest <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2 dat</a> release.</font></p>
+    latest <a href="../Dats/Dats.shtml">CPS-2 dat</a> release.</font></p>
     <p align="center"><font size="3">This update adds information that will be in the next FAQ
     and also matches the latest MAME submission.</font></p>
     <p align="center"><font size="3">...and before you start getting excited about MAME
@@ -129,7 +129,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
   <tr>
     <td><p align="center"><font size="3">Added CMPro/RomCenter
     dats for MESS v0.37b6</font></p>
-    <p align="center"><font size="3">Updated dats for <a href="../Dats/CPS-2/CPS-2.shtml">Capcom
+    <p align="center"><font size="3">Updated dats for <a href="../Dats/Dats.shtml">Capcom
     System 2</a> (fixed some mistypes from the FAQ).</font></td>
   </tr>
 </table>
@@ -138,7 +138,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Added <a href="../Dats/MAMEBeta/MAMEBeta.shtml">dats for MAME
+    <td><p align="center"><font size="3">Added <a href="../Dats/Dats.shtml">dats for MAME
     v0.37 beta 6</a> (CMPro dat includes correct sample information)</font></td>
   </tr>
 </table>
@@ -148,7 +148,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td><p align="center"><font size="3">Added RomCenter dat for Raine 20000819</font></p>
-    <p align="center"><font size="3">Updated dats for <a href="../Dats/CPS-2/CPS-2.shtml">Capcom
+    <p align="center"><font size="3">Updated dats for <a href="../Dats/Dats.shtml">Capcom
     System 2</a> so that they match Naz's new FAQ (v2.00m).</font></p>
     <p align="center"><font size="3">Another MAME release... MAME v0.37 beta 6</font></p>
     <p align="center"><font size="3">Uploaded my sample
@@ -203,7 +203,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.03</a> - Added
+    %s:Dats/[\--z]*/[\--z]*.shtml:Dats/Dats.shtml:g<td><p align="center"><a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.03</a> - Added
     support for complemented CRCs.</p>
     <p align="center">The verbose report for MAME v0.37 beta 5 now looks much better!</p>
     <p align="center"><font size="3">Added CMPro/RomCenter dats
@@ -221,7 +221,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
     <p align="center"><font size="3">Narc (rev 3.20) [name: narc3 - parent: narc]</font></p>
     <p align="center"><font size="3">Anyway, added sample
     fix for MAME v0.37 beta 5</font></p>
-    <p align="center"><font size="3">Added <a href="../Dats/MAMEBeta/MAMEBeta.shtml">dats for MAME v0.37
+    <p align="center"><font size="3">Added <a href="../Dats/Dats.shtml">dats for MAME v0.37
     beta 5</a> (CMPro dat includes correct sample information)</font></td>
   </tr>
 </table>

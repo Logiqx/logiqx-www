@@ -36,7 +36,7 @@
 		</revision>
 		<revision>
 			<date>2 March 2003</date>
-			<comment>Updated for WinKawaks v1.49. Use <a href="../../ROMBuild/rbmame80.zip">ROMBuild</a> [MAME v0.80 Special] to build the new Neo-Geo ROMs.</comment>
+			<comment>Updated for WinKawaks v1.49. Use <a href="../../Tools/ROMBuild/rbmame80.zip">ROMBuild</a> [MAME v0.80 Special] to build the new Neo-Geo ROMs.</comment>
 		</revision>
 		<revision>
 			<date>3 February 2003</date>

@@ -43,7 +43,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>  (v1.22).</p>
       <p align="center"><b>Data Files</b></p>
       <p align="center"> 
-      <a href="../Dats/M1/M1.shtml">M1 v0.7.3</a><p align="center">Ben Jos has
+      <a href="../Dats/Dats.shtml">M1 v0.7.3</a><p align="center">Ben Jos has
       also written some notes on the <a href="../FAQs/ListinfoHistory.shtml">history
       of MAME's listinfo</a>.&nbsp;</td>
   </tr>
@@ -58,10 +58,10 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       <p align="center"><a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a> (v1.27)
       and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> (v1.21).</p>
       <p align="center"><b>Data Files</b></p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME v0.78</a>,
-      <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes v0.78</a></p>
-      <p align="center"><a href="../Dats/Nebula/Nebula.shtml">Nebula</a>, 
-      <a href="../Dats/M1/M1.shtml">M1</a>, <a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a></td>
+      <p align="center"><a href="../Dats/Dats.shtml">MAME v0.78</a>,
+      <a href="../Dats/Dats.shtml">MAME Changes v0.78</a></p>
+      <p align="center"><a href="../Dats/Dats.shtml">Nebula</a>, 
+      <a href="../Dats/Dats.shtml">M1</a>, <a href="../Dats/Dats.shtml">FBA</a></td>
   </tr>
 </table>
 
@@ -80,9 +80,9 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
   <tr>
     <td>
       <p align="center"> Finally found time to create a data file for the new
-      version of <a href="../Dats/Nebula/Nebula.shtml">Nebula</a> (v2.23d).</p>
+      version of <a href="../Dats/Dats.shtml">Nebula</a> (v2.23d).</p>
       <p align="center"> Also created a data file and supplements for
-      <a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a> v0.2.94.96.</p>
+      <a href="../Dats/Dats.shtml">FBA</a> v0.2.94.96.</p>
      </td>
   </tr>
 </table>
@@ -93,9 +93,9 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
     <td>
       <p align="center">A few more updates for MAME v0.77:
       </p>
-      <p align="center"><a href="../Dats/MAMEArtwork/MAMEArtwork.shtml">Artwork</a>,
-      <a href="../Dats/MAMEPanels/MAMEPanels.shtml">Panels</a>, <a href="../Dats/MAMETitles/MAMETitles.shtml">Titles</a>.</p>
-      <p align="center">Also, a new <a href="../Dats/NebulaModel2/NebulaModel2.shtml">Nebula
+      <p align="center"><a href="../Dats/Dats.shtml">Artwork</a>,
+      <a href="../Dats/Dats.shtml">Panels</a>, <a href="../Dats/Dats.shtml">Titles</a>.</p>
+      <p align="center">Also, a new <a href="../Dats/Dats.shtml">Nebula
       Model 2</a></p>
      </td>
   </tr>
@@ -107,14 +107,14 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
     <td>
       <p align="center">Here are the MAME v0.77 updates from Rosewood:
       </p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a> and <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes</a>.
+      <p align="center"><a href="../Dats/Dats.shtml">MAME</a> and <a href="../Dats/Dats.shtml">MAME Changes</a>.
       </p>
       <p align="center"> 
-      <a href="../Dats/M1/M1.shtml">M1</a></p>
-      <p align="center"><a href="../Dats/MAMECabinets/MAMECabinets.shtml">Cabinets</a>,
-      <a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>, <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a>, <a href="../Dats/MAMETitles/MAMETitles.shtml">Titles</a>.</p>
+      <a href="../Dats/Dats.shtml">M1</a></p>
+      <p align="center"><a href="../Dats/Dats.shtml">Cabinets</a>,
+      <a href="../Dats/Dats.shtml">Icons</a>, <a href="../Dats/Dats.shtml">Snaps</a>, <a href="../Dats/Dats.shtml">Titles</a>.</p>
       <p align="center">And one more for now:</p>
-      <p align="center"><a href="../Dats/MAMESamples/MAMESamples.shtml">Samples</a></p>
+      <p align="center"><a href="../Dats/Dats.shtml">Samples</a></p>
      </td>
   </tr>
 </table>
@@ -138,10 +138,10 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       <p align="center">Here are the few updates that are required in relation
       to MAME v0.76:
       </p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a> and <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes</a>.</p>
-      <p align="center"><a href="../Dats/MAMECabinets/MAMECabinets.shtml">Cabinets</a>,
-      <a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>, <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a>, <a href="../Dats/MAMETitles/MAMETitles.shtml">Titles</a>.</p>
-      <p align="center">There is also a new <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
+      <p align="center"><a href="../Dats/Dats.shtml">MAME</a> and <a href="../Dats/Dats.shtml">MAME Changes</a>.</p>
+      <p align="center"><a href="../Dats/Dats.shtml">Cabinets</a>,
+      <a href="../Dats/Dats.shtml">Icons</a>, <a href="../Dats/Dats.shtml">Snaps</a>, <a href="../Dats/Dats.shtml">Titles</a>.</p>
+      <p align="center">There is also a new <a href="../Dats/Dats.shtml">CPS-2</a>
       data file, courtesy of Razoola and rosewood.</p>
      </td>
   </tr>
@@ -154,17 +154,17 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       <p align="center">Here is the tonight's work from Rosewood and myself:<br>
       Everything relates to MAME v0.75, except for Nebula Model 2.
       </p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a> and <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes</a>.
+      <p align="center"><a href="../Dats/Dats.shtml">MAME</a> and <a href="../Dats/Dats.shtml">MAME Changes</a>.
       Test Drivers is no longer required.</p>
-      <p align="center"> <a href="../Dats/FinalBurn/FinalBurn.shtml">Final Burn</a>,
-      <a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a>, <a href="../Dats/Nebula/Nebula.shtml">Nebula</a>,
-      <a href="../Dats/RAINE/RAINE.shtml">RAINE</a>, <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks</a>,
-      <a href="../Dats/M1/M1.shtml">M1</a></p>
-      <p align="center"><a href="../Dats/CPS-1/CPS-1.shtml">CPS-1</a>, <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>,
-      <a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a></p>
-      <p align="center"> <a href="../Dats/NebulaModel2/NebulaModel2.shtml">Nebula
+      <p align="center"> <a href="../Dats/Dats.shtml">Final Burn</a>,
+      <a href="../Dats/Dats.shtml">FBA</a>, <a href="../Dats/Dats.shtml">Nebula</a>,
+      <a href="../Dats/Dats.shtml">RAINE</a>, <a href="../Dats/Dats.shtml">WinKawaks</a>,
+      <a href="../Dats/Dats.shtml">M1</a></p>
+      <p align="center"><a href="../Dats/Dats.shtml">CPS-1</a>, <a href="../Dats/Dats.shtml">CPS-2</a>,
+      <a href="../Dats/Dats.shtml">Neo-Geo</a></p>
+      <p align="center"> <a href="../Dats/Dats.shtml">Nebula
       Model 2</a></p>
-      <p align="center"> <a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>, <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a>, <a href="../Dats/MAMETitles/MAMETitles.shtml">Titles</a>.</p>
+      <p align="center"> <a href="../Dats/Dats.shtml">Icons</a>, <a href="../Dats/Dats.shtml">Snaps</a>, <a href="../Dats/Dats.shtml">Titles</a>.</p>
      </td>
   </tr>
 </table>

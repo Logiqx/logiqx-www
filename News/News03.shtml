@@ -75,7 +75,7 @@
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td><p align="center"><font size="3"><strong>CMPro/ROMCenter Dat Updates</strong></font></p>
-    <p align="center"><font size="3">Updated kotm in the <a href="../Dats/OlderEmus/OlderEmus.shtml">NeoRAGEx
+    <p align="center"><font size="3">Updated kotm in the <a href="../Dats/Dats.shtml">NeoRAGEx
     (MAME ROMs) dat</a></font>.<br>
     Updated the Virtua dats to include new information from
     Kayamon.</td>
@@ -90,7 +90,7 @@
     <p align="center"><font size="3">Uploaded dats for all the emus I added to <a
     href="http://caesar.logiqx.com/" target="caesar">CAESAR</a> this week:</font></p>
     <p align="center"><font size="3">- 14 </font>new dats have been added to the <a
-    href="../Dats/OlderEmus/OlderEmus.shtml">'older emus'</a> ZIPs.<br>
+    href="../Dats/Dats.shtml">'older emus'</a> ZIPs.<br>
     - Added VisualAM dat in the 'recent' section.</p>
     <p align="center"><strong>ROMBuild</strong></p>
     <p align="center">Released v1.1 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>. This
@@ -148,7 +148,7 @@
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <a href="../Dats/MAMEBeta/MAMEBeta.shtml"><font size="3">MAME
+    <td><p align="center">Uploaded dats for <a href="../Dats/Dats.shtml"><font size="3">MAME
     v0.37 beta 10</font></a></p>
     <p align="center"><font size="3">...later on</font></p>
     <p align="center">Uploaded dats <font size="3">dats for MESS
@@ -189,7 +189,7 @@
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td><p align="center"><font size="3">Added 19XX: The War Against Destiny (Japan 951207) to
-    the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2 dats</a></font></p>
+    the <a href="../Dats/Dats.shtml">CPS-2 dats</a></font></p>
     <p align="center">Uploaded dats for the new version of <font size="3">
     WPCmame (v0.37b8 ver 5)</font></td>
   </tr>
@@ -210,7 +210,7 @@
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <a href="../Dats/MAMEBeta/MAMEBeta.shtml"><font size="3">MAME
+    <td><p align="center">Uploaded dats for <a href="../Dats/Dats.shtml"><font size="3">MAME
     v0.37 beta 9</font></a></p>
     <p align="center">Uploaded dats for the new version of <font size="3">
     WPCmame (v0.37b8 ver 4)</font></td>
@@ -281,7 +281,7 @@
     bruises/grazes everywhere but had a fantastic time :)</p>
     <p align="center">Anyway, while I'm waiting for next year I've uploaded some dats for your
     pleasure... <font size="3">Mimic v1.04 and <a
-    href="../Dats/FinalBurn/FinalBurn.shtml">Final Burn v0.050</a></font></p>
+    href="../Dats/Dats.shtml">Final Burn v0.050</a></font></p>
     <p align="center"><font size="3">Thanks to Roman for maintaining the Final Burn dat while
     I was away.</font></td>
   </tr>
@@ -307,12 +307,12 @@
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <td><p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... fixed an incorrect CRC in sfa3.</font></p>
-    <p align="center"><font size="3">Now online are the <a href="../Dats/MAMEBeta/MAMEBeta.shtml">dats
+    <p align="center"><font size="3">Now online are the <a href="../Dats/Dats.shtml">dats
     for MAME v0.37 beta 8</a></font></p>
     <p align="center"><font size="3">Somehow Street Fighter Zero Changer got into the <a
-    href="../Dats/CPS-2/CPS-2.shtml">CPS-2 dat</a>!<br>
+    href="../Dats/Dats.shtml">CPS-2 dat</a>!<br>
     Uploaded a new dat with this game removed (only difference to the one a few hours ago).</font></td>
   </tr>
 </table>
@@ -321,7 +321,7 @@
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Released new <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2 dat</a>
+    <td><p align="center"><font size="3">Released new <a href="../Dats/Dats.shtml">CPS-2 dat</a>
     to go with the latest MAME driver information (six new games added).<br>
     This also incorporates details from Naz's FAQ (v2.10)</font></td>
   </tr>

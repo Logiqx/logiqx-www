@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type"
 content="text/html; charset=iso-8859-1">
-<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <title>ROMInfo</title>
 </head>
 
@@ -20,7 +20,7 @@ height="68"></p>
 
 <p align="center">ROMInfo is for identifying arcade ROMs and
 checking if they are emulated yet.<br>
-It does this using the <a href="../Dats/Dats.shtml">CMPro dats</a>
+It does this using the <a href="../../Dats/Dats.shtml">CMPro dats</a>
 from the <a href="http://caesar.logiqx.com/" target="caesar">CAESAR</a>
 database and should cover every arcade game emulated so far.</p>
 

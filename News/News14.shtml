@@ -38,7 +38,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
   <tr>
     <td>
       <p align="center">I've had a bit of a tidy up and moved a variety of data
-      files into the <a href="../Dats/OlderEmus/OlderEmus.shtml">Older Emus</a>
+      files into the <a href="../Dats/Dats.shtml">Older Emus</a>
       collection.
      </td>
   </tr>
@@ -48,7 +48,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">It's about time I released data files for <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks
+      <p align="center">It's about time I released data files for <a href="../Dats/Dats.shtml">WinKawaks
       v1.47b</a>
      </td>
   </tr>
@@ -61,13 +61,13 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       <p align="center">All of the relevant data files have been updated for
       MAME v0.74:
       </p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a>, <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes</a> and
+      <p align="center"><a href="../Dats/Dats.shtml">MAME</a>, <a href="../Dats/Dats.shtml">MAME Changes</a> and
       MAME Test Drivers</p>
-      <p align="center"> <a href="../Dats/Nebula/Nebula.shtml">Nebula</a>, <a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a>,
-      <a href="../Dats/M1/M1.shtml">M1</a></p>
-      <p align="center"> <a href="../Dats/CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml">CrashTest's Screenshots</a>, <a href="../Dats/MAMECabinets/MAMECabinets.shtml">Cabinets</a>, <a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>,
-      <a href="../Dats/MAMEMarquees/MAMEMarquees.shtml">Marquees</a>, <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a>, <a href="../Dats/MAMETitles/MAMETitles.shtml">Titles</a>.</p>
-      <p align="center"> Also updated the data file for <a href="../Dats/VivaNonno/VivaNonno.shtml">Viva
+      <p align="center"> <a href="../Dats/Dats.shtml">Nebula</a>, <a href="../Dats/Dats.shtml">Neo-Geo</a>,
+      <a href="../Dats/Dats.shtml">M1</a></p>
+      <p align="center"> <a href="../Dats/Dats.shtml">CrashTest's Screenshots</a>, <a href="../Dats/Dats.shtml">Cabinets</a>, <a href="../Dats/Dats.shtml">Icons</a>,
+      <a href="../Dats/Dats.shtml">Marquees</a>, <a href="../Dats/Dats.shtml">Snaps</a>, <a href="../Dats/Dats.shtml">Titles</a>.</p>
+      <p align="center"> Also updated the data file for <a href="../Dats/Dats.shtml">Viva
       Nonno</a></p>
      </td>
   </tr>
@@ -79,13 +79,13 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
     <td>
       <p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a> 
       (v1.26)
-      and data file for <a href="../Dats/Nebula/Nebula.shtml">Nebula v2.23c</a>.</p>
-      <p align="center">Finally released a data file for <a href="../Dats/Daphne/Daphne.shtml">Daphne
+      and data file for <a href="../Dats/Dats.shtml">Nebula v2.23c</a>.</p>
+      <p align="center">Finally released a data file for <a href="../Dats/Dats.shtml">Daphne
       v0.99.6</a>.<br>
       Note: I re-uploaded a better version about 1 hour after the first version.</p>
       <p align="center">Also, for those of you who would like to know how to
       create the various flavours of the MAME data files (changes, supplements,
-      etc) there has been a <a href="http://www.geocities.com/datcreate/DatCreate.htm">guide</a>
+      etc) there has been a guide
       written for you by Amiga Boy. It looks accurate to me and is well worth a
       try when the next MAME release comes out . :)</p>
      </td>
@@ -99,12 +99,12 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       <p align="center">All of the relevant data files have been updated for
       MAME v0.73:
       </p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a>, <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes</a> and
+      <p align="center"><a href="../Dats/Dats.shtml">MAME</a>, <a href="../Dats/Dats.shtml">MAME Changes</a> and
       MAME Test Drivers</p>
-      <p align="center"> <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>, <a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a></p>
-      <p align="center"> <a href="../Dats/MAMEArtwork/MAMEArtwork.shtml">Artwork</a>,
-      <a href="../Dats/MAMESamples/MAMESamples.shtml">Samples</a>, <a href="../Dats/MAMECabinets/MAMECabinets.shtml">Cabinets</a>, <a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>, <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a>,
-      <a href="../Dats/MAMEPanels/MAMEPanels.shtml">Panels</a>, <a href="../Dats/MAMETitles/MAMETitles.shtml">Titles</a>.</p>
+      <p align="center"> <a href="../Dats/Dats.shtml">CPS-2</a>, <a href="../Dats/Dats.shtml">FBA</a></p>
+      <p align="center"> <a href="../Dats/Dats.shtml">Artwork</a>,
+      <a href="../Dats/Dats.shtml">Samples</a>, <a href="../Dats/Dats.shtml">Cabinets</a>, <a href="../Dats/Dats.shtml">Icons</a>, <a href="../Dats/Dats.shtml">Snaps</a>,
+      <a href="../Dats/Dats.shtml">Panels</a>, <a href="../Dats/Dats.shtml">Titles</a>.</p>
      </td>
   </tr>
 </table>
@@ -115,10 +115,10 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
     <td>
       <p align="center">Uploaded resources that are dated 26/08/2003. :)
       </p>
-      <p align="center">&nbsp;<a href="../Dats/MAMEArtwork/MAMEArtwork.shtml">Artwork</a>,
-      <a href="../Dats/MAMESamples/MAMESamples.shtml">Samples</a>, <a href="../Dats/MAMECabinets/MAMECabinets.shtml">Cabinets</a>, <a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>, <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a>,
-      <a href="../Dats/MAMEMarquees/MAMEMarquees.shtml">Marquees</a>, <a href="../Dats/MAMETitles/MAMETitles.shtml">Titles</a>
-      and <a href="../Dats/CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml">CrashTest's Screenshots</a>
+      <p align="center">&nbsp;<a href="../Dats/Dats.shtml">Artwork</a>,
+      <a href="../Dats/Dats.shtml">Samples</a>, <a href="../Dats/Dats.shtml">Cabinets</a>, <a href="../Dats/Dats.shtml">Icons</a>, <a href="../Dats/Dats.shtml">Snaps</a>,
+      <a href="../Dats/Dats.shtml">Marquees</a>, <a href="../Dats/Dats.shtml">Titles</a>
+      and <a href="../Dats/Dats.shtml">CrashTest's Screenshots</a>
       </p>
      </td>
   </tr>
@@ -128,7 +128,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Uploaded the data file for <a href="../Dats/RAINE/RAINE.shtml">RAINE
+      <p align="center">Uploaded the data file for <a href="../Dats/Dats.shtml">RAINE
       v0.38.1</a>&nbsp;
       </p>
      </td>
@@ -147,16 +147,16 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       <p align="center"> <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a> (v1.25)
       and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> (v1.20).</p>
       <p align="center"> <b>Data Files</b></p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME v0.72</a>, <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes
+      <p align="center"><a href="../Dats/Dats.shtml">MAME v0.72</a>, <a href="../Dats/Dats.shtml">MAME Changes
       v0.72</a> and MAME Test Drivers
       v0.72</p>
-      <p align="center"> <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>,
-      <a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a></p>
-      <p align="center"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final Burn</a>,
-      <a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a></p>
-      <p align="center"> <a href="../Dats/NebulaJukebox/NebulaJukebox.shtml">Nebula
-      Jukebox</a>, <a href="../Dats/NeoJukeBox/NeoJukeBox.shtml">NeoJukeBox</a>,
-      <a href="../Dats/QPlayer/QPlayer.shtml">QPlayer</a> and <a href="../Dats/M1/M1.shtml">M1</a></p>
+      <p align="center"> <a href="../Dats/Dats.shtml">CPS-2</a>,
+      <a href="../Dats/Dats.shtml">Neo-Geo</a></p>
+      <p align="center"><a href="../Dats/Dats.shtml">Final Burn</a>,
+      <a href="../Dats/Dats.shtml">FBA</a></p>
+      <p align="center"> <a href="../Dats/Dats.shtml">Nebula
+      Jukebox</a>, <a href="../Dats/Dats.shtml">NeoJukeBox</a>,
+      <a href="../Dats/Dats.shtml">QPlayer</a> and <a href="../Dats/Dats.shtml">M1</a></p>
       <p align="center"> <b>Still To Come</b></p>
       <p align="center"> Data files for MAME resources, RAINE (v0.38.1), Kawaks (v1.47b) and
       Nebula (v2.23c).</p>
@@ -169,10 +169,10 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
   <tr>
     <td>
       <p align="center">The last remaining MAME v0.71 data files:</p>
-      <p align="center"><a href="../Dats/MAMECabinets/MAMECabinets.shtml">Cabinets</a>, <a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>, <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a>,
-      <a href="../Dats/MAMEPanels/MAMEPanels.shtml">Panels</a>,
-      <a href="../Dats/MAMusIcons/MAMusIcons.shtml">MAMu's
-      Icons</a>  and <a href="../Dats/CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml">CrashTest's Screenshots</a></p> 
+      <p align="center"><a href="../Dats/Dats.shtml">Cabinets</a>, <a href="../Dats/Dats.shtml">Icons</a>, <a href="../Dats/Dats.shtml">Snaps</a>,
+      <a href="../Dats/Dats.shtml">Panels</a>,
+      <a href="../Dats/Dats.shtml">MAMu's
+      Icons</a>  and <a href="../Dats/Dats.shtml">CrashTest's Screenshots</a></p> 
      </td>
   </tr>
 </table>
@@ -184,19 +184,19 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       <p align="center">First batch of data files for yesterdays release of MAME
       v0.71:
       </p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME v0.71</a>, <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes
+      <p align="center"><a href="../Dats/Dats.shtml">MAME v0.71</a>, <a href="../Dats/Dats.shtml">MAME Changes
       v0.71</a> and MAME Test Drivers
       v0.71</p>
-      <p align="center"> <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>,
-      <a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a></p>
-      <p align="center"> <a href="../Dats/NebulaJukebox/NebulaJukebox.shtml">Nebula
-      Jukebox</a>, <a href="../Dats/NeoJukeBox/NeoJukeBox.shtml">NeoJukeBox</a>,
-      <a href="../Dats/QPlayer/QPlayer.shtml">QPlayer</a></p>
-      <p align="center"><a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a>, <a href="../Dats/Nebula/Nebula.shtml">Nebula</a>, <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks</a> and <a href="../Dats/M1/M1.shtml">M1</a></p>      
+      <p align="center"> <a href="../Dats/Dats.shtml">CPS-2</a>,
+      <a href="../Dats/Dats.shtml">Neo-Geo</a></p>
+      <p align="center"> <a href="../Dats/Dats.shtml">Nebula
+      Jukebox</a>, <a href="../Dats/Dats.shtml">NeoJukeBox</a>,
+      <a href="../Dats/Dats.shtml">QPlayer</a></p>
+      <p align="center"><a href="../Dats/Dats.shtml">FBA</a>, <a href="../Dats/Dats.shtml">Nebula</a>, <a href="../Dats/Dats.shtml">WinKawaks</a> and <a href="../Dats/Dats.shtml">M1</a></p>      
       <p align="center">More releases:</p>      
-      <p align="center"><a href="../Dats/MAMEFlyers/MAMEFlyers.shtml">Flyers</a>,
-      <a href="../Dats/MAMEMarquees/MAMEMarquees.shtml">Marquees</a>, <a href="../Dats/MAMETitles/MAMETitles.shtml">Titles</a></p>      
-      <p align="center"><a href="../Dats/NebulaModel2/NebulaModel2.shtml">Nebula
+      <p align="center"><a href="../Dats/Dats.shtml">Flyers</a>,
+      <a href="../Dats/Dats.shtml">Marquees</a>, <a href="../Dats/Dats.shtml">Titles</a></p>      
+      <p align="center"><a href="../Dats/Dats.shtml">Nebula
       Model 2</a></p>      
      </td>
   </tr>

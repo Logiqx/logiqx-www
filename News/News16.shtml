@@ -43,8 +43,8 @@ etc.</p>
   <tr>
     <td>
       <p align="center">I have uploaded Roman's resource data files:</p>
-      <p align="center">MAME <a href="../Dats/MAMEArtwork/MAMEArtwork.shtml">Artwork</a>
-      and <a href="../Dats/MAMESamples/MAMESamples.shtml">Samples</a></p>
+      <p align="center">MAME <a href="../Dats/Dats.shtml">Artwork</a>
+      and <a href="../Dats/Dats.shtml">Samples</a></p>
       <p align="center">Due to time pressures and such like, I've decided that I
       will not host the other resource data files anymore.<br>
       Keeping them up to date after a MAME release is too much of a chore for
@@ -71,7 +71,7 @@ etc.</p>
   <tr>
     <td>
       <p align="center">
-      Uploaded data files for <a href="../Dats/Nebula/Nebula.shtml">Nebula</a>
+      Uploaded data files for <a href="../Dats/Dats.shtml">Nebula</a>
       v2.24.</p>
     </td>
   </tr>
@@ -88,14 +88,14 @@ etc.</p>
       The old data files had some long filenames truncated but this problem is
       fixed by MAMEDiff v1.26.&nbsp;</p>
       <p align="center">Released some new data files for MAME v0.80:</p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a> and <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME
+      <p align="center"><a href="../Dats/Dats.shtml">MAME</a> and <a href="../Dats/Dats.shtml">MAME
       Changes</a></p>
       <p align="center">
-      <a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a>, <a href="../Dats/Nebula/Nebula.shtml">Nebula</a>,
-      <a href="../Dats/RAINE/RAINE.shtml">RAINE</a>, <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks</a>,
-      <a href="../Dats/M1/M1.shtml">M1</a></p>
-      <p align="center"><a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a>, <a href="../Dats/NebulaJukebox/NebulaJukebox.shtml">Nebula
-      Jukebox</a>, <a href="../Dats/NeoJukeBox/NeoJukeBox.shtml">NeoJukeBox</a>
+      <a href="../Dats/Dats.shtml">FBA</a>, <a href="../Dats/Dats.shtml">Nebula</a>,
+      <a href="../Dats/Dats.shtml">RAINE</a>, <a href="../Dats/Dats.shtml">WinKawaks</a>,
+      <a href="../Dats/Dats.shtml">M1</a></p>
+      <p align="center"><a href="../Dats/Dats.shtml">Neo-Geo</a>, <a href="../Dats/Dats.shtml">Nebula
+      Jukebox</a>, <a href="../Dats/Dats.shtml">NeoJukeBox</a>
       </p>
     </td>
   </tr>
@@ -106,9 +106,9 @@ etc.</p>
   <tr>
     <td>
       <p align="center">&nbsp;Released some updated data files:</p>
-      <p align="center"><a href="../Dats/RAINE/RAINE.shtml">RAINE</a> (v0.39.4d), <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks</a>
+      <p align="center"><a href="../Dats/Dats.shtml">RAINE</a> (v0.39.4d), <a href="../Dats/Dats.shtml">WinKawaks</a>
       (v1.49),
-      <a href="../Dats/M1/M1.shtml">M1</a> (v0.7.5a3) and <a href="../Dats/ZN/ZN.shtml">ZN</a> 
+      <a href="../Dats/Dats.shtml">M1</a> (v0.7.5a3) and <a href="../Dats/Dats.shtml">ZN</a> 
       (20040302).</p>
     </td>
   </tr>
@@ -147,9 +147,9 @@ etc.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Updated the <a href="../Dats/OlderEmus/OlderEmus.shtml">Older
+      <p align="center">Updated the <a href="../Dats/Dats.shtml">Older
       Emus</a> archive, moving some more data files into it.
-      <p align="center">Released data file for <a href="../Dats/RAINE/RAINE.shtml">RAINE</a>
+      <p align="center">Released data file for <a href="../Dats/Dats.shtml">RAINE</a>
       v0.39.3
       <p align="center">Released <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild
       v1.17</a>
@@ -161,7 +161,7 @@ etc.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Uploaded data files for <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks
+      <p align="center">Uploaded data files for <a href="../Dats/Dats.shtml">WinKawaks
       v1.48</a>
     </td>
   </tr>
@@ -175,7 +175,7 @@ etc.</p>
       old versions of MAME.</p>
       <p align="center">To solve this problem, the site can now dynamically a
       list all of the ZIPs that are still online:</p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a> and <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME
+      <p align="center"><a href="../Dats/Dats.shtml">MAME</a> and <a href="../Dats/Dats.shtml">MAME
       Changes</a></p>
     </td>
   </tr>
@@ -186,9 +186,9 @@ etc.</p>
   <tr>
     <td>
       <p align="center">The data file updates continue...</p>
-      <p align="center"><a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a>, <a href="../Dats/NebulaJukebox/NebulaJukebox.shtml">Nebula
-      Jukebox</a>, <a href="../Dats/NeoJukeBox/NeoJukeBox.shtml">NeoJukeBox</a>
-      and <a href="../Dats/QPlayer/QPlayer.shtml">QPlayer</a></p>
+      <p align="center"><a href="../Dats/Dats.shtml">Neo-Geo</a>, <a href="../Dats/Dats.shtml">Nebula
+      Jukebox</a>, <a href="../Dats/Dats.shtml">NeoJukeBox</a>
+      and <a href="../Dats/Dats.shtml">QPlayer</a></p>
       <p align="center">Be sure to check all of yesterdays updates in case you
       missed any!
     </td>
@@ -205,22 +205,22 @@ etc.</p>
       They now write 'flags nodump' rather than 'crc 00000000', for improved
       CMPro resource handling.</p>
       <p align="center">Updated data files in relation to MAME v0.79:</p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a> and <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME
+      <p align="center"><a href="../Dats/Dats.shtml">MAME</a> and <a href="../Dats/Dats.shtml">MAME
       Changes</a></p>
-      <p align="center"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final Burn</a>,
-      <a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a>, <a href="../Dats/Nebula/Nebula.shtml">Nebula</a>,
-      <a href="../Dats/RAINE/RAINE.shtml">RAINE</a>, <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks</a>,
-      <a href="../Dats/M1/M1.shtml">M1</a></p>
+      <p align="center"><a href="../Dats/Dats.shtml">Final Burn</a>,
+      <a href="../Dats/Dats.shtml">FBA</a>, <a href="../Dats/Dats.shtml">Nebula</a>,
+      <a href="../Dats/Dats.shtml">RAINE</a>, <a href="../Dats/Dats.shtml">WinKawaks</a>,
+      <a href="../Dats/Dats.shtml">M1</a></p>
       <p align="center">The resource data files (CPS-2, Neo-Geo and ZN) also
       need updating but I'll do those later.</p>
       <p align="center">...some time later...</p>
-      <p align="center">There is a new <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
+      <p align="center">There is a new <a href="../Dats/Dats.shtml">CPS-2</a>
       data file for you all (not just a supplement update).</p>
       <p align="center">...and a little later still...</p>
-      <p align="center">MAME <a href="../Dats/MAMEArtwork/MAMEArtwork.shtml">Artwork</a>
-      and <a href="../Dats/MAMESamples/MAMESamples.shtml">Samples</a></p>
+      <p align="center">MAME <a href="../Dats/Dats.shtml">Artwork</a>
+      and <a href="../Dats/Dats.shtml">Samples</a></p>
       <p align="center">...and finally...</p>
-      <p align="center">Uploaded new <a href="../Dats/ZN/ZN.shtml">ZN</a> data
+      <p align="center">Uploaded new <a href="../Dats/Dats.shtml">ZN</a> data
       files for Capcom ZN-1 and ZN-2 games.</p>
     </td>
   </tr>
@@ -233,8 +233,8 @@ etc.</p>
       <p align="center">Made some enhancements to <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a>  
       (v1.30)
       and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>     (v1.24).</p>
-      <p align="center">Released data files for <a href="../Dats/M1/M1.shtml">M1
-      v0.7.4b</a> and <a href="../Dats/RAINE/RAINE.shtml">RAINE v0.39.2</a>.</p>
+      <p align="center">Released data files for <a href="../Dats/Dats.shtml">M1
+      v0.7.4b</a> and <a href="../Dats/Dats.shtml">RAINE v0.39.2</a>.</p>
       <p align="center">Changed the menu on the left of this page slightly,
       tidied up the links page and
       also removed the 'MAME MD5' experiment.</p>
@@ -251,7 +251,7 @@ etc.</p>
       <p align="center">Released some bug fixes for my tools... <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a>  
       (v1.29)
       and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>   (v1.23).</p>
-      <p align="center">I have also rebuilt the <a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME
+      <p align="center">I have also rebuilt the <a href="../Dats/Dats.shtml">MAME
       v0.78</a> data files using the new tools.<br>
       Note: The most affected collection is 'MAME v0.78 (Split-merged Changes)'
       - it is now much smaller!</p>

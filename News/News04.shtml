@@ -43,19 +43,19 @@ people reporting non-existent errors in it!</p>
     If you have trouble accessing my page after the migration then you have my apologies and I
     will fix it on my return.</p>
     <p align="center"><font size="3">Seeing as I will be away for a few days I have created <a
-    href="../Dats/Nebula/Nebula.shtml">Nebula</a> dats in anticipation of Saturday's launch.<br>
+    href="../Dats/Dats.shtml">Nebula</a> dats in anticipation of Saturday's launch.<br>
     The dats are of all currently emulated CPS-2 games (i.e. everything Nebula <em>could</em>
     support).<br>
     I do not guarantee all games will supported but I'm sure they will be very soon!</font></p>
     <p align="center">Again, as I am away I have uploaded dats for <font size="3"><a
-    href="../Dats/FinalBurn/FinalBurn.shtml">Final Burn v0.113</a> (X-Men Vs Street Fighter added).</font></p>
+    href="../Dats/Dats.shtml">Final Burn v0.113</a> (X-Men Vs Street Fighter added).</font></p>
     <p align="center">Uploaded new ROMCenter dat for <font size="3"><a
-    href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME v0.37 beta 13</a>.<br>
+    href="../Dats/Dats.shtml">MAME v0.37 beta 13</a>.<br>
     There was a problem with ROMCenter's handling of NeoGeo/Deco games but the new dat works
     around it.<br>
     The problem didn't affect split-merged sets (the most common choice), just the other two
     types.</font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2</a>
     dats (XORs added for X-Men Vs Street Fighter).</font></td>
   </tr>
 </table>
@@ -90,7 +90,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
+    <td><p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2</a>
     dats (XORs added for Super Street Fighter 2 Japan).</font></td>
   </tr>
 </table>
@@ -99,7 +99,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.112</a> (Cyberbots added).</font></td>
   </tr>
 </table>
@@ -108,9 +108,9 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
+    <td><p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2</a>
     dats (</font>cybotsj<font size="3"> has been redumped).</font></p>
-    <p align="center">Updated <a href="../Dats/OlderEmus/OlderEmus.shtml">Xevious Emulator and HiVE</a>
+    <p align="center">Updated <a href="../Dats/Dats.shtml">Xevious Emulator and HiVE</a>
     dats (see notes within the archive itself).</p>
     <p align="center">Released v1.6 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>:</p>
     <p align="center">Fixed problem affecting NeoRAGEx/Callus builds from unzipped ROMs.<br>
@@ -124,7 +124,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
+    <td><p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2</a>
     dats (</font>Added XOR files for cybotsj<font size="3">).</font></td>
   </tr>
 </table>
@@ -142,7 +142,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
+    <td><p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2</a>
     dats (</font>Added XOR files for avspj and a couple of renames in xmvsf<font size="3">).</font></p>
     <p align="center">100,000 Visitors... not bad for my modest little site!</td>
   </tr>
@@ -160,7 +160,7 @@ people reporting non-existent errors in it!</p>
     fix to exclude resources from the game and ROM totals.</p>
     <p align="center">Released v1.5 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>. Added
     SonSon support for RAGE, Replay, Rockulator++ and SonSon Emulator.</p>
-    <p align="center">Updated <a href="../Dats/OlderEmus/OlderEmus.shtml">QPlayer, NeoJukeBox,
+    <p align="center">Updated <a href="../Dats/Dats.shtml">QPlayer, NeoJukeBox,
     Rockulator++, Replay, RAGE and SonSon</a> dats (see notes within the archive itself).</td>
   </tr>
 </table>
@@ -169,7 +169,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <a href="../Dats/MAMEBeta/MAMEBeta.shtml"><font size="3">MAME
+    <td><p align="center">Uploaded dats for <a href="../Dats/Dats.shtml"><font size="3">MAME
     v0.37 beta 13</font></a></p>
     <p align="center"><font size="3">Released dats for Calice
     v0.1.4 (added lots of Street Fighter 2 variants ).</font></td>
@@ -180,9 +180,9 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.111</a> (19xx added).</font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2</a>
     dats (XORs for for 19xx and ROM details for Alien vs Predator Japan).</font></td>
   </tr>
 </table>
@@ -193,7 +193,7 @@ people reporting non-existent errors in it!</p>
   <tr>
     <td><p align="center"><font size="3">Released dats for Calice
     v0.1.2 (added megaman, rockmanj and wof ).</font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2</a>
     dats (XORs for Super Street Fighter 2 USA added).</font></td>
   </tr>
 </table>
@@ -202,9 +202,9 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.110</a> (Quiz Nanairo Dreams added).</font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2</a>
     dats (XORs for Quiz Nanairo Dreams added).</font></td>
   </tr>
 </table>
@@ -213,7 +213,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.109</a> (Ring of Destruction: Slammasters II added).</font></td>
   </tr>
 </table>
@@ -222,7 +222,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <td><p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... Added XOR files for Ring of Destruction: Slammasters II.</font></td>
   </tr>
 </table>
@@ -234,7 +234,7 @@ people reporting non-existent errors in it!</p>
     <td><p align="center">Released v1.4 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>.
     Added support for QSound Player and NeoRAGEx so you can generate any NeoRAGEx set from
     MAME sets.</p>
-    <p align="center">Updated <a href="../Dats/OlderEmus/OlderEmus.shtml">QSound Player, QPlayer,
+    <p align="center">Updated <a href="../Dats/Dats.shtml">QSound Player, QPlayer,
     NeoJukeBox and NeoRAGEx</a> dats (see notes within the archive itself).</p>
     <p align="center">Update: Some ROMCenter users had difficulties with the new NeoRAGEx dat
     (caused hangs). I have now uploaded a new version to prevent this.</td>
@@ -245,7 +245,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.108</a> (X-Men Jap added back in).</font></td>
   </tr>
 </table>
@@ -254,11 +254,11 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.107</a> (X-Men USA and Street Fighter 2 added, Jap X-Men removed).</font></p>
     <p align="center"><font size="3">Released dats for VAntAGE
     v1.11.</font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... XORs for X-Men (USA) added plus a couple of redumps and renames.</font></td>
   </tr>
 </table>
@@ -267,7 +267,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.106</a> (Final Fight added).</font></td>
   </tr>
 </table>
@@ -278,11 +278,11 @@ people reporting non-existent errors in it!</p>
   <tr>
     <td><p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil v1.6</a> (added
     '-m' option to improve MAME's merging information).</p>
-    <p align="center">Improved dats for <a href="../Dats/MAMEBeta/MAMEBeta.shtml"><font size="3">MAME
+    <p align="center">Improved dats for <a href="../Dats/Dats.shtml"><font size="3">MAME
     v0.37 beta 12</font></a> (Only ROMCenter users who use split-merging need this new dat).</p>
-    <p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.103</a> (Super Street Fighter 2 Turbo added).</font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... XORs for Super Street Fighter 2 added and some ROM redumps.</font></td>
   </tr>
 </table>
@@ -291,7 +291,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.102</a> (Street Fighter Alpha 2 added).</font></td>
   </tr>
 </table>
@@ -300,7 +300,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <a href="../Dats/MAMEBeta/MAMEBeta.shtml"><font size="3">MAME
+    <td><p align="center">Uploaded dats for <a href="../Dats/Dats.shtml"><font size="3">MAME
     v0.37 beta 12 fixed binary </font></a>(only msh.02 changed).</td>
   </tr>
 </table>
@@ -309,7 +309,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.101</a> (Alien vs Predator added and set reorganisations made).</font></td>
   </tr>
 </table>
@@ -318,9 +318,9 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.100</a> (Super Street Fighter 2 and Marvel Super Heroes added).</font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... MAME v0.37b12 plus additional info from CPS2Shock.</font></td>
   </tr>
 </table>
@@ -329,7 +329,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <a href="../Dats/MAMEBeta/MAMEBeta.shtml"><font size="3">MAME
+    <td><p align="center">Uploaded dats for <a href="../Dats/Dats.shtml"><font size="3">MAME
     v0.37 beta 12</font></a></p>
     <p align="center"><font size="3">Updated dats for tROMbone
     v0.11</font></td>
@@ -358,7 +358,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/RAINE/RAINE.shtml">RAINE
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">RAINE
     v0.30a</a>.</font></td>
   </tr>
 </table>
@@ -369,7 +369,7 @@ people reporting non-existent errors in it!</p>
   <tr>
     <td><p align="center"><font size="3">The CPS-2 dat released earlier contained a typo,
     corrected version now online.</font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... fixed bad ROM in Alien Vs Predator.</font></td>
   </tr>
 </table>
@@ -387,7 +387,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <td><p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... decrypt files for Super Street Fighter 2 (USA) added.</font></td>
   </tr>
 </table>
@@ -421,9 +421,9 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.096</a> (another X-Men added).</font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... a couple of games added.</font></td>
   </tr>
 </table>
@@ -432,9 +432,9 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.092</a> (Dungeons and Dragons added).<br>
-    Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2 dat</a>... ddtod and
+    Another release of the <a href="../Dats/Dats.shtml">CPS-2 dat</a>... ddtod and
     ddtodr1decryption data files included.</font></p>
     <p align="center"><font size="3">Released dats for Laser
     v0.16 (4 games added).</font></td>
@@ -449,12 +449,12 @@ people reporting non-existent errors in it!</p>
     v0.0.6 (11 games added).</font></p>
     <p align="center">Released v1.3 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>. This
     supports Road Runner for Sideway and removes RAINE (no longer required).</p>
-    <p align="center">Uploaded dats for <font size="3"><a href="../Dats/RAINE/RAINE.shtml">RAINE
+    <p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">RAINE
     v0.30</a>.</font></p>
-    <p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.090</a> (</font>X-Men: Children of the Atom added as well as CPS-1 sound<font
     size="3">).</font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... added decrypt files for xmcotaj.</font></td>
   </tr>
 </table>
@@ -463,7 +463,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <td><p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... some name changes (relating to MAME).</font></td>
   </tr>
 </table>
@@ -472,7 +472,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.085</a> (Megaman, Rockman and Gouls'n Ghosts added).</font></td>
   </tr>
 </table>
@@ -481,12 +481,12 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <td><p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... two more clones, more decryption data files and some reorganisation.</font></p>
     <p align="center"><font size="3">Released dats for the newly released Calice v0.0.3a</font></p>
     <p align="center"><font size="3">Updated dats for WPCmame
     v0.37b8 ver 6</font></p>
-    <p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.080</a> (Vampire Japan added).</font></td>
   </tr>
 </table>
@@ -508,12 +508,12 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.077</a> (Vampire Savior Japan added).<br>
-    Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2 dat</a>... vsavj decryption data
+    Another release of the <a href="../Dats/Dats.shtml">CPS-2 dat</a>... vsavj decryption data
     files included.</font></p>
     <p align="center"><font size="3">Earlier:</font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... sfar1 renamed to sfaer1 (confirmed as Euro version) and decryption data files
     included.</font></td>
   </tr>
@@ -523,9 +523,9 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.076</a> (Street Fighter Alpha added).</font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... a couple of ROM renames in Street Fighter Alpha/Zero (courtesy of Razoola).</font></td>
   </tr>
 </table>
@@ -538,10 +538,10 @@ people reporting non-existent errors in it!</p>
     <p align="center">Released v1.2 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>. This
     deals with some Galaxian ROM changes made in MAME v0.37 b11.</p>
     <p align="center"><font size="3"><strong>CMPro/ROMCenter Arcade Dat Pack</strong></font></p>
-    <p align="center"><font size="3">Updated some of the <a href="../Dats/OlderEmus/OlderEmus.shtml">dats</a>
+    <p align="center"><font size="3">Updated some of the <a href="../Dats/Dats.shtml">dats</a>
     slightly</font>.</p>
     <p align="center"><font size="3"><strong>CPS-2 Dat</strong></font></p>
-    <p align="center"><font size="3">Another release of the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2
+    <p align="center"><font size="3">Another release of the <a href="../Dats/Dats.shtml">CPS-2
     dat</a>... added a couple of new Japanese clones from Team Japump.</font></td>
   </tr>
 </table>
@@ -550,7 +550,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <a href="../Dats/MAMEBeta/MAMEBeta.shtml"><font size="3">MAME
+    <td><p align="center">Uploaded dats for <a href="../Dats/Dats.shtml"><font size="3">MAME
     v0.37 beta 11</font></a></td>
   </tr>
 </table>
@@ -559,7 +559,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <a href="../Dats/FinalBurn/FinalBurn.shtml"><font size="3">Final
+    <td><p align="center">Uploaded dats for <a href="../Dats/Dats.shtml"><font size="3">Final
     Burn v0.069</font></a></td>
   </tr>
 </table>
@@ -587,7 +587,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
+    <td><p align="center">Uploaded dats for <font size="3"><a href="../Dats/Dats.shtml">Final
     Burn v0.063</a> (and above)</font></td>
   </tr>
 </table>
@@ -596,7 +596,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Uploaded dats for <a href="../Dats/FinalBurn/FinalBurn.shtml"><font size="3">Final
+    <td><p align="center">Uploaded dats for <a href="../Dats/Dats.shtml"><font size="3">Final
     Burn v0.061</font></a></td>
   </tr>
 </table>
