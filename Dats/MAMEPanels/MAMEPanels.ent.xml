@@ -2,11 +2,11 @@
 <emulator id="MAMEPanels">
 	<img src="MAMEPanels.gif" width="168" height="40"/>
 	<name>MAME Panels</name>
-	<version>20030811</version>
+	<version>20031115</version>
 	<suitability/>
-	<status/>
-	<date>07/09/2003</date>
-	<games>936</games>
+	<status>Updated</status>
+	<date>16/11/2003</date>
+	<games>1078</games>
 	<author href="http://www.clrmame.com/">Roman Scherzer</author>
 	<comment>
 		<p>Maintained by <a href="http://www.eldio.co.uk/">Eldio</a>.</p>
@@ -14,17 +14,17 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Panels%2020030811%20(cm).zip" size="27"/>
+			<file name="MAME%20Panels%2020031115%20(cm).zip" size="18"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Panels%2020030811%20(rc).zip" size="12"/>
+			<file name="MAME%20Panels%2020031115%20(rc).zip" size="18"/>
 		</dat>
 	</dats>
 	<revisions>
 		<revision>
-			<date>13 November 2003</date>
-			<comment>No change required for MAME v0.77.</comment>
+			<date>16 November 2003</date>
+			<comment>Uploaded the latest release by Eldio  (contains details for Control Panel Packs 17-20).</comment>
 		</revision>
 		<revision>
 			<date>18 September 2003</date>

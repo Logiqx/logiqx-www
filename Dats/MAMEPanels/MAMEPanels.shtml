@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAME Panels 20030811</title>
+    <title>MAME Panels 20031115</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="MAMEPanels.gif" width="168" height="40"></p>
-	<p>936 games of MAME Panels 20030811</p>
+	<p>1078 games of MAME Panels 20031115</p>
 	
 	
 	
@@ -23,15 +23,15 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Panels%2020030811%20(cm).zip">MAME Panels dat for CMPro</a> (27KB)</p>
+            <p>Download <a href="MAME%20Panels%2020031115%20(cm).zip">MAME Panels dat for CMPro</a> (18KB)</p>
             <p>
-              <a href="MAME%20Panels%2020030811%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Panels%2020031115%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Panels%2020030811%20(rc).zip">MAME Panels dat for ROMCenter</a> (12KB)</p>
+            <p>Download <a href="MAME%20Panels%2020031115%20(rc).zip">MAME Panels dat for ROMCenter</a> (18KB)</p>
             <p>
-              <a href="MAME%20Panels%2020030811%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Panels%2020031115%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
@@ -40,10 +40,10 @@
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
       <p>
         <strong>
-          <u>13 November 2003</u>
+          <u>16 November 2003</u>
         </strong> - 
 			
-			No change required for MAME v0.77.
+			Uploaded the latest release by Eldio  (contains details for Control Panel Packs 17-20).
 		</p>
       <p>
         <strong>

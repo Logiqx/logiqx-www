@@ -2,11 +2,11 @@
 <emulator id="MAMETitles">
 	<img src="MAMETitles.gif" width="150" height="40"/>
 	<name>MAME Titles</name>
-	<version>20031019a</version>
+	<version>20031116a</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>13/11/2003</date>
-	<games>2594</games>
+	<date>16/11/2003</date>
+	<games>2622</games>
 	<author href="http://www.mametitles.com/">Petr1fied</author>
 	<comment>
 		<p>Maintained by <a href="http://www.mametitles.com/">Petr1fied</a>.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Titles%2020031019a%20(cm).zip" size="39"/>
+			<file name="MAME%20Titles%2020031116a%20(cm).zip" size="77"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Titles%2020031019a%20(rc).zip" size="38"/>
+			<file name="MAME%20Titles%2020031116a%20(rc).zip" size="75"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>16 November 2003</date>
+			<comment>Data file for MAME v0.77 by Petr1fied.<br/>Now includes data file for images with borders removed (CBR).</comment>
+		</revision>
 		<revision>
 			<date>13 November 2003</date>
 			<comment>Better late than never: a small update to the MAME v0.76 data file by Petr1fied.</comment>
