@@ -24,7 +24,7 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20v0.79%20(cm).zip">MAME dat for CMPro</a> (648KB)</p>
+            <p>Download <a href="MAME%20v0.79%20(cm).zip">MAME dat for CMPro</a> (647KB)</p>
             <p>
               <a href="MAME%20v0.79%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -39,6 +39,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>6 March 2004</u>
+        </strong> - 
+			
+			Updated dats for MAME v0.79 (using MAMEDiff v1.26).
+		</p>
       <p>
         <strong>
           <u>31 January 2004</u>

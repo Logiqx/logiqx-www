@@ -15,7 +15,7 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20v0.79%20(cm).zip" size="648"/>
+			<file name="MAME%20v0.79%20(cm).zip" size="647"/>
 		</dat>
 		<dat>
 			&ROMCenter;
@@ -23,6 +23,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>6 March 2004</date>
+			<comment>Updated dats for MAME v0.79 (using MAMEDiff v1.26).</comment>
+		</revision>
 		<revision>
 			<date>31 January 2004</date>
 			<comment>Uploaded dats for MAME v0.79.</comment>
