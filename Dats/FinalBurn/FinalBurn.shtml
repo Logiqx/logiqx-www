@@ -20,13 +20,13 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="Final%20Burn%20v0.517%20(cm).zip">Final Burn dat for CMPro</a> (44KB)</p>
+            <p>Download <a href="Final%20Burn%20v0.517%20(cm).zip">Final Burn dat for CMPro</a> (40KB)</p>
             <p>
               <a href="Final%20Burn%20v0.517%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="Final%20Burn%20v0.517%20(rc).zip">Final Burn dat for ROMCenter</a> (44KB)</p>
+            <p>Download <a href="Final%20Burn%20v0.517%20(rc).zip">Final Burn dat for ROMCenter</a> (41KB)</p>
             <p>
               <a href="Final%20Burn%20v0.517%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -35,6 +35,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>31 January 2004</u>
+        </strong> - 
+			
+			Updated supplements for MAME v0.79.
+		</p>
       <p>
         <strong>
           <u>13 November 2003</u>

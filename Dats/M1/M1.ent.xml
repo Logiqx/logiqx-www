@@ -5,7 +5,7 @@
 	<version>v0.7.4b</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>24/01/2004</date>
+	<date>31/01/2004</date>
 	<games>1055</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="M1%20v0.7.4b%20(cm).zip" size="106"/>
+			<file name="M1%20v0.7.4b%20(cm).zip" size="108"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="M1%20v0.7.4b%20(rc).zip" size="105"/>
+			<file name="M1%20v0.7.4b%20(rc).zip" size="107"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>31 January 2004</date>
+			<comment>Updated supplements for MAME v0.79.</comment>
+		</revision>
 		<revision>
 			<date>24 January 2004</date>
 			<comment>Updated for M1 v0.7.4b (48 games added).</comment>

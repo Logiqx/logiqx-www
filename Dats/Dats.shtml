@@ -68,44 +68,52 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="FinalBurnAlpha/FinalBurnAlpha.shtml">FBA v0.2.94.96</a>
+            <a href="FinalBurnAlpha/FinalBurnAlpha.shtml">FBA v0.2.94.98</a>
           </td>
-          <td align="center"></td>
-          <td align="center">29/12/2003</td>
-          <td align="center">490</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>31/01/2004</strong>
+          </td>
+          <td align="center">
+            <strong>494</strong>
+          </td>
         </tr>
 
 			
 <tr>
           <td>
             <a href="FinalBurn/FinalBurn.shtml">Final Burn v0.517</a> (suitable for v0.518)</td>
-          <td align="center"></td>
-          <td align="center">14/10/2003</td>
-          <td align="center">57</td>
-        </tr>
-
-			
-<tr>
-          <td>
-            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.78</a>
-          </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>20/01/2004</strong>
+            <strong>31/01/2004</strong>
           </td>
           <td align="center">
-            <strong>4705</strong>
+            <strong>57</strong>
           </td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.78</a>
+            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.79</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>20/01/2004</strong>
+            <strong>31/01/2004</strong>
+          </td>
+          <td align="center">
+            <strong>4752</strong>
+          </td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.79</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>31/01/2004</strong>
           </td>
           <td align="center">
             <strong>Various</strong>
@@ -117,9 +125,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="Nebula/Nebula.shtml">Nebula v2.23d</a>
           </td>
-          <td align="center"></td>
-          <td align="center">29/12/2003</td>
-          <td align="center">411</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>31/01/2004</strong>
+          </td>
+          <td align="center">
+            <strong>411</strong>
+          </td>
         </tr>
 
 			
@@ -139,7 +151,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>24/01/2004</strong>
+            <strong>31/01/2004</strong>
           </td>
           <td align="center">
             <strong>468</strong>
@@ -161,9 +173,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="WinKawaks/WinKawaks.shtml">WinKawaks v1.47b</a>
           </td>
-          <td align="center"></td>
-          <td align="center">14/10/2003</td>
-          <td align="center">396</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>31/01/2004</strong>
+          </td>
+          <td align="center">
+            <strong>396</strong>
+          </td>
         </tr>
 
 		</table>
@@ -288,7 +304,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>24/01/2004</strong>
+            <strong>31/01/2004</strong>
           </td>
           <td align="center">
             <strong>1055</strong>

@@ -24,14 +24,18 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff124.zip">MAMEDiff v1.24</a> (41KB)</p>
+<p align="center">Download <a href="mdiff125.zip">MAMEDiff v1.25</a> (41KB)</p>
 
-<p align="center"><a href="mdiff124.zip"><img src="../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff125.zip"><img src="../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>31 January 2004</u></strong> - MAMEDiff v1.25</p>
+
+<p align="center">When generating data files and log files, 'crc 00000000' is now written out as 'status nodump'.</p>
 
 <p align="center"><strong><u>24 January 2004</u></strong> - MAMEDiff v1.24</p>
 

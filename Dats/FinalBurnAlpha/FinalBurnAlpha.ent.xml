@@ -2,23 +2,27 @@
 <emulator id="FinalBurnAlpha">
 	<img src="FinalBurnAlpha.gif" width="195" height="40"/>
 	<name>FBA</name>
-	<version>v0.2.94.96</version>
+	<version>v0.2.94.98</version>
 	<suitability/>
-	<status></status>
-	<date>29/12/2003</date>
-	<games>490</games>
+	<status>Updated</status>
+	<date>31/01/2004</date>
+	<games>494</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="FBA%20v0.2.94.96%20(cm).zip" size="72"/>
+			<file name="FBA%20v0.2.94.98%20(cm).zip" size="74"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="FBA%20v0.2.94.96%20(rc).zip" size="92"/>
+			<file name="FBA%20v0.2.94.98%20(rc).zip" size="93"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>31 January 2004</date>
+			<comment>Updated for FBA v0.2.94.98.</comment>
+		</revision>
 		<revision>
 			<date>29 December 2003</date>
 			<comment>Updated supplements for MAME v0.78.</comment>

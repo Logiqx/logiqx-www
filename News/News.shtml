@@ -38,6 +38,28 @@ etc.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>31 January 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+      <p align="center">Made a small enhancement to <a href="../DatUtil/DatUtil.shtml">DatUtil</a>  
+      (v1.31)
+      and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>      (v1.25).<br>
+      They now write 'flags nodump' rather than 'crc 00000000', for improved
+      CMPro resource handling.</p>
+      <p align="center">Updated data files in relation to MAME v0.79:</p>
+      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a> and <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME
+      Changes</a></p>
+      <p align="center"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final Burn</a>,
+      <a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a>, <a href="../Dats/Nebula/Nebula.shtml">Nebula</a>,
+      <a href="../Dats/RAINE/RAINE.shtml">RAINE</a>, <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks</a>,
+      <a href="../Dats/M1/M1.shtml">M1</a></p>
+      <p align="center">The resource data files (CPS-2, Neo-Geo and ZN) also
+      need updating but I'll do those later.</p>
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>24 January 2004</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>

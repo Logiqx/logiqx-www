@@ -4,8 +4,8 @@
 	<name>Nebula</name>
 	<version>v2.23d</version>
 	<suitability/>
-	<status></status>
-	<date>29/12/2003</date>
+	<status>Updated</status>
+	<date>31/01/2004</date>
 	<games>411</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
                         &CMPro;
-			<file name="Nebula%20v2.23d%20(cm).zip" size="81"/>
+			<file name="Nebula%20v2.23d%20(cm).zip" size="77"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-                        <file name="Nebula%20v2.23d%20(rc).zip" size="94"/>
+                        <file name="Nebula%20v2.23d%20(rc).zip" size="91"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>31 January 2004</date>
+			<comment>Updated supplements for MAME v0.79.</comment>
+		</revision>
 		<revision>
 			<date>29 December 2003</date>
 			<comment>Updated supplements for MAME v0.78.</comment>
