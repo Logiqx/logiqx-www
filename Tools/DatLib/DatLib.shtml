@@ -25,15 +25,28 @@ by tools such as DatUtil, MAMEDiff, ROMBuild, ROMInfo and ZipIdent.</p>
 <p align="center">This package is a source only release and is only required if
 you want to compile any of my tools.</p>
 
-<p align="center"><font color="#000000">Download </font><a href="datlib16.zip">DatLib
-v1.6</a><font color="#000000">    (57KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="datlib17.zip">DatLib
+v1.7</a><font color="#000000">     (60KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="datlib16.zip"><img
+<p align="center"><font color="#000000"><a href="datlib17.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>21 July 2004</strong>
+</u>- DatLib v1.7<br>
+<br>
+- Added support for MESS XML.<br>
+            - Added disks and samples to the game_zip structures.<br>
+            - Now avoids duplicate ROMs getting into the game_zip structures.<br>
+            - Added OPTION_INCLUDE_NODUMPS_IN_ZIPS for game_zip structures.<br>
+            - Directory scanner now supports CHDs (when in a game directory).<br>
+            - Directory scanner can spoof samples (OPTION_OBJECT_TYPE_SAMPLE).<br>
+            - Improved 'fix merging' (where clone ROMs are not in the parent).<br>
+            - Enhanced 'fix merging' to work for disks (SHA1/MD5 are copied).<br>
+            - Added check for SHA1/MD5 conflicts of disks across clones.</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>18 July 2004</strong>
 </u>- DatLib v1.6<br>

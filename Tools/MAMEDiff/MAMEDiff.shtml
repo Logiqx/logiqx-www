@@ -24,14 +24,24 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff25.zip">MAMEDiff v2.5</a> (86KB)</p>
+<p align="center">Download <a href="mdiff26.zip">MAMEDiff v2.6</a> (92KB)</p>
 
-<p align="center"><a href="mdiff25.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff26.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>21 July 2004</u></strong> - MAMEDiff v2.6</p>
+
+<p align="center">- Uses DatLib v1.7<br>
+            - Added support for MESS XML.<br>
+            - Avoids duplicate ROMs in MAMEDiff -d1/-d2/-d3 data files.<br>
+            - Added support for disks and samples in the -d1/-d2/-d3 options.<br>
+              Use '-o disk' or '-o sample' to specify the desired object type.<br>
+              These options even work when comparing directories against dats!<br>
+            - Added instructions to the readme about ROM/disk/sample auditing.</p>
 
 <p align="center"><strong><u>18 July 2004</u></strong> - MAMEDiff v2.5</p>
 

@@ -38,6 +38,22 @@ etc.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>21 July 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
+        v2.4</a>
+      and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v2.6</a> - see the
+        release notes for what's new.<p align="center"><a href="../Tools/DatLib/DatLib.shtml">DatLib
+        v1.7</a> also goes with these releases.<p align="center"><b>Note: DatLib
+        is only required if you intend to compile your own versions of tools
+        such as DatUtil and MAMEDiff. All of my tools should compile under MinGW,
+        CygWin and other GCC variants (including on Linux).</b>
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>18 July 2004</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
