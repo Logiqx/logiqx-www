@@ -20,7 +20,7 @@ ECHO Creating %LOGIQX%\WWW\Upload\all.tar.gz...
 
 cd %LOGIQX%\WWW_update
 ECHO.
-tar cvfz ../WWW/Upload/all.tar.gz *
+tar cvfz ../WWW/Upload/all.tar.gz --exclude=CVS *
 
 ECHO.
 ECHO All done!
