@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAME Samples 20040128</title>
+    <title>MAME Samples 20040307</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="MAMESamples.gif" width="188" height="40"></p>
-	<p>57 games of MAME Samples 20040128</p>
+	<p>57 games of MAME Samples 20040307</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Samples%2020040128%20(cm).zip">MAME Samples dat for CMPro</a> (30KB)</p>
+            <p>Download <a href="MAME%20Samples%2020040307%20(cm).zip">MAME Samples dat for CMPro</a> (30KB)</p>
             <p>
-              <a href="MAME%20Samples%2020040128%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Samples%2020040307%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Samples%2020040128%20(rc).zip">MAME Samples dat for ROMCenter</a> (12KB)</p>
+            <p>Download <a href="MAME%20Samples%2020040307%20(rc).zip">MAME Samples dat for ROMCenter</a> (12KB)</p>
             <p>
-              <a href="MAME%20Samples%2020040128%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Samples%2020040307%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>15 March 2004</u>
+        </strong> - 
+			
+			Updated for MAME v0.80 by Roman Scherzer.
+		</p>
       <p>
         <strong>
           <u>31 January 2004</u>

@@ -79,8 +79,7 @@
 		<img src="ResourceFiles.gif" width="177" height="40"/>
 		<type>Resource</type>
 		<comment>
-			<p>Dats for emulator resource files.</p>
-			<p>These are not created by me so if you have questions about their contents, please contact the author of the dat (e-mail details are in the dats themselves).</p>
+			<p>Additional resources that enhance the emulation of games.</p>
 		</comment>
 		<emulators>
 			&MAMEArtwork;
