@@ -44,9 +44,11 @@ etc.</p>
     <td>
       <p align="center">Made some enhancements to <a href="../DatUtil/DatUtil.shtml">DatUtil</a>  
       (v1.30)
-      and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>    (v1.31).</p>
+      and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>     (v1.24).</p>
       <p align="center">Released data files for <a href="../Dats/M1/M1.shtml">M1
       v0.7.4b</a> and <a href="../Dats/RAINE/RAINE.shtml">RAINE v0.39.2</a>.</p>
+      <p align="center">Changed the menu on the left of this page slightly and
+      also removed the 'MAME MD5' experiment.</p>
     </td>
   </tr>
 </table>
