@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY M1 SYSTEM "M1.ent.xml">
-]>
-
-<emulator_page>
-	&M1;
-</emulator_page>

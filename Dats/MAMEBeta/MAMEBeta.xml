@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY MAMEBeta SYSTEM "MAMEBeta.ent.xml">
-]>
-
-<emulator_page>
-	&MAMEBeta;
-</emulator_page>
