@@ -107,11 +107,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="RAINE/RAINE.shtml">RAINE v0.41.1</a>
+            <a href="RAINE/RAINE.shtml">RAINE v0.42.0</a>
           </td>
-          <td align="center"></td>
-          <td align="center">23/09/2004</td>
-          <td align="center">507</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>23/11/2004</strong>
+          </td>
+          <td align="center">
+            <strong>535</strong>
+          </td>
         </tr>
 
 			<tr>

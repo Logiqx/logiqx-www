@@ -223,19 +223,19 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						-
+						updated
 					</font>
             </b>
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="RAINE/RAINE%20v0.41.1%20(rc).zip">
+              <a href="RAINE/RAINE%20v0.42.0%20(rc).zip">
                 <b>RAINE</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">v0.41.1</font>
+            <font face="Arial" size="2">v0.42.0</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -245,10 +245,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">507</font>
+            <font face="Arial" size="2">535</font>
           </td>
           <td>
-            <font face="Arial" size="2">23/09/2004</font>
+            <font face="Arial" size="2">23/11/2004</font>
           </td>
         </tr>
 
@@ -363,7 +363,7 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="Zinc/Zinc%20v1.0.2%20(rc).zip">
+              <a href="Zinc/ZiNc%20v1.0.2%20(rc).zip">
                 <b>ZiNc</b>
               </a>
             </font>
