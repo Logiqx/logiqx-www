@@ -312,7 +312,7 @@ HowTo	012_update.png	10862
 HowTo	Compiling.gif	4992
 HowTo	cvs-1-11-17.zip	358012
 HowTo	Downloading.gif	4965
-HowTo	Downloading.shtml	6259
+HowTo	Downloading.shtml	6234
 HowTo	HowTo.gif	3124
 HowTo	HowTo.shtml	1727
 HowTo	jCVS.gif	2537
