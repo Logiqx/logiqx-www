@@ -22,19 +22,19 @@ email=support@romcenter.com
 ;Daphne;v0.99.6;30;Logiqx;http://www.logiqx.com;;14/09/2003;http://www.logiqx.com/Dats/Daphne/Daphne%20v0.99.6%20(rc).zip
 
 
-updated;FBA;v0.2.94.96;490;Logiqx;http://www.logiqx.com;;29/12/2003;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.94.96%20(rc).zip
+;FBA;v0.2.94.96;490;Logiqx;http://www.logiqx.com;;29/12/2003;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.94.96%20(rc).zip
 
 
 ;Final Burn;v0.517;57;Logiqx;http://www.logiqx.com;;14/10/2003;http://www.logiqx.com/Dats/FinalBurn/Final%20Burn%20v0.517%20(rc).zip
 
 
-updated;MAME;v0.78;4705;Logiqx;http://www.logiqx.com;;29/12/2003;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.78%20(rc).zip
+updated;MAME;v0.78;4705;Logiqx;http://www.logiqx.com;;20/01/2004;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.78%20(rc).zip
 
 
-updated;MAME Changes;v0.78;Various;Logiqx;http://www.logiqx.com;;29/12/2003;http://www.logiqx.com/Dats/MAMEChanges/MAME%20Changes%20v0.78%20(rc).zip
+updated;MAME Changes;v0.78;Various;Logiqx;http://www.logiqx.com;;20/01/2004;http://www.logiqx.com/Dats/MAMEChanges/MAME%20Changes%20v0.78%20(rc).zip
 
 
-updated;Nebula;v2.23d;411;Logiqx;http://www.logiqx.com;;29/12/2003;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.23d%20(rc).zip
+;Nebula;v2.23d;411;Logiqx;http://www.logiqx.com;;29/12/2003;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.23d%20(rc).zip
 
 
 ;Nebula Model 2;v0.9b;24;rosewood;http://www.logiqx.com;;16/11/2003;http://www.logiqx.com/Dats/NebulaModel2/Nebula%20Model%202%20v0.9b%20(rc).zip
@@ -101,7 +101,7 @@ updated;Nebula;v2.23d;411;Logiqx;http://www.logiqx.com;;29/12/2003;http://www.lo
 		
 		
 
-updated;M1;v0.7.3;1008;Logiqx;http://www.logiqx.com;;31/12/2003;http://www.logiqx.com/Dats/M1/M1%20v0.7.3%20(rc).zip
+;M1;v0.7.3;1008;Logiqx;http://www.logiqx.com;;31/12/2003;http://www.logiqx.com/Dats/M1/M1%20v0.7.3%20(rc).zip
 
 
 ;Nebula Jukebox;v2.8;256;Logiqx;http://www.logiqx.com;;25/08/2003;http://www.logiqx.com/Dats/NebulaJukebox/Nebula%20Jukebox%20v2.8%20(rc).zip

@@ -38,6 +38,21 @@ etc.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>20 January 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+      <p align="center">Released some bug fixes for my tools... <a href="../DatUtil/DatUtil.shtml">DatUtil</a>  
+      (v1.29)
+      and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>   (v1.23).</p>
+      <p align="center">I have also rebuilt the <a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME
+      v0.78</a> data files using the new tools.<br>
+      Note: The most affected collection is 'MAME v0.78 (Split-merged Changes)'
+      - it is now much smaller!</p>
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>17 January 2003</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>

@@ -5,7 +5,7 @@
 	<version>v0.78</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>29/12/2003</date>
+	<date>20/01/2004</date>
 	<games>4705</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -23,6 +23,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>20 January 2004</date>
+			<comment>Updated dats for MAME v0.78 (using DatUtil v1.29 and MAMEDiff v1.23).</comment>
+		</revision>
 		<revision>
 			<date>29 December 2003</date>
 			<comment>Uploaded dats for MAME v0.78.</comment>

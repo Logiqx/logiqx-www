@@ -24,14 +24,21 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff122.zip">MAMEDiff v1.22</a> (42KB)</p>
+<p align="center">Download <a href="mdiff123.zip">MAMEDiff v1.23</a> (42KB)</p>
 
-<p align="center"><a href="mdiff122.zip"><img src="../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff123.zip"><img src="../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>20 January 2004</u></strong> - MAMEDiff v1.23</p>
+
+<p align="center">Internal 'fix merging' runs twice now so that it propagates to all clones.<br>
+                   Minor adjustment to the routine that decides if a ROM lives in a resource.<br>
+This fixes the handling of shootgal/sg-01-0 and lots of unrequired games in a 'split-merged changes'
+datafile.</p>
 
 <p align="center"><strong><u>31 December 2003</u></strong> - MAMEDiff v1.22</p>
 

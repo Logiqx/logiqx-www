@@ -25,15 +25,21 @@ Listinfo, Retrocade Romlist, Callus Gamelist, System16 GCS, JFF.TXT, Sparcade RA
 Romlist, Mimic. Adding support for additional formats is really easy too if you know a
 little bit of C.</p>
 
-<p align="center"><font color="#000000">Download </font><a href="dutil128.zip">DatUtil
-v1.28</a><font color="#000000">        (93KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="dutil129.zip">DatUtil
+v1.29</a><font color="#000000">         (94KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="dutil128.zip"><img
+<p align="center"><font color="#000000"><a href="dutil129.zip"><img
 src="../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>20 January 2004</strong>
+</u>- DatUtil v1.29<br>
+<br>
+            - Minor adjustment to the routine that decides if a ROM lives in a resource. This fixes the handling of
+shootgal/sg-01-0.</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>31 December 2003</strong>
 </u>
