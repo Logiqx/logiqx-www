@@ -380,9 +380,13 @@
           <td>
             <a href="M1/M1.shtml">M1 v0.7.1</a>
           </td>
-          <td align="center"></td>
-          <td align="center">09/04/2003</td>
-          <td align="center">737</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>21/05/2003</strong>
+          </td>
+          <td align="center">
+            <strong>737</strong>
+          </td>
         </tr>
 
 			
@@ -526,11 +530,15 @@
 			
 <tr>
           <td>
-            <a href="MAMESamples/MAMESamples.shtml">MAME Samples 20030113</a>
+            <a href="MAMESamples/MAMESamples.shtml">MAME Samples 20030519</a>
           </td>
-          <td align="center"></td>
-          <td align="center">19/01/2003</td>
-          <td align="center">52</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>21/05/2003</strong>
+          </td>
+          <td align="center">
+            <strong>54</strong>
+          </td>
         </tr>
 
 			
