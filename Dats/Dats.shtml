@@ -158,10 +158,15 @@
 
 			<tr>
           <td>
-            <a href="NebulaModel2/NebulaModel2.shtml">Nebula Model 2 Test Release 2</a> (suitable for Test Release 3)</td>
-          <td align="center"></td>
-          <td align="center">01/12/2002</td>
-          <td align="center">9</td>
+            <a href="NebulaModel2/NebulaModel2.shtml">Nebula Model 2 Test Release 4</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>06/03/2003</strong>
+          </td>
+          <td align="center">
+            <strong>20</strong>
+          </td>
         </tr>
 
 			
@@ -387,14 +392,14 @@
 			
 <tr>
           <td>
-            <a href="NebulaJukebox/NebulaJukebox.shtml">Nebula Jukebox v2.7</a>
+            <a href="NebulaJukebox/NebulaJukebox.shtml">Nebula Jukebox v2.8</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>21/02/2003</strong>
+            <strong>06/03/2003</strong>
           </td>
           <td align="center">
-            <strong>250</strong>
+            <strong>251</strong>
           </td>
         </tr>
 

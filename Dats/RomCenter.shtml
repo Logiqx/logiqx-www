@@ -488,19 +488,19 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						-
+						updated
 					</font>
             </b>
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="NebulaModel2/Nebula%20Model%202%20Test%20Release%202%20(rc).zip">
+              <a href="NebulaModel2/Nebula%20Model%202%20Test%20Release%204%20(rc).zip">
                 <b>Nebula Model 2</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">Test Release 2</font>
+            <font face="Arial" size="2">Test Release 4</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -510,10 +510,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">9</font>
+            <font face="Arial" size="2">20</font>
           </td>
           <td>
-            <font face="Arial" size="2">01/12/2002</font>
+            <font face="Arial" size="2">06/03/2003</font>
           </td>
         </tr>
 
@@ -1400,13 +1400,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="NebulaJukebox/Nebula%20Jukebox%20v2.7%20(rc).zip">
+              <a href="NebulaJukebox/Nebula%20Jukebox%20v2.8%20(rc).zip">
                 <b>Nebula Jukebox</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">v2.7</font>
+            <font face="Arial" size="2">v2.8</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -1416,10 +1416,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">250</font>
+            <font face="Arial" size="2">251</font>
           </td>
           <td>
-            <font face="Arial" size="2">21/02/2003</font>
+            <font face="Arial" size="2">06/03/2003</font>
           </td>
         </tr>
 

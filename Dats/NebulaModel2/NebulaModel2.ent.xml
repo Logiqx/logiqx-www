@@ -1,28 +1,33 @@
 <emulator id="NebulaModel2">
         <img src="NebulaModel2.gif" width="185" height="40"/>
         <name>Nebula Model 2</name>
-        <version>Test Release 2</version>
-        <suitability>Test Release 3</suitability>
-        <status></status>
-        <date>01/12/2002</date>
-        <games>9</games>
+        <version>Test Release 4</version>
+        <suitability></suitability>
+        <status>Updated</status>
+        <date>06/03/2003</date>
+        <games>20</games>
         <author href="http://www.logiqx.com">Logiqx</author>
 
-        <comment><p>Nebula Model 2 emulates Sega Model 2B games.</p></comment>
+        <comment><p>Nebula Model 2 emulates Sega Model 2B/2C CRX games.</p></comment>
 
         <dats>
                 <dat>
                         &CMPro;
-                        <file name="Nebula%20Model%202%20Test%20Release%202%20(cm).zip" size="3"/>
+                        <file name="Nebula%20Model%202%20Test%20Release%204%20(cm).zip" size="5"/>
                 </dat>
 
                 <dat>
                         &ROMCenter;
-                        <file name="Nebula%20Model%202%20Test%20Release%202%20(rc).zip" size="3"/>
+                        <file name="Nebula%20Model%202%20Test%20Release%204%20(rc).zip" size="6"/>
                 </dat>
         </dats>
 
         <revisions>
+                <revision>
+                        <date>6 March 2003</date>
+                        <comment>Updated for release 4 (11 games added and many ROM renames).</comment>
+                </revision>
+
                 <revision>
                         <date>1 December 2002</date>
                         <comment>Updated for release 2 (3 games added and a few ROM renames).</comment>

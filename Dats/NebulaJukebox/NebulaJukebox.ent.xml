@@ -2,11 +2,11 @@
 <emulator id="NebulaJukebox">
 	<img src="NebulaJukebox.gif" width="189" height="40"/>
 	<name>Nebula Jukebox</name>
-	<version>v2.7</version>
+	<version>v2.8</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>21/02/2003</date>
-	<games>250</games>
+	<date>06/03/2003</date>
+	<games>251</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Neo-Geo, CPS-1, CPS-2, ZN-1, ZN-2 and Sega Model 2 sound player</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Nebula%20Jukebox%20v2.7%20(cm).zip" size="16"/>
+			<file name="Nebula%20Jukebox%20v2.8%20(cm).zip" size="16"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Nebula%20Jukebox%20v2.7%20(rc).zip" size="17"/>
+			<file name="Nebula%20Jukebox%20v2.8%20(rc).zip" size="17"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>6 March 2003</date>
+			<comment>Updated for Jukebox v2.8 (added fvipers and more ROMs for stcc).</comment>
+		</revision>
 		<revision>
 			<date>21 February 2003</date>
 			<comment>Updated the Sega Model 2 games (plus 7 added).</comment>
