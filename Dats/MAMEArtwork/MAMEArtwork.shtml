@@ -23,7 +23,7 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Artwork%2020040307%20(cm).zip">MAME Artwork dat for CMPro</a> (23KB)</p>
+            <p>Download <a href="MAME%20Artwork%2020040307%20(cm).zip">MAME Artwork dat for CMPro</a> (21KB)</p>
             <p>
               <a href="MAME%20Artwork%2020040307%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -38,6 +38,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>2 July 2004</u>
+        </strong> - 
+			
+			No change required for MAME v0.84.
+		</p>
       <p>
         <strong>
           <u>5 June 2004</u>
