@@ -39,7 +39,6 @@ EMULATORS= \
 	WinKawaks/WinKawaks.shtml \
 	M1/M1.shtml \
 	MPU/MPU.shtml \
-	NeoRAGExSupp/NeoRAGExSupp.shtml \
 	VivaNonno/VivaNonno.shtml \
 
 all: $(CONTENTS) $(ROMCENTER) $(ROMCENTER_INF) $(FILELIST) $(EMULATORS)

@@ -31,7 +31,6 @@
 	<!ENTITY MAMusIcons SYSTEM "MAMusIcons/MAMusIcons.ent.xml">
 	<!ENTITY CrashTestsMAMEScreenshots SYSTEM "CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.ent.xml">
 	<!ENTITY M1 SYSTEM "M1/M1.ent.xml">
-	<!ENTITY NeoRAGExSupp SYSTEM "NeoRAGExSupp/NeoRAGExSupp.ent.xml">
 	<!ENTITY WinKawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
 	<!ENTITY Zinc SYSTEM "Zinc/Zinc.ent.xml">
 	<!ENTITY MPU SYSTEM "MPU/MPU.ent.xml">

@@ -88,8 +88,8 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center"> Released data files for <a href="../Dats/Mimic/Mimic.shtml">Mimic
-      v2.00</a>.</p>
+      <p align="center"> Released data files for Mimic
+      v2.00.</p>
     </td>
   </tr>
 </table>
@@ -135,7 +135,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       Added support for Tower of Druaga ROMs (HiVE v1.04).<p align="center"><font size="3">Updated a <a href="../Dats/OlderEmus/OlderEmus.shtml">JAS, JAS-Dig Dug 2 and Retrocade</a> 
       data files according to
       MAME v0.59</font>
-      <p align="center"><font size="3">Uploaded <a href="../Dats/Zinc/Zinc.shtml">Zinc</a>
+      <p align="center"><font size="3">Uploaded Zinc
       data files.</font>
       <p align="center"><font size="3">Not another problem this weekend! My
       upload tool uploaded the wrong Zinc data file for CMPro (RomCenter was
@@ -378,7 +378,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
   <tr>
     <td>
       <p align="center"><font size="3">Updated
-      <a href="../Dats/Calice/Calice.shtml">Calice</a> data files for v0.5.2.</font></p>
+      Calice data files for v0.5.2.</font></p>
     </td>
   </tr>
 </table>
@@ -408,7 +408,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       <a href="../Dats/NeoJukeBox/NeoJukeBox.shtml">NeoJukeBox</a>, <a href="../Dats/NebulaJukebox/NebulaJukebox.shtml">Nebula
       Jukebox</a></font></p>
       <p align="center"><font size="3">
-      <a href="../Dats/Calice/Calice.shtml">Calice</a>, <a href="../Dats/OlderEmus/OlderEmus.shtml">NeoRAGEx</a></font></p>
+      Calice, <a href="../Dats/OlderEmus/OlderEmus.shtml">NeoRAGEx</a></font></p>
     </td>
   </tr>
 </table>
