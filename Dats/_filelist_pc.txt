@@ -2,10 +2,8 @@
 .	_filelist_pc.bat	289
 .	_filelist_pc.txt	0
 .	_filelist_ztnet.sh	261
-.	_filelist_ztnet.txt	0
 .	_rebuild_all.bat	55
 .	_rebuild_all.mak	1714
-.	Consoles.gif	2417
 .	Dats.gif	1722
 .	Dats.shtml	11370
 .	Dats.xml	2849
@@ -15,9 +13,7 @@
 .	RomCenter.inf	3437
 .	RomCenter.shtml	25041
 .	RomCenter.xml	2980
-.	SoundEmus.gif	2642
 .	Systems.gif	2213
-.	Unemulated.gif	2763
 CPS-1	CPS-1 20050104 (cm).zip	45893
 CPS-1	CPS-1 20050104 (rc).zip	24460
 CPS-1	CPS-1.ent.xml	4884
@@ -54,7 +50,7 @@ CrystalSystemEmulator	CrystalSystemEmulator.xml	216
 CrystalSystemEmulator/CVS	Entries	396
 CrystalSystemEmulator/CVS	Repository	50
 CrystalSystemEmulator/CVS	Root	26
-CVS	Entries	1468
+CVS	Entries	1249
 CVS	Repository	28
 CVS	Root	26
 Daphne	Daphne v0.99.6 (cm).zip	5927
@@ -72,9 +68,9 @@ DTD/CVS	Repository	32
 DTD/CVS	Root	26
 FinalBurnAlpha	FBA v0.2.94.98 (cm).zip	228378
 FinalBurnAlpha	FBA v0.2.94.98 (rc).zip	120219
-FinalBurnAlpha	FinalBurnAlpha.ent.xml	4696
+FinalBurnAlpha	FinalBurnAlpha.ent.xml	4815
 FinalBurnAlpha	FinalBurnAlpha.gif	3166
-FinalBurnAlpha	FinalBurnAlpha.shtml	5531
+FinalBurnAlpha	FinalBurnAlpha.shtml	5660
 FinalBurnAlpha	FinalBurnAlpha.xml	196
 FinalBurnAlpha/CVS	Entries	350
 FinalBurnAlpha/CVS	Repository	43
@@ -140,9 +136,9 @@ MPU/CVS	Repository	32
 MPU/CVS	Root	26
 Nebula	Nebula v2.24 (cm).zip	210439
 Nebula	Nebula v2.24 (rc).zip	103790
-Nebula	Nebula.ent.xml	12030
+Nebula	Nebula.ent.xml	12149
 Nebula	Nebula.gif	2011
-Nebula	Nebula.shtml	13302
+Nebula	Nebula.shtml	13431
 Nebula	Nebula.xml	172
 Nebula/CVS	Entries	314
 Nebula/CVS	Repository	35
@@ -196,9 +192,9 @@ RAINE/CVS	Repository	34
 RAINE/CVS	Root	26
 SEGAModel2Emulator	SEGA Model 2 Emulator v0.1 (cm).zip	27452
 SEGAModel2Emulator	SEGA Model 2 Emulator v0.1 (rc).zip	13557
-SEGAModel2Emulator	SEGAModel2Emulator.ent.xml	1061
+SEGAModel2Emulator	SEGAModel2Emulator.ent.xml	1180
 SEGAModel2Emulator	SEGAModel2Emulator.gif	4411
-SEGAModel2Emulator	SEGAModel2Emulator.shtml	1705
+SEGAModel2Emulator	SEGAModel2Emulator.shtml	1834
 SEGAModel2Emulator	SEGAModel2Emulator.xml	208
 SEGAModel2Emulator/CVS	Entries	380
 SEGAModel2Emulator/CVS	Repository	47
@@ -241,9 +237,9 @@ Zinc/CVS	Repository	33
 Zinc/CVS	Root	26
 ZN	ZN 20041124 (cm).zip	6488
 ZN	ZN 20041124 (rc).zip	4040
-ZN	ZN.ent.xml	2881
+ZN	ZN.ent.xml	3000
 ZN	ZN.gif	1404
-ZN	ZN.shtml	3610
+ZN	ZN.shtml	3739
 ZN	ZN.xml	160
 ZN/CVS	Entries	296
 ZN/CVS	Repository	31
