@@ -83,6 +83,8 @@ Library) is used by RAINE32 for graphics handling, sound and input handling.<br/
     forward slash since you are using MSYS).</li>
   <li>Apply the RAINE triple buffer hack: type 'patch -p1 &lt;raine_allegro_hacks-u.diff'
     and press return.</li>
+  <li>Type 'export MINGDIR=/mingw' and press return (note the
+    forward slash and no drive letter since you are using MSYS).</li>
   <li>Type 'make lib'<em> </em>and press return. A decent computer will only
     take a couple of minutes to compile Allegro.</li>
 </ol>
@@ -200,11 +202,13 @@ pre-compiled version below if you wish)<br>
   <li>Type 'make -f win32/makefile.gcc' and press return. </li>
 </ol>
 
-<p>After compiling zlib, install it for MinGW as follows: 
+<p>After compiling zlib, install it for MinGW as follows (from the MSYS window): 
 
 <ol>
-  <li>Type 'cp libz.a /mingw/lib' and press return. </li>
-  <li>Type 'cp zlib.h zconf.h /mingw/include' and press return. </li>
+  <li>Type 'cp libz.a /mingw/lib' and press return (note the
+    forward slash and no drive letter since you are using MSYS). </li>
+  <li>Type 'cp zlib.h zconf.h /mingw/include' and press return (note the
+    forward slash and no drive letter since you are using MSYS). </li>
 </ol>
 
 <p>Once you have installed the required files you can delete <em>D:\ZLIB </em>if you wish.
