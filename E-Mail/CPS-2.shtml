@@ -14,7 +14,7 @@
 
 <h2 align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"></h2>
 
-<p align="center">Last updated 25th August 2003</p>
+<p align="center">Last updated 22th October 2003</p>
 
 <h2 align="left">Introduction</h2>
 
@@ -67,7 +67,7 @@ on this list.</p>
     </td>
     <td>
 
-<p>114 of the 156 dumped games have been decrypted.</p>
+<p>114 of the 160 dumped games have been decrypted.</p>
 
 <p>There were two releases for 005 and no release for 055.&nbsp;</p>
 
@@ -263,6 +263,11 @@ on this list.</p>
   <td bgcolor="#FFFF00" height="19">ecofghtr</td>
   <td bgcolor="#FFFF00" height="19">Eco Fighters (World 931203)</td>
   <td align="center" bgcolor="#FFFF00" height="19">051</td></tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">ecofghta</td>
+  <td bgcolor="#FFFF00" height="19">Eco Fighters (Asia 931203)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">uecology</td>
   <td bgcolor="#FFFF00" height="19">Ultimate Ecology (Japan 931203)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
@@ -299,8 +304,8 @@ on this list.</p>
 </tr>
 <tr><td bgcolor="#FFFF00" height="19">msh     </td>
   <td bgcolor="#FFFF00" height="19">msh     </td>
-  <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (US 951024)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">012</td></tr>
+  <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (Euro 951024)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td></tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">msha    </td>
   <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (Asia 951024)</td>
   <td align="center" bgcolor="#FFFF00" height="19">074</td></tr>
@@ -312,9 +317,14 @@ on this list.</p>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">mshh    </td>
   <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (Hispanic 951117)</td>
   <td align="center" bgcolor="#FFFF00" height="19">030</td></tr>
-<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">mshj    </td>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">mshj    </td>
   <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (Japan 951024)</td>
-  <td align="center" bgcolor="#FFFF00" height="19">048</td></tr>
+  <td align="center" bgcolor="#FFFF00" height="19">048</td>
+</tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">mshu    </td>
+  <td bgcolor="#FFFF00" height="19">Marvel Super Heroes (US 951024)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">012</td></tr>
 <tr><td bgcolor="#FFFF00" height="19">mshvsf  </td>
   <td bgcolor="#FFFF00" height="19">mshvsf  </td>
   <td bgcolor="#FFFF00" height="19">Marvel Super Heroes Vs. Street Fighter (US
@@ -333,6 +343,12 @@ on this list.</p>
 <tr>
   <td height="19">        </td><td bgcolor="#FFFF00" height="19">mshvsfb </td>
   <td bgcolor="#FFFF00" height="19">Marvel Super Heroes Vs. Street Fighter (Brazil 970827)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">mshvsfb1 </td>
+  <td bgcolor="#FFFF00" height="19">Marvel Super Heroes Vs. Street Fighter (Brazil
+    970625)</td>
   <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
 </tr>
 <tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">mshvsfh </td>
@@ -659,7 +675,12 @@ on this list.</p>
   <td bgcolor="#FFFF00" height="19">X-Men Vs. Street Fighter (Japan
     960909)</td><td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
 </tr>
-<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">xmvsfu  </td>
+<tr>
+  <td height="19">        </td><td bgcolor="#FFFF00" height="19">xmvsfu  </td>
+  <td bgcolor="#FFFF00" height="19">X-Men Vs. Street Fighter (US 961023)</td>
+  <td align="center" bgcolor="#FFFF00" height="19">&nbsp;</td>
+</tr>
+<tr><td height="19">        </td><td bgcolor="#FFFF00" height="19">xmvsfur1  </td>
   <td bgcolor="#FFFF00" height="19">X-Men Vs. Street Fighter (US 961004)</td>
   <td align="center" bgcolor="#FFFF00" height="19">026</td></tr>
 </table>
