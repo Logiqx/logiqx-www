@@ -25,15 +25,24 @@ by tools such as DatUtil, MAMEDiff, ROMBuild, ROMInfo and ZipIdent.</p>
 <p align="center">This package is a source only release and is only required if
 you want to compile any of my tools.</p>
 
-<p align="center"><font color="#000000">Download </font><a href="datlib10.zip">DatLib
-v1.0</a><font color="#000000">  (54KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="datlib11.zip">DatLib
+v1.1</a><font color="#000000">  (54KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="datlib10.zip"><img
+<p align="center"><font color="#000000"><a href="datlib11.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>4 July 2004</strong>
+</u>- DatLib v1.1<br>
+<br>
+- ClrMamePro/RomCenter header is now ignored when using OPTION_GAME.<br>
+            - Removed a warning when you try using 'datutil -g &lt;resource> -c'.<br>
+            - Added debug information to identify spurious warnings like above.<br>
+            - Directory/ZIP scanner will not calculate MD5/SHA1 by default now.<br>
+            - You must use OPTION_EXTENDED_CHECKSUMS, as used by 'datutil -x'.</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>2 July 2004</strong>
 </u>- DatLib v1.0<br>
