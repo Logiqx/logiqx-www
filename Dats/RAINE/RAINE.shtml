@@ -23,13 +23,13 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="RAINE%20v0.37.3%20(cm).zip">RAINE dat for CMPro</a> (93KB)</p>
+            <p>Download <a href="RAINE%20v0.37.3%20(cm).zip">RAINE dat for CMPro</a> (85KB)</p>
             <p>
               <a href="RAINE%20v0.37.3%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="RAINE%20v0.37.3%20(rc).zip">RAINE dat for ROMCenter</a> (95KB)</p>
+            <p>Download <a href="RAINE%20v0.37.3%20(rc).zip">RAINE dat for ROMCenter</a> (89KB)</p>
             <p>
               <a href="RAINE%20v0.37.3%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -38,6 +38,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>10 March 2003</u>
+        </strong> - 
+			
+			Updated supplementary dats for MAME v0.66.
+		</p>
       <p>
         <strong>
           <u>19 February 2003</u>
