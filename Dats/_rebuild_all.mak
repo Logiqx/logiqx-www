@@ -12,6 +12,7 @@ EMULATORS= \
 	FinalBurnAlpha/FinalBurnAlpha.shtml \
 	MAMEBeta/MAMEBeta.shtml \
 	MAMEChanges/MAMEChanges.shtml \
+	Pacifi3D/Pacifi3D.shtml \
 	RadikalBikersEmulator/RadikalBikersEmulator.shtml \
 	RAINE/RAINE.shtml \
 	Tickle/Tickle.shtml \

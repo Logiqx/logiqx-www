@@ -24,14 +24,23 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff212.zip">MAMEDiff v2.12</a>  (96KB)</p>
+<p align="center">Download <a href="mdiff213.zip">MAMEDiff v2.13</a>  (103KB)</p>
 
-<p align="center"><a href="mdiff212.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff213.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>16 January 2005</strong>
+</u>- MAMEDiff v2.13<br>
+<br>
+- Uses DatLib v1.14.<br>
+            - Added support for Calice drivers (DatLib v1.13).<br>
+            - Added support for the GNGEO romrc file.<br>
+            - Increased maximum ROM size to 64MB (used when scanning folders).<br>
+            - Fixed a memory allocation bug that could cause a hang sometimes.</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>25 November 2004</strong>
 </u>- MAMEDiff v2.12<br>

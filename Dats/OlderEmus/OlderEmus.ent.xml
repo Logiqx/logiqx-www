@@ -2,11 +2,11 @@
 <emulator id="OlderEmus">
 	<img src="OlderEmus.gif" width="140" height="40"/>
 	<name>Older Emus</name>
-	<version>(almost 200 different ones!)</version>
+	<version>20050116</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>04/01/2005</date>
-	<games>100s of</games>
+	<date>16/01/2005</date>
+	<games>Thousands of</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>You can view the contents of the ZIPs for <a href="CMZIPContents.shtml">ClrMamePro</a> and
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Older%20Emus%2020050104%20(cm).zip" size="1208"/>
+			<file name="Older%20Emus%2020050116%20(cm).zip" size="1209"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Older%20Emus%2020050104%20(rc).zip" size="514"/>
+			<file name="Older%20Emus%2020050116%20(rc).zip" size="515"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>16 January 2005</date>
+			<comment>Updated Calice, Modeler (just cosmetic) and NeoJukeBox.</comment>
+		</revision>
 		<revision>
 			<date>4 January 2005</date>
 			<comment>Updated ASTGL, Calice, DSP, JAS-SYS1 and the Final Burn Supplements. Added Playscott and OldSpark.</comment>

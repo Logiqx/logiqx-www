@@ -24,7 +24,7 @@
 
 	<xsl:template match="name">
 		<p>
-			<xsl:value-of select="../games"/><xsl:text> games of </xsl:text>
+			<xsl:value-of select="../games"/><xsl:text> games for </xsl:text>
 			<xsl:value-of select="."/><xsl:text> </xsl:text>
 			<xsl:value-of select="../version"/>
 			<xsl:if test="../suitability != ''">

@@ -38,15 +38,22 @@ cleanse dats. It supports a variety of formats...<br>
 <br>
   - Title List (for listing game titles - used by CPS-2 readme and RAINE docs)</p>
 
-<p align="center"><font color="#000000">Download </font><a href="dutil210.zip">DatUtil
-v2.10</a><font color="#000000">                    (82KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="dutil211.zip">DatUtil
+v2.11</a><font color="#000000">                    (83KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="dutil210.zip"><img
+<p align="center"><font color="#000000"><a href="dutil211.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>16 January 2005</strong>
+</u>- DatUtil v2.11<br>
+<br>
+</font><font color="#000000" size="3">- Uses DatLib v1.14.<br>
+            - Added support for the GNGEO romrc file.<br>
+            - Increased maximum ROM size to 64MB (used when scanning folders).</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>4 January 2005</strong>
 </u>- DatUtil v2.10<br>
