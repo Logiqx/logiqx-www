@@ -16,8 +16,6 @@
 
 <p align="center"><img src="Links.gif" width="64" height="40"></p>
 
-<p align="center"><b>Windows Tools</b></p>
-
 <p align="center">In order to use the data files provided on this site, you will
 need either ClrMamePro or RomCenter.</p>
 
@@ -36,9 +34,27 @@ need either ClrMamePro or RomCenter.</p>
   </tr>
 </table>
 
-<p align="center"><b>Linux Tools</b></p>
-<p align="center">If you are using Linux, you might like to try one of these
-tools (I have not used them myself though):</p>
+<p align="center">&nbsp;</p>
+
+<p align="center">There are some alternative ROM management tools that you might
+also like to try...</p>
+
+<table border="0" width="100%">
+  <tr>
+    <td align="center" valign="bottom" width="50%"><p align="center"><a href="http://www.mameworld.net/mamemerge/" target="_blank"><img border="0" src="mamemerge.png" width="222" height="40"></a></td>
+    <td align="center" valign="bottom" width="50%"><p align="center"><a href="http://www.mameworld.net/setcleaner/" target="_blank"><img border="0" src="setcleaner.png" width="197" height="40"></a></td>
+  </tr>
+  <tr>
+    <td valign="top"><p align="center">MAME Merge by Insane.<br>
+      Similar to the ClrMamePro rebuilder facility.</td>
+    <td valign="top"><p align="center">SetCleaner by Simon Stanley Sitzia.<br>
+      Amongst other things it can clean MAME ROM sets.</td>
+  </tr>
+</table>
+
+<p align="center">&nbsp;</p>
+<p align="center">If you are using Linux, you might find these
+tools useful although I have not tried them myself:</p>
 
 <table border="0" width="100%">
   <tr>
