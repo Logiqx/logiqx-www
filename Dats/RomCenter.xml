@@ -21,6 +21,7 @@
 	<!ENTITY NebulaJukebox SYSTEM "NebulaJukebox/NebulaJukebox.ent.xml">
 	<!ENTITY MAMEArtwork SYSTEM "MAMEArtwork/MAMEArtwork.ent.xml">
 	<!ENTITY MAMESamples SYSTEM "MAMESamples/MAMESamples.ent.xml">
+	<!ENTITY CrashTestsMAMEScreenshots SYSTEM "CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.ent.xml">
 ]>
 <contents_page>
 	<section>
@@ -93,6 +94,7 @@
 			<p>Resource Files</p>
 		</comment>
 		<emulators>
+&CrashTestsMAMEScreenshots;
 &MAMEArtwork;
 &MAMESamples;
 		</emulators>

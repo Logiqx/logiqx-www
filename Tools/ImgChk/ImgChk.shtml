@@ -18,14 +18,20 @@
 frontends (e.g. icons, snaps, cabinets, marquees, flyers). It will verify image collections against a listinfo format datafile and can report unknown images as
 well as missing images. Image checks for clones and resources are optional.</p>
 
-<p align="center">Download <a href="imgchk22.zip">ImgChk v2.2</a> (67KB)</p>
+<p align="center">Download <a href="imgchk23.zip">ImgChk v2.3</a> (68KB)</p>
 
-<p align="center"><a href="imgchk22.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="imgchk23.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font size="3"><strong><u>6 August 2004</u></strong>  - ImgChk
+v2.3</font></p>
+
+<p align="center"><font size="3">- Uses DatLib v1.9.<br>
+            - Added an 'AllowAlternates' option for CrashTest snapshots.</font></p>
 
 <p align="center"><font size="3"><strong><u>22 July 2004</u></strong>  - ImgChk
 v2.2</font></p>

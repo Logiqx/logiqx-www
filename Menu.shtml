@@ -80,6 +80,15 @@ ZIPIdentOn = new Image;
   ZIPIdentOff.src = "Menu/ZIPIdentOff.gif";
 
 
+ImgChkOff = new Image;
+
+ImgChkOn = new Image;
+
+  ImgChkOn.src = "Menu/ImgChkOn.gif";
+
+  ImgChkOff.src = "Menu/ImgChkOff.gif";
+
+
 DatLibOff = new Image;
 
 DatLibOn = new Image;
@@ -233,6 +242,10 @@ src="Menu/ROMInfoOff.gif" alt="ROMInfo" border="0" width="63" height="20" name="
 <p align="center"><a href="Tools/ZIPIdent/ZIPIdent.shtml" target="main" alt="ZIPIdent"
 onmouseover="image_on('ZIPIdent')" onmouseout="image_off('ZIPIdent')"><img
 src="Menu/ZIPIdentOff.gif" alt="ZIPIdent" border="0" width="61" height="20" name="ZIPIdent"></a></p>
+
+<p align="center"><a href="Tools/ImgChk/ImgChk.shtml" target="main" alt="ImgChk"
+onmouseover="image_on('ImgChk')" onmouseout="image_off('ImgChk')"><img
+src="Menu/ImgChkOff.gif" alt="ImgChk" border="0" width="55" height="20" name="ImgChk"></a></p>
 
 <p align="center"><a href="Tools/DatLib/DatLib.shtml" target="main" alt="DatLib"
 onmouseover="image_on('DatLib')" onmouseout="image_off('DatLib')"><img
