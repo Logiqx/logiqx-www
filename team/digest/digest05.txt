@@ -1,0 +1,3419 @@
+**********************************************************************
+Asunto: [TeamLogiqx] Disk imagessss
+Fecha: Tue, 05 Nov 2002 00:51:22 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Ben Jos Walbeehm ha escrito:
+
+> Interesting... no CRCs for CHDs?
+
+> And is this the actual correct MD5 for Area 51? If so, do you also have
+the
+> correct MD5s for the other two? I'd better start checking mine.
+
+These are the MD5 for the CHD's with a MD5 calculation program:
+d9d0338e1d485cbf9111691858b059d6 *area51.chd
+1e6d2b43b324f5a4115473fcf4cb0cd0 *maxforce.chd
+30a7a9d88261d85df63ead99e474ab21 *vcircle.chd
+
+These are the MD5 as in MAME's cojag driver:
+130b330eff59403f8fc3433ff501852b = area51
+b0a214c7b3f8ba9d592396332fc974c9 = maxforce
+fc316bd92363573d60083514223c6816 = vcircle
+
+The MD5 in MAME is not calculated over the whole CHD file. I don't know the
+details, but it makes sense, you don't want to wait for it to read a 1.1gb
+file
+and calculate a slow checksum each time you fire up the game. I don't know
+if
+ClrMAMEPro will support the normal MD5 or the MAME MD5, but for manual
+testing
+with another program (like md5.exe, search in google), the first ones would
+be
+the ones you want.
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Disk imagessss
+Fecha: Mon, 4 Nov 2002 19:05:37 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> The MD5 in MAME is not calculated over the whole CHD file. I don't know
+the
+> details, but it makes sense, you don't want to wait for it to read a 1.1gb
+file
+> and calculate a slow checksum each time you fire up the game. I don't know
+if
+> ClrMAMEPro will support the normal MD5 or the MAME MD5, but for manual
+testing
+> with another program (like md5.exe, search in google), the first ones
+would
+be
+> the ones you want.
+
+Oh, I have written several programs myself that calculate an MD5 (including
+one on a property sheet, so it's a on a separate tab when you right-click a
+file and choose properties), so I don't have to look for one. :-)
+
+> These are the MD5 for the CHD's with a MD5 calculation program:
+> d9d0338e1d485cbf9111691858b059d6 *area51.chd
+> 1e6d2b43b324f5a4115473fcf4cb0cd0 *maxforce.chd
+> 30a7a9d88261d85df63ead99e474ab21 *vcircle.chd
+>
+> These are the MD5 as in MAME's cojag driver:
+> 130b330eff59403f8fc3433ff501852b = area51
+> b0a214c7b3f8ba9d592396332fc974c9 = maxforce
+> fc316bd92363573d60083514223c6816 = vcircle
+
+Thanks for the information! It matches mine:
+( name area51.chd size 560425712 crc d60036be checksum 40c9f0bf md5
+d9d0338e1d485cbf9111691858b059d6 )
+( name maxforce.chd size 1176146559 crc b38ec45c checksum 489b94bf md5
+1e6d2b43b324f5a4115473fcf4cb0cd0 )
+( name vcircle.chd size 595826468 crc 4cb7b6c4 checksum 5ff1e1b9 md5
+30a7a9d88261d85df63ead99e474ab21 )
+
+I'm glad I don't have to download those again. :-)
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Disk imagessss
+Fecha: Tue, 05 Nov 2002 01:13:30 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Ben Jos Walbeehm ha escrito:
+
+> Interesting... no CRCs for CHDs?
+
+(This is an earlier question not answered earlier cause my brain simply
+sucks big
+time)
+I think Aaron is one of those who understands the limitations of an
+error-detection algorithm and would prefer to move to a content
+identification
+algorithm (CRC vs MD5/SHA-x). I think he simply took the opportunity to not
+use
+CRC's in this, he could have done it perfectly with just CRC's taken from
+different parts of the big file.
+Of course now that MD5 made its way into MAME, the fight is to change it to
+SHA-x
+because MD5 was cracked :/
+
+> Thanks for the information! It matches mine:
+
+Everyone has the same versions since no other versions have been distributed
+(save for download errors). The problem was that some people were going to
+CRY
+cause suddenly the 2.2gb they downloaded painfully were not matching with
+MAME...
+I just discovered this recently in the MAME board and I don't think it's
+widely
+spread. I thought the info could fit here, of course.
+
+Another thing: I don't have the CHD's, I'm on 56k. Hopefully that will
+change
+soon thanks to a very good friend :)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Disk imagessss
+Fecha: Mon, 4 Nov 2002 19:48:37 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> The MD5 in MAME is not calculated over the whole CHD file. I don't know
+the
+> details, but it makes sense, you don't want to wait for it to read a 1.1gb
+file
+> and calculate a slow checksum each time you fire up the game. I don't know
+if
+> ClrMAMEPro will support the normal MD5 or the MAME MD5
+
+It looks like it will... In the Scanner, there's a Checksums button, press
+it
+and you'll see checkboxes for:
+CRC32
+MD5
+MD5 in CHD
+
+Actually, Roman sized it wrong so the D got cut off and is only half there.
+I'll send him an e-mail after this one.
+
+> These are the MD5 as in MAME's cojag driver:
+> 130b330eff59403f8fc3433ff501852b = area51
+> b0a214c7b3f8ba9d592396332fc974c9 = maxforce
+> fc316bd92363573d60083514223c6816 = vcircle
+
+b0 a2 14 c7 b3 f8 ba 9d 59 23 96 33 2f c9 74 c9
+
+Those are the 16 bytes starting at offset 44 (0x2c) in maxforce.chd. The
+other two have their respective MD5s at the same offset. That was easy
+enough. :-)
+
+So they check the MD5 by just loading the "header" of the CHDs (the first 60
+bytes or maybe a bit more).
+
+Ben Jos.
+
+**********************************************************************
+Asunto: [TeamLogiqx] Third time lucky
+Fecha: Mon, 4 Nov 2002 19:58:01 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+Bleh. I just tried creating a full set for Daphne, including all the unused
+games and ROMs, and I noticed two things:
+
+(1) Both esh and eshalt have a ROM called f8_is2.bin, but the CRCs differ.
+So
+I renamed the one in eshalt to f8_is2a.bin. I hope they change the source
+code. :-)
+
+(2) eshalt2 uses the same f8_is2.bin as its parent (esh), but they forgot to
+merge it in the source code, so it tries to load that one from eshalt2,
+while
+they could have loaded it from esh. I changed it so it's merged now. And I
+hope they change the source code here too. :-)
+
+Forget the previous two. New one attached.
+
+Ben Jos.
+
+  -----------------------------------------------------------------
+                          Name: Daphne v0.99.5a.zip
+   Daphne v0.99.5a.zip    Type: Zip Compressed Data
+                                (application/x-zip-compressed)
+                      Encoding: base64
+
+**********************************************************************
+Asunto: [TeamLogiqx] I am really losing it
+Fecha: Mon, 4 Nov 2002 21:11:25 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+Blame it on cut & paste. Some wrong filenames in firefoxa. Used Dir2Dat and
+copied its output into the dat. I thought cut & paste would ensure there
+would be no typos. But I didn't notice the firefoxa.zip I had contained
+wrong
+filenames...
+
+Another one attached. Trash the previous three.
+
+I promise that next time I'm about to send a dat, I won't, but check it once
+again first. When I feel like sending it after that, I'll stop myself again.
+And I'll continue stopping myself until I've visually checked and
+double-checked things and have done every possible other check I can think
+of.
+
+*sigh*
+
+On a related note, anyone got this one?
+
+Super Don Quix-ote (short scenes, alternate) [folder: sdqshortalt - parent:
+sdq]
+missing set: Super Don Quix-ote (short scenes, alternate)
+missing rom: sdq_c45alt.rom [size: 16384] [CRC32: 0xb12ce1f8]
+
+Ben Jos.
+
+  -----------------------------------------------------------------
+                          Name: Daphne v0.99.5a.zip
+   Daphne v0.99.5a.zip    Type: Zip Compressed Data
+                                (application/x-zip-compressed)
+                      Encoding: base64
+
+**********************************************************************
+Asunto: [TeamLogiqx] battles samples in -listinfo
+Fecha: Mon, 4 Nov 2002 21:20:10 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+Something I noticed a long time ago, but didn't remember until just now:
+
+Does anyone agree with me that battles (which is a "cloneof xevious") has a
+"sampleof xevious" missing? They have the same name and if you listen, they
+also sound the same.
+
+If so, should I send an e-mail to submit@mame.net?
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] I am really losing it
+Fecha: Mon, 4 Nov 2002 20:28:24 -0600
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey Ben Jos & all,
+
+> I promise that next time I'm about to send a dat, I won't, but check it
+once
+> again first. When I feel like sending it after that, I'll stop myself
+again.
+> And I'll continue stopping myself until I've visually checked and
+> double-checked things and have done every possible other check I can think
+> of.
+
+Don't worry - I've done that a few times.  Hell, I've pulled 2 extra classic
+manoeuvers during my datmaking career - forgetting to attach the dat and
+sending a RomCenter dat to Roman @ ClrMame.  :p
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re[2]: [TeamLogiqx] Fw: Daphne 0.99.5a datfile errors?
+Fecha: Tue, 5 Nov 2002 08:21:24 +0100
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+BJW> Damn. That sucks. When I went through this dat file, I knew I should
+have
+BJW> downloaded the 0.99.5a source code instead of comparing things to the
+0.99.5
+BJW> source code I already had.
+
+BJW> Anyway, I downloaded the source code and went through each and every
+game it
+BJW> has in it (including the ones that are not activated). I can confirm
+that,
+BJW> yes, dle was renamed to dle11
+
+exactly,
+
+BJW> and that badlands.c4 was added. Apart from the
+BJW> unneeded an06 in Bega's Battle and the
+
+BJW> badlands.c13 line that should be
+BJW> removed (things we already knew about), this is all that has changed.
+
+well, badlands needs now new rom:
+
+rom ( name badlands.c4 size 32 crc 6757be8d )
+
+otherwise our dat works - I have checked it running Daphe.
+
+these are the only difference from Bananalolu dat,
+(well except blazer but there are some merging info)
+
+Leslaw
+
+--
+SLA                          mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] I am really losing it
+Fecha: Tue, 5 Nov 2002 08:29:53 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Now you can see why I have made a few re-uploads of dats in the past. ;)
+
+For laserdisk ROMs, try here if you've never seen it:
+
+http://www.dragons-lair-project.com/tech/
+
+Mike
+
+----- Original Message -----
+From: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, November 05, 2002 2:11 AM
+Subject: [TeamLogiqx] I am really losing it
+
+> Blame it on cut & paste. Some wrong filenames in firefoxa. Used Dir2Dat
+and
+> copied its output into the dat. I thought cut & paste would ensure there
+> would be no typos. But I didn't notice the firefoxa.zip I had contained
+wrong
+> filenames...
+>
+> Another one attached. Trash the previous three.
+>
+> I promise that next time I'm about to send a dat, I won't, but check it
+once
+> again first. When I feel like sending it after that, I'll stop myself
+again.
+> And I'll continue stopping myself until I've visually checked and
+> double-checked things and have done every possible other check I can think
+> of.
+>
+> *sigh*
+>
+> On a related note, anyone got this one?
+>
+> Super Don Quix-ote (short scenes, alternate) [folder: sdqshortalt -
+parent:
+> sdq]
+> missing set: Super Don Quix-ote (short scenes, alternate)
+> missing rom: sdq_c45alt.rom [size: 16384] [CRC32: 0xb12ce1f8]
+>
+> Ben Jos.
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] battles samples in -listinfo
+Fecha: Tue, 5 Nov 2002 08:31:02 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+It may be worth talking to Dith also.
+
+Mike
+
+----- Original Message -----
+From: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, November 05, 2002 2:20 AM
+Subject: [TeamLogiqx] battles samples in -listinfo
+
+> Something I noticed a long time ago, but didn't remember until just now:
+>
+> Does anyone agree with me that battles (which is a "cloneof xevious") has
+a
+> "sampleof xevious" missing? They have the same name and if you listen,
+they
+> also sound the same.
+>
+> If so, should I send an e-mail to submit@mame.net?
+>
+> Ben Jos.
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] I am really losing it
+Fecha: Tue, 5 Nov 2002 08:39:26 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I'll try to upload the dat tonight but I can't promise it. I didn't get
+sleep on Sunday night (working) and seeing as I go on holiday at 4am on
+Friday morning, sleep is a very high priority or I won't enjoy my weekend in
+Italy.
+
+Regarding the 'unusedroms', being the only emulator that runs these games I
+do not think that we should take such ROMs out otherwise people delete the
+ROMs then have to go hunting for them again when they are finally used (e.g.
+badlands.c4). I learnt this lesson with Final Burn when I re-added 'unused'
+ROMs to Thunder Blade about 3 times! The 'unusedgames' is a good idea
+though.
+
+Personally I think that we should re-download the supported game ROMs from
+the Dragon's Lair Project and see if there are any other ROMs that should be
+in the dat ready for the future (which could be included as 'unusedrom'
+since there is no point forcing people to get them yet).
+
+Mike
+
+----- Original Message -----
+From: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, November 05, 2002 2:11 AM
+Subject: [TeamLogiqx] I am really losing it
+
+> Blame it on cut & paste. Some wrong filenames in firefoxa. Used Dir2Dat
+and
+> copied its output into the dat. I thought cut & paste would ensure there
+> would be no typos. But I didn't notice the firefoxa.zip I had contained
+wrong
+> filenames...
+>
+> Another one attached. Trash the previous three.
+>
+> I promise that next time I'm about to send a dat, I won't, but check it
+once
+> again first. When I feel like sending it after that, I'll stop myself
+again.
+> And I'll continue stopping myself until I've visually checked and
+> double-checked things and have done every possible other check I can think
+> of.
+>
+> *sigh*
+>
+> On a related note, anyone got this one?
+>
+> Super Don Quix-ote (short scenes, alternate) [folder: sdqshortalt -
+parent:
+> sdq]
+> missing set: Super Don Quix-ote (short scenes, alternate)
+> missing rom: sdq_c45alt.rom [size: 16384] [CRC32: 0xb12ce1f8]
+>
+> Ben Jos.
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Disk imagessss
+Fecha: Tue, 05 Nov 2002 12:51:26 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Ben Jos Walbeehm ha escrito:
+
+> So they check the MD5 by just loading the "header" of the CHDs (the first
+60
+> bytes or maybe a bit more).
+
+No, I think it's more like the MD5/CHD gets embedded in the own file. Which
+makes
+sense, if you're not going to calculate the MD5 of the whole file, there are
+areas you don't look at, hence you can store it there for self-validation.
+
+Btw your profile has been updated.
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] I am really losing it
+Fecha: Tue, 05 Nov 2002 12:54:25 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Rob ha escrito:
+
+> Don't worry - I've done that a few times.  Hell, I've pulled 2 extra
+classic
+> manoeuvers during my datmaking career - forgetting to attach the dat and
+> sending a RomCenter dat to Roman @ ClrMame.  :p
+
+I sent three non-working RC dats to Razoola, in less than 24h. That was when
+Logiqx was out of the planet, and there were some persons who thought I was
+a
+substitute or something...
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] I am really losing it
+Fecha: Tue, 5 Nov 2002 08:35:10 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> For laserdisk ROMs, try here if you've never seen it:
+>
+> http://www.dragons-lair-project.com/tech/
+
+Yes, I am familiar with it. Great site. And you can also get to it through:
+
+http://www.d-l-p.com/
+
+> Personally I think that we should re-download the supported game ROMs from
+> the Dragon's Lair Project and see if there are any other ROMs that should
+be
+> in the dat ready for the future (which could be included as 'unusedrom'
+> since there is no point forcing people to get them yet).
+
+I did. That's how I got my unusedroms entries. And that's also how I got
+some
+of the missing year/manufacturer information. :-)
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] battles samples in -listinfo
+Fecha: Tue, 5 Nov 2002 08:36:01 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> It may be worth talking to Dith also.
+
+OK. I'll send Dith an e-mail about it.
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Disk imagessss
+Fecha: Tue, 5 Nov 2002 09:29:48 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> > So they check the MD5 by just loading the "header" of the CHDs (the
+first
+60
+> > bytes or maybe a bit more).
+>
+> No, I think it's more like the MD5/CHD gets embedded in the own file.
+Which
+makes
+> sense, if you're not going to calculate the MD5 of the whole file, there
+are
+> areas you don't look at, hence you can store it there for self-validation.
+
+Yes, that makes sense as to how they CALCULATE it, but when MAME uses the
+CHD, it probably just loads the header and reads the MD5 from there. I think
+that's how they CHECK it, because, like you said, it would be very annoying
+if it actually calculated it every single time.
+
+If I find some time tonight, I might play with it a little to see if I can
+find out exactly which part they calculate the MD5 on.
+
+> Btw your profile has been updated.
+
+Ooh! I've been promoted. Thanks. :-)
+
+Ben Jos (who is way too late for work again).
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] I am really losing it
+Fecha: Tue, 5 Nov 2002 09:31:30 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> I'll try to upload the dat tonight but I can't promise it. I didn't get
+> sleep on Sunday night (working) and seeing as I go on holiday at 4am on
+> Friday morning, sleep is a very high priority or I won't enjoy my weekend
+in
+> Italy.
+
+Enjoy your holiday, Mike. :-)
+
+Ben Jos (who could use some vacation himself).
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] I am really losing it
+Fecha: Tue, 5 Nov 2002 16:02:21 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Well, you did turn 'an06' to an 'unusedrom' but it was enabled in the last
+dat release. Since people already have the ROM in their collection (if they
+used our last dat) then lets not delete it, in case it is needed in a future
+release of Daphne. :)
+
+Mike
+
+----- Original Message -----
+From: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, November 05, 2002 1:35 PM
+Subject: Re: [TeamLogiqx] I am really losing it
+
+> > For laserdisk ROMs, try here if you've never seen it:
+> >
+> > http://www.dragons-lair-project.com/tech/
+>
+> Yes, I am familiar with it. Great site. And you can also get to it
+through:
+>
+> http://www.d-l-p.com/
+>
+> > Personally I think that we should re-download the supported game ROMs
+from
+> > the Dragon's Lair Project and see if there are any other ROMs that
+should
+> be
+> > in the dat ready for the future (which could be included as 'unusedrom'
+> > since there is no point forcing people to get them yet).
+>
+> I did. That's how I got my unusedroms entries. And that's also how I got
+some
+> of the missing year/manufacturer information. :-)
+>
+> Ben Jos.
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Disk imagessss
+Fecha: Tue, 5 Nov 2002 16:08:24 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Ooh! I've been promoted. Thanks. :-)
+
+I thought it was about time. Along with the promotion you also get a 70% pay
+rise. Of course, that doesn't equate to a dime in this team but it's the
+thought that counts. :)
+
+> Ben Jos (who is way too late for work again).
+
+That's the same mistake that I make... reading e-mail before going to work
+results in regular lateness, lol.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] I am really losing it
+Fecha: Tue, 5 Nov 2002 18:24:12 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> Well, you did turn 'an06' to an 'unusedrom' but it was enabled in the last
+> dat release. Since people already have the ROM in their collection (if
+they
+> used our last dat) then lets not delete it, in case it is needed in a
+future
+> release of Daphne. :)
+
+Yes, like I said, I made every ROM not in the source code an "unusedrom".
+But, I agree with you that it's a lot easier for people to update in case it
+gets added. Not everyone is like us, NEVER deleting any ROMs. :-)
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Disk imagessss
+Fecha: Tue, 5 Nov 2002 18:25:26 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> > Ooh! I've been promoted. Thanks. :-)
+>
+> I thought it was about time. Along with the promotion you also get a 70%
+pay
+> rise. Of course, that doesn't equate to a dime in this team but it's the
+> thought that counts. :)
+
+Ooh! I'm going to be rich now soon! I'm getting a lot more of nothing now!
+:-)
+
+> > Ben Jos (who is way too late for work again).
+>
+> That's the same mistake that I make... reading e-mail before going to work
+> results in regular lateness, lol.
+
+And I never seem to learn either. :-)
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] battles samples in -listinfo
+Fecha: Tue, 5 Nov 2002 18:27:35 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> It may be worth talking to Dith also.
+
+OK. Dith replied:
+
+"Sounds good to me, if they are the same, merge them."
+
+So I guess he didn't know about it or check. Was I the only one who noticed?
+Or do they really sound different to other people? Can anybody check before
+I
+send an e-mail to submit@mame.net?
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] battles samples in -listinfo
+Fecha: Wed, 06 Nov 2002 00:41:56 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Ben Jos Walbeehm ha escrito:
+
+> So I guess he didn't know about it or check. Was I the only one who
+noticed?
+> Or do they really sound different to other people? Can anybody check
+before I
+> send an e-mail to submit@mame.net?
+
+Ok I checked and the versions I have sound similar, it's the same style of
+sound
+effect, but sound really different to me. They just sound like the kind of
+effects made with the same sound hardware, but used differently in each
+game. To
+ensure that we have the same versions, my explo1.wav in battles has crc
+740c1a6e
+and in xevious it has 0b1af078. IMHO they should not be merged.
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Disk imagessss
+Fecha: Wed, 06 Nov 2002 00:44:39 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Ben Jos Walbeehm ha escrito:
+
+> Ooh! I'm going to be rich now soon! I'm getting a lot more of nothing now!
+> :-)
+
+You don't know half the deal. I earn 1.5 times the normal newsposter salary,
+and
+3 times more in extra hours. Since the time I post more news is usually
+right
+now in the edge of my midnight, I get lots of cash every month. Last one was
+0
+euros (zero dollars so you get the amount).
+
+Mike, is it OK to put this info here? :)
+
+> And I never seem to learn either. :-)
+
+Oh well, I check for email AND news and I'm always late (not at work tho...)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] battles samples in -listinfo
+Fecha: Tue, 5 Nov 2002 19:02:24 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> Ok I checked and the versions I have sound similar, it's the same style of
+sound
+> effect, but sound really different to me. They just sound like the kind of
+> effects made with the same sound hardware, but used differently in each
+game. To
+> ensure that we have the same versions, my explo1.wav in battles has crc
+740c1a6e
+> and in xevious it has 0b1af078. IMHO they should not be merged.
+
+Well, remember that Dith cleaned up the ones in Xevious about a year ago,
+but
+never touched the ones in battles, so they come from somewhere else. Anyway,
+maybe I'll just wait and see what happens in 0.62. If battles still doesn't
+have a "sampleof xevious" then, I'll just let it slide and assume that in
+that clone of Xevious, the sounds really did sound differently.
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Disk imagessss
+Fecha: Tue, 5 Nov 2002 19:09:32 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> > Ooh! I'm going to be rich now soon! I'm getting a lot more of nothing
+now!
+> > :-)
+>
+> You don't know half the deal. I earn 1.5 times the normal newsposter
+salary, and
+> 3 times more in extra hours. Since the time I post more news is usually
+right
+> now in the edge of my midnight, I get lots of cash every month. Last one
+was 0
+> euros (zero dollars so you get the amount).
+>
+> Mike, is it OK to put this info here? :)
+
+Damn. You seem to make a lot more than I am. I'd better have a talk with
+Mike, because I don't think that's fair. And if I don't get a raise, I'll
+look for a job that will pay me more than 1.5 times 0 elsewhere. :-)
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] battles samples in -listinfo
+Fecha: Wed, 6 Nov 2002 08:07:41 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+It's intersting to see that battles only has 2 samples when all other clones
+have 4. If I was looking into it and had time I would change the battles
+sound driver to match the others to see if all 4 samples get used. This may
+indicate if it should use the same samples as the other xevious clones.
+Looking at past MAME listinfo may help too (did Xevious used to use 2
+samples for example).
+
+Mike
+
+----- Original Message -----
+From: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Wednesday, November 06, 2002 12:02 AM
+Subject: Re: [TeamLogiqx] battles samples in -listinfo
+
+> > Ok I checked and the versions I have sound similar, it's the same style
+of
+> sound
+> > effect, but sound really different to me. They just sound like the kind
+of
+> > effects made with the same sound hardware, but used differently in each
+> game. To
+> > ensure that we have the same versions, my explo1.wav in battles has crc
+> 740c1a6e
+> > and in xevious it has 0b1af078. IMHO they should not be merged.
+>
+> Well, remember that Dith cleaned up the ones in Xevious about a year ago,
+but
+> never touched the ones in battles, so they come from somewhere else.
+Anyway,
+> maybe I'll just wait and see what happens in 0.62. If battles still
+doesn't
+> have a "sampleof xevious" then, I'll just let it slide and assume that in
+> that clone of Xevious, the sounds really did sound differently.
+>
+> Ben Jos.
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Disk imagessss
+Fecha: Wed, 6 Nov 2002 08:11:10 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Mike, is it OK to put this info here? :)
+
+No because other people may get jealous to discover how generously I pay.
+How many employers pay such a large percentage above the standard rate?
+haha. :)
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Disk imagessss
+Fecha: Wed, 6 Nov 2002 08:15:55 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Damn. You seem to make a lot more than I am. I'd better have a talk with
+> Mike, because I don't think that's fair. And if I don't get a raise, I'll
+> look for a job that will pay me more than 1.5 times 0 elsewhere. :-)
+
+Just to clarify the salary scale, it is like this:
+
+Rate in $s/euros (hell, they're close on the same exchange rate):
+
+Standard hours=Dat level divided 2
+Unsociable hours=Dat level
+
+So Ben Jos, you are paid the same as Pi. Hey, I've just realised Pi, you are
+dat level -17 so you owe me a fortune!
+
+Hope everyone is happy with their rates now. ;)
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] Cottage
+Fecha: Wed, 6 Nov 2002 11:56:48 +0100
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+I have took a look at cottage last night,
+
+103 games are supported,
+
+I have attached preliminary dat.
+
+Unfortunately I don't have a source, and emulator don't support
+-listinfo, (or I just could not figured it out).
+
+So I took attached list of games, run datutil -g _name_ -a
+from Mame0.61.
+Then it turns out there are a few problems (some roms had to be
+renamed - some clone info thrown away...)
+I have checked it by hand loading each game in Cottage.
+All games from this dat works, (though maybe there are some redundant
+roms...).
+
+Here we go:
+
+galaxiaj - it should use roms from galaxian but then it doesn't work.
+roms 1h.bin, 1k.bin, 6l.bpr - have to be put also in galaxiaj.
+
+mspacman, pacman, theglob uses different roms (then those from MAME) -
+this are roms from bootlegs versions (first two) and Pacman Hardware
+(theglop rom from Mame).
+
+I couln't make to work last 6 games (all games are in alphabethical
+order in menu.htm but this 6, which are at the end).
+these are:
+arkangc
+arkatayt
+arkbloc2
+boblbobl
+sboblbob
+tokiob
+
+Also there are some merging information missed, I will have to take a
+look at it. But anyway - this dat runs all games. And maybe BenJos
+could run his validat on it. It would be helpful.
+
+Leslaw
+
+--
+SLA                          mailto:skrzypek@im.uj.edu.pl
+
+  -----------------------------------------------------------------
+                  Name: cot_010.zip
+   cot_010.zip    Type: Zip Compressed Data (application/x-zip-compressed)
+              Encoding: base64
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Cottage
+Fecha: Wed, 6 Nov 2002 19:06:49 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> galaxiaj - it should use roms from galaxian but then it doesn't work.
+> roms 1h.bin, 1k.bin, 6l.bpr - have to be put also in galaxiaj.
+
+In which case, we need to remove the cloneof/romof reference to galaxian. If
+you don't do this, the rom managers sometimes decide to merge the ROMs.
+
+> mspacman, pacman, theglob uses different roms (then those from MAME) -
+> this are roms from bootlegs versions (first two) and Pacman Hardware
+> (theglop rom from Mame).
+
+This always happens to emulators other than MAME. They copy MAME standards
+then MAME renames it's, hehe. I can see that you found the right games on
+the basis of the ROM names though.
+
+> I couln't make to work last 6 games (all games are in alphabethical
+> order in menu.htm but this 6, which are at the end).
+
+They probably don't work in the emu then. Another 'challenge' when creating
+dats is knowing when your dat is wrong and when the emu just doesn't work.
+;)
+
+> Also there are some merging information missed, I will have to take a
+> look at it. But anyway - this dat runs all games. And maybe BenJos
+> could run his validat on it. It would be helpful.
+
+After removing the galaxian reference in galaxiaj, it goes through Validat
+fine.
+
+Looks good to me (just needs a clrmamepro header). Great work Leslaw.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Disk imagessss
+Fecha: Wed, 6 Nov 2002 18:02:34 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> So Ben Jos, you are paid the same as Pi. Hey, I've just realised Pi, you
+are
+> dat level -17 so you owe me a fortune!
+>
+> Hope everyone is happy with their rates now. ;)
+
+OK. I'm happy now. :-)
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] battles samples in -listinfo
+Fecha: Wed, 6 Nov 2002 18:03:28 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> It's intersting to see that battles only has 2 samples when all other
+clones
+> have 4. If I was looking into it and had time I would change the battles
+> sound driver to match the others to see if all 4 samples get used. This
+may
+> indicate if it should use the same samples as the other xevious clones.
+> Looking at past MAME listinfo may help too (did Xevious used to use 2
+> samples for example).
+
+I've sent another e-mail to Dith, asking him his opinion as to whether they
+sound the same.
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] battles samples in -listinfo
+Fecha: Wed, 6 Nov 2002 23:26:19 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> It's intersting to see that battles only has 2 samples when all other
+clones
+> have 4. If I was looking into it and had time I would change the battles
+> sound driver to match the others to see if all 4 samples get used. This
+may
+> indicate if it should use the same samples as the other xevious clones.
+> Looking at past MAME listinfo may help too (did Xevious used to use 2
+> samples for example).
+
+Versions 0.30 final through 0.36 final used only two samples for Xevious,
+yes. 0.53 and up use 4.
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] battles samples in -listinfo
+Fecha: Thu, 7 Nov 2002 07:59:46 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Okay, I think that the final thing to do is amend the MAME source (for
+battles) and see if all 4 samples get used.
+
+Looking at the source (drivers/xevious.c), the two sample sections fit on
+the same screen so I'm not sure that it is an oversight. There may be a good
+reason for it having different samples.
+
+It would be interesting to know if all 4 samples can be used with battles
+though. ;)
+
+Mike
+
+----- Original Message -----
+From: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, November 07, 2002 4:26 AM
+Subject: Re: [TeamLogiqx] battles samples in -listinfo
+
+> > It's intersting to see that battles only has 2 samples when all other
+> clones
+> > have 4. If I was looking into it and had time I would change the battles
+> > sound driver to match the others to see if all 4 samples get used. This
+may
+> > indicate if it should use the same samples as the other xevious clones.
+> > Looking at past MAME listinfo may help too (did Xevious used to use 2
+> > samples for example).
+>
+> Versions 0.30 final through 0.36 final used only two samples for Xevious,
+> yes. 0.53 and up use 4.
+>
+> Ben Jos.
+>
+
+**********************************************************************
+Asunto: Re[2]: [TeamLogiqx] Cottage
+Fecha: Thu, 7 Nov 2002 09:18:33 +0100
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+I have just put:
+
+CottAGE v0.10 (cm).zip
+CottAGE v0.10 (rc).zip
+CottAGE.ent.zip
+
+on the ftp.
+
+the last six games:
+
+arkangc.zip
+arkatayt.zip
+arkbloc2.zip
+
+(3 clones od arkanoid)
+
+boblbobl.zip
+sboblbob.zip
+tokio.zip
+
+(3 clones of bublbobl)
+
+are not working.
+
+So i couldn't check which is parent for them. So I have assumed that
+all roms are neccessary (these are in split-merge format).
+
+though, at the website of cottage it is said that boblbobl should
+work, apparently not. (there is a fix released - but it change nothing
+- i will try to ask the author about it).
+
+Leslaw
+
+>> galaxiaj - it should use roms from galaxian but then it doesn't work.
+>> roms 1h.bin, 1k.bin, 6l.bpr - have to be put also in galaxiaj.
+
+L> In which case, we need to remove the cloneof/romof reference to galaxian.
+If
+L> you don't do this, the rom managers sometimes decide to merge the ROMs.
+
+done,
+
+>> mspacman, pacman, theglob uses different roms (then those from MAME) -
+>> this are roms from bootlegs versions (first two) and Pacman Hardware
+>> (theglop rom from Mame).
+
+L> This always happens to emulators other than MAME. They copy MAME
+standards
+L> then MAME renames it's, hehe. I can see that you found the right games on
+L> the basis of the ROM names though.
+
+right.
+
+--
+ Leslaw Skrzypek                          mailto:skrzypek@im.uj.edu.pl
+ Jagiellonian University
+
+**********************************************************************
+Asunto: [TeamLogiqx] Team stuff
+Fecha: Thu, 7 Nov 2002 10:48:08 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Got them, thanks. Whilst getting them I also re-organised the FTP again:
+
+Backup - Latest Bin, Dats, Dats_RC and WWW backups
+Submissions - Dat submissions (either WIP dats or completed dats, packaged
+up in ZIPs along with XML)
+ROMs - You know what ;)
+
+Hopefully this structure will allow us to keep it simple and uncluttered.
+
+I like the way that the dat began with a WIP status and then once given the
+okay got packaged and uploaded in a state where I can drop it into WWW. :) I
+suggest that we do this for all dats from now on.
+
+Tonight I will upload the CottAGE and Daphne dats (I will package Daphne and
+do the XML myself this time, hehe). After that, I have to pack for my 3 day
+Rome trip and go to bed since I must get up at 3.30am!
+
+Mike
+
+----- Original Message -----
+From: "Leslaw Skrzypek" <skrzypek@im.uj.edu.pl>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, November 07, 2002 8:18 AM
+Subject: Re[2]: [TeamLogiqx] Cottage
+
+> I have just put:
+>
+> CottAGE v0.10 (cm).zip
+> CottAGE v0.10 (rc).zip
+> CottAGE.ent.zip
+>
+> on the ftp.
+>
+> the last six games:
+>
+> arkangc.zip
+> arkatayt.zip
+> arkbloc2.zip
+>
+> (3 clones od arkanoid)
+>
+> boblbobl.zip
+> sboblbob.zip
+> tokio.zip
+>
+> (3 clones of bublbobl)
+>
+> are not working.
+>
+> So i couldn't check which is parent for them. So I have assumed that
+> all roms are neccessary (these are in split-merge format).
+>
+> though, at the website of cottage it is said that boblbobl should
+> work, apparently not. (there is a fix released - but it change nothing
+> - i will try to ask the author about it).
+>
+> Leslaw
+>
+>
+>
+>
+> >> galaxiaj - it should use roms from galaxian but then it doesn't work.
+> >> roms 1h.bin, 1k.bin, 6l.bpr - have to be put also in galaxiaj.
+>
+> L> In which case, we need to remove the cloneof/romof reference to
+galaxian. If
+> L> you don't do this, the rom managers sometimes decide to merge the ROMs.
+>
+> done,
+>
+>
+> >> mspacman, pacman, theglob uses different roms (then those from MAME) -
+> >> this are roms from bootlegs versions (first two) and Pacman Hardware
+> >> (theglop rom from Mame).
+>
+> L> This always happens to emulators other than MAME. They copy MAME
+standards
+> L> then MAME renames it's, hehe. I can see that you found the right games
+on
+> L> the basis of the ROM names though.
+>
+> right.
+>
+>
+>
+>
+> --
+>  Leslaw Skrzypek                          mailto:skrzypek@im.uj.edu.pl
+>  Jagiellonian University
+>
+
+**********************************************************************
+Asunto: Re: Re[2]: [TeamLogiqx] Cottage
+Fecha: Thu, 7 Nov 2002 10:57:40 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Looks good to me. I can see that games that were in CottAGE v0.03 have not
+changed (other than the addition of ROM merging) and that all other games
+match MAME (with the exception of the last six since they have no parent set
+to inherit the ROMs from). I could tell that they match MAME because 'fix
+missing' with my MAME ROMs as the 'add path' added all of the ROMs required
+(except for those six games already mentioned). Perhaps those six need the
+parent ZIP even though the parent is not actually supported? If so, just add
+the parents at the bottom of the dat with a little comment above them
+sayingthat they are just needed forthe rom managers (I just use a '#' for
+comments). I also loaded up CottAGE and ran about a dozen games.
+
+Anyway, it looks great to me. Thanks Leslaw.
+
+Mike
+
+p.s. I may get around to adding CottAGE v0.10 into CAESAR today. That serves
+as one final check of the dat quality since CAESAR checks that ROMs in the
+dat really belong to each game. I know they are right though because of the
+way I updated my sets in CMPro. ;)
+
+----- Original Message -----
+From: "Leslaw Skrzypek" <skrzypek@im.uj.edu.pl>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, November 07, 2002 8:18 AM
+Subject: Re[2]: [TeamLogiqx] Cottage
+
+> I have just put:
+>
+> CottAGE v0.10 (cm).zip
+> CottAGE v0.10 (rc).zip
+> CottAGE.ent.zip
+>
+> on the ftp.
+>
+> the last six games:
+>
+> arkangc.zip
+> arkatayt.zip
+> arkbloc2.zip
+>
+> (3 clones od arkanoid)
+>
+> boblbobl.zip
+> sboblbob.zip
+> tokio.zip
+>
+> (3 clones of bublbobl)
+>
+> are not working.
+>
+> So i couldn't check which is parent for them. So I have assumed that
+> all roms are neccessary (these are in split-merge format).
+>
+> though, at the website of cottage it is said that boblbobl should
+> work, apparently not. (there is a fix released - but it change nothing
+> - i will try to ask the author about it).
+>
+> Leslaw
+>
+>
+>
+>
+> >> galaxiaj - it should use roms from galaxian but then it doesn't work.
+> >> roms 1h.bin, 1k.bin, 6l.bpr - have to be put also in galaxiaj.
+>
+> L> In which case, we need to remove the cloneof/romof reference to
+galaxian. If
+> L> you don't do this, the rom managers sometimes decide to merge the ROMs.
+>
+> done,
+>
+>
+> >> mspacman, pacman, theglob uses different roms (then those from MAME) -
+> >> this are roms from bootlegs versions (first two) and Pacman Hardware
+> >> (theglop rom from Mame).
+>
+> L> This always happens to emulators other than MAME. They copy MAME
+standards
+> L> then MAME renames it's, hehe. I can see that you found the right games
+on
+> L> the basis of the ROM names though.
+>
+> right.
+>
+>
+>
+>
+> --
+>  Leslaw Skrzypek                          mailto:skrzypek@im.uj.edu.pl
+>  Jagiellonian University
+>
+
+**********************************************************************
+Asunto: Re[4]: [TeamLogiqx] Cottage
+Fecha: Thu, 7 Nov 2002 12:40:09 +0100
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+L> Perhaps those six need the
+L> parent ZIP even though the parent is not actually supported? If so, just
+add
+L> the parents at the bottom of the dat with a little comment above them
+L> sayingthat they are just needed forthe rom managers (I just use a '#' for
+L> comments).
+
+Exactly!!!!
+
+boblbobl.zip
+sboblbob.zip
+tokio.zip
+
+runs if we have bublbobl in the rom directory - which is not
+supported.
+
+I need to change the dat.
+
+Good point, Mark.
+
+Leslaw
+
+--
+SLA                          mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: [TeamLogiqx] Validat and other tools
+Fecha: Thu, 7 Nov 2002 11:44:54 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I forgot to mention earlier that I've updated the team backup areas (both at
+logiqx.com and the FTP).
+
+http://www.logiqx.com/team/download/
+
+I have removed the seperate tool ZIPs and just provide a full archive of the
+'Bin' directory now.
+
+If you don't have Validat by Ben Jos yet, then update your 'Bin' directory
+to the latest version. ;)
+
+Mike
+
+**********************************************************************
+Asunto: Re[4]: [TeamLogiqx] Cottage
+Fecha: Thu, 7 Nov 2002 12:53:07 +0100
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+All this 6 games are working,
+they just need parents sets stored in the rom directory.
+
+I will upload proper dat tommorow - I am at the university - all my
+stuff is at home.
+
+Leslaw
+
+--
+ SLA                          mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: Re: Re[4]: [TeamLogiqx] Cottage
+Fecha: Thu, 7 Nov 2002 12:25:18 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+No fear, I have done it myself since I would like to upload it when I get
+home this evening.
+
+I have attached the CottAGE directory so that you can see how I tend to do
+dats that need 'dummy' parents. The reason behind this is so that I can use
+the true list of games in CAESAR (i.e. no dummy parents) without manually
+editing the CAESAR dat each time the emulator is updated. :) Dummy parents
+also exist in Calice and used to exist in ACE.
+
+Mike (a.k.a. Mark, hehe)
+
+----- Original Message -----
+From: "Leslaw Skrzypek" <skrzypek@im.uj.edu.pl>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, November 07, 2002 11:53 AM
+Subject: Re[4]: [TeamLogiqx] Cottage
+
+> All this 6 games are working,
+> they just need parents sets stored in the rom directory.
+>
+> I will upload proper dat tommorow - I am at the university - all my
+> stuff is at home.
+>
+> Leslaw
+>
+> --
+>  SLA                          mailto:skrzypek@im.uj.edu.pl
+>
+
+  -----------------------------------------------------------------
+                  Name: CottAGE.zip
+   CottAGE.zip    Type: Zip Compressed Data (application/x-zip-compressed)
+              Encoding: base64
+
+**********************************************************************
+Asunto: [TeamLogiqx] Uploads
+Fecha: Thu, 7 Nov 2002 21:35:33 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Uploaded CottAGE and Daphne.
+
+- Made an important mod to CottAGE: 'fixmerging split'
+
+- Had to take unused games out of Daphne because DatUtil was not ignoring
+them (they were getting into the RomCenter dat), same with MAMEDiff and
+probably CAESAR too (seeing as they all use the same type of parser). The
+unused games are in a seperate file in the Dats/Recent/Multi/Daphne folder
+now.
+
+Also compared our Daphne dat to that other one and they have two additional
+ROMs:
+
+game (
+ name "cobraconv"
+ description "Cobra Command (conversion) [Disabled - Not Working]"
+ year 1984
+ manufacturer "Data East USA"
+ rom ( name vd0-c.bpr size 32 crc 02c27aa0 )
+ rom ( name vd0-t.bpr size 32 crc 78449942 )
+)
+
+Maybe we should have them as unusedroms? I haven't time to download the ROMs
+to check if they really exist.
+
+Currently uploading the latest TARs to the team areas. Signing off now...
+got to get up at 3.30am!
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Uploads
+Fecha: Thu, 7 Nov 2002 20:33:46 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+>  name "cobraconv"
+>  rom ( name vd0-c.bpr size 32 crc 02c27aa0 )
+>  rom ( name vd0-t.bpr size 32 crc 78449942 )
+>
+> Maybe we should have them as unusedroms? I haven't time to download the
+ROMs
+> to check if they really exist.
+
+Yes, it does contain those in the file from d-l-p. Damn, I must have missed
+those because of my habit of comparing zip files against my database and
+deleting all the duplicates. So, yes, we should add those as unusedroms.
+
+> Currently uploading the latest TARs to the team areas. Signing off now...
+> got to get up at 3.30am!
+
+Had a bit of a problem downloading the binaries, because the link points to
+the dats...
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Uploads
+Fecha: Fri, 8 Nov 2002 03:53:30 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Yes, it does contain those in the file from d-l-p. Damn, I must have
+missed
+> those because of my habit of comparing zip files against my database and
+> deleting all the duplicates. So, yes, we should add those as unusedroms.
+
+I wonder if there are any others? When I am back from Rome I may re-download
+all of the Daphne ROMs to see what is unused (by doing a CMPro 'show
+unneeded').
+
+> Had a bit of a problem downloading the binaries, because the link points
+to
+> the dats...
+
+Do you have the team FTP details? It mirrors the downloads at logiqx.com
+(which have some weird size problem it appears).
+
+ftp://leslaw:leslaw@149.156.75.202:2121
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] YAAME v0.03
+Fecha: Fri, 8 Nov 2002 03:55:03 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Any takers for updating it while I'm gone? :)
+
+I expect that it will just be a matter of adding MAME-standard ROMs, just
+like CottAGE.
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] some words
+Fecha: Fri, 08 Nov 2002 15:52:38 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+He's gone, he's gone!
+
+Partypartypartyparty!!!!!!!!!
+
+Ok now seriously. The team is going nicely. Work is being done,
+we have some serious dat creators. The quality of the dats is
+great and as the saying goes, two brains think better than one.
+
+I am going to contact everyone who appears in the team page in
+that listed address, so please don't leave that email laying dead
+for one week, answer this weekend, k? ;) Don't worry, there are
+not bad news, just some Q's.
+
+I was going to say "and as a reward, Chloe Jones 2nd stage", but
+I can't find the cd where i have those 800 pics of her :-p
+
+Have a nice weekend :)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Uploads
+Fecha: Fri, 8 Nov 2002 18:08:00 +0100
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+L> Uploaded CottAGE and Daphne.
+
+And I have just put the new dat to the ftp. (A bit too late since you
+have made already all improvements, I have checked your improvements -
+there are the same as mine so the dat fine.)
+
+Forunately you were wise enough to spot neccessity for
+forcemerging split.
+Great.
+
+L> - Made an important mod to CottAGE: 'fixmerging split'
+
+cool,
+
+Leslaw
+
+--
+SLA                        mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Updates
+Fecha: Sat, 09 Nov 2002 00:18:43 +0100
+De: Dr.Zer0 (Libero Infostrada) <Dr.Zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+Organización: Dr.Zer0 software
+A: <teamlogiqx@emuverse.com>
+
+09/11/2002 23.04.32, Pi <pi@logiqx.com> ha scritto:
+
+>Heya guys
+>
+>Yaame is still needing an update, come on, it's small and easy. I
+>remember I did this one months ago!
+>
+>Another one which needs an update is RAINE 0.36.2. I WANT this
+>dat asap, please :) I know at least one game has been added,
+>Street Fighter Zero, but there might be some other rom movements.
+>
+>I haven't had time or will to contact all of you yet, this
+>weekend I am quite lazy :-p
+>
+>--
+>Pi - News Poster at CAESAR
+>http://caesar.logiqx.com
+>
+>
+>
+
+I can make this DAT, but not until 13 of this month, if mike can wait, YAAME
+is mine :-)
+
+I see that the team start to rock, I'm very pleased.
+
+Good work guys
+
+Dr.Zer0
+
+**********************************************************************
+Asunto: [TeamLogiqx] Updates
+Fecha: Sat, 09 Nov 2002 23:04:32 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Heya guys
+
+Yaame is still needing an update, come on, it's small and easy. I
+remember I did this one months ago!
+
+Another one which needs an update is RAINE 0.36.2. I WANT this
+dat asap, please :) I know at least one game has been added,
+Street Fighter Zero, but there might be some other rom movements.
+
+I haven't had time or will to contact all of you yet, this
+weekend I am quite lazy :-p
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Updates
+Fecha: Sun, 10 Nov 2002 12:10:09 +0100
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+P> Yaame is still needing an update, come on, it's small and easy. I
+P> remember I did this one months ago!
+
+Of cource I can take Yaame, I have already looked at it.
+The case is I don't have this fucking decrypted Anteater rom!!!
+This rom was changed in Mame 0.25 (no kidding) to current one.
+Pi - (or somebody else) could you send me this rom?
+
+game (
+        name anteater
+        description "Anteater"
+        year 1982
+        manufacturer "[Stern] (Tago license)"
+        rom ( name ra1-2c size 4096 crc 58bc9393 )
+        rom ( name ra1-2e size 4096 crc 574fc6f6 )
+        rom ( name ra1-2f size 4096 crc 2f7c1fe5 )
+        rom ( name ra1-2h size 4096 crc ae8a5da3 )
+        rom ( name ra4-5c size 2048 crc 87300b4f )
+        rom ( name ra4-5d size 2048 crc af4e5ffe )
+        rom ( name ra6-5f2 size 2048 crc 1e2824b1 )
+        rom ( name ra6-5h2 size 2048 crc 784319b3 )
+)
+
+The last two are this decrypted graphic roms!!!!
+
+Leslaw
+
+--
+SLA                         mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: [TeamLogiqx] Yaame - anteater
+Fecha: Sun, 10 Nov 2002 13:48:28 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Leslaw Skrzypek ha escrito:
+
+> Of cource I can take Yaame, I have already looked at it.
+
+It's not bat that both you and Dr. Zer0 take the job at the same time,
+so go ahead.
+
+> The case is I don't have this fucking decrypted Anteater rom!!!
+
+Ah well - no one has it except Logiqx and me, I think. The story is that
+eons ago, when Tom Walker (the Yaame author) started looking into
+anteater emulation, he found the graphics scrambled and created a custom
+unscrambled graphic rom by hand. Eons later when he actually released
+Yaame, the emu still wanted those unscrambled roms, even when they are
+not needed anymore since he figured out the real emulation of that part.
+
+Tom Walker is a cool guy, and sent me the roms at request. I don't think
+other people has it unless they asked Tom directly for them. More or
+less like the junoboot in M72 methinks. I could be wrong of course....
+
+> This rom was changed in Mame 0.25 (no kidding) to current one.
+> Pi - (or somebody else) could you send me this rom?
+
+Why are you asking us to commit an illegal act - a crime! Sending
+copyrighted material over internet is forbidden by the Digital Millenium
+Crappy Act.
+
+So please everyone save these rare to find romz for future generations
+:)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+  -----------------------------------------------------------------
+                      Name: anteatergfx.zip
+   anteatergfx.zip    Type: Zip Compressed Data
+                            (application/x-zip-compressed)
+                  Encoding: base64
+
+**********************************************************************
+Asunto: [TeamLogiqx] Fw: Strider 2 redumped
+Fecha: Mon, 11 Nov 2002 10:24:16 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+This affects the ZN data file. Does anyone feel like updating and packaging
+it?
+
+Be sure to do a ROMCMP -d between the old and new USA ROMs (to check that
+the new dump seems to have some reason behind it). I don't have my ROM
+collection here to see what has changed u c.
+
+Mike
+
+----- Original Message -----
+From: "Dr MAD" <asc2500@yahoo.fr>
+To: <logiqx@logiqx.com>
+Sent: Friday, November 08, 2002 10:50 PM
+Subject: Strider 2 redumped
+
+> Hi,
+>
+> Just want to let you know Strider 2 (USA) has been
+> redumped, and Strider 2 (ASIA) has been dumped.
+>
+> Strider 2 (USA redump), rom hr2-04u, CRC 6F6F8A09
+> Strider 2 (ASIA)      , rom hr2-04a, CRC 56FF9394
+>
+> both upped to abem.
+>
+> regards,
+>
+> /DM
+>
+> ___________________________________________________________
+> Do You Yahoo!? -- Une adresse @yahoo.fr gratuite et en français !
+> Yahoo! Mail : http://fr.mail.yahoo.com
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Fw: Strider 2 redumped
+Fecha: Mon, 11 Nov 2002 06:55:08 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> Be sure to do a ROMCMP -d between the old and new USA ROMs (to check that
+> the new dump seems to have some reason behind it). I don't have my ROM
+> collection here to see what has changed u c.
+
+The old one:
+ 524288  DeflatN 103311  81%  24-03-2002  16:20  6e18a49d --w-  hr2-04u
+
+Output when I compared the entire zipfiles (non-matches left out):
+hr2-04u      [1/2]      hr2-04u      [1/2]      IDENTICAL
+hr2j-04      [2/2]      hr2-04a      [2/2]      IDENTICAL
+hr2j-04      [2/2]      hr2-04u      [2/2]      IDENTICAL
+hr2j-04      [1/2]      hr2-04a      [1/2]      99.877%
+
+Output when I compared zipfiles containing just hr2-04u:
+hr2-04u      [1/2]      hr2-04u      [1/2]      IDENTICAL
+hr2-04u      [2/2]      hr2-04u      [2/2]      99.999%
+
+I used "romcmp -d <old> <new>".
+
+Ben Jos.
+
+**********************************************************************
+Asunto: [TeamLogiqx] Raine 0.36.2
+Fecha: Mon, 11 Nov 2002 13:02:04 +0100
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+I have put Raine 0.36.2 dats on ftp.
+
+This was piece a cake - Mike has wrote everything, only needs to put
+new Raine exe in appropriate directory.
+
+Only one game was added - sfzch, appart that nothing has changed.
+
+Take a look and let me know - But since it is generated automatically
+and we have already trusted this method - there so nothing to check.
+
+Leslaw
+
+--
+SLA                          mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Fw: Strider 2 redumped
+Fecha: Mon, 11 Nov 2002 12:05:16 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Thanks. That shows that the 2nd half of all regions now match and the first
+half only has minor differences. The USA redump therefore makes sense (seems
+the first half was already okay but the second half didn't match the other
+regions; a givaway of badness in the case of Strider 2).
+
+Mike
+
+----- Original Message -----
+From: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Monday, November 11, 2002 11:55 AM
+Subject: Re: [TeamLogiqx] Fw: Strider 2 redumped
+
+> > Be sure to do a ROMCMP -d between the old and new USA ROMs (to check
+that
+> > the new dump seems to have some reason behind it). I don't have my ROM
+> > collection here to see what has changed u c.
+>
+> The old one:
+>  524288  DeflatN 103311  81%  24-03-2002  16:20  6e18a49d --w-  hr2-04u
+>
+> Output when I compared the entire zipfiles (non-matches left out):
+> hr2-04u      [1/2]      hr2-04u      [1/2]      IDENTICAL
+> hr2j-04      [2/2]      hr2-04a      [2/2]      IDENTICAL
+> hr2j-04      [2/2]      hr2-04u      [2/2]      IDENTICAL
+> hr2j-04      [1/2]      hr2-04a      [1/2]      99.877%
+>
+> Output when I compared zipfiles containing just hr2-04u:
+> hr2-04u      [1/2]      hr2-04u      [1/2]      IDENTICAL
+> hr2-04u      [2/2]      hr2-04u      [2/2]      99.999%
+>
+> I used "romcmp -d <old> <new>".
+>
+> Ben Jos.
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Yaame
+Fecha: Mon, 11 Nov 2002 14:30:57 +0100
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+I have a question about Yaame,
+In last release there are "unusedroms" used.
+(First what is the reason for that? ClrMAME even though the roms are
+marked unusedroms deletes them, so what's this for).
+Anyway, now there are no source code of Yaame - we cannot check for
+sure whether some roms are used or not.
+I can give you an example: Blockout - this is newly supported game.
+(it runs without sound - at least author doesn't indicate it runs with
+sound so taking a look at Mame -listinfo)
+
+        name blockout
+        description "Block Out (set 1)"
+        year 1989
+        manufacturer "Technos + California Dreams"
+        rom ( name bo29a0-2.bin size 131072 crc b0103427 region cpu1 offs 0
+)
+        rom ( name bo29a1-2.bin size 131072 crc 5984d5a2 region cpu1 offs 1
+)
+        rom ( name bo29e3-0.bin size 32768 crc 3ea01f78 region cpu2 offs 0 )
+        rom ( name bo29e2-0.bin size 131072 crc 15c5a99d region sound1 offs
+0 )
+        rom ( name mb7114h.25 size 256 crc b25bbda7 region proms offs 0 )
+
+so bo29e2-0.bin we can set as a unusedrom, probably also prom is not
+used - so also unused rom. Well and game without these two loads.
+Fine.
+But then I can remove bo29e3-0.bin and game loads fine!!!
+In fact it loads also without bo29a1-2.bin - just the graphic is
+garbled.
+
+So how I can tell which roms is really necessary? Isn't it better to
+not use unusedrom at all?
+
+Leslaw
+
+
+
+--
+SLA                         mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: [TeamLogiqx] i'm still here...
+Fecha: Mon, 11 Nov 2002 19:58:28 +0100
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+hi guys,
+i'm still here and trying to do something for the team,
+but for three weeks i can't read the emails, all i can
+do is read the the subject lines and write mails via imap.
+so please have some patience with me...
+ciao.stefan
+
+**********************************************************************
+Asunto: [TeamLogiqx] OT: Excuse me for this post
+Fecha: Tue, 12 Nov 2002 03:10:41 +0100
+De: Dr.Zer0 (Libero Infostrada) <Dr.Zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+Organización: Dr.Zer0 software
+A: <teamlogiqx@emuverse.com>
+
+Where find Area51 ROMs (not CHD)
+
+About my Team status currentily update my info,,,
+
+TIA
+
+Dr:Zer0
+
+**********************************************************************
+Asunto: [TeamLogiqx] Fw: some question about dats
+Fecha: Tue, 12 Nov 2002 08:06:59 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Just looked in my 'Later' folder and found this e-mail.
+
+Could someone check it out please? I am trying to spend what little time I
+have each day working on a couple of little projects (but with so little
+time they are long projects)!
+
+Mike
+
+----- Original Message -----
+From: "Dave" <dave4mame@libero.it>
+To: <logiqx@logiqx.com>
+Sent: Sunday, September 15, 2002 9:04 PM
+Subject: some question about dats
+
+Hi logiqx,
+It's nice to see you back at work! :D
+I've recently build the "old arcade emulator sets" using your dat pack.
+Rombuilder has been very useful...
+
+I've a question about the sound samples.
+
+In two cases (sideway and magex), the samples i've found on caesar doesn't
+match with the filenames required by the dats.
+
+for istance the sideway dat for boothill requires:
+
+SND2.WAV
+SND4.WAV
+SND5.WAV
+SND6.WAV
+SND7.WAV
+
+but in the zipfile i've
+
+GUNSHOT.SAM
+ENDGAME.SAM
+Addcoin.sam
+KILLED.SAM.
+
+Same thing for magex samples: diffent names, and the ones in the zipfile
+seem to be the right ones (the emulator plays them).
+
+Am i doing something wrong? Please lemme know!
+
+Thanks in advance,
+
+Dave
+
+**********************************************************************
+Asunto: [TeamLogiqx] HOOT
+Fecha: Tue, 12 Nov 2002 08:10:10 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Stiletto asked me about dats for M1 and HOOT today. I explained that M1
+would have listinfo next release but it still leaves Hoot to check out.
+
+Initially, could someone look into what systems it supports please?
+Instructions for using Hoot are detailed below.
+
+When it comes to creating a dat, I suspect that the system dats like Neo-Geo
+(sound ones) can be utilised in the same way that I do for NeoJukeBox,
+Nebula Jukebox, etc.
+
+Mike
+
+> ----- Original Message -----
+> From: "Stiletto" <stiletto@fastmail.fm>
+> To: "Logiqx" <logiqx@logiqx.com>
+> Sent: Thursday, October 03, 2002 11:26 PM
+> Subject: Re: Gekko Teaser?
+>
+>
+> > Additional note: Still having trouble with HOOT? See here:
+> >
+>
+http://babelfish.altavista.com/urltrurl?url=http%3A%2F%2Fwww.emu4ever.com%2F
+> tutos%2Fhoot%2Ftuto-hoot2.htm&lp=es_en&tt=url
+> > And here:
+> > http://crashtest.retrogames.com/Hoot/index.html
+>
+
+**********************************************************************
+Asunto: [TeamLogiqx] mame 0.62 is out
+Fecha: Wed, 13 Nov 2002 02:02:43 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+this is the real test guys, go on and be brave!
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] mame 0.62 is out
+Fecha: Tue, 12 Nov 2002 20:20:42 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> this is the real test guys, go on and be brave!
+
+Validating file: "listinfo.txt"
+
+WARNING: Set "bakutotu". ROM "bk_obj-3.bin". Second occurrence ignored..
+WARNING: Set "bakutotu". ROM "bk_obj-4.bin". Second occurrence ignored..
+WARNING: Set "donpachi". ROM "atdp.u33". Second occurrence ignored..
+WARNING: Set "donpachk". ROM "atdp.u33". Second occurrence ignored..
+WARNING: Set "equites". ROM "eb5.7h". Second occurrence ignored..
+WARNING: Set "equites". ROM "eb6.8h". Second occurrence ignored..
+WARNING: Set "equites". ROM "es5.5h". Second occurrence ignored..
+WARNING: Set "equites". ROM "es6.4h". Second occurrence ignored..
+WARNING: Set "equitess". ROM "eb5.7h". Second occurrence ignored..
+WARNING: Set "equitess". ROM "eb6.8h". Second occurrence ignored..
+WARNING: Set "equitess". ROM "es5.5h". Second occurrence ignored..
+WARNING: Set "equitess". ROM "es6.4h". Second occurrence ignored..
+WARNING: Set "bullfgtr". ROM "l_h7.bin". Second occurrence ignored..
+WARNING: Set "bullfgtr". ROM "l_h9.bin". Second occurrence ignored..
+WARNING: Set "bullfgtr". ROM "l_h6.bin". Second occurrence ignored..
+WARNING: Set "bullfgtr". ROM "l_h4.bin". Second occurrence ignored..
+WARNING: Set "kouyakyu". ROM "epr-6695.bin". Second occurrence ignored..
+WARNING: Set "kouyakyu". ROM "epr-6694.bin". Second occurrence ignored..
+WARNING: Set "kouyakyu". ROM "epr-6696.bin". Second occurrence ignored..
+WARNING: Set "kouyakyu". ROM "epr-6697.bin". Second occurrence ignored..
+WARNING: Set "splndrbt". ROM "6.18n". Second occurrence ignored..
+WARNING: Set "hvoltage". ROM "8.18n". Second occurrence ignored..
+WARNING: Set "skysoldr". ROM "ss.3". Second occurrence ignored..
+WARNING: Set "skysoldr". ROM "ss.4". Second occurrence ignored..
+WARNING: Set "skysoldr". ROM "ss.1". Second occurrence ignored..
+WARNING: Set "skysoldr". ROM "ss.2". Second occurrence ignored..
+WARNING: Set "raiders5". ROM "raiders5.2". Second occurrence ignored..
+WARNING: Set "raidrs5t". ROM "raiders2.4d". Second occurrence ignored..
+WARNING: Set "revx". ROM "revx.51". Second occurrence ignored..
+WARNING: Set "revx". ROM "revx.52". Second occurrence ignored..
+WARNING: Set "revx". ROM "revx.53". Second occurrence ignored..
+WARNING: Set "revx". ROM "revx.54". Second occurrence ignored..
+WARNING: Set "bigrun". ROM "mr88004g.t45". Second occurrence ignored..
+WARNING: Set "bigrun". ROM "mb88004h.t46". Second occurrence ignored..
+WARNING: Set "cischeat". ROM "ch9073.r21". Second occurrence ignored..
+WARNING: Set "cischeat". ROM "ch9073.r22". Second occurrence ignored..
+WARNING: Set "tetrisp2". ROM "96019-04.6". Second occurrence ignored..
+WARNING: Set "kickoff". ROM "kioff20.rom". Second occurrence ignored..
+WARNING: Set "kickoff". ROM "kioff21.rom". Second occurrence ignored..
+WARNING: Set "gtmr". ROM "gmmu52.bin". Second occurrence ignored..
+WARNING: Set "gtmre". ROM "gmmu52.bin". Second occurrence ignored..
+WARNING: Set "gtmrusa". ROM "gmmu52.bin". Second occurrence ignored..
+WARNING: Set "gtmr2". ROM "m2-300-0.u89". Second occurrence ignored..
+WARNING: Set "gtmr2". ROM "m2-301-0.u90". Second occurrence ignored..
+WARNING: Set "gtmr2". ROM "m2b0x0.u93". Second occurrence ignored..
+WARNING: Set "gtmr2". ROM "m2b1x0.u94". Second occurrence ignored..
+WARNING: Set "sxyreact". ROM "ac1411m0.u42". Second occurrence ignored..
+WARNING: Set "pbancho". ROM "rom3.60". Second occurrence ignored..
+
+But they did all the merges that I submitted! :-)
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] OT: Excuse me for this post
+Fecha: Tue, 12 Nov 2002 23:22:17 -0600
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey Dr:Zer0,
+
+> Where find Area51 ROMs (not CHD)
+
+try http://mamefans.metropoliglobal.com/romswip.htm - lotsa good stuff -
+user 'mrpotato' & pass '11111111' to skip the queue ;)
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] mame 0.62 is out
+Fecha: Wed, 13 Nov 2002 07:56:21 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Cool, nice to see the bad merge names have gone. :)
+
+----- Original Message -----
+From: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Wednesday, November 13, 2002 1:20 AM
+Subject: Re: [TeamLogiqx] mame 0.62 is out
+
+> > this is the real test guys, go on and be brave!
+>
+> Validating file: "listinfo.txt"
+>
+> WARNING: Set "bakutotu". ROM "bk_obj-3.bin". Second occurrence ignored..
+> WARNING: Set "bakutotu". ROM "bk_obj-4.bin". Second occurrence ignored..
+> WARNING: Set "donpachi". ROM "atdp.u33". Second occurrence ignored..
+> WARNING: Set "donpachk". ROM "atdp.u33". Second occurrence ignored..
+> WARNING: Set "equites". ROM "eb5.7h". Second occurrence ignored..
+> WARNING: Set "equites". ROM "eb6.8h". Second occurrence ignored..
+> WARNING: Set "equites". ROM "es5.5h". Second occurrence ignored..
+> WARNING: Set "equites". ROM "es6.4h". Second occurrence ignored..
+> WARNING: Set "equitess". ROM "eb5.7h". Second occurrence ignored..
+> WARNING: Set "equitess". ROM "eb6.8h". Second occurrence ignored..
+> WARNING: Set "equitess". ROM "es5.5h". Second occurrence ignored..
+> WARNING: Set "equitess". ROM "es6.4h". Second occurrence ignored..
+> WARNING: Set "bullfgtr". ROM "l_h7.bin". Second occurrence ignored..
+> WARNING: Set "bullfgtr". ROM "l_h9.bin". Second occurrence ignored..
+> WARNING: Set "bullfgtr". ROM "l_h6.bin". Second occurrence ignored..
+> WARNING: Set "bullfgtr". ROM "l_h4.bin". Second occurrence ignored..
+> WARNING: Set "kouyakyu". ROM "epr-6695.bin". Second occurrence ignored..
+> WARNING: Set "kouyakyu". ROM "epr-6694.bin". Second occurrence ignored..
+> WARNING: Set "kouyakyu". ROM "epr-6696.bin". Second occurrence ignored..
+> WARNING: Set "kouyakyu". ROM "epr-6697.bin". Second occurrence ignored..
+> WARNING: Set "splndrbt". ROM "6.18n". Second occurrence ignored..
+> WARNING: Set "hvoltage". ROM "8.18n". Second occurrence ignored..
+> WARNING: Set "skysoldr". ROM "ss.3". Second occurrence ignored..
+> WARNING: Set "skysoldr". ROM "ss.4". Second occurrence ignored..
+> WARNING: Set "skysoldr". ROM "ss.1". Second occurrence ignored..
+> WARNING: Set "skysoldr". ROM "ss.2". Second occurrence ignored..
+> WARNING: Set "raiders5". ROM "raiders5.2". Second occurrence ignored..
+> WARNING: Set "raidrs5t". ROM "raiders2.4d". Second occurrence ignored..
+> WARNING: Set "revx". ROM "revx.51". Second occurrence ignored..
+> WARNING: Set "revx". ROM "revx.52". Second occurrence ignored..
+> WARNING: Set "revx". ROM "revx.53". Second occurrence ignored..
+> WARNING: Set "revx". ROM "revx.54". Second occurrence ignored..
+> WARNING: Set "bigrun". ROM "mr88004g.t45". Second occurrence ignored..
+> WARNING: Set "bigrun". ROM "mb88004h.t46". Second occurrence ignored..
+> WARNING: Set "cischeat". ROM "ch9073.r21". Second occurrence ignored..
+> WARNING: Set "cischeat". ROM "ch9073.r22". Second occurrence ignored..
+> WARNING: Set "tetrisp2". ROM "96019-04.6". Second occurrence ignored..
+> WARNING: Set "kickoff". ROM "kioff20.rom". Second occurrence ignored..
+> WARNING: Set "kickoff". ROM "kioff21.rom". Second occurrence ignored..
+> WARNING: Set "gtmr". ROM "gmmu52.bin". Second occurrence ignored..
+> WARNING: Set "gtmre". ROM "gmmu52.bin". Second occurrence ignored..
+> WARNING: Set "gtmrusa". ROM "gmmu52.bin". Second occurrence ignored..
+> WARNING: Set "gtmr2". ROM "m2-300-0.u89". Second occurrence ignored..
+> WARNING: Set "gtmr2". ROM "m2-301-0.u90". Second occurrence ignored..
+> WARNING: Set "gtmr2". ROM "m2b0x0.u93". Second occurrence ignored..
+> WARNING: Set "gtmr2". ROM "m2b1x0.u94". Second occurrence ignored..
+> WARNING: Set "sxyreact". ROM "ac1411m0.u42". Second occurrence ignored..
+> WARNING: Set "pbancho". ROM "rom3.60". Second occurrence ignored..
+>
+> But they did all the merges that I submitted! :-)
+>
+> Ben Jos.
+>
+
+**********************************************************************
+Asunto: [TeamLogiqx] MAME v0.62
+Fecha: Wed, 13 Nov 2002 08:32:58 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi all,
+
+MAME v0.62 has been released just in time for us to get everything done
+before I go on holiday (gone for over a week, beginning on Saturday). Please
+help out as much as you can. The ideal situation would be for many people to
+do all MAME aspects since the more people familiar with the process, the
+better. :) I will have plenty to do relating to CAESAR too. ;)
+
+The MAME related work that we have outstanding right now is as follows:
+
+MAME Artwork + Samples - sent to me by Roman (just need packaging)
+
+Generate then check if changed:
+
+Multi/MAME                                 Automatic
+   Multi/FBA (Supplements)                 Automatic
+   Multi/Final Burn (Supplements)          Automatic
+   Multi/MAME (Changes)                    Automatic
+   Multi/MAME (Supplements)                Automatic
+   Multi/Nebula (Supplements)              Automatic
+   Multi/RAINE (Supplements)               Automatic
+   Multi/WinKawaks (Supplements)           Automatic
+   Systems/CPS-1                           Semi-Automatic
+      Systems/CPS-1 (QSound)               Manual
+         Sound/Nebula Jukebox              Automatic
+         Sound/NeoJukeBox                  Automatic
+         Sound/QPlayer                     Automatic
+      Systems/CPS-1 (YM-2151 + OKI6295)    Manual
+         Sound/Nebula Jukebox              Automatic
+      Systems/CPS-1 (Supplements)          Automatic
+   Systems/CPS-1 (Supplements)             Automatic
+   Systems/CPS-2 (Supplements)             Automatic
+   Systems/Neo-Geo                         Semi-Automatic
+      Systems/Neo-Geo (Sound)              Manual
+         Sound/Nebula Jukebox              Automatic
+         Sound/NeoJukeBox                  Automatic
+      Systems/Neo-Geo (Supplements)        Automatic
+   Systems/Neo-Geo (Supplements)           Automatic
+
+Coming soon...
+
+MAME Cabinets - package if/when John IV updates
+MAME Flyers - package if/when John IV updates
+MAME Icons - package if/when John IV updates
+MAME Snaps - package if/when John IV updates
+MAME Titles - package if/when John IV updates
+
+MAME Marquees - package if Eldio updates
+
+Mike
+
+----- Original Message -----
+From: "Roman Scherzer" <roman.scherzer@t-online.de>
+To: "Logiqx" <logiqx@logiqx.com>
+Sent: Wednesday, November 13, 2002 3:24 AM
+Subject: samples + artwork datfiles
+
+> updated to 62....If I remember correctly it's just a
+> description name change in donkeykong or something...
+>
+> Both dats are done by myself, using dir2dat...
+>
+> --
+> Roman Scherzer
+> home: www.clrmame.com
+> icq : 13986886 (Bogy); irc : EFNet, #retrogamers (Bogy)
+> "And I'm sorry if it ain't that cool living in a world of fools"
+
+  -----------------------------------------------------------------
+                                     Name: MAME Artwork 20021113 (cm).zip
+   MAME Artwork 20021113 (cm).zip    Type: Zip Compressed Data
+                                           (application/x-zip-compressed)
+                                 Encoding: base64
+
+                                     Name: MAME Samples 20021113 (cm).zip
+   MAME Samples 20021113 (cm).zip    Type: Zip Compressed Data
+                                           (application/x-zip-compressed)
+                                 Encoding: base64
+
+**********************************************************************
+Asunto: [TeamLogiqx] dats changes list
+Fecha: Wed, 13 Nov 2002 15:12:10 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi people
+
+I've updated the datlist with a couple minor changes besides the
+MAME 0.62 release. Logiqx told me to use the dependencies list to
+check what needs to be checked, but a) I am not sure that I can
+interpret it well and b) it seems that other than automatically
+generated supplements, you only have to take care about Neogeo's
+Blues Journey new dump and the usual CPS2 xor/parent dance. At
+first glance there are no other changes in systems supported by
+MAME.
+
+The new mame has around 130 new games, and not 91 like the
+whatsnew.txt states. It took 131 days, so that makes one game per
+day, curious. It's also the biggest release until date, but being
+also the slowest that's not surprising at all. The new roms size
+is around 430mb without the CHD's (mamediff supertiny).
+Surprising enough in my case, I'm on 56k and I will have to
+download around 5 or maybe 6 megs of roms, I had all the rest
+already :-p
+
+I will be a bit busy until the weekend so further updates might
+be slow, sorry for it.
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] dats changes list
+Fecha: Wed, 13 Nov 2002 16:19:27 +0100
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+Hi guys,
+Have sb looked at my Raine 0.36.2 dat?
+I think it is allright.
+
+As to the Yaame - I had a few questions.
+
+best;
+Leslaw
+
+--
+SLA                          mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Raine 0.36.2
+Fecha: Wed, 13 Nov 2002 16:07:39 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Ooops. Didn't see this e-mail. Will try to do tonight (work problems)...
+
+Mike
+
+----- Original Message -----
+From: "Leslaw Skrzypek" <skrzypek@im.uj.edu.pl>
+To: <teamlogiqx@emuverse.com>
+Sent: Monday, November 11, 2002 12:02 PM
+Subject: [TeamLogiqx] Raine 0.36.2
+
+> I have put Raine 0.36.2 dats on ftp.
+>
+> This was piece a cake - Mike has wrote everything, only needs to put
+> new Raine exe in appropriate directory.
+>
+> Only one game was added - sfzch, appart that nothing has changed.
+>
+> Take a look and let me know - But since it is generated automatically
+> and we have already trusted this method - there so nothing to check.
+>
+> Leslaw
+>
+>
+> --
+> SLA                          mailto:skrzypek@im.uj.edu.pl
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Yaame
+Fecha: Wed, 13 Nov 2002 16:12:37 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> In last release there are "unusedroms" used.
+> (First what is the reason for that? ClrMAME even though the roms are
+> marked unusedroms deletes them, so what's this for).
+
+I keep them there incase the author suddenly adds sound support or uses
+PROMs. It is quicker and easier to add them in if they are already in the
+dat in an unused state. ;) The exception to this is newly emulated games
+where I leave even unused ROMs active.
+
+>         rom ( name bo29a0-2.bin size 131072 crc b0103427 region cpu1 offs
+0 )
+>         rom ( name bo29a1-2.bin size 131072 crc 5984d5a2 region cpu1 offs
+1 )
+
+Main CPU code and GFX.
+
+>         rom ( name bo29e3-0.bin size 32768 crc 3ea01f78 region cpu2 offs
+0 )
+>         rom ( name bo29e2-0.bin size 131072 crc 15c5a99d region sound1
+offs 0 )
+
+Sound CPU and samples.
+
+>         rom ( name mb7114h.25 size 256 crc b25bbda7 region proms offs 0 )
+
+Colour PROMs.
+
+> so bo29e2-0.bin we can set as a unusedrom, probably also prom is not
+> used - so also unused rom. Well and game without these two loads.
+
+If the other games don't use PROMs then it is a fair bet that this new one
+doesn't either. If it doesn't support sound and loads without the two sound
+related ROMs then they are of no use.
+
+> But then I can remove bo29e3-0.bin and game loads fine!!!
+
+That's the sound CPU. ;)
+
+> In fact it loads also without bo29a1-2.bin - just the graphic is
+> garbled.
+
+The emulator not complaining of missing ROMs is a bit poor really. The game
+would definitely need that ROM as you found out.
+
+> So how I can tell which roms is really necessary? Isn't it better to
+> not use unusedrom at all?
+
+PROMs and sound related stuff (CPU 2 etc) are unused.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] MAME v0.62 - mamediff
+Fecha: Wed, 13 Nov 2002 18:53:48 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Damn, mamediff's generation of 'change' dats needs updating to support the
+new resource. Will have to work on that now (still at work).
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] mame 0.62 is out
+Fecha: Wed, 13 Nov 2002 18:54:22 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+The merging is still bad. You just haven't run datutil's fix merging on your
+dat. ;)
+
+Mike
+
+----- Original Message -----
+From: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Wednesday, November 13, 2002 1:20 AM
+Subject: Re: [TeamLogiqx] mame 0.62 is out
+
+> > this is the real test guys, go on and be brave!
+>
+> Validating file: "listinfo.txt"
+>
+> WARNING: Set "bakutotu". ROM "bk_obj-3.bin". Second occurrence ignored..
+> WARNING: Set "bakutotu". ROM "bk_obj-4.bin". Second occurrence ignored..
+> WARNING: Set "donpachi". ROM "atdp.u33". Second occurrence ignored..
+> WARNING: Set "donpachk". ROM "atdp.u33". Second occurrence ignored..
+> WARNING: Set "equites". ROM "eb5.7h". Second occurrence ignored..
+> WARNING: Set "equites". ROM "eb6.8h". Second occurrence ignored..
+> WARNING: Set "equites". ROM "es5.5h". Second occurrence ignored..
+> WARNING: Set "equites". ROM "es6.4h". Second occurrence ignored..
+> WARNING: Set "equitess". ROM "eb5.7h". Second occurrence ignored..
+> WARNING: Set "equitess". ROM "eb6.8h". Second occurrence ignored..
+> WARNING: Set "equitess". ROM "es5.5h". Second occurrence ignored..
+> WARNING: Set "equitess". ROM "es6.4h". Second occurrence ignored..
+> WARNING: Set "bullfgtr". ROM "l_h7.bin". Second occurrence ignored..
+> WARNING: Set "bullfgtr". ROM "l_h9.bin". Second occurrence ignored..
+> WARNING: Set "bullfgtr". ROM "l_h6.bin". Second occurrence ignored..
+> WARNING: Set "bullfgtr". ROM "l_h4.bin". Second occurrence ignored..
+> WARNING: Set "kouyakyu". ROM "epr-6695.bin". Second occurrence ignored..
+> WARNING: Set "kouyakyu". ROM "epr-6694.bin". Second occurrence ignored..
+> WARNING: Set "kouyakyu". ROM "epr-6696.bin". Second occurrence ignored..
+> WARNING: Set "kouyakyu". ROM "epr-6697.bin". Second occurrence ignored..
+> WARNING: Set "splndrbt". ROM "6.18n". Second occurrence ignored..
+> WARNING: Set "hvoltage". ROM "8.18n". Second occurrence ignored..
+> WARNING: Set "skysoldr". ROM "ss.3". Second occurrence ignored..
+> WARNING: Set "skysoldr". ROM "ss.4". Second occurrence ignored..
+> WARNING: Set "skysoldr". ROM "ss.1". Second occurrence ignored..
+> WARNING: Set "skysoldr". ROM "ss.2". Second occurrence ignored..
+> WARNING: Set "raiders5". ROM "raiders5.2". Second occurrence ignored..
+> WARNING: Set "raidrs5t". ROM "raiders2.4d". Second occurrence ignored..
+> WARNING: Set "revx". ROM "revx.51". Second occurrence ignored..
+> WARNING: Set "revx". ROM "revx.52". Second occurrence ignored..
+> WARNING: Set "revx". ROM "revx.53". Second occurrence ignored..
+> WARNING: Set "revx". ROM "revx.54". Second occurrence ignored..
+> WARNING: Set "bigrun". ROM "mr88004g.t45". Second occurrence ignored..
+> WARNING: Set "bigrun". ROM "mb88004h.t46". Second occurrence ignored..
+> WARNING: Set "cischeat". ROM "ch9073.r21". Second occurrence ignored..
+> WARNING: Set "cischeat". ROM "ch9073.r22". Second occurrence ignored..
+> WARNING: Set "tetrisp2". ROM "96019-04.6". Second occurrence ignored..
+> WARNING: Set "kickoff". ROM "kioff20.rom". Second occurrence ignored..
+> WARNING: Set "kickoff". ROM "kioff21.rom". Second occurrence ignored..
+> WARNING: Set "gtmr". ROM "gmmu52.bin". Second occurrence ignored..
+> WARNING: Set "gtmre". ROM "gmmu52.bin". Second occurrence ignored..
+> WARNING: Set "gtmrusa". ROM "gmmu52.bin". Second occurrence ignored..
+> WARNING: Set "gtmr2". ROM "m2-300-0.u89". Second occurrence ignored..
+> WARNING: Set "gtmr2". ROM "m2-301-0.u90". Second occurrence ignored..
+> WARNING: Set "gtmr2". ROM "m2b0x0.u93". Second occurrence ignored..
+> WARNING: Set "gtmr2". ROM "m2b1x0.u94". Second occurrence ignored..
+> WARNING: Set "sxyreact". ROM "ac1411m0.u42". Second occurrence ignored..
+> WARNING: Set "pbancho". ROM "rom3.60". Second occurrence ignored..
+>
+> But they did all the merges that I submitted! :-)
+>
+> Ben Jos.
+>
+
+**********************************************************************
+Asunto: [TeamLogiqx] Dats updated... packagers needed!
+Fecha: Wed, 13 Nov 2002 19:54:45 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Whilst still working, I managed to run the dat updates required. Everything
+has been updated and uploaded to the team FTP (Dats.zip, Dats_RC.zip) but in
+ZIP format (don't have my backup scripts here).
+
+What remains to be done is the checking/testing and packaging of all the
+updated dats:
+
+Multi/MAME                                 Automatic
+   Multi/FBA (Supplements)                 Automatic
+   Multi/Final Burn (Supplements)          Automatic
+   Multi/MAME (Changes)                    Automatic
+   Multi/MAME (Supplements)                Automatic
+   Multi/Nebula (Supplements)              Automatic
+   Multi/RAINE (Supplements)               Automatic
+   Multi/WinKawaks (Supplements)           Automatic
+   Systems/CPS-1                           Semi-Automatic
+      Systems/CPS-1 (QSound)               Manual
+         Sound/Nebula Jukebox              Automatic
+         Sound/NeoJukeBox                  Automatic
+         Sound/QPlayer                     Automatic
+      Systems/CPS-1 (YM-2151 + OKI6295)    Manual
+         Sound/Nebula Jukebox              Automatic
+      Systems/CPS-1 (Supplements)          Automatic
+   Systems/CPS-1 (Supplements)             Automatic
+   Systems/CPS-2 (Supplements)             Automatic
+   Systems/Neo-Geo                         Semi-Automatic
+      Systems/Neo-Geo (Sound)              Manual
+         Sound/Nebula Jukebox              Automatic
+         Sound/NeoJukeBox                  Automatic
+      Systems/Neo-Geo (Supplements)        Automatic
+   Systems/Neo-Geo (Supplements)           Automatic
+
+Notes:
+1) Although CPS-1 did not change, I updated it so that the readme mentions
+MAME v0.62.
+2) The sound ROMs in bjourney (Neo-Geo) changed and that resulted in the
+sound dat updates.
+3) Any supplements that were regenerated should be checked to see if they
+have changed (things like CPS-2 definitely will have).
+4) MAME Changes can't be generated yet since there is a fundamental change
+that needs making to MAMEDiff. Previously, all resource ROMs in clones could
+be found in their parent but with the new system this is not true. If Ben
+Jos wants to try fixing it, it's the 'fix merging' function. ;)
+
+I have also dropped the latest resource dats into the workarea so that they
+have been rebuilt too and need packaging.
+
+There is now much packaging to be done! I won't get a chance to do any more
+emu stuff tonight so if someone could make a start I would be very, very
+grateful. I am going to be overloaded at work until Friday ends and then I
+have things to do before my holiday. ;)
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] raflisau
+Fecha: Wed, 13 Nov 2002 16:23:44 -0500
+De: "johnny" <johnnylarouche@aei.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Someone have this REAL game, not a fake
+
+Thanks
+Metroid
+
+**********************************************************************
+Asunto: [TeamLogiqx] Nebula
+Fecha: Wed, 13 Nov 2002 22:23:55 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+This thing in Nebula has been bugging me, has anyone got it?
+
+Neo-Geo Sengoku 3 / Sengoku Legends 2001 (decrypted C, console patch)
+[folder: sengoku3d]
+missing rom: 261-p1d.bin [size: 2097152] [CRC32: 0xd449954e]
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] MAME v0.62 - packaging required!
+Fecha: Wed, 13 Nov 2002 22:50:28 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I am currently uploading Dats.tar.gz and Dats_RC.tar.gz to the usual team
+areas. I have tested all of these dats on my collections but they now need
+packaging. The TARs contain updates for all of the dats shown below:
+
+> Multi/MAME                                 Automatic
+>    Multi/FBA (Supplements)                 Automatic
+>    Multi/Final Burn (Supplements)          Automatic
+>    Multi/MAME (Supplements)                Automatic
+>    Multi/Nebula (Supplements)              Automatic
+>    Multi/RAINE (Supplements)               Automatic
+>    Multi/WinKawaks (Supplements)           Automatic
+>    Systems/CPS-1                           Semi-Automatic
+>       Systems/CPS-1 (QSound)               Manual
+>       Systems/CPS-1 (YM-2151 + OKI6295)    Manual
+>       Systems/CPS-1 (Supplements)          Automatic
+>    Systems/CPS-1 (Supplements)             Automatic
+>    Systems/CPS-2 (Supplements)             Automatic
+>    Systems/Neo-Geo                         Semi-Automatic
+>       Systems/Neo-Geo (Sound)              Manual
+>          Sound/Nebula Jukebox              Automatic
+>          Sound/NeoJukeBox                  Automatic
+>       Systems/Neo-Geo (Supplements)        Automatic
+>    Systems/Neo-Geo (Supplements)           Automatic
+
+It also contains updates for these:
+
+> MAME Cabinets
+> MAME Icons
+> MAME Snaps
+> MAME Titles
+
+...and RAINE v0.36.2 (needed the sound CPU fixing in sfzch - it had wrong
+size and also needed the supplement to be for MAME v0.62).
+
+Note: MAME Changes can't be generated at this time because MAMEDiff needs a
+bugfix.
+
+I think that is all the MAME related dat updates dealt with but I still have
+ROMBuild to check and CAESAR to update. I would therefore very much
+appreciate it if people could package that lot up for me. ;)
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] datlist page updated again and 2 points more
+Fecha: Wed, 13 Nov 2002 23:56:38 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Logiqx ha escrito:
+
+> I am currently uploading Dats.tar.gz and Dats_RC.tar.gz to the usual team
+> areas. I have tested all of these dats on my collections but they now need
+> packaging. The TARs contain updates for all of the dats shown below:
+
+Just in time for my datlist page update! :-p
+
+Does this means that all these dats can be again put as *done*? The
+supplements
+for the rest of emus also worked well? (I suposse since no one uses the new
+resources but I just want to be sure)
+
+Second point: there is no *real* raflsiau set, there are two different fake
+ones
+with different bytes changed. They are the normal set with some bytes
+changed to
+fake the crc's.
+
+Third point. There is someone needing an update in the team page but well
+I'd
+prefer to do it when I do the contacts :-p If i can. Some day. Soon. Maybe.
+Before 0.63 I promise.
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] datlist page updated
+Fecha: Thu, 14 Nov 2002 11:35:06 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Does this means that all these dats can be again put as *done*? The
+supplements
+> for the rest of emus also worked well? (I suposse since no one uses the
+new
+> resources but I just want to be sure)
+
+They still need packaging. Maybe a new colour should show that? ;)
+
+I have updated the dependency page to explain how it is to be read (since
+there is obviously some confusion):
+
+http://www.logiqx.com/team/depend.html
+
+It is very important that active members understand this page so if you are
+unsure, please ask for more explanation.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Dats updated... packagers needed!
+Fecha: Thu, 14 Nov 2002 08:18:32 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> 4) MAME Changes can't be generated yet since there is a fundamental change
+> that needs making to MAMEDiff. Previously, all resource ROMs in clones
+could
+> be found in their parent but with the new system this is not true. If Ben
+> Jos wants to try fixing it, it's the 'fix merging' function. ;)
+
+OK... I'll have a look at it soon.
+
+Ben Jos.
+
+**********************************************************************
+Asunto: [TeamLogiqx] datlist updated once again!!!!
+Fecha: Thu, 14 Nov 2002 14:34:06 +0100
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+People of the Earth, specifically team members:
+
+I've updated the list again, marked in PINK (hehehe) the dats
+which are done but needs packaging. If I am right, we have some
+packagers but only one uploader, Mike. He is going on holidays.
+So if you don't help him packaging them, they can't be released
+until he comes back. That means that the world will have to live
+DAYS without the dats!!!!! How can it be permissible, she
+compromises my principles....
+
+Worse, I will not be able to update my own romziez! Last night I
+was able to complete the task but I can't be 100% sure if the
+dats don't come from the datcave. And if you don't help
+packaging, Mike will not have time to fix mamediff, you will get
+bad karma, hair will fall and chicks will not dig you.
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Dats updated... packagers needed!
+Fecha: Thu, 14 Nov 2002 13:40:51 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I updated the stuff to do with the new resource (attached) but didn't go any
+further when I discovered the funny merging issue. It is probably as simple
+as using is_resource_rom() within fix_merging() and may only take 5 minutes
+but I am too busy here at work. ;)
+
+Mike
+
+----- Original Message -----
+From: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, November 14, 2002 1:18 PM
+Subject: Re: [TeamLogiqx] Dats updated... packagers needed!
+
+> > 4) MAME Changes can't be generated yet since there is a fundamental
+change
+> > that needs making to MAMEDiff. Previously, all resource ROMs in clones
+> could
+> > be found in their parent but with the new system this is not true. If
+Ben
+> > Jos wants to try fixing it, it's the 'fix merging' function. ;)
+>
+> OK... I'll have a look at it soon.
+>
+> Ben Jos.
+>
+
+  -----------------------------------------------------------------
+                   Name: mamediff.zip
+   mamediff.zip    Type: Zip Compressed Data (application/x-zip-compressed)
+               Encoding: base64
+
+**********************************************************************
+Asunto: [TeamLogiqx] little me
+Fecha: Thu, 14 Nov 2002 13:34:18 -0500
+De: "johnny" <johnnylarouche@aei.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+For the full mame .62
+
+If you want some roms just ask me I will put them on my ftp
+
+My ftp is up
+
+metroid.myftp.org
+l/p toto/toto
+port 21
+
+there all the new pinball  files  (not sorted yet)
+
+you can take my last beta pinball dats here
+
+http://opothspants.free.fr/rmd/beta
+
+**********************************************************************
+Asunto: [TeamLogiqx] Uploads
+Fecha: Thu, 14 Nov 2002 19:13:45 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I have fixed MAMEDiff so I will upload the new version along with MAME/MAME
+Changes dats to logiqx.com soon.
+
+I'm not doing any more than that though as I want to do the CAESAR related
+updates and that will take the rest of the night...
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] my ftp
+Fecha: Thu, 14 Nov 2002 18:37:29 -0500
+De: "johnny" <johnnylarouche@aei.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+My ftp info now
+
+You can find mame 62 and disk image now
+
+metroid.myftp.org : private/noabuse port 21
+
+**********************************************************************
+Asunto: [TeamLogiqx] Just a rant...
+Fecha: Thu, 14 Nov 2002 22:19:15 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+And actually one of the reasons I asked about MAME's test drivers before...
+
+I really believe in giving credit where credit is due...
+
+I really hate people stealing things and claiming those things as their
+own...
+
+I hate people cashing in on other people's work. And I've had that happen to
+me, so maybe that's why I feel even more strongly about it.
+
+"All the informations are exactly as reported by MAME.
+There may be some errors."
+
+That's from the guy (CCT) who has been submitting Testdriver dats to Roman
+for the past several versions...
+
+Why even put your name on there if the quote is all you did?
+
+There are lots of errors in it. All you did was, probably, change ONE
+#define, and did a "mame -listinfo >testdrivers.dat".
+
+Why claim credit? Within a matter of 2 minutes, I fixed ALL the errors in
+that dat...
+
+And I know there is at least one Italian guy on the team... I hope it isn't
+the same one...
+
+Come on, if you release a dat in your name, then at least make it somewhat
+correct... what value did CCT add that made him think he could claim it his
+and remove everyone else involved in the credits?
+
+I'm sorry.
+
+Maybe I shouldn't, but sometimes I just can't resist.
+
+Sorry to you, especially, Mike... I still remember what you said when you
+invited me to become a member of the team.
+
+I'd better stop now.
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] my ftp
+Fecha: Thu, 14 Nov 2002 22:54:00 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> My ftp info now
+>
+>
+> You can find mame 62 and disk image now
+>
+>
+> metroid.myftp.org : private/noabuse port 21
+
+If there's anything any member of the team is looking for, just let me know.
+I do NOT have have "insider information" (like access to the MAMEdev FTP),
+but I do have quite a nice collection of things. And, at the very least, I'm
+probably a serious contender for the largest ratio of "ROMs owned vs. games
+interested in". ;-)
+
+Cheers,
+Ben Jos.
+
+**********************************************************************
+Asunto: [TeamLogiqx] some missing files
+Fecha: Thu, 14 Nov 2002 23:20:28 -0500
+De: "johnny" <johnnylarouche@aei.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I joined 2 fix dat of files i miss,
+Raine and cps2, maybe they are unfindable
+
+But if you can help that could be fine
+
+They are missing for a while!!!!!!!
+
+This is our dat, from Rommanager
+
+Thanks
+Metroid
+
+Ps. I will introduce myself soon, my health going better now
+
+  -----------------------------------------------------------------
+                   Name: Fix-MISS.rar
+   Fix-MISS.rar    Type: WinRAR archive
+                         (application/x-unknown-content-type-WinRAR)
+               Encoding: base64
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] some missing files
+Fecha: Thu, 14 Nov 2002 23:25:03 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> I joined 2 fix dat of files i miss,
+> Raine and cps2, maybe they are unfindable
+>
+> But if you can help that could be fine
+>
+> They are missing for a while!!!!!!!
+
+The dats inside that RAR (bad idea... ?) contained a LOT of things... are
+you
+really missing all that?
+
+Ben Jos.
+
+**********************************************************************
+Asunto: RE : [TeamLogiqx] some missing files
+Fecha: Thu, 14 Nov 2002 23:27:30 -0500
+De: "johnny" <johnnylarouche@aei.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Woop!!
+
+For the raine i made a mistake
+
+Here the real miss
+
+-----Message d'origine-----
+De : majordomo-owner@emuverse.com [mailto:majordomo-owner@emuverse.com]
+De la part de Ben Jos Walbeehm
+Envoyé : 14 novembre, 2002 23:25
+À : teamlogiqx@emuverse.com
+Objet : Re: [TeamLogiqx] some missing files
+
+> I joined 2 fix dat of files i miss,
+> Raine and cps2, maybe they are unfindable
+>
+> But if you can help that could be fine
+>
+> They are missing for a while!!!!!!!
+
+The dats inside that RAR (bad idea... ?) contained a LOT of things...
+are you
+really missing all that?
+
+Ben Jos.
+
+  -----------------------------------------------------------------
+                                                   Name: MetroidFix-Raine (Non-MAME)
+                                                         0.62b-0.36.2.dat
+   MetroidFix-Raine (Non-MAME) 0.62b-0.36.2.dat    Type: tipo no especificado
+                                                         (application/octet-stream)
+                                               Encoding: 7bit
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] some missing files
+Fecha: Thu, 14 Nov 2002 23:33:11 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+For RAINE, that's what pretty much what everyone is missing... I don't have
+them, and I'm pretty sure no one else here does.
+
+Anyway... here's an offer from me to everyone on the team:
+
+Send me a VALID ClrMamePro/listinfo dat file containing JUST what you're
+missing and I'll run it against my database and let you know what I have.
+I've written my program to ONLY deal with ClrMamePro/listinfo dat files...
+which SHOULDN'T be a problem for anyone on the team. :-)
+
+Cheers,
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] some missing files
+Fecha: Thu, 14 Nov 2002 23:38:08 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> Send me a VALID ClrMamePro/listinfo dat file containing JUST what you're
+> missing and I'll run it against my database and let you know what I have.
+
+How is that for training people to create dat files? ;-)
+
+Ben Jos.
+
+**********************************************************************
+Asunto: [TeamLogiqx] first missing for Ben
+Fecha: Thu, 14 Nov 2002 23:40:37 -0500
+De: "johnny" <johnnylarouche@aei.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Thanks
+
+  -----------------------------------------------------------------
+                                                 Name: MetroidFix-Capcom CPS-2
+                                                       0.61b-20020927.dat
+   MetroidFix-Capcom CPS-2 0.61b-20020927.dat    Type: tipo no especificado
+                                                       (application/octet-stream)
+                                             Encoding: 7bit
+
+**********************************************************************
+Asunto: [TeamLogiqx] second missing for Ben
+Fecha: Thu, 14 Nov 2002 23:44:22 -0500
+De: "johnny" <johnnylarouche@aei.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Final Burn (Non-MAME) 0.61b-0.518
+
+Thanks again
+
+  -----------------------------------------------------------------
+                                                       Name: MetroidFix-Final Burn
+                                                             (Non-MAME) 0.61b-0.518.dat
+   MetroidFix-Final Burn (Non-MAME) 0.61b-0.518.dat    Type: tipo no especificado
+                                                             (application/octet-stream)
+                                                   Encoding: 7bit
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] first missing for Ben
+Fecha: Thu, 14 Nov 2002 23:50:52 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+----- Original Message -----
+From: "johnny" <johnnylarouche@aei.ca>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, 14 November 2002 23:40
+Subject: [TeamLogiqx] first missing for Ben
+
+> Thanks
+
+Number of ROMs OK            :       0
+Number of zero CRCs          :       0
+Number of complemented CRCs  :       0
+Number of ROMs not found     :      51
+
+Sorry... can't help you there...
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] second missing for Ben
+Fecha: Thu, 14 Nov 2002 23:53:37 -0500
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> Final Burn (Non-MAME) 0.61b-0.518
+>
+> Thanks again
+>
+
+[Set: royalascot2.   ROMs written: 12.   Bytes written: 245,337.]
+* Set OK.
+
+Number of ROMs OK            :      12
+Number of zero CRCs          :       0
+Number of complemented CRCs  :       0
+Number of ROMs not found     :       0
+
+Send me your e-mail address at walbeehm@walbeehm.com...
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Just a rant...
+Fecha: Fri, 15 Nov 2002 07:56:29 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+No problem about the Rant Ben Jos. I have had the same happen to me before I
+became good friends with Roman and took control of the RomCenter dat page
+(muwwahahaha - evil laugh). It is very annoying for people to submit updates
+to replace your own work and introduce many errors in the process. Some
+people have had the cheek to add a couple of games to the NeoRAGEx dat and
+rip my name out... after all the effort I put in to actually figure out the
+dumps it needs and write ROMBuild. Days, maybe weeks and all they did took
+10 minutes!
+
+If you want to start an official Logiqx testdrivers dat Ben Jos, you are
+more than welcome. I am sure that Roman will only use ours if I speak to
+him. Hell, he fended off several people trying to overule my U64Emu dat
+until he and I had discussed it thoroughly for a few days.
+
+Mike
+
+----- Original Message -----
+From: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Friday, November 15, 2002 3:19 AM
+Subject: [TeamLogiqx] Just a rant...
+
+> And actually one of the reasons I asked about MAME's test drivers
+before...
+>
+> I really believe in giving credit where credit is due...
+>
+> I really hate people stealing things and claiming those things as their
+> own...
+>
+> I hate people cashing in on other people's work. And I've had that happen
+to
+> me, so maybe that's why I feel even more strongly about it.
+>
+> "All the informations are exactly as reported by MAME.
+> There may be some errors."
+>
+> That's from the guy (CCT) who has been submitting Testdriver dats to Roman
+> for the past several versions...
+>
+> Why even put your name on there if the quote is all you did?
+>
+> There are lots of errors in it. All you did was, probably, change ONE
+> #define, and did a "mame -listinfo >testdrivers.dat".
+>
+> Why claim credit? Within a matter of 2 minutes, I fixed ALL the errors in
+> that dat...
+>
+> And I know there is at least one Italian guy on the team... I hope it
+isn't
+> the same one...
+>
+> Come on, if you release a dat in your name, then at least make it somewhat
+> correct... what value did CCT add that made him think he could claim it
+his
+> and remove everyone else involved in the credits?
+>
+> I'm sorry.
+>
+> Maybe I shouldn't, but sometimes I just can't resist.
+>
+> Sorry to you, especially, Mike... I still remember what you said when you
+> invited me to become a member of the team.
+>
+> I'd better stop now.
+>
+> Ben Jos.
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] some missing files
+Fecha: Fri, 15 Nov 2002 08:02:09 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Johnny,
+
+It's nice to see you are getting better.
+
+Mike
+
+----- Original Message -----
+From: "johnny" <johnnylarouche@aei.ca>
+To: <teamlogiqx@emuverse.com>
+Sent: Friday, November 15, 2002 4:20 AM
+Subject: [TeamLogiqx] some missing files
+
+> I joined 2 fix dat of files i miss,
+> Raine and cps2, maybe they are unfindable
+>
+> But if you can help that could be fine
+>
+> They are missing for a while!!!!!!!
+>
+>
+> This is our dat, from Rommanager
+>
+>
+> Thanks
+> Metroid
+>
+> Ps. I will introduce myself soon, my health going better now
+>
+>
+>
+
+**********************************************************************
+Asunto: [TeamLogiqx] A couple of quick notes
+Fecha: Fri, 15 Nov 2002 08:07:48 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Just a couple of things to mention having looked at my mailbox this morning:
+
+1) Please use ZIP (PC) or GZ (Unix) for all archives posted to this list, no
+RAR or ACE etc.
+
+2) If talking to one person then please take the conversation off the list
+(e.g. 9 messages about Johnny's missing list should really have been just 2;
+Johnny asking and Ben Jos saying that he was helping).
+
+This is no criticism of anyone, I just want to keep the list down to stuff
+that is relevant. Swapping ROMs between ourselves is fine (all in the name
+of dat creation of course) but lets not fill everyone's mailbox about it. ;)
+
+Nice to see you re-appearing though Johnny. :)
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] datlist updated once again!!!!
+Fecha: Fri, 15 Nov 2002 08:15:17 -0000
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Reminder:
+
+If things aren't packaged when I get up tomorrow morning then they will not
+be uploaded to the public for at least another 10 days. This would be very
+poor with there being so many of us! I've already spent about 4 hours doing
+dat updates, testing, releasing, MAMEDiff fix, ROMBuild check, CAESAR
+update, etc. Please, please, please help me here by spending 30 minutes to
+an hour ZIPing stuff up ready for me. ;)
+
+The team has been getting going nicely so let's not fail to deliver at the
+busiest time. ;)
+
+Mike
+
+----- Original Message -----
+From: "Pi" <pi@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, November 14, 2002 1:34 PM
+Subject: [TeamLogiqx] datlist updated once again!!!!
+
+> People of the Earth, specifically team members:
+>
+> I've updated the list again, marked in PINK (hehehe) the dats
+> which are done but needs packaging. If I am right, we have some
+> packagers but only one uploader, Mike. He is going on holidays.
+> So if you don't help him packaging them, they can't be released
+> until he comes back. That means that the world will have to live
+> DAYS without the dats!!!!! How can it be permissible, she
+> compromises my principles....
+>
+> Worse, I will not be able to update my own romziez! Last night I
+> was able to complete the task but I can't be 100% sure if the
+> dats don't come from the datcave. And if you don't help
+> packaging, Mike will not have time to fix mamediff, you will get
+> bad karma, hair will fall and chicks will not dig you.
+>
+> --
+> Pi - News Poster at CAESAR
+> http://caesar.logiqx.com
+>
+>
+>
+>

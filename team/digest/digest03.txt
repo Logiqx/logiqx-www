@@ -1,0 +1,3510 @@
+**********************************************************************
+Asunto: Re: [TeamLogiqx] VivaNonno Questions
+Fecha: Fri, 20 Sep 2002 20:20:47 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Stefan Rosenbaum ha escrito:
+
+> 1) Maybe I just don't understand that right, but why is VivaNonno
+> in the Multi dir?
+
+Multi stands for "multiple game emulator". Systems have nothing to do with
+this. And in many cases it's *hard* to decide where a game system ends and
+where not. When we were building CAESAR, there was some talking about how
+to explicitly define which emus were multi and which ones were not. In the
+end we (he) decided that if an emulator supported games in different MAME
+sets, it was multi. So an emu for Pacman and Ms.Pacman would be "multi",
+whereas one emu.
+(Ok he decided that but the idea was mine to polish is already existing
+organization scheme. I did not do too much for CAESAR but I put my grain of
+sand)
+
+> I thought the multi stands for multi-systems, like MAME or
+> Nebula, but VivaNonno emulates just one system, shouldn't it
+> be in the "Single" or "Systems" folder ?
+
+The Single folder is for emus which only support games in the same set
+(that set being defined as MAME says, regardless of the hardware). The
+System folder is for games in the same system, regardless of which emulator
+support the games. You will even see some non-supported games in them
+(unxored cps2 for example).
+
+> 2) I noticed some spelling differences, e.g. in the rebuild_all.mak
+> first it is "Viva Nonno" (= "Viva?Nonno"), then in line #8 it is
+> spelled "viva_nonno"; in the WWW folder it's spelled "VivaNonno"
+> and inside the dat files again "Viva Nonno xxxxx".
+> Wouldn't it be much easier if every system has a unique name or id?
+
+Think of it as in MAME games: there is one "name" like sdgndmps and then a
+"description" like "SD Gundam Psycho Salamander no Kyoui" (I loved this
+example!) In this case, the name would be viva_nonno (identifier for RC2
+headers and CAESAR), and the description would be "Viva Nonno". Since not
+even in the official site the space is clear, maybe Mike made a little
+mistake. If he discovers that it makes you impossible to audit your roms,
+I'm sure he will fix it :) If not, well, will be fixed in next update LOL
+
+> 3) what's w/ those "rv1b" roms? I've never seen them anywhere before,
+> nor heard of them (even emuchina doesn't have), so how is the
+> team supposed to know about them make good dats and validate them?
+
+If the game is undumped, then the CRC will be null (0x00000000). If it's
+dumped, then somehow the CRC's will be known and hence could be included in
+the dat correctly. I am not sure if this game is released, but probably
+it's dumped since VN supports it. Another thing is that you or me can find
+the roms, maybe they are being hoarded.
+
+> (Note: this is NOT a rom request in any form! it's a delicate subject,
+
+Well we've not talked about these. But if you do a datfile, you are
+supossed to test it. How? auditing your own romsets! For that you will need
+roms. Now there is no solution for that but I'm sure somehow in not a very
+far future we will have this problem solved ;)
+
+> I think in some ways the team does have the rights to keep the roms
+
+No morality discussion here, sorry. For that, go to your local lawyer or
+talk to your priest. Or whatever you have :)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: [TeamLogiqx] Warning
+Fecha: Fri, 20 Sep 2002 20:27:23 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hello people
+
+Well Logiqx is out, will not come back in 9-10 days, so BEHAVE.
+
+I simply *can't* solve all your doubts about all this datfile
+mess, but I will answer when I know what to answer. So everyone
+has plenty of lessons to read and exercises to practice, you can
+redo the dats Logiqx did and see if they are different.
+
+Don't worry about what is going to come or not, just stick with
+what's already explained by Logiqx. People with troubles PLEASE
+post your doubts in the list, and people who has passed
+successfully the lessons, PLEASE help them.
+
+As for me, I'm WAY behind maintaining the team page. I've updated
+the index a bit (there is IMPORTANT information in it). I will
+post there the remaining lessons since some people seem to have
+had probs with the list lately. I'll post also the digests,
+finally. The thign is that right now I'm going out, so I'll do it
+during the weekend.
+And don't forget to visit me at CAESAR!!! (shit now I realize I
+forgot to put that link in the site, damn me!)
+
+So basically "holidays" until Datman Returns. Anyone wants me to
+explain how to start a good pic collection like I did with Chloe
+Jones? :)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] VivaNonno Questions
+Fecha: Fri, 20 Sep 2002 20:39:33 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Pi,
+
+thx for all the quick answers  :)
+
+  > The Single folder is for emus which only support games in
+  > the same set (that set being defined as MAME says,
+  > regardless of the hardware). The System folder is for games
+  > in the same system, regardless of which emulator support
+  > the games. You will even see some non-supported games in
+  > them (unxored cps2 for example).
+
+so there will be an "S22" folder some day?
+there is a dumped S22 rom (victlap) not supported by VivaNonno
+as of today...
+
+  > If the game is undumped, then the CRC will be null
+  > (0x00000000). If it's dumped, then somehow the CRC's will
+  > be known and hence could be included in the dat correctly.
+  > I am not sure if this game is released, but probably it's
+  > dumped since VN supports it. Another thing is that you or
+  > me can find the roms, maybe they are being hoarded.
+
+hm, ok lets not talk about those hoarders anymore, I'm sick
+already of this stupid fight between The Guru and Emu-Christ...
+
+  > > I think in some ways the team does have the rights to
+  > keep the roms
+  >
+  > No morality discussion here, sorry. For that, go to your
+  > local lawyer or talk to your priest. Or whatever you have :)
+
+sorry, wasn't my intention, I don'T even know the meaning of "morality"
+;-)
+
+ok, I gonna be quietly going back to the remaining lessons now...
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] VivaNonno Questions
+Fecha: Fri, 20 Sep 2002 21:14:23 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+SR> 2) I noticed some spelling differences, e.g. in the rebuild_all.mak
+SR> first it is "Viva Nonno" (= "Viva?Nonno"), then in line #8 it is
+SR> spelled "viva_nonno"; in the WWW folder it's spelled "VivaNonno"
+SR> and inside the dat files again "Viva Nonno xxxxx".
+SR> Wouldn't it be much easier if every system has a unique name or id?
+
+be careful. in rebuild_all.mak "Viva Nonno" (= "Viva?Nonno")
+
+include $(LOGIQX)/Dats/Recent/Multi/Viva?Nonno/Viva?Nonno.vers.mak
+
+here "?" stands for a space!!!
+
+and here
+
+recent: \
+        viva_nonno \
+        cleanup
+
+"_" character also stands for a space.
+
+just the way it is.
+
+SR> 3) what's w/ those "rv1b" roms? I've never seen them anywhere before,
+SR> nor heard of them (even emuchina doesn't have),
+
+they are not available to public.
+
+SR>  so how is the
+SR> team supposed to know about them make good dats and validate them?
+
+we have to rely on the authors.
+
+SR> Do we have to wait for the emu authors/the guru to get us the info
+SR> or do we have to "edit" the emus and extract the name/crc from them
+SR> or is there a "secret place" in the www where those roms are stored?
+
+considering guru and other dumpers behavior we won't have any access
+to roms no available for public.
+I am speaking for myself not for Logiqx.
+
+SR> (Note: this is NOT a rom request in any form! it's a delicate subject,
+SR> especially for those "new" 3D hardware games. since the whole thing
+SR> is somehow not legal, I'm almost sure that nobody from us has all those
+SR> arcade PCBs at home, I wish I had some though...
+
+SR> I think in some ways the team does have the rights to keep the roms
+SR> for some time because we are helping those actual owners of the arcade
+SR> hardware to validate their backups!)
+
+no we don't.
+
+Leslaw
+
+--
+SLA                         mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Warning
+Fecha: Fri, 20 Sep 2002 21:18:21 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+P> Well Logiqx is out, will not come back in 9-10 days, so BEHAVE.
+
+I just want to say I am also going out. and also for a 9-10 days.
+doing business (well i am attending conference) not for holidays.
+
+Leslaw
+
+--
+SLA                          mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: [TeamLogiqx] DAT Uploaded to FTP
+Fecha: Fri, 20 Sep 2002 22:38:31 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Ok I have done "exercise 1", yuppy, but both file are bigger than 30KB
+Logiqx litimit, so I have uploaded it to the Team-FTP (very thank to
+Leslaw), about the DAT Packing:
+
+MAMESnaps: Not problem at all, hope I have respected Logiqx standars about
+tha "date" :-p
+
+MAMETitles: For some "obscure", reason the MAMETitles resurces isn't yet
+present in Logiqx.com, in fact it is regulary updated                     by
+John IV, how each other, so I have created the "MAMETitles.xml" and
+"MAMETitles.ent.xml", (MAMETitiles.gif is                     already
+present in already present dir). based on "MAMESnaps" resurces, and I have
+done the needed modification                     to "dats.xml",
+"romcenter.xml", and "rebuild_all.mak", to add this resurce to web-sites,
+all work fine for me hope this                     work is correct, I'm not
+XML expert at all.
+
+Now go stright to "lesson 2".
+
+See you later...
+
+Dr.Zer0
+
+**********************************************************************
+Asunto: [TeamLogiqx] Pi, become our dad for some time !
+Fecha: Fri, 20 Sep 2002 23:44:38 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I think we MUST make a party, come on children go on and make-pi-crazy with
+our question ^__^
+
+**********************************************************************
+Asunto: [TeamLogiqx] Ms. Pacman very important information site (n/t)
+Fecha: Fri, 20 Sep 2002 23:45:39 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+
+
+**********************************************************************
+Asunto: [TeamLogiqx] I take it back! ;)
+Fecha: Fri, 20 Sep 2002 18:18:10 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+If anyone wants to practice on the artwork and samples dats, be my guest.
+I'll be _massively_ bogged down with school for the next few days (which
+coincides nicely with Mike's vacation).  I will catch up when I can.
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Questions
+Fecha: Sat, 21 Sep 2002 04:34:22 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+To Rosewood:
+
+> so there will be an "S22" folder some day?
+> there is a dumped S22 rom (victlap) not supported by VivaNonno
+> as of today...
+
+Well probably Mike would like something more like "Namco System 2x",
+grouping the same batch of hardware, you know. But I know he will not do it,
+and actually I'd bet that he would put it as exercise: "creating a system
+dat from emulator dats" or something.
+
+To Leslaw:
+
+> considering guru and other dumpers behavior we won't have any access
+> to roms no available for public.
+> I am speaking for myself not for Logiqx.
+
+The only l33t things Logiqx gets is the CPS2 data before XOR releases, and
+that's like some hours before the releases so he can prepare the datfile. I
+don't think Logiqx gets anything else which other persons don't get.
+
+
+> SR> I think in some ways the team does have the rights to keep the roms
+> SR> for some time because we are helping those actual owners of the arcade
+>
+> SR> hardware to validate their backups!)
+>
+> no we don't.
+
+You're right, we don't have any rights, legal or moral, over the roms. BUT
+something inside us tells us that it's not bad to have the PacMan roms, and
+play the game. We feel like it's even something positive, even when legally
+and morally speaking we know it's not 100% right. But in fact, anything we
+say to convince us that it's right are just excuses.
+
+In my case, where the PacMan case is clear, it's not so clear about KOF2000.
+Maybe about KOF94, or even KOF96, but not about 2k... Strange, uh? Not many
+people say they don't agree with the 2-year delay in mame, cause it's SHORT
+hahahahah (Vincent Price's evil laugh)
+
+This is not a morality discussion, each one is free to think what he wants,
+as long as it doesn't open the ozone hole again... :)
+
+
+
+To Dr. Zero:
+
+> I think we MUST make a party, come on children go on and make-pi-crazy
+> with our question ^__^
+
+You can't. The amount of messages and text I can write on a day is by far
+much more than you would be able to read in one week. When Logiqx comes
+back, ask him if I do write many emails... It's just that lately I'm in low
+shape. But still you can't make me crazy with questions. I'm already crazy
+%-)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+
+**********************************************************************
+Asunto: [TeamLogiqx] hi everyone.
+Fecha: Fri, 20 Sep 2002 21:45:58 -0700
+De: "HaDBeEN" <hadbeen@socal.rr.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+well... it has been a while since i checked my email. man i have a lot of
+catching up to do. well i'll just have to start from e-mail #1 till i finish
+up to 100+ that i've recieved from you all! so i guess i have to get started
+now. later.
+
+
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Questions
+Fecha: Sat, 21 Sep 2002 18:38:33 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+> You're right, we don't have any rights, legal or moral, over the roms. BUT
+> something inside us tells us that it's not bad to have the PacMan roms,
+and
+> play the game. We feel like it's even something positive, even when
+legally
+> and morally speaking we know it's not 100% right. But in fact, anything we
+> say to convince us that it's right are just excuses.
+>
+> In my case, where the PacMan case is clear, it's not so clear about
+> KOF2000. Maybe about KOF94, or even KOF96, but not about 2k... Strange,
+uh?
+> Not many people say they don't agree with the 2-year delay in mame, cause
+> it's SHORT hahahahah (Vincent Price's evil laugh)
+>
+> This is not a morality discussion, each one is free to think what he
+wants,
+> as long as it doesn't open the ozone hole again... :)
+
+Legal rights are all about money (ultimately); we're not making money or
+preventing the copyright holders from making money.  So there. ;)
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: [TeamLogiqx] WTF?
+Fecha: Wed, 25 Sep 2002 00:02:20 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+So Mike did, and everyone went on vacation/work too?
+
+Boring!
+
+As an exercise, remaining team members have to do a NAOMI 3
+datafile with all current dumps :)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] WTF?
+Fecha: Wed, 25 Sep 2002 01:25:43 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Done!
+
+but why is my datafile empty? ;-)
+
+cao.stefan
+
+  > -----Original Message-----
+  > From: majordomo-owner@emuverse.com
+  > [mailto:majordomo-owner@emuverse.com] On Behalf Of Pi
+  > Sent: Wednesday, September 25, 2002 12:02 AM
+  > To: teamlogiqx@emuverse.com
+  > Subject: [TeamLogiqx] WTF?
+  >
+  >
+  > So Mike did, and everyone went on vacation/work too?
+  >
+  > Boring!
+  >
+  > As an exercise, remaining team members have to do a NAOMI 3
+  > datafile with all current dumps :)
+  >
+  > --
+  > Pi - News Poster at CAESAR
+  > http://caesar.logiqx.com
+  >
+  >
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] WTF?
+Fecha: Tue, 24 Sep 2002 18:34:33 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+> So Mike did, and everyone went on vacation/work too?
+>
+> Boring!
+>
+> As an exercise, remaining team members have to do a NAOMI 3
+> datafile with all current dumps :)
+
+Remaining?  Hey Pi, do _you_ want to come to Canada and do my Microprocessor
+Interfacing homework for me? :p
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] WTF?
+Fecha: Wed, 25 Sep 2002 01:38:47 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Rob ha escrito:
+
+> Remaining?
+
+I meant "remaining team members staying right now since the others are
+TEMPORARILY out/off/whatever".
+
+> Hey Pi, do _you_ want to come to Canada and do my Microprocessor
+> Interfacing homework for me? :p
+
+Hell YES! I have a friend in Canada and I'd like to visit her :)~ About your
+homework, if you pay me the plane ticket, I'll do it. But I don't guarantee
+good
+grades. Actually I can't guarantee any kind of grades, of course. I did my
+master in Chloe Jones Collection Engineering.
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] WTF?
+Fecha: Tue, 24 Sep 2002 20:32:11 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey Pi,
+
+> > Hey Pi, do _you_ want to come to Canada and do my Microprocessor
+> > Interfacing homework for me? :p
+>
+> Hell YES! I have a friend in Canada and I'd like to visit her :)~ About
+your
+> homework, if you pay me the plane ticket, I'll do it. But I don't
+guarantee good
+> grades. Actually I can't guarantee any kind of grades, of course. I did my
+> master in Chloe Jones Collection Engineering.
+
+A fine school!  They publish some very stirring theses. 8)~
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] WTF?
+Fecha: Tue, 24 Sep 2002 19:51:00 -0700
+De: "HaDBeEN" <hadbeen@socal.rr.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+dun no. but for me. i'm still trying to catch up with all of of the previous
+emails.
+----- Original Message -----
+From: "Pi" <pi@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, September 24, 2002 3:02 PM
+Subject: [TeamLogiqx] WTF?
+
+> So Mike did, and everyone went on vacation/work too?
+>
+> Boring!
+>
+> As an exercise, remaining team members have to do a NAOMI 3
+> datafile with all current dumps :)
+>
+> --
+> Pi - News Poster at CAESAR
+> http://caesar.logiqx.com
+>
+>
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Questions
+Fecha: Thu, 26 Sep 2002 23:32:54 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Team,
+
+  > > This is not a morality discussion, each one is free to
+  > think what he
+  > wants,
+  > > as long as it doesn't open the ozone hole again... :)
+  >
+  > Legal rights are all about money (ultimately); we're not
+  > making money or preventing the copyright holders from
+  > making money.  So there. ;)
+
+I'd like to see Logiqx opinion about this matter too...
+
+just found this article regarding software piracy, i think
+it's the same w/ roms (see emuchina):
+http://salon.com/tech/feature/2002/09/26/piracy_unlimited/index.html
+
+btw, in half an hour i'll celebrate my 25th birthday, so don't hesitate
+to congratulate... ;-)
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Questions
+Fecha: Thu, 26 Sep 2002 19:06:54 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+> btw, in half an hour i'll celebrate my 25th birthday, so don't hesitate
+> to congratulate... ;-)
+
+A quarter century...ah, memories...congrats, Stefan! :)
+
+Talk to you soon,
+Rob (a third of a century)
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Questions
+Fecha: Fri, 27 Sep 2002 12:36:08 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+rosewood ha escrito:
+
+> I'd like to see Logiqx opinion about this matter too...
+
+Well you will be surprised, Logiqx can have some good ideas, I mean the
+kind of ideas which build up books, you know? I think he will say something
+similar to me, which is: Legally, having roms is illegal, and morally, it
+shouldn't be illegal.
+What I don't agree is the timeline. For MAME, it's 2 years. For me, it
+should be *at least* five years. There are very few people who think that
+the 2 years limit is also not enough... But well, those are details.
+
+> just found this article regarding software piracy, i think
+> it's the same w/ roms (see emuchina):
+> http://salon.com/tech/feature/2002/09/26/piracy_unlimited/index.html
+
+I'll have to place a link for the Emulation FAQ, which is a case study
+about the legality of emulation and all related activities. It's one of the
+most interesting pieces of information about emulation I've ever read, and
+it's still a great piece related to legality of emulation. Tho it's a bit
+heavy and long, it gives an historical perspective to the emulation world
+that no other paper or "hey we've emulated sys22" has done. Not all of you
+will read it, but well, for me it's a must for real emulation lovers.
+Recently I also posted in CAESAR a link about an article in MobyGames
+regarding legality and abandonware, which pretty much fits with the roms
+subject, I'll try to find it.
+
+> btw, in half an hour i'll celebrate my 25th birthday, so don't hesitate
+> to congratulate... ;-)
+
+Happy birthday Stefan! You know, there is a tradition in Team Logiqx (well
+a tradition which has just started NOW) that when a member has his
+birthday, he has to tell us the story of his nick.
+
+25 years.... Ah, youth, divine treasure!
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: [TeamLogiqx] Happy Birthday
+Fecha: Sat, 28 Sep 2002 00:53:07 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Happy Birthday to you, happy bithday to you, haaaappy
+biiiiiirthdaaaaay toooo Steeeefan haaaapppy biiiiiithdaaaay to you.
+
+                               ^^^^^^25^^^^^^
+                          |||||||||||||||||||||||||
+
+hope you like my "digital cake" ;-), I'm back from my little "exam"
+vacation, and do exercise 2, already uploaded, slighty different from SLA
+version, infact my version "ADD" "Viva Nonno" to exist rebuil_all.mak,
+together with MAME.
+
+Dr.Zer0
+
+Long Life to TeamLogiqx
+
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Happy Birthday
+Fecha: Fri, 27 Sep 2002 21:46:46 -0700
+De: "HaDBeEN" <hadbeen@socal.rr.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+even though this is late...
+HAPPY BIRTHDAY!!!!!
+**********************************************************************
+Asunto: Re: [TeamLogiqx] VivaNonno Questions
+Fecha: Sun, 29 Sep 2002 17:53:30 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> so there will be an "S22" folder some day?
+
+Potentially but I think it unlikely. The reason I create system dats is
+because many emulators support the systems (including all of the sound
+emulators like QPlayer, QSound Player, NeoJukebox etc). Currently there is
+only one S22 emulator so I think that a dat is overkill. ;)
+
+The CRCs for the unavailable sets came from the readme be the author. In
+such circumstances this is the only thing that we can go on.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Questions
+Fecha: Sun, 29 Sep 2002 17:58:13 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> don't think Logiqx gets anything else which other persons don't get.
+
+I just get them more easily (from friends). ;)
+
+> You can't. The amount of messages and text I can write on a day is by far
+> much more than you would be able to read in one week. When Logiqx comes
+> back, ask him if I do write many emails...
+
+You write very, very long e-mails Pi and many of them. :)
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Questions
+Fecha: Sun, 29 Sep 2002 18:09:41 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> I'd like to see Logiqx opinion about this matter too...
+
+My advice is just to keep quiet in public and if you have ROMs then not to
+mention them, via e-mail or forum. The dats and CAESAR are in my opinion a
+huge contribution towards documenting gaming history but that doesn't give
+us any right to hold other peoples copyrighted material. Of course, having
+them doesn't harm anyone financially, so long as we don't spread them widely
+(plenty of other sites seem to enjoy taking that risk). ;)
+
+I don't think that any game company is hugely worried about old games
+(except if they sell ports or emulators themselves) but when it starts
+impacting current game takings then they will take notice. This is why I
+agree with emulator authors not doing really new stuff on CPS-2 and Neo-Geo.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Questions
+Fecha: Sun, 29 Sep 2002 18:11:05 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> What I don't agree is the timeline. For MAME, it's 2 years. For me, it
+> should be *at least* five years. There are very few people who think that
+
+I'd agree with that.
+
+> 25 years.... Ah, youth, divine treasure!
+
+Happy birthday Stefan. :)
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] DAT Uploaded to FTP
+Fecha: Sun, 29 Sep 2002 18:12:32 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I may have to look at these uploads tomorrow (I'll download them now
+though).
+
+I've had almost 300 e-mails to catch up on and Kay will be here soonish.
+
+Mike
+
+----- Original Message -----
+From: "Dr.Zer0" <dr.zer0@libero.it>
+To: <teamlogiqx@emuverse.com>
+Sent: Friday, September 20, 2002 9:38 PM
+Subject: [TeamLogiqx] DAT Uploaded to FTP
+
+Ok I have done "exercise 1", yuppy, but both file are bigger than 30KB
+Logiqx litimit, so I have uploaded it to the Team-FTP (very thank to
+Leslaw), about the DAT Packing:
+
+MAMESnaps: Not problem at all, hope I have respected Logiqx standars about
+tha "date" :-p
+
+MAMETitles: For some "obscure", reason the MAMETitles resurces isn't yet
+present in Logiqx.com, in fact it is regulary updated                     by
+John IV, how each other, so I have created the "MAMETitles.xml" and
+"MAMETitles.ent.xml", (MAMETitiles.gif is                     already
+present in already present dir). based on "MAMESnaps" resurces, and I have
+done the needed modification                     to "dats.xml",
+"romcenter.xml", and "rebuild_all.mak", to add this resurce to web-sites,
+all work fine for me hope this                     work is correct, I'm not
+XML expert at all.
+
+Now go stright to "lesson 2".
+
+See you later...
+
+Dr.Zer0
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] DAT Uploaded to FTP
+Fecha: Sun, 29 Sep 2002 18:17:32 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>MAMETitles: For some "obscure", reason the MAMETitles resurces isn't yet
+present in Logiqx.com
+
+The MAME Titles stuff was first created after I began my 3 month sabatical.
+
+>MAMETitiles.gif is                     already present in already present
+dir
+
+I created the GIF because is was easier than explaning how I do it. ;)
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Questions
+Fecha: Mon, 30 Sep 2002 15:15:12 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Logiqx ha escrito:
+
+> that doesn't give us any right to hold other peoples copyrighted material.
+
+You don't know how sad I was last night when I read these words and went
+directly to delete my 9gb of roms. Well, I guess I can do some knitting
+now...
+
+> I don't think that any game company is hugely worried about old games
+
+You forgot NintenGod
+
+> agree with emulator authors not doing really new stuff on CPS-2 and
+Neo-Geo.
+
+Well it seems that KOF 2002 MVS version has been released and I don't see
+any
+rom kiddiez on the NG board whining about if it has been dumped. There was
+not
+too much hype about Rage of the Dragons. I think the rom kiddiez were
+dissapointed by bad sequels like KOF2001 and Metal Slug 4 and changed to the
+ISOz sk3n3. Hopefully I'm right and they're all gone :)
+
+About CPS2, really emu authors have NOTHING to do ;)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Questions
+Fecha: Mon, 30 Sep 2002 14:22:47 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>About CPS2, really emu authors have NOTHING to do ;)
+
+I was referring to Raz not releasing them. ;)
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Questions
+Fecha: Tue, 1 Oct 2002 02:48:08 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+  > Happy birthday Stefan! You know, there is a tradition in
+  > Team Logiqx (well a tradition which has just started NOW)
+  > that when a member has his birthday, he has to tell us the
+  > story of his nick.
+
+Thx a lot, Rob, Pi, Dr.Zer0, HaDBeEN, Logiqx and the rest of the Team!
+:-)
+
+Tradition, eh?
+Ok, I hope I'm not the only one here with a birthday... ;)
+
+* The Story of Rosewood *
+Rosewood is not my only nick, but it's a nickname that is valid
+in the world wide web and out there in the real world too, and
+that makes it unique.
+It's 'creation' is rather stupid, it's the result of some friends
+who smoked too much weed and tried to translate my last name into
+English (they did it wrong, btw!).
+* End of story *
+
+  > 25 years.... Ah, youth, divine treasure!
+
+25 years == youth ????
+for me youth is like 16-18 years, when I was that age I thought I
+was never going to be older than 20 (right now I'm sure I won't
+survive my 30th birthday) :)
+
+ciao.stefan
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Questions
+Fecha: Tue, 1 Oct 2002 03:06:40 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+  > > that doesn't give us any right to hold other peoples copyrighted
+  > > material.
+  >
+  > You don't know how sad I was last night when I read these
+  > words and went directly to delete my 9gb of roms. Well, I
+  > guess I can do some knitting now...
+
+damn, me too, I even destroyed all my ISOs and CDs :'(
+
+  > > agree with emulator authors not doing really new stuff on
+  > CPS-2 and
+  > > Neo-Geo.
+  >
+  > Well it seems that KOF 2002 MVS version has been released
+  > and I don't see any rom kiddiez on the NG board whining
+  > about if it has been dumped. There was not too much hype
+  > about Rage of the Dragons. I think the rom kiddiez were
+  > dissapointed by bad sequels like KOF2001 and Metal Slug 4
+  > and changed to the ISOz sk3n3. Hopefully I'm right and
+  > they're all gone :)
+
+hm NeoGeo is a different story in my oppionion, it's not SNK
+anymore, all the glory is gone... Eolith did a good job in
+reviving the old system, even though they were aware of the
+almost perfect emulation (raster effects still aren't complete,
+right?). Maybe they should've concentrated on the NeoGeo64...
+I personally like MS4, it's like the prequels, everytime I
+play it, I find something new in the games :)
+
+about the emu kidz, I wonder why Emuchina shut down the English
+site and bbs...
+
+  > About CPS2, really emu authors have NOTHING to do ;)
+
+that's the big Raz story ---
+although I doubt that he has dumped/ha-xored the 2001/02 pcbs ...
+
+ciao.stefan
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Questions
+Fecha: Tue, 1 Oct 2002 03:23:02 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+  > My advice is just to keep quiet in public and if you have
+  > ROMs then not to mention them, via e-mail or forum. The
+
+but this advice doesn't apply to this list, right?
+we are supposed to be like one big happy family here :)
+
+  > dats and CAESAR are in my opinion a huge contribution
+  > towards documenting gaming history but that doesn't give us
+  > any right to hold other peoples copyrighted material. Of
+  > course, having them doesn't harm anyone financially, so
+  > long as we don't spread them widely (plenty of other sites
+  > seem to enjoy taking that risk). ;)
+  >
+  > I don't think that any game company is hugely worried about
+  > old games (except if they sell ports or emulators
+  > themselves) but when it starts impacting current game
+  > takings then they will take notice. This is why I agree
+  > with emulator authors not doing really new stuff on CPS-2
+  > and Neo-Geo.
+
+I'm just collecting roms for my own personal enjoyment,
+never intended to spread them to the whole world...
+
+Roms should be free because...
+Programmers are artists in their own way, so every piece of
+software (even WindowsXP or MacOS X) is considered to be a
+piece of art and to be made available to the public for free
+or a minimal fee.
+Roms are art too (NeoGeo or CPS2 games are pure art)...
+
+btw, are there any Open-Source or PD arcade games (except
+NeoNoPon) yet?
+
+ciao.stefan
+
+**********************************************************************
+Asunto: [TeamLogiqx] sorry
+Fecha: Tue, 1 Oct 2002 00:01:28 -0400
+De: "johnny larouche" <johnnylarouche@aei.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi
+
+Sorry for slow answer
+
+My health is very very bad :(
+And its worst day after days
+
+I need some break
+
+sorry
+Met
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Questions
+Fecha: Tue, 1 Oct 2002 08:27:54 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>> My advice is just to keep quiet in public and if you have
+>> ROMs then not to mention them, via e-mail or forum. The
+
+>but this advice doesn't apply to this list, right?
+
+Correct, but such conversations shouldn't ever be mentioned outside the
+list. ;)
+
+> btw, are there any Open-Source or PD arcade games (except
+> NeoNoPon) yet?
+
+NeoPong - open source
+Gridlee, Poly-Play, Robby Roto - original arcade games that are now PD
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] sorry
+Fecha: Tue, 1 Oct 2002 08:29:02 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+No problem Johnny.
+
+Hope you make a good recovery.
+
+Mike
+
+----- Original Message -----
+From: "johnny larouche" <johnnylarouche@aei.ca>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, October 01, 2002 5:01 AM
+Subject: [TeamLogiqx] sorry
+
+> Hi
+>
+> Sorry for slow answer
+>
+> My health is very very bad :(
+> And its worst day after days
+>
+> I need some break
+>
+> sorry
+> Met
+>
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Questions
+Fecha: Tue, 01 Oct 2002 16:38:00 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+rosewood ha escrito:
+
+> but this advice doesn't apply to this list, right?
+> we are supposed to be like one big happy family here :)
+
+I'm not going to call Mike "daddy". Ever!
+
+> btw, are there any Open-Source or PD arcade games (except
+> NeoNoPon) yet?
+
+www.sys2064.com has them all. There is also a tetris variant and
+some neopong game. Also you should try MisfitMAME (check at
+mameworld.net, don't remember the url right now).
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] DAT Uploaded to FTP
+Fecha: Tue, 1 Oct 2002 19:21:39 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi,
+
+I've looked over them and they were pretty much perfect (uploaded to
+logiqx.com too).
+
+The only thing to mention is that filenames containing spaces need to use
+%20 in the XML (for the HTML). If you don't do this then Netscape users
+start complaining about broken links, hehe.
+
+Mike
+
+p.s. Also changed dates to today, since they have been waiting for upload so
+long. :)
+
+----- Original Message -----
+From: "Dr.Zer0" <dr.zer0@libero.it>
+To: <teamlogiqx@emuverse.com>
+Sent: Friday, September 20, 2002 9:38 PM
+Subject: [TeamLogiqx] DAT Uploaded to FTP
+
+Ok I have done "exercise 1", yuppy, but both file are bigger than 30KB
+Logiqx litimit, so I have uploaded it to the Team-FTP (very thank to
+Leslaw), about the DAT Packing:
+
+MAMESnaps: Not problem at all, hope I have respected Logiqx standars about
+tha "date" :-p
+
+MAMETitles: For some "obscure", reason the MAMETitles resurces isn't yet
+present in Logiqx.com, in fact it is regulary updated                     by
+John IV, how each other, so I have created the "MAMETitles.xml" and
+"MAMETitles.ent.xml", (MAMETitiles.gif is                     already
+present in already present dir). based on "MAMESnaps" resurces, and I have
+done the needed modification                     to "dats.xml",
+"romcenter.xml", and "rebuild_all.mak", to add this resurce to web-sites,
+all work fine for me hope this                     work is correct, I'm not
+XML expert at all.
+
+Now go stright to "lesson 2".
+
+See you later...
+
+Dr.Zer0
+
+**********************************************************************
+Asunto: [TeamLogiqx] LESSON 6 - Enhanced directory structure and makefiles
+Fecha: Tue, 1 Oct 2002 19:44:14 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I have just updated 3 more dats for logiqx.com (FBA, Daphne, RAINE) and made
+some improvements to 'Dats' and 'Dats_RC' at the same time.
+
+1) I have created sub-directories for files that relate to a particular
+version of each emulator. For example: mame.exe, fba.exe, Nebula drivers,
+etc. See the attached PNG for an illustration. Files within these
+directories are either used for automatic dat generation, to verify newly
+created dats or identify ROM changes in an emulator (all actions are
+scripted so that you can see what is possible). Old directories can be
+deleted when a new version of the emulator comes out.
+
+2) All scripts have been renamed to have a '_' at the beginning of them.
+With more dats being added to the environment it makes it easier to find the
+script when it is above all other files. ;)
+
+3) The makefiles now hide the output of DatUtil and MAMEDiff. Instead, they
+just output a simple message to say what is going on. Much easier on the
+eyes! :)
+
+4) The makefiles in 'Dats_RC' are better written, using the 'subst' function
+to reduce the amount of times that each filename is included. This will make
+'copy and pasting' much simpler.
+
+5) I have created a script called '_check_merging.bat' (re-download
+http://www.logiqx.com/team/download/tools-logiqx.zip) so that you can use
+it. This script does a datutil 'fix merging' (-m option) and compares it
+with the original dat. If there is a difference then it is shown so that we
+can correct our master dat. This highlighted problems a few minor problems
+that I have now corrected:
+
+- In Viva Nonno I forgot to compliment a CRC of a bad ROM (I complimented it
+in the parent but not in the clone).
+- In Daphne one of the 'merge' names was incorrect.
+- In MAME, there were a few ROMs that weren't completely fixed. Basically,
+you need to do a 'fix merging' twice to guarantee that everything is fixed.
+I'll explain why later! Anyway, I have changed the MAME makefile to do two
+fix merges.
+
+Finally, because of the changes you should delete your 'Dats' and 'Dats_RC'
+directories (back them up if you wish) and redownload these:
+
+http://www.logiqx.com/team/download/Dats.zip
+http://www.logiqx.com/team/download/Dats_RC.zip
+
+They include the three new dats (so that you can see what I have done) and
+preliminary areas for Laser, Calice and Mimic. Currently these areas just
+contain comparison scripts so that we can see what is new in the meulators
+but they will be interesting for you to look at.
+
+Got to go out now and won't have access to my e-mail until tomorrow. I am
+sure you will manage ok without me though. ;)
+
+Mike (http://www.logiqx.com/team/download/2002-DSC_0301c.jpg - taken a few
+weeks ago)
+
+  -----------------------------------------------------------------
+               Name: Dats.png
+   Dats.png    Type: PNG Image (image/png)
+           Encoding: base64
+
+**********************************************************************
+Asunto: [TeamLogiqx] LESSON 7 (not really a lesson but useful reading)
+Fecha: Thu, 3 Oct 2002 11:42:03 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi everyone, a few things to mention today.
+
+1) As you may have noticed on the logiqx.com site, I've updated a few more
+dats.
+
+Most of these address problems that '_check_merging.bat' reported (I have
+now checked every single dat for merge problems). ACE is the only genuine
+dat update (added sgemf).
+
+2) There is a new '_check_merging.sh' that shows CRC conflicts too (needed
+for Calice). You can get it by re-downloading:
+
+http://www.logiqx.com/team/download/tools-logiqx.zip
+
+3) I have improved the dat makefiles after considering Stefan's comments:
+
+>I noticed some spelling differences, e.g. in the rebuild_all.mak
+>first it is "Viva Nonno" (= "Viva?Nonno"), then in line #8 it is
+>spelled "viva_nonno"; in the WWW folder it's spelled "VivaNonno"
+>and inside the dat files again "Viva Nonno xxxxx".
+
+The lower-case reference (e.g. viva_nonno) is no longer used. Instead, it
+uses a name that matches the rest of the makefile rules (i.e. Viva?Nonno).
+
+We are left with just 3 variants now but that is for good reason:
+
+Viva Nonno - The 'human' name for dat files, ZIPs etc
+Viva?Nonno - The question mark is required within makefile rules
+VivaNonno - The XML entity name (website directory corresponds for
+consistency). Reason, XML identifiers can not have space in them.
+
+So, we are now as consistent as we can be considering we use 3 different
+technologies (regular files for humans, makefile rules, XML entities). ;)
+
+4) I updated all makefiles that simply 'cp' (i.e. copy) dats or txt files,
+now they all use the 'subst' trick. This is much better than before, imho.
+
+5) U64Emu is now officially 'old', lol.
+
+6) For the latest Dats/Dats_RC and WWW directories, use these links:
+
+http://www.logiqx.com/team/download/Dats.zip
+http://www.logiqx.com/team/download/Dats_RC.zip
+http://www.logiqx.com/team/download/WWW.zip
+
+After a while I am sure that these wholesale changes will cease and we can
+start distributing individual directories for each emulator. ;)
+
+7) I made a start (and almost finished) the Calice dat, just
+mslug4/mslug4n/kof2001 to add (when we have figured out the correct dump to
+use).
+
+Calice is a manually-intensive dat! You will see in the latest 'Dats'
+directory (download from URL above) that there is a comparison script for
+Calice that can compare the drivers in two Calice releases and the latest
+dat against the latest driver. Using this I was able to see which games were
+added (or changed) then look at the Calice drivers to figure out which dump
+is really required (he doesn't always use the right ZIP name). David has a
+habit of getting ZIP names and ROM names incorrect so after copying a game
+from the CPS-2 dat I checked every single ROM name and corrected it in my
+dat where Calice uses the wrong name. Incorrect ROM names cause many CRC
+conflicts (shown by '_check_merging.bat/.sh') but these are unavoidable.
+Calice doesn't load by CRC so it is better for us to have conflicts in the
+dat and let the ROM managers sort out the mess. At least by using the names
+he desires (albeit with conlicts), out comparison scripts don't show any
+errors in our dat. ;)
+
+Tonight I don't plan on doing any computer-based work other than:
+
+- Packaging the remaining resources and uploading to logiqx.com.
+- Updating CAESAR for the emulators that we have recently released dats for.
+- Updating my resource collections.
+- Updating my Dad's website.
+
+That lot will probably take a couple of hours, so afterwards I will just
+relax for the rest of the evening! Maybe do the shopping and tidy up the
+house too. ;)
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] KOF2001 and MSLUG4
+Fecha: Fri, 4 Oct 2002 08:56:04 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi All,
+
+In order to update the Neo-Geo dat (and the sound emu dats) I/we need to
+know what dumps are correct for mslug4 and kof2001.
+
+If anyone has any useful information it would be much appreciated. I have
+these dumps on my HD, ready for me to look at:
+
+Archive:  kof2001.zip
+ Length   Method    Size  Ratio   Date   Time   CRC-32    Name
+--------  ------  ------- -----   ----   ----   ------    ----
+ 1048576  Defl:X   363381  65%  03-31-96 01:08  9381750d  262-p1.bin
+ 4194304  Defl:X  3533969  16%  03-31-96 01:28  83d49ecf  262-v1.bin
+ 4194304  Defl:X  3349544  20%  03-31-96 03:17  2ae38dbe  262-v3.bin
+ 4194304  Defl:X  3563600  15%  03-31-96 01:39  003f1843  262-v2.bin
+ 4194304  Defl:X  3157387  25%  03-31-96 19:47  26ec4dd9  262-v4.bin
+  131072  Defl:X    25705  80%  04-15-02 11:21  73c1f5b0  262-m1.bin
+  262144  Defl:X    52108  80%  07-05-02 15:44  dfb908ca  262-m1d.bin
+ 8388608  Defl:X  8013835   5%  11-12-01 23:46  54d9d1ec  262-c7.bin
+ 8388608  Defl:X  8008052   5%  11-12-01 23:46  59289a6b  262-c8.bin
+ 4194304  Defl:X  1707006  59%  11-12-01 15:31  8e0d8329  262-p2.bin
+ 8388608  Defl:X  8008756   5%  11-12-01 23:46  a31e4403  262-c6.bin
+ 8388608  Defl:X  8011954   5%  11-12-01 23:45  91f24be4  262-c5.bin
+ 8388608  Defl:X  8007472   5%  11-12-01 23:45  4397faf8  262-c4.bin
+ 8388608  Defl:X  8011447   5%  11-12-01 23:45  fb14ff87  262-c3.bin
+ 8388608  Defl:X  8007234   5%  11-12-01 23:45  50368cbf  262-c2.bin
+ 8388608  Defl:X  8012438   5%  11-12-01 23:45  99cc785a  262-c1.bin
+--------          -------  ---                            -------
+89522176         79833888  11%                            16 files
+
+Archive:  kof2001b.zip
+ Length   Method    Size  Ratio   Date   Time   CRC-32    Name
+--------  ------  ------- -----   ----   ----   ------    ----
+ 8388608  Defl:N  3737752  55%  01-19-02 17:03  f298b87b  2k1-c1.bin
+ 8388608  Defl:N  2381880  72%  01-19-02 17:04  f9d05d99  2k1-c2.bin
+ 8388608  Defl:N  3865184  54%  01-19-02 17:47  4c7ec427  2k1-c3.bin
+ 8388608  Defl:N  2749955  67%  01-19-02 17:05  1d237aa6  2k1-c4.bin
+ 8388608  Defl:N  3638288  57%  01-19-02 17:06  c2256db5  2k1-c5.bin
+ 8388608  Defl:N  2646416  69%  01-19-02 17:06  8d6565a9  2k1-c6.bin
+  262144  Defl:N    51895  80%  03-31-96 01:21  dfb908ca  2k1-m1.bin
+ 1048576  Defl:N   365939  65%  03-31-96 01:08  9381750d  2k1-p1.bin
+ 4194304  Defl:N  1717283  59%  03-31-96 01:08  c01720aa  2k1-p2.bin
+  131072  Defl:N    38989  70%  03-29-02 23:28  de828076  2k1-s1.bin
+ 8388608  Defl:N  3663766  56%  03-30-02 13:41  ef682ed2  2k1-c7.bin
+ 8388608  Defl:N  2502410  70%  01-19-02 17:08  954d0e16  2k1-c8.bin
+ 4194304  Defl:N  3535609  16%  03-31-96 01:28  83d49ecf  2k1-v1.bin
+ 4194304  Defl:N  3350869  20%  03-31-96 03:17  2ae38dbe  2k1-v3.bin
+ 4194304  Defl:N  3560821  15%  03-31-96 01:39  003f1843  2k1-v2.bin
+ 4194304  Defl:N  3155605  25%  03-31-96 19:47  26ec4dd9  2k1-v4.bin
+--------          -------  ---                            -------
+89522176         40962661  54%                            16 files
+
+Archive:  mslug4.zip
+ Length   Method    Size  Ratio   Date   Time   CRC-32    Name
+--------  ------  ------- -----   ----   ----   ------    ----
+  131072  Defl:X    23743  82%  06-26-02 16:35  ee1e5580  ms4_m1.rom
+ 8388608  Defl:X  8010870   5%  04-08-02 16:40  c6035792  ms4_c2.rom
+ 8388608  Defl:X  8016139   4%  04-09-02 20:33  0721d112  ms4_c3.rom
+ 8388608  Defl:X  8012072   5%  04-09-02 20:33  6aa688dd  ms4_c4.rom
+ 8388608  Defl:X  7360381  12%  04-09-02 20:34  794bc2d6  ms4_c5.rom
+ 8388608  Defl:X  7334028  13%  04-09-02 20:35  f85eae54  ms4_c6.rom
+ 1048576  Defl:X   389178  63%  04-09-02 19:13  4d7e6624  ms4_p1.rom
+ 4194304  Defl:X  2602939  38%  04-08-02 19:33  fdb7aed8  ms4_p2.rom
+ 4194304  Defl:X  2795248  33%  04-27-02 23:46  c1b2af81  ms4_v1.rom
+ 4194304  Defl:X  3802883   9%  04-27-02 23:46  cbbdc6fa  ms4_v2.rom
+ 4194304  Defl:X  3817334   9%  04-27-02 23:47  c4f1a3cc  ms4_v3.rom
+ 4194304  Defl:X  3354713  20%  04-27-02 23:47  40126a0a  ms4_v4.rom
+ 8388608  Defl:X  8016177   4%  04-08-02 16:39  6c2b0856  ms4_c1.rom
+--------          -------  ---                            -------
+72482816         63535705  12%                            13 files
+
+Archive:  mslug4_alt_sound.zip
+ Length   Method    Size  Ratio   Date   Time   CRC-32    Name
+--------  ------  ------- -----   ----   ----   ------    ----
+   65536  Defl:N    33178  49%  07-03-02 09:56  38ffad14  263-m1.bin
+   65536  Defl:N    11998  82%  06-26-02 14:56  69fedba1  263-m1d.bin
+ 8388608  Defl:N  6658870  21%  07-05-02 16:03  b1a08c67  263-v1.bin
+ 8388608  Defl:N  7178969  14%  07-05-02 16:03  0040015b  263-v2.bin
+--------          -------  ---                            -------
+16908288         13883015  18%                            4 files
+
+Archive:  mslug4_p1_original.zip
+ Length   Method    Size  Ratio   Date   Time   CRC-32    Name
+--------  ------  ------- -----   ----   ----   ------    ----
+ 1048576  Defl:N   377121  64%  04-09-02 19:13  27e4def3  ms4_p1.rom
+--------          -------  ---                            -------
+ 1048576           377121  64%                            1 file
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] KOF2001 and MSLUG4
+Fecha: Fri, 4 Oct 2002 15:19:18 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Logiqx,
+
+  > In order to update the Neo-Geo dat (and the sound emu dats)
+  > I/we need to know what dumps are correct for mslug4 and kof2001.
+  >
+  > If anyone has any useful information it would be much
+  > appreciated. I have these dumps on my HD, ready for me to look at:
+  > [...]
+
+seems that I have got one more romset of each game,
+"mslug4nd" and "kof2001n", see attached datfile.
+
+ciao.stefan
+
+  -----------------------------------------------------------------
+                  Name: datutil.dat
+   datutil.dat    Type: tipo no especificado (application/octet-stream)
+              Encoding: 7bit
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] KOF2001 and MSLUG4
+Fecha: Fri, 4 Oct 2002 15:05:02 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Ah, that will be all the info I need. I will look at them in more detail
+later. :)
+
+Mike
+
+----- Original Message -----
+From: "rosewood" <rosewood@web.de>
+To: <teamlogiqx@emuverse.com>
+Sent: Friday, October 04, 2002 2:19 PM
+Subject: RE: [TeamLogiqx] KOF2001 and MSLUG4
+
+> Hi Logiqx,
+>
+>   > In order to update the Neo-Geo dat (and the sound emu dats)
+>   > I/we need to know what dumps are correct for mslug4 and kof2001.
+>   >
+>   > If anyone has any useful information it would be much
+>   > appreciated. I have these dumps on my HD, ready for me to look at:
+>   > [...]
+>
+> seems that I have got one more romset of each game,
+> "mslug4nd" and "kof2001n", see attached datfile.
+>
+> ciao.stefan
+>
+
+**********************************************************************
+Asunto: [TeamLogiqx] The lessons so far...
+Fecha: Sat, 5 Oct 2002 12:29:10 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I can see that a few of you have been following the lessons and have a
+working environment set up (stefan/rosewood, rob, leslaw/sla,
+andrea/dr.zero). Has anyone else been successfully following the lessons?
+
+I have updated the web copies (http://www.logiqx.com/team/) to look a bit
+prettier and also include the changes that were made as we went along.
+Anyone who hasn't followed the lessons yet but wishes to do so should
+therefore use the web versions since they are easier to read and don't
+reference things that no longer matter.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] The lessons so far...
+Fecha: Sat, 5 Oct 2002 15:44:08 +0200
+De: Phil Höhn <RealPosix@gmx.net>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> I can see that a few of you have been following the lessons and have a
+> working environment set up (stefan/rosewood, rob, leslaw/sla,
+> andrea/dr.zero). Has anyone else been successfully following the lessons?
+
+Well, I was trying to but.... just couldn't understand....
+Lets say I'm the one to do minor important things nobody wants to do ;) that
+would be ok with me.
+>
+> I have updated the web copies (http://www.logiqx.com/team/) to look a bit
+> prettier and also include the changes that were made as we went along.
+> Anyone who hasn't followed the lessons yet but wishes to do so should
+> therefore use the web versions since they are easier to read and don't
+> reference things that no longer matter.
+>
+> Mike
+>
+
+I will have a look...
+
+**********************************************************************
+Asunto: [TeamLogiqx] Today's updates
+Fecha: Mon, 7 Oct 2002 20:02:45 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I have now added all of the remaining dats into our environment. :)
+
+I also made updates to CPS-1, Neo-Geo, Nebula Jukebox, NeoJukeBox and
+QPlayer. These are all available in the big ZIPs at
+http://www.logiqx.com/team/download/ (currently uploading, slowly for some
+reason).
+
+There are only 3 dats that need updates now! CottAGE, Laser and Mimic. Once
+I have done these we will have everything in place for people to try any dat
+they feel like the next time an emulator is updated. :)
+
+I did want to explain these updates in a lesson tonight but due to the fact
+I was in a traffic jam coming back from work I only have a few seconds
+remaining before I must leave the house again! Basically the system dats are
+built from part of the MAME dat and the sound dats for systems are
+maintained by hand (cross checked by scanning a full system set). The sound
+emulator dats are built from the sound systems dats (fully automatic). I'll
+explain it properly another day!
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] Task for anyone who is free!
+Fecha: Tue, 8 Oct 2002 20:09:25 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I have made the first draft for Mimic and Laser but I want to test them
+properly (i.e. load every game).
+
+If anyone fancies doing the task then it would be most appreciated. Attached
+are CMPro dats to build the sets for testing.
+
+I know a few games definitely won't work in Laser (earthinv, superinv,
+beaminv and ozmawar2) but there may be some other games where I have got the
+name incorrect or the ROM names incorrect (this is the purpose of testing
+;) ). This is wholy expected so I have provided src.zip that contains
+information about correct names. The actual  ROM sizes and CRCs should all
+be correct though. Examples of things that may be incorrect are games like
+invaders1 which I have probably got wrong; it should be in a directory
+called 'invadersl' (i.e. in the dat) but run using the name 'invaders1'.
+
+Mimic is also a bit of a pain. It hangs on my Win2K P4 machine and only just
+runs on my P233 Win98. I have to test games by loading them and if they
+start I know the dat is correct, then ctrl-alt-delete to kill the emulator
+and load the next game!
+
+These dats have not been tested by me at all yet so I fully expect a few
+problems to be found. ;)
+
+Mike
+
+p.s. a list of all games to test in Laser is included in src.zip (driver.c)
+
+  -----------------------------------------------------------------
+                       Name: need_testing.zip
+   need_testing.zip    Type: Zip Compressed Data
+                             (application/x-zip-compressed)
+                   Encoding: base64
+
+              Name: src.zip
+   src.zip    Type: Zip Compressed Data (application/x-zip-compressed)
+          Encoding: base64
+
+**********************************************************************
+Asunto: [TeamLogiqx] I'm very busy ! with University
+Fecha: Wed, 9 Oct 2002 01:13:49 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi guys, I write this fast Mail, cos I'm very busy for now in my real life,
+this not mean that I have no more time for work with the Team, but my spare
+time isn't alot like the past. I write this mail for another question, I
+have try to download the last Stuff from download page (INCLUDE <stdio.h>,
+oops excuse me, Dats.zip, Dat_RC.zip, WWW.zip) but the download is very slow
+every time I try ti download that, I has use this download manager with bad
+result:
+FlashGet & Mass Downloader don't download anything report some type of
+"error"
+DAP star fast but after a short time the speed decrase and then no more data
+sending occur.
+With GetRight the download is slow like a Hell and then stop like DAP, and
+only with DownloadMage that support the feature "reconnect if no data
+sending" I can download but the speed decrase fast to 1.0 - 0.5 kb/s, what I
+have to do ?
+If I can't download new stuf I can't update myself. Please help !
+I have ICQ installed my number is: 169374631, and I hava an FTP where you
+can upload the suff:
+
+ftp.digiland.it
+username: the_mad_doctor
+password: Angela
+
+That's all
+
+Long life to TeamLogiqx
+
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] I'm very busy ! with University
+Fecha: Wed, 9 Oct 2002 09:18:07 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Weird! I use the download page to move my dats between home and work, very
+regularly and at the expected transfer speeds (50-60KB sec). I will also put
+a copy on the team FTP next time I upload though. I use DLMage btw.
+
+Mike
+**********************************************************************
+Asunto: RE: [TeamLogiqx] I'm very busy ! with University
+Fecha: Wed, 9 Oct 2002 12:32:56 +0200 (MET DST)
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi guys, i came back, still a bit busy.
+
+As to the team ftp. It could be closed for a few days (one or two),
+just becouse it will be now on the faster computer.
+
+Second, i need to separate my "work" email (= this one) from the Team
+logiqx. To manu emails i have getting.
+How to do that? How to change email to which the post will go?
+
+Best,
+Leslaw
+
+PS: I can't check anything now - Mike - just because here i have unix
+account. And now this stupid machine don't recognize my 45GB hard drive
+(win98) - i meant BIOS ;). Our computer here in the room crashed - HDD in
+fact - and now we have new one - i need to have my files from home back.
+
+--
+Departament of Mathematics
+Jagiellonian University
+Krakow, Poland                               e-mail: skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] I'm very busy ! with University
+Fecha: Wed, 9 Oct 2002 11:51:22 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>just becouse it will be now on the faster computer.
+
+Cool.
+
+>Second, i need to separate my "work" email (= this one) from the Team
+>logiqx. To manu emails i have getting.
+>How to do that? How to change email to which the post will go?
+
+Ask dave@emuverse.com of he can change it for you.
+
+>PS: I can't check anything now - Mike - just because here i have unix
+>account. And now this stupid machine don't recognize my 45GB hard drive
+>(win98) - i meant BIOS ;). Our computer here in the room crashed - HDD in
+>fact - and now we have new one - i need to have my files from home back.
+
+I have done some automated checks of the dat now (against the drivers) and
+created a batch script to run each game in Laser32, one after the other. If
+someone feels like testing the dat (i.e. running all 78 games in laser),
+then please use the new dat attached and the batch script provided. I don't
+thnik it will take more than 15 minutes (just press the escape key to exit
+each game). Only 3 games are expected to fail; earthinv, superniv, ozmawar2
+(see comments in the dat file). I don't yet know the ROMs for beaminv either
+(not searched for them yet).
+
+Mike
+
+  -----------------------------------------------------------------
+                    Name: testlaser.zip
+   testlaser.zip    Type: Zip Compressed Data
+                          (application/x-zip-compressed)
+                Encoding: base64
+
+**********************************************************************
+Asunto: [TeamLogiqx] Mimic and Laser released
+Fecha: Wed, 9 Oct 2002 19:58:49 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Released the dats for Mimic and Laser.
+
+Dats, Dats_RC and WWW are also updated.
+
+Mike
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] I'm very busy ! with University
+Fecha: Wed, 9 Oct 2002 21:15:28 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Mike,
+
+  > I have done some automated checks of the dat now (against
+  > the drivers) and created a batch script to run each game in
+  > Laser32, one after the other. If someone feels like testing
+  > the dat (i.e. running all 78 games in laser), then please
+  > use the new dat attached and the batch script provided. I
+  > don't thnik it will take more than 15 minutes (just press
+  > the escape key to exit each game). Only 3 games are
+  > expected to fail; earthinv, superniv, ozmawar2 (see
+  > comments in the dat file). I don't yet know the ROMs for
+  > beaminv either (not searched for them yet).
+
+there's an error in the batch file (you did search'n'replace of
+laser/laser32, right?)!
+laser32 spclaser32 -> laser32 spclaser
+laser32 laser32 -> laser32 laser
+
+all the games except the 3 you mentioned will start up, some are
+playable,
+some are not, some show just a black screen and most of them look like
+crap!
+
+tell me if you want further details of which games are actually
+playable.
+
+ciao.stefan
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Mimic and Laser released
+Fecha: Wed, 9 Oct 2002 21:18:58 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+  > Released the dats for Mimic and Laser.
+  >
+  > Dats, Dats_RC and WWW are also updated.
+  >
+
+oh, am I too late w/ testing?
+there seems to be a lag in the mailing list...
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] I'm very busy ! with University
+Fecha: Wed, 9 Oct 2002 20:47:49 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> there's an error in the batch file (you did search'n'replace of
+> laser/laser32, right?)!
+> laser32 spclaser32 -> laser32 spclaser
+> laser32 laser32 -> laser32 laser
+
+Yes, I spotted that when I tested them too, hehe.
+
+> some are not, some show just a black screen and most of them look like
+> crap!
+
+Very true.
+
+> tell me if you want further details of which games are actually
+> playable.
+
+No thanks, that's fine.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Mimic and Laser released
+Fecha: Wed, 9 Oct 2002 20:51:17 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> oh, am I too late w/ testing?
+
+Never too late. Extra testing is always good but I decided I wanted to
+release early tonight. I have an annoying habit of doing things like that...
+I can't see myself having free time for days then I find an hour free and
+blitz some stuff (like testing/packaging/uploading Mimic and Laser, plus the
+CAESAR updates). :)
+
+> there seems to be a lag in the mailing list...
+
+Hmmmm, seems to get to my addresses pretty instantly.
+
+Mike
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Mimic and Laser released
+Fecha: Wed, 9 Oct 2002 23:51:11 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+  > > oh, am I too late w/ testing?
+  >
+  > Never too late. Extra testing is always good but I decided
+  > I wanted to release early tonight. I have an annoying habit
+  > of doing things like that... I can't see myself having free
+  > time for days then I find an hour free and blitz some stuff
+  > (like testing/packaging/uploading Mimic and Laser, plus the
+  > CAESAR updates). :)
+
+yeah, i know that feeling... :)
+actually I'd built the romset last night and tested half of the
+games but couldn't find the time to continue today...
+
+  > > there seems to be a lag in the mailing list...
+  >
+  > Hmmmm, seems to get to my addresses pretty instantly.
+
+damn, then my mailaccount is having troubles again.
+
+ciao.stefan
+
+**********************************************************************
+Asunto: [TeamLogiqx] Data file dependancies
+Fecha: Thu, 10 Oct 2002 12:26:57 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I have just put together a little page which will be very useful to us as a
+team (until now this information has only been in my head). The various
+makefiles know the dependencies for automatic dat generation but it is also
+necessary to know what dats can be affected by changing another one, plus
+the manual tasks that are required as a result. This information is shown at
+the URL below:
+
+http://www.logiqx.com/team/depend.txt
+
+As you can see, there are lots of things affected by a MAME update so
+hopefully we can share them out at the time of the next MAME release.
+Automatic dat updates simply need checking (to see if anything has really
+changed) whereas semi-automatic and manual updates need checking by hand
+(and updating if necessary). In anticipation of this, it may be an idea to
+have a glance at the makefiles so that you understand how everything is
+done. If you have any questions then feel free to ask and I will answer
+them.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Data file dependancies and team page
+Fecha: Thu, 10 Oct 2002 15:31:43 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Logiqx ha escrito:
+
+> This information is shown at the URL below:
+>
+> http://www.logiqx.com/team/depend.txt
+
+No more. It's html-ized (somewhat) and included in the team page:
+http://www.logiqx.com/team/
+
+I also updated a bit around, made a new digest, and well it's there.
+
+For the ones who don't read CAESAR, you could check a quite strange SRMP4
+sprite
+rip I've done, it's at my page:
+http://caesar.logiqx.com/team/pi
+
+Cause chicks really dig me! :)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: [TeamLogiqx] U64emu and Laser questions
+Fecha: Thu, 10 Oct 2002 19:49:58 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Mike,
+
+-U64emu
+it it necessary to include the disk images in the datfile?
+I tested the images I had for ages on my hd and they are marked
+as 'unknown', either because I converted them w/ nekkid.exe or
+because they are actual hd images, so they could be changed by
+the emu (don't know about that for sure).
+...and it takes ages to load those big files in RomCenter :(
+
+-Laser
+the 3 built-in games 'hockeytv', 'pong' and 'pongdbls' are marked
+as missing / NO_ROMS in RomCenter, is there a way arround this?
+I think it will confuse some people...
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] U64emu and Laser questions
+Fecha: Thu, 10 Oct 2002 19:45:47 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> -U64emu
+> it it necessary to include the disk images in the datfile?
+> ...and it takes ages to load those big files in RomCenter :(
+
+There were lots of discussions at the time of U64Emu2 and the final the
+decision was to create the dat as currently stands. You need to do a factory
+restore within the emulator and then ZIP up the resultant hard disk for
+scanning and archiving (the readme with the data file explains in detail).
+Scanning a big ZIP file should not be slow in RomCenter but scanning a big
+non-zipped file will be very slow. I don't use RomCenter though.
+
+>-Laser
+> the 3 built-in games 'hockeytv', 'pong' and 'pongdbls' are marked
+> as missing / NO_ROMS in RomCenter, is there a way arround this?
+
+I think we are stuck with this, it's a shortfalling of the RomCenter file
+format (combining game details and ROM details on all lines). CMPro is fine
+(it just misses the games) but I need them for the benefit of CAESAR. I
+prefer not to get into the business of having different dats for the ROM
+managers and CAESAR though because I just forget after a while. ;)
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] Time for a wake up call. :)
+Fecha: Thu, 17 Oct 2002 21:58:27 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi everyone,
+
+There are a few dats that need updating so if anyone would like to try their
+hand then now would be a great opportunity. The team page lists what needs
+updating but I will mention them all here:
+
+- CottAGE needs a big update. If I were to do it myself I might be tempted
+to start again from scratch, using the MAME dat to copy from (only using the
+CottAGE dat as reference if there are some non-MAME standard ROMs used).
+
+- Daphne needs a check performing to see if DLE 2.0 is a new ROM (or
+replaces an earlier one).
+
+- Mimic needs one game adding and another one uses one less ROM if I
+remember correctly. The script needed to compare two Mimic releases is
+available in Dats.tar.gz.
+
+- Nebula has some SF2 hacks to add:
+
+> Street Fighter 2 M-1 (Not Working, used t [name: sf2m-1 - parent: sf2ce]
+> Street Fighter 2 M-2 (Gfx problems) [name: sf2m-2 - parent: sf2ce]
+> Street Fighter 2 M-3 (Not Working) [name: sf2m-3 - parent: sf2ce]
+> Street Fighter 2 M-4 [name: sf2m-4 - parent: sf2ce]
+> Street Fighter 2 M-5 [name: sf2m-5 - parent: sf2ce]
+> Street Fighter 2 M-6 [name: sf2m-6 - parent: sf2ce]
+> Street Fighter 2 M-7 [name: sf2m-7 - parent: sf2ce]
+
+- Finally, I would like to check that no changes were in Final Burn that
+Dave forgot about. ;)
+
+Any takers?
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Time for a wake up call. :)
+Fecha: Thu, 17 Oct 2002 16:55:06 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey Mike,
+
+> There are a few dats that need updating so if anyone would like to try
+their
+> hand then now would be a great opportunity. The team page lists what needs
+> updating but I will mention them all here:
+
+> Any takers?
+
+If you're not in a hurry, I'll take CottAGE.  I have a _lot_ of catching up
+to do (lessons, exercises...), so...
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Time for a wake up call. :)
+Fecha: Thu, 17 Oct 2002 23:04:35 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+No problem. CottAGE is now yours. :)
+
+Mike
+
+p.s.  If you have any questions that Pi or myself can't answer, Pi is
+friendly with Erik.
+
+----- Original Message -----
+From: "Rob" <umrostec@cc.umanitoba.ca>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, October 17, 2002 10:55 PM
+Subject: Re: [TeamLogiqx] Time for a wake up call. :)
+
+> Hey Mike,
+>
+> > There are a few dats that need updating so if anyone would like to try
+> their
+> > hand then now would be a great opportunity. The team page lists what
+needs
+> > updating but I will mention them all here:
+>
+> > Any takers?
+>
+> If you're not in a hurry, I'll take CottAGE.  I have a _lot_ of catching
+up
+> to do (lessons, exercises...), so...
+>
+> Talk to you soon,
+> Rob
+>
+>
+
+**********************************************************************
+Asunto: [TeamLogiqx] Still can't download SDK
+Fecha: Fri, 18 Oct 2002 00:05:01 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+The download do same error, I don't know why, when the download start, the
+speed is very high 30Kb/s but after few seconds the speed go to Zer0, and
+then the download stop.
+
+If I can't download the Software I can't develop anything, so I'm blocked.
+
+Maybe my IP is writed in "IP Black Boop" of your space provider, I remember
+that when Eldio's site was closed I have download all the Marquees from
+CAESAR with an automatic "fake.html", that point to CAESAR Maquees file,
+maybe this is why now I have problem now; I don't think that download image
+from a site is a think that an user can't do however...
+
+I don't know why I have this problem but please help me!
+
+Long life to TeamLogiqx
+
+Dr.Zer0
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Time for a wake up call. :)
+Fecha: Fri, 18 Oct 2002 04:57:22 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi!
+
+I built the Finalburn set with one exception, "Royal Ascot 2"
+(royalascot2),
+couldn't find this romset anywhere, if somebody would be so kind to tell
+me
+where to find it?
+
+all games load and play fine, except "Strider Hiryu (Japan set 1)"
+(striderj),
+FB is looking for the only rom sthj23.bin in the parent (strider)!
+
+I will create a new dat for FB, but first I need to find the missing
+game...
+
+Also, if nobody else wants it, I'd like to try the Nebula dat, it's a
+bit
+harder to do I think, probably I'll do it this weekend.
+
+ciao.stefan
+
+  > Hi everyone,
+  >
+  > There are a few dats that need updating so if anyone would
+  > like to try their hand then now would be a great
+  > opportunity. The team page lists what needs updating but I
+  > will mention them all here:
+  >
+  > - CottAGE needs a big update. If I were to do it myself I
+  > might be tempted to start again from scratch, using the
+  > MAME dat to copy from (only using the CottAGE dat as
+  > reference if there are some non-MAME standard ROMs used).
+  >
+  > - Daphne needs a check performing to see if DLE 2.0 is a
+  > new ROM (or replaces an earlier one).
+  >
+  > - Mimic needs one game adding and another one uses one less
+  > ROM if I remember correctly. The script needed to compare
+  > two Mimic releases is available in Dats.tar.gz.
+  >
+  > - Nebula has some SF2 hacks to add:
+  >
+  > > Street Fighter 2 M-1 (Not Working, used t [name: sf2m-1 - parent:
+  > > sf2ce] Street Fighter 2 M-2 (Gfx problems) [name: sf2m-2
+  > - parent:
+  > > sf2ce] Street Fighter 2 M-3 (Not Working) [name: sf2m-3 - parent:
+  > > sf2ce] Street Fighter 2 M-4 [name: sf2m-4 - parent: sf2ce] Street
+  > > Fighter 2 M-5 [name: sf2m-5 - parent: sf2ce] Street Fighter 2 M-6
+  > > [name: sf2m-6 - parent: sf2ce] Street Fighter 2 M-7
+  > [name: sf2m-7 -
+  > > parent: sf2ce]
+  >
+  > - Finally, I would like to check that no changes were in
+  > Final Burn that Dave forgot about. ;)
+  >
+  > Any takers?
+  >
+  > Mike
+  >
+
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Still can't download SDK
+Fecha: Fri, 18 Oct 2002 05:13:55 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Dr.Zer0,
+
+did you try to use a download manager/accelerator (like FlashGet,
+GetRight...)?
+it'll resume your stopped downloads...
+
+if everything else fails, tell me what files you need, I'll put them on my
+ftp so you
+can try to download them from there.
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Still can't download SDK
+Fecha: Fri, 18 Oct 2002 08:16:37 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Zer0: I seem to be getting a similar problem from work sometimes. Leslaw's
+FTP is back online so I will start uploading to there too.
+
+Leslaw: I see the FTP is back and the software is different too However, I
+can't write to the team folder anymore.
+
+Mike
+----- Original Message -----
+From: "Dr.Zer0" <dr.zer0@libero.it>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, October 17, 2002 11:05 PM
+Subject: [TeamLogiqx] Still can't download SDK
+
+The download do same error, I don't know why, when the download start, the
+speed is very high 30Kb/s but after few seconds the speed go to Zer0, and
+then the download stop.
+
+If I can't download the Software I can't develop anything, so I'm blocked.
+
+Maybe my IP is writed in "IP Black Boop" of your space provider, I remember
+that when Eldio's site was closed I have download all the Marquees from
+CAESAR with an automatic "fake.html", that point to CAESAR Maquees file,
+maybe this is why now I have problem now; I don't think that download image
+from a site is a think that an user can't do however...
+
+I don't know why I have this problem but please help me!
+
+Long life to TeamLogiqx
+
+Dr.Zer0
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Time for a wake up call. :)
+Fecha: Fri, 18 Oct 2002 08:33:56 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> I built the Finalburn set with one exception, "Royal Ascot 2"
+> (royalascot2),
+
+http://www.logiqx.com/team/royalascot2.zip
+
+It won't stay there long and of course the URL can't be shared with anyone
+off the team (not from that URL anyway). ;)
+
+> I will create a new dat for FB, but first I need to find the missing
+> game...
+
+Don't go to the effort of a complete rewrite though Stephan, just use
+MAMEDiff to compare the generated data file of the last version and the
+current version (can use the _compare_versions.bat script in the Final Burn
+dir). Any differences should be incorporated into the existing dat (maybe
+that's what you meant though). ;)
+
+>FB is looking for the only rom sthj23.bin in the parent (strider)!
+
+Doh, can you drop Dave a mail on this please (he obviously doesn't specify
+two possible ZIP names for striderj ROMs)? Mention that you work with me and
+he should be helpful since we know each other. In terms of the dat, sadly
+there is no way to force this behaviour without putting that ROM in the
+parent set. However, I don't really want to do that since it messes up the
+information in CAESAR. Best to just put a comment above striderj in the
+CMPro copy (I just use hashes - see Laser release as an example). I know the
+game can't then be built in a working state but it makes life easier for
+CAESAR (and doesn't cause annoying warnings about ROM mismatches to me).
+
+> Also, if nobody else wants it, I'd like to try the Nebula dat, it's a
+> bit
+> harder to do I think, probably I'll do it this weekend.
+
+I have a tip for Nebula. Build CPS-1, CPS-2, Neo-Geo, PGM and Konami into
+different ROM paths for a nice organised collection. This is easiestly
+achieved by first building yourself ROM sets for the system dats I produce
+and then re-building one system at a time to your Nebula directories. A
+second tip is when validating the ROMs within Nebula, select one system at a
+time when reading the game list to see that all are green (for less to
+scroll through). For supplement ROM sets, I just use one directory for the
+emulator (which is supplementary to my two MAME directories - MAME/standard
+and MAME/Neo-Geo).
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] Author details
+Fecha: Fri, 18 Oct 2002 08:42:55 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Now that the team seems to be getting going, can any dats you create please
+show the logiqx.com URL in the author field? That way I can update the
+e-mail pages at Logiqx.com and mention the team properly as you start to
+produce stuff.
+
+e.g:
+
+author "Logiqx, http://www.logiqx.com/"
+author "Rob, http://www.logiqx.com/"
+author "Rosewood, http://www.logiqx.com/"
+author "Dr.Zer0, http://www.logiqx.com/"
+author "Leslaw, http://www.logiqx.com/"
+
+No one else seems to have been following the lessons so I'll assume that
+they are guests to the list at the moment.
+
+I was half wondering whether to put 'Team Logiqx' after each name too. Any
+thoughts/objections?
+
+author "Rob of Team Logiqx, http://www.logiqx.com/"
+author "Rob - Team Logiqx, http://www.logiqx.com/"
+
+Mike
+
+**********************************************************************
+Asunto: Re[2]: [TeamLogiqx] Still can't download SDK
+Fecha: Fri, 18 Oct 2002 12:14:59 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+L> Zer0: I seem to be getting a similar problem from work sometimes.
+Leslaw's
+L> FTP is back online so I will start uploading to there too.
+
+L> Leslaw: I see the FTP is back and the software is different too However,
+I
+L> can't write to the team folder anymore.
+
+Yeah, this will be resolved in a one - two days,
+I am just out of town now,
+
+But when we will set it up - It will stay like that for another 2-3
+years.
+
+Raiden FTPD is much faster and stable then the old one WarFtp.
+
+best,
+Leslaw
+
+BTW: Any dat left?
+
+--
+ Leslaw Skrzypek                          mailto:skrzypek@im.uj.edu.pl
+ Jagiellonian University
+
+**********************************************************************
+Asunto: Re: Re[2]: [TeamLogiqx] Still can't download SDK
+Fecha: Fri, 18 Oct 2002 11:42:36 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Yeah, this will be resolved in a one - two days,
+> I am just out of town now,
+>
+> But when we will set it up - It will stay like that for another 2-3
+> years.
+
+Cool.
+
+> Raiden FTPD is much faster and stable then the old one WarFtp.
+
+Hmm, I may try Raiden at home then (instead of WarFTP that I currently use).
+However, there is an old saying about not fiddling with something that
+already works and it isn't too important to me.
+
+> BTW: Any dat left?
+
+There is a quick check relating to the new game supported by Daphne.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Still can't download SDK
+Fecha: Fri, 18 Oct 2002 13:01:52 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Ok thank you guys, I'll wait for FTP, and about Stefan question, yes I tryed
+FlashGet,GetRight,Download Mage,Mass Downloader,etc.., same problem.
+
+Dr.Zer0
+----- Original Message -----
+From: "Logiqx" <logiqx@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Friday, October 18, 2002 9:16 AM
+Subject: Re: [TeamLogiqx] Still can't download SDK
+
+> Zer0: I seem to be getting a similar problem from work sometimes. Leslaw's
+> FTP is back online so I will start uploading to there too.
+>
+> Leslaw: I see the FTP is back and the software is different too However, I
+> can't write to the team folder anymore.
+>
+> Mike
+> ----- Original Message -----
+> From: "Dr.Zer0" <dr.zer0@libero.it>
+> To: <teamlogiqx@emuverse.com>
+> Sent: Thursday, October 17, 2002 11:05 PM
+> Subject: [TeamLogiqx] Still can't download SDK
+>
+>
+> The download do same error, I don't know why, when the download start, the
+> speed is very high 30Kb/s but after few seconds the speed go to Zer0, and
+> then the download stop.
+>
+> If I can't download the Software I can't develop anything, so I'm blocked.
+>
+> Maybe my IP is writed in "IP Black Boop" of your space provider, I
+remember
+> that when Eldio's site was closed I have download all the Marquees from
+> CAESAR with an automatic "fake.html", that point to CAESAR Maquees file,
+> maybe this is why now I have problem now; I don't think that download
+image
+> from a site is a think that an user can't do however...
+>
+> I don't know why I have this problem but please help me!
+>
+> Long life to TeamLogiqx
+>
+> Dr.Zer0
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Still can't download SDK
+Fecha: Fri, 18 Oct 2002 12:17:48 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Ok thank you guys, I'll wait for FTP, and about Stefan question, yes I
+tryed
+> FlashGet,GetRight,Download Mage,Mass Downloader,etc.., same problem.
+
+I wonder if ztnet slow down the downloads of anything bigger than 3MB in
+size (or some other size that they chose)...
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Author details
+Fecha: Fri, 18 Oct 2002 11:01:31 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey Mike and everyone,
+
+> I was half wondering whether to put 'Team Logiqx' after each name too. Any
+> thoughts/objections?
+
+Sounds like a plan.  I vote for "Rob - Team Logiqx, http://www.logiqx.com/"
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re: Re[2]: [TeamLogiqx] Still can't download SDK
+Fecha: Fri, 18 Oct 2002 17:12:39 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> There is a quick check relating to the new game supported by Daphne.
+
+Oh, and there is Mimic too.
+
+I reckon anyone who can run it properly (i.e. not have to ctrl-alt-delete it
+after loading a game) should take ownership, lol. Does it work properly for
+anyone here?
+
+Mike
+
+**********************************************************************
+Asunto: Re[3]: [TeamLogiqx] Still can't download SDK
+Fecha: Fri, 18 Oct 2002 21:28:19 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+L>> Zer0: I seem to be getting a similar problem from work sometimes.
+Leslaw's
+L>> FTP is back online so I will start uploading to there too.
+
+L>> Leslaw: I see the FTP is back and the software is different too However,
+I
+L>> can't write to the team folder anymore.
+
+It is working now,
+All fine.
+
+Leslaw
+
+--
+ Leslaw Skrzypek                          mailto:skrzypek@im.uj.edu.pl
+ Jagiellonian University
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Author details
+Fecha: Fri, 18 Oct 2002 22:41:08 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hello!
+
+having big problems to access my email today, trying to
+send this via IMAP...
+
+  > Sounds like a plan.  I vote for "Rob - Team Logiqx,
+http://www.logiqx.com/"
+
+what about  "Rob (Team Logiqx), http://www.logiqx.com/"
+or (more futuristic) "Rob, http://www.teamlogiqx.com/" ?
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: Re[3]: [TeamLogiqx] Still can't download SDK
+Fecha: Fri, 18 Oct 2002 21:44:24 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Good timing! I am going out now (and will not not back for almost 24 hours)
+but have left everything uploading.
+
+When it is all complete, it should be available through this link (assuming
+it works okay through a browser, if not just use an FTP client):
+
+ftp://leslaw:leslaw@149.156.75.202:2121/TEAM_LOGIQX/Backup/
+
+Mike
+
+----- Original Message -----
+From: "Leslaw Skrzypek" <skrzypek@im.uj.edu.pl>
+To: <teamlogiqx@emuverse.com>
+Sent: Friday, October 18, 2002 8:28 PM
+Subject: Re[3]: [TeamLogiqx] Still can't download SDK
+
+>
+> L>> Zer0: I seem to be getting a similar problem from work sometimes.
+Leslaw's
+> L>> FTP is back online so I will start uploading to there too.
+>
+> L>> Leslaw: I see the FTP is back and the software is different too
+However, I
+> L>> can't write to the team folder anymore.
+>
+>
+> It is working now,
+> All fine.
+>
+> Leslaw
+>
+>
+>
+>
+> --
+>  Leslaw Skrzypek                          mailto:skrzypek@im.uj.edu.pl
+>  Jagiellonian University
+>
+
+**********************************************************************
+Asunto: RE: Re[2]: [TeamLogiqx] Still can't download SDK
+Fecha: Fri, 18 Oct 2002 22:44:34 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hello Mike,
+
+  > Oh, and there is Mimic too.
+  >
+  > I reckon anyone who can run it properly (i.e. not have to
+  > ctrl-alt-delete it after loading a game) should take
+  > ownership, lol. Does it work properly for anyone here?
+
+I'm currently in contact with the author of Mimic and trying
+to help out with the WindowsXP issue (hence the new release).
+it's still crashing on my machine though... :(
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Author details
+Fecha: Fri, 18 Oct 2002 21:50:59 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> what about  "Rob (Team Logiqx), http://www.logiqx.com/"
+
+Looks good to me. New domain in the future... maybe, lol.
+
+Mike
+
+**********************************************************************
+Asunto: Re: Re[2]: [TeamLogiqx] Still can't download SDK
+Fecha: Fri, 18 Oct 2002 21:53:21 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Cool. I helped him out with implementing ZIP support a while ago but never
+had the time to help him with stability issues (just reported them).
+Personally I think he should ditch DJGPP and compile with MinGW. ;)
+
+Mike
+
+----- Original Message -----
+From: "rosewood" <rosewood@web.de>
+To: <teamlogiqx@emuverse.com>
+Sent: Friday, October 18, 2002 9:44 PM
+Subject: RE: Re[2]: [TeamLogiqx] Still can't download SDK
+
+> Hello Mike,
+>
+>   > Oh, and there is Mimic too.
+>   >
+>   > I reckon anyone who can run it properly (i.e. not have to
+>   > ctrl-alt-delete it after loading a game) should take
+>   > ownership, lol. Does it work properly for anyone here?
+>
+> I'm currently in contact with the author of Mimic and trying
+> to help out with the WindowsXP issue (hence the new release).
+> it's still crashing on my machine though... :(
+>
+> ciao.stefan
+>
+
+**********************************************************************
+Asunto: [TeamLogiqx] Team page
+Fecha: Sat, 19 Oct 2002 00:14:26 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi!
+
+just some small notes about the team page:
+
+when I look at the Members page, there is almost
+no difference between the yellow and green cells
+in my eyes (a minor color-weakness), can you change
+that into some darker notes of the colors?
+And as noted before, my age should be 25 now ;)
+
+There is also a security issue, when the people
+out there in the world get to know about the
+team activity, there will be somebody trying
+different combinations to access the team page
+(i would do that ;-), www.logiqx.com/team/
+isn't too hard to figure out...
+
+Maybe we should use a password protection there
+(via .htaccess file for example)?
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Team page colors changed
+Fecha: Sat, 19 Oct 2002 01:11:54 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+rosewood ha escrito:
+
+> when I look at the Members page, there is almost
+> no difference between the yellow and green cells
+> in my eyes (a minor color-weakness), can you change
+> that into some darker notes of the colors?
+
+I have the same problem, I hope the new colors are readable,
+maybe too strong colors for background but now I can distinguish
+the green and yellow :) I had to change by text replacing rather
+than by HTML editing, I didn't know which ones were the green!
+
+That color weakness might have the same root as mine. Have you
+ever had a daltonism test? It is some papers with lots of small
+circles of different colors, the different circles form numbers
+and you only have to say which number is. I remember I only got
+the first one right, the rest were just noise for me.
+
+> And as noted before, my age should be 25 now ;)
+
+Fixed, my fault.
+
+> There is also a security issue, when the people
+> out there in the world get to know about the
+> team activity, there will be somebody trying
+> different combinations to access the team page
+> (i would do that ;-), www.logiqx.com/team/
+> isn't too hard to figure out...
+
+Let's call it www.logiqx.com/jmjandmoappreciationlist. That's a
+tidbit no one knows out of this place. Almost :)
+
+Or the t0t4lly ub3l33t team.logiqx.com
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Team page colors changed
+Fecha: Sat, 19 Oct 2002 01:58:19 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+  > > when I look at the Members page, there is almost
+  > > no difference between the yellow and green cells
+  > > in my eyes (a minor color-weakness), can you change
+  > > that into some darker notes of the colors?
+  >
+  > I have the same problem, I hope the new colors are
+  > readable, maybe too strong colors for background but now I
+  > can distinguish the green and yellow :) I had to change by
+  > text replacing rather than by HTML editing, I didn't know
+  > which ones were the green!
+
+that's much better now, thx a lot!
+the green is awesome, it jumps right into my face and tries to
+pull my eyes out ;-)
+
+  > That color weakness might have the same root as mine. Have
+  > you ever had a daltonism test? It is some papers with lots
+  > of small circles of different colors, the different circles
+  > form numbers and you only have to say which number is. I
+  > remember I only got the first one right, the rest were just
+  > noise for me.
+
+yeah, it's a hereditary disease, but it's the girls' fault because
+the particulary part of the DNA that causes this weakness is transported
+by the girls only!
+
+  > > And as noted before, my age should be 25 now ;)
+  >
+  > Fixed, my fault.
+
+err, you sure you fixed that?
+I can't remember to have a number weakness too :P
+
+  > > There is also a security issue, when the people
+  > > out there in the world get to know about the
+  > > team activity, there will be somebody trying
+  > > different combinations to access the team page
+  > > (i would do that ;-), www.logiqx.com/team/
+  > > isn't too hard to figure out...
+  >
+  > Let's call it www.logiqx.com/jmjandmoappreciationlist.
+  > That's a tidbit no one knows out of this place. Almost :)
+
+thats a nice url, i do similar things when i can't create/use
+a .htaccess file... too bad it displays this stupid ads only ;)
+
+  > Or the t0t4lly ub3l33t team.logiqx.com
+
+hm, that would have been my first guess when 'hacking' into
+the Team Logiqx... :-)
+
+ciao.rosewood
+
+**********************************************************************
+Asunto: [TeamLogiqx] FinalBurn and Nebula dat status
+Fecha: Sat, 19 Oct 2002 02:47:40 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hello!
+
+about the FinalBurn dat I'd say we leave it as it is right now and wait
+for the next emu update, if any...
+Reasons:
+- the error about the Strider Hiryu set has been there for about
+  a half year or longer and nobody complained yet (I checked it with
+v0.517)
+- Dave hasn't been much help yet
+  <quote>
+    I think i just decided that for one file it really wasnt worth
+separating
+  </quote>
+
+Nebula: I'm still building the whole set, 2+ GB hd space waste,
+ClrMamePro
+is a real pain and RomCenter sometimes isn't accurate enough...
+isn't there a way to tell either rommanager "copy all neogeo sets from
+the
+mame folder to the neogeo folder" ?
+
+Leslaw, you were asking for work too, so let's make a kind of
+competition
+out of this and you do the Nebula dat too...
+
+I'll try to figure this out, even if it takes me the whole weekend!
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Team page colors changed
+Fecha: Sat, 19 Oct 2002 20:09:05 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> that's much better now, thx a lot!
+> the green is awesome, it jumps right into my face and tries to
+> pull my eyes out ;-)
+
+Yes, a real assault on the eyeballs!
+
+> a .htaccess file... too bad it displays this stupid ads only ;)
+
+I am not completely sure if the servers use Apache but I would imagine so.
+If you want to provide a suitable .htaccess file then either Pi or myself
+can upload it for a try.
+
+>   > Or the t0t4lly ub3l33t team.logiqx.com
+
+A new subdomain? Put in a request now and the admins may have it ready for
+Easter, lol.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] FinalBurn and Nebula dat status
+Fecha: Sat, 19 Oct 2002 20:14:21 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Nebula: I'm still building the whole set, 2+ GB hd space waste,
+
+Yes, I know the feeling. ;)
+
+I have MAME, Final Burn, FBA, Nebula, Kawaks, Calice, ACE,
+CPS-1/CPS-2/Neo-Geo on my HD and it is very full with duplication of CPS-2
+and Neo-Geo games. I need a new disk thinking about it!
+
+> Leslaw, you were asking for work too, so let's make a kind of
+> competition
+> out of this and you do the Nebula dat too...
+
+Multiple people doing the same work is a good idea. It allows more people to
+do updates for a given emulator and will also be a good means of checking
+each other's work in the early days. :)
+
+I'll check everything too but after a while I'm sure that will become
+unnecessary.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Nebula SF2 hacks
+Fecha: Mon, 21 Oct 2002 15:33:07 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Since it seems that they are quite rare to find for now, I think this page
+will be of use for anyone wanting to try to do the Nebula dat:
+
+http://members.fortunecity.com/sbhattal1
+
+I feel pirate. Send paypal kthx
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: [TeamLogiqx] About me
+Fecha: Mon, 21 Oct 2002 16:58:24 -0400
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+Hi all,
+
+Logiqx (or do you prefer Mike?) asked me to write a little introduction
+about
+myself, so here goes:
+
+My name is Ben Jos Walbeehm. "Ben Jos" is my first name. "Jos" is more or
+less
+pronounced like the word "yoss" would be pronounced in English. I am 36
+years
+old and I live in Tampa, Florida, USA. My timezone is EST/EDT (GMT -5:00). I
+was born and raised in the Netherlands and moved to the US about 7.5 years
+ago. I'm still a Dutch citizen. I am divorced and have a beautiful 3 year
+old
+daughter who lives with my ex-wife.
+
+I hold a Master's degree in Computing Science and another Master's degree in
+Psychology. My job title is "Sr. Software Engineer". I used to be a game
+programmer, but most of the games that have my name related to them are not
+very exciting: A dozen or so Barbie games.
+
+I have a habit of writing lots of little programs for myself to make my life
+easier. I have created a few .dat files for myself in the past, some of
+which
+I wrote little programs for first to help me. My main hobby is cmoputers. I
+spend just about every waking moment on a computer. Things I do on the
+computer vary from talking on IRC to writing programs to reading things that
+interest me on the web to playing games and lots and lots of other things.
+Until very recently, I played a LOT of Unreal Tournament. There's a handful
+of
+games I play in MAME (older games) and I don't use any other emulators,
+although I have a complete set for a lot of them. It's like an addiction for
+me to have complete sets, even though I never use most of them.
+
+Using Roman Scherzer's ZipMax program (to which I made some small
+contributions) and using 40 different configurations, I've minimised all my
+.zip files as much as possible. I have created a database that for each ROM
+I
+have contains basically just the raw, compressed, (ZipMaxed) data. I've
+written some tools to easily maintain my database and also the external
+zipfiles, so that I am not swamped with duplicates. I've also written a
+program that allows me to very quickly build a ROM set from any ClrMame Pro
+compatible .dat file. Since it uses my database, it does not have to do any
+compression or decompression; it just takes the correct raw compressed
+files,
+puts headers and such on them, and creates valid .zip files that way. That
+way, it can create complete sets, even large ones, in a matter of a few
+minutes or less.
+
+I don't have much I do besides being on a computer, although, every now and
+then, I buy a dozen or so Science Fiction books and those manage to keep me
+mostly away from my computers. I then spend just about every waking moment
+reading (and also when I really should be sleeping) until I've read them all
+and then it's back to computers again. I also like listening to (mostly) 80s
+music while on the computer.
+
+I never had much imagination when it came to choosing a nick, so when I got
+on
+IRC, 8 years ago or so, I simply used my first name as a nick. Since IRC
+nicks
+can't have spaces in them, I made it "Ben_Jos", but changed that a few days
+later to "BenJos" because everyone kept calling me "Ben" (and I hate being
+called that) and I hoped that making it "BenJos" would stop people from
+calling me "Ben". Well, it didn't help much... . At least regulars in my
+regular channels knew/know not to call me "Ben".
+
+I'll leave it at this for now. Is anyone still awake? :-)
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] About me
+Fecha: Tue, 22 Oct 2002 09:35:45 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Welcome to the team Ben Jos. Just call me Mike, I only use my nick in
+public.
+
+Your database idea is very cool! It sounds like a great idea in light of all
+the emulators that support CPS-x and Neo-Geo.
+
+Mike
+
+----- Original Message -----
+From: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Monday, October 21, 2002 9:58 PM
+Subject: [TeamLogiqx] About me
+
+> Hi all,
+>
+> Logiqx (or do you prefer Mike?) asked me to write a little introduction
+about
+> myself, so here goes:
+>
+> My name is Ben Jos Walbeehm. "Ben Jos" is my first name. "Jos" is more or
+less
+> pronounced like the word "yoss" would be pronounced in English. I am 36
+years
+> old and I live in Tampa, Florida, USA. My timezone is EST/EDT (GMT -5:00).
+I
+> was born and raised in the Netherlands and moved to the US about 7.5 years
+> ago. I'm still a Dutch citizen. I am divorced and have a beautiful 3 year
+old
+> daughter who lives with my ex-wife.
+>
+> I hold a Master's degree in Computing Science and another Master's degree
+in
+> Psychology. My job title is "Sr. Software Engineer". I used to be a game
+> programmer, but most of the games that have my name related to them are
+not
+> very exciting: A dozen or so Barbie games.
+>
+> I have a habit of writing lots of little programs for myself to make my
+life
+> easier. I have created a few .dat files for myself in the past, some of
+which
+> I wrote little programs for first to help me. My main hobby is cmoputers.
+I
+> spend just about every waking moment on a computer. Things I do on the
+> computer vary from talking on IRC to writing programs to reading things
+that
+> interest me on the web to playing games and lots and lots of other things.
+> Until very recently, I played a LOT of Unreal Tournament. There's a
+handful of
+> games I play in MAME (older games) and I don't use any other emulators,
+> although I have a complete set for a lot of them. It's like an addiction
+for
+> me to have complete sets, even though I never use most of them.
+>
+> Using Roman Scherzer's ZipMax program (to which I made some small
+> contributions) and using 40 different configurations, I've minimised all
+my
+> .zip files as much as possible. I have created a database that for each
+ROM I
+> have contains basically just the raw, compressed, (ZipMaxed) data. I've
+> written some tools to easily maintain my database and also the external
+> zipfiles, so that I am not swamped with duplicates. I've also written a
+> program that allows me to very quickly build a ROM set from any ClrMame
+Pro
+> compatible .dat file. Since it uses my database, it does not have to do
+any
+> compression or decompression; it just takes the correct raw compressed
+files,
+> puts headers and such on them, and creates valid .zip files that way. That
+> way, it can create complete sets, even large ones, in a matter of a few
+> minutes or less.
+>
+> I don't have much I do besides being on a computer, although, every now
+and
+> then, I buy a dozen or so Science Fiction books and those manage to keep
+me
+> mostly away from my computers. I then spend just about every waking moment
+> reading (and also when I really should be sleeping) until I've read them
+all
+> and then it's back to computers again. I also like listening to (mostly)
+80s
+> music while on the computer.
+>
+> I never had much imagination when it came to choosing a nick, so when I
+got on
+> IRC, 8 years ago or so, I simply used my first name as a nick. Since IRC
+nicks
+> can't have spaces in them, I made it "Ben_Jos", but changed that a few
+days
+> later to "BenJos" because everyone kept calling me "Ben" (and I hate being
+> called that) and I hoped that making it "BenJos" would stop people from
+> calling me "Ben". Well, it didn't help much... . At least regulars in my
+> regular channels knew/know not to call me "Ben".
+>
+> I'll leave it at this for now. Is anyone still awake? :-)
+>
+
+**********************************************************************
+Asunto: [TeamLogiqx] Nebula questions
+Fecha: Tue, 22 Oct 2002 18:19:45 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hello Mike,
+
+after some trouble with the autogenerated datfile
+(the 'Version' in the header should be 'version' so
+datutil can work with it), I can finally go further..
+
+I have a question regarding those new SF2M-x hacks,
+the author of Nebula declared the required roms like this:
+
+        name sf2m-1
+        description "Street Fighter 2 M-1 (Not Working, used to work)"
+        cloneof sf2ce
+        romof sf2ce
+        rom ( name 222e size 524288 crc 1E20D0A3 )
+        rom ( name 196e size 524288 crc 88CC38A3 )
+        rom ( name s92_21a.bin merge s92_21a.bin size 524288 crc
+925A7877 )
+        rom ( name sf2.09 merge s92_09.bin size 65536 crc 08F6B60E )
+        rom ( name sf2.18 merge s92_18.bin size 131072 crc 7F162009 )
+        rom ( name sf2.19 merge s92_19.bin size 131072 crc BEADE53F )
+        rom ( name sf2.01 merge s92_01.bin size 524288 crc 03B0D852 )
+        rom ( name sf2.03 merge s92_02.bin size 524288 crc 840289EC )
+        rom ( name sf2.02 merge s92_03.bin size 524288 crc CDB5F027 )
+        rom ( name sf2.04 merge s92_04.bin size 524288 crc E2799472 )
+        rom ( name sf2.05 merge s92_05.bin size 524288 crc BA8A2761 )
+        rom ( name sf2.07 merge s92_06.bin size 524288 crc E584BFB5 )
+        rom ( name sf2.06 merge s92_07.bin size 524288 crc 21E3F87D )
+        rom ( name sf2.08 merge s92_08.bin size 524288 crc BEFC47DF )
+        rom ( name sf2.10 merge s92_10.bin size 524288 crc 960687D5 )
+        rom ( name sf2.12 merge s92_11.bin size 524288 crc 978ECD18 )
+        rom ( name sf2.11 merge s92_12.bin size 524288 crc D6EC9A0A )
+        rom ( name sf2.13 merge s92_13.bin size 524288 crc ED2C67F6 )
+
+why did he use names like "sf2.xx" instead of "s92_xx.bin" ?
+Nebula identifies those roms via CRC anyway and doesn't look at the
+names.
+shouln't it be something like that:
+
+        name sf2m-1
+        description "Street Fighter 2 M-1 (Not Working, used to work)"
+        cloneof sf2ce
+        romof sf2ce
+        rom ( name 222e size 524288 crc 1E20D0A3 )
+        rom ( name 196e size 524288 crc 88CC38A3 )
+        rom ( name s92_21a.bin merge s92_21a.bin size 524288 crc
+925A7877 )
+        rom ( name s92_09.bin merge s92_09.bin size 65536 crc 08F6B60E )
+        rom ( name s92_18.bin merge s92_18.bin size 131072 crc 7F162009
+)
+        rom ( name s92_19.bin merge s92_19.bin size 131072 crc BEADE53F
+)
+        rom ( name s92_01.bin merge s92_01.bin size 524288 crc 03B0D852
+)
+        rom ( name s92_02.bin merge s92_02.bin size 524288 crc 840289EC
+)
+        rom ( name s92_03.bin merge s92_03.bin size 524288 crc CDB5F027
+)
+        rom ( name s92_04.bin merge s92_04.bin size 524288 crc E2799472
+)
+        rom ( name s92_05.bin merge s92_05.bin size 524288 crc BA8A2761
+)
+        rom ( name s92_06.bin merge s92_06.bin size 524288 crc E584BFB5
+)
+        rom ( name s92_07.bin merge s92_07.bin size 524288 crc 21E3F87D
+)
+        rom ( name s92_08.bin merge s92_08.bin size 524288 crc BEFC47DF
+)
+        rom ( name s92_10.bin merge s92_10.bin size 524288 crc 960687D5
+)
+        rom ( name s92_11.bin merge s92_11.bin size 524288 crc 978ECD18
+)
+        rom ( name s92_12.bin merge s92_12.bin size 524288 crc D6EC9A0A
+)
+        rom ( name s92_13.bin merge s92_13.bin size 524288 crc ED2C67F6
+)
+
+and about the other hacks (m-2 - m-7), the CRCs for all new roms are
+right
+now declared as unknown (00000000), can I use the CRCs of the roms
+available
+now or is there a possibility of new dumps appearing soon?
+
+btw, there are some new hacks of Warriors of Fate,
+http://www.cemucg.net/main/download.asp?id=202, do they belong in the
+official Logiqx datfile or do I have to release an unofficial dat for
+example?
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Nebula questions
+Fecha: Tue, 22 Oct 2002 18:00:56 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> why did he use names like "sf2.xx" instead of "s92_xx.bin" ?
+
+Those are the ROM names as they are in the parent game sf2ce:
+
+game (
+ name sf2ce
+ description "Street Fighter II' - Champion Edition (World)"
+ year 1992
+ manufacturer "Capcom"
+ rom ( name sf2ce.23 size 524288 crc 3f846b74 )
+ rom ( name sf2ce.22 size 524288 crc 99f1cca4 )
+ rom ( name s92_21a.bin size 524288 crc 925a7877 )
+ rom ( name s92_01.bin size 524288 crc 03b0d852 )
+ rom ( name s92_02.bin size 524288 crc 840289ec )
+ rom ( name s92_03.bin size 524288 crc cdb5f027 )
+ rom ( name s92_04.bin size 524288 crc e2799472 )
+ rom ( name s92_05.bin size 524288 crc ba8a2761 )
+ rom ( name s92_06.bin size 524288 crc e584bfb5 )
+ rom ( name s92_07.bin size 524288 crc 21e3f87d )
+ rom ( name s92_08.bin size 524288 crc befc47df )
+ rom ( name s92_10.bin size 524288 crc 960687d5 )
+ rom ( name s92_11.bin size 524288 crc 978ecd18 )
+ rom ( name s92_12.bin size 524288 crc d6ec9a0a )
+ rom ( name s92_13.bin size 524288 crc ed2c67f6 )
+ rom ( name s92_09.bin size 65536 crc 08f6b60e )
+ rom ( name s92_18.bin size 131072 crc 7f162009 )
+ rom ( name s92_19.bin size 131072 crc beade53f )
+)
+
+When ROMs can be merged, the emulator author should use the ROM names from
+the parent. In the case of the new hacks, it seems that only a couple of
+program ROMs are different from the original so all of the other ROMs adopt
+sf2ce names.
+
+> and about the other hacks (m-2 - m-7), the CRCs for all new roms are
+> right
+> now declared as unknown (00000000), can I use the CRCs of the roms
+> available
+> now or is there a possibility of new dumps appearing soon?
+
+If you have sets that appear to be the games added to Nebula then you should
+use those CRCs. Sometimes we get to know the CRCs because the author
+includes them in the emulator but other times we have to just take the ones
+we find. I am pretty certain that any ROMs you find for the new hacks
+(assuming they have the correct ZIP and ROM names) will be the ones that
+Nebula expects.
+
+> btw, there are some new hacks of Warriors of Fate,
+> http://www.cemucg.net/main/download.asp?id=202, do they belong in the
+> official Logiqx datfile or do I have to release an unofficial dat for
+> example?
+
+When it comes to my system dat for CPS-1, I only add hacks that are
+supported by any of the emulators (Nebula, Kawaks, FBA). Until it is added,
+just ignore it because trying to follow all of the hacks is a fairly
+pointless exercise (unless we need them in our official emulator dats). ;)
+
+When I get a chance, I will have to re-apply my fixes to his drivers so that
+a dat can be created without naming conflicts and validates 100% against the
+Nebula drivers (my fixed drivers that is). Ben Jos, you will like the way
+that DatUtil and MAMEDiff can validate a dat for Nebula against the drivers
+themselves. :)
+
+Hope that helps, Mike
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Nebula questions
+Fecha: Tue, 22 Oct 2002 19:36:15 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+  > > why did he use names like "sf2.xx" instead of "s92_xx.bin" ?
+  >
+  > Those are the ROM names as they are in the parent game sf2ce:
+  >
+  > When ROMs can be merged, the emulator author should use the
+  > ROM names from the parent. In the case of the new hacks, it
+  > seems that only a couple of program ROMs are different from
+  > the original so all of the other ROMs adopt sf2ce names.
+
+I'm still confused, the roms in the parent sf2ce have the prefix
+"S92" while the roms in the game sf2 have the prefix "sf2".
+when the M hacks are clones of the sf2ce game, why don't they
+follow the prefix of the parent?
+
+  > > and about the other hacks (m-2 - m-7), the CRCs for all
+  > new roms are
+  > > right now declared as unknown (00000000), can I use the
+  > CRCs of the
+  > > roms available
+  > > now or is there a possibility of new dumps appearing soon?
+  >
+  > If you have sets that appear to be the games added to
+  > Nebula then you should use those CRCs. Sometimes we get to
+  > know the CRCs because the author includes them in the
+  > emulator but other times we have to just take the ones we
+  > find. I am pretty certain that any ROMs you find for the
+  > new hacks (assuming they have the correct ZIP and ROM
+  > names) will be the ones that Nebula expects.
+
+only the CRCs of the first hack were included in the emulator dat,
+since all other hacks I found on Emuchina are playable in a way
+I assume that these are the correct CRCs.
+
+  > > btw, there are some new hacks of Warriors of Fate,
+  > > http://www.cemucg.net/main/download.asp?id=202, do they
+  > belong in the
+  > > official Logiqx datfile or do I have to release an
+  > unofficial dat for
+  > > example?
+  >
+  > When it comes to my system dat for CPS-1, I only add hacks
+  > that are supported by any of the emulators (Nebula, Kawaks,
+  > FBA). Until it is added, just ignore it because trying to
+  > follow all of the hacks is a fairly pointless exercise
+  > (unless we need them in our official emulator dats). ;)
+
+ok, maybe they're in the next release of Nebula...
+
+  > When I get a chance, I will have to re-apply my fixes to
+  > his drivers so that a dat can be created without naming
+  > conflicts and validates 100% against the Nebula drivers (my
+  > fixed drivers that is). Ben Jos, you will like the way that
+  > DatUtil and MAMEDiff can validate a dat for Nebula against
+  > the drivers themselves. :)
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Nebula questions
+Fecha: Tue, 22 Oct 2002 20:03:54 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> I'm still confused, the roms in the parent sf2ce have the prefix
+> "S92" while the roms in the game sf2 have the prefix "sf2".
+
+sf2 and sf2ce are unrelated in parent/clone terms so the names should not be
+compared.
+
+> when the M hacks are clones of the sf2ce game, why don't they
+> follow the prefix of the parent?
+
+They should follow the parent prefix (that's what ElSemi has done) but I
+don't know what the dumpers have done. I have not downloaded the ROMs yet.
+
+> only the CRCs of the first hack were included in the emulator dat,
+> since all other hacks I found on Emuchina are playable in a way
+> I assume that these are the correct CRCs.
+
+Yes, that's what I was saying. ;)
+
+I have re-applied my fixes to his drivers. An entire Nebula directory for
+your Logiqx dat area is available at:
+
+ftp://leslaw:leslaw@149.156.75.202:2121/TEAM_LOGIQX/Dats/Recent/Multi/Nebula
+.zip
+
+Just copy your new dat over the top and you can then use the
+_verify_logiqx.bat script. After running _rebuild_all.bat, don't forget the
+_verify_roms.bat script is handy too. :)
+
+Gotta go, late again!
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Nebula questions
+Fecha: Tue, 22 Oct 2002 20:10:46 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> They should follow the parent prefix (that's what ElSemi has done) but I
+> don't know what the dumpers have done. I have not downloaded the ROMs yet.
+
+Okay, I should have looked at the drivers! Sorry I have been very busy
+today...
+
+ElSemi has the names wrong so I suggest you fix the driver and base your dat
+on your fixed version (as you say, it will work in the emu due to loading by
+CRC). I can send ElSemi the fixed driver when you are done (or you could do
+it directly). At the same time, the missing CRCs could be added.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Nebula questions
+Fecha: Tue, 22 Oct 2002 19:11:08 -0400
+De: "Ben Jos Walbeehm" <walbeehm@walbeehm.com>
+Responder a: teamlogiqx@emuverse.com
+Organización: WinnieWorks
+A: <teamlogiqx@emuverse.com>
+
+> When I get a chance, I will have to re-apply my fixes to his drivers so
+that
+> a dat can be created without naming conflicts and validates 100% against
+the
+> Nebula drivers (my fixed drivers that is). Ben Jos, you will like the way
+> that DatUtil and MAMEDiff can validate a dat for Nebula against the
+drivers
+> themselves. :)
+
+Yes... I made a Nebula .dat for the then-current version of Nebula a few
+months ago. I learnt to hate Nebula then. :-)  The RC .dat that Nebula
+itself
+creates is not correct (or certainly not complete, at least) and the
+information in Nebula's drivers didn't seem to be fully correct either. For
+one, they do not list the ROMs needed from "resources" such as neogeo.zip.
+And
+even after writing and using several programs to merge and validate the
+information from those sources and and older .dat file, it was still a lot
+of
+work. I think I tried DatUtil at some point to make my "Nebula life" easier,
+but, unless I missed something, it could only do one driver at a time.
+
+The only good thing was that Nebula loads by CRC, so I could rename some of
+the ROMs to fix the conflicts ClrMame Pro would otherwise report, without
+breaking Nebula's loading and running the games.
+
+When a new Nebula was released shortly after I had finished that .dat, I
+considered writing something that would create a new .dat based on the old
+.dat, and the changes it found between the old drivers and the new drivers,
+but I never got around to doing that. If only ElSemi simply fixed Nebula's
+RC
+.dat creation... :-)
+
+Ben Jos.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Nebula questions
+Fecha: Wed, 23 Oct 2002 00:38:59 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Yes... I made a Nebula .dat for the then-current version of Nebula a few
+> months ago. I learnt to hate Nebula then. :-)
+
+Calice is the worst but Nebula comes a close second for being a pain in the
+ass, lol.
+
+> The RC .dat that Nebula itself
+> creates is not correct (or certainly not complete, at least)
+
+I came to the conclusion that it is just a load of printf statements since
+it sometimes shows ROMs not even used by the emulator (iirc). I don't use
+the built in dat for anything nowadays because it can't be trusted.
+
+> work. I think I tried DatUtil at some point to make my "Nebula life"
+easier,
+> but, unless I missed something, it could only do one driver at a time.
+
+DatUtil can do all games at once. When you get a chance to install the
+Logiqx tools and get an environment running (lessons 0, 1 and 2) then you
+will be able to play with the script that I use.
+
+> The only good thing was that Nebula loads by CRC, so I could rename some
+of
+> the ROMs to fix the conflicts ClrMame Pro would otherwise report, without
+> breaking Nebula's loading and running the games.
+
+Yes, that's what I've been doing and also sending fixed drivers to ElSemi.
+Half the time they appear in the next release but the other half I have to
+submit them again (which is a bit of a waste of my time and energy).
+
+> but I never got around to doing that. If only ElSemi simply fixed Nebula's
+RC
+> .dat creation... :-)
+
+Sadly, emulator generated RomCenter dats are of little us. CAESAR needs the
+manufacturer and year information so I always maintain CMPro dats as the
+master copies. I know that they can be added in with scripting but there is
+the potential for errors being introduced when game names are non-standard.
+
+Anyway, better sign off for tonight.
+
+Mike
+
+**********************************************************************
+Asunto: Re[2]: [TeamLogiqx] Nebula questions
+Fecha: Wed, 23 Oct 2002 12:05:09 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+Hello Logiqx,
+
+I have also made a Nebula dat for 2.20,
+I have just uploaded it to ftp.
+
+I have used your tool to compare it to the drivers:
+
+here are the results:
+
+Neo-Geo Bangbead [name: bangbead]
+Neo-Geo Bangbead (Prototype, unencrypted  [name: bngbeadp - parent:
+bangbead]
+
+same as before - names
+
+Cyberbots (US 950424) [name: cybots]
+(hmm - crc 00000000 in drivers???? )
+
+Megaman 2: Power Fighters (US 960708) [name: megaman2]
+Neo-Geo Sengoku 3 (Set 2) [name: sengoku3a - parent: sengoku3]
+Neo-Geo Sengoku 3 (Decrypted C,console pa [name: sengoku3d - parent:
+sengoku3]
+
+same as before - names,
+
+Street Fighter 2 M-s - no merging information and 00000000 crc
+(I have used known dumps).
+
+cps2 - bulshit as always
+
+and
+
+> Bucky O'Hare (World version EA) [name: bucky]
+> Bucky O'Hare (US version UA) [name: buckyua - parent: bucky]
+> Dragon World II (Rev 100C, China) [name: dragwld2]
+> Knights of Valour (Rev 117) [name: kov]
+> Knights of Valour (Rev 115) [name: kov115 - parent: kov]
+> Knights of Valour Plus (Rev 119) [name: kovplus - parent: kov]
+> Wild West C.O.W. - Boys of Moo Mesa [name: moo]
+> Oriental Legend (Rev 126) [name: orlegend]
+> Oriental Legend (Rev 112 Earlier) [name: orlegndc - parent: orlegend]
+> Oriental Legend (Rev 112) [name: orlegnde - parent: orlegend]
+> PGM (Polygame Master) System BIOS [name: pgmbios]
+
+as before,
+
+the bios name has been changed.
+
+Let me know what do you think.
+
+I have few questions also:
+
+first:
+
+How to upload?, Put only zips and .ent.xml zipped? or? or use
+_upload.bat or sth?
+
+Please explain:
+
+>new.dat
+
+for GAME in `grep 'name:' mamediff.2.log|sed 's/.*name: //'|sed 's/
+.*//'|sed 's/].*//'`
+do
+        datutil -g $GAME -a new.dat "CPS-2 20020912.dat"
+        datutil -g $GAME -a new.dat "Neo-Geo 20020501.dat"
+done
+
+rm -f datutil.dat datutil.log
+
+This is great - I know what this is doing but I want to change it to
+suit my needs,
+
+explain:
+
+for GAME in `grep 'name:' mamediff.2.log|sed 's/.*name: //'|sed 's/
+.*//'|sed 's/].*//'`
+
+somehow you ger the name (one by one) from the file, it recognizes
+spaces, newlines, what is what?
+
+SLA
+
+--
+ Leslaw Skrzypek                          mailto:skrzypek@im.uj.edu.pl
+ Jagiellonian University
+
+  -----------------------------------------------------------------
+                  Name: tmp.log.txt
+   tmp.log.txt    Type: Plain Text (text/plain)
+              Encoding: base64

@@ -1,0 +1,3973 @@
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 0 - Tools to install
+Fecha: Wed, 11 Sep 2002 22:52:32 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Stefan,
+
+>   > Yet command 1 worked fine...
+>   > XP obviously recognizes the system variable, yet won't
+>   > substitute it into the path.  Hmm.... Did you try
+>   > "...;%LOGIQX%\bin" or "...;e:\Logiqx\bin" or both?
+>
+> i'm using xp sp1 (1106) too, and i tried '%LOGIQX%\bin',
+> just checked the settings, xp translated my path
+> variable to 'x:\logiqx\bin' after restart...
+
+Even a restart didn't do it. :\
+
+> another possibility, does this have something to do w/ the
+> admin rights?
+
+Shouldn't.  I'm a 1 user system.
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: [TeamLogiqx] The Subtlety of Timekeeping
+Fecha: Thu, 12 Sep 2002 00:08:38 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+For the record, my time zone is GMT-6 during the winter and GMT-5 during the
+summer.  Why the rest of the world hasn't caught on to Daylight Savings Time
+mystifies me.  Johnny likely lives in or near Thunder Bay, making him
+GMT-5/GMT-4.
+
+Talk to you soon,
+Rob
+
+P.S.  Sorry about the flood earlier - I'm _really_ curious why %LOGIQX% only
+sort of works.
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] The Subtlety of Timekeeping
+Fecha: Thu, 12 Sep 2002 08:39:21 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Updated the team page a bit more to reflect times better. Had to guess at
+the Canada names!
+
+----- Original Message -----
+From: "Rob" <umrostec@cc.UManitoba.CA>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, September 12, 2002 6:08 AM
+Subject: [TeamLogiqx] The Subtlety of Timekeeping
+
+> Hey all,
+>
+> For the record, my time zone is GMT-6 during the winter and GMT-5 during
+the
+> summer.  Why the rest of the world hasn't caught on to Daylight Savings
+Time
+> mystifies me.  Johnny likely lives in or near Thunder Bay, making him
+> GMT-5/GMT-4.
+>
+> Talk to you soon,
+> Rob
+>
+> P.S.  Sorry about the flood earlier - I'm _really_ curious why %LOGIQX%
+only
+> sort of works.
+>
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] IMPORTANT, please READ and RESPOND
+Fecha: Thu, 12 Sep 2002 01:33:18 -0700
+De: "HaDBeEN" <hadbeen@socal.rr.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+cool. i downloaded the zip files.
+----- Original Message -----
+From: "Logiqx" <logiqx@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Wednesday, September 11, 2002 1:46 AM
+Subject: RE: [TeamLogiqx] IMPORTANT, please READ and RESPOND
+
+> > http://www.logiqx.com/Team/team.html
+> > really that capital T drives me nutz.
+>
+> Lower t works now (can use upper or lower).
+>
+> >To Logiqx: Don't send lesson 1 until friday pls.
+>
+> Ok, lesson 1 will be on Friday. I may write it tonight though and ask
+> Rosewood to sanity check it so that I can send it to the list on Friday.
+>
+> Lesson 0 will be sent to the list today though, ha ha! Lesson 0 will just
+be
+> installing the pre-requisite software (i.e. selected parts of Cygwin, my
+> tools and the XML tool). I am packaging it all up to make it as simple as
+> possible. Kay (my gf) is away until Friday so I must make use of the time
+> while I have some. ;)
+>
+> Mike
+>
+>
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] The Subtlety of Timekeeping
+Fecha: Thu, 12 Sep 2002 09:44:45 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey Mike,
+
+> Johnny likely lives in or near Thunder Bay, making him GMT-5/GMT-4.
+
+Sorry, my bad.  Should be Chris (although Johnny, like most Canadians,
+probably does live in EST/EDT).
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: [TeamLogiqx] %LOGIQX%
+Fecha: Thu, 12 Sep 2002 16:49:12 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+The problem is that Mike is a megalomaniac. Logiqx.com, Team
+Logiqx, a logiqx folder, a logiqx variable... MEGALOMANIAC.
+
+Well I had the same problem, the path was showing
+"...;%LOGIQX%\bin". It really made me MAD cause I use VDMSound
+and it's variable path was showing nicely. I solved it following
+100% the path specifications, which is only to pt a semicolon
+between different paths, including one at the end.
+
+My path:
+
+c:\ARCHIV~1\NuSphere\perl\bin;c:\ARCHIV~1\NuSphere\mysql\bin;%SystemRoot%\syste
+
+m32;%SystemRoot%;%SystemRoot%\System32\Wbem;d:\util;C:\ARCHIV~1\Borland\Del
+
+phi6\Bin;C:\ARCHIV~1\Borland\Delphi6\Projects\Bpl;%VDMSPath%;%LOGIQX%\bin;
+
+As shown in command line:
+
+Path=c:\ARCHIV~1\NuSphere\perl\bin;c:\ARCHIV~1\NuSphere\mysql\bin;C:\WINNT\syste
+
+m32;C:\WINNT;C:\WINNT\System32\Wbem;d:\util;C:\ARCHIV~1\Borland\Delphi6\Bin;C:\A
+
+RCHIV~1\Borland\Delphi6\Projects\Bpl;C:\Archivos de
+programa\Accesorios\VDMSound
+\;C:\Logiqx\bin;
+
+(shit, do I have a long path!)
+As you see, the path variables are correctly expanded just when
+the path part is finished, that means a semicolon at the end of
+it all. I'll modify Lesson 0 in the team folder to reflect this
+need so people who hasn't followed it yet doesn't fall in the
+same trap.
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] %LOGIQX%
+Fecha: Thu, 12 Sep 2002 16:27:10 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Well done Pi.
+
+-----Original Message-----
+From: majordomo-owner@emuverse.com
+[mailto:majordomo-owner@emuverse.com]On Behalf Of Pi
+Sent: 12 September 2002 15:49
+To: teamlogiqx@emuverse.com
+Subject: [TeamLogiqx] %LOGIQX%
+
+The problem is that Mike is a megalomaniac. Logiqx.com, Team
+Logiqx, a logiqx folder, a logiqx variable... MEGALOMANIAC.
+
+Well I had the same problem, the path was showing
+"...;%LOGIQX%\bin". It really made me MAD cause I use VDMSound
+and it's variable path was showing nicely. I solved it following
+100% the path specifications, which is only to pt a semicolon
+between different paths, including one at the end.
+
+My path:
+c:\ARCHIV~1\NuSphere\perl\bin;c:\ARCHIV~1\NuSphere\mysql\bin;%SystemRoot%\sy
+ste
+
+m32;%SystemRoot%;%SystemRoot%\System32\Wbem;d:\util;C:\ARCHIV~1\Borland\Del
+
+phi6\Bin;C:\ARCHIV~1\Borland\Delphi6\Projects\Bpl;%VDMSPath%;%LOGIQX%\bin;
+
+As shown in command line:
+Path=c:\ARCHIV~1\NuSphere\perl\bin;c:\ARCHIV~1\NuSphere\mysql\bin;C:\WINNT\s
+yste
+
+m32;C:\WINNT;C:\WINNT\System32\Wbem;d:\util;C:\ARCHIV~1\Borland\Delphi6\Bin;
+C:\A
+
+RCHIV~1\Borland\Delphi6\Projects\Bpl;C:\Archivos de
+programa\Accesorios\VDMSound
+\;C:\Logiqx\bin;
+
+(shit, do I have a long path!)
+As you see, the path variables are correctly expanded just when
+the path part is finished, that means a semicolon at the end of
+it all. I'll modify Lesson 0 in the team folder to reflect this
+need so people who hasn't followed it yet doesn't fall in the
+same trap.
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] %LOGIQX%
+Fecha: Thu, 12 Sep 2002 15:34:27 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+> Well I had the same problem, the path was showing
+> "...;%LOGIQX%\bin". It really made me MAD cause I use VDMSound
+> and it's variable path was showing nicely. I solved it following
+> 100% the path specifications, which is only to pt a semicolon
+> between different paths, including one at the end.
+
+Didn't work, even after a restart.  :(  Curiosity aside, is it really that
+critical?
+
+> (shit, do I have a long path!)
+
+You sure do!
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] %LOGIQX%
+Fecha: Thu, 12 Sep 2002 21:42:58 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+No, it is not critical.
+
+So long as you have %LOGIQX% assigned and a working path then all is fine.
+
+Mike
+
+----- Original Message -----
+From: "Rob" <umrostec@cc.UManitoba.CA>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, September 12, 2002 9:34 PM
+Subject: Re: [TeamLogiqx] %LOGIQX%
+
+> Hey all,
+>
+> > Well I had the same problem, the path was showing
+> > "...;%LOGIQX%\bin". It really made me MAD cause I use VDMSound
+> > and it's variable path was showing nicely. I solved it following
+> > 100% the path specifications, which is only to pt a semicolon
+> > between different paths, including one at the end.
+>
+> Didn't work, even after a restart.  :(  Curiosity aside, is it really that
+> critical?
+>
+> > (shit, do I have a long path!)
+>
+> You sure do!
+>
+>
+
+**********************************************************************
+Asunto: [TeamLogiqx] LESSON 0 - PART 2!
+Fecha: Thu, 12 Sep 2002 22:18:00 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Sorry guys but there is more installation to do. It appears that the CygWin
+stuff doesn't function 100% if you don't install it the proper way (I tried
+to cheat to make it easier for you all). I only discovered the problem when
+getting Pi to run through Lesson 1 as a test.
+
+I have quickly written a CygWin installation guide with lots of screen
+shots:
+
+http://www.logiqx.com/team/cygwin.html
+
+Can you please follow the guide to get it installed correctly on your
+machines. It downloads about 10MB of data and takes about 38MB of disk once
+installed.
+
+Cheers, Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] %LOGIQX%
+Fecha: Thu, 12 Sep 2002 23:43:14 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Rob ha escrito:
+
+> Didn't work, even after a restart.  :(  Curiosity aside, is it really that
+> critical?
+
+You're right. I think I know why. I have the bad habit to try two things at
+the same time. My prob was fixed when I placed the variable LOGIQX in the
+System group instead of in the Administrator group.
+
+No the last semicolon is not critical but my paths always end with one, so
+somehow I guessed it was that.
+
+Anyway with "Lesson 0 Part 2: The Return" is here. I guess that will be
+easier, tho the last time I tried to install cygwin it added some strange
+things...
+
+Btw Talking about Tim Robbins' movies, like Nightmare before Xmas, you can
+see
+that Datman Returns. There is an update at Logiqx.com. Even when the team
+has
+not been formally introduced, it's mentioned. Your efforts are appreciated,
+and you will be dat gods! Or at least dat priests? :)
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] %LOGIQX%
+Fecha: Thu, 12 Sep 2002 17:05:28 -0500
+De: "Rob" <umrostec@cc.UManitoba.CA>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+> You're right. I think I know why. I have the bad habit to try two things
+at
+> the same time. My prob was fixed when I placed the variable LOGIQX in the
+> System group instead of in the Administrator group.
+
+Problem solved.  Thanks Pi!
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 0 - PART 2!
+Fecha: Fri, 13 Sep 2002 01:34:36 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Can you please follow the guide to get it installed correctly on your
+> machines. It downloads about 10MB of data and takes about 38MB of disk
+once
+> installed.
+
+Done.
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: [TeamLogiqx] A lil explanation
+Fecha: Fri, 13 Sep 2002 11:30:58 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi people
+
+Well I'm talking in the name of god (i.e. Mike asked me to tell
+you sumping).
+
+The "uploader" task is only for him, err I mean for Him and for
+Hadbeen who will be the site maintainer and generally the man on
+the top. This is because anyone who wants to upload even a single
+little tiny dat, must have every XML and ZIP up to date on their
+PC, or it will screw the site (literal words from above).
+
+So basically, you all will have enough with creating dats, and
+Hadbeen will have enough maintaining the site. However you all
+will get explained how to do it, so you know the process and can
+package the things nicely and correctly to ease Hadbeen's work.
+
+So in the team page, everyone has a - in the uploader place,
+except Logiqx and Hadbeen.
+
+(Well in fact Mike's email was longer, but well... He wanted it
+explained)
+
+Also since the list seems to start having quite traffic, I've
+decided to split the digests by weeks. Note that email addys go
+in there, if anyone wants one removed or modified, tell me.
+
+Friday the 13th... Is it a good day for MAME 0.62 "the freaky
+release"? Booooh.
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: [TeamLogiqx] Eeek!!
+Fecha: Fri, 13 Sep 2002 15:50:16 +0200
+De: Phil Höhn <RealPosix@gmx.net>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+ok,
+everything worked fine up to this:
+"2. Set up your PATH
+
+After installation, add 'c:\cygwin\bin' (or the drive you chose) to your
+path as described in the original 'Lesson 0'."
+
+You mean I have to do this? :
+"- From the Start Menu, select 'Settings->Control Panel'
+- Double-click the 'System' icon
+
+- Select the 'Advanced' sheet (on Windows 2000, called 'Environment' on NT)
+- Click on 'Environment Variables...'
+
+- Click on 'New...' (under the 'System variables' section)
+- Specify a variable name of 'LOGIQX' and value of 'c:\Logiqx'
+
+- Select 'Path' (under the 'System variables' section)
+- Click 'Edit...'
+- Add ';%LOGIQX%\bin;' at the end of the value line and press 'OK'
+
+On NT/2000/XP there is no need for a reboot (if you followed my steps
+above)."
+
+---> what do you mean with 'add to _your_ path' ??
+---> how can I only add it without creating a new one?
+---> what kinda %%!AEOR§%%% do I have to add?!?!
+---> whats CygWin good for?
+---> what does all this has to do with the Logiqx/bin directory?!
+
+sorry if this is a bit too noob-ish...
+Maybe I haven't understood part2 properly...
+
+could someone plz help me?? =/
+
+Phil
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Eeek!!
+Fecha: Fri, 13 Sep 2002 15:03:36 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Phil,
+
+Yes, use control panel. The only difference is one line:
+
+  Add ';c:\cygwin\bin;' at the end of the value line and press 'OK'.
+
+In other words, '%LOGIQX%\bin' AND 'c:\cygwin\bin' are in your path.
+
+>whats CygWin good for?
+
+It's needed by the stuff that I am about to talk you through in Lesson 1
+today. ;)
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] LESSON 1 - The Dat Environment
+Fecha: Fri, 13 Sep 2002 17:27:22 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Lesson 1 - The Dat Environment (MAME and CPS-2 creation used as an example)
+========
+
+After completing lesson 0, you will have these things set up:
+
+- CygWin, with the 'bin' directory in your path.
+- A Logiqx directory, with 'bin' directory in your path.
+- A %LOGIQX% variable that points to the Logiqx directory.
+
+You also need a new tool that I wrote yesterday:
+
+   http://www.logiqx.com/team/download/tools-fixdups.zip (3KB)
+
+Just extract it into your Logiqx directory. Afterwards, your bin directory
+should look like this:
+
+  68022 May 20 20:26 datutil.exe
+    455 Sep 12 13:41 fixdups.c
+  10941 Sep 12 13:41 fixdups.exe
+1249280 Jun 16  2000 iXSLT.exe
+  25935 May 20 20:25 mamediff.exe
+
+Okay, lets gone on with the lesson.
+
+PART 1 - Download it!
+======
+
+1) Download this file:
+
+   http://www.logiqx.com/team/download/lesson1.zip (3170KB)
+
+2) Extract it into your Logiqx directory.
+
+PART 2 - The directory structure
+======
+
+The directory structure contained in lesson 1 is not just for demonstration
+purposes, it is a fully functioning Logiqx set up! It is just a little
+smaller
+than mine since it only contains the stuff needed for MAME and CPS-2 though.
+
+%LOGIQX%
+   |
+   +--Dats              ClrMamePro dats
+   |  |
+   |  +--Recent            Recent dats
+   |     |
+   |     +--Multi             Multi emulators (MAME, Kawaks, etc)
+   |     |  |
+   |     |  +--MAME              Files needed to make the MAME dat
+   |     |
+   |     +--Systems           Systems (CPS-2, Neo-Geo, etc)
+   |        |
+   |        +--CPS-2             Files needed to make the CPS-2 dat
+   |
+   +--Dats_RC           RomCenter dats
+      |
+      +--Recent            Recent dats
+         |
+         +--Multi             Multi emulators (MAME, Kawaks, etc)
+         |  |
+         |  +--MAME              All files needed to make the MAME dat
+         |
+         +--Systems           Systems (CPS-2, Neo-Geo, etc)
+            |
+            +--CPS-2             All files needed to make the CPS-2 dat
+
+It is important to explain that no matter what the dat is, I always create
+it
+in CMPro format first and convert to RomCenter format using DatUtil. I never
+do
+it the other way around since dats are easier to edit in CMPro format and it
+it is also much simpler to do everything the same way.
+
+PART 3 - Automation whenever possible!
+======
+
+If something can be automated then that is what I do! It is faster, less
+boring
+and less prone to error. The reason that I am using MAME and CPS-2 to get
+you
+familiar with my environment is because they are generated 100%
+automatically!
+
+You don't need to understand anything about writing dats at this point.
+
+PART 4 - The use of 'makefiles'
+======
+
+I achieve automation through the use of makefiles. I won't describe them in
+too
+much detail (since entire books are written on the subject) but I will
+briefly
+explain what makefiles are and how they work.
+
+A makefile is typically used by people like C programmers but in essence it
+lets you specify the way that a file is generated. If a file is generated
+using another one as input, then the makefile defines a 'dependency' and
+also
+how to generate the one file from the other.
+
+For example, I mentioned that my RomCenter dats are just generated by
+converting the CMPro one (using DatUtil). A simple makefile rule for such an
+action might look like this:
+
+   Dats_RC/Recent/Multi/MAME.dat: Dats/Recent/Multi/MAME.dat
+           datutil -o Dats_RC/Recent/Multi/MAME.dat
+Dats/Recent/Multi/MAME.dat
+
+What this rule says is that the RomCenter file is dependant on the CMPro
+one.
+If the CMPro file has a newer file date than the RomCenter one (or if the
+RomCenter one does not exist), then the datutil command is run by make.
+
+I use the same principal for any 'supplement' dat files that are produced.
+For
+example, the 'supplementary' dats that I make for Kawaks are dependant on
+the
+MAME dat and the Kawaks dat. If either dat has changed, then MAMEDiff should
+be
+used to generate the 'supplement dat'. This may be shown as:
+
+   Supplement.dat: MAME.dat Kawaks.dat
+           mamediff -S -T -o MAME.dat Kawaks.dat
+
+Makefiles can be incredibly complex but mine are probably of medium
+complexity.
+The real techies amongst you may like to look at how they work and exactly
+what
+they do but the rest of you should just regard them as a 'black box' (i.e.
+it
+just does a job). You don't need to know how it does it's job, just that it
+does do it!  At this moment I don't really want to explain them any further!
+
+PART 5 - Generating a MAME dat
+======
+
+Inside the directory 'Dats/Recent/Multi/MAME' you will see several files but
+the only two that get updated for a MAME release are:
+
+- mamepp.exe           The current MAME executable
+- MAME.vers.mak        The current version number of MAME
+
+If you ever want to create your own MAME dat, then just replace mamepp.exe
+and
+update MAME.vers.mak accordingly.
+
+Note: If you don't have a PPro then you need to copy your 'mame.exe' into
+this
+      directory and give it the name 'mamepp.exe'.
+
+Inside the directory 'Dats/Recent/Multi' you will see a batch script called
+'rebuild_all.bat'. This script just runs the 'make' command to rebuild all
+multi emu dats that actually need a rebuild (currently you only have one
+multi
+emu though... MAME).
+
+Double click 'rebuild_all.bat' and you will see all of the MAME dats get
+built!
+
+The makefile is just building them using DatUtil and MAMEDiff. Look at the
+file 'MAME.rules.mak' to see exactly what is being done (if you are already
+familiar with DatUtil and MAMEDiff).
+
+PART 6 - Generating a CPS-2 dat
+======
+
+The CPS-2 dat is also generated 100% automatically, just like the MAME dat.
+
+However, instead of using an executable (like mamepp.exe), I get given a
+file
+from Raz called 'cps2.dat'. This simply gets put into the 'CPS-2' folder and
+'rebuild_all.bat' is run (after updating 'CPS-2.vers.mak' of course).
+
+PART 7 - RomCenter conversion
+======
+
+The directories under 'Dats_RC' correspond exactly to the ones under the
+'Dats'
+directory. Each directory has a 'rebuild_all.bat' script and running them
+will
+generate RomCenter dats directly from your CMPro ones.
+
+PART 8 - Try to understand the scripts/makefiles?
+======
+
+I know that some of you will look at them and understand most of what they
+are
+doing straight away. Others of you will be completely confused by them!
+Just try to get an idea of how they hang together rather than worrying about
+every single line of code. ;)
+
+The main objective of this lesson is to ensure you have a working dat
+environment and are beginning to understand that many things are
+automatically
+generated. You should even be able to create MAME and CPS-2 dats for
+yourselves
+too, assuming that you get a new mamepp.exe or cps2.dat!
+
+As time goes by and different lessons cover different subjects, everything
+should seem far simpler. I know that there will still be many questions left
+to answer but this is just the first few steps of a long journey!
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] On a lighter note, some humour!
+Fecha: Fri, 13 Sep 2002 17:30:09 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+http://www.jyi.org/resources/humor/hell.html
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] IMPORTANT, please READ and RESPOND
+Fecha: Sat, 14 Sep 2002 00:23:42 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+L> Role
+L> ----
+
+L> Apprentice - here to watch and learn
+
+there is always sth to learn.
+
+L> Dat Packager - can obtain resource dats from their home (MAME32QA etc),
+L> re-zip and update the web page XML (prior to upload).
+L> Dat Creator - as the name implies
+
+sure
+
+L> Lurker - for Pi. Just kidding, lol.
+
+L> Dat Complexity - for dat creators
+L> --------------
+
+L> 1 - Can handle very simple dats
+L> 2 - Can handle medium complexity dats
+L> 3 - Can handle the most complex of dats (invent scripts for validation
+etc).
+
+i think i can invent some scripts.
+so probably 3.
+
+Leslaw
+
+--
+ SLA
+
+**********************************************************************
+Asunto: Fw: [TeamLogiqx] IMPORTANT, please READ and RESPOND
+Fecha: Sat, 14 Sep 2002 11:34:20 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+A: "Pi" <pi@logiqx.com>
+
+Leslaw: Dat creation, 3, Yes, -
+
+Mike
+
+----- Original Message -----
+From: "Leslaw Skrzypek" <skrzypek@im.uj.edu.pl>
+To: <teamlogiqx@emuverse.com>
+Sent: Friday, September 13, 2002 11:23 PM
+Subject: Re: [TeamLogiqx] IMPORTANT, please READ and RESPOND
+
+>
+> L> Role
+> L> ----
+>
+> L> Apprentice - here to watch and learn
+>
+> there is always sth to learn.
+>
+> L> Dat Packager - can obtain resource dats from their home (MAME32QA etc),
+> L> re-zip and update the web page XML (prior to upload).
+> L> Dat Creator - as the name implies
+>
+> sure
+>
+> L> Lurker - for Pi. Just kidding, lol.
+>
+> L> Dat Complexity - for dat creators
+> L> --------------
+>
+> L> 1 - Can handle very simple dats
+> L> 2 - Can handle medium complexity dats
+> L> 3 - Can handle the most complex of dats (invent scripts for validation
+etc).
+>
+> i think i can invent some scripts.
+> so probably 3.
+>
+> Leslaw
+>
+> --
+>  SLA
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 1 - The Dat Environment
+Fecha: Sat, 14 Sep 2002 11:41:18 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Has anyone tried Lesson1 yet, other than Pi?
+
+Explanation to Pi: fixdups.exe removes duplicate ROMs (occurs in MAME
+listinfo). I am bored of doing it by hand every time I do a MAME dat so it
+was easiest to write a simple program (fixdups.exe) rather than incorporate
+a new feature in DatUtil.
+
+Mike
+
+----- Original Message -----
+From: "Logiqx" <logiqx@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Friday, September 13, 2002 5:27 PM
+Subject: [TeamLogiqx] LESSON 1 - The Dat Environment
+
+> Lesson 1 - The Dat Environment (MAME and CPS-2 creation used as an
+example)
+> ========
+>
+> After completing lesson 0, you will have these things set up:
+>
+> - CygWin, with the 'bin' directory in your path.
+> - A Logiqx directory, with 'bin' directory in your path.
+> - A %LOGIQX% variable that points to the Logiqx directory.
+>
+> You also need a new tool that I wrote yesterday:
+>
+>    http://www.logiqx.com/team/download/tools-fixdups.zip (3KB)
+>
+> Just extract it into your Logiqx directory. Afterwards, your bin directory
+> should look like this:
+>
+>   68022 May 20 20:26 datutil.exe
+>     455 Sep 12 13:41 fixdups.c
+>   10941 Sep 12 13:41 fixdups.exe
+> 1249280 Jun 16  2000 iXSLT.exe
+>   25935 May 20 20:25 mamediff.exe
+>
+> Okay, lets gone on with the lesson.
+>
+>
+> PART 1 - Download it!
+> ======
+>
+> 1) Download this file:
+>
+>    http://www.logiqx.com/team/download/lesson1.zip (3170KB)
+>
+> 2) Extract it into your Logiqx directory.
+>
+>
+> PART 2 - The directory structure
+> ======
+>
+> The directory structure contained in lesson 1 is not just for
+demonstration
+> purposes, it is a fully functioning Logiqx set up! It is just a little
+> smaller
+> than mine since it only contains the stuff needed for MAME and CPS-2
+though.
+>
+> %LOGIQX%
+>    |
+>    +--Dats              ClrMamePro dats
+>    |  |
+>    |  +--Recent            Recent dats
+>    |     |
+>    |     +--Multi             Multi emulators (MAME, Kawaks, etc)
+>    |     |  |
+>    |     |  +--MAME              Files needed to make the MAME dat
+>    |     |
+>    |     +--Systems           Systems (CPS-2, Neo-Geo, etc)
+>    |        |
+>    |        +--CPS-2             Files needed to make the CPS-2 dat
+>    |
+>    +--Dats_RC           RomCenter dats
+>       |
+>       +--Recent            Recent dats
+>          |
+>          +--Multi             Multi emulators (MAME, Kawaks, etc)
+>          |  |
+>          |  +--MAME              All files needed to make the MAME dat
+>          |
+>          +--Systems           Systems (CPS-2, Neo-Geo, etc)
+>             |
+>             +--CPS-2             All files needed to make the CPS-2 dat
+>
+> It is important to explain that no matter what the dat is, I always create
+> it
+> in CMPro format first and convert to RomCenter format using DatUtil. I
+never
+> do
+> it the other way around since dats are easier to edit in CMPro format and
+it
+> it is also much simpler to do everything the same way.
+>
+>
+> PART 3 - Automation whenever possible!
+> ======
+>
+> If something can be automated then that is what I do! It is faster, less
+> boring
+> and less prone to error. The reason that I am using MAME and CPS-2 to get
+> you
+> familiar with my environment is because they are generated 100%
+> automatically!
+>
+> You don't need to understand anything about writing dats at this point.
+>
+>
+> PART 4 - The use of 'makefiles'
+> ======
+>
+> I achieve automation through the use of makefiles. I won't describe them
+in
+> too
+> much detail (since entire books are written on the subject) but I will
+> briefly
+> explain what makefiles are and how they work.
+>
+> A makefile is typically used by people like C programmers but in essence
+it
+> lets you specify the way that a file is generated. If a file is generated
+> using another one as input, then the makefile defines a 'dependency' and
+> also
+> how to generate the one file from the other.
+>
+> For example, I mentioned that my RomCenter dats are just generated by
+> converting the CMPro one (using DatUtil). A simple makefile rule for such
+an
+> action might look like this:
+>
+>    Dats_RC/Recent/Multi/MAME.dat: Dats/Recent/Multi/MAME.dat
+>            datutil -o Dats_RC/Recent/Multi/MAME.dat
+> Dats/Recent/Multi/MAME.dat
+>
+> What this rule says is that the RomCenter file is dependant on the CMPro
+> one.
+> If the CMPro file has a newer file date than the RomCenter one (or if the
+> RomCenter one does not exist), then the datutil command is run by make.
+>
+> I use the same principal for any 'supplement' dat files that are produced.
+> For
+> example, the 'supplementary' dats that I make for Kawaks are dependant on
+> the
+> MAME dat and the Kawaks dat. If either dat has changed, then MAMEDiff
+should
+> be
+> used to generate the 'supplement dat'. This may be shown as:
+>
+>    Supplement.dat: MAME.dat Kawaks.dat
+>            mamediff -S -T -o MAME.dat Kawaks.dat
+>
+> Makefiles can be incredibly complex but mine are probably of medium
+> complexity.
+> The real techies amongst you may like to look at how they work and exactly
+> what
+> they do but the rest of you should just regard them as a 'black box' (i.e.
+> it
+> just does a job). You don't need to know how it does it's job, just that
+it
+> does do it!  At this moment I don't really want to explain them any
+further!
+>
+>
+> PART 5 - Generating a MAME dat
+> ======
+>
+> Inside the directory 'Dats/Recent/Multi/MAME' you will see several files
+but
+> the only two that get updated for a MAME release are:
+>
+> - mamepp.exe           The current MAME executable
+> - MAME.vers.mak        The current version number of MAME
+>
+> If you ever want to create your own MAME dat, then just replace mamepp.exe
+> and
+> update MAME.vers.mak accordingly.
+>
+> Note: If you don't have a PPro then you need to copy your 'mame.exe' into
+> this
+>       directory and give it the name 'mamepp.exe'.
+>
+> Inside the directory 'Dats/Recent/Multi' you will see a batch script
+called
+> 'rebuild_all.bat'. This script just runs the 'make' command to rebuild all
+> multi emu dats that actually need a rebuild (currently you only have one
+> multi
+> emu though... MAME).
+>
+> Double click 'rebuild_all.bat' and you will see all of the MAME dats get
+> built!
+>
+> The makefile is just building them using DatUtil and MAMEDiff. Look at the
+> file 'MAME.rules.mak' to see exactly what is being done (if you are
+already
+> familiar with DatUtil and MAMEDiff).
+>
+>
+> PART 6 - Generating a CPS-2 dat
+> ======
+>
+> The CPS-2 dat is also generated 100% automatically, just like the MAME
+dat.
+>
+> However, instead of using an executable (like mamepp.exe), I get given a
+> file
+> from Raz called 'cps2.dat'. This simply gets put into the 'CPS-2' folder
+and
+> 'rebuild_all.bat' is run (after updating 'CPS-2.vers.mak' of course).
+>
+>
+> PART 7 - RomCenter conversion
+> ======
+>
+> The directories under 'Dats_RC' correspond exactly to the ones under the
+> 'Dats'
+> directory. Each directory has a 'rebuild_all.bat' script and running them
+> will
+> generate RomCenter dats directly from your CMPro ones.
+>
+>
+> PART 8 - Try to understand the scripts/makefiles?
+> ======
+>
+> I know that some of you will look at them and understand most of what they
+> are
+> doing straight away. Others of you will be completely confused by them!
+> Just try to get an idea of how they hang together rather than worrying
+about
+> every single line of code. ;)
+>
+> The main objective of this lesson is to ensure you have a working dat
+> environment and are beginning to understand that many things are
+> automatically
+> generated. You should even be able to create MAME and CPS-2 dats for
+> yourselves
+> too, assuming that you get a new mamepp.exe or cps2.dat!
+>
+> As time goes by and different lessons cover different subjects, everything
+> should seem far simpler. I know that there will still be many questions
+left
+> to answer but this is just the first few steps of a long journey!
+>
+>
+> Mike
+>
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 1 - The Dat Environment
+Fecha: Sat, 14 Sep 2002 13:14:14 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+No problem sir !
+
+All system go :-)
+
+P.S. One question: In "rebuild_all.mak" you include "standard_header.mak"
+and "mame_ver.mak", but about the last one, why you include it here, when it
+is already include in "standard_header.mak " ?, maybe cos in
+"standard_header.mak" it have a general value, instead in "rebuild_all.mak",
+have a value like each other "multi-emulator" ;-)
+
+**********************************************************************
+Asunto: Re[2]: [TeamLogiqx] LESSON 0 - WHY %LOGIQX%\bin didn't work - EXPLANATION
+Fecha: Sat, 14 Sep 2002 13:28:09 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+Simple:
+
+SET LOGIQX=D:\Logiqx
+PATH=%LOGIQX%\bin;
+
+It didn't work but
+
+SET LOGIQX=D:\Logiqx
+PATH=%LOGIQX%\bin;
+
+works, why?
+
+Because when you copy whole two lines to the autoexec.bat
+then the first line is:
+SET LOGIQX=D:\Logiqx"space character"
+
+so %LOGIQX%\bin; is actually ;d\logiqx \bin;
+which is wrong (you got an error: to many parameters!)
+
+Hope it helps.
+
+Best
+Lesalw
+
+--
+ SLA
+
+**********************************************************************
+Asunto: [TeamLogiqx] ~lol~ !
+Fecha: Sat, 14 Sep 2002 15:32:24 +0200
+De: Phil Höhn <RealPosix@gmx.net>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+---> "Has anyone tried Lesson1 yet, other than Pi?"
+
+ööhm, was there any order in it?!
+To me it was just a huge confusing text with every
+second word never heard...
+
+I'm really thinking about leaving the team cos I'm sure
+I'm no help.. more like the opposite of 'help'.
+
+It's just that you would need to teach me too many
+basics which others already know...
+That would propably take too much time..
+
+I think I'll wait for Lesson2 to make a better decision...
+
+anyway,
+
+greets,
+
+Phil
+
+**********************************************************************
+Asunto: [TeamLogiqx] Error in lession 1 --> mame.rules.mak
+Fecha: Sat, 14 Sep 2002 15:40:46 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+There is an error in .txt creation !
+
+"MAME v0.61 Supplemet.txt" is indetical to "MAME v0.61 Changes.txt" and this
+error affect RC dats too.
+
+This error occur cos in "mame.rules.mak" this line:
+
+MAME_SUPPLEMENT_TXT=MAME/mame.changes.txt
+
+Should be this:
+
+MAME_SUPPLEMENT_TXT=MAME/mame.supplement.txt
+
+Dr.Zer0
+
+**********************************************************************
+Asunto: Re[2]: [TeamLogiqx] LESSON 1 - The Dat Environment
+Fecha: Sat, 14 Sep 2002 15:47:06 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+L> Has anyone tried Lesson1 yet, other than Pi?
+
+Yes, works fine,
+
+L> Explanation to Pi: fixdups.exe removes duplicate ROMs (occurs in MAME
+L> listinfo). I am bored of doing it by hand every time I do a MAME dat so
+it
+L> was easiest to write a simple program (fixdups.exe) rather than
+incorporate
+L> a new feature in DatUtil.
+
+Mike but i want to get through all automation.
+Step by step to understand how and why it has been done.
+
+I was always using C++ for such a automation (which was a bit pain
+since i have to work on the lists - open bats getting output ... and
+so) - I always wanted to switch to scripts - since it is easier and
+faster.
+
+Best;
+Leslaw
+
+--
+SLA
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] LESSON 1 - The Dat Environment
+Fecha: Sat, 14 Sep 2002 17:20:51 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Mike!
+
+  > Lesson 1 - The Dat Environment (MAME and CPS-2 creation
+  > used as an example) ========
+
+everything fine here, however I have some other dev tools
+from Borland, MS in my path, those will fail w/ the dat
+creation (and I DO NOT want to change the order of my path).
+
+As a workaround I created a batch file with the line
+
+ @path=%LOGIQX%\bin;x:\cygwin\bin
+
+This will temporarily change the path, for Win9x this is not
+recommended (reboot anybody?)...
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 1 - The Dat Environment
+Fecha: Sat, 14 Sep 2002 18:35:34 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> "standard_header.mak" it have a general value, instead in
+"rebuild_all.mak",
+> have a value like each other "multi-emulator" ;-)
+
+Well spotted. I just put it there for consistency really.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Error in lession 1 --> mame.rules.mak
+Fecha: Sat, 14 Sep 2002 18:40:53 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Good spot. I'm glad someone is paying attention! :)
+
+All those makefiles and scripts were written for Lesson 1 so I'm not too
+suprised to find minor things like that. Fixed my copy now...
+
+Mike
+
+----- Original Message -----
+From: "Dr.Zer0" <dr.zer0@libero.it>
+To: <teamlogiqx@emuverse.com>
+Sent: Saturday, September 14, 2002 2:40 PM
+Subject: [TeamLogiqx] Error in lession 1 --> mame.rules.mak
+
+There is an error in .txt creation !
+
+"MAME v0.61 Supplemet.txt" is indetical to "MAME v0.61 Changes.txt" and this
+error affect RC dats too.
+
+This error occur cos in "mame.rules.mak" this line:
+
+MAME_SUPPLEMENT_TXT=MAME/mame.changes.txt
+
+Should be this:
+
+MAME_SUPPLEMENT_TXT=MAME/mame.supplement.txt
+
+Dr.Zer0
+
+**********************************************************************
+Asunto: Re: Re[2]: [TeamLogiqx] LESSON 1 - The Dat Environment
+Fecha: Sat, 14 Sep 2002 18:45:57 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Mike but i want to get through all automation.
+> Step by step to understand how and why it has been done.
+
+Never fear. I will explain all those things in detail from lesson 3 or 4
+onwards.
+
+Firstly I'm just giving an overview of all aspects relevant to the team
+(breadth first, then depth). I just want to explain things in bite sized
+junks otherwise I'll probably overload some people and it would take too
+long to write all at once anyway. ;)
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] ~lol~ !
+Fecha: Sat, 14 Sep 2002 19:01:09 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+As I've said before Phil, you're welcome to be on the list and over time
+things may start to make more sense.
+
+Mike
+
+----- Original Message -----
+From: "Phil Höhn" <RealPosix@gmx.net>
+To: <teamlogiqx@emuverse.com>
+Sent: Saturday, September 14, 2002 2:32 PM
+Subject: [TeamLogiqx] ~lol~ !
+
+> ---> "Has anyone tried Lesson1 yet, other than Pi?"
+>
+> ööhm, was there any order in it?!
+> To me it was just a huge confusing text with every
+> second word never heard...
+>
+> I'm really thinking about leaving the team cos I'm sure
+> I'm no help.. more like the opposite of 'help'.
+>
+> It's just that you would need to teach me too many
+> basics which others already know...
+> That would propably take too much time..
+>
+> I think I'll wait for Lesson2 to make a better decision...
+>
+> anyway,
+>
+> greets,
+>
+> Phil
+>
+>
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] ~lol~ !
+Fecha: Sat, 14 Sep 2002 14:05:13 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey Phil,
+
+> To me it was just a huge confusing text with every
+> second word never heard...
+>
+> I'm really thinking about leaving the team cos I'm sure
+> I'm no help.. more like the opposite of 'help'.
+>
+> It's just that you would need to teach me too many
+> basics which others already know...
+> That would propably take too much time..
+>
+> I think I'll wait for Lesson2 to make a better decision...
+
+Patience.  Take it 1 step at a time.  To quote Mike:
+
+"Makefiles can be incredibly complex but mine are probably of medium
+complexity.
+The real techies amongst you may like to look at how they work and exactly
+what
+they do but the rest of you should just regard them as a 'black box' (i.e.
+it
+just does a job). You don't need to know how it does it's job, just that it
+does do it!  At this moment I don't really want to explain them any
+further!"
+
+Besides, you're a lot more advanced than I was at 17. :)
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 1 - The Dat Environment
+Fecha: Sat, 14 Sep 2002 14:26:06 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+> Okay, lets gone on with the lesson.
+
+Done (after implementing Andrea's change)!  Bring on Lesson 2!
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: [TeamLogiqx] Team Page Typo
+Fecha: Sat, 14 Sep 2002 14:33:18 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+Mike or Pi:  The link to Logiqx DAT FAQs on the main page should point to
+http://www.logiqx.com/FAQs/DatFAQs.shtml.
+
+Andrea and Stefan (and anyone else who's doing dats):  These FAQs are good
+reading!  :)
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] Team Page Typo
+Fecha: Sun, 15 Sep 2002 00:59:14 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Rob ha escrito:
+
+> Hey all,
+>
+> Mike or Pi:  The link to Logiqx DAT FAQs on the main page should point to
+> http://www.logiqx.com/FAQs/DatFAQs.shtml.
+
+I am the "maintainer" of that part... I have a local copy which I modify and
+then I upload everything.
+Sadly enough, at 29 years old I seem to suffer alzheimer or something, cause
+I
+always forget to upload the changes. Will do now...
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: [TeamLogiqx] This week
+Fecha: Mon, 16 Sep 2002 10:16:23 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi everyone,
+
+I will be distributing lesson 2 later today. The ZIPs are now ready but I
+have to write the text still (either during my lunch time or when I get home
+tonight). I'm sure that you will enjoy it more than the first one! After
+this we will have all aspects of a common environment; covering everything
+from dat creation to packaging and uploading.
+
+For lesson 1 I re-wrote the makefiles of dat creation to use seperate
+directories. This made them all look simpler and also makes team work more
+viable too. For lesson 2, I have done the same to the web side of things
+(XML etc). This definitely makes it look simpler to understand and makes the
+submission of updates much, much easier. You will see why when I explain it
+later.
+
+After lesson 2, I'll prepare some stuff so that some of the simpler tasks
+can be started (these will still be in the form of lessons).
+
+Better mention this too: I go away on Friday, returning on the Sunday about
+a week later. I'm off to western Ireland for some decent wavesailing. :) I'm
+going to Brandon Bay near Dingle, which is the location that all the pro
+wnidsurfers are going to for their next competition (a week after I am
+there).
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Mon, 16 Sep 2002 18:03:26 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+End of my working day, so here is today's lesson for you all.
+
+Lesson 2 - Packaging dats and updating the web site
+========
+
+In addition to everything installed in lessons 0 and 1 (Cygwin, etc), you
+need another tool:
+
+   http://www.logiqx.com/team/download/tools-filechk.zip (39KB)
+
+Just extract it into your Logiqx directory.
+
+Also check that you have iXSLT.exe in 'bin' (it was part of lesson 0).
+iXSLT wasn't used in any scripts for lesson 1 but it is needed for lesson 2.
+
+PART 1 - Download the lesson!
+======
+
+1) Download this file:
+
+   http://www.logiqx.com/team/download/lesson2.zip (3830KB)
+
+2) Extract it into your Logiqx directory.
+
+This replaces the 24MB file that you downloaded a while ago
+(logiqx_www.zip).
+
+PART 2 - The directory structure
+======
+
+The directory structure contained in lesson 2 is not just for demonstration
+purposes, it is a fully functioning Logiqx.com mirror. It is just a little
+smaller than mine though, since it only contains the stuff needed for dats.
+
+%LOGIQX%
+   |
+   +--WWW              Root directory of Logiqx.com
+   |  |
+   |  +--Dats            Dat index for Logiqx.com and RomCenter.com
+   |  |  |
+   |  |  +--DTD              XML Document Type Definition
+   |  |  |
+   |  |  +--XSL              XML Stylesheets (define the XML->HTML
+conversions)
+   |  |  |
+   |  |  +--CPS-2            CPS-2 XML, HTML (generated), GIF and ZIPs
+   |  |  |
+   |  |  +--MAME             MAME XML, HTML (generated), GIF and ZIPs
+   |  |  |
+   |  |  +--...etc           Other emulators
+   |  |
+   |  +--E-Mail          The E-Mail pages and CPS-2 FAQ from Logiqx.com
+   |  |
+   |  +--Menu            GIFs for the left-side menu of Logiqx.com
+   |  |
+   |  +--News            The current front page and previous front pages
+   |  |
+   |  +--Resources       Common GIFs used throughout Logiqx.com
+   |
+   +--<a few files>      The main web page and scripts for preparing uploads
+
+PART 3 - Use of archive bits!
+======
+
+In order to cut down the size of uploads (i.e. only upload new/changed
+files),
+I make extensive use of the 'archive' bit. All files have an 'archive' bit
+which gets 'set' every time a file is changed (or created).
+
+When you extract the files from lesson1.zip, the archive bit will be set for
+every file. This is not particularly desirable so I have provided a script
+to
+reset them. To 'clear' the archive bits, run 'WWW/archive_bit_clear.bat'
+(just
+double click on it).
+
+PART 4 - Packaging ZIPs
+======
+
+Lesson 1 gave you a rough idea about what the 'Dats' and 'Dats_RC'
+directories
+are. Once dats have been created in those areas (and all testing has been
+done), simply ZIP them up and copy the ZIPs into the appropriate directory
+under 'WWW/Dats'.
+
+PART 5 - Editing the XML (contents of the web pages)
+======
+
+The dat related web pages are all generated using XML. This means that all
+of
+the information for an emulator dat is located in one location (the XML) and
+shared by all of the web pages in which it appears (contents pages, emulator
+pages, etc). This ensures consistency throughout the site and reduces the
+amount of work involved when making updates.
+
+To update the details for an individual dat, edit the appropriate '.ent.xml'
+file within the 'WWW/Dats' directory (e.g. 'Dats/MAME/MAME.ent.xml').
+
+The details that generallt need updating are:
+
+   Version                The version of the emulator/data file (e.g. v1.07)
+
+   Suitability            Only used if different to 'Version' (e.g. v1.08
+would
+                          indicate that the dat can be used with v1.08 of
+the
+                          emulator, even thuogh the dat is for v1.07.
+
+   Status (New/Updated)   Either 'New', 'Updated' or blank. It is this field
+                          that results in the GIFs 'New.gif' or
+'Updated.gif'
+                          being used on the contents page.
+
+   Date (DD/MM/YYYY)      The date that the page was updated.
+
+   Games                  The number of games in the data file.
+
+   Filenames and sizes    The file names and sizes of the ZIP files.
+
+   Revisions              The revision history (details about changes made).
+
+PART 6 - Rebuilding the HTML
+======
+
+To re-generate the HTML for emulator dats that have had their the XML
+changed,
+run the script 'rebuild_all.bat'. Those of you who completed lesson 1 will
+have
+guessed that this script runs... make!
+
+The makefile will:
+
+   - Rebuild individual emulator pages
+   - Rebuild the Logiqx.com index page
+   - Rebuild the RomCenter.com index page
+   - Rebuild the details for the RomCenter web update facility
+   - Validate all ZIP files details (check that they exist and check the
+size).
+
+Note: The ZIP validation (filechk.exe) is not case sensitive. I only wrote
+it
+      quickly and never went as far as doing that. If anyone feels like
+making
+      it better, they are more than welcome!
+
+Also, an important point about the XML to HTML conversion is that I use a
+piece
+of software (iXSLT) that expires after 90 days. To avoid this problem, it is
+as
+simple as deleting a fake DLL that it creates in your windows directory (Pi
+worked this out for me ages ago). The makefile does this automatically
+though
+so there is no need to worry about it!
+
+PART 7 - Submitting work to the whole team (not just to the site maintainer)
+======
+
+Sharing your work with the rest of the team is easy.
+
+- To share dat work with the team, just ZIP up the contents of:
+
+     Dats/<old or recent>/<single or multi etc>/<emu dir>
+
+- To submit web updates to the team, just ZIP up the contents of:
+
+     WWW/Dats/<emu dir>    (i.e. an '.ent.xml' file and ZIPs).
+
+Both ZIPs should be posted to the list but in the case of large files, we
+will
+have to set up a group FTP. Leslaw? ;) I would suggest that anything bigger
+than 30KB be considered large and not sent via e-mail (bearing in mind that
+some people only have 56K connections).
+
+The site maintanier must extract the web updates into his own 'WWW'
+directory
+and run 'rebuild_all.bat' (to update the web pages). He is the only person
+that
+must keep up to date with every submission and will therefore the only
+person
+who can generate accurate index pages.
+
+PART 8 - Updating the front page news (site maintainer; Robin)
+======
+
+Updating the front page is simply a matter of editing 'WWW/News/News.shtml'
+(using your favorite HTML editor).
+
+Every 3 months (Jan->Mar, Apr->Jun, Jul->Sep, Oct->Dec), I rename News.shtml
+to NewsXX.shtml and start a fresh News.shtml.
+
+PART 9 - Preparing the upload (site maintainer; Robin)
+======
+
+As already mentioned, the upload procedure utilises the archive flag of
+files.
+To 'tar' everything up ready for upload (think of 'tar' as the Unix
+equivalent
+for ZIP), just double-click 'WWW/make_gz.zip'.
+
+What this does is:
+
+- Copy all files that have their archive bit set (i.e. they have been
+created
+  or changed since the last run) to a directory called 'WWW_Update'. After
+the
+  copy, all archive bits are 'cleared'.
+
+- TARs up and compresses the contents of the 'WWW_Update' directory into a
+file
+  called 'Upload/all.tar.gz'.
+
+It is the file all.tar.gz that gets uploaded to Logiqx.com (via FTP) and
+then
+extracted using a CGI script (i.e. a simple URL).
+
+Note: The 'WWW_Update' directory is not purged automatically. After
+all.tar.gz
+      has been uploaded and extracted, you should empty out 'WWW_Update' (or
+      delete it completely).
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Mon, 16 Sep 2002 19:53:06 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+Ftp is up:
+
+IP:149.156.75.202
+Port:2121
+User:leslaw
+Pass:leslaw
+
+Or: ftp://leslaw:leslaw@149.156.75.202:2121
+
+go to "leslaw" dirrectory, then "LOGIQX_TEAM"
+
+This ftp should be fast - this is university cable.
+
+Don't abuse it.
+
+--
+ SLA
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Mon, 16 Sep 2002 19:17:46 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Thanks Leslaw,
+
+Is the IP address static or prone to possible changes with each reboot?
+
+Mike
+
+----- Original Message -----
+From: "Leslaw Skrzypek" <skrzypek@im.uj.edu.pl>
+To: <teamlogiqx@emuverse.com>
+Sent: Monday, September 16, 2002 6:53 PM
+Subject: Re: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web
+site
+
+> Ftp is up:
+>
+> IP:149.156.75.202
+> Port:2121
+> User:leslaw
+> Pass:leslaw
+>
+> Or: ftp://leslaw:leslaw@149.156.75.202:2121
+>
+> go to "leslaw" dirrectory, then "LOGIQX_TEAM"
+>
+> This ftp should be fast - this is university cable.
+>
+>
+> Don't abuse it.
+>
+>
+>
+>
+>
+>
+> --
+>  SLA
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Mon, 16 Sep 2002 19:25:48 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Can people let me know if the lesson works for them please. Pi's machine is
+having trouble with iXSLT but it works fine on the 3 machines I've been
+using (two Windows 2000, and one Windows 98).
+
+Mike
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Mon, 16 Sep 2002 20:57:44 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Mike,
+
+  > Can people let me know if the lesson works for them please.
+  > Pi's machine is having trouble with iXSLT but it works fine
+  > on the 3 machines I've been using (two Windows 2000, and
+  > one Windows 98).
+
+I'm getting this error:
+
+X:\logiqx\WWW\Dats>rebuild_all.bat
+Building ACE/ACE.shtml...
+iXSLT.exe -s -V -i:ACE/ACE.xml -o:ACE/ACE.shtml xsl/emulator.xsl
+X:\logiqx\WWW\Dats\xsl\emulator.xsl(2): Error XSE0010: version="1.0" is
+an invalid version number.
+make: *** [ACE/ACE.shtml] Error 1
+
+(WinXP SP1)
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re[2]: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Mon, 16 Sep 2002 21:04:52 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+L> Is the IP address static or prone to possible changes with each reboot?
+
+IP is static.
+
+--
+SLA
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Mon, 16 Sep 2002 20:17:29 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Damn, that's the same error as Pi and you're both on XP. I've been using
+this XML for two years on 95, 98, NT and 2000 so it's rather annoying to
+discover it doesn't work under XP! The Infoteria web site (makers of iXSLT)
+is down so I can't get hold of a newer version for you to try either.
+
+When I get a chance I will ditch iXSLT and switch over to the XML tool I use
+for CAESAR (Sablotron). However, that is going to be several hours of work
+and I have to go out now. I am out tomorrow too so it is quite possible I
+won't have a chance to try until Wednesday.
+
+I am 99% sure it will work on all non XP machines!
+
+Mike
+
+----- Original Message -----
+From: "rosewood" <rosewood@web.de>
+To: <teamlogiqx@emuverse.com>
+Sent: Monday, September 16, 2002 7:57 PM
+Subject: RE: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web
+site
+
+> Hi Mike,
+>
+>   > Can people let me know if the lesson works for them please.
+>   > Pi's machine is having trouble with iXSLT but it works fine
+>   > on the 3 machines I've been using (two Windows 2000, and
+>   > one Windows 98).
+>
+> I'm getting this error:
+>
+> X:\logiqx\WWW\Dats>rebuild_all.bat
+> Building ACE/ACE.shtml...
+> iXSLT.exe -s -V -i:ACE/ACE.xml -o:ACE/ACE.shtml xsl/emulator.xsl
+> X:\logiqx\WWW\Dats\xsl\emulator.xsl(2): Error XSE0010: version="1.0" is
+> an invalid version number.
+> make: *** [ACE/ACE.shtml] Error 1
+>
+> (WinXP SP1)
+>
+> ciao.stefan
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Mon, 16 Sep 2002 20:58:08 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Changed my mind and had a fiddle with Sablotron!
+
+http://www.logiqx.com/team/download/lesson2-xpfix.zip (47KB)
+
+Includes a new XSLT engine (Sablotron) and new XML. Sablotron is actually
+faster than iXSLT but it does not validate the XML as thoroughly as iXSLT
+does (i.e. it just converts it as fast as possible).
+
+Let me know if this works please! I really am going out now.
+
+Mike
+
+----- Original Message -----
+From: "rosewood" <rosewood@web.de>
+To: <teamlogiqx@emuverse.com>
+Sent: Monday, September 16, 2002 7:57 PM
+Subject: RE: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web
+site
+
+> Hi Mike,
+>
+>   > Can people let me know if the lesson works for them please.
+>   > Pi's machine is having trouble with iXSLT but it works fine
+>   > on the 3 machines I've been using (two Windows 2000, and
+>   > one Windows 98).
+>
+> I'm getting this error:
+>
+> X:\logiqx\WWW\Dats>rebuild_all.bat
+> Building ACE/ACE.shtml...
+> iXSLT.exe -s -V -i:ACE/ACE.xml -o:ACE/ACE.shtml xsl/emulator.xsl
+> X:\logiqx\WWW\Dats\xsl\emulator.xsl(2): Error XSE0010: version="1.0" is
+> an invalid version number.
+> make: *** [ACE/ACE.shtml] Error 1
+>
+> (WinXP SP1)
+>
+> ciao.stefan
+>
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Mon, 16 Sep 2002 22:29:48 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Mike,
+
+  > Changed my mind and had a fiddle with Sablotron!
+  > [...]
+  > Let me know if this works please! I really am going out now.
+
+works perfect!
+
+however, there were 3 issues i had to fix:
+1) mame 61.zip won't extract from lesson2.zip (crc error)
+2) sablotron needs "sablot.dll"
+(http://download-2.gingerall.cz/download/sablot/Sablot-Win-0.96.zip)
+3) ..and "extpat.dll"
+(http://prdownloads.sourceforge.net/expat/expat_win32bin_1_95_5.exe)
+
+ciao.stefan
+
+  >
+  >
+  > > Hi Mike,
+  > >
+  > >   > Can people let me know if the lesson works for them please.
+  > >   > Pi's machine is having trouble with iXSLT but it works fine
+  > >   > on the 3 machines I've been using (two Windows 2000, and
+  > >   > one Windows 98).
+  > >
+  > > I'm getting this error:
+  > >
+  > > X:\logiqx\WWW\Dats>rebuild_all.bat
+  > > Building ACE/ACE.shtml...
+  > > iXSLT.exe -s -V -i:ACE/ACE.xml -o:ACE/ACE.shtml xsl/emulator.xsl
+  > > X:\logiqx\WWW\Dats\xsl\emulator.xsl(2): Error XSE0010:
+  > version="1.0"
+  > > is an invalid version number.
+  > > make: *** [ACE/ACE.shtml] Error 1
+  > >
+  > > (WinXP SP1)
+  > >
+  > > ciao.stefan
+  > >
+  >
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Mon, 16 Sep 2002 22:37:46 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> 1) mame 61.zip won't extract from lesson2.zip (crc error)
+
+Weird. Downloaded to this PC fine (uploaded from a different one).
+
+> 2) sablotron needs "sablot.dll"
+> (http://download-2.gingerall.cz/download/sablot/Sablot-Win-0.96.zip)
+> 3) ..and "extpat.dll"
+> (http://prdownloads.sourceforge.net/expat/expat_win32bin_1_95_5.exe)
+
+I remembered those when I was in the car! At some point I will re-upload a
+complete bundle of all of the tools we have been using.
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] Hi guys, reallife taking me out
+Fecha: Tue, 17 Sep 2002 00:03:45 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi guys, my reallife are taking me out from 1 day or 2, hope try this lesson
+tomorrow night, not sure, so don't worry if I don't sand E-Mail for the next
+days.
+
+Good work ;-)
+
+Long life to team Logiqx
+
+Dr.Zer0
+----- Original Message -----
+From: "Logiqx" <logiqx@logiqx.com>
+To: <teamlogiqx@emuverse.com>
+Sent: Monday, September 16, 2002 7:03 PM
+Subject: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+
+> End of my working day, so here is today's lesson for you all.
+>
+>
+> Lesson 2 - Packaging dats and updating the web site
+> ========
+>
+> In addition to everything installed in lessons 0 and 1 (Cygwin, etc), you
+> need another tool:
+>
+>    http://www.logiqx.com/team/download/tools-filechk.zip (39KB)
+>
+> Just extract it into your Logiqx directory.
+>
+> Also check that you have iXSLT.exe in 'bin' (it was part of lesson 0).
+> iXSLT wasn't used in any scripts for lesson 1 but it is needed for lesson
+2.
+>
+>
+> PART 1 - Download the lesson!
+> ======
+>
+> 1) Download this file:
+>
+>    http://www.logiqx.com/team/download/lesson2.zip (3830KB)
+>
+> 2) Extract it into your Logiqx directory.
+>
+> This replaces the 24MB file that you downloaded a while ago
+> (logiqx_www.zip).
+>
+>
+> PART 2 - The directory structure
+> ======
+>
+> The directory structure contained in lesson 2 is not just for
+demonstration
+> purposes, it is a fully functioning Logiqx.com mirror. It is just a little
+> smaller than mine though, since it only contains the stuff needed for
+dats.
+>
+> %LOGIQX%
+>    |
+>    +--WWW              Root directory of Logiqx.com
+>    |  |
+>    |  +--Dats            Dat index for Logiqx.com and RomCenter.com
+>    |  |  |
+>    |  |  +--DTD              XML Document Type Definition
+>    |  |  |
+>    |  |  +--XSL              XML Stylesheets (define the XML->HTML
+> conversions)
+>    |  |  |
+>    |  |  +--CPS-2            CPS-2 XML, HTML (generated), GIF and ZIPs
+>    |  |  |
+>    |  |  +--MAME             MAME XML, HTML (generated), GIF and ZIPs
+>    |  |  |
+>    |  |  +--...etc           Other emulators
+>    |  |
+>    |  +--E-Mail          The E-Mail pages and CPS-2 FAQ from Logiqx.com
+>    |  |
+>    |  +--Menu            GIFs for the left-side menu of Logiqx.com
+>    |  |
+>    |  +--News            The current front page and previous front pages
+>    |  |
+>    |  +--Resources       Common GIFs used throughout Logiqx.com
+>    |
+>    +--<a few files>      The main web page and scripts for preparing
+uploads
+>
+>
+> PART 3 - Use of archive bits!
+> ======
+>
+> In order to cut down the size of uploads (i.e. only upload new/changed
+> files),
+> I make extensive use of the 'archive' bit. All files have an 'archive' bit
+> which gets 'set' every time a file is changed (or created).
+>
+> When you extract the files from lesson1.zip, the archive bit will be set
+for
+> every file. This is not particularly desirable so I have provided a script
+> to
+> reset them. To 'clear' the archive bits, run 'WWW/archive_bit_clear.bat'
+> (just
+> double click on it).
+>
+>
+> PART 4 - Packaging ZIPs
+> ======
+>
+> Lesson 1 gave you a rough idea about what the 'Dats' and 'Dats_RC'
+> directories
+> are. Once dats have been created in those areas (and all testing has been
+> done), simply ZIP them up and copy the ZIPs into the appropriate directory
+> under 'WWW/Dats'.
+>
+>
+> PART 5 - Editing the XML (contents of the web pages)
+> ======
+>
+> The dat related web pages are all generated using XML. This means that all
+> of
+> the information for an emulator dat is located in one location (the XML)
+and
+> shared by all of the web pages in which it appears (contents pages,
+emulator
+> pages, etc). This ensures consistency throughout the site and reduces the
+> amount of work involved when making updates.
+>
+> To update the details for an individual dat, edit the appropriate
+'.ent.xml'
+> file within the 'WWW/Dats' directory (e.g. 'Dats/MAME/MAME.ent.xml').
+>
+> The details that generallt need updating are:
+>
+>    Version                The version of the emulator/data file (e.g.
+v1.07)
+>
+>    Suitability            Only used if different to 'Version' (e.g. v1.08
+> would
+>                           indicate that the dat can be used with v1.08 of
+> the
+>                           emulator, even thuogh the dat is for v1.07.
+>
+>    Status (New/Updated)   Either 'New', 'Updated' or blank. It is this
+field
+>                           that results in the GIFs 'New.gif' or
+> 'Updated.gif'
+>                           being used on the contents page.
+>
+>    Date (DD/MM/YYYY)      The date that the page was updated.
+>
+>    Games                  The number of games in the data file.
+>
+>    Filenames and sizes    The file names and sizes of the ZIP files.
+>
+>    Revisions              The revision history (details about changes
+made).
+>
+>
+> PART 6 - Rebuilding the HTML
+> ======
+>
+> To re-generate the HTML for emulator dats that have had their the XML
+> changed,
+> run the script 'rebuild_all.bat'. Those of you who completed lesson 1 will
+> have
+> guessed that this script runs... make!
+>
+> The makefile will:
+>
+>    - Rebuild individual emulator pages
+>    - Rebuild the Logiqx.com index page
+>    - Rebuild the RomCenter.com index page
+>    - Rebuild the details for the RomCenter web update facility
+>    - Validate all ZIP files details (check that they exist and check the
+> size).
+>
+> Note: The ZIP validation (filechk.exe) is not case sensitive. I only wrote
+> it
+>       quickly and never went as far as doing that. If anyone feels like
+> making
+>       it better, they are more than welcome!
+>
+> Also, an important point about the XML to HTML conversion is that I use a
+> piece
+> of software (iXSLT) that expires after 90 days. To avoid this problem, it
+is
+> as
+> simple as deleting a fake DLL that it creates in your windows directory
+(Pi
+> worked this out for me ages ago). The makefile does this automatically
+> though
+> so there is no need to worry about it!
+>
+>
+> PART 7 - Submitting work to the whole team (not just to the site
+maintainer)
+> ======
+>
+> Sharing your work with the rest of the team is easy.
+>
+> - To share dat work with the team, just ZIP up the contents of:
+>
+>      Dats/<old or recent>/<single or multi etc>/<emu dir>
+>
+> - To submit web updates to the team, just ZIP up the contents of:
+>
+>      WWW/Dats/<emu dir>    (i.e. an '.ent.xml' file and ZIPs).
+>
+> Both ZIPs should be posted to the list but in the case of large files, we
+> will
+> have to set up a group FTP. Leslaw? ;) I would suggest that anything
+bigger
+> than 30KB be considered large and not sent via e-mail (bearing in mind
+that
+> some people only have 56K connections).
+>
+> The site maintanier must extract the web updates into his own 'WWW'
+> directory
+> and run 'rebuild_all.bat' (to update the web pages). He is the only person
+> that
+> must keep up to date with every submission and will therefore the only
+> person
+> who can generate accurate index pages.
+>
+>
+> PART 8 - Updating the front page news (site maintainer; Robin)
+> ======
+>
+> Updating the front page is simply a matter of editing
+'WWW/News/News.shtml'
+> (using your favorite HTML editor).
+>
+> Every 3 months (Jan->Mar, Apr->Jun, Jul->Sep, Oct->Dec), I rename
+News.shtml
+> to NewsXX.shtml and start a fresh News.shtml.
+>
+>
+> PART 9 - Preparing the upload (site maintainer; Robin)
+> ======
+>
+> As already mentioned, the upload procedure utilises the archive flag of
+> files.
+> To 'tar' everything up ready for upload (think of 'tar' as the Unix
+> equivalent
+> for ZIP), just double-click 'WWW/make_gz.zip'.
+>
+> What this does is:
+>
+> - Copy all files that have their archive bit set (i.e. they have been
+> created
+>   or changed since the last run) to a directory called 'WWW_Update'. After
+> the
+>   copy, all archive bits are 'cleared'.
+>
+> - TARs up and compresses the contents of the 'WWW_Update' directory into a
+> file
+>   called 'Upload/all.tar.gz'.
+>
+> It is the file all.tar.gz that gets uploaded to Logiqx.com (via FTP) and
+> then
+> extracted using a CGI script (i.e. a simple URL).
+>
+> Note: The 'WWW_Update' directory is not purged automatically. After
+> all.tar.gz
+>       has been uploaded and extracted, you should empty out 'WWW_Update'
+(or
+>       delete it completely).
+>
+>
+
+**********************************************************************
+Asunto: [TeamLogiqx] What me, Uploader?
+Fecha: Mon, 16 Sep 2002 18:01:17 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+The Team page shows me as Uploader.  I'm willing to do the deed, but wasn't
+that position given to Robin?  Just checking....
+
+On to Lesson 2!
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Mon, 16 Sep 2002 18:45:24 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+> Can people let me know if the lesson works for them please. Pi's machine
+is
+> having trouble with iXSLT but it works fine on the 3 machines I've been
+> using (two Windows 2000, and one Windows 98).
+
+Everything went OK except rebuilding the HTML.  Here's the last bit of the
+output:
+
+Building Zinc/Zinc.shtml...
+Building Dats.shtml...
+Building RomCenter.shtml...
+Building RomCenter.inf...
+Building Files.lst...
+Validating Files.lst...
+      6 [main] make 416 proc_subproc: Couldn't duplicate my handle<0x7E8>
+for pi
+d 192, Win32 error 6
+All files in file.lst are okay.
+
+Press any key to continue . . .
+
+I'm using XPSP1, iXSLT (no extra files).
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Tue, 17 Sep 2002 02:47:10 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Rob,
+
+  >       6 [main] make 416 proc_subproc: Couldn't duplicate my
+  > handle<0x7E8> for pi d 192, Win32 error 6 All files in
+  > file.lst are okay.
+
+i've got a similar error here but it seems to occur only if run
+filechk.exe via the makefile. the command by itself
+(filechk.exe [file.lst]) doesn't produce this error.
+
+ciao.stefan
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Tue, 17 Sep 2002 02:49:47 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Mike,
+
+  > > 1) mame 61.zip won't extract from lesson2.zip (crc error)
+  >
+  > Weird. Downloaded to this PC fine (uploaded from a different one).
+
+downloaded it again, it's now extracting w/out a flaw... :-)
+
+ciao.stefan
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] ~lol~ !
+Fecha: Tue, 17 Sep 2002 05:34:36 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Phil,
+
+  > ööhm, was there any order in it?!
+  > To me it was just a huge confusing text with every
+  > second word never heard...
+
+falls es irgendwelche Probleme gibt, frag mich einfach, ok? ;-)
+(for non-german list members, don't bother...)
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Mon, 16 Sep 2002 22:36:08 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Rosewood,
+
+>   >       6 [main] make 416 proc_subproc: Couldn't duplicate my
+>   > handle<0x7E8> for pi d 192, Win32 error 6 All files in
+>   > file.lst are okay.
+>
+> i've got a similar error here but it seems to occur only if run
+> filechk.exe via the makefile. the command by itself
+> (filechk.exe [file.lst]) doesn't produce this error.
+
+I'm guessing that you get:
+
+Building MPU/MPU.shtml...
+Building NeoRAGExSupp/NeoRAGExSupp.shtml...
+Building SledgeHammer/SledgeHammer.shtml...
+Building Zinc/Zinc.shtml...
+Building Dats.shtml...
+Building RomCenter.shtml...
+Building RomCenter.inf...
+Building Files.lst...
+Validating Files.lst...
+      6 [main] make 1152 proc_subproc: Couldn't duplicate my handle<0x7E8>
+for p
+id 416, Win32 error 6
+All files in file.lst are okay.
+
+Press any key to continue . . .
+
+I'm using sabcmd.exe (with sablot.dll and expat.dll renamed to
+libexpat.dll).
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Tue, 17 Sep 2002 06:01:29 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Rob,
+
+>   >       6 [main] make 416 proc_subproc: Couldn't duplicate my
+  > >   > handle<0x7E8> for pi d 192, Win32 error 6 All files in
+  > >   > file.lst are okay.
+  > >
+  > > i've got a similar error here but it seems to occur only if run
+  > > filechk.exe via the makefile. the command by itself (filechk.exe
+  > > [file.lst]) doesn't produce this error.
+  >
+  > I'm guessing that you get:
+  >
+  >       6 [main] make 1152 proc_subproc: Couldn't duplicate
+  > my handle<0x7E8> for p id 416, Win32 error 6 All files in
+  > file.lst are okay.
+  >
+  > Press any key to continue . . .
+  >
+  > I'm using sabcmd.exe (with sablot.dll and expat.dll renamed
+  > to libexpat.dll).
+
+yep, same here, but i think Logiqx has to say something about that,
+he wrote that filechk.exe... ;-)
+
+.ciao.stefan
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] What me, Uploader?
+Fecha: Tue, 17 Sep 2002 09:14:03 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Pi has obviously made a little mistake with the editing.
+
+-----Original Message-----
+From: majordomo-owner@emuverse.com
+[mailto:majordomo-owner@emuverse.com]On Behalf Of Rob
+Sent: 17 September 2002 00:01
+To: teamlogiqx@emuverse.com
+Subject: [TeamLogiqx] What me, Uploader?
+
+Hey all,
+
+The Team page shows me as Uploader.  I'm willing to do the deed, but wasn't
+that position given to Robin?  Just checking....
+
+On to Lesson 2!
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] LESSON 2 - Packaging dats and updating the web site
+Fecha: Tue, 17 Sep 2002 09:21:25 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>Validating Files.lst...
+>      6 [main] make 416 proc_subproc: Couldn't duplicate my handle<0x7E8>
+>for pi
+>d 192, Win32 error 6
+>All files in file.lst are okay.
+
+It looks like filechk.exe was compiled with DJGPP a long time ago (i.e. it
+is a DOS program).
+
+I have just recompiled it using MinGW and will re-upload shortly.
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] *** Downloads Page ***
+Fecha: Tue, 17 Sep 2002 10:08:11 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I have just tidied up the ZIPs needed by the team:
+
+http://www.logiqx.com/team/download/
+
+If you are missing anything, you can find it in one of the new ZIPs.
+
+Regarding Lesson 2:
+
+- Anyone who installed the 'XP fix' needs to update their WWW/Dats makefile
+(attached).
+- Anyone who didn't install the fix should delete the WWW directory and
+redownload lesson 2 (it is now correct).
+
+Hopefully after this we'll all be using the same stuff!
+
+Mike
+
+  -----------------------------------------------------------------
+                      Name: rebuild_all.mak
+   rebuild_all.mak    Type: tipo no especificado (application/octet-stream)
+                  Encoding: 7bit
+
+**********************************************************************
+Asunto: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Tue, 17 Sep 2002 10:20:28 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi all,
+
+As many of you have managed the last lesson successfully (just needing the
+latest filechk.exe), we can try doing one of the immediate tasks as a
+practise exercise!
+
+I have uploaded a ZIP to the download area and it contains makefiles for all
+of the resources that have been updated. In most cases the makefiles just
+copy the dats to a nicer name but the file size, CRC and datestamp are
+preserved (so that it is obvious that the file is unchanged).
+
+Anyhow, the task/exercise is (for a couple of dats of your choice):
+
+1) To package the dats into their appropriate ZIPs. Naming standard as
+follows:
+
+- MAME Artwork 20020916 (cm).zip           CMPro
+- MAME Artwork 20020916 (rc).zip           RomCenter
+
+2) To update the web page XML. Obviously, you can test your work with the
+lesson 2 environment. :)
+   You may need the latest filechk.exe to ensure that the filename
+validation is effective.
+
+3) To ZIP up the WWW/Dats/xxx directories and put them on the FTP.
+
+I'll let people pick the dats that they want to package because duplication
+isn't too important right now. I think this exercise will be of benefit to
+all dat creators and packagers. ;)
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] ....
+Fecha: Tue, 17 Sep 2002 12:42:03 +0200
+De: Phil Höhn <RealPosix@gmx.net>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+well,
+first I want to thank Andrea & Stefan for offering me help but you
+both have no idea how much work it is to make me a dat creator! ;)
+
+To understand everything right I would need to get private-step by
+step-teaching which is doubtless impossible!
+It makes me feel ridiculous.
+
+As I said I'm missing to much basics,
+see,
+
+I've never done a webpage (or anything related)
+I've never written a program ....
+
+The will to help is still there but propably no use with these
+'conditions'
+
+However, it interestests me and I don't want to leave the team...
+
+maybe I'll just turn into a spectator in order not to hold you back from
+learning... ;)
+
+greets,
+
+Phil
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] ....
+Fecha: Tue, 17 Sep 2002 11:55:35 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Spectating is fine.
+
+You could even make a contribution by simply mentioning new emulator
+releases on the list (when we're up to date of course, lots to catch up on
+first).
+
+Mike
+
+-----Original Message-----
+From: majordomo-owner@emuverse.com
+[mailto:majordomo-owner@emuverse.com]On Behalf Of Phil Höhn
+Sent: 17 September 2002 11:42
+To: teamlogiqx@emuverse.com
+Subject: [TeamLogiqx] ....
+
+well,
+first I want to thank Andrea & Stefan for offering me help but you
+both have no idea how much work it is to make me a dat creator! ;)
+
+To understand everything right I would need to get private-step by
+step-teaching which is doubtless impossible!
+It makes me feel ridiculous.
+
+As I said I'm missing to much basics,
+see,
+
+I've never done a webpage (or anything related)
+I've never written a program ....
+
+The will to help is still there but propably no use with these
+'conditions'
+
+However, it interestests me and I don't want to leave the team...
+
+maybe I'll just turn into a spectator in order not to hold you back from
+learning... ;)
+
+greets,
+
+Phil
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Tue, 17 Sep 2002 19:13:14 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Mike,
+
+I did the exercise for one dat, MAME Marquees,
+
+  > 1) To package the dats into their appropriate ZIPs. Naming
+  > standard as
+  > follows:
+
+easy... ;-)
+
+  > 2) To update the web page XML. Obviously, you can test your
+  > work with the lesson 2 environment. :)
+  >    You may need the latest filechk.exe to ensure that the
+  > filename validation is effective.
+
+how do i know how many games are in the dat (w/out using romcenter
+or the like) or what to write in the "comment" element of the revisions
+?
+
+  > 3) To ZIP up the WWW/Dats/xxx directories and put them on the FTP.
+
+easy... ;-)
+ftp://leslaw:leslaw@149.156.75.202:2121/leslaw/LOGIQX_TEAM/Web%20Updates
+/rosewood/MAMEMarquees.zip
+
+could you check that if i did anything wrong?
+i'll do the other ressources later...
+
+ciao.stefan
+
+
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Tue, 17 Sep 2002 18:59:36 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> how do i know how many games are in the dat (w/out using romcenter
+
+You could always run it through DatUtil and see how many ROMs it reports.
+
+> or the like) or what to write in the "comment" element of the revisions
+
+Maybe just:
+
+'Uploaded the latest release by Eldio. Now matches MAME v0.61.'
+
+..or something like that. The home pages of the other resources will
+probably say what their last update was for too (mostly for MAME v0.61).
+
+> could you check that if i did anything wrong?
+
+Looks good to me. I like XMLSpy too. :)
+
+Two minor things:
+
+- I use the 'date' field in the XML for the upload date (so it is clear when
+it became available on the site).
+- What are those popups in WinZip? They're a little annoying. ;)
+
+> i'll do the other ressources later...
+
+Much appreciated. Leave a few for the others though. :)
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] New filechk.exe
+Fecha: Tue, 17 Sep 2002 19:06:30 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Did the new compile of FileChk fix your problem?
+
+----- Original Message -----
+From: "rosewood" <rosewood@web.de>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, September 17, 2002 6:13 PM
+Subject: RE: [TeamLogiqx] EXERCISE 1 - Packaging!
+
+> Hi Mike,
+>
+> I did the exercise for one dat, MAME Marquees,
+>
+>   > 1) To package the dats into their appropriate ZIPs. Naming
+>   > standard as
+>   > follows:
+>
+> easy... ;-)
+>
+>   > 2) To update the web page XML. Obviously, you can test your
+>   > work with the lesson 2 environment. :)
+>   >    You may need the latest filechk.exe to ensure that the
+>   > filename validation is effective.
+>
+> how do i know how many games are in the dat (w/out using romcenter
+> or the like) or what to write in the "comment" element of the revisions
+> ?
+>
+>   > 3) To ZIP up the WWW/Dats/xxx directories and put them on the FTP.
+>
+> easy... ;-)
+> ftp://leslaw:leslaw@149.156.75.202:2121/leslaw/LOGIQX_TEAM/Web%20Updates
+> /rosewood/MAMEMarquees.zip
+>
+> could you check that if i did anything wrong?
+> i'll do the other ressources later...
+>
+> ciao.stefan
+>
+>
+>
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] New filechk.exe
+Fecha: Tue, 17 Sep 2002 20:14:45 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+err, i compiled it myself because i couldn't find any updated
+version of it (now it's on the teampage, i know...).
+no problems anymore!
+
+  > -----Original Message-----
+  > From: majordomo-owner@emuverse.com
+  > [mailto:majordomo-owner@emuverse.com] On Behalf Of Logiqx
+  > Sent: Tuesday, September 17, 2002 8:06 PM
+  > To: teamlogiqx@emuverse.com
+  > Subject: [TeamLogiqx] New filechk.exe
+  >
+  >
+  > Did the new compile of FileChk fix your problem?
+  >
+  > ----- Original Message -----
+  > From: "rosewood" <rosewood@web.de>
+  > To: <teamlogiqx@emuverse.com>
+  > Sent: Tuesday, September 17, 2002 6:13 PM
+  > Subject: RE: [TeamLogiqx] EXERCISE 1 - Packaging!
+  >
+  >
+  > > Hi Mike,
+  > >
+  > > I did the exercise for one dat, MAME Marquees,
+  > >
+  > >   > 1) To package the dats into their appropriate ZIPs. Naming
+  > >   > standard as
+  > >   > follows:
+  > >
+  > > easy... ;-)
+  > >
+  > >   > 2) To update the web page XML. Obviously, you can test your
+  > >   > work with the lesson 2 environment. :)
+  > >   >    You may need the latest filechk.exe to ensure that the
+  > >   > filename validation is effective.
+  > >
+  > > how do i know how many games are in the dat (w/out using
+  > romcenter or
+  > > the like) or what to write in the "comment" element of
+  > the revisions ?
+  > >
+  > >   > 3) To ZIP up the WWW/Dats/xxx directories and put
+  > them on the FTP.
+  > >
+  > > easy... ;-)
+  > >
+  > ftp://leslaw:leslaw@149.156.75.202:2121/leslaw/LOGIQX_TEAM/W
+eb%20Updat
+> es
+> /rosewood/MAMEMarquees.zip
+>
+> could you check that if i did anything wrong?
+> i'll do the other ressources later...
+>
+> ciao.stefan
+>
+>
+>
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] New filechk.exe
+Fecha: Tue, 17 Sep 2002 19:17:27 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Thanks, good news.
+
+----- Original Message -----
+From: "rosewood" <rosewood@web.de>
+To: <teamlogiqx@emuverse.com>
+Sent: Tuesday, September 17, 2002 7:14 PM
+Subject: RE: [TeamLogiqx] New filechk.exe
+
+> err, i compiled it myself because i couldn't find any updated
+> version of it (now it's on the teampage, i know...).
+> no problems anymore!
+>
+>   > -----Original Message-----
+>   > From: majordomo-owner@emuverse.com
+>   > [mailto:majordomo-owner@emuverse.com] On Behalf Of Logiqx
+>   > Sent: Tuesday, September 17, 2002 8:06 PM
+>   > To: teamlogiqx@emuverse.com
+>   > Subject: [TeamLogiqx] New filechk.exe
+>   >
+>   >
+>   > Did the new compile of FileChk fix your problem?
+>   >
+>   > ----- Original Message -----
+>   > From: "rosewood" <rosewood@web.de>
+>   > To: <teamlogiqx@emuverse.com>
+>   > Sent: Tuesday, September 17, 2002 6:13 PM
+>   > Subject: RE: [TeamLogiqx] EXERCISE 1 - Packaging!
+>   >
+>   >
+>   > > Hi Mike,
+>   > >
+>   > > I did the exercise for one dat, MAME Marquees,
+>   > >
+>   > >   > 1) To package the dats into their appropriate ZIPs. Naming
+>   > >   > standard as
+>   > >   > follows:
+>   > >
+>   > > easy... ;-)
+>   > >
+>   > >   > 2) To update the web page XML. Obviously, you can test your
+>   > >   > work with the lesson 2 environment. :)
+>   > >   >    You may need the latest filechk.exe to ensure that the
+>   > >   > filename validation is effective.
+>   > >
+>   > > how do i know how many games are in the dat (w/out using
+>   > romcenter or
+>   > > the like) or what to write in the "comment" element of
+>   > the revisions ?
+>   > >
+>   > >   > 3) To ZIP up the WWW/Dats/xxx directories and put
+>   > them on the FTP.
+>   > >
+>   > > easy... ;-)
+>   > >
+>   > ftp://leslaw:leslaw@149.156.75.202:2121/leslaw/LOGIQX_TEAM/W
+> eb%20Updat
+> > es
+> > /rosewood/MAMEMarquees.zip
+> >
+> > could you check that if i did anything wrong?
+> > i'll do the other ressources later...
+> >
+> > ciao.stefan
+> >
+> >
+> >
+>
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Tue, 17 Sep 2002 20:37:13 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Mike,
+
+  > > how do i know how many games are in the dat (w/out using romcenter
+  >
+  > You could always run it through DatUtil and see how many
+  > ROMs it reports.
+
+right, why didn't i think about that...
+
+  > [...]
+  > > could you check that if i did anything wrong?
+  >
+  > Looks good to me. I like XMLSpy too. :)
+
+nice, xmlspy won't let me deactive that 'feature' of telling everybody
+where the document has been edited.. :(
+
+  >
+  > Two minor things:
+  >
+  > - I use the 'date' field in the XML for the upload date (so
+  > it is clear when it became available on the site).
+
+i changed it in both datefields (revisions too)
+
+  > - What are those popups in WinZip? They're a little annoying. ;)
+
+don't know, i don't like winzip anymore, maybe those were the archive
+comment winrar put in, removed them...
+
+  > > i'll do the other ressources later...
+  >
+  > Much appreciated. Leave a few for the others though. :)
+
+ok, just re-did the MAME Marquees (MAMEMarquees2.zip)
+
+ciao.stefan
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Tue, 17 Sep 2002 16:10:41 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+Would anyone mind if I did the MAME artwork and samples dats for these
+exercises (plus others if there are some to spare)?  I've updated the
+artwork dat with the latest from mame.net, so this will be a live-fire
+exercise for me. ;)  Mike, my new artwork dat (20020917) has year &
+manufacturer info as per your request - the samples dat will follow suit
+(probably for 0.62).  Packaging & upload very soon...
+
+> I'll let people pick the dats that they want to package because
+duplication
+> isn't too important right now. I think this exercise will be of benefit to
+> all dat creators and packagers. ;)
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Tue, 17 Sep 2002 22:50:11 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+Here's MAME Artwork 20020917 for you all.  I can't seem to get anywhere with
+the FTP - I can log on, but the 'LIST' command seems to time out.
+
+> 1) To package the dats into their appropriate ZIPs. Naming standard as
+> follows:
+>
+> - MAME Artwork 20020916 (cm).zip           CMPro
+> - MAME Artwork 20020916 (rc).zip           RomCenter
+
+Done.
+
+> 2) To update the web page XML. Obviously, you can test your work with the
+> lesson 2 environment. :)
+>    You may need the latest filechk.exe to ensure that the filename
+> validation is effective.
+
+Actually filechk.exe (the new one) flashed something about 'Error
+opening...' and disappears instantly.
+
+> 3) To ZIP up the WWW/Dats/xxx directories and put them on the FTP.
+
+Zipped and attached.
+
+Talk to you soon,
+Rob
+
+  -----------------------------------------------------------------
+                      Name: MAMEArtwork.zip
+   MAMEArtwork.zip    Type: Zip Compressed Data
+                            (application/x-zip-compressed)
+                  Encoding: base64
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Wed, 18 Sep 2002 07:56:46 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Here's MAME Artwork 20020917 for you all.  I can't seem to get anywhere
+with
+> the FTP - I can log on, but the 'LIST' command seems to time out.
+
+Maybe to do with passive mode or something?
+
+> Actually filechk.exe (the new one) flashed something about 'Error
+> opening...' and disappears instantly.
+
+Do you have the latest makefile (posted to the list yesterday)? The old one
+had the 'pause' command at the bottom commented out, amongst other things.
+
+> > 3) To ZIP up the WWW/Dats/xxx directories and put them on the FTP.
+>
+> Zipped and attached.
+
+Ah, seeing as you actually updated your dat you also need to provide the
+contents of 'Dats/Recent/Resources/MAME Artwork' to the rest of the team. :)
+
+I compared it to Roman's dat (the one already in exercise1.zip) and apart
+from the fact that his lacks leading 0s on CRCs (I have just mailed him
+about this), yours has some uppercase filenames which should be made
+lowercase (the source ZIPs should not used mixed case filenames). Datutil
+'-l' can be used to fix it before release.
+
+In the XML, don't forget to change the status to 'Updated' and update the
+dates/versions. You should be able to spot them if you open
+'WWW/index.shtml'. ;)
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Wed, 18 Sep 2002 02:51:52 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey all,
+
+> > Here's MAME Artwork 20020917 for you all.  I can't seem to get anywhere
+> with
+> > the FTP - I can log on, but the 'LIST' command seems to time out.
+>
+> Maybe to do with passive mode or something?
+
+I'll try later, but FTP isn't my strong suit. :)
+
+> Do you have the latest makefile (posted to the list yesterday)? The old
+one
+> had the 'pause' command at the bottom commented out, amongst other things.
+
+Yup.
+
+> Ah, seeing as you actually updated your dat you also need to provide the
+> contents of 'Dats/Recent/Resources/MAME Artwork' to the rest of the team.
+:)
+
+None of the files in that folder changed.  Did I err?
+
+> I compared it to Roman's dat (the one already in exercise1.zip) and apart
+> from the fact that his lacks leading 0s on CRCs (I have just mailed him
+> about this), yours has some uppercase filenames which should be made
+> lowercase (the source ZIPs should not used mixed case filenames). Datutil
+> '-l' can be used to fix it before release.
+
+I was debating going to all lower case, but (fool that I am) I wasn't aware
+of -l.
+
+> In the XML, don't forget to change the status to 'Updated' and update the
+> dates/versions. You should be able to spot them if you open
+> 'WWW/index.shtml'. ;)
+
+Whoops!  I'll implement all these changes later today, unless someone beats
+or has beaten me to it. ;)
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Wed, 18 Sep 2002 11:22:26 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>Yup.
+
+Is there any chance you can capture that message? I'd like to know what it
+is reoprting. Running rebuild_all.bat from a command window may help
+perhaps?
+
+>>contents of 'Dats/Recent/Resources/MAME Artwork' to the rest of the team.
+>None of the files in that folder changed.  Did I err?
+
+You should really edit the dat in that folder and the one in the folder
+above (Dats/Recent/Resources) is rebuilt automatically by the batch script.
+The .ver.mak is used by the automatic RomCenter conversion too.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Wed, 18 Sep 2002 16:11:36 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+I have done MameIcons,
+Everything went smooth. (Though i have to switch to sabcmd.exe,
+iXSLT.exe doesn't work on my machine - same error - i am using Win98).
+Take a look let me know if this is fine.
+
+Anyway - there will be a tiny problem with: MAME Flyers, since the dat
+includes md5 information and Datutil can't handle it.
+But i can write a program which will remove md5 info (need to find my
+old sources) - or you have already done it?
+
+SLA
+
+--
+ SLA                         mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: Re[2]: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Wed, 18 Sep 2002 16:18:15 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+As to the ftp.
+It is WarFtp (it's a bit shitty) - i will switch it to RaidenFtpd some
+time. (It is running for a 2 years now and there was a couple of
+problems with uploading).
+
+Try to use Passive Mode - there will be no problem then.
+
+SLA
+
+--
+SLA                          mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Wed, 18 Sep 2002 16:43:18 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>I have done MameIcons,
+
+Well done.
+
+>Everything went smooth. (Though i have to switch to sabcmd.exe,
+>iXSLT.exe doesn't work on my machine - same error - i am using Win98).
+
+That's okay, everyone should be using sabcmd now. My emulator XML is not
+compatible with both iXSLT and sabcmd (due to a bug in iXSLT) so from now on
+we use sabcmd only.
+
+>Take a look let me know if this is fine.
+
+Looks okay to me. You are just missing '<status>Updated</status>' in the
+entity.
+
+>includes md5 information and Datutil can't handle it.
+
+So far as I know, DatUtil just ignores it. The RomCenter conversion on my
+machine looks okay (I haven't loaded it into RomCenter mind).
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] FTP - Directory Structure
+Fecha: Wed, 18 Sep 2002 16:52:37 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I think it would be a good idea if we try to make the FTP resemble the
+structure of our work area.
+
+I've created some directories that will do us to be getting on with and
+moved current files to their appropriate locations. This should make it easy
+for us in the future (e.g. when we want to find the latest 'xxx' source dat
+or 'xxx' web update), without snooping in everyone's personal folder.
+
+Mike
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Wed, 18 Sep 2002 16:58:04 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>Looks okay to me. You are just missing '<status>Updated</status>' in the
+>entity.
+
+Ah, you also suffered the same problem with dates as everyone else (should
+use upload date). I must have forgotten to describe it properly in lesson 1.
+hehe.
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] LESSON 3 - Viva Nonno, Clones and Bad dumps
+Fecha: Wed, 18 Sep 2002 18:47:31 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I've finally got around to looking at this emulator and updating the dat by
+Roman. I have to type quick because my girlfriend will be here soon!
+
+Okay, I can improve on the dat and here is what I have done:
+
+1) Made it evident that there are six games by using clones (previous dat
+showed four games).
+2) Changed his 00000000 CRCs in Ridge Racer to complimented CRCs. The Dumps
+may be bad but they are the best available!
+3) Added year information (use www.system16.com and www.klov.com to find
+years if needed).
+4) Swapped the size and crc bits around (I prefer CRC last!). Just use
+DatUtil to re-save in my prefered format. ;)
+
+To tell if a dump is bad, use ROMCMP.EXE (comes with MAME):
+
+E:\ROMs\Complete\Recent\Multi\Viva Nonno>romcmp rr1.zip
+21 files
+rr1ccrh.bin                                     FIRST AND SECOND HALF
+IDENTICAL
+rr1ccrl.bin                                     FIXED BITS
+(xxxxx0xx11xxxxxx)
+rr1cg0.bin                                      FIXED BITS
+(xxxxx0xxxxxxxxxx)
+rr1cg1.bin                                      FIXED BITS
+(xxxxx0xxxxxxxxxx)
+rr1cg2.bin                                      FIXED BITS
+(xxxxx0xxxxxxxxxx)
+rr1cg3.bin                                      FIXED BITS
+(xxxxx0xxxxxxxxxx)
+rr1data.bin                                          11xxxxxxxxxxxxxxxxx =
+0xFF
+rr1pot-l1.bin                                        1xxxxxxxxxxxxxxxxxx =
+0xFF
+rr1pot-m1.bin                                        1xxxxxxxxxxxxxxxxxx =
+0xFF
+rr1pot-u1.bin                                        1xxxxxxxxxxxxxxxxxx =
+0xFF
+rr1prg-ll.bin                                        1xxxxxxxxxxxxxxxxxx =
+0xFF
+rr1prg-lm.bin                                        1xxxxxxxxxxxxxxxxxx =
+0xFF
+rr1prg-um.bin                                        1xxxxxxxxxxxxxxxxxx =
+0xFF
+rr1prg-uu.bin                                        1xxxxxxxxxxxxxxxxxx =
+0xFF
+
+- It can be seen that rr1ccrh.bin has been overdumped (should be half the
+size).
+- It can be seen that the ccrl and cg ROMs are bad (they have stuck bits).
+
+I did ROMCMP checks on all Viva ROMs and there was another game which needed
+a CRC complimenting. RomCenter shows games that have complimented CRCs with
+a little 'x' next to the game.
+
+That's it. Need to get this all uploaded before Kay arrives. ;)
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] Team Page
+Fecha: Wed, 18 Sep 2002 20:55:14 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi people
+
+I've been a bit away of myself lately, but I've just updated the
+page with the latest lessons and things. I also need to check
+again the outdated dats since some of you are doing real work,
+congrats guys :)
+
+The thing is that I also want to update the digest and I would
+like opinions. By months will be killer, by weeks is not feasible
+since one week is 35kb and other is 110 and who knows how much
+will be the next ones. Any idea? Each 50 or 100 messages maybe?
+
+Do you read CAESAR to be up to date with what's happening on the
+arcade world?
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re[2]: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Wed, 18 Sep 2002 21:09:21 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+>>Looks okay to me. You are just missing '<status>Updated</status>' in the
+>>entity.
+
+L> Ah, you also suffered the same problem with dates as everyone else
+(should
+L> use upload date). I must have forgotten to describe it properly in lesson
+1.
+L> hehe.
+
+Now it is fixed. I have uploaded new zip to the ftp.
+
+Leslaw
+
+--
+SLA                        mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 3 - Viva Nonno, Clones and Bad dumps
+Fecha: Wed, 18 Sep 2002 21:20:05 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+L> I've finally got around to looking at this emulator and updating the dat
+by
+L> Roman.
+
+good!
+
+L> I have to type quick because my girlfriend will be here soon!
+
+L> Okay, I can improve on the dat and here is what I have done:
+
+L> 1) Made it evident that there are six games by using clones (previous dat
+L> showed four games).
+L> 2) Changed his 00000000 CRCs in Ridge Racer to complimented CRCs. The
+Dumps
+L> may be bad but they are the best available!
+L> 3) Added year information (use www.system16.com and www.klov.com to find
+L> years if needed).
+
+or www.google.com
+
+L> 4) Swapped the size and crc bits around (I prefer CRC last!). Just use
+L> DatUtil to re-save in my prefered format. ;)
+
+L> To tell if a dump is bad, use ROMCMP.EXE (comes with MAME):
+
+let see how you recognized that,
+
+L> E:\ROMs\Complete\Recent\Multi\Viva Nonno>romcmp rr1.zip
+L> 21 files
+L> rr1ccrl.bin                                     FIXED BITS
+L> (xxxxx0xx11xxxxxx)
+L> rr1cg0.bin                                      FIXED BITS
+L> (xxxxx0xxxxxxxxxx)
+L> rr1cg1.bin                                      FIXED BITS
+L> (xxxxx0xxxxxxxxxx)
+L> rr1cg2.bin                                      FIXED BITS
+L> (xxxxx0xxxxxxxxxx)
+L> rr1cg3.bin                                      FIXED BITS
+L> (xxxxx0xxxxxxxxxx)
+
+L> - It can be seen that rr1ccrh.bin has been overdumped (should be half the
+L> size).
+L> - It can be seen that the ccrl and cg ROMs are bad (they have stuck
+bits).
+Hmm, rr1cg0.bin - it is not filled in with any recurrence patterns?
+How romcmp knows it's bad - or it checks even part of the file?
+Anyway - need to remember this romcmp technique.
+
+SLA
+
+--
+ SLA                        mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 3 - Viva Nonno, Clones and Bad dumps
+Fecha: Wed, 18 Sep 2002 22:45:23 +0200
+De: Pi <pi@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Logiqx ha escrito:
+
+> 3) Added year information (use www.system16.com and www.klov.com to find
+> years if needed).
+
+Remember that System16 only has Sega, Taito, Atari and Konami hardware. So
+its
+game list is somewhat limited (tho very representative specially in the more
+recent years). KLOV is known to be very innacurate sometimes, there is a
+famous
+example with PaperBoy (http://www.klov.com/P/Paperboy.html) which apparently
+has
+a hard drive :-D And after all this time and all these laughs, it's still
+not
+fixed!
+
+So, these are MY resources when trying to find info for games *not* in
+CAESAR:
+http://www.system16.com/ - System 16 - The Arcade Museum
+http://unmamed.mame.net/ - Bobby Tribble's unMAMEd arcade games
+http://emustatus.rainemu.com/ - Emulation Status
+
+If the game is emulated, then it's in CAESAR, then you don't need to search
+for
+that info ;)
+
+Will put these three resources in the team page, with KLOV, bleh.
+
+--
+Pi - News Poster at CAESAR
+http://caesar.logiqx.com
+
+**********************************************************************
+Asunto: Re: Re[2]: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Wed, 18 Sep 2002 21:03:32 -0500
+De: "Rob" <umrostec@cc.umanitoba.ca>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hey Leslaw,
+
+> As to the ftp.
+> It is WarFtp (it's a bit shitty) - i will switch it to RaidenFtpd some
+> time. (It is running for a 2 years now and there was a couple of
+> problems with uploading).
+
+> Try to use Passive Mode - there will be no problem then.
+
+I tried FTP\Settings\Options\Firewall\PASV mode (only thing I could find) in
+CuteFTP 2.6 - no go. :(
+
+Talk to you soon,
+Rob
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 3 - Viva Nonno, Clones and Bad dumps
+Fecha: Thu, 19 Sep 2002 06:50:57 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> L> E:\ROMs\Complete\Recent\Multi\Viva Nonno>romcmp rr1.zip
+> L> 21 files
+> L> rr1ccrl.bin                                     FIXED BITS
+> L> (xxxxx0xx11xxxxxx)
+> L> rr1cg0.bin                                      FIXED BITS
+> L> (xxxxx0xxxxxxxxxx)
+> L> rr1cg1.bin                                      FIXED BITS
+> L> (xxxxx0xxxxxxxxxx)
+> L> rr1cg2.bin                                      FIXED BITS
+> L> (xxxxx0xxxxxxxxxx)
+> L> rr1cg3.bin                                      FIXED BITS
+> L> (xxxxx0xxxxxxxxxx)
+
+> Hmm, rr1cg0.bin - it is not filled in with any recurrence patterns?
+
+It means that that bit 10 is 'stuck'. It's a classic ROM dumping issue (bad
+connections in the rig). It is far more likely than not that it is a bad
+dump (I don't think any genuine ROMs have ever seen this problem).
+
+> How romcmp knows it's bad - or it checks even part of the file?
+
+It checks the whole file (doesn't work off CRCs).
+
+> Anyway - need to remember this romcmp technique.
+
+It is my favorite tool. Comparing ROMs is even better! Use the -d option for
+a detailed comparison of two ZIPs.
+
+Mike
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 3 - Viva Nonno, Clones and Bad dumps
+Fecha: Thu, 19 Sep 2002 06:52:30 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+> Remember that System16 only has Sega, Taito, Atari and Konami hardware. So
+its
+
+...and remember I was dealing with a Namco emulator. ;)
+
+> recent years). KLOV is known to be very innacurate sometimes, there is a
+famous
+
+I like KLOV but I am aware of it's years sometimes being wrong. I always
+look at two independant sources and if the year doesn't match look at more
+sources.
+
+> Will put these three resources in the team page, with KLOV, bleh.
+
+Good idea.
+
+Mike
+
+**********************************************************************
+Asunto: Re: Re[2]: [TeamLogiqx] EXERCISE 1 - Packaging!
+Fecha: Thu, 19 Sep 2002 06:53:39 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Try normal FTP from the command prompt maybe. Where are you FTPing from...
+home, work, uni?
+
+----- Original Message -----
+From: "Rob" <umrostec@cc.umanitoba.ca>
+To: <teamlogiqx@emuverse.com>
+Sent: Thursday, September 19, 2002 3:03 AM
+Subject: Re: Re[2]: [TeamLogiqx] EXERCISE 1 - Packaging!
+
+> Hey Leslaw,
+>
+> > As to the ftp.
+> > It is WarFtp (it's a bit shitty) - i will switch it to RaidenFtpd some
+> > time. (It is running for a 2 years now and there was a couple of
+> > problems with uploading).
+>
+> > Try to use Passive Mode - there will be no problem then.
+>
+> I tried FTP\Settings\Options\Firewall\PASV mode (only thing I could find)
+in
+> CuteFTP 2.6 - no go. :(
+>
+> Talk to you soon,
+> Rob
+>
+>
+
+**********************************************************************
+Asunto: [TeamLogiqx] EXERCISE 2 - A adding new dat to the rebuild_all scripts!
+Fecha: Thu, 19 Sep 2002 08:16:37 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi all,
+
+This exercise requires a little more thinking to improve your familiarity
+with the makefile stuff.
+
+Attached are 3 ZIPs to extract into:
+
+Dats/Recent/Multi - Viva Nonno (Dats).zip
+Dats_RC/Recent/Multi - Viva Nonno (Dats_RC).zip
+WWW/Dats - VivaNonno-Logiqx.zip
+
+Extract them all and see if you can add Viva Nonno to the rebuild_all.mak
+files! Use existing MAME entries as a guide.
+
+Tip: In makefiles, where a filename contains spaces you need to use a '?'
+instead.
+
+Mike
+
+  -----------------------------------------------------------------
+                           Name: VivaNonno-Logiqx.zip
+   VivaNonno-Logiqx.zip    Type: Zip Compressed Data
+                                 (application/x-zip-compressed)
+                       Encoding: base64
+
+                               Name: Viva Nonno (Dats_RC).zip
+   Viva Nonno (Dats_RC).zip    Type: Zip Compressed Data
+                                     (application/x-zip-compressed)
+                           Encoding: base64
+
+                            Name: Viva Nonno (Dats).zip
+   Viva Nonno (Dats).zip    Type: Zip Compressed Data
+                                  (application/x-zip-compressed)
+                        Encoding: base64
+
+**********************************************************************
+Asunto: [TeamLogiqx] Status of 'New' or 'Updated'
+Fecha: Thu, 19 Sep 2002 08:28:21 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Just so as you can see it visually, the <status> element of the XML has an
+effect on the dat index page (see attachment).
+
+- If a value is specified then the entry is made bold.
+- If the value is 'Updated' then you get an 'Updated' GIF.
+- If the value is 'New' then you get an 'New' GIF.
+
+Be sure not to just type 'Update' you don't get the GIF (as seen in the
+snapshot).
+
+Whenever changing the XML, always check the emulator page and the index
+page. I'm always making small mistakes but I ususally spot them by checking
+how the pages actually look. ;)
+
+Mike
+
+  -----------------------------------------------------------------
+                  Name: Updated.png
+   Updated.png    Type: PNG Image (image/png)
+              Encoding: base64
+
+**********************************************************************
+Asunto: [TeamLogiqx] LESSON 4 - WinKawaks, a huge dat update using scripts!
+Fecha: Thu, 19 Sep 2002 12:02:02 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+For the more advanced of you, who have already:
+
+- Set up a working Logiqx environment
+- Completed lessons 0 and 1
+- Completed exercise 2
+
+Please download these!
+
+ftp://leslaw:leslaw@149.156.75.202:2121/leslaw/LOGIQX_TEAM/Dats/Recent/Multi
+/WinKawaks.zip
+
+ftp://leslaw:leslaw@149.156.75.202:2121/leslaw/LOGIQX_TEAM/Dats/Recent/Multi
+/WinKawaks%20(RC).zip
+
+After doing exercise 2 you should be able to install them easily.
+
+-------------------------------------
+e.g.
+-------------------------------------
+
+include $(LOGIQX)/Dats/standard_header.mak
+
+include $(LOGIQX)/Dats/Recent/Multi/MAME/MAME.vers.mak
+include $(LOGIQX)/Dats/Recent/Multi/WinKawaks/WinKawaks.vers.mak
+
+recent_multi: \
+        mame \
+        winkawaks \
+        cleanup
+
+include $(LOGIQX)/Dats/Recent/Multi/MAME/MAME.rules.mak
+include $(LOGIQX)/Dats/Recent/Multi/WinKawaks/WinKawaks.rules.mak
+
+include $(LOGIQX)/Dats/standard_footer.mak
+
+--------------------------------------
+
+Inside Dats/Recent/Multi/WinKawaks/v1.45 I have left notes and logs from all
+of my workings during the dat update. Sorry it's not a little more
+descriptive but I am at work and want to get this out to you before I go on
+holiday tomorrow morning! However, anyone familiar with DatUtil and MAMEDiff
+should be able to understand it given a little time.
+
+I added or fixed about 156 games in roughly 20 to 30 minutes. Should be 100%
+accurate too. :)
+
+Read 'v1.45 instructions.txt' to find out how I did it.
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] Test
+Fecha: Thu, 19 Sep 2002 12:43:12 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Did lesson 4 go to the list? I didn't see it appear?
+
+Mike
+
+**********************************************************************
+Asunto:
+Fecha: Thu, 19 Sep 2002 14:29:00 +0200
+De: Phil Höhn <RealPosix@gmx.net>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+"Did lesson 4 go to the list? I didn't see it appear?"
+
+Yes it did :)
+
+I'm reading and just try to get any sense out of it! ;)
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] EXERCISE 2 - A adding new dat to the rebuild_all scripts!
+Fecha: Thu, 19 Sep 2002 14:34:30 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+L> This exercise requires a little more thinking to improve your familiarity
+L> with the makefile stuff.
+
+L> Attached are 3 ZIPs to extract into:
+
+L> Dats/Recent/Multi - Viva Nonno (Dats).zip
+L> Dats_RC/Recent/Multi - Viva Nonno (Dats_RC).zip
+L> WWW/Dats - VivaNonno-Logiqx.zip
+
+Done, see zip attached, I have also done www rebuild_all.make
+and i prefer putting Viva Nonno dats in
+Dats/Recent/Viva Nonno/ directory.
+(which was resulting in a bit confusion with
+CMP_DIR= $(LOGIQX)/Dats/Recent/Viva?Nonno (doesn't work)
+solved by CMP_DIR= $(LOGIQX)/Dats/Recent/VivaNo~1 )
+
+Tell me what you think.
+(I have checked them - all work, even www generation!).
+
+SLA
+
+--
+ SLA                         mailto:skrzypek@im.uj.edu.pl
+
+  -----------------------------------------------------------------
+                     Name: SLA_answer.zip
+   SLA_answer.zip    Type: Zip Compressed Data
+                           (application/x-zip-compressed)
+                 Encoding: base64
+
+**********************************************************************
+Asunto: Re: [TeamLogiqx] LESSON 4 - WinKawaks, a huge dat update using scripts!
+Fecha: Thu, 19 Sep 2002 15:34:25 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+Did my answer to your ex. 2 go through?
+It seems we have a retention on email list now or sth.
+
+anyway i've put it there: ftp//leslaw/LOGIQX_TEAM/Dats/SLA_answer_to_ex2.zip
+
+best;
+Leslaw
+
+--
+ Leslaw                          mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] EXERCISE 2 - A adding new dat to the rebuild_all scripts!
+Fecha: Thu, 19 Sep 2002 16:05:39 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>Done
+
+Well done.
+
+>Tell me what you think.
+
+I think having different directory trees is a bad idea though. It means that
+we have incompatible makefiles with each other and sharing work will cause
+more work and confusion. The idea of the multi directory is simply so that
+we have one makefile to update everything, not one makefile for each
+emulator. The extra layer (single/multi/system/sound) is to seperate out
+seperate types of dat and keep directory sizes down a little.
+
+We want to have self contained archives that work for everyone without
+modification. ;)
+
+Mike
+
+**********************************************************************
+Asunto: Re[2]: [TeamLogiqx] EXERCISE 2 - A adding new dat to the rebuild_all scripts!
+Fecha: Thu, 19 Sep 2002 18:13:15 +0200
+De: Leslaw Skrzypek <skrzypek@im.uj.edu.pl>
+Responder a: teamlogiqx@emuverse.com
+Organización: Jagiellonian University
+A: <teamlogiqx@emuverse.com>
+
+>>Tell me what you think.
+
+L> I think having different directory trees is a bad idea though. It means
+that
+L> we have incompatible makefiles with each other and sharing work will
+cause
+L> more work and confusion. The idea of the multi directory is simply so
+that
+L> we have one makefile to update everything, not one makefile for each
+L> emulator. The extra layer (single/multi/system/sound) is to seperate out
+L> seperate types of dat and keep directory sizes down a little.
+
+L> We want to have self contained archives that work for everyone without
+L> modification. ;)
+
+that's fine. But you know why i choose a directory different from
+/Multi ? That's because in this directory there is already
+rebuild_all.mak i bat (those from Mame), so i have to delete them or
+rename them. and also all dats will be made in the /Multi directory -
+bit if that's fine that's ok for me.
+i have already changed this to what you suggest though renaming
+rebuild_all_mame.bat i mak and
+rebuild_all_viva.bat i mak.
+is that fine?
+Or we should put everything in a one rebuild.all.bat and dat?
+
+SLA
+
+--
+SLA                          mailto:skrzypek@im.uj.edu.pl
+
+**********************************************************************
+Asunto: RE: Re[2]: [TeamLogiqx] EXERCISE 2 - A adding new dat to the rebuild_all scripts!
+Fecha: Thu, 19 Sep 2002 17:34:01 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+>Or we should put everything in a one rebuild.all.bat and dat?
+
+You just need one rebuild_all.mak.
+
+Example from lesson 4:
+
+include $(LOGIQX)/Dats/standard_header.mak
+
+include $(LOGIQX)/Dats/Recent/Multi/MAME/MAME.vers.mak
+include $(LOGIQX)/Dats/Recent/Multi/WinKawaks/WinKawaks.vers.mak
+
+recent_multi: \
+        mame \
+        winkawaks \
+        cleanup
+
+include $(LOGIQX)/Dats/Recent/Multi/MAME/MAME.rules.mak
+include $(LOGIQX)/Dats/Recent/Multi/WinKawaks/WinKawaks.rules.mak
+
+include $(LOGIQX)/Dats/standard_footer.mak
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] Test
+Fecha: Thu, 19 Sep 2002 22:01:05 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+what a mess in my inbox...
+i've got to catch up w/ yesterday's and today's mails.
+
+Lesson4 did not arrive yet...
+
+ciao.stefan
+
+  > -----Original Message-----
+  > From: majordomo-owner@emuverse.com
+  > [mailto:majordomo-owner@emuverse.com] On Behalf Of Logiqx
+  > Sent: Thursday, September 19, 2002 1:43 PM
+  > To: teamlogiqx@emuverse.com
+  > Subject: [TeamLogiqx] Test
+  >
+  >
+  > Did lesson 4 go to the list? I didn't see it appear?
+  >
+  > Mike
+  >
+
+**********************************************************************
+Asunto: [TeamLogiqx] LESSON 5 - Nebula
+Fecha: Fri, 20 Sep 2002 11:14:45 +0100
+De: "Logiqx" <logiqx@logiqx.com>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I am running late now so this will have to be very brief!
+
+I have upload my Nebula work to the FTP (under
+Leslaw/LOGIQX_TEAM/Dats/Recent/Multi).
+
+If you extract these you will see that there are two batch scripts:
+
+- One to validate the auto-generated dat
+- One to validate mine
+
+Reading the logs is a little confusing but they are an unbelievably useful
+for identifying which games need looking at. As you can see, the inbuilt one
+has loads of errors but mine has none. ;)
+
+The games listed in the log for my dat are CPS-2 clones (listed because
+drivers don't specify all parent ROMs) and PGM/Konami games (since they do
+not have drivers).
+
+Obviously, the proof of the pudding is to validate within Nebula itself (I
+check a full set of ROMs using the full dat and MAME+supplement ROMs to
+check the supplement dat). Everything is green for me.
+
+There were a few driver errors causing name conflicts so I've fixed them and
+sent them to ElSemi so he can use them next release.
+
+Mike
+
+**********************************************************************
+Asunto: [TeamLogiqx] I'm back
+Fecha: Fri, 20 Sep 2002 19:29:33 +0200
+De: "Dr.Zer0" <dr.zer0@libero.it>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+I guys, after my relative long absence (for the amount of work make during
+my absence it very long :-)), I'm back here, I have downloaded new mail, and
+the first thing I need to do is "exercise 1".  After long reading, the flood
+subsequential to that exercise I have discover (hope) that the only resurces
+that need to be updated are "MAME Snaps", and "MAME Titles", both make by
+John IV, so now I start doing my homework with this one, hope relase this
+DATs later today.
+
+Dr.Zer0
+
+**********************************************************************
+Asunto: [TeamLogiqx] VivaNonno Questions
+Fecha: Fri, 20 Sep 2002 19:57:36 +0200
+De: "Stefan Rosenbaum" <stefanrosenbaum@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+Hi Mike,
+
+1) Maybe I just don't understand that right, but why is VivaNonno
+in the Multi dir?
+I thought the multi stands for multi-systems, like MAME or
+Nebula, but VivaNonno emulates just one system, shouldn't it
+be in the "Single" or "Systems" folder ?
+
+2) I noticed some spelling differences, e.g. in the rebuild_all.mak
+first it is "Viva Nonno" (= "Viva?Nonno"), then in line #8 it is
+spelled "viva_nonno"; in the WWW folder it's spelled "VivaNonno"
+and inside the dat files again "Viva Nonno xxxxx".
+Wouldn't it be much easier if every system has a unique name or id?
+
+3) what's w/ those "rv1b" roms? I've never seen them anywhere before,
+nor heard of them (even emuchina doesn't have), so how is the
+team supposed to know about them make good dats and validate them?
+Do we have to wait for the emu authors/the guru to get us the info
+or do we have to "edit" the emus and extract the name/crc from them
+or is there a "secret place" in the www where those roms are stored?
+
+(Note: this is NOT a rom request in any form! it's a delicate subject,
+especially for those "new" 3D hardware games. since the whole thing
+is somehow not legal, I'm almost sure that nobody from us has all those
+arcade PCBs at home, I wish I had some though...
+I think in some ways the team does have the rights to keep the roms
+for some time because we are helping those actual owners of the arcade
+hardware to validate their backups!)
+
+ciao.stefan
+
+**********************************************************************
+Asunto: RE: [TeamLogiqx] VivaNonno Questions
+Fecha: Fri, 20 Sep 2002 20:11:23 +0200
+De: "rosewood" <rosewood@web.de>
+Responder a: teamlogiqx@emuverse.com
+A: <teamlogiqx@emuverse.com>
+
+wrong address, oh well...
