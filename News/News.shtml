@@ -33,6 +33,24 @@ e-mailed about.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>5 January 2005</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have had a bit of a tidy up and also improved a
+        couple of things at the same time:</p>
+        <p align="center">1. A new counter in the menu bar to the left of this
+        page!</p>
+        <p align="center">2. The dynamic pages such as past MAME data files and
+        Older Emu contents are now static.<br>
+        In other words, the server generates them in advance of you viewing
+        them. ;)<br>
+        This is to get around the intermittent problems that the server has with
+        my cgi scripts.</p>
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>4 January 2005</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
