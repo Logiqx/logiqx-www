@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>WinKawaks v1.50</title>
+    <title>Kawaks v1.50</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="WinKawaks.gif" width="141" height="40"></p>
-	<p>423 games of WinKawaks v1.50</p>
+	<p>423 games of Kawaks v1.50</p>
 	
 	
 	
@@ -23,13 +23,13 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="WinKawaks%20v1.50%20(cm).zip">WinKawaks dat for CMPro</a> (192KB)</p>
+            <p>Download <a href="WinKawaks%20v1.50%20(cm).zip">Kawaks dat for CMPro</a> (192KB)</p>
             <p>
               <a href="WinKawaks%20v1.50%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="WinKawaks%20v1.50%20(rc).zip">WinKawaks dat for ROMCenter</a> (90KB)</p>
+            <p>Download <a href="WinKawaks%20v1.50%20(rc).zip">Kawaks dat for ROMCenter</a> (90KB)</p>
             <p>
               <a href="WinKawaks%20v1.50%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -127,7 +127,7 @@
           <u>2 March 2003</u>
         </strong> - 
 			
-			Updated for WinKawaks v1.49. Use <a href="../../Tools/ROMBuild/rbmame80.zip">ROMBuild</a> [MAME v0.80 Special] to build the new Neo-Geo ROMs.
+			Updated for WinKawaks v1.49. Use <a href="../../Tools/ROMBuild/rbmame80.zip" target="">ROMBuild</a> [MAME v0.80 Special] to build the new Neo-Geo ROMs.
 		</p>
       <p>
         <strong>

@@ -11,7 +11,7 @@
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
 	<!ENTITY RadikalBikersEmulator SYSTEM "RadikalBikersEmulator/RadikalBikersEmulator.ent.xml">
 	<!ENTITY Tickle SYSTEM "Tickle/Tickle.ent.xml">
-	<!ENTITY WinKawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
+	<!ENTITY Kawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
 	<!ENTITY Zinc SYSTEM "Zinc/Zinc.ent.xml">
 	<!ENTITY OlderEmus SYSTEM "OlderEmus/OlderEmus.ent.xml">
 	<!ENTITY CPS1 SYSTEM "CPS-1/CPS-1.ent.xml">
@@ -38,12 +38,13 @@
 		<img src="RecentEmus.gif" width="158" height="40"/>
 		<type>Emulator</type>
 		<comment>
-			<p>Emulators that are up to six months old or likely to receive further updates.</p>
+			<p>Emulators that are up to six months old or likely to receive further updates.<br/>These data files correspond to the <a href="http://caesar.logiqx.com/html/emus/recent.shtml" target="_blank">recent emulators</a> listed at CAESAR.</p>
 		</comment>
 		<emulators>
 			&CrystalSystemEmulator;
 			&Daphne;
 			&FinalBurnAlpha;
+			&Kawaks;
 			&M1;
 			&MAMEBeta;
 			&MAMEChanges;
@@ -53,7 +54,6 @@
 			&RAINE;
 			&SEGAModel2Emulator;
 			&Tickle;
-			&WinKawaks;
 			&Zinc;
 		</emulators>
 	</section>

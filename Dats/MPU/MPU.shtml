@@ -1,5 +1,13 @@
 
-	<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>MPU 20010808</title></head><body><center><!--#include virtual="/ads/top.shtml"--><hr>
+	<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>MPU 20010808</title>
+  </head>
+  <body>
+    <center>
+      <!--#include virtual="/ads/top.shtml"-->
+      <hr>
 	<p><img src="MPU.gif" width="37" height="40"></p>
 	<p>5 games of MPU 20010808</p>
 	
@@ -11,15 +19,35 @@
 
 	<p>MPU Games</p>
 
-	<table border="0" width="100%"><tr>
-		<td width="50%" align="center"><p>Download <a href="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip">MPU dat for </a> (3KB)</p><p><a href="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></p></td>
+	<table border="0" width="100%">
+        <tr>
+		<td width="50%" align="center">
+            <p>Download <a href="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip">MPU dat for ROMCenter</a> (3KB)</p>
+            <p>
+              <a href="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+            </p>
+          </td>
 
-		<td width="50%" align="center"><p>Download <a href="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip">MPU dat for </a> (3KB)</p><p><a href="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></p></td>
-	</tr></table>
+		<td width="50%" align="center">
+            <p>Download <a href="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip">MPU dat for ROMCenter</a> (3KB)</p>
+            <p>
+              <a href="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+            </p>
+          </td>
+	</tr>
+      </table>
 
-	<hr><p><img src="../../Resources/History.gif" width="85" height="40"></p><p><strong><u>8 August 2001</u></strong> - 
+	<hr>
+      <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>8 August 2001</u>
+        </strong> - 
 			
 			First release.
 		</p>
-</center></body></html>
+</center>
+  </body>
+</html>
+
 

@@ -63,7 +63,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 		
 		
 		
-			<p>Emulators that are up to six months old or likely to receive further updates.</p>
+			<p>Emulators that are up to six months old or likely to receive further updates.<br>These data files correspond to the <a href="http://caesar.logiqx.com/html/emus/recent.shtml" target="_blank">recent emulators</a> listed at CAESAR.</p>
 		
 		<table border="0" width="100%" bgcolor="#ECF5FF">
         <tr>
@@ -110,6 +110,20 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td align="center"></td>
           <td align="center">24/11/2004</td>
           <td align="center">494</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="WinKawaks/WinKawaks.shtml">Kawaks v1.50</a>
+          </td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>30/12/2004</strong>
+          </td>
+          <td align="center">
+            <strong>423</strong>
+          </td>
         </tr>
 
 			
@@ -207,20 +221,6 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td align="center"></td>
           <td align="center">13/07/2004</td>
           <td align="center">27</td>
-        </tr>
-
-			
-<tr>
-          <td>
-            <a href="WinKawaks/WinKawaks.shtml">WinKawaks v1.50</a>
-          </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>30/12/2004</strong>
-          </td>
-          <td align="center">
-            <strong>423</strong>
-          </td>
         </tr>
 
 			<tr>
