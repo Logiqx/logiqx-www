@@ -1,0 +1,235 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>News</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><!--#include virtual="/ads/top.shtml" --> </p>
+
+<hr>
+
+<p align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"></p>
+
+<p align="center"><img src="../Resources/URLBig.gif" width="266" height="40"
+alt="URLBig.gif (3995 bytes)"></p>
+
+<p align="center">Welcome to www.logiqx.com - Source of CMPro/RomCenter data
+files and other useful tools.</p>
+<p align="center">To see who you have to thank for the contents of this site, have a
+look at <a href="../E-Mail/TheTeam.shtml">the team</a> page.</p>
+<p align="center">If you have questions about datfiles then please use Eric Bole
+Feysot's <a href="http://www.romcenter.com/forum/">datfile message board</a>.<br>
+Although I don't read it regularly, I do pass by every once in a while to see if
+there are any outstanding queries.</p>
+<p align="center">I have also provided my <a href="../E-Mail/Conditions.shtml">e-mail address</a>
+but please pay careful attention to the list of things that I don't want to be
+e-mailed about.</p>
+
+<hr>
+
+<p align="center"><img src="News.gif" width="69" height="40"></p>
+
+<p align="center"><strong><u>31 December 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have released data files for Crystal System Emulator v1.1
+        and Radikal Bikers Emulator v0.9.</p>
+        <p align="center">Get them from the <a href="../Dats/Dats.shtml">data
+        files</a> page.</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>30 December 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have released data files for Kawaks v1.50 and RAINE
+        v0.42.3.</p>
+        <p align="center">Get them from the <a href="../Dats/Dats.shtml">data
+        files</a> page.</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>5 December 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have now completed the guide about <a href="../HowTo/HowTo.shtml">compiling RAINE</a>.</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>4 December 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have updated my guides about <a href="../HowTo/HowTo.shtml">compiling
+        MAME and RAINE</a> again!</p>
+        <p align="center">I have now split the guide into two parts since a lot
+        of stuff is RAINE specific and not needed by MAME.</p>
+        <p align="center"><b>The following changes have been made to the MAME
+        guide:</b></p>
+        <ul>
+          <li>
+            <p align="center">Updated the GNU tools to more recent versions
+            (taken from <a href="http://gnuwin32.sourceforge.net/">http://gnuwin32.sourceforge.net/</a>)</li>
+          <li>
+            <p align="center">Explained how to build a Pentium Pro optimised
+            version.</li>
+          <li>
+            <p align="center">Explained when 'make clean' should be used.</li>
+          <li>
+            <p align="center">Explained how to use apply MAME updates using
+            'patch' (for building interim releases).</li>
+          <li>
+            <p align="center">Removed the the UNIX_TOOLS variable (since it is
+            no longer required).</li>
+        </ul>
+        <p align="center"><b>The following changes have been made to the RAINE32
+        guide:</b></p>
+        <ul>
+          <li>
+            <p align="center">Added a section about MSYS because it is required
+            to compile SDL and RAINE.</li>
+          <li>
+            <p align="center">Added a section about SDL because it is used by
+            RAINE v0.40.3 onwards.</li>
+          <li>
+            <p align="center">Removed the section on SEAL because it is no
+            longer used (SDL is used instead).</li>
+          <li>
+            <p align="center">Updated Allegro to the stable 4.0.3 release.</li>
+          <li>
+            <p align="center">Updated zlib to version 1.2.1.</li>
+          <li>
+            <p align="center">Updated UPX to version 1.25.</li>
+        </ul>
+        <p align="center">There is still some work to be done on the RAINE guide
+        but is now better than it was!
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>2 December 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have updated my guide about <a href="../HowTo/HowTo.shtml">compiling
+        MAME and RAINE</a>. The previous guide would successfully compile MAME
+        but it would crash when starting a game (due to the suggested version of
+        GCC being too old).</p>
+        <p align="center">I have also removed the guide for compiling DOS
+        versions of MAME and RAINE since it was outdated and I don't wish to
+        maintain it any longer.&nbsp;&nbsp;</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>25 November 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">Released <a href="../Tools/DatLib/DatLib.shtml">DatLib
+        v1.12</a>, <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil v2.9</a> and
+        <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v2.12</a> to fix a
+        problem that periodically arises with intermediate MAME builds (e.g.
+        MAME 0.88u7).</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>24 November 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">Released all of the required updates for MAME v0.89.</p>
+        <p align="center">Get them from the <a href="../Dats/Dats.shtml">data
+        files</a> page.</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>23 November 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">Released a data file for RAINE v0.42.0.</p>
+        <p align="center">Get it from the <a href="../Dats/Dats.shtml">data
+        files</a>  page.</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>11 November 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I've released a data file for ZiNc v1.0.2.</p>
+        <p align="center">Get it from the <a href="../Dats/Dats.shtml">data
+        files</a>  page.</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>26 October 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I've released an updated data file for ZiNc v1.0.1.<br>
+        A few of the ROMs turned out to use slightly different names to MAME.
+        The data file should be 100% correct now.</p>
+        <p align="center">Get it from the <a href="../Dats/Dats.shtml">data
+        files</a>  page.</p>
+        <p align="center">Released <a href="../Tools/DatLib/DatLib.shtml">DatLib
+        v1.11</a>, <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil v2.8</a> and
+        <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v2.11</a> which all
+        support ZiNc --list-sets output.</p>
+        <p align="center">Also released <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild
+        v2.2</a></p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>25 October 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">Released all of the required updates for MAME v0.88.</p>
+        <p align="center">Get them from the <a href="../Dats/Dats.shtml">data
+        files</a> page.</p>
+        <p align="center">I have also generated a data file for ZiNc v1.0.1 but
+        I won't have a chance to try the emulator out for a few days.<br>
+        I've made it the data file available for download but please remember
+        that it has not been tested with the emulator yet.</p>
+        <p align="center">I have added supplements for the Sega Model 2 Emulator
+        data file and also moved the Nebula Model 2 data file into the Older
+        Emus collection (also with supplements).</p>
+        <p align="center">Roman has updated the MAME Samples data file and
+        created a dummy sample too!</p>
+    </td>
+  </tr>
+</table>
+
+<hr>
+
+<p align="center"><a href="News18.shtml">July to September 2004</a> - <a href="News17.shtml">April to June 2004</a> - <a href="News16.shtml">January to March 2004</a></p>
+
+<p align="center"><a href="News15.shtml">October to December 2003</a> - <a href="News14.shtml">July to September 2003</a> - <a href="News13.shtml">April to June 2003</a> - <a href="News12.shtml">January to March 2003</a></p>
+
+<p align="center"><a href="News11.shtml">October to December 2002</a> - <a href="News10.shtml">July to September 2002</a> - <a href="News09.shtml">April to June
+2002</a> - <a href="News08.shtml">January to March 2002</a></p>
+
+<p align="center"><a href="News07.shtml">October to December 2001</a> - <a href="News06.shtml">July to September 2001</a> - <a href="News05.shtml">April to June 2001</a> - <a href="News04.shtml">January to March 2001</a></p>
+
+<p align="center"><a href="News03.shtml">October to December 2000</a> - <a href="News02.shtml">July to September 2000</a>
+- <a href="News01.shtml">April to June 2000</a></p>
+
+</body>
+</html>
