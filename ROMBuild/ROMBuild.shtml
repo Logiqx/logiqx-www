@@ -27,14 +27,24 @@ dats</a> that I have produced you can generate ROM sets for practically any emul
 MAME ROMs. In fact, the only ROMs you can't generate from MAME sets are where MAME doesn't
 support the game.</p>
 
-<p align="center">Download <a href="rmbld117.zip">ROMBuild v1.17</a> (98KB)</p>
+<p align="center">Download <a href="rmbld118.zip">ROMBuild v1.18</a> (111KB)</p>
 
-<p align="center"><a href="rmbld117.zip"><img src="../Resources/Disk.gif" border="0"
+<p align="center"><a href="rmbld118.zip"><img src="../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>9 March 2004</u></strong> - Released ROMBuild
+v1.18.</p>
+
+<p align="center"> Lots of changes around the Neo-Geo redumps of MAME v0.80:<br>
+            Removed Nebula<br>
+            Added ACE, RCPS<br>
+            Changed Calice, FBA, NeoRAGEx<br>
+<br>
+            Also removed S11Emu and Zinc</p>
 
 <p align="center"><strong><u>5 February 2004</u></strong> - Released ROMBuild
 v1.17.</p>
