@@ -29,7 +29,8 @@ alt="Downloading.gif (4965 bytes)"></p>
 basically three options: 
 
 <ol>
-  <li>Get the source for last official release.</li>
+  <li>Get the source for last official release. This is by far the easiest
+    option and the one that I would recommend!</li>
   <li>Get the daily snapshot from SourceForge (known as a tarball).</li>
   <li>Get the very latest source from SourceForge (using anonymous CVS).</li>
 </ol>
@@ -168,7 +169,7 @@ cvs -z3 update</font></p>
 <h1>5. Final Note</h1>
 
 <p>The source code is available at SourceForge for the RAINE developers to work on as a
-team and in an effective manner. It is publically accessible so that non-team members can
+team and in an effective manner. It is publicly accessible so that non-team members can
 download it, study it and see if they are able to contribute in any way. It is not there
 for public releases of the product before it is ready. By all means feel free to compile
 it for yourself but please do not distribute any executables.</p>

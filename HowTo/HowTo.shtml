@@ -27,14 +27,18 @@ environment.&nbsp;&nbsp;</p>
 non-development members of the RAINE team. I have released them in the hope that you may
 find them useful and to give you a better understanding of MinGW. If you have difficulties
 in understanding these instructions then please don't mail me directly asking for help as
-I am usually too busy! I am sure you will find suitable assistance in the MAME and
+I am usually too busy to answer! I am sure you will find suitable assistance in the MAME and
 RAINE message boards.</p>
 
 <p align="center">Documents:</p>
 
-<p align="center"><a href="WinMAME.shtml">Compiling MAME</a></p>
+<p align="center"><a href="WinMAME.shtml">Compiling MAME</a> and <a href="RAINE32.shtml">Compiling RAINE32</a></p>
+
+<p align="center">List&nbsp; below is an old document explaining how to download
+the RAINE source from SourceForge.<br>
+However, I suggest that you do not use this guide and just download the source
+from the <a href="http://www.rainemu.com/" target="_blank">RAINE</a> home page!</p>
 <p align="center"><a href="Downloading.shtml">Downloading the RAINE source using
 CVS</a> or using <a href="jCVS.shtml">jCVS ( JAVA CVS</a>)</p>
-<p align="center"><a href="RAINE32.shtml">Compiling RAINE32</a></p>
 </body>
 </html>

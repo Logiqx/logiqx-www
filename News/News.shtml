@@ -33,6 +33,21 @@ e-mailed about.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>24 February 2005</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have updated my <a href="../HowTo/HowTo.shtml">compile
+        guides</a> to make use of MSYS.</p>
+        <p align="center">These changes should make it quicker and simpler for
+        you to to set up a MinGW environment for MAME and/or RAINE.<br>
+        They also cut down the number of potential mistakes that can be made and
+        avoid common issues like paths conflicts (e.g. different versions of
+        'make' or 'patch' elsewhere on your machine).&nbsp;</p>
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>22 February 2005</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
