@@ -89,6 +89,9 @@ Library) is used by RAINE32 for graphics handling, sound and input handling.<br/
     take a couple of minutes to compile Allegro.</li>
 </ol>
 
+<p>Note: You may well some warnings about 'deprecated' functions. Don't
+worry, these are only warnings and are not fatal errors.</p>
+
 <p>After compiling Allegro, install it as follows (from the MSYS window that you
 compiled under) : 
 
@@ -127,7 +130,8 @@ part of Allegro so you don't need to download anything extra.</p>
   <li>Type 'cp tools/exedat.exe /mingw/bin'<em> </em>and press return.</li>
 </ol>
 
-<p>EXEDAT is now installed.</p>
+<p>EXEDAT is now installed. Once you have installed Allegro and EXEDAT, you can
+delete the Allegro directory&nbsp; if you wish.</p>
 
 <hr>
 
@@ -195,7 +199,8 @@ pre-compiled version below if you wish)<br>
   <li>Create a directory called <em>D:\zlib</em> and extract <em>zlib-1.2.2.tar.gz</em>
     into it
     using WinZip (or similar). </li>
-  <li>Edit <em>D:\zlib\</em><i>win32\zlib1.rc</i> and change the version numbers from '1,2,2' to
+  <li>Edit <em>D:\zlib\</em><i>win32\zlib1.rc</i>  with your favourite text
+    editor and change the version numbers from '1,2,2' to
     '1,2,2,0' (on lines 8 and 9). </li>
   <li>Open an MSYS window and change directory to <em>D:/zlib</em> (note
     the forward slash since you are using MSYS). </li>
