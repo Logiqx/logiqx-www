@@ -2,11 +2,11 @@
 <emulator id="CPS-2">
 	<img src="CPS-2.gif" width="80" height="40"/>
 	<name>CPS-2</name>
-	<version>20040711</version>
+	<version>20040817</version>
 	<suitability/>
-	<status></status>
-	<date>11/07/2004</date>
-	<games>165</games>
+	<status>Updated</status>
+	<date>17/08/2004</date>
+	<games>170</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Not all of these games are emulated yet (see my <a href="../../E-Mail/CPS-2.shtml">CPS-2</a> page for more information)...</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020040711%20(cm).zip" size="67"/>
+			<file name="CPS-2%2020040817%20(cm).zip" size="60"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020040711%20(rc).zip" size="37"/>
+			<file name="CPS-2%2020040817%20(rc).zip" size="35"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>17 August 2004</date>
+			<comment>Renamed cybots->cybotsu and sfar2->sfar3.<br/>Added cybots, mvscb, sfa3b, sfar2 and sfz2n.<br/>Removed datafile for sound ROMs and updated supplements for MAME v0.85.</comment>
+		</revision>
 		<revision>
 			<date>11 July 2004</date>
 			<comment>Added SHA1 information.</comment>

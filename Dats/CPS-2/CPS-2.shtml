@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>CPS-2 20040711</title>
+    <title>CPS-2 20040817</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="CPS-2.gif" width="80" height="40"></p>
-	<p>165 games of CPS-2 20040711</p>
+	<p>170 games of CPS-2 20040817</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="CPS-2%2020040711%20(cm).zip">CPS-2 dat for CMPro</a> (67KB)</p>
+            <p>Download <a href="CPS-2%2020040817%20(cm).zip">CPS-2 dat for CMPro</a> (60KB)</p>
             <p>
-              <a href="CPS-2%2020040711%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="CPS-2%2020040817%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="CPS-2%2020040711%20(rc).zip">CPS-2 dat for ROMCenter</a> (37KB)</p>
+            <p>Download <a href="CPS-2%2020040817%20(rc).zip">CPS-2 dat for ROMCenter</a> (35KB)</p>
             <p>
-              <a href="CPS-2%2020040711%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="CPS-2%2020040817%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>17 August 2004</u>
+        </strong> - 
+			
+			Renamed cybots-&gt;cybotsu and sfar2-&gt;sfar3.<br>Added cybots, mvscb, sfa3b, sfar2 and sfz2n.<br>Removed datafile for sound ROMs and updated supplements for MAME v0.85.
+		</p>
       <p>
         <strong>
           <u>11 July 2004</u>
