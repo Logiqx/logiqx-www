@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <!DOCTYPE contents_page SYSTEM "dtd/dats.dtd" [
-	<!ENTITY ACE SYSTEM "ACE/ACE.ent.xml">
 	<!ENTITY Calice SYSTEM "Calice/Calice.ent.xml">
 	<!ENTITY CottAGE SYSTEM "CottAGE/CottAGE.ent.xml">
 	<!ENTITY Daphne SYSTEM "Daphne/Daphne.ent.xml">
@@ -40,12 +39,9 @@
 	<!ENTITY CrashTestsMAMEScreenshots SYSTEM "CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.ent.xml">
 	<!ENTITY M1 SYSTEM "M1/M1.ent.xml">
 	<!ENTITY Hoot SYSTEM "Hoot/Hoot.ent.xml">
-	<!ENTITY GXP SYSTEM "GXP/GXP.ent.xml">
 	<!ENTITY U64Emu SYSTEM "U64Emu/U64Emu.ent.xml">
 	<!ENTITY S11Emu SYSTEM "S11Emu/S11Emu.ent.xml">
-	<!ENTITY YAAME SYSTEM "YAAME/YAAME.ent.xml">
 	<!ENTITY NeoRAGExSupp SYSTEM "NeoRAGExSupp/NeoRAGExSupp.ent.xml">
-	<!ENTITY SledgeHammer SYSTEM "SledgeHammer/SledgeHammer.ent.xml">
 	<!ENTITY WinKawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
 	<!ENTITY Zinc SYSTEM "Zinc/Zinc.ent.xml">
 	<!ENTITY MPU SYSTEM "MPU/MPU.ent.xml">
@@ -60,7 +56,6 @@
 			<p>Emulators that are up to six months old or likely to receive further updates.</p>
 		</comment>
 		<emulators>
-&ACE;
 &Calice;
 &CottAGE;
 &Daphne;
@@ -76,11 +71,9 @@
 &NebulaModel2;
 &RAINE;
 &SegaSystem24Emulator;
-&SledgeHammer;
 &U64Emu;
 &VivaNonno;
 &WinKawaks;
-&YAAME;
 &Zinc;
 		</emulators>
 	</section>
@@ -134,7 +127,6 @@
 			<p>Sound Emulators</p>
 		</comment>
 		<emulators>
-&GXP;
 &Hoot;
 &M1;
 &NebulaJukebox;

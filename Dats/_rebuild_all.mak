@@ -7,7 +7,6 @@ ROMCENTER_INF=RomCenter.inf
 FILELIST=Files.lst
 
 EMULATORS= \
-	ACE/ACE.shtml \
 	CPS-2/CPS-2.shtml \
 	CPS-1/CPS-1.shtml \
 	Calice/Calice.shtml \
@@ -47,11 +46,8 @@ EMULATORS= \
 	WinKawaks/WinKawaks.shtml \
 	M1/M1.shtml \
 	Hoot/Hoot.shtml \
-	GXP/GXP.shtml \
-	YAAME/YAAME.shtml \
 	MPU/MPU.shtml \
 	NeoRAGExSupp/NeoRAGExSupp.shtml \
-	SledgeHammer/SledgeHammer.shtml \
 	Zinc/Zinc.shtml \
 	VivaNonno/VivaNonno.shtml \
 

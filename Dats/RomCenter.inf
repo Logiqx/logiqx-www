@@ -16,8 +16,6 @@ email=support@romcenter.com
 			
 		
 		
-;ACE;v1.9;85;Logiqx;http://www.logiqx.com;;03/10/2002;http://www.logiqx.com/Dats/ACE/ACE%20v1.9%20(rc).zip
-
 
 ;Calice;v0.6.6;350;Logiqx;http://www.logiqx.com;;19/01/2003;http://www.logiqx.com/Dats/Calice/Calice%20v0.6.6%20(rc).zip
 
@@ -47,7 +45,7 @@ email=support@romcenter.com
 ;Modeler;v0.9.3a;20;Logiqx;http://www.logiqx.com;;09/12/2001;http://www.logiqx.com/Dats/ModelerNew/Modeler%20v0.9.3a.zip
 
 
-updated;Nebula;v2.23b;389;rosewood - Team Logiqx;http://www.logiqx.com;;24/04/2003;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.23b%20(rc).zip
+;Nebula;v2.23b;389;rosewood - Team Logiqx;http://www.logiqx.com;;24/04/2003;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.23b%20(rc).zip
 
 ;Nebula Model 2;v0.8;22;Logiqx;http://www.logiqx.com;;07/04/2003;http://www.logiqx.com/Dats/NebulaModel2/Nebula%20Model%202%20v0.8%20(rc).zip
 
@@ -57,16 +55,12 @@ updated;Nebula;v2.23b;389;rosewood - Team Logiqx;http://www.logiqx.com;;24/04/20
 
 ;Sega System 24 Emulator;20030208;6;rosewood - Team Logiqx;http://www.logiqx.com;;14/02/2003;http://www.logiqx.com/Dats/SegaSystem24Emulator/Sega%20System%2024%20Emulator%2020030208%20(rc).zip
 
-;SledgeHammer;v0.02;6;Logiqx;http://www.logiqx.com;;14/03/2002;http://www.logiqx.com/Dats/SledgeHammer/SledgeHammer%20v0.02.zip
-
 ;U64Emu;v3.04;2;Logiqx;http://www.logiqx.com;;09/10/2002;http://www.logiqx.com/Dats/U64Emu/U64Emu%20v3.04%20(rc).zip
 
 ;Viva Nonno;v22.0.3;6;Logiqx;http://www.logiqx.com;;03/10/2002;http://www.logiqx.com/Dats/VivaNonno/Viva%20Nonno%20v22.0.3%20(rc).zip
 
 
-updated;WinKawaks;v1.46;378;rosewood - Team Logiqx;http://www.logiqx.com;;18/04/2003;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.46%20(rc).zip
-
-;YAAME;v0.3;22;Logiqx;http://www.logiqx.com;;19/12/2002;http://www.logiqx.com/Dats/YAAME/YAAME%20v0.3%20(rc).zip
+;WinKawaks;v1.46;378;rosewood - Team Logiqx;http://www.logiqx.com;;18/04/2003;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.46%20(rc).zip
 
 ;Zinc;v0.9;26;Logiqx;http://www.logiqx.com;;03/10/2002;http://www.logiqx.com/Dats/Zinc/Zinc%20v0.9%20(rc).zip
 
@@ -79,7 +73,7 @@ updated;WinKawaks;v1.46;378;rosewood - Team Logiqx;http://www.logiqx.com;;18/04/
 			
 		
 		
-;Older Emus;(162 different ones!);100s of;Logiqx;http://www.logiqx.com;;19/01/2003;http://www.logiqx.com/Dats/OlderEmus/Older%20Emus%2020030118%20(rc).zip
+;Older Emus;(166 different ones!);100s of;Logiqx;http://www.logiqx.com;;06/05/2003;http://www.logiqx.com/Dats/OlderEmus/Older%20Emus%2020030506%20(rc).zip
 
 		
 	
@@ -102,13 +96,13 @@ updated;WinKawaks;v1.46;378;rosewood - Team Logiqx;http://www.logiqx.com;;18/04/
 		
 		
 
-;CPS-1;20030215;110;rosewood - Team Logiqx;http://www.logiqx.com;;10/03/2003;http://www.logiqx.com/Dats/CPS-1/CPS-1%2020030215%20(rc).zip
+updated;CPS-1;20030506;112;rosewood - Team Logiqx;http://www.logiqx.com;;06/05/2003;http://www.logiqx.com/Dats/CPS-1/CPS-1%2020030506%20(rc).zip
 
 
 ;CPS-2;20030413;139;Logiqx;http://www.logiqx.com;;13/04/2003;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020030413%20(rc).zip
 
 
-;Neo-Geo;20030215;163;Logiqx;http://www.logiqx.com;;10/03/2003;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020030215%20(rc).zip
+updated;Neo-Geo;20030506;164;Logiqx;http://www.logiqx.com;;06/05/2003;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020030506%20(rc).zip
 
 ;ZN;20021002;19;Logiqx;http://www.logiqx.com;;01/12/2002;http://www.logiqx.com/Dats/ZN/ZN%2020021201%20(rc).zip
 
@@ -132,8 +126,6 @@ updated;WinKawaks;v1.46;378;rosewood - Team Logiqx;http://www.logiqx.com;;18/04/
 			
 		
 		
-;GXP;v0.1;9;Logiqx;http://www.logiqx.com;;14/10/2001;http://www.logiqx.com/Dats/GXP/GXP%20v0.1.zip
-
 ;Hoot;20011002;248;Ben Jos - Team Logiqx;http://www.logiqx.com;;21/12/2002;http://www.logiqx.com/Dats/Hoot/Hoot%2020011002%20(rc).zip
 
 

@@ -2,11 +2,11 @@
 <emulator id="Neo-Geo">
 	<img src="Neo-Geo.gif" width="108" height="40"/>
 	<name>Neo-Geo</name>
-	<version>20030215</version>
+	<version>20030506</version>
 	<suitability/>
-	<status/>
-	<date>10/03/2003</date>
-	<games>163</games>
+	<status>Updated</status>
+	<date>06/05/2003</date>
+	<games>164</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>SNK Neo-Geo</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Neo-Geo%2020030215%20(cm).zip" size="38"/>
+			<file name="Neo-Geo%2020030506%20(cm).zip" size="42"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Neo-Geo%2020030215%20(rc).zip" size="43"/>
+			<file name="Neo-Geo%2020030506%20(rc).zip" size="47"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>6 May 2003</date>
+			<comment>Added jockeygp.</comment>
+		</revision>
 		<revision>
 			<date>9 April 2003</date>
 			<comment>No update required, supplements are fine for MAME v0.67.</comment>

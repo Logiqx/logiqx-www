@@ -1,10 +1,10 @@
 <emulator id="OlderEmus">
 	<img src="OlderEmus.gif" width="140" height="40"/>
 	<name>Older Emus</name>
-	<version>(162 different ones!)</version>
+	<version>(166 different ones!)</version>
 	<suitability></suitability>
 	<status></status>
-	<date>19/01/2003</date>
+	<date>06/05/2003</date>
 	<games>100s of</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 
@@ -13,16 +13,21 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Older%20Emus%2020030118%20(cm).zip" size="295"/>
+			<file name="Older%20Emus%2020030506%20(cm).zip" size="345"/>
 		</dat>
 
 		<dat>
 			&ROMCenter;
-			<file name="Older%20Emus%2020030118%20(rc).zip" size="293"/>
+			<file name="Older%20Emus%2020030506%20(rc).zip" size="332"/>
 		</dat>
 	</dats>
 
 	<revisions>
+		<revision>
+			<date>6 May 2003</date>
+			<comment>Added ACE, SledgeHammer, YAAME and GXP to the archive.</comment>
+		</revision>
+
 		<revision>
 			<date>18 January 2003</date>
 			<comment>Removed reference to the non-existent neogeo resource from Gekko Teaser.<br/>Removed duplicated ROMs from MMSnd v0.36b10,<br/>and Ben Jos added years, improved manufacturer names and corrected some bad CRCs.<br/>Changed title of vf2a (it is not Revision A) in Virtua.<br/>Added ThunderForce AC (Bootleg) to ROMBuild for Sega System C2 Emulator v0.2b,<br/>and replaced the bad dump of 1.bin with the good dump from MAME v0.63 (bit 7 was stuck).<br/>Added Mikie and SiEmu v1.03 (although these emulators are recent, the dats can live here!).</comment>

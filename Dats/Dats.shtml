@@ -30,15 +30,6 @@
             <strong>Games</strong>
           </td>
         </tr>
-			<tr>
-          <td>
-            <a href="ACE/ACE.shtml">ACE v1.9</a>
-          </td>
-          <td align="center"></td>
-          <td align="center">03/10/2002</td>
-          <td align="center">85</td>
-        </tr>
-
 			
 <tr>
           <td>
@@ -147,13 +138,9 @@
           <td>
             <a href="Nebula/Nebula.shtml">Nebula v2.23b</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>24/04/2003</strong>
-          </td>
-          <td align="center">
-            <strong>389</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">24/04/2003</td>
+          <td align="center">389</td>
         </tr>
 
 			<tr>
@@ -187,15 +174,6 @@
 
 			<tr>
           <td>
-            <a href="SledgeHammer/SledgeHammer.shtml">SledgeHammer v0.02</a>
-          </td>
-          <td align="center"></td>
-          <td align="center">14/03/2002</td>
-          <td align="center">6</td>
-        </tr>
-
-			<tr>
-          <td>
             <a href="U64Emu/U64Emu.shtml">U64Emu v3.04</a> (suitable for v3.05)</td>
           <td align="center"></td>
           <td align="center">09/10/2002</td>
@@ -216,22 +194,9 @@
           <td>
             <a href="WinKawaks/WinKawaks.shtml">WinKawaks v1.46</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>18/04/2003</strong>
-          </td>
-          <td align="center">
-            <strong>378</strong>
-          </td>
-        </tr>
-
-			<tr>
-          <td>
-            <a href="YAAME/YAAME.shtml">YAAME v0.3</a>
-          </td>
           <td align="center"></td>
-          <td align="center">19/12/2002</td>
-          <td align="center">22</td>
+          <td align="center">18/04/2003</td>
+          <td align="center">378</td>
         </tr>
 
 			<tr>
@@ -267,10 +232,10 @@
         </tr>
 			<tr>
           <td>
-            <a href="OlderEmus/OlderEmus.shtml">Older Emus (162 different ones!)</a>
+            <a href="OlderEmus/OlderEmus.shtml">Older Emus (166 different ones!)</a>
           </td>
           <td align="center"></td>
-          <td align="center">19/01/2003</td>
+          <td align="center">06/05/2003</td>
           <td align="center">100s of</td>
         </tr>
 
@@ -299,11 +264,15 @@
 			
 <tr>
           <td>
-            <a href="CPS-1/CPS-1.shtml">CPS-1 20030215</a>
+            <a href="CPS-1/CPS-1.shtml">CPS-1 20030506</a>
           </td>
-          <td align="center"></td>
-          <td align="center">10/03/2003</td>
-          <td align="center">110</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>06/05/2003</strong>
+          </td>
+          <td align="center">
+            <strong>112</strong>
+          </td>
         </tr>
 
 			
@@ -319,11 +288,15 @@
 			
 <tr>
           <td>
-            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20030215</a>
+            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20030506</a>
           </td>
-          <td align="center"></td>
-          <td align="center">10/03/2003</td>
-          <td align="center">163</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>06/05/2003</strong>
+          </td>
+          <td align="center">
+            <strong>164</strong>
+          </td>
         </tr>
 
 			<tr>
@@ -357,15 +330,6 @@
             <strong>Games</strong>
           </td>
         </tr>
-			<tr>
-          <td>
-            <a href="GXP/GXP.shtml">GXP v0.1</a>
-          </td>
-          <td align="center"></td>
-          <td align="center">14/10/2001</td>
-          <td align="center">9</td>
-        </tr>
-
 			<tr>
           <td>
             <a href="Hoot/Hoot.shtml">Hoot 20011002</a>

@@ -27,14 +27,19 @@ dats</a> that I have produced you can generate ROM sets for practically any emul
 MAME ROMs. In fact, the only ROMs you can't generate from MAME sets are where MAME doesn't
 support the game.</p>
 
-<p align="center">Download <a href="rmbld113.zip">ROMBuild v1.13</a>  (88KB)</p>
+<p align="center">Download <a href="rmbld114.zip">ROMBuild v1.14</a> (98KB)</p>
 
-<p align="center"><a href="rmbld113.zip"><img src="../Resources/Disk.gif" border="0"
+<p align="center"><a href="rmbld114.zip"><img src="../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>6 May 2003</u></strong> - Released ROMBuild v1.14.</p>
+
+<p align="center">Added gaiapols/gaiaplis for Hoot and M1.<br>
+            Added harddunk for Modeler.</p>
 
 <p align="center"><strong><u>18 January 2003</u></strong> - Released ROMBuild
 v1.13.</p>

@@ -2,11 +2,11 @@
 <emulator id="CPS-1">
 	<img src="CPS-1.gif" width="77" height="40"/>
 	<name>CPS-1</name>
-	<version>20030215</version>
+	<version>20030506</version>
 	<suitability/>
-	<status/>
-	<date>10/03/2003</date>
-	<games>110</games>
+	<status>Updated</status>
+	<date>06/05/2003</date>
+	<games>112</games>
 	<author href="http://www.logiqx.com">rosewood - Team Logiqx</author>
 	<comment>
 		<p>Capcom Play System 1</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-1%2020030215%20(cm).zip" size="23"/>
+			<file name="CPS-1%2020030506%20(cm).zip" size="27"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-1%2020030215%20(rc).zip" size="28"/>
+			<file name="CPS-1%2020030506%20(rc).zip" size="30"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>6 May 2003</date>
+			<comment>Added mercsua and stridrua.</comment>
+		</revision>
 		<revision>
 			<date>9 April 2003</date>
 			<comment>No update required, supplements are fine for MAME v0.67.</comment>

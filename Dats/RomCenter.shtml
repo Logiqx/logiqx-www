@@ -48,39 +48,6 @@
             </b>
           </td>
         </tr>
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
-						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="ACE/ACE%20v1.9%20(rc).zip">
-                <b>ACE</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v1.9</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">85</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">03/10/2002</font>
-          </td>
-        </tr>
-
 
 <tr>
           <td align="center">
@@ -455,7 +422,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						updated
+						-
 					</font>
             </b>
           </td>
@@ -595,39 +562,6 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="SledgeHammer/SledgeHammer%20v0.02.zip">
-                <b>SledgeHammer</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v0.02</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">6</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">14/03/2002</font>
-          </td>
-        </tr>
-
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
-						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
               <a href="U64Emu/U64Emu%20v3.04%20(rc).zip">
                 <b>U64Emu</b>
               </a>
@@ -689,7 +623,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						updated
+						-
 					</font>
             </b>
           </td>
@@ -715,39 +649,6 @@
           </td>
           <td>
             <font face="Arial" size="2">18/04/2003</font>
-          </td>
-        </tr>
-
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
-						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="YAAME/YAAME%20v0.3%20(rc).zip">
-                <b>YAAME</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v0.3</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">22</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">19/12/2002</font>
           </td>
         </tr>
 
@@ -835,13 +736,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="OlderEmus/Older%20Emus%2020030118%20(rc).zip">
+              <a href="OlderEmus/Older%20Emus%2020030506%20(rc).zip">
                 <b>Older Emus</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">(162 different ones!)</font>
+            <font face="Arial" size="2">(166 different ones!)</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -854,7 +755,7 @@
             <font face="Arial" size="2">100s of</font>
           </td>
           <td>
-            <font face="Arial" size="2">19/01/2003</font>
+            <font face="Arial" size="2">06/05/2003</font>
           </td>
         </tr>
 
@@ -978,19 +879,19 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						-
+						updated
 					</font>
             </b>
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="CPS-1/CPS-1%2020030215%20(rc).zip">
+              <a href="CPS-1/CPS-1%2020030506%20(rc).zip">
                 <b>CPS-1</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">20030215</font>
+            <font face="Arial" size="2">20030506</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -1000,10 +901,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">110</font>
+            <font face="Arial" size="2">112</font>
           </td>
           <td>
-            <font face="Arial" size="2">10/03/2003</font>
+            <font face="Arial" size="2">06/05/2003</font>
           </td>
         </tr>
 
@@ -1046,19 +947,19 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						-
+						updated
 					</font>
             </b>
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="Neo-Geo/Neo-Geo%2020030215%20(rc).zip">
+              <a href="Neo-Geo/Neo-Geo%2020030506%20(rc).zip">
                 <b>Neo-Geo</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">20030215</font>
+            <font face="Arial" size="2">20030506</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -1068,10 +969,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">163</font>
+            <font face="Arial" size="2">164</font>
           </td>
           <td>
-            <font face="Arial" size="2">10/03/2003</font>
+            <font face="Arial" size="2">06/05/2003</font>
           </td>
         </tr>
 
@@ -1223,39 +1124,6 @@
             </b>
           </td>
         </tr>
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
-						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="GXP/GXP%20v0.1.zip">
-                <b>GXP</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v0.1</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">9</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">14/10/2001</font>
-          </td>
-        </tr>
-
 <tr>
           <td align="center">
             <b>
