@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>CPS-2 20030413</title>
+    <title>CPS-2 20030603</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="CPS-2.gif" width="80" height="40"></p>
-	<p>139 games of CPS-2 20030413</p>
+	<p>146 games of CPS-2 20030603</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="CPS-2%2020030413%20(cm).zip">CPS-2 dat for CMPro</a> (29KB)</p>
+            <p>Download <a href="CPS-2%2020030603%20(cm).zip">CPS-2 dat for CMPro</a> (34KB)</p>
             <p>
-              <a href="CPS-2%2020030413%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="CPS-2%2020030603%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="CPS-2%2020030413%20(rc).zip">CPS-2 dat for ROMCenter</a> (35KB)</p>
+            <p>Download <a href="CPS-2%2020030603%20(rc).zip">CPS-2 dat for ROMCenter</a> (40KB)</p>
             <p>
-              <a href="CPS-2%2020030413%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="CPS-2%2020030603%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>3 June 2003</u>
+        </strong> - 
+			
+			Added seven new clones (19xxa, csclubh, megamn2a, mshb, mshvsfj2, nwarrb and sfzb).<br>Added XORs for ddsoma and sfar1,  renamed a ROM in mshh.
+		</p>
       <p>
         <strong>
           <u>21 May 2003</u>
