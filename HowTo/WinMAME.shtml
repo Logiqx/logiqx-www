@@ -19,9 +19,9 @@ H1 { font-size: 1pc }
 
 <p align="center"><img border="0" src="Compiling.gif" width="317" height="40"></p>
 
-<p align="center">25th January 2003</p>
+<p align="center">21st June 2003</p>
 
-<p align="center">Tested with MAME v0.63 and RAINE32 v0.37.0</p>
+<p align="center">Tested with MAME v0.68 and RAINE32 v0.37.0</p>
 
 <h1>1. Introduction</h1>
 
@@ -165,7 +165,7 @@ You can choose one of two options:</p>
 
 <hr>
 
-<h1>4. Installing DirectX 7.0 Headers (only needed for RAINE32)</h1>
+<h1>4. Installing DirectX 7.0 Headers</h1>
 
 <p>Although RAINE32 uses Allegro (not DirectX directly), Allegro needs the DirectX 
 7.0 headers when it is compiled.</p>
@@ -190,9 +190,6 @@ You can choose one of two options:</p>
   <li>Open<i> dx70_mgw.zip </i>with WinZip and extract the 38 'include' files into <em>
   D:\MINGW\INCLUDE</em></li>
 </ol>
-
-<p>Note: These are only needed to compile Allegro and will be replaced with 
-DirectX 6.1 headers once the Allegro library has been compiled.</p>
 
 <hr>
 
@@ -311,41 +308,7 @@ UNIX_TOOLS=1 as described earlier!</p>
 
 <hr>
 
-<h1>7. Installing DirectX 6.1 Headers (only needed for MAME)</h1>
-
-<p>DirectX 6.1 is used by
-MAME for graphics handling, sound and input handling. You therefore need to 
-install the DirectX 6.1 headers.</p>
-
-<table border="1" width="100%">
-<TBODY>
-  <tr>
-    <td width="150">File</td>
-    <td>Description</td>
-  </tr>
-  <tr>
-    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/directx6_1-cyg.tar.gz">directx6_1-cyg.tar.gz</a></td>
-    <td>DirectX 6.1 libraries and headers</td>
-  </tr>
-</TBODY>
-</table>
-
-<p>To install the DirectX 6.1 headers: 
-
-<ol>
-  <li>Open<i> directx6_1-cyg.tar.gz </i>with WinZip and extract the 28 'include' files into <em>
-  D:\MINGW\INCLUDE</em></li>
-</ol>
-
-<p>For all 28 files, you will be asked whether you want to overwrite the existing header files. 
-Since all of the existing headers are for DirectX 7.0 (they were used for the Allegro
-compilation) you should 
-answer 'yes' and overwrite them. You only need headers for DirectX 6.1 from now
-on.</p>
-
-<hr>
-
-<h1>8. Installing NASM</h1>
+<h1>7. Installing NASM</h1>
 
 <p><a href="http://sourceforge.net/projects/nasm/">NASM</a> (Netwide Assembler) is used by
 MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
@@ -377,7 +340,7 @@ MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
 
 <hr>
 
-<h1>9. Installing zlib</h1>
+<h1>8. Installing zlib</h1>
 
 <p><a href="http://www.gzip.org/zlib/">zlib</a> (ZIP library) is used by MAME and RAINE32 for loading zipped ROMs. You will require the following archive:</p>
 
@@ -432,7 +395,7 @@ it can be done anywhere on your machine.</p>
 
 <hr>
 
-<h1>10. Installing SEAL (only needed for RAINE32)</h1>
+<h1>9. Installing SEAL (only needed for RAINE32)</h1>
 <p>SEAL (Synthetic Audio Library) is
 used by RAINE32 for sound. You will need the following archive(s):</p>
 <table border="1" width="100%">
@@ -471,7 +434,7 @@ used by RAINE32 for sound. You will need the following archive(s):</p>
 <p>SEAL is now installed for MinGW.</p>
 <hr>
 
-<h1>11. Installing UPX (only needed for RAINE32)</h1>
+<h1>10. Installing UPX (only needed for RAINE32)</h1>
 
 <p><a href="http://upx.sourceforge.net/">UPX</a> (Ultimate Packer for
 eXecutables) is used to reduce the size of the RAINE32 executable. You will
@@ -502,7 +465,7 @@ just MAME and RAINE32).</p>
 
 <hr>
 
-<h1>12. Compiling MAME</h1>
+<h1>11. Compiling MAME</h1>
 
 <p>The MAME source comes as a ZIP inside a ZIP to gain the greatest compression possible.
 To compile MAME follow these steps: 
@@ -521,7 +484,7 @@ low-spec machine could take some time!</p>
 
 <hr>
 
-<h1>13. Compiling RAINE32</h1>
+<h1>12. Compiling RAINE32</h1>
 
 <p>To compile RAINE32 follow these steps: 
 
