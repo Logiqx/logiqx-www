@@ -24,14 +24,20 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff29.zip">MAMEDiff v2.9</a> (95KB)</p>
+<p align="center">Download <a href="mdiff210.zip">MAMEDiff v2.10</a> (95KB)</p>
 
-<p align="center"><a href="mdiff29.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff210.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>18 August 2004</strong>
+</u>- MAMEDiff v2.10<br>
+<br>
+- Uses DatLib v1.10.<br>
+            - Better handling of 'clones of clones' when loading data files.</font></p>
 
 <p align="center"><strong><u>2 August 2004</u></strong> - MAMEDiff v2.9</p>
 

@@ -25,15 +25,20 @@ by tools such as DatUtil, MAMEDiff, ROMBuild, ROMInfo and ZipIdent.</p>
 <p align="center">This package is a source only release and is only required if
 you want to compile any of my tools.</p>
 
-<p align="center"><font color="#000000">Download </font><a href="datlib19.zip">DatLib
-v1.9</a><font color="#000000">     (60KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="datlib110.zip">DatLib
+v1.10</a><font color="#000000">     (60KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="datlib19.zip"><img
+<p align="center"><font color="#000000"><a href="datlib110.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>18 August 2004</strong>
+</u>- DatLib v1.10<br>
+<br>
+- Better handling of 'clones of clones' when loading data files.</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>30 July 2004</strong>
 </u>- DatLib v1.9<br>
