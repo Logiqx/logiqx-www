@@ -23,13 +23,13 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="RAINE%20v0.41.1%20(cm).zip">RAINE dat for CMPro</a> (218KB)</p>
+            <p>Download <a href="RAINE%20v0.41.1%20(cm).zip">RAINE dat for CMPro</a> (224KB)</p>
             <p>
               <a href="RAINE%20v0.41.1%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="RAINE%20v0.41.1%20(rc).zip">RAINE dat for ROMCenter</a> (89KB)</p>
+            <p>Download <a href="RAINE%20v0.41.1%20(rc).zip">RAINE dat for ROMCenter</a> (92KB)</p>
             <p>
               <a href="RAINE%20v0.41.1%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -38,6 +38,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>23 September 2004</u>
+        </strong> - 
+			
+			Updated supplements for MAME v0.87.
+		</p>
       <p>
         <strong>
           <u>10 September 2004</u>

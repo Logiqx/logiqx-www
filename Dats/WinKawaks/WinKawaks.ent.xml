@@ -4,8 +4,8 @@
 	<name>WinKawaks</name>
 	<version>v1.49</version>
 	<suitability/>
-	<status></status>
-	<date>16/08/2004</date>
+	<status>Updated</status>
+	<date>23/09/2004</date>
 	<games>409</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="WinKawaks%20v1.49%20(cm).zip" size="189"/>
+			<file name="WinKawaks%20v1.49%20(cm).zip" size="196"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="WinKawaks%20v1.49%20(rc).zip" size="87"/>
+			<file name="WinKawaks%20v1.49%20(rc).zip" size="91"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>23 September 2004</date>
+			<comment>Updated supplements for MAME v0.87.</comment>
+		</revision>
 		<revision>
 			<date>24 August 2004</date>
 			<comment>No change required for MAME v0.86.</comment>
