@@ -33,6 +33,20 @@ e-mailed about.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>15 January 2005</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have made a big update to the internals of DatLib
+        and therefore released the following updates:</p>
+        <p align="center"> <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
+        v2.12</a>, <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v2.14</a>,
+        <a href="../Tools/ZIPIdent/ZIPIdent.shtml">ZIPIdent v2.3</a> and <a href="../Tools/DatLib/DatLib.shtml">DatLib
+        v2.0</a></p>
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>13 February 2005</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>

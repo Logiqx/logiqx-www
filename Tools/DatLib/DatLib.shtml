@@ -25,15 +25,40 @@ by tools such as DatUtil, MAMEDiff, ROMBuild, ROMInfo and ZipIdent.</p>
 <p align="center">This package is a source only release and is only required if
 you want to compile any of my tools.</p>
 
-<p align="center"><font color="#000000">Download </font><a href="datlib114.zip">DatLib
-v1.14</a><font color="#000000">       (61KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="datlib20.zip">DatLib
+v2.0</a><font color="#000000">        (75KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="datlib114.zip"><img
+<p align="center"><font color="#000000"><a href="datlib20.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>15 February 2005</strong>
+</u>- DatLib v2.0<br>
+<br>
+- Compiled with GCC 3.4.2 (previously used GCC 3.2.3).<br>
+            - Added 'sourcefile' support to the listinfo and listxml drivers.<br>
+            - Now supports all known details in listinfo and listxml.<br>
+            - Use the flag OPTION_KEEP_FULL_DETAILS to switch on full loading!<br>
+            - N.b. ROM region is not loaded without OPTION_KEEP_FULL_DETAILS.<br>
+            - Supports 'history' entries (when using OPTION_KEEP_FULL_DETAILS).<br>
+            - Added support for \\, \n, \xXX and \" in ListInfo (e.g. history).<br>
+            - Improved entity handling (e.g. &amp;amp; &amp;#X;) in the ListXML parser.<br>
+            - Supports 2 additional MESS objects (devices and extensions).<br>
+            - DatLib can now save data in listxml format (MAME and MESS).<br>
+            - Changed the listxml and listinfo drivers to use simple macros.<br>
+            - Changed the internal representation of baddump/nodump.<br>
+            - Complemented CRCs are reported (should use flags nodump instead).<br>
+            - Added checks for MD5 and SHA1 conflicts (CRCs already checked).<br>
+            - Added OPTION_FIX_MERGING_OFF and OPTION_REMOVE_DUPLICATES_OFF.<br>
+            - Added OPTION_SOURCEFILE_SELECTION and OPTION_INVERT_SELECTION.<br>
+            - Added support for external selection files with the @ symbol.<br>
+            - Renamed OPTION_GAME to OPTION_GAME_SELECTION.<br>
+            - Renamed OPTION_GAME_AND_CLONES to OPTION_CLONE_SELECTION.<br>
+            - Removed the hack made in DatLib v1.13 for Calice drivers.<br>
+            - Removed funny size and missing year checks (pretty useless now).</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>16 January 2005</strong>
 </u>- DatLib v1.14<br>

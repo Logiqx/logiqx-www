@@ -47,7 +47,7 @@ drive and location that you wish (so long as you think about what you are doing!
 
 <h1>2. Installing the Compiler</h1>
 
-<p><a href="http://sourceforge.net/projects/mingw" target="_blank">MinGW</a> comes as separate
+<p><a href="http://mingw.sourceforge.net/" target="_blank">MinGW</a> comes as separate
 downloadable components so you will need the following to compile MAME and RAINE32:</p>
 
 <table border="1" width="100%">
@@ -231,7 +231,7 @@ any questions asking if you wish to overwrite existing files.</p>
 
 <h1>5. Installing NASM</h1>
 
-<p><a href="http://sourceforge.net/projects/nasm/" target="_blank">NASM</a> (Netwide Assembler) is used by
+<p><a href="http://nasm.sourceforge.net/" target="_blank">NASM</a> (Netwide Assembler) is used by
 MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
 
 <table border="1" width="100%">
@@ -245,8 +245,8 @@ MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
     <a href="http://caesar.logiqx.com/zips/tools/assemblers/nasm/nasm-0.98.38-win32.zip">nasm-0.98.38-win32.zip</a></td>
     <td bgcolor="#CCFFCC">NASM 0.98.38 for Win32
       <p>You can get the latest version of NASM from the
-      SourceForge link above. Select 'Win32 binaries' from under 'Latest File
-      Releases', then download the latest .zip file.</p>
+      SourceForge link above. Click the 'Download' link then go to the 'Win32 binaries'
+      right at the bottom of the page.</p>
     </td>
   </tr>
 </TBODY>

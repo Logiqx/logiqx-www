@@ -25,14 +25,21 @@ of the 'unemulated' collection and into a separate directory.<br>
 It is quite similar to MAME's '-romident' function except for the fact that it processes entire ROM collections, not just an individual ZIP. ZIPIdent
 probably has some additional logic that '-romident' doesn't contain too (not checked).</p>
 
-<p align="center">Download <a href="zident22.zip">ZIPIdent v2.2</a> (76KB)</p>
+<p align="center">Download <a href="zident23.zip">ZIPIdent v2.3</a> (119KB)</p>
 
-<p align="center"><a href="zident22.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="zident23.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font size="3"><strong><u>15 February 2005</u></strong> - ZIPIdent
+v2.3</font></p>
+
+<p align="center"><font size="3">- Uses DatLib v2.0.<br>
+            - Uses the DatLib flag OPTION_KEEP_FULL_DETAILS (for ROM regions).<br>
+            - Moved the macro FORMAT_GAME_NAME out of DatLib, into ZIPIdent.</font></p>
 
 <p align="center"><font size="3"><strong><u>22 July 2004</u></strong> - ZIPIdent
 v2.2</font></p>

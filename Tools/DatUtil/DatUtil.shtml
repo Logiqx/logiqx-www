@@ -24,29 +24,62 @@ cleanse dats. It supports a variety of formats...<br>
 <br>
   - MAME ListInfo (ClrMamePro, MAME, MESS, RAINE, Shark)<br>
   - RomCenter 2.50<br>
+  - MAME ListXML (MAME and MESS)<br>
 <br>
 <b>Load only:</b><br>
 <br>
-  - RomCenter 1.90 and 2.00<br>
-  - MAME and MESS ListXML<br>
+  - RomCenter 1.90<br>
+  - RomCenter 2.00<br>
   - Nebula Drivers<br>
-- ZiNc --list-sets<br>
+  - Calice Drivers<br>
+  - Zinc --list-sets<br>
+  - GNGEO romrc<br>
   - ClrMame Log<br>
-  - Folder Scan (subdirectories and zips)<br>
-<br>
+  - Folder Scan (subdirectories and zips)</p>
+
+<p align="center">
 <b>Save only:</b><br>
 <br>
   - Title List (for listing game titles - used by CPS-2 readme and RAINE docs)</p>
 
-<p align="center"><font color="#000000">Download </font><a href="dutil211.zip">DatUtil
-v2.11</a><font color="#000000">                    (83KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="dutil212.zip">DatUtil
+v2.12</a><font color="#000000">                     (118KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="dutil211.zip"><img
+<p align="center"><font color="#000000"><a href="dutil212.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>15 February 2005</strong>
+</u>- DatUtil v2.12<br>
+<br>
+</font><font color="#000000" size="3">- Uses DatLib v2.0.<br>
+            - Compiled with GCC 3.4.2 (previously used GCC 3.2.3).<br>
+            - Rewrote the manual, please read it from start to end. ;)<br>
+            - Changed the summary of switches produced by DatUtil -?.<br>
+            - Added the -k option to keep all details (chips, dips, etc).<br>
+            - Added the -G option to select games from a specified sourcefile.<br>
+            - Added the -! option so that -g and -G can be used as exclusions.<br>
+            - Added the -X option to switch off 'fix merging' (use with -g).<br>
+            - Added the -D option to switch off 'remove duplicates' (as above).<br>
+            - Removed the -z and -y options as they are redundant now.<br>
+<br>
+            - DatLib v2.0 (enhancements relating to DatUtil):<br>
+            - Added 'sourcefile' support to the listinfo and listxml drivers.<br>
+            - Supports all known details in listinfo and listxml (-k option).<br>
+            - N.b. ROM region is not loaded unless using the datutil -k option.<br>
+            - Supports 'history' entries (when using the -k option).<br>
+            - Added support for \\, \n, \xXX and \" in ListInfo (e.g. history).<br>
+            - Improved entity handling (e.g. &amp;amp; &amp;#X;) in the ListXML parser.<br>
+            - Supports 2 additional MESS objects (devices and extensions).<br>
+            - DatLib can now save data in listxml format (MAME and MESS).<br>
+            - Complemented CRCs are reported (should use flags nodump instead).<br>
+            - Added checks for MD5 and SHA1 conflicts (CRCs already checked).<br>
+            - Added support for external selection files with the @ symbol.<br>
+            - Removed the hack made in DatLib v1.13 for Calice drivers.<br>
+            - Removed funny size and missing year checks (pretty useless now).</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>16 January 2005</strong>
 </u>- DatUtil v2.11<br>
