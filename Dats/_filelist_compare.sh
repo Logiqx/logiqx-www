@@ -20,8 +20,8 @@ diff $ZTNET_TXT $PC_TXT >$CMP_TMP
 
 # --- Show missing/incorrect files
 
-echo "Missing/incorrect files: "`grep '^>' $CMP_TMP|grep -v "_filelist_.*\.txt"|wc -l|awk '{print $1}'`
-grep '^>' $CMP_TMP|grep -v "_filelist_.*\.txt"
+echo "Missing/incorrect files: "`grep '^>' $CMP_TMP|grep -v "_filelist_.*\.txt"|grep -v CVS|wc -l|awk '{print $1}'`
+grep '^>' $CMP_TMP|grep -v "_filelist_.*\.txt"|grep -v CVS
 
 # --- Show unneeded files
 
