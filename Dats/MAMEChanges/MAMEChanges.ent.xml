@@ -10,7 +10,7 @@
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>These dats have been created using MAMEDiff (-M, -S, -N options as well as -T)</p>
-		<p>Previous dats are still online, there's just no link. You can find them in the same directory as the current dats!</p>
+		<p>Previous dats are <a href="MAMEChangesHistory.shtml">still online</a>. The page is generated dynamically so be please patient with it!</p>
 	</comment>
 	<dats>
 		<dat>
