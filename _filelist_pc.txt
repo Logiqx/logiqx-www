@@ -136,13 +136,14 @@ Dats/MAMEChanges/CVS	MAME v0.73 Changes (cm).zip,t	0
 Dats/MAMEChanges/CVS	MAME v0.73 Changes (rc).zip,t	0
 Dats/MAMEChanges/CVS	Repository	40
 Dats/MAMEChanges/CVS	Root	26
+Dats/MAMESamples	dummy.zip	482
 Dats/MAMESamples	MAME Samples 20050110 (cm).zip	29232
 Dats/MAMESamples	MAME Samples 20050110 (rc).zip	11240
 Dats/MAMESamples	MAMESamples.ent.xml	4486
 Dats/MAMESamples	MAMESamples.gif	3539
 Dats/MAMESamples	MAMESamples.shtml	5298
 Dats/MAMESamples	MAMESamples.xml	187
-Dats/MAMESamples/CVS	Entries	352
+Dats/MAMESamples/CVS	Entries	402
 Dats/MAMESamples/CVS	Repository	40
 Dats/MAMESamples/CVS	Root	26
 Dats/MPU	MPU 3-4 v6.5 - 20010808 - RC.zip	2583
