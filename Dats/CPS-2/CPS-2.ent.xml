@@ -14,16 +14,20 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020050103%20(cm).zip" size="60"/>
+			<file name="CPS-2%2020050103%20(cm).zip" size="57"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020050103%20(rc).zip" size="34"/>
+			<file name="CPS-2%2020050103%20(rc).zip" size="32"/>
 		</dat>
 	</dats>
 	<revisions>
 		<revision>
-			<date>4 January 2004</date>
+			<date>4 January 2005 - Pt. 2</date>
+			<comment>Updated supplements for MAME v0.90.</comment>
+		</revision>
+		<revision>
+			<date>4 January 2005</date>
 			<comment>Added pgear and pgeara. Updated pgearj.<br/>Removed hoarded ROMs (jgokushi, choko and hsf2a).</comment>
 		</revision>
 		<revision>

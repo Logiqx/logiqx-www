@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="WinKawaks%20v1.52%20(cm).zip" size="211"/>
+			<file name="WinKawaks%20v1.52%20(cm).zip" size="208"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="WinKawaks%20v1.52%20(rc).zip" size="100"/>
+			<file name="WinKawaks%20v1.52%20(rc).zip" size="98"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>4 January 2005 - Pt. 2</date>
+			<comment>Updated supplements for MAME v0.90.</comment>
+		</revision>
 		<revision>
 			<date>4 January 2005</date>
 			<comment>Updated for WinKawaks v1.52.</comment>

@@ -23,13 +23,13 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="CPS-2%2020050103%20(cm).zip">CPS-2 dat for CMPro</a> (60KB)</p>
+            <p>Download <a href="CPS-2%2020050103%20(cm).zip">CPS-2 dat for CMPro</a> (57KB)</p>
             <p>
               <a href="CPS-2%2020050103%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="CPS-2%2020050103%20(rc).zip">CPS-2 dat for ROMCenter</a> (34KB)</p>
+            <p>Download <a href="CPS-2%2020050103%20(rc).zip">CPS-2 dat for ROMCenter</a> (32KB)</p>
             <p>
               <a href="CPS-2%2020050103%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -40,7 +40,14 @@
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
       <p>
         <strong>
-          <u>4 January 2004</u>
+          <u>4 January 2005 - Pt. 2</u>
+        </strong> - 
+			
+			Updated supplements for MAME v0.90.
+		</p>
+      <p>
+        <strong>
+          <u>4 January 2005</u>
         </strong> - 
 			
 			Added pgear and pgeara. Updated pgearj.<br>Removed hoarded ROMs (jgokushi, choko and hsf2a).

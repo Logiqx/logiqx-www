@@ -37,17 +37,23 @@ e-mailed about.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-        <p align="center">Another year and the first couple of data file
-        updates:</p>
-        <p align="center">WinKawaks v1.52 and CPS-2 20050103.</p>
-        <p align="center">Get them from the <a href="../Dats/Dats.shtml">data
+        <p align="center"><b>Another year and the first couple of data file
+        updates:</b></p>
+        <p align="center">1. WinKawaks v1.52 and CPS-2 20050103. Get them from the <a href="../Dats/Dats.shtml">data
         files</a> page.</p>
-        <p align="center">Also, I have updated a variety of the Older Emus data
+        <p align="center">2. Also, I have updated a variety of the Older Emus data
         files. All of them are available in one big ZIP!</p>
-        <p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
+        <p align="center">3. Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
         v2.10</a> and <a href="../Tools/DatLib/DatLib.shtml">DatLib v1.13</a></p>
-        <p align="center">Some of my previous updates from the past few days
+        <p align="center">4. Some of my previous updates from the past few days
         seem to have disappeared too so I have re-uploaded them!</p>
+        <p align="center">5. Finally, lots of updates for MAME v0.90 (all on the <a href="../Dats/Dats.shtml">data
+        files</a>  page):</p>
+        <p align="center">MAME, MAME Changes,<br>
+        RAINE (Supplements), Kawaks (Supplements), M1 (Supplements), Nebula
+        Jukebox (Supplements),<br>
+        MAME Artwork, MAME Samples,<br>
+        CPS-1, CPS-2 (Supplements), Neo-Geo</p>
     </td>
   </tr>
 </table>
