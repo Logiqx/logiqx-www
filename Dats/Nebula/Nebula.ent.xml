@@ -2,26 +2,30 @@
 <emulator id="Nebula">
 	<img src="Nebula.gif" width="85" height="40"/>
 	<name>Nebula</name>
-	<version>v2.23</version>
-	<suitability>v2.23a</suitability>
-	<status/>
-	<date>10/03/2003</date>
-	<games>386</games>
-	<author href="http://www.logiqx.com">Logiqx</author>
+	<version>v2.23b</version>
+	<suitability></suitability>
+	<status>Updated</status>
+	<date>24/04/2003</date>
+	<games>389</games>
+	<author href="http://www.logiqx.com">rosewood - Team Logiqx</author>
 	<comment>
 		<p>Nebula emulates Capcom CPS-1, CPS-2 and Neo-Geo games.</p>
 	</comment>
 	<dats>
 		<dat>
                         &CMPro;
-                        <file name="Nebula%20v2.23%20(cm).zip" size="71"/>
+                        <file name="Nebula%20v2.23b%20(cm).zip" size="72"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-                        <file name="Nebula%20v2.23%20(rc).zip" size="82"/>
+                        <file name="Nebula%20v2.23b%20(rc).zip" size="84"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>24 April 2003</date>
+			<comment>Renamed batcir->batcire (again) and ssf2->ssf2u. Added mpangj, ssf2, jockeygp. Updated uni-bios.</comment>
+		</revision>
 		<revision>
 			<date>9 April 2003</date>
 			<comment>No update required, supplements are fine for MAME v0.67.</comment>
