@@ -2,11 +2,11 @@
 <emulator id="WinKawaks">
 	<img src="WinKawaks.gif" width="141" height="40"/>
 	<name>WinKawaks</name>
-	<version>v1.48</version>
+	<version>v1.49</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>03/02/2004</date>
-	<games>407</games>
+	<date>02/03/2004</date>
+	<games>409</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Kawaks emulates CPS-1, CPS-2 and Neo-Geo games.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="WinKawaks%20v1.48%20(cm).zip" size="79"/>
+			<file name="WinKawaks%20v1.49%20(cm).zip" size="85"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="WinKawaks%20v1.48%20(rc).zip" size="90"/>
+			<file name="WinKawaks%20v1.49%20(rc).zip" size="98"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>2 March 2003</date>
+			<comment>Updated for WinKawaks v1.49. Use <a href="../../ROMBuild/rbmame80.zip">ROMBuild</a> [MAME v0.80 Special] to build the new Neo-Geo ROMs.</comment>
+		</revision>
 		<revision>
 			<date>3 February 2003</date>
 			<comment>Updated for WinKawaks v1.48.</comment>

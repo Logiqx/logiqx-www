@@ -38,6 +38,38 @@ etc.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>2 March 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+      <p align="center">&nbsp;Released some updated data files:</p>
+      <p align="center"><a href="../Dats/RAINE/RAINE.shtml">RAINE</a> (v0.39.4d), <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks</a>
+      (v1.49),
+      <a href="../Dats/M1/M1.shtml">M1</a> (v0.7.5a3) and <a href="../Dats/ZN/ZN.shtml">ZN</a> 
+      (20040302).</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong><u>1 March 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+      <p align="center">I am back from a weekend away and found that the first
+      emulator has been released that supports the new Neo-Geo re-dumps.</p>
+      <p align="center">Since it was such a simple matter for me to provide a
+      tool that can build them for you, here it is:</p>
+      <p align="center"><a href="../ROMBuild/rbmame80.zip"> ROMBuild [MAME v0.80 special]</a>
+      (yes, it was named in advance of any emulator releases)</p>
+      <p align="center">29 games have been re-dumped but 3 of the games only
+      have changes in the parent.</p>
+      <p align="center">This tool will create ROMs for all 29 games, although in
+      a split-merged ROM collection it is only the 26 parent ZIPs that must
+      change (the number of games that the tool says it supports).
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>26 February 2004</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>

@@ -2,11 +2,11 @@
 <emulator id="M1">
 	<img src="M1.gif" width="35" height="40"/>
 	<name>M1</name>
-	<version>v0.7.4b</version>
+	<version>v0.7.5a3</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>31/01/2004</date>
-	<games>1055</games>
+	<date>02/03/2004</date>
+	<games>1076</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Arcade machine sound player.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="M1%20v0.7.4b%20(cm).zip" size="108"/>
+			<file name="M1%20v0.7.5a3%20(cm).zip" size="111"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="M1%20v0.7.4b%20(rc).zip" size="107"/>
+			<file name="M1%20v0.7.5a3%20(rc).zip" size="110"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>2 March 2004</date>
+			<comment>Updated for M1 v0.7.5a3 (public test).</comment>
+		</revision>
 		<revision>
 			<date>31 January 2004</date>
 			<comment>Updated supplements for MAME v0.79.</comment>
