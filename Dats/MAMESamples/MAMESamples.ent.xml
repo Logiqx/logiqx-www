@@ -23,6 +23,10 @@
 	</dats>
 	<revisions>
 		<revision>
+			<date>24 August 2004</date>
+			<comment>No change required for MAME v0.86.</comment>
+		</revision>
+		<revision>
 			<date>13 July 2004</date>
 			<comment>I missed the rename of BOOM.wav to boom.wav! Use version 20040702 to correct it.</comment>
 		</revision>

@@ -5,7 +5,7 @@
 	<version>v0.40.5</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>16/08/2004</date>
+	<date>24/08/2004</date>
 	<games>497</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>24 August 2004</date>
+			<comment>Updated supplements for MAME v0.86.</comment>
+		</revision>
 		<revision>
 			<date>16 August 2004</date>
 			<comment>Updated to match RAINE v0.40.5. Supplements are for MAME v0.85.</comment>
