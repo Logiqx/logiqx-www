@@ -61,37 +61,33 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="FinalBurnAlpha/FinalBurnAlpha.shtml">FBA v0.2.94.98</a>
           </td>
+          <td align="center"></td>
+          <td align="center">10/04/2004</td>
+          <td align="center">494</td>
+        </tr>
+
+			
+<tr>
+          <td>
+            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.82</a>
+          </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>10/04/2004</strong>
+            <strong>09/05/2004</strong>
           </td>
           <td align="center">
-            <strong>494</strong>
+            <strong>4921</strong>
           </td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.81</a>
+            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.82</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>10/04/2004</strong>
-          </td>
-          <td align="center">
-            <strong>4841</strong>
-          </td>
-        </tr>
-
-			
-<tr>
-          <td>
-            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.81</a>
-          </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>10/04/2004</strong>
+            <strong>09/05/2004</strong>
           </td>
           <td align="center">
             <strong>Various</strong>
@@ -103,13 +99,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="Nebula/Nebula.shtml">Nebula v2.24</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>10/04/2004</strong>
-          </td>
-          <td align="center">
-            <strong>422</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">10/04/2004</td>
+          <td align="center">422</td>
         </tr>
 
 			
@@ -127,13 +119,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="RAINE/RAINE.shtml">RAINE v0.40.0</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>10/04/2004</strong>
-          </td>
-          <td align="center">
-            <strong>486</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">10/04/2004</td>
+          <td align="center">486</td>
         </tr>
 
 			
@@ -141,13 +129,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="WinKawaks/WinKawaks.shtml">WinKawaks v1.49</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>10/04/2004</strong>
-          </td>
-          <td align="center">
-            <strong>409</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">10/04/2004</td>
+          <td align="center">409</td>
         </tr>
 
 		</table>
@@ -219,26 +203,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="CPS-2/CPS-2.shtml">CPS-2 20040409</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>10/04/2004</strong>
-          </td>
-          <td align="center">
-            <strong>165</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">10/04/2004</td>
+          <td align="center">165</td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20040410</a>
+            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20040509</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>10/04/2004</strong>
+            <strong>09/05/2004</strong>
           </td>
           <td align="center">
-            <strong>189</strong>
+            <strong>190</strong>
           </td>
         </tr>
 
@@ -246,13 +226,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="ZN/ZN.shtml">ZN 20040410</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>10/04/2004</strong>
-          </td>
-          <td align="center">
-            <strong>20</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">10/04/2004</td>
+          <td align="center">20</td>
         </tr>
 
 		</table>
@@ -282,9 +258,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="M1/M1.shtml">M1 v0.7.5a3</a>
           </td>
-          <td align="center"></td>
-          <td align="center">07/03/2004</td>
-          <td align="center">1076</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>09/05/2004</strong>
+          </td>
+          <td align="center">
+            <strong>1076</strong>
+          </td>
         </tr>
 
 			

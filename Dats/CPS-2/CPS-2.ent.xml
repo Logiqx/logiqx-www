@@ -4,7 +4,7 @@
 	<name>CPS-2</name>
 	<version>20040409</version>
 	<suitability/>
-	<status>Updated</status>
+	<status></status>
 	<date>10/04/2004</date>
 	<games>165</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>9 May 2004</date>
+			<comment>No change required for MAME v0.82.</comment>
+		</revision>
 		<revision>
 			<date>10 April 2004</date>
 			<comment>Updated for MAME v0.81.</comment>

@@ -23,13 +23,13 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="M1%20v0.7.5a3%20(cm).zip">M1 dat for CMPro</a> (112KB)</p>
+            <p>Download <a href="M1%20v0.7.5a3%20(cm).zip">M1 dat for CMPro</a> (111KB)</p>
             <p>
               <a href="M1%20v0.7.5a3%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="M1%20v0.7.5a3%20(rc).zip">M1 dat for ROMCenter</a> (111KB)</p>
+            <p>Download <a href="M1%20v0.7.5a3%20(rc).zip">M1 dat for ROMCenter</a> (110KB)</p>
             <p>
               <a href="M1%20v0.7.5a3%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -38,6 +38,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>9 May 2004</u>
+        </strong> - 
+			
+			Updated supplements for MAME v0.82.
+		</p>
       <p>
         <strong>
           <u>10 April 2004</u>
