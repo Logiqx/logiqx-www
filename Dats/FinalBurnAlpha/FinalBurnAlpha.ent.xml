@@ -4,21 +4,25 @@
 	<name>FBA</name>
 	<version>v0.2.94.98</version>
 	<suitability/>
-	<status></status>
-	<date>31/01/2004</date>
+	<status>Updated</status>
+	<date>07/03/2004</date>
 	<games>494</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="FBA%20v0.2.94.98%20(cm).zip" size="74"/>
+			<file name="FBA%20v0.2.94.98%20(cm).zip" size="85"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="FBA%20v0.2.94.98%20(rc).zip" size="93"/>
+			<file name="FBA%20v0.2.94.98%20(rc).zip" size="104"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>7 March 2003</date>
+			<comment>Updated supplements for MAME v0.80.</comment>
+		</revision>
 		<revision>
 			<date>31 January 2004</date>
 			<comment>Updated for FBA v0.2.94.98.</comment>

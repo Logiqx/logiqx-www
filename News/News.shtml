@@ -38,6 +38,30 @@ etc.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>7 March 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+      <p align="center">Updated <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>      
+      (v1.26).<br>
+      Also re-created the supplement and changes data files for MAME v0.79
+      (using the new MAMEDiff).<br>
+      The old data files had some long filenames truncated but this problem is
+      fixed by MAMEDiff v1.26.&nbsp;</p>
+      <p align="center">Released some new data files for MAME v0.80:</p>
+      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a> and <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME
+      Changes</a></p>
+      <p align="center">
+      <a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a>, <a href="../Dats/Nebula/Nebula.shtml">Nebula</a>,
+      <a href="../Dats/RAINE/RAINE.shtml">RAINE</a>, <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks</a>,
+      <a href="../Dats/M1/M1.shtml">M1</a></p>
+      <p align="center"><a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a>, <a href="../Dats/NebulaJukebox/NebulaJukebox.shtml">Nebula
+      Jukebox</a>, <a href="../Dats/NeoJukeBox/NeoJukeBox.shtml">NeoJukeBox</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>2 March 2004</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>

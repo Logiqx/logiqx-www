@@ -5,7 +5,7 @@
 	<version>v0.39.4d</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>02/03/2004</date>
+	<date>07/03/2004</date>
 	<games>471</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,7 +14,7 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="RAINE%20v0.39.4d%20(cm).zip" size="81"/>
+			<file name="RAINE%20v0.39.4d%20(cm).zip" size="82"/>
 		</dat>
 		<dat>
 			&ROMCenter;
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>7 March 2004</date>
+			<comment>Updated supplementary dats for MAME v0.80.</comment>
+		</revision>
 		<revision>
 			<date>2 March 2004</date>
 			<comment>Updated to match RAINE v0.39.4d (1 game addition).</comment>
