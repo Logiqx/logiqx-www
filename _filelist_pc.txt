@@ -52,13 +52,15 @@ Dats/CPS-1	CPS-1.xml	167
 Dats/CPS-1/CVS	Entries	314
 Dats/CPS-1/CVS	Repository	34
 Dats/CPS-1/CVS	Root	26
-Dats/CPS-2	CPS-2 20050103 (cm).zip	58086
-Dats/CPS-2	CPS-2 20050103 (rc).zip	32213
-Dats/CPS-2	CPS-2.ent.xml	14884
+Dats/CPS-2	CPS-2 20050113 (cm).zip	67356
+Dats/CPS-2	CPS-2 20050113 (rc).zip	36701
+Dats/CPS-2	CPS-2.ent.xml	15044
 Dats/CPS-2	CPS-2.gif	2019
-Dats/CPS-2	CPS-2.shtml	16279
+Dats/CPS-2	CPS-2.shtml	16449
 Dats/CPS-2	CPS-2.xml	167
-Dats/CPS-2/CVS	Entries	314
+Dats/CPS-2/CVS	CPS-2 20050113 (cm).zip,t	0
+Dats/CPS-2/CVS	CPS-2 20050113 (rc).zip,t	0
+Dats/CPS-2/CVS	Entries	398
 Dats/CPS-2/CVS	Repository	34
 Dats/CPS-2/CVS	Root	26
 Dats/CrystalSystemEmulator	Crystal System Emulator v1.1 (cm).zip	733
@@ -136,14 +138,16 @@ Dats/MAMEChanges/CVS	MAME v0.73 Changes (cm).zip,t	0
 Dats/MAMEChanges/CVS	MAME v0.73 Changes (rc).zip,t	0
 Dats/MAMEChanges/CVS	Repository	40
 Dats/MAMEChanges/CVS	Root	26
-Dats/MAMESamples	dummy.zip	482
-Dats/MAMESamples	MAME Samples 20050104 (cm).zip	29299
 Dats/MAMESamples	MAME Samples 20050104 (rc).zip	11332
-Dats/MAMESamples	MAMESamples.ent.xml	4365
+Dats/MAMESamples	MAME Samples 20050110 (cm).zip	29232
+Dats/MAMESamples	MAME Samples 20050110 (rc).zip	11240
+Dats/MAMESamples	MAMESamples.ent.xml	4486
 Dats/MAMESamples	MAMESamples.gif	3539
-Dats/MAMESamples	MAMESamples.shtml	5167
+Dats/MAMESamples	MAMESamples.shtml	5298
 Dats/MAMESamples	MAMESamples.xml	187
-Dats/MAMESamples/CVS	Entries	398
+Dats/MAMESamples/CVS	Entries	510
+Dats/MAMESamples/CVS	MAME Samples 20050110 (cm).zip,t	0
+Dats/MAMESamples/CVS	MAME Samples 20050110 (rc).zip,t	0
 Dats/MAMESamples/CVS	Repository	40
 Dats/MAMESamples/CVS	Root	26
 Dats/MPU	MPU 3-4 v6.5 - 20010808 - RC.zip	2583
@@ -366,7 +370,7 @@ Menu/CVS	Repository	28
 Menu/CVS	Root	26
 News	Dilbert.jpg	63978
 News	News.gif	1939
-News	News.shtml	4994
+News	News.shtml	5414
 News	News01.shtml	11895
 News	News02.shtml	9813
 News	News03.shtml	13469

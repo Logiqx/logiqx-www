@@ -2,11 +2,11 @@
 <emulator id="CPS-2">
 	<img src="CPS-2.gif" width="80" height="40"/>
 	<name>CPS-2</name>
-	<version>20050103</version>
+	<version>20050113</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>04/01/2005</date>
-	<games>172</games>
+	<date>13/01/2005</date>
+	<games>176</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Note: Not all of these games are emulated yet</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020050103%20(cm).zip" size="57"/>
+			<file name="CPS-2%2020050113%20(cm).zip" size="66"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020050103%20(rc).zip" size="32"/>
+			<file name="CPS-2%2020050113%20(rc).zip" size="36"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>13 January 2005</date>
+			<comment>Added new SIMM dumps for puzloop2. Added choko, hsf2a, hsf2j and jgokushi.</comment>
+		</revision>
 		<revision>
 			<date>4 January 2005 - Pt. 2</date>
 			<comment>Updated supplements for MAME v0.90.</comment>
