@@ -10,7 +10,7 @@
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="NebulaJukebox.gif" width="189" height="40"></p>
-	<p>256 games of Nebula Jukebox v2.8</p>
+	<p>264 games of Nebula Jukebox v2.8</p>
 	
 	
 	
@@ -23,13 +23,13 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="Nebula%20Jukebox%20v2.8%20(cm).zip">Nebula Jukebox dat for CMPro</a> (16KB)</p>
+            <p>Download <a href="Nebula%20Jukebox%20v2.8%20(cm).zip">Nebula Jukebox dat for CMPro</a> (17KB)</p>
             <p>
               <a href="Nebula%20Jukebox%20v2.8%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="Nebula%20Jukebox%20v2.8%20(rc).zip">Nebula Jukebox dat for ROMCenter</a> (17KB)</p>
+            <p>Download <a href="Nebula%20Jukebox%20v2.8%20(rc).zip">Nebula Jukebox dat for ROMCenter</a> (18KB)</p>
             <p>
               <a href="Nebula%20Jukebox%20v2.8%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
@@ -38,6 +38,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>1 February 2004</u>
+        </strong> - 
+			
+			Updated using the latest Neo-Geo, CPS-2 and ZN data files.
+		</p>
       <p>
         <strong>
           <u>25 August 2003</u>

@@ -263,11 +263,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20031014</a>
+            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20040201</a>
           </td>
-          <td align="center"></td>
-          <td align="center">14/10/2003</td>
-          <td align="center">176</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>01/02/2004</strong>
+          </td>
+          <td align="center">
+            <strong>185</strong>
+          </td>
         </tr>
 
 			<tr>
@@ -324,9 +328,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="NebulaJukebox/NebulaJukebox.shtml">Nebula Jukebox v2.8</a>
           </td>
-          <td align="center"></td>
-          <td align="center">25/08/2003</td>
-          <td align="center">256</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>01/02/2004</strong>
+          </td>
+          <td align="center">
+            <strong>264</strong>
+          </td>
         </tr>
 
 			
@@ -334,18 +342,26 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="NeoJukeBox/NeoJukeBox.shtml">NeoJukeBox v2.7</a>
           </td>
-          <td align="center"></td>
-          <td align="center">25/08/2003</td>
-          <td align="center">197</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>01/02/2004</strong>
+          </td>
+          <td align="center">
+            <strong>205</strong>
+          </td>
         </tr>
 
 			<tr>
           <td>
             <a href="QPlayer/QPlayer.shtml">QPlayer v1.4.3</a>
           </td>
-          <td align="center"></td>
-          <td align="center">25/08/2003</td>
-          <td align="center">50</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>01/02/2004</strong>
+          </td>
+          <td align="center">
+            <strong>52</strong>
+          </td>
         </tr>
 
 		</table>

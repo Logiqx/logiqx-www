@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Neo-Geo 20031014</title>
+    <title>Neo-Geo 20040201</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="Neo-Geo.gif" width="108" height="40"></p>
-	<p>176 games of Neo-Geo 20031014</p>
+	<p>185 games of Neo-Geo 20040201</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="Neo-Geo%2020031014%20(cm).zip">Neo-Geo dat for CMPro</a> (43KB)</p>
+            <p>Download <a href="Neo-Geo%2020040201%20(cm).zip">Neo-Geo dat for CMPro</a> (52KB)</p>
             <p>
-              <a href="Neo-Geo%2020031014%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="Neo-Geo%2020040201%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="Neo-Geo%2020031014%20(rc).zip">Neo-Geo dat for ROMCenter</a> (55KB)</p>
+            <p>Download <a href="Neo-Geo%2020040201%20(rc).zip">Neo-Geo dat for ROMCenter</a> (65KB)</p>
             <p>
-              <a href="Neo-Geo%2020031014%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="Neo-Geo%2020040201%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>1 February 2004</u>
+        </strong> - 
+			
+			Updated to match MAME v0.79 and added some recent games.
+		</p>
       <p>
         <strong>
           <u>13 November 2003</u>

@@ -3,9 +3,9 @@
 	<name>QPlayer</name>
 	<version>v1.4.3</version>
 	<suitability></suitability>
-	<status></status>
-	<date>25/08/2003</date>
-	<games>50</games>
+	<status>Updated</status>
+	<date>01/02/2004</date>
+	<games>52</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 
 	<comment><p>CPS-1, CPS-2, ZN-1 and ZN-2 sound player</p></comment>
@@ -13,16 +13,21 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="QPlayer%20v1.4.3%20(cm).zip" size="4"/>
+			<file name="QPlayer%20v1.4.3%20(cm).zip" size="5"/>
 		</dat>
 
 		<dat>
 			&ROMCenter;
-			<file name="QPlayer%20v1.4.3%20(rc).zip" size="4"/>
+			<file name="QPlayer%20v1.4.3%20(rc).zip" size="5"/>
 		</dat>
 	</dats>
 
 	<revisions>
+		<revision>
+			<date>1 February 2004</date>
+			<comment>Updated using the latest CPS-2 and ZN data files.</comment>
+		</revision>
+
 		<revision>
 			<date>25 August 2003</date>
 			<comment>Updated to match MAME v0.72.</comment>
