@@ -24,14 +24,26 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff21.zip">MAMEDiff v2.1</a>  (81KB)</p>
+<p align="center">Download <a href="mdiff22.zip">MAMEDiff v2.2</a> (82KB)</p>
 
-<p align="center"><a href="mdiff21.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff22.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>5 July 2004</u></strong> - MAMEDiff v2.2</p>
+
+<p align="center">- Fixed a bug in the standard comparison that could cause a memory
+fault and crash MAMEDiff.<u><br>
+</u>- Made a couple of changes so that MAMEDiff can be used as a batch              tool<br>
+for ROM auditing (i.e. compare a directory against a dat):<br>
+- When using -d1/-d2/-d3, games without ROMs are now ignored.<br>
+            - When using -d1/-d2/-d3 and -z, no dumps that replace a real CRC<br>
+are not considered a change now (the previous ROM is still fine).<br>
+            - To use for simple ROM verification, use the following syntax:<br>
+              mamediff -d1 -r [-z] &lt;dir> &lt;dat></p>
 
 <p align="center"><strong><u>4 July 2004</u></strong> - MAMEDiff v2.1</p>
 

@@ -38,6 +38,20 @@ etc.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>5 July 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">The improvements continue... I've now turned MAMEDiff
+        into something that can audit ROMs!<br>
+        This trick is quite useful if you have lots of different collections
+        that you would like to verify using a simple batch script.</p>
+        <p align="center"> <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff
+        v2.2</a> and <a href="../Tools/DatLib/DatLib.shtml">DatLib v1.2</a>
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>4 July 2004</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
