@@ -14,7 +14,7 @@
 </p>
 
 <p align="center"><pre>
-          <!--#include virtual="/cgi/olderemus_rc_zip.cgi" -->
+          <!--#include virtual="/cgi/olderemus_rc_zip.out" -->
 </pre></p>
 </body>
 </html>
