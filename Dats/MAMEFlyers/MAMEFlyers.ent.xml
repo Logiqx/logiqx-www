@@ -1,4 +1,4 @@
-<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<!-- edited with STYLEVISION v2004 rel. 3 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <emulator id="MAMEFlyers">
 	<img src="MAMEFlyers.gif" width="159" height="40"/>
 	<name>MAME Flyers</name>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>13 November 2003</date>
+			<comment>No change required for MAME v0.77.</comment>
+		</revision>
 		<revision>
 			<date>18 September 2003</date>
 			<comment>No change required for MAME v0.74.</comment>

@@ -1,10 +1,10 @@
-<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<!-- edited with STYLEVISION v2004 rel. 3 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <emulator id="MAMEArtwork">
 	<img src="MAMEArtwork.gif" width="176" height="40"/>
 	<name>MAME Artwork</name>
 	<version>20030904</version>
 	<suitability/>
-	<status></status>
+	<status/>
 	<date>07/09/2003</date>
 	<games>127</games>
 	<author href="http://www.clrmame.com/">R.Scherzer</author>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>13 November 2003</date>
+			<comment>No change required for MAME v0.77.</comment>
+		</revision>
 		<revision>
 			<date>14 October 2003</date>
 			<comment>No change required for MAME v0.75.</comment>
