@@ -5,7 +5,7 @@
 	<version>v1.53</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>30/01/2005</date>
+	<date>13/02/2005</date>
 	<games>439</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="WinKawaks%20v1.53%20(cm).zip" size="209"/>
+			<file name="WinKawaks%20v1.53%20(cm).zip" size="200"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="WinKawaks%20v1.53%20(rc).zip" size="98"/>
+			<file name="WinKawaks%20v1.53%20(rc).zip" size="94"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>13 February 2005</date>
+			<comment>Updated supplements for MAME v0.92.</comment>
+		</revision>
 		<revision>
 			<date>30 January 2005</date>
 			<comment>Updated supplements for MAME v0.91.</comment>

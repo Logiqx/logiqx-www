@@ -72,7 +72,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>30/01/2005</strong>
+            <strong>13/02/2005</strong>
           </td>
           <td align="center">
             <strong>535</strong>
@@ -86,7 +86,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>30/01/2005</strong>
+            <strong>13/02/2005</strong>
           </td>
           <td align="center">
             <strong>439</strong>
@@ -100,7 +100,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>30/01/2005</strong>
+            <strong>13/02/2005</strong>
           </td>
           <td align="center">
             <strong>1076</strong>
@@ -110,25 +110,25 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.91</a>
+            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.92</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>30/01/2005</strong>
+            <strong>13/02/2005</strong>
           </td>
           <td align="center">
-            <strong>5428</strong>
+            <strong>5508</strong>
           </td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.91</a>
+            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.92</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>30/01/2005</strong>
+            <strong>13/02/2005</strong>
           </td>
           <td align="center">
             <strong>Various</strong>
@@ -142,7 +142,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>30/01/2005</strong>
+            <strong>13/02/2005</strong>
           </td>
           <td align="center">
             <strong>422</strong>
@@ -156,7 +156,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>30/01/2005</strong>
+            <strong>13/02/2005</strong>
           </td>
           <td align="center">
             <strong>249</strong>
@@ -215,13 +215,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="Zinc/Zinc.shtml">ZiNc v1.1</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>27/01/2005</strong>
-          </td>
-          <td align="center">
-            <strong>71</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">27/01/2005</td>
+          <td align="center">71</td>
         </tr>
 
 		</table>
@@ -251,13 +247,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="OlderEmus/OlderEmus.shtml">Older Emus 20050130</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>30/01/2005</strong>
-          </td>
-          <td align="center">
-            <strong>Thousands of</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">30/01/2005</td>
+          <td align="center">Thousands of</td>
         </tr>
 
 		</table>
@@ -295,28 +287,28 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="CPS-2/CPS-2.shtml">CPS-2 20050130</a>
+            <a href="CPS-2/CPS-2.shtml">CPS-2 20050213</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>30/01/2005</strong>
+            <strong>13/02/2005</strong>
           </td>
           <td align="center">
-            <strong>176</strong>
+            <strong>178</strong>
           </td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20050130</a>
+            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20050213</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>30/01/2005</strong>
+            <strong>13/02/2005</strong>
           </td>
           <td align="center">
-            <strong>199</strong>
+            <strong>201</strong>
           </td>
         </tr>
 
@@ -366,13 +358,9 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="MAMESamples/MAMESamples.shtml">MAME Samples 20050110</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>13/01/2005</strong>
-          </td>
-          <td align="center">
-            <strong>64</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">13/01/2005</td>
+          <td align="center">64</td>
         </tr>
 
 		</table>

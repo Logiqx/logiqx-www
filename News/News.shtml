@@ -33,6 +33,22 @@ e-mailed about.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>13 February 2005</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center"> MAME v0.92 has been released so I have updated the following data
+        files:</p>
+        <p align="center">MAME, MAME Changes,<br>
+        FBA (Supplements), Nebula (Supplements), Kawaks (Supplements), M1 (Supplements), Nebula
+        Jukebox (Supplements),<br>
+ CPS-2, Neo-Geo</p>
+        <p align="center">I have also updated my <a href="../HowTo/WinMAME.shtml">compile
+        guide</a> for the latest versions of GCC, Binutils and MinGW Runtime.</p>
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>30 January 2005</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>

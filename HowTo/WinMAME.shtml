@@ -19,9 +19,9 @@ H1 { font-size: 1pc }
 
 <p align="center"><img border="0" src="Compiling.gif" width="317" height="40"></p>
 
-<p align="center">4th December 2004</p>
+<p align="center">13th February 2005</p>
 
-<p align="center">Tested with MAME v0.89u2 (I need to re-test with RAINE32)</p>
+<p align="center">Tested with MAME v0.92 (I need to re-test with RAINE32)</p>
 
 <h1>1. Introduction</h1>
 
@@ -47,7 +47,7 @@ drive and location that you wish (so long as you think about what you are doing!
 
 <h1>2. Installing the Compiler</h1>
 
-<p><a href="http://sourceforge.net/projects/mingw">MinGW</a> comes as separate
+<p><a href="http://sourceforge.net/projects/mingw" target="_blank">MinGW</a> comes as separate
 downloadable components so you will need the following to compile MAME and RAINE32:</p>
 
 <table border="1" width="100%">
@@ -57,11 +57,8 @@ downloadable components so you will need the following to compile MAME and RAINE
     <td bgcolor="#CCFFCC">Description</td>
   </tr>
   <tr>
-    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/gcc-3.2.3-20030504-1.tar.gz">gcc-3.2.3-20030504-1.tar.gz</a></td>
-    <td bgcolor="#CCFFCC">GCC 3.2.3 (GNU C Compiler).
-      <p>Note: GCC 3.3.1 and up won't compile MAME at this time (MAME v0.89).
-      GCC reports 'defined but not used' errors in a number of the MAME source
-      files. Until such time as the MAME source is updated, use GCC 3.2.3.</p>
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/gcc-core-3.4.2-20040916-1.tar.gz">gcc-core-3.4.2-20040916-1.tar.gz</a></td>
+    <td bgcolor="#CCFFCC">GCC 3.4.2 (GNU C Compiler).
     </td>
   </tr>
   <tr>
@@ -69,12 +66,12 @@ downloadable components so you will need the following to compile MAME and RAINE
     <td bgcolor="#CCFFCC"> Binutils 2.15.91 (binary and object handling)</td>
   </tr>
   <tr>
-    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/mingw-runtime-3.5.tar.gz">mingw-runtime-3.5.tar.gz</a></td>
-    <td bgcolor="#CCFFCC">MinGW Runtime 3.5 (stdio etc)</td>
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/mingw-runtime-3.7.tar.gz">mingw-runtime-3.7.tar.gz</a></td>
+    <td bgcolor="#CCFFCC">MinGW Runtime 3.7 (stdio etc)</td>
   </tr>
   <tr>
-    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/w32api-3.1.tar.gz">w32api-3.1.tar.gz</a></td>
-    <td bgcolor="#CCFFCC">Windows API 3.1 (needed during linking)</td>
+    <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/w32api-3.2.tar.gz">w32api-3.2.tar.gz</a></td>
+    <td bgcolor="#CCFFCC">Windows API 3.2 (needed during linking)</td>
   </tr>
   <tr>
     <td bgcolor="#CCFFCC"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/mingw32-make-3.80.0-3.exe">mingw32-make-3.80.0-3.exe</a></td>
@@ -96,7 +93,7 @@ versions of WinZip support this compression format so you don't need any additio
 
 <ol>
   <li>Create a directory called <em>D:\MINGW</em> </li>
-  <li>Unzip the gcc, binutils, mingw-runtime and w32api archives into <em>D:\MINGW </em>(using WinZip or similar). Ensure that
+  <li>Unzip the binutils, gcc, mingw-runtime and w32api archives into <em>D:\MINGW </em>(using WinZip or similar). Ensure that
     you unzip the files in order that they are listed in this guide. This
     is important because some files exist in more than one archive (notably GCC
     and binutils) and you should use the latest

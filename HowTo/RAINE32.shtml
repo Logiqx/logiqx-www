@@ -48,7 +48,7 @@ drive and location that you wish (so long as you think about what you are doing!
 <p>First things first, you must follow the guide for <a href="WinMAME.shtml">compiling
 MAME</a>. You cannot continue with this guide until you have done that!</p>
 
-<p>RAINE should be compiled from within MSYS (a minimal POSIX system for <a href="http://sourceforge.net/projects/mingw">MinGW</a>):</p>
+<p>RAINE should be compiled from within MSYS (a minimal POSIX system for <a href="http://sourceforge.net/projects/mingw" target="_blank">MinGW</a>):</p>
 
 <table border="1" width="100%">
 <TBODY>

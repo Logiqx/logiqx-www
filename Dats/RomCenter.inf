@@ -23,25 +23,25 @@ email=support@romcenter.com
 ;Daphne;v0.99.6;30;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/Daphne/Daphne%20v0.99.6%20(rc).zip
 
 
-updated;FBA;v0.2.95.23;535;Logiqx;http://www.logiqx.com;;30/01/2005;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.95.23%20(rc).zip
+updated;FBA;v0.2.95.23;535;Logiqx;http://www.logiqx.com;;13/02/2005;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.95.23%20(rc).zip
 
 
-updated;Kawaks;v1.53;439;Logiqx;http://www.logiqx.com;;30/01/2005;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.53%20(rc).zip
+updated;Kawaks;v1.53;439;Logiqx;http://www.logiqx.com;;13/02/2005;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.53%20(rc).zip
 
 
-updated;M1;v0.7.5a3;1076;Logiqx;http://www.logiqx.com;;30/01/2005;http://www.logiqx.com/Dats/M1/M1%20v0.7.5a3%20(rc).zip
+updated;M1;v0.7.5a3;1076;Logiqx;http://www.logiqx.com;;13/02/2005;http://www.logiqx.com/Dats/M1/M1%20v0.7.5a3%20(rc).zip
 
 
-updated;MAME;v0.91;5428;Logiqx;http://www.logiqx.com;;30/01/2005;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.91%20(rc).zip
+updated;MAME;v0.92;5508;Logiqx;http://www.logiqx.com;;13/02/2005;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.92%20(rc).zip
 
 
-updated;MAME Changes;v0.91;Various;Logiqx;http://www.logiqx.com;;30/01/2005;http://www.logiqx.com/Dats/MAMEChanges/MAME%20Changes%20v0.91%20(rc).zip
+updated;MAME Changes;v0.92;Various;Logiqx;http://www.logiqx.com;;13/02/2005;http://www.logiqx.com/Dats/MAMEChanges/MAME%20Changes%20v0.92%20(rc).zip
 
 
-updated;Nebula;v2.24;422;Logiqx;http://www.logiqx.com;;30/01/2005;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.24%20(rc).zip
+updated;Nebula;v2.24;422;Logiqx;http://www.logiqx.com;;13/02/2005;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.24%20(rc).zip
 
 
-updated;Nebula Jukebox;v2.9;249;Logiqx;http://www.logiqx.com;;30/01/2005;http://www.logiqx.com/Dats/NebulaJukebox/Nebula%20Jukebox%20v2.9%20(rc).zip
+updated;Nebula Jukebox;v2.9;249;Logiqx;http://www.logiqx.com;;13/02/2005;http://www.logiqx.com/Dats/NebulaJukebox/Nebula%20Jukebox%20v2.9%20(rc).zip
 
 
 ;Pacifi3D;v0.1;1;Logiqx;http://www.logiqx.com;;16/01/2005;http://www.logiqx.com/Dats/Pacifi3D/Pacifi3D%20v0.1%20(rc).zip
@@ -57,7 +57,7 @@ updated;Nebula Jukebox;v2.9;249;Logiqx;http://www.logiqx.com;;30/01/2005;http://
 
 ;Tickle;v0.92;27;Logiqx;http://www.logiqx.com;;13/07/2004;http://www.logiqx.com/Dats/Tickle/Tickle%20v0.92%20(rc).zip
 
-updated;ZiNc;v1.1;71;Logiqx;http://www.logiqx.com;;27/01/2005;http://www.logiqx.com/Dats/Zinc/ZiNc%20v1.1%20(rc).zip
+;ZiNc;v1.1;71;Logiqx;http://www.logiqx.com;;27/01/2005;http://www.logiqx.com/Dats/Zinc/ZiNc%20v1.1%20(rc).zip
 
 		
 	
@@ -69,7 +69,7 @@ updated;ZiNc;v1.1;71;Logiqx;http://www.logiqx.com;;27/01/2005;http://www.logiqx.
 		
 		
 
-updated;Older Emus;20050130;Thousands of;Logiqx;http://www.logiqx.com;;30/01/2005;http://www.logiqx.com/Dats/OlderEmus/Older%20Emus%2020050130%20(rc).zip
+;Older Emus;20050130;Thousands of;Logiqx;http://www.logiqx.com;;30/01/2005;http://www.logiqx.com/Dats/OlderEmus/Older%20Emus%2020050130%20(rc).zip
 
 		
 	
@@ -84,10 +84,10 @@ updated;Older Emus;20050130;Thousands of;Logiqx;http://www.logiqx.com;;30/01/200
 ;CPS-1;20050104;116;Logiqx;http://www.logiqx.com;;04/01/2005;http://www.logiqx.com/Dats/CPS-1/CPS-1%2020050104%20(rc).zip
 
 
-updated;CPS-2;20050130;176;Logiqx;http://www.logiqx.com;;30/01/2005;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020050130%20(rc).zip
+updated;CPS-2;20050213;178;Logiqx;http://www.logiqx.com;;13/02/2005;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020050213%20(rc).zip
 
 
-updated;Neo-Geo;20050130;199;Logiqx;http://www.logiqx.com;;30/01/2005;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020050130%20(rc).zip
+updated;Neo-Geo;20050213;201;Logiqx;http://www.logiqx.com;;13/02/2005;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020050213%20(rc).zip
 
 ;ZN;20041124;25;Logiqx;http://www.logiqx.com;;24/11/2004;http://www.logiqx.com/Dats/ZN/ZN%2020041124%20(rc).zip
 
@@ -115,7 +115,7 @@ updated;Neo-Geo;20050130;199;Logiqx;http://www.logiqx.com;;30/01/2005;http://www
 ;MAME Artwork;20050104;167;Roman Scherzer;http://www.clrmame.com/;;04/01/2005;http://www.logiqx.com/Dats/MAMEArtwork/MAME%20Artwork%2020050104%20(rc).zip
 
 
-updated;MAME Samples;20050110;64;Roman Scherzer;http://www.clrmame.com/;;13/01/2005;http://www.logiqx.com/Dats/MAMESamples/MAME%20Samples%2020050110%20(rc).zip
+;MAME Samples;20050110;64;Roman Scherzer;http://www.clrmame.com/;;13/01/2005;http://www.logiqx.com/Dats/MAMESamples/MAME%20Samples%2020050110%20(rc).zip
 
 		
 	

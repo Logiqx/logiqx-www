@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAME v0.91</title>
+    <title>MAME v0.92</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="MAME.gif" width="80" height="40"></p>
-	<p>5428 games for MAME v0.91</p>
+	<p>5508 games for MAME v0.92</p>
 	
 	
 	
@@ -19,26 +19,33 @@
 	
 	
 		<p>Both dats were generated using DatUtil.</p>
-		<p>Previous dats are <a href="MAMEBetaHistory.shtml" target="">still online</a>. The page is generated dynamically so be please patient with it!</p>
+		<p>Previous dats are <a href="MAMEBetaHistory.shtml" target="">still online</a>.</p>
 	
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20v0.91%20(cm).zip">MAME dat for CMPro</a> (1972KB)</p>
+            <p>Download <a href="MAME%20v0.92%20(cm).zip">MAME dat for CMPro</a> (2057KB)</p>
             <p>
-              <a href="MAME%20v0.91%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20v0.92%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20v0.91%20(rc).zip">MAME dat for ROMCenter</a> (835KB)</p>
+            <p>Download <a href="MAME%20v0.92%20(rc).zip">MAME dat for ROMCenter</a> (895KB)</p>
             <p>
-              <a href="MAME%20v0.91%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20v0.92%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>13 February 2005</u>
+        </strong> - 
+			
+			Uploaded dats for MAME v0.92.
+		</p>
       <p>
         <strong>
           <u>30 January 2005</u>
