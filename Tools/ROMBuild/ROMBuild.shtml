@@ -27,14 +27,19 @@ dats</a> that I have produced you can generate ROM sets for practically any emul
 MAME ROMs. In fact, the only ROMs you can't generate from MAME sets are where MAME doesn't
 support the game.</p>
 
-<p align="center">Download <a href="rbuild23.zip">ROMBuild v2.3</a> (110KB)</p>
+<p align="center">Download <a href="rbuild24.zip">ROMBuild v2.4</a> (105KB)</p>
 
-<p align="center"><a href="rbuild23.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="rbuild24.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>30 January 2005</u></strong> - ROMBuild v2.4.</p>
+
+<p align="center"> - Removed FBA v0.2.94.98 from the source (superceded by v0.2.95.22).<br>
+- Added von2 (MAME v0.91) for Nebula Jukebox v2.9 and M1 v0.7.5a3.</p>
 
 <p align="center"><strong><u>6 January 2005</u></strong> - ROMBuild v2.3.</p>
 

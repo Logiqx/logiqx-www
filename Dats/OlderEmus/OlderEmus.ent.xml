@@ -2,10 +2,10 @@
 <emulator id="OlderEmus">
 	<img src="OlderEmus.gif" width="140" height="40"/>
 	<name>Older Emus</name>
-	<version>20050116</version>
+	<version>20050130</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>16/01/2005</date>
+	<date>30/01/2005</date>
 	<games>Thousands of</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Older%20Emus%2020050116%20(cm).zip" size="1209"/>
+			<file name="Older%20Emus%2020050130%20(cm).zip" size="1169"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Older%20Emus%2020050116%20(rc).zip" size="515"/>
+			<file name="Older%20Emus%2020050130%20(rc).zip" size="494"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>30 January 2005</date>
+			<comment>Updated SledgeHammer, Final Burn and System 16.</comment>
+		</revision>
 		<revision>
 			<date>16 January 2005</date>
 			<comment>Updated Calice, Modeler (just cosmetic) and NeoJukeBox.</comment>

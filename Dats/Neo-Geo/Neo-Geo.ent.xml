@@ -2,10 +2,10 @@
 <emulator id="Neo-Geo">
 	<img src="Neo-Geo.gif" width="108" height="40"/>
 	<name>Neo-Geo</name>
-	<version>20050116</version>
+	<version>20050130</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>16/01/2005</date>
+	<date>30/01/2005</date>
 	<games>199</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Neo-Geo%2020050116%20(cm).zip" size="106"/>
+			<file name="Neo-Geo%2020050130%20(cm).zip" size="103"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Neo-Geo%2020050116%20(rc).zip" size="60"/>
+			<file name="Neo-Geo%2020050130%20(rc).zip" size="59"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>30 January 2005</date>
+			<comment>Updated to match MAME v0.91.</comment>
+		</revision>
 		<revision>
 			<date>16 January 2005</date>
 			<comment>Fixed matrim (c5), mslug5 and samsho5. Added unibios (v2.0), kof2003, kof2003a, pnyaa, samsh5sp, samsho5h, svcchaos, svcchaosa, kofse2k4. Removed several hacks and bootlegs.</comment>
