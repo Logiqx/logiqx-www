@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Neo-Geo 20040711</title>
+    <title>Neo-Geo 20040817</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="Neo-Geo.gif" width="108" height="40"></p>
-	<p>190 games of Neo-Geo 20040711</p>
+	<p>191 games of Neo-Geo 20040817</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="Neo-Geo%2020040711%20(cm).zip">Neo-Geo dat for CMPro</a> (118KB)</p>
+            <p>Download <a href="Neo-Geo%2020040817%20(cm).zip">Neo-Geo dat for CMPro</a> (96KB)</p>
             <p>
-              <a href="Neo-Geo%2020040711%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="Neo-Geo%2020040817%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="Neo-Geo%2020040711%20(rc).zip">Neo-Geo dat for ROMCenter</a> (64KB)</p>
+            <p>Download <a href="Neo-Geo%2020040817%20(rc).zip">Neo-Geo dat for ROMCenter</a> (53KB)</p>
             <p>
-              <a href="Neo-Geo%2020040711%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="Neo-Geo%2020040817%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>17 August 2004</u>
+        </strong> - 
+			
+			Added SystemCheck, UNIVERSE BIOS and GameGenie BIOS.<br>Removed the sound ROMs data file and updated the supplement for MAME v0.85.
+		</p>
       <p>
         <strong>
           <u>11 July 2004</u>

@@ -23,6 +23,10 @@
 	</dats>
 	<revisions>
 		<revision>
+			<date>17 August 2004</date>
+			<comment>No change required for MAME v0.85.</comment>
+		</revision>
+		<revision>
 			<date>11 July 2004</date>
 			<comment>Added SHA1 information.</comment>
 		</revision>

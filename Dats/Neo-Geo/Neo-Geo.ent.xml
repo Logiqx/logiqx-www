@@ -2,11 +2,11 @@
 <emulator id="Neo-Geo">
 	<img src="Neo-Geo.gif" width="108" height="40"/>
 	<name>Neo-Geo</name>
-	<version>20040711</version>
+	<version>20040817</version>
 	<suitability/>
-	<status></status>
-	<date>11/07/2004</date>
-	<games>190</games>
+	<status>Updated</status>
+	<date>17/08/2004</date>
+	<games>191</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>SNK Neo-Geo</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Neo-Geo%2020040711%20(cm).zip" size="118"/>
+			<file name="Neo-Geo%2020040817%20(cm).zip" size="96"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Neo-Geo%2020040711%20(rc).zip" size="64"/>
+			<file name="Neo-Geo%2020040817%20(rc).zip" size="53"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>17 August 2004</date>
+			<comment>Added SystemCheck, UNIVERSE BIOS and GameGenie BIOS.<br/>Removed the sound ROMs data file and updated the supplement for MAME v0.85.</comment>
+		</revision>
 		<revision>
 			<date>11 July 2004</date>
 			<comment>Added SHA1 information.</comment>
