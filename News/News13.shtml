@@ -89,7 +89,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Released <a href="../DatUtil/DatUtil.shtml">DatUtil
+      <p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
       v1.24</a> to support resource ROMs properly in RomCenter 2.
       </p> <p align="center">Rebuilt some RomCenter 2 data files using DatUtil
       v1.24:
@@ -139,7 +139,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Another update to <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> 
+      <p align="center">Another update to <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> 
       (v1.19) has allowed us to create all of the data files and supplements for
       you now.<br>
       <br>
@@ -167,8 +167,8 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center"> Updated versions of <a href="../DatUtil/DatUtil.shtml">DatUtil</a>
-      and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> for the
+      <p align="center"> Updated versions of <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a>
+      and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> for the
       do-it-yourself types.
       </p>
       <p align="center"> Sorry for the delay, I'm pretty busy right now.
@@ -187,7 +187,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       <p align="center"> Moved some emulators into the '<a href="../Dats/OlderEmus/OlderEmus.shtml">Older
       Emus</a>' archive.
       </p>
-      <p align="center"> Updated <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>
+      <p align="center"> Updated <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>
       in relation to MAME v0.67 .
       </p>
     </td>
@@ -256,8 +256,8 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       the counter has broken,<br>
       that day may have passed long ago. ;)</p>
       <p align="center">Right, on to the latest releases. There are two tool updates for the Konami GX games<font size="3">:</font></p>
-      <p align="center"><font size="3"><a href="../DatUtil/DatUtil.shtml">DatUtil
-      v1.22</a> and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.16</a></font></p>
+      <p align="center"><font size="3"><a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
+      v1.22</a> and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.16</a></font></p>
       <p align="center">Rosewood has prepared many of the MAME updates<font size="3">:</font></p>
       <p align="center"><font size="3"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME
       v0.67</a>, <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes

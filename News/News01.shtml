@@ -144,7 +144,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
     <p align="center">Champion Baseball (Japan) [name: champbbj - parent: champbas]<br>
     Zero Time [name: zerotime - parent: galaxian]<br>
     ...and ten other Leland clones not mentioned in whatsnew.txt.</p>
-    <p align="center"><a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> would tell you! Give it
+    <p align="center"><a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> would tell you! Give it
     a try if you haven't already...</td>
   </tr>
 </table>
@@ -162,7 +162,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.02</a> - Added
+    <td><p align="center"><a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.02</a> - Added
     support for MESS (just a minor modification).<br>
     Added RAINE support too (since it was so easy)</p>
     <p align="center">MAME Sample Fix - <font
@@ -188,7 +188,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Released <a href="../DatUtil/DatUtil.shtml"><font size="3">DatUtil
+    <td><p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml"><font size="3">DatUtil
     v1.3</font></a></p>
     <p align="center">- RomCenter 2 support.<br>
     - New method of sorting (useful for RomCenter).<br>
@@ -240,7 +240,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><a href="../DatUtil/DatUtil.shtml"><font size="3">DatUtil v1.2</font></a></p>
+    <td><p align="center"><a href="../Tools/DatUtil/DatUtil.shtml"><font size="3">DatUtil v1.2</font></a></p>
     <p align="center"><font size="3">- Increased game/rom name length to 80 characters.<br>
     That's about it!</font></td>
   </tr>
@@ -250,7 +250,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><a href="../MAMEDiff/MAMEDiff.shtml"><font size="3">MAMEDiff v1.01</font></a></p>
+    <td><p align="center"><a href="../Tools/MAMEDiff/MAMEDiff.shtml"><font size="3">MAMEDiff v1.01</font></a></p>
     <p align="center"><font size="3">- Released v1.01 of MameDiff to fix </font>SIGSEGV crash
     in pure DOS. Didn't affect Windows users...</td>
   </tr>
@@ -260,7 +260,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Released <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff
+    <td><p align="center"><font size="3">Released <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff
     v1.0</a></font></p>
     <p align="center"><font size="3">- Released version 1.0 of my new tool for MAME users.</font></td>
   </tr>
@@ -270,7 +270,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Released <a href="../DatUtil/DatUtil.shtml">DatUtil
+    <td><p align="center"><font size="3">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
     v1.1</a></font></p>
     <p align="center"><font size="3">- Added support for JFF.TXT, Sparcade RAT and JAS
     Romlist.<br>
@@ -293,7 +293,7 @@ now <strong>http://www.emuhq.com/logiqx</strong></p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3">Released <a href="../DatUtil/DatUtil.shtml">DatUtil
+    <td><p align="center"><font size="3">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
     v1.0</a> and sample fix for MAME v0.36 final.</font></td>
   </tr>
 </table>

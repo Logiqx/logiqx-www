@@ -76,7 +76,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Released <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.06</a>.</p>
+    <td><p align="center">Released <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.06</a>.</p>
     <p align="center">This is a big update and will be extremely useful to people who need to
     build ROM sets for new a MAME release.</p>
     <p align="center">Major: Added three new modes (-M, -S and -N) to show newly required ZIPs
@@ -112,7 +112,7 @@ people reporting non-existent errors in it!</p>
     dats (</font>cybotsj<font size="3"> has been redumped).</font></p>
     <p align="center">Updated <a href="../Dats/OlderEmus/OlderEmus.shtml">Xevious Emulator and HiVE</a>
     dats (see notes within the archive itself).</p>
-    <p align="center">Released v1.6 of <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>:</p>
+    <p align="center">Released v1.6 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>:</p>
     <p align="center">Fixed problem affecting NeoRAGEx/Callus builds from unzipped ROMs.<br>
     Added '-L' option to list all of the ROMs that ROMBuild supports.<br>
     Removed Xevious Emulator Demo v1.6 (no longer necessary).<br>
@@ -156,9 +156,9 @@ people reporting non-existent errors in it!</p>
     MAME and RAINE. This is slightly different to other guides as it allows you to install
     everything where you want and also works for both RAINE and MAME. There is also a page
     that explains how to get a copy of the latest RAINE source.</p>
-    <p align="center">Released <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.05</a>. A tiny
+    <p align="center">Released <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.05</a>. A tiny
     fix to exclude resources from the game and ROM totals.</p>
-    <p align="center">Released v1.5 of <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>. Added
+    <p align="center">Released v1.5 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>. Added
     SonSon support for RAGE, Replay, Rockulator++ and SonSon Emulator.</p>
     <p align="center">Updated <a href="../Dats/OlderEmus/OlderEmus.shtml">QPlayer, NeoJukeBox,
     Rockulator++, Replay, RAGE and SonSon</a> dats (see notes within the archive itself).</td>
@@ -231,7 +231,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Released v1.4 of <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>.
+    <td><p align="center">Released v1.4 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>.
     Added support for QSound Player and NeoRAGEx so you can generate any NeoRAGEx set from
     MAME sets.</p>
     <p align="center">Updated <a href="../Dats/OlderEmus/OlderEmus.shtml">QSound Player, QPlayer,
@@ -276,7 +276,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Released <a href="../DatUtil/DatUtil.shtml">DatUtil v1.6</a> (added
+    <td><p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil v1.6</a> (added
     '-m' option to improve MAME's merging information).</p>
     <p align="center">Improved dats for <a href="../Dats/MAMEBeta/MAMEBeta.shtml"><font size="3">MAME
     v0.37 beta 12</font></a> (Only ROMCenter users who use split-merging need this new dat).</p>
@@ -401,7 +401,7 @@ people reporting non-existent errors in it!</p>
     so if you haven't already upgraded then you had better do so!</font></p>
     <p align="center"><font size="3">Released dats for VAntAGE
     v1.1 (52 games added).</font></p>
-    <p align="center">Released <a href="../DatUtil/DatUtil.shtml">DatUtil v1.5</a> (only a
+    <p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil v1.5</a> (only a
     minor update):</p>
     <p align="center">- Some handling of the playch10 and cvs resources in MAME dats.<br>
     - RomCenter 2 is now the default save format when converting CMPro dats.</td>
@@ -447,7 +447,7 @@ people reporting non-existent errors in it!</p>
   <tr>
     <td><p align="center"><font size="3">Released dats for Calice
     v0.0.6 (11 games added).</font></p>
-    <p align="center">Released v1.3 of <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>. This
+    <p align="center">Released v1.3 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>. This
     supports Road Runner for Sideway and removes RAINE (no longer required).</p>
     <p align="center">Uploaded dats for <font size="3"><a href="../Dats/RAINE/RAINE.shtml">RAINE
     v0.30</a>.</font></p>
@@ -495,7 +495,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3"><strong><a href="../ROMInfo/ROMInfo.shtml">ROMInfo
+    <td><p align="center"><font size="3"><strong><a href="../Tools/ROMInfo/ROMInfo.shtml">ROMInfo
     v1.03</a>:</strong></font></p>
     <p align="center">Added standard file support<br>
     Added support for multiple CRCs/files/zips<br>
@@ -535,7 +535,7 @@ people reporting non-existent errors in it!</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td><p align="center"><strong>ROMBuild</strong></p>
-    <p align="center">Released v1.2 of <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>. This
+    <p align="center">Released v1.2 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>. This
     deals with some Galaxian ROM changes made in MAME v0.37 b11.</p>
     <p align="center"><font size="3"><strong>CMPro/ROMCenter Arcade Dat Pack</strong></font></p>
     <p align="center"><font size="3">Updated some of the <a href="../Dats/OlderEmus/OlderEmus.shtml">dats</a>
@@ -577,7 +577,7 @@ people reporting non-existent errors in it!</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3"><strong><a href="../ROMInfo/ROMInfo.shtml">ROMInfo
+    <td><p align="center"><font size="3"><strong><a href="../Tools/ROMInfo/ROMInfo.shtml">ROMInfo
     v1.02</a>:</strong></font></p>
     <p align="center">Added drag and drop support for ZIP files</td>
   </tr>

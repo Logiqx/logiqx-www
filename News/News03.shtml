@@ -31,10 +31,10 @@
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center"><font size="3"><strong><a href="../ROMInfo/ROMInfo.shtml">ROMInfo
+    <td><p align="center"><font size="3"><strong><a href="../Tools/ROMInfo/ROMInfo.shtml">ROMInfo
     v1.01</a>:</strong></font></p>
     <p align="center">Added ZIP support (to scan dats for any CRCs from a specified ZIP).</p>
-    <p align="center"><strong><a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.04</a>:</strong></p>
+    <p align="center"><strong><a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.04</a>:</strong></p>
     <p align="center">Increased game name length from 8 to 20 (for Modeler dat).<br>
     Prefixes Neo-Geo titles with 'Neo-Geo' (so they stand out).<br>
     ROMs added to parent set are also reported for clone too.<br>
@@ -51,7 +51,7 @@
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td><p align="center"><font size="3"><strong>Released a new tool similar to ROMIdent:</strong></font></p>
-    <p align="center"><a href="../ROMInfo/ROMInfo.shtml">ROMInfo</a> is for identifying arcade
+    <p align="center"><a href="../Tools/ROMInfo/ROMInfo.shtml">ROMInfo</a> is for identifying arcade
     ROMs and checking if they are emulated yet.<br>
     It does this using the <a href="../Dats/Dats.shtml">CMPro dats</a> from the <a
     href="http://caesar.logiqx.com/" target="caesar">CAESAR</a> database and should cover
@@ -93,11 +93,11 @@
     href="../Dats/OlderEmus/OlderEmus.shtml">'older emus'</a> ZIPs.<br>
     - Added VisualAM dat in the 'recent' section.</p>
     <p align="center"><strong>ROMBuild</strong></p>
-    <p align="center">Released v1.1 of <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>. This
+    <p align="center">Released v1.1 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>. This
     adds support for two of the new arcade dats above.</p>
     <p align="center"><strong>DatUtil</strong></p>
     <p align="center">Okay, it's Christmas so I'll give you the latest version of <a
-    href="../DatUtil/DatUtil.shtml">DatUtil</a> - it's been accumulating features for quite a
+    href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a> - it's been accumulating features for quite a
     while now!</p>
     <p align="center"><font color="#000000" size="3">- Mimic HWC support.<br>
     - New format to list game titles ('-f titlelist').<br>
@@ -136,7 +136,7 @@
     To celebrate this fact, you can now access this site using <strong>http://www.logiqx.com/</strong></p>
     <p align="center">First out of the blocks are a few new <a href="../Dats/Dats.shtml">arcade
     emulator dats</a> for CMPro and ROMCenter (about 140 of them!!!)</p>
-    <p align="center">Next up is a new tool called <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>
+    <p align="center">Next up is a new tool called <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>
     to build those ROMs that you were never able to find.</p>
     <p align="center">Last and <strong>most important of all </strong>is a new emulation
     resource... <a href="http://caesar.logiqx.com/" target="caesar">CAESAR</a></p>

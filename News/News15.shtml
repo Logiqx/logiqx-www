@@ -39,8 +39,8 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
     <td>
       <p align="center">Almost certainly the last release of the year!</p>
       <p align="center"><b>Tools</b></p>
-      <p align="center"><a href="../DatUtil/DatUtil.shtml">DatUtil</a>  (v1.28)
-      and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>  (v1.22).</p>
+      <p align="center"><a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a>  (v1.28)
+      and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>  (v1.22).</p>
       <p align="center"><b>Data Files</b></p>
       <p align="center"> 
       <a href="../Dats/M1/M1.shtml">M1 v0.7.3</a><p align="center">Ben Jos has
@@ -55,8 +55,8 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
     <td>
       <p align="center">Here comes the first batch of stuff for MAME v0.78:</p>
       <p align="center"><b>Tools</b></p>
-      <p align="center"><a href="../DatUtil/DatUtil.shtml">DatUtil</a> (v1.27)
-      and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> (v1.21).</p>
+      <p align="center"><a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a> (v1.27)
+      and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> (v1.21).</p>
       <p align="center"><b>Data Files</b></p>
       <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME v0.78</a>,
       <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes v0.78</a></p>
@@ -69,7 +69,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Released <a href="../ROMBuild/ROMBuild.shtml">ROMBuild
+      <p align="center">Released <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild
       v1.16</a> to avoid the problem of it hanging on CHDs.&nbsp;</p>
      </td>
   </tr>
@@ -123,7 +123,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Released <a href="../ROMBuild/ROMBuild.shtml">ROMBuild
+      <p align="center">Released <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild
       v1.15</a> to cope with some of the game changes/additions in MAME v0.74
       and v0.75.
       </p>

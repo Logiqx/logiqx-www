@@ -59,7 +59,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       <p align="center"><font size="3">Released dats for the
       <a
     href="../Dats/Nebula/Nebula.shtml">Nebula v1.5</a>.</font></p>
-      <p align="center">Released <a href="../DatUtil/DatUtil.shtml">DatUtil
+      <p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
       v1.11</a>:</p>
       <p align="center">- Added some warnings for bad quality RomCenter dats<br>
       (wrong version number in header and missing ROM sizes)</p>
@@ -110,7 +110,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
     <td><p align="center">I've updated my <a href="../HowTo/HowTo.shtml">How To
       Compile</a> pages to use the latest versions of DJGPP and MinGW as well as
       explaining RAINE32.</p>
-      <p align="center">Released <a href="../DatUtil/DatUtil.shtml">DatUtil
+      <p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
       v1.10</a></p>
       <p align="center">- Fixed detection of RAINE32 dat format.<br>
             - Improved ZIP scanner (not case sensitive when searching for zips).</p>
@@ -174,13 +174,13 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Released <a href="../DatUtil/DatUtil.shtml">DatUtil
+    <td><p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
       v1.9</a></p>
       <p align="center">- Added <b> directory scanning </b> feature (reads ZIPs and
       subdirectories).<br>
       - Calice loader now uses the main driver code, not 'verifyroms'.<br>
       - RomCenter 2 loader fixes missing 'romof' details automatically.</p>
-      <p align="center">Released v1.7 of <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>:</p>
+      <p align="center">Released v1.7 of <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>:</p>
       <p align="center">Added Speed Freak for Cinelator 95 Beta.<br>
       Now compiled using MinGW and the -Wall option (for clean code).<p align="center">Added
       Speed Freak CRCs to the Cinelator 95 dat in the <a href="../Dats/OlderEmus/OlderEmus.shtml">older emus
@@ -311,7 +311,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Released <a href="../DatUtil/DatUtil.shtml">DatUtil v1.8</a>:</p>
+    <td><p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil v1.8</a>:</p>
     <p align="center">- Fixed a minor bug in the '-m' feature (bug introduced in v1.7).<br>
     - Now compiled with MinGW (no long filename problems on NT now).</td>
   </tr>
@@ -386,7 +386,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Released <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.07</a>
+    <td><p align="center">Released <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.07</a>
     (minor update).</p>
     <p align="center"><font size="3">CPS2Shock has released XORs for D&amp;D: Tower of Doom
     (Japan) so I've updated the dats for:</font></p>
@@ -496,7 +496,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
-    <td><p align="center">Released <a href="../DatUtil/DatUtil.shtml">DatUtil v1.7</a>:</p>
+    <td><p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil v1.7</a>:</p>
     <p align="center">- Added handling of decocass resource in MAME dats.<br>
     - Added load/save support for CMPro element 'clrmamepro' and ROMCenter headers.<br>
     - Added preliminary support for Calice Driver files.<br>

@@ -237,8 +237,8 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
   <tr>
     <td>
       <p align="center"><font size="3">Phew, this MAME release was a lot of
-      work!</font> <font size="3">Updated my tools <a href="../DatUtil/DatUtil.shtml">DatUtil</a>
-      and <a href="../ROMBuild/ROMBuild.shtml">RomBuild</a>.</font></p>
+      work!</font> <font size="3">Updated my tools <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a>
+      and <a href="../Tools/ROMBuild/ROMBuild.shtml">RomBuild</a>.</font></p>
       <p align="center"><font size="3">Also updated all these data files
       accordingly:</font></p>
       <p align="center"><font size="3"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a>,

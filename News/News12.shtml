@@ -248,7 +248,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Released a bug fix for <a href="../ZIPIdent/ZIPIdent.shtml">ZIPIdent</a>
+      <p align="center">Released a bug fix for <a href="../Tools/ZIPIdent/ZIPIdent.shtml">ZIPIdent</a>
       (v1.01)</p>
       <p align="center">A load more MAME v0.63 related data files, courtesy of
       Rosewood and Ben Jos:</p>
@@ -271,8 +271,8 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       <p align="center"><font size="3">The first release of 2003!</font>
       Firstly, some <font size="3">new releases of my data file
       tools:</font></p>
-      <p align="center"><font size="3"><a href="../DatUtil/DatUtil.shtml">DatUtil
-      v1.21</a>, <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.15</a> and <a href="../ROMBuild/ROMBuild.shtml">ROMBuild
+      <p align="center"><font size="3"><a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
+      v1.21</a>, <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.15</a> and <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild
       v1.13</a></font></p>
       <p align="center"><font size="3">There are also quite a few data file releases for
       MAME v0.63 (brought to you by myself, Ben Jos and Rosewood):</font></p>

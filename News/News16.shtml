@@ -58,7 +58,7 @@ etc.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Released <a href="../ROMBuild/ROMBuild.shtml">ROMBuild
+      <p align="center">Released <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild
       v1.18</a></p>
       <p align="center">This version supports the new Neo-Geo dumps from MAME
       v0.80 and can convert them backwards for other emulators.</p>
@@ -81,7 +81,7 @@ etc.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Updated <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>      
+      <p align="center">Updated <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>      
       (v1.26).<br>
       Also re-created the supplement and changes data files for MAME v0.79
       (using the new MAMEDiff).<br>
@@ -122,7 +122,7 @@ etc.</p>
       emulator has been released that supports the new Neo-Geo re-dumps.</p>
       <p align="center">Since it was such a simple matter for me to provide a
       tool that can build them for you, here it is:</p>
-      <p align="center"><a href="../ROMBuild/rbmame80.zip"> ROMBuild [MAME v0.80 special]</a>
+      <p align="center"><a href="../Tools/ROMBuild/rbmame80.zip"> ROMBuild [MAME v0.80 special]</a>
       (yes, it was named in advance of any emulator releases)</p>
       <p align="center">29 games have been re-dumped but 3 of the games only
       have changes in the parent.</p>
@@ -137,7 +137,7 @@ etc.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Finally added disk support to <a href="../DatUtil/DatUtil.shtml">DatUtil</a>  
+      <p align="center">Finally added disk support to <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a>  
       (v1.32).</p>
     </td>
   </tr>
@@ -151,7 +151,7 @@ etc.</p>
       Emus</a> archive, moving some more data files into it.
       <p align="center">Released data file for <a href="../Dats/RAINE/RAINE.shtml">RAINE</a>
       v0.39.3
-      <p align="center">Released <a href="../ROMBuild/ROMBuild.shtml">ROMBuild
+      <p align="center">Released <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild
       v1.17</a>
     </td>
   </tr>
@@ -199,9 +199,9 @@ etc.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Made a small enhancement to <a href="../DatUtil/DatUtil.shtml">DatUtil</a>  
+      <p align="center">Made a small enhancement to <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a>  
       (v1.31)
-      and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>      (v1.25).<br>
+      and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>      (v1.25).<br>
       They now write 'flags nodump' rather than 'crc 00000000', for improved
       CMPro resource handling.</p>
       <p align="center">Updated data files in relation to MAME v0.79:</p>
@@ -230,9 +230,9 @@ etc.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Made some enhancements to <a href="../DatUtil/DatUtil.shtml">DatUtil</a>  
+      <p align="center">Made some enhancements to <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a>  
       (v1.30)
-      and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>     (v1.24).</p>
+      and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>     (v1.24).</p>
       <p align="center">Released data files for <a href="../Dats/M1/M1.shtml">M1
       v0.7.4b</a> and <a href="../Dats/RAINE/RAINE.shtml">RAINE v0.39.2</a>.</p>
       <p align="center">Changed the menu on the left of this page slightly,
@@ -248,9 +248,9 @@ etc.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">Released some bug fixes for my tools... <a href="../DatUtil/DatUtil.shtml">DatUtil</a>  
+      <p align="center">Released some bug fixes for my tools... <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a>  
       (v1.29)
-      and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>   (v1.23).</p>
+      and <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff</a>   (v1.23).</p>
       <p align="center">I have also rebuilt the <a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME
       v0.78</a> data files using the new tools.<br>
       Note: The most affected collection is 'MAME v0.78 (Split-merged Changes)'

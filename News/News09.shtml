@@ -83,10 +83,10 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
   <tr>
     <td>
       <p align="center">Quick release while I have a few minutes spare:</p>
-      <p align="center"> <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.13</a><font color="#000000" size="3">:</font></p>
+      <p align="center"> <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.13</a><font color="#000000" size="3">:</font></p>
       <p align="center">- Automatically detects and handles new resource ROMs.<br>
       - New resource ROMs are now included in the -t/-T output.</p>
-      <p align="center"><font color="#000000" size="3"> <a href="../DatUtil/DatUtil.shtml">DatUtil
+      <p align="center"><font color="#000000" size="3"> <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
       v1.20</a>:</font></p>
       <p align="center">- New resource ROMs in MAME listinfo are automatically
       detected.<br>
@@ -161,8 +161,8 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
       for at least the next couple of weeks so...</p>
       <p align="center">I've updated DatUtil and MAMEDiff in case there is a new
       MAME release while I'm gone.</p>
-      <p align="center"> <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.12</a><font color="#000000" size="3">
-      and <a href="../DatUtil/DatUtil.shtml">DatUtil v1.19</a>:</font></p>
+      <p align="center"> <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.12</a><font color="#000000" size="3">
+      and <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil v1.19</a>:</font></p>
       <p align="center">Added support for the PGM resource to both of them.
     </td>
   </tr>
@@ -172,7 +172,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center"><font color="#000000" size="3">Released <a href="../DatUtil/DatUtil.shtml">DatUtil
+      <p align="center"><font color="#000000" size="3">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
       v1.18</a> for the benefit of PinMAME users.</font></p>
     </td>
   </tr>
@@ -218,7 +218,7 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
   <tr>
     <td>
       <p align="center">Released a new tool!</p>
-      <p align="center"><a href="../ZIPIdent/ZIPIdent.shtml">ZIPIdent v1.0</a></p>
+      <p align="center"><a href="../Tools/ZIPIdent/ZIPIdent.shtml">ZIPIdent v1.0</a></p>
     </td>
   </tr>
 </table>
@@ -229,13 +229,13 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
     <td>
       <p align="center">Updated data files for <a href="../Dats/NebulaJukebox/NebulaJukebox.shtml">Nebula
       Jukebox v2.1</a> (added bucky and moo).</p>
-      <p align="center">Released <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.11</a>:</p>
+      <p align="center">Released <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.11</a>:</p>
       <p align="center">Made internal 'fix-merging' logic check CRC as well as
       name.<br>
       Increased maximum ROM name length to 20 (for neopong).<br>
       Minor fix relating to ROM names that are too long.<br>
       Exits gracefully when the maximum no of games/ROMs reached.</p>
-      <p align="center"><font color="#000000" size="3">...and <a href="../DatUtil/DatUtil.shtml">DatUtil
+      <p align="center"><font color="#000000" size="3">...and <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
       v1.17</a>:</font></p>
       <p align="center">- Made 'fix-merging' option check the CRC as well as the
       name.<br>
