@@ -69,25 +69,25 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.82</a>
+            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.83</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>09/05/2004</strong>
+            <strong>05/06/2004</strong>
           </td>
           <td align="center">
-            <strong>4921</strong>
+            <strong>4953</strong>
           </td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.82</a>
+            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.83</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>09/05/2004</strong>
+            <strong>05/06/2004</strong>
           </td>
           <td align="center">
             <strong>Various</strong>
@@ -117,11 +117,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="RAINE/RAINE.shtml">RAINE v0.40.0</a>
+            <a href="RAINE/RAINE.shtml">RAINE v0.40.2</a>
           </td>
-          <td align="center"></td>
-          <td align="center">10/04/2004</td>
-          <td align="center">486</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>05/06/2004</strong>
+          </td>
+          <td align="center">
+            <strong>497</strong>
+          </td>
         </tr>
 
 			
@@ -213,22 +217,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <td>
             <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20040509</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>09/05/2004</strong>
-          </td>
-          <td align="center">
-            <strong>190</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">09/05/2004</td>
+          <td align="center">190</td>
         </tr>
 
 			<tr>
           <td>
-            <a href="ZN/ZN.shtml">ZN 20040410</a>
+            <a href="ZN/ZN.shtml">ZN 20040605</a>
           </td>
-          <td align="center"></td>
-          <td align="center">10/04/2004</td>
-          <td align="center">20</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>05/06/2004</strong>
+          </td>
+          <td align="center">
+            <strong>20</strong>
+          </td>
         </tr>
 
 		</table>
@@ -260,7 +264,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>09/05/2004</strong>
+            <strong>05/06/2004</strong>
           </td>
           <td align="center">
             <strong>1076</strong>

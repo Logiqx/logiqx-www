@@ -4,7 +4,7 @@
 	<name>Neo-Geo</name>
 	<version>20040509</version>
 	<suitability/>
-	<status>Updated</status>
+	<status></status>
 	<date>09/05/2004</date>
 	<games>190</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 June 2004</date>
+			<comment>No change required for MAME v0.83.</comment>
+		</revision>
 		<revision>
 			<date>9 May 2004</date>
 			<comment>Updated data files to match MAME v0.82 (added ghostlop).</comment>

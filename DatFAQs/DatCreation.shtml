@@ -227,7 +227,7 @@ ZIPs using a data file creation tool. There are two options: </p>
 <ul>
   <li>DataMa (by Eric Bole-Feysot) to generate a RomCenter data file then use
     DatUtil to convert it to CMPro format.</li>
-  <li><a href="http://www.logiqx.com/DatUtil/DatUtil.shtml">DatUtil</a> has a directory/ZIP scanner facility that can save in CMPro and
+  <li><a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a> has a directory/ZIP scanner facility that can save in CMPro and
     RomCenter format.</li>
 </ul>
 <p>Be aware that certain versions of DataMa produce errors such as the inclusion

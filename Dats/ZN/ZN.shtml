@@ -2,14 +2,14 @@
 	<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>ZN 20040410</title>
+    <title>ZN 20040605</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="ZN.gif" width="37" height="40"></p>
-	<p>20 games of ZN 20040410</p>
+	<p>20 games of ZN 20040605</p>
 	
 	
 	
@@ -22,16 +22,16 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="ZN%2020040410%20(cm).zip">ZN dat for CMPro</a> (5KB)</p>
+            <p>Download <a href="ZN%2020040605%20(cm).zip">ZN dat for CMPro</a> (5KB)</p>
             <p>
-              <a href="ZN%2020040410%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="ZN%2020040605%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 
 		<td width="50%" align="center">
-            <p>Download <a href="ZN%2020040410%20(rc).zip">ZN dat for ROMCenter</a> (5KB)</p>
+            <p>Download <a href="ZN%2020040605%20(rc).zip">ZN dat for ROMCenter</a> (5KB)</p>
             <p>
-              <a href="ZN%2020040410%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="ZN%2020040605%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
@@ -39,6 +39,13 @@
 
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>5 June 2004</u>
+        </strong> - 
+			
+			Updated data files to match MAME v0.83.
+		</p>
       <p>
         <strong>
           <u>9 May 2004</u>
