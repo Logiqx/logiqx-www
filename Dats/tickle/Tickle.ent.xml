@@ -1,0 +1,27 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="Tickle">
+	<img src="Tickle.gif" width="73" height="40"/>
+	<name>Tickle</name>
+	<version>v0.92</version>
+	<suitability/>
+	<status>Updated</status>
+	<date>13/07/2004</date>
+	<games>27</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+	<dats>
+		<dat>
+			&CMPro;
+			<file name="Tickle%20v0.92%20(cm).zip" size="9"/>
+		</dat>
+		<dat>
+			&ROMCenter;
+			<file name="Tickle%20v0.92%20(rc).zip" size="4"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>13 July 2004</date>
+			<comment>Tickle v0.92.</comment>
+		</revision>
+	</revisions>
+</emulator>

@@ -12,6 +12,7 @@ EMULATORS= \
 	MAMEBeta/MAMEBeta.shtml \
 	MAMEChanges/MAMEChanges.shtml \
 	RAINE/RAINE.shtml \
+	Tickle/Tickle.shtml \
 	WinKawaks/WinKawaks.shtml \
 	OlderEmus/OlderEmus.shtml \
 	M1/M1.shtml \

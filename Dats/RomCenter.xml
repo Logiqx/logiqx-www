@@ -8,6 +8,7 @@
 	<!ENTITY Nebula SYSTEM "Nebula/Nebula.ent.xml">
 	<!ENTITY NebulaModel2 SYSTEM "NebulaModel2/NebulaModel2.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
+	<!ENTITY Tickle SYSTEM "Tickle/Tickle.ent.xml">
 	<!ENTITY WinKawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
 	<!ENTITY OlderEmus SYSTEM "OlderEmus/OlderEmus.ent.xml">
 	<!ENTITY CPS1 SYSTEM "CPS-1/CPS-1.ent.xml">
@@ -37,6 +38,7 @@
 &Nebula;
 &NebulaModel2;
 &RAINE;
+&Tickle;
 &WinKawaks;
 		</emulators>
 	</section>
