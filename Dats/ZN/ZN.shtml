@@ -2,14 +2,14 @@
 	<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>ZN 20040605</title>
+    <title>ZN 20040711</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="ZN.gif" width="37" height="40"></p>
-	<p>20 games of ZN 20040605</p>
+	<p>20 games of ZN 20040711</p>
 	
 	
 	
@@ -22,16 +22,16 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="ZN%2020040605%20(cm).zip">ZN dat for CMPro</a> (5KB)</p>
+            <p>Download <a href="ZN%2020040711%20(cm).zip">ZN dat for CMPro</a> (8KB)</p>
             <p>
-              <a href="ZN%2020040605%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="ZN%2020040711%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 
 		<td width="50%" align="center">
-            <p>Download <a href="ZN%2020040605%20(rc).zip">ZN dat for ROMCenter</a> (5KB)</p>
+            <p>Download <a href="ZN%2020040711%20(rc).zip">ZN dat for ROMCenter</a> (5KB)</p>
             <p>
-              <a href="ZN%2020040605%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="ZN%2020040711%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
@@ -39,6 +39,13 @@
 
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>11 July 2004</u>
+        </strong> - 
+			
+			Added SHA1 information.
+		</p>
       <p>
         <strong>
           <u>2 July 2004</u>

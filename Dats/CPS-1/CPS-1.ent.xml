@@ -2,10 +2,10 @@
 <emulator id="CPS-1">
 	<img src="CPS-1.gif" width="77" height="40"/>
 	<name>CPS-1</name>
-	<version>20031014</version>
+	<version>20040711</version>
 	<suitability/>
-	<status/>
-	<date>14/10/2003</date>
+	<status>Updated</status>
+	<date>11/07/2004</date>
 	<games>114</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-1%2020031014%20(cm).zip" size="22"/>
+			<file name="CPS-1%2020040711%20(cm).zip" size="49"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-1%2020031014%20(rc).zip" size="26"/>
+			<file name="CPS-1%2020040711%20(rc).zip" size="26"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>11 July 2004</date>
+			<comment>Added SHA1 information.</comment>
+		</revision>
 		<revision>
 			<date>2 July 2004</date>
 			<comment>No change required for MAME v0.84.</comment>

@@ -4,8 +4,8 @@
 	<name>Nebula Jukebox</name>
 	<version>v2.8</version>
 	<suitability/>
-	<status></status>
-	<date>07/03/2004</date>
+	<status>Updated</status>
+	<date>11/07/2004</date>
 	<games>265</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,7 +14,7 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Nebula%20Jukebox%20v2.8%20(cm).zip" size="17"/>
+			<file name="Nebula%20Jukebox%20v2.8%20(cm).zip" size="39"/>
 		</dat>
 		<dat>
 			&ROMCenter;
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>11 July 2004</date>
+			<comment>Added SHA1 information.</comment>
+		</revision>
 		<revision>
 			<date>7 March 2004</date>
 			<comment>Updated to match MAME v0.80.</comment>

@@ -38,6 +38,22 @@ etc.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>11 July 2004</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+        <p align="center">I have made a couple of nice additions to DatUtil and
+        DatLib:</p>
+        <p align="center"><a href="../Tools/DatUtil/DatUtil.shtml">DatUtil v2.2</a>
+        and <a href="../Tools/DatLib/DatLib.shtml">DatLib v1.4</a><p align="center">The
+        other tools have also received updates but they are only important to
+        people using the source. The tools themselves will not behave any
+        differently.<p align="center">I have also updated all of the <a href="../Dats/Dats.shtml">data
+        files</a> to include SHA1 information.
+    </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>6 July 2004</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>

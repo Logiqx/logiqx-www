@@ -5,7 +5,7 @@
 	<version>v0.40.4</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>02/07/2004</date>
+	<date>11/07/2004</date>
 	<games>497</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,7 +14,7 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="RAINE%20v0.40.4%20(cm).zip" size="81"/>
+			<file name="RAINE%20v0.40.4%20(cm).zip" size="211"/>
 		</dat>
 		<dat>
 			&ROMCenter;
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>11 July 2004</date>
+			<comment>Added SHA1 information.</comment>
+		</revision>
 		<revision>
 			<date>2 July 2004</date>
 			<comment>Updated supplements for MAME v0.84.<br/>Also renamed to to v0.40.4</comment>
