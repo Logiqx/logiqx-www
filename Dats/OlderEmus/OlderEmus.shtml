@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Older Emus (175 different ones!)</title>
+    <title>Older Emus (174 different ones!)</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="OlderEmus.gif" width="140" height="40"></p>
-	<p>100s of games of Older Emus (175 different ones!)</p>
+	<p>100s of games of Older Emus (174 different ones!)</p>
 	
 	
 	
@@ -24,21 +24,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="Older%20Emus%2020030921%20(cm).zip">Older Emus dat for CMPro</a> (404KB)</p>
+            <p>Download <a href="Older%20Emus%2020040205%20(cm).zip">Older Emus dat for CMPro</a> (462KB)</p>
             <p>
-              <a href="Older%20Emus%2020030921%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="Older%20Emus%2020040205%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="Older%20Emus%2020030921%20(rc).zip">Older Emus dat for ROMCenter</a> (410KB)</p>
+            <p>Download <a href="Older%20Emus%2020040205%20(rc).zip">Older Emus dat for ROMCenter</a> (471KB)</p>
             <p>
-              <a href="Older%20Emus%2020030921%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="Older%20Emus%2020040205%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>5 February 2004</u>
+        </strong> - 
+			
+			Added S11Emu, CottAGE, Final Burn and Viva Nonno.<br>ROM redumps affect GalEmu, Hoot and NeoRAGEx.
+		</p>
       <p>
         <strong>
           <u>21 September 2003</u>

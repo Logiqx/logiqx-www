@@ -9,9 +9,7 @@ FILELIST=Files.lst
 EMULATORS= \
 	CPS-2/CPS-2.shtml \
 	CPS-1/CPS-1.shtml \
-	CottAGE/CottAGE.shtml \
 	Daphne/Daphne.shtml \
-	FinalBurn/FinalBurn.shtml \
 	FinalBurnAlpha/FinalBurnAlpha.shtml \
 	MAMEBeta/MAMEBeta.shtml \
 	MAMEChanges/MAMEChanges.shtml \
@@ -38,7 +36,6 @@ EMULATORS= \
 	WinKawaks/WinKawaks.shtml \
 	M1/M1.shtml \
 	MPU/MPU.shtml \
-	VivaNonno/VivaNonno.shtml \
 
 all: $(CONTENTS) $(ROMCENTER) $(ROMCENTER_INF) $(FILELIST) $(EMULATORS)
 

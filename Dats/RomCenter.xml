@@ -1,10 +1,8 @@
 <?xml version="1.0"?>
 <!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <!DOCTYPE contents_page SYSTEM "dtd/dats.dtd" [
-	<!ENTITY CottAGE SYSTEM "CottAGE/CottAGE.ent.xml">
 	<!ENTITY Daphne SYSTEM "Daphne/Daphne.ent.xml">
 	<!ENTITY FinalBurnAlpha SYSTEM "FinalBurnAlpha/FinalBurnAlpha.ent.xml">
-	<!ENTITY FinalBurn SYSTEM "FinalBurn/FinalBurn.ent.xml">
 	<!ENTITY MAMEBeta SYSTEM "MAMEBeta/MAMEBeta.ent.xml">
 	<!ENTITY MAMEChanges SYSTEM "MAMEChanges/MAMEChanges.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
@@ -33,7 +31,6 @@
 	<!ENTITY WinKawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
 	<!ENTITY Zinc SYSTEM "Zinc/Zinc.ent.xml">
 	<!ENTITY MPU SYSTEM "MPU/MPU.ent.xml">
-	<!ENTITY VivaNonno SYSTEM "VivaNonno/VivaNonno.ent.xml">
 ]>
 <contents_page>
 	<section>
@@ -43,16 +40,13 @@
 			<p>Emulators that are up to six months old or likely to receive further updates.</p>
 		</comment>
 		<emulators>
-&CottAGE;
 &Daphne;
 &FinalBurnAlpha;
-&FinalBurn;
 &MAMEBeta;
 &MAMEChanges;
 &Nebula;
 &NebulaModel2;
 &RAINE;
-&VivaNonno;
 &WinKawaks;
 		</emulators>
 	</section>

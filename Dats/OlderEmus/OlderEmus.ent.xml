@@ -2,10 +2,10 @@
 <emulator id="OlderEmus">
 	<img src="OlderEmus.gif" width="140" height="40"/>
 	<name>Older Emus</name>
-	<version>(175 different ones!)</version>
+	<version>(174 different ones!)</version>
 	<suitability/>
-	<status/>
-	<date>21/09/2003</date>
+	<status>Updated</status>
+	<date>05/02/2004</date>
 	<games>100s of</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Older%20Emus%2020030921%20(cm).zip" size="404"/>
+			<file name="Older%20Emus%2020040205%20(cm).zip" size="462"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Older%20Emus%2020030921%20(rc).zip" size="410"/>
+			<file name="Older%20Emus%2020040205%20(rc).zip" size="471"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 February 2004</date>
+			<comment>Added S11Emu, CottAGE, Final Burn and Viva Nonno.<br/>ROM redumps affect GalEmu, Hoot and NeoRAGEx.</comment>
+		</revision>
 		<revision>
 			<date>21 September 2003</date>
 			<comment>Added Calice, Laser, Mimic, Modeler, Sega System 24, U64Emu, Zinc, Hoot and TinyEmu to the archive.</comment>
