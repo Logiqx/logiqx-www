@@ -1,18 +1,13 @@
 <?xml version="1.0"?>
 <!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <!DOCTYPE contents_page SYSTEM "dtd/dats.dtd" [
-	<!ENTITY Calice SYSTEM "Calice/Calice.ent.xml">
 	<!ENTITY CottAGE SYSTEM "CottAGE/CottAGE.ent.xml">
 	<!ENTITY Daphne SYSTEM "Daphne/Daphne.ent.xml">
-	<!ENTITY Callus95 SYSTEM "Callus95/Callus95.ent.xml">
 	<!ENTITY FinalBurnAlpha SYSTEM "FinalBurnAlpha/FinalBurnAlpha.ent.xml">
 	<!ENTITY FinalBurn SYSTEM "FinalBurn/FinalBurn.ent.xml">
-	<!ENTITY Laser SYSTEM "Laser/Laser.ent.xml">
 	<!ENTITY MAMEBeta SYSTEM "MAMEBeta/MAMEBeta.ent.xml">
 	<!ENTITY MAMEChanges SYSTEM "MAMEChanges/MAMEChanges.ent.xml">
 	<!ENTITY MAMETestDrivers SYSTEM "MAMETestDrivers/MAMETestDrivers.ent.xml">
-	<!ENTITY Mimic SYSTEM "Mimic/Mimic.ent.xml">
-	<!ENTITY ModelerNew SYSTEM "ModelerNew/ModelerNew.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
 	<!ENTITY OlderEmus SYSTEM "OlderEmus/OlderEmus.ent.xml">
 	<!ENTITY CPS2 SYSTEM "CPS-2/CPS-2.ent.xml">
@@ -22,10 +17,8 @@
 	<!ENTITY QPlayer SYSTEM "QPlayer/QPlayer.ent.xml">
 	<!ENTITY NeoJukeBox SYSTEM "NeoJukeBox/NeoJukeBox.ent.xml">
 	<!ENTITY NebulaJukebox SYSTEM "NebulaJukebox/NebulaJukebox.ent.xml">
-	<!ENTITY VAntAGE SYSTEM "VAntAGE/VAntAGE.ent.xml">
 	<!ENTITY Nebula SYSTEM "Nebula/Nebula.ent.xml">
 	<!ENTITY NebulaModel2 SYSTEM "NebulaModel2/NebulaModel2.ent.xml">
-	<!ENTITY MAMEImages SYSTEM "MAMEImages/MAMEImages.ent.xml">
 	<!ENTITY MAMEArtwork SYSTEM "MAMEArtwork/MAMEArtwork.ent.xml">
 	<!ENTITY MAMECabinets SYSTEM "MAMECabinets/MAMECabinets.ent.xml">
 	<!ENTITY MAMEFlyers SYSTEM "MAMEFlyers/MAMEFlyers.ent.xml">
@@ -38,15 +31,11 @@
 	<!ENTITY MAMusIcons SYSTEM "MAMusIcons/MAMusIcons.ent.xml">
 	<!ENTITY CrashTestsMAMEScreenshots SYSTEM "CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.ent.xml">
 	<!ENTITY M1 SYSTEM "M1/M1.ent.xml">
-	<!ENTITY Hoot SYSTEM "Hoot/Hoot.ent.xml">
-	<!ENTITY U64Emu SYSTEM "U64Emu/U64Emu.ent.xml">
-	<!ENTITY S11Emu SYSTEM "S11Emu/S11Emu.ent.xml">
 	<!ENTITY NeoRAGExSupp SYSTEM "NeoRAGExSupp/NeoRAGExSupp.ent.xml">
 	<!ENTITY WinKawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
 	<!ENTITY Zinc SYSTEM "Zinc/Zinc.ent.xml">
 	<!ENTITY MPU SYSTEM "MPU/MPU.ent.xml">
 	<!ENTITY VivaNonno SYSTEM "VivaNonno/VivaNonno.ent.xml">
-	<!ENTITY SegaSystem24Emulator SYSTEM "SegaSystem24Emulator/SegaSystem24Emulator.ent.xml">
 ]>
 <contents_page>
 	<section>
@@ -56,25 +45,18 @@
 			<p>Emulators that are up to six months old or likely to receive further updates.</p>
 		</comment>
 		<emulators>
-&Calice;
 &CottAGE;
 &Daphne;
 &FinalBurnAlpha;
 &FinalBurn;
-&Laser;
 &MAMEBeta;
 &MAMEChanges;
 &MAMETestDrivers;
-&Mimic;
-&ModelerNew;
 &Nebula;
 &NebulaModel2;
 &RAINE;
-&SegaSystem24Emulator;
-&U64Emu;
 &VivaNonno;
 &WinKawaks;
-&Zinc;
 		</emulators>
 	</section>
 	<section>
@@ -85,16 +67,6 @@
 		</comment>
 		<emulators>
 &OlderEmus;
-		</emulators>
-	</section>
-	<section>
-		<img src="OlderEmus.gif" width="140" height="40"/>
-		<type>Emulator</type>
-		<comment>
-			<p>Supplementary Dats - These have not been tested by me so I offer no warranty on them. Use at your own risk!</p>
-		</comment>
-		<emulators>
-&NeoRAGExSupp;
 		</emulators>
 	</section>
 	<section>

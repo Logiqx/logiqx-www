@@ -16,9 +16,6 @@ email=support@romcenter.com
 			
 		
 		
-
-;Calice;v0.6.6;350;Logiqx;http://www.logiqx.com;;19/01/2003;http://www.logiqx.com/Dats/Calice/Calice%20v0.6.6%20(rc).zip
-
 ;CottAGE;v0.12;136;Logiqx;http://www.logiqx.com;;17/12/2002;http://www.logiqx.com/Dats/CottAGE/CottAGE%20v0.12%20(rc).zip
 
 updated;Daphne;v0.99.6;30;Logiqx;http://www.logiqx.com;;14/09/2003;http://www.logiqx.com/Dats/Daphne/Daphne%20v0.99.6%20(rc).zip
@@ -29,8 +26,6 @@ updated;Daphne;v0.99.6;30;Logiqx;http://www.logiqx.com;;14/09/2003;http://www.lo
 
 ;Final Burn;v0.517;57;Logiqx;http://www.logiqx.com;;25/08/2003;http://www.logiqx.com/Dats/FinalBurn/Final%20Burn%20v0.517%20(rc).zip
 
-;Laser;v0.20a;76;Logiqx;http://www.logiqx.com;;07/12/2002;http://www.logiqx.com/Dats/Laser/Laser%20v0.20a%20(rc).zip
-
 
 updated;MAME;v0.74;4123;Logiqx;http://www.logiqx.com;;18/09/2003;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.74%20(rc).zip
 
@@ -40,10 +35,6 @@ updated;MAME Changes;v0.74;Various;Logiqx;http://www.logiqx.com;;18/09/2003;http
 
 updated;MAME Test Drivers;v0.74;304;Ben Jos - Team Logiqx;http://www.logiqx.com;;18/09/2003;http://www.logiqx.com/Dats/MAMETestDrivers/MAME%20Test%20Drivers%20v0.74%20(rc).zip
 
-;Mimic;v2.10;36;Logiqx;http://www.logiqx.com;;31/10/2002;http://www.logiqx.com/Dats/Mimic/Mimic%20v2.10%20(rc).zip
-
-;Modeler;v0.9.3a;20;Logiqx;http://www.logiqx.com;;09/12/2001;http://www.logiqx.com/Dats/ModelerNew/Modeler%20v0.9.3a.zip
-
 
 updated;Nebula;v2.23c;403;Logiqx;http://www.logiqx.com;;18/09/2003;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.23c%20(rc).zip
 
@@ -52,18 +43,11 @@ updated;Nebula;v2.23c;403;Logiqx;http://www.logiqx.com;;18/09/2003;http://www.lo
 
 ;RAINE;v0.38.1;448;Logiqx;http://www.logiqx.com;;25/08/2003;http://www.logiqx.com/Dats/RAINE/RAINE%20v0.38.1%20(rc).zip
 
-
-;Sega System 24 Emulator;20030208;6;rosewood - Team Logiqx;http://www.logiqx.com;;14/02/2003;http://www.logiqx.com/Dats/SegaSystem24Emulator/Sega%20System%2024%20Emulator%2020030208%20(rc).zip
-
-;U64Emu;v3.04;2;Logiqx;http://www.logiqx.com;;09/10/2002;http://www.logiqx.com/Dats/U64Emu/U64Emu%20v3.04%20(rc).zip
-
 updated;Viva Nonno;v22.0.3;6;Logiqx;http://www.logiqx.com;;18/09/2003;http://www.logiqx.com/Dats/VivaNonno/Viva%20Nonno%20v22.0.3%20(rc).zip
 
 
 updated;WinKawaks;v1.47b;396;Logiqx;http://www.logiqx.com;;19/09/2003;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.47b%20(rc).zip
 
-;Zinc;v0.9;26;Logiqx;http://www.logiqx.com;;03/10/2002;http://www.logiqx.com/Dats/Zinc/Zinc%20v0.9%20(rc).zip
-
 		
 	
 	
@@ -73,18 +57,7 @@ updated;WinKawaks;v1.47b;396;Logiqx;http://www.logiqx.com;;19/09/2003;http://www
 			
 		
 		
-;Older Emus;(166 different ones!);100s of;Logiqx;http://www.logiqx.com;;06/05/2003;http://www.logiqx.com/Dats/OlderEmus/Older%20Emus%2020030506%20(rc).zip
-
-		
-	
-	
-		
-		
-		
-			
-		
-		
-;NeoRAGEx Supplement (recent games);20021223;22;Mr Flycboy;mailto:flycboy@hotmail.com;;29/12/2002;http://www.logiqx.com/Dats/NeoRAGExSupp/Neoragex%20v0.6b%2020021223(rc).zip
+updated;Older Emus;(175 different ones!);100s of;Logiqx;http://www.logiqx.com;;21/09/2003;http://www.logiqx.com/Dats/OlderEmus/Older%20Emus%2020030921%20(rc).zip
 
 		
 	
@@ -126,7 +99,6 @@ updated;Neo-Geo;20030918;173;Logiqx;http://www.logiqx.com;;18/09/2003;http://www
 			
 		
 		
-;Hoot;20011002;248;Ben Jos - Team Logiqx;http://www.logiqx.com;;21/12/2002;http://www.logiqx.com/Dats/Hoot/Hoot%2020011002%20(rc).zip
 
 
 updated;M1;v0.7.2;937;Logiqx;http://www.logiqx.com;;18/09/2003;http://www.logiqx.com/Dats/M1/M1%20v0.7.2%20(rc).zip

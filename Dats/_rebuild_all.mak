@@ -9,20 +9,14 @@ FILELIST=Files.lst
 EMULATORS= \
 	CPS-2/CPS-2.shtml \
 	CPS-1/CPS-1.shtml \
-	Calice/Calice.shtml \
 	CottAGE/CottAGE.shtml \
 	Daphne/Daphne.shtml \
 	FinalBurn/FinalBurn.shtml \
 	FinalBurnAlpha/FinalBurnAlpha.shtml \
-	Laser/Laser.shtml \
 	MAMEBeta/MAMEBeta.shtml \
 	MAMEChanges/MAMEChanges.shtml \
 	MAMETestDrivers/MAMETestDrivers.shtml \
-	Mimic/Mimic.shtml \
-	ModelerNew/ModelerNew.shtml \
 	RAINE/RAINE.shtml \
-	SegaSystem24Emulator/SegaSystem24Emulator.shtml \
-	U64Emu/U64Emu.shtml \
 	OlderEmus/OlderEmus.shtml \
 	Neo-Geo/Neo-Geo.shtml \
 	ZN/ZN.shtml \
@@ -31,7 +25,6 @@ EMULATORS= \
 	NebulaJukebox/NebulaJukebox.shtml \
 	Nebula/Nebula.shtml \
 	NebulaModel2/NebulaModel2.shtml \
-	MAMEImages/MAMEImages.shtml \
 	CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml \
 	MAMEArtwork/MAMEArtwork.shtml \
 	MAMECabinets/MAMECabinets.shtml \
@@ -45,10 +38,8 @@ EMULATORS= \
 	MAMusIcons/MAMusIcons.shtml \
 	WinKawaks/WinKawaks.shtml \
 	M1/M1.shtml \
-	Hoot/Hoot.shtml \
 	MPU/MPU.shtml \
 	NeoRAGExSupp/NeoRAGExSupp.shtml \
-	Zinc/Zinc.shtml \
 	VivaNonno/VivaNonno.shtml \
 
 all: $(CONTENTS) $(ROMCENTER) $(ROMCENTER_INF) $(FILELIST) $(EMULATORS)
