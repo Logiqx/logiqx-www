@@ -181,11 +181,11 @@ Dats/NebulaJukebox	NebulaJukebox.xml	193
 Dats/NebulaJukebox/CVS	Entries	356
 Dats/NebulaJukebox/CVS	Repository	42
 Dats/NebulaJukebox/CVS	Root	26
-Dats/Neo-Geo	Neo-Geo 20050104 (cm).zip	101446
+Dats/Neo-Geo	Neo-Geo 20050104 (cm).zip	101978
 Dats/Neo-Geo	Neo-Geo 20050104 (rc).zip	57495
-Dats/Neo-Geo	Neo-Geo.ent.xml	7271
+Dats/Neo-Geo	Neo-Geo.ent.xml	7425
 Dats/Neo-Geo	Neo-Geo.gif	2287
-Dats/Neo-Geo	Neo-Geo.shtml	8232
+Dats/Neo-Geo	Neo-Geo.shtml	8396
 Dats/Neo-Geo	Neo-Geo.xml	173
 Dats/Neo-Geo/CVS	Entries	326
 Dats/Neo-Geo/CVS	Repository	36
@@ -377,7 +377,7 @@ Menu/CVS	Repository	28
 Menu/CVS	Root	26
 News	Dilbert.jpg	63978
 News	News.gif	1939
-News	News.shtml	4444
+News	News.shtml	4994
 News	News01.shtml	11895
 News	News02.shtml	9813
 News	News03.shtml	13469
@@ -499,9 +499,9 @@ Tools/MAMEDiff/CVS	Entries	199
 Tools/MAMEDiff/CVS	Repository	38
 Tools/MAMEDiff/CVS	Root	26
 Tools/ROMBuild	rbmame80.zip	52512
-Tools/ROMBuild	rbuild22.zip	107998
+Tools/ROMBuild	rbuild23.zip	111899
 Tools/ROMBuild	ROMBuild.gif	2774
-Tools/ROMBuild	ROMBuild.shtml	6835
+Tools/ROMBuild	ROMBuild.shtml	7196
 Tools/ROMBuild/CVS	Entries	198
 Tools/ROMBuild/CVS	Repository	38
 Tools/ROMBuild/CVS	Root	26
