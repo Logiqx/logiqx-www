@@ -23,6 +23,10 @@
 	</dats>
 	<revisions>
 		<revision>
+			<date>9 April 2003</date>
+			<comment>No update required, supplements are fine for MAME v0.67.</comment>
+		</revision>
+		<revision>
 			<date>10 March 2003</date>
 			<comment>Data file for MAME v0.66 by Roman Scherzer.</comment>
 		</revision>

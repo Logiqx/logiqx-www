@@ -387,9 +387,13 @@
           <td>
             <a href="M1/M1.shtml">M1 v0.7.1</a>
           </td>
-          <td align="center"></td>
-          <td align="center">10/03/2003</td>
-          <td align="center">737</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>09/04/2003</strong>
+          </td>
+          <td align="center">
+            <strong>737</strong>
+          </td>
         </tr>
 
 			
@@ -447,11 +451,15 @@
 			
 <tr>
           <td>
-            <a href="CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml">CrashTest's MAME Screenshots v0.66</a>
+            <a href="CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml">CrashTest's MAME Screenshots v0.67</a>
           </td>
-          <td align="center"></td>
-          <td align="center">11/03/2003</td>
-          <td align="center">Various</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>09/04/2003</strong>
+          </td>
+          <td align="center">
+            <strong>Various</strong>
+          </td>
         </tr>
 
 			

@@ -4,8 +4,8 @@
 	<name>M1</name>
 	<version>v0.7.1</version>
 	<suitability/>
-	<status/>
-	<date>10/03/2003</date>
+	<status>Updated</status>
+	<date>09/04/2003</date>
 	<games>737</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="M1%20v0.7.1%20(cm).zip" size="81"/>
+			<file name="M1%20v0.7.1%20(cm).zip" size="77"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="M1%20v0.7.1%20(rc).zip" size="79"/>
+			<file name="M1%20v0.7.1%20(rc).zip" size="75"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>9 April 2003</date>
+			<comment>Updated supplementary dats for MAME v0.67.</comment>
+		</revision>
 		<revision>
 			<date>10 March 2003</date>
 			<comment>Updated supplementary dats for MAME v0.66.</comment>
