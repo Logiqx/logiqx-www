@@ -4,8 +4,8 @@
 	<name>Nebula Jukebox</name>
 	<version>v2.9</version>
 	<suitability/>
-	<status></status>
-	<date>17/07/2004</date>
+	<status>Updated</status>
+	<date>16/08/2004</date>
 	<games>249</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Nebula%20Jukebox%20v2.9%20(cm).zip" size="71"/>
+			<file name="Nebula%20Jukebox%20v2.9%20(cm).zip" size="69"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Nebula%20Jukebox%20v2.9%20(rc).zip" size="38"/>
+			<file name="Nebula%20Jukebox%20v2.9%20(rc).zip" size="37"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>16 August 2004</date>
+			<comment>Updated supplements for MAME v0.85.</comment>
+		</revision>
 		<revision>
 			<date>17 July 2004</date>
 			<comment>The data file is now genuinely for Nebula Jukebox and also includes MAME supplements.</comment>

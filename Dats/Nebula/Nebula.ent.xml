@@ -4,8 +4,8 @@
 	<name>Nebula</name>
 	<version>v2.24</version>
 	<suitability/>
-	<status></status>
-	<date>17/07/2004</date>
+	<status>Updated</status>
+	<date>16/08/2004</date>
 	<games>422</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
                         &CMPro;
-			<file name="Nebula%20v2.24%20(cm).zip" size="197"/>
+			<file name="Nebula%20v2.24%20(cm).zip" size="195"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-                        <file name="Nebula%20v2.24%20(rc).zip" size="98"/>
+                        <file name="Nebula%20v2.24%20(rc).zip" size="96"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>16 August 2004</date>
+			<comment>Updated supplements for MAME v0.85.</comment>
+		</revision>
 		<revision>
 			<date>17 July 2004</date>
 			<comment>Minor update because I have come up with a better way for checking the correctness - again!</comment>

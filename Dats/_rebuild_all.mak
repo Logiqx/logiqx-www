@@ -27,7 +27,6 @@ EMULATORS= \
 	MPU/MPU.shtml \
 	MAMEArtwork/MAMEArtwork.shtml \
 	MAMESamples/MAMESamples.shtml \
-	CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml \
 
 all: $(CONTENTS) $(ROMCENTER) $(ROMCENTER_INF) $(FILELIST) $(EMULATORS)
 

@@ -5,7 +5,7 @@
 	<version>v0.7.5a3</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>01/08/2004</date>
+	<date>16/08/2004</date>
 	<games>1076</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="M1%20v0.7.5a3%20(cm).zip" size="228"/>
+			<file name="M1%20v0.7.5a3%20(cm).zip" size="226"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="M1%20v0.7.5a3%20(rc).zip" size="110"/>
+			<file name="M1%20v0.7.5a3%20(rc).zip" size="109"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>16 August 2004</date>
+			<comment>Updated supplements for MAME v0.85.</comment>
+		</revision>
 		<revision>
 			<date>1 August 2004</date>
 			<comment>Added missing SHA1 information (courtesy of RB).</comment>

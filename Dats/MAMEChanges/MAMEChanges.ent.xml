@@ -2,27 +2,31 @@
 <emulator id="MAMEChanges">
 	<img src="MAMEChanges.gif" width="192" height="40"/>
 	<name>MAME Changes</name>
-	<version>v0.84</version>
+	<version>v0.85</version>
 	<suitability/>
-	<status></status>
-	<date>02/07/2004</date>
+	<status>Updated</status>
+	<date>16/08/2004</date>
 	<games>Various</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
-		<p>These dats have been created using MAMEDiff (-M, -S, -N options as well as -T)</p>
+		<p>These dats have been created using MAMEDiff (-m, -s, -n options as well as -d1)</p>
 		<p>Previous dats are <a href="MAMEChangesHistory.shtml">still online</a>. The page is generated dynamically so be please patient with it!</p>
 	</comment>
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Changes%20v0.84%20(cm).zip" size="84"/>
+			<file name="MAME%20Changes%20v0.85%20(cm).zip" size="82"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Changes%20v0.84%20(rc).zip" size="34"/>
+			<file name="MAME%20Changes%20v0.85%20(rc).zip" size="32"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>16 August 2004</date>
+			<comment>Uploaded dats for MAME v0.85. Now include disk and sample changes for reference purposes.</comment>
+		</revision>
 		<revision>
 			<date>2 July 2004</date>
 			<comment>Uploaded dats for MAME v0.84.<br/>Generated with DatUtil v2.0 so they include SHA1 now.</comment>

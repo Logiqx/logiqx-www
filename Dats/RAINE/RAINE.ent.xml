@@ -2,10 +2,10 @@
 <emulator id="RAINE">
 	<img src="RAINE.gif" width="82" height="40"/>
 	<name>RAINE</name>
-	<version>v0.40.4</version>
+	<version>v0.40.5</version>
 	<suitability/>
-	<status></status>
-	<date>11/07/2004</date>
+	<status>Updated</status>
+	<date>16/08/2004</date>
 	<games>497</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="RAINE%20v0.40.4%20(cm).zip" size="211"/>
+			<file name="RAINE%20v0.40.5%20(cm).zip" size="211"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="RAINE%20v0.40.4%20(rc).zip" size="86"/>
+			<file name="RAINE%20v0.40.5%20(rc).zip" size="86"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>16 August 2004</date>
+			<comment>Updated to match RAINE v0.40.5. Supplements are for MAME v0.85.</comment>
+		</revision>
 		<revision>
 			<date>11 July 2004</date>
 			<comment>Added SHA1 information.</comment>
