@@ -5,20 +5,24 @@
 	<version>v0.2.94.96</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>22/11/2003</date>
+	<date>29/12/2003</date>
 	<games>490</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="FBA%20v0.2.94.96%20(cm).zip" size="77"/>
+			<file name="FBA%20v0.2.94.96%20(cm).zip" size="72"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="FBA%20v0.2.94.96%20(rc).zip" size="96"/>
+			<file name="FBA%20v0.2.94.96%20(rc).zip" size="92"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>29 December 2003</date>
+			<comment>Updated supplements for MAME v0.78.</comment>
+		</revision>
 		<revision>
 			<date>22 November 2003</date>
 			<comment>Updated for FBA v0.2.94.96.</comment>

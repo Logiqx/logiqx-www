@@ -24,14 +24,19 @@ just tell you how to rebuild the affected sets (i.e. no downloading required). A
 for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn
 Alpha, Kawaks, etc.</p>
 
-<p align="center">Download <a href="mdiff120.zip">MAMEDiff v1.20</a> (41KB)</p>
+<p align="center">Download <a href="mdiff121.zip">MAMEDiff v1.21</a> (42KB)</p>
 
-<p align="center"><a href="mdiff120.zip"><img src="../Resources/Disk.gif" border="0"
+<p align="center"><a href="mdiff121.zip"><img src="../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>28 December 2003</u></strong> - MAMEDiff v1.21</p>
+
+<p align="center">Added knowledge of the 2 new resources added in MAME v0.78.<br>
+                   Increased the maximum ROM size to 9 digits (for sfish2).</p>
 
 <p align="center"><strong><u>25 August 2003</u></strong> - MAMEDiff v1.20</p>
 

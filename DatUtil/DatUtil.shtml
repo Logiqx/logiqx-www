@@ -25,15 +25,21 @@ Listinfo, Retrocade Romlist, Callus Gamelist, System16 GCS, JFF.TXT, Sparcade RA
 Romlist, Mimic. Adding support for additional formats is really easy too if you know a
 little bit of C.</p>
 
-<p align="center"><font color="#000000">Download </font><a href="dutil126.zip">DatUtil
-v1.26</a><font color="#000000">        (93KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="dutil127.zip">DatUtil
+v1.27</a><font color="#000000">        (93KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="dutil126.zip"><img
+<p align="center"><font color="#000000"><a href="dutil127.zip"><img
 src="../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>29 December 2003</strong>
+</u>
+- DatUtil v1.27<br>
+<br>
+- Added knowledge of the two new resources added in MAME v0.78.</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>14 September 2003</strong> </u>
 - DatUtil v1.26<br>

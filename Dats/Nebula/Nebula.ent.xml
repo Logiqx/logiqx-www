@@ -5,7 +5,7 @@
 	<version>v2.23d</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>22/11/2003</date>
+	<date>29/12/2003</date>
 	<games>411</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>29 December 2003</date>
+			<comment>Updated supplements for MAME v0.78.</comment>
+		</revision>
 		<revision>
 			<date>22 November 2003</date>
 			<comment>Uploaded data files for the new v2.23d.</comment>
