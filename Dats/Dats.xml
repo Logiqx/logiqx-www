@@ -5,30 +5,21 @@
 	<!ENTITY FinalBurnAlpha SYSTEM "FinalBurnAlpha/FinalBurnAlpha.ent.xml">
 	<!ENTITY MAMEBeta SYSTEM "MAMEBeta/MAMEBeta.ent.xml">
 	<!ENTITY MAMEChanges SYSTEM "MAMEChanges/MAMEChanges.ent.xml">
-	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
-	<!ENTITY OlderEmus SYSTEM "OlderEmus/OlderEmus.ent.xml">
-	<!ENTITY CPS2 SYSTEM "CPS-2/CPS-2.ent.xml">
-	<!ENTITY CPS1 SYSTEM "CPS-1/CPS-1.ent.xml">
-	<!ENTITY ZN SYSTEM "ZN/ZN.ent.xml">
-	<!ENTITY NeoGeo SYSTEM "Neo-Geo/Neo-Geo.ent.xml">
-	<!ENTITY QPlayer SYSTEM "QPlayer/QPlayer.ent.xml">
-	<!ENTITY NeoJukeBox SYSTEM "NeoJukeBox/NeoJukeBox.ent.xml">
-	<!ENTITY NebulaJukebox SYSTEM "NebulaJukebox/NebulaJukebox.ent.xml">
 	<!ENTITY Nebula SYSTEM "Nebula/Nebula.ent.xml">
 	<!ENTITY NebulaModel2 SYSTEM "NebulaModel2/NebulaModel2.ent.xml">
-	<!ENTITY MAMEArtwork SYSTEM "MAMEArtwork/MAMEArtwork.ent.xml">
-	<!ENTITY MAMECabinets SYSTEM "MAMECabinets/MAMECabinets.ent.xml">
-	<!ENTITY MAMEFlyers SYSTEM "MAMEFlyers/MAMEFlyers.ent.xml">
-	<!ENTITY MAMEIcons SYSTEM "MAMEIcons/MAMEIcons.ent.xml">
-	<!ENTITY MAMEMarquees SYSTEM "MAMEMarquees/MAMEMarquees.ent.xml">
-	<!ENTITY MAMEPanels SYSTEM "MAMEPanels/MAMEPanels.ent.xml">
-	<!ENTITY MAMESamples SYSTEM "MAMESamples/MAMESamples.ent.xml">
-	<!ENTITY MAMESnaps SYSTEM "MAMESnaps/MAMESnaps.ent.xml">
-	<!ENTITY MAMETitles SYSTEM "MAMETitles/MAMETitles.ent.xml">
-	<!ENTITY MAMusIcons SYSTEM "MAMusIcons/MAMusIcons.ent.xml">
-	<!ENTITY CrashTestsMAMEScreenshots SYSTEM "CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.ent.xml">
-	<!ENTITY M1 SYSTEM "M1/M1.ent.xml">
+	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
 	<!ENTITY WinKawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
+	<!ENTITY OlderEmus SYSTEM "OlderEmus/OlderEmus.ent.xml">
+	<!ENTITY CPS1 SYSTEM "CPS-1/CPS-1.ent.xml">
+	<!ENTITY CPS2 SYSTEM "CPS-2/CPS-2.ent.xml">
+	<!ENTITY NeoGeo SYSTEM "Neo-Geo/Neo-Geo.ent.xml">
+	<!ENTITY ZN SYSTEM "ZN/ZN.ent.xml">
+	<!ENTITY M1 SYSTEM "M1/M1.ent.xml">
+	<!ENTITY NebulaJukebox SYSTEM "NebulaJukebox/NebulaJukebox.ent.xml">
+	<!ENTITY NeoJukeBox SYSTEM "NeoJukeBox/NeoJukeBox.ent.xml">
+	<!ENTITY QPlayer SYSTEM "QPlayer/QPlayer.ent.xml">
+	<!ENTITY MAMEArtwork SYSTEM "MAMEArtwork/MAMEArtwork.ent.xml">
+	<!ENTITY MAMESamples SYSTEM "MAMESamples/MAMESamples.ent.xml">
 ]>
 <contents_page>
 	<section>
@@ -92,17 +83,8 @@
 			<p>These are not created by me so if you have questions about their contents, please contact the author of the dat (e-mail details are in the dats themselves).</p>
 		</comment>
 		<emulators>
-			&CrashTestsMAMEScreenshots;
 			&MAMEArtwork;
-			&MAMECabinets;
-			&MAMEFlyers;
-			&MAMEIcons;
-			&MAMEMarquees;
-			&MAMEPanels;
 			&MAMESamples;
-			&MAMESnaps;
-			&MAMETitles;
-			&MAMusIcons;
 		</emulators>
 	</section>
 </contents_page>

@@ -7,35 +7,26 @@ ROMCENTER_INF=RomCenter.inf
 FILELIST=Files.lst
 
 EMULATORS= \
-	CPS-2/CPS-2.shtml \
-	CPS-1/CPS-1.shtml \
 	Daphne/Daphne.shtml \
 	FinalBurnAlpha/FinalBurnAlpha.shtml \
 	MAMEBeta/MAMEBeta.shtml \
 	MAMEChanges/MAMEChanges.shtml \
 	RAINE/RAINE.shtml \
+	WinKawaks/WinKawaks.shtml \
 	OlderEmus/OlderEmus.shtml \
-	Neo-Geo/Neo-Geo.shtml \
-	ZN/ZN.shtml \
-	QPlayer/QPlayer.shtml \
-	NeoJukeBox/NeoJukeBox.shtml \
+	M1/M1.shtml \
 	NebulaJukebox/NebulaJukebox.shtml \
+	NeoJukeBox/NeoJukeBox.shtml \
+	QPlayer/QPlayer.shtml \
 	Nebula/Nebula.shtml \
 	NebulaModel2/NebulaModel2.shtml \
-	CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml \
-	MAMEArtwork/MAMEArtwork.shtml \
-	MAMECabinets/MAMECabinets.shtml \
-	MAMEFlyers/MAMEFlyers.shtml \
-	MAMEIcons/MAMEIcons.shtml \
-	MAMEMarquees/MAMEMarquees.shtml \
-	MAMEPanels/MAMEPanels.shtml \
-	MAMESamples/MAMESamples.shtml \
-	MAMESnaps/MAMESnaps.shtml \
-	MAMETitles/MAMETitles.shtml \
-	MAMusIcons/MAMusIcons.shtml \
-	WinKawaks/WinKawaks.shtml \
-	M1/M1.shtml \
+	CPS-1/CPS-1.shtml \
+	CPS-2/CPS-2.shtml \
+	Neo-Geo/Neo-Geo.shtml \
+	ZN/ZN.shtml \
 	MPU/MPU.shtml \
+	MAMEArtwork/MAMEArtwork.shtml \
+	MAMESamples/MAMESamples.shtml \
 
 all: $(CONTENTS) $(ROMCENTER) $(ROMCENTER_INF) $(FILELIST) $(EMULATORS)
 
