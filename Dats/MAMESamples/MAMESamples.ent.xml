@@ -23,6 +23,10 @@
 	</dats>
 	<revisions>
 		<revision>
+			<date>9 July 2003</date>
+			<comment>No update required, fine for MAME v0.71.</comment>
+		</revision>
+		<revision>
 			<date>21 May 2003</date>
 			<comment>Updated for MAME v0.68 by Roman Scherzer.</comment>
 		</revision>

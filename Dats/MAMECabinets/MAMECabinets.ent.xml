@@ -2,10 +2,10 @@
 <emulator id="MAMECabinets">
 	<img src="MAMECabinets.gif" width="190" height="40"/>
 	<name>MAME Cabinets</name>
-	<version>20030610</version>
+	<version>20030704</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>15/06/2003</date>
+	<date>09/07/2003</date>
 	<games>965</games>
 	<author href="http://www.classicgaming.com/mame32qa/">John IV</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Cabinets%2020030610%20(cm).zip" size="15"/>
+			<file name="MAME%20Cabinets%2020030704%20(cm).zip" size="15"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Cabinets%2020030610%20(rc).zip" size="15"/>
+			<file name="MAME%20Cabinets%2020030704%20(rc).zip" size="15"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>9 July 2003</date>
+			<comment>Official data file for MAME v0.71 by John IV.</comment>
+		</revision>
 		<revision>
 			<date>15 June 2003</date>
 			<comment>Official data file for MAME v0.70 by John IV.</comment>

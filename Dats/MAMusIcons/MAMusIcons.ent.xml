@@ -2,29 +2,33 @@
 <emulator id="MAMusIcons">
 	<img src="MAMusIcons.gif" width="165" height="40"/>
 	<name>MAMu's Icons</name>
-	<version>20030618</version>
+	<version>20030704</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>19/06/2003</date>
-	<games>2714</games>
-	<author href="http://www.logiqx.com">rosewood - Team Logiqx</author>
+	<date>09/07/2003</date>
+	<games>2722</games>
+	<author href="mailto:ZaxQuimby@hotmail.com?subject=mame32_hp">Zax Quimby</author>
 	<comment>
 		<p>Both dats were generated using DatUtil.</p>
 	</comment>
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAMu's%20Icons%2020030618%20(cm).zip" size="31"/>
+			<file name="MAMu's%20Icons%2020030704%20(cm).zip" size="156"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAMu's%20Icons%2020030618%20(rc).zip" size="31"/>
+			<file name="MAMu's%20Icons%2020030704%20(rc).zip" size="46"/>
 		</dat>
 	</dats>
 	<revisions>
 		<revision>
+			<date>9 July 2003</date>
+			<comment>Uploaded data file for MAME v0.71 by Zax Quimby.</comment>
+		</revision>
+		<revision>
 			<date>19 June 2003</date>
-			<comment>Uploaded data file for MAME v0.70.</comment>
+			<comment>Uploaded data file for MAME v0.70 by Rosewood.</comment>
 		</revision>
 		<revision>
 			<date>19 February 2003</date>
