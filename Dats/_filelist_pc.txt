@@ -1,37 +1,37 @@
-.	_filelist_compare.sh	1056
+.	_filelist_compare.sh	1036
 .	_filelist_pc.bat	289
 .	_filelist_pc.txt	0
-.	_filelist_ztnet.sh	276
+.	_filelist_ztnet.sh	261
 .	_filelist_ztnet.txt	0
 .	_rebuild_all.bat	55
 .	_rebuild_all.mak	1622
 .	Consoles.gif	2417
 .	Dats.gif	1722
-.	Dats.shtml	10838
+.	Dats.shtml	9851
 .	Dats.xml	2737
 .	OlderEmus.gif	2785
 .	RecentEmus.gif	3013
 .	ResourceFiles.gif	2855
-.	RomCenter.inf	3146
-.	RomCenter.shtml	24329
+.	RomCenter.inf	3097
+.	RomCenter.shtml	24287
 .	RomCenter.xml	2815
 .	SoundEmus.gif	2642
 .	Systems.gif	2213
 .	Unemulated.gif	2763
 CPS-1	CPS-1 20040711 (cm).zip	49429
 CPS-1	CPS-1 20040711 (rc).zip	26401
-CPS-1	CPS-1.ent.xml	4301
+CPS-1	CPS-1.ent.xml	4420
 CPS-1	CPS-1.gif	1845
-CPS-1	CPS-1.shtml	5075
+CPS-1	CPS-1.shtml	5204
 CPS-1	CPS-1.xml	167
 CPS-1/CVS	Entries	314
 CPS-1/CVS	Repository	34
 CPS-1/CVS	Root	26
 CPS-2	CPS-2 20040817 (cm).zip	60917
 CPS-2	CPS-2 20040817 (rc).zip	34856
-CPS-2	CPS-2.ent.xml	14185
+CPS-2	CPS-2.ent.xml	14297
 CPS-2	CPS-2.gif	2019
-CPS-2	CPS-2.shtml	15521
+CPS-2	CPS-2.shtml	15650
 CPS-2	CPS-2.xml	167
 CPS-2/CVS	Entries	314
 CPS-2/CVS	Repository	34
@@ -45,7 +45,7 @@ CrashTestsMAMEScreenshots	CrashTestsMAMEScreenshots.xml	310
 CrashTestsMAMEScreenshots/CVS	Entries	423
 CrashTestsMAMEScreenshots/CVS	Repository	54
 CrashTestsMAMEScreenshots/CVS	Root	26
-CVS	Entries	1422
+CVS	Entries	1418
 CVS	Repository	28
 CVS	Root	26
 Daphne	Daphne v0.99.6 (cm).zip	5927
@@ -63,47 +63,47 @@ DTD/CVS	Repository	32
 DTD/CVS	Root	26
 FinalBurnAlpha	FBA v0.2.94.98 (cm).zip	217379
 FinalBurnAlpha	FBA v0.2.94.98 (rc).zip	115001
-FinalBurnAlpha	FinalBurnAlpha.ent.xml	4219
+FinalBurnAlpha	FinalBurnAlpha.ent.xml	4331
 FinalBurnAlpha	FinalBurnAlpha.gif	3166
-FinalBurnAlpha	FinalBurnAlpha.shtml	5007
+FinalBurnAlpha	FinalBurnAlpha.shtml	5136
 FinalBurnAlpha	FinalBurnAlpha.xml	196
 FinalBurnAlpha/CVS	Entries	350
 FinalBurnAlpha/CVS	Repository	43
 FinalBurnAlpha/CVS	Root	26
-M1	M1 v0.7.5a3 (cm).zip	231050
-M1	M1 v0.7.5a3 (rc).zip	110995
-M1	M1.ent.xml	4944
+M1	M1 v0.7.5a3 (cm).zip	230768
+M1	M1 v0.7.5a3 (rc).zip	110824
+M1	M1.ent.xml	5064
 M1	M1.gif	1361
-M1	M1.shtml	5749
+M1	M1.shtml	5879
 M1	M1.xml	160
 M1/CVS	Entries	296
 M1/CVS	Repository	31
 M1/CVS	Root	26
 MAMEArtwork	MAME Artwork 20040810 (cm).zip	26669
 MAMEArtwork	MAME Artwork 20040810 (rc).zip	10578
-MAMEArtwork	MAMEArtwork.ent.xml	3969
+MAMEArtwork	MAMEArtwork.ent.xml	4081
 MAMEArtwork	MAMEArtwork.gif	3349
-MAMEArtwork	MAMEArtwork.shtml	4742
+MAMEArtwork	MAMEArtwork.shtml	4871
 MAMEArtwork	MAMEArtwork.xml	187
 MAMEArtwork/CVS	Entries	352
 MAMEArtwork/CVS	Repository	40
 MAMEArtwork/CVS	Root	26
-MAMEBeta	MAME v0.85 (cm).zip	1870473
-MAMEBeta	MAME v0.85 (rc).zip	778881
+MAMEBeta	MAME v0.86 (cm).zip	1852587
+MAMEBeta	MAME v0.86 (rc).zip	768579
 MAMEBeta	MAME.gif	2206
-MAMEBeta	MAMEBeta.ent.xml	7671
+MAMEBeta	MAMEBeta.ent.xml	7785
 MAMEBeta	MAMEBeta.gif	3131
-MAMEBeta	MAMEBeta.shtml	8680
+MAMEBeta	MAMEBeta.shtml	8804
 MAMEBeta	MAMEBeta.xml	178
 MAMEBeta	MAMEBetaHistory.shtml	449
 MAMEBeta/CVS	Entries	422
 MAMEBeta/CVS	Repository	37
 MAMEBeta/CVS	Root	26
-MAMEChanges	MAME Changes v0.85 (cm).zip	82946
-MAMEChanges	MAME Changes v0.85 (rc).zip	32516
-MAMEChanges	MAMEChanges.ent.xml	5573
+MAMEChanges	MAME Changes v0.86 (cm).zip	64627
+MAMEChanges	MAME Changes v0.86 (rc).zip	26012
+MAMEChanges	MAMEChanges.ent.xml	5687
 MAMEChanges	MAMEChanges.gif	3575
-MAMEChanges	MAMEChanges.shtml	6475
+MAMEChanges	MAMEChanges.shtml	6599
 MAMEChanges	MAMEChanges.xml	187
 MAMEChanges	MAMEChangesHistory.shtml	453
 MAMEChanges/CVS	Entries	404
@@ -114,9 +114,9 @@ MAMEChanges/CVS	Repository	40
 MAMEChanges/CVS	Root	26
 MAMESamples	MAME Samples 20040702 (cm).zip	27448
 MAMESamples	MAME Samples 20040702 (rc).zip	10556
-MAMESamples	MAMESamples.ent.xml	3806
+MAMESamples	MAMESamples.ent.xml	3925
 MAMESamples	MAMESamples.gif	3539
-MAMESamples	MAMESamples.shtml	4556
+MAMESamples	MAMESamples.shtml	4685
 MAMESamples	MAMESamples.xml	187
 MAMESamples/CVS	Entries	352
 MAMESamples/CVS	Repository	40
@@ -130,20 +130,20 @@ MPU/CVS	Repository	32
 MPU/CVS	Root	26
 Nebula	Nebula v2.24 (cm).zip	199384
 Nebula	Nebula v2.24 (rc).zip	98193
-Nebula	Nebula.ent.xml	11552
+Nebula	Nebula.ent.xml	11664
 Nebula	Nebula.gif	2011
-Nebula	Nebula.shtml	12777
+Nebula	Nebula.shtml	12906
 Nebula	Nebula.xml	172
 Nebula/CVS	Entries	314
 Nebula/CVS	Repository	35
 Nebula/CVS	Root	26
 NebulaJukebox	Nebula Jukebox v2.9 (cm).zip	70327
 NebulaJukebox	Nebula Jukebox v2.9 (rc).zip	37511
-NebulaJukebox	NebulaJukebox.ent.xml	4410
+NebulaJukebox	NebulaJukebox.ent.xml	4522
 NebulaJukebox	NebulaJukebox.gif	3260
-NebulaJukebox	NebulaJukebox.shtml	5226
+NebulaJukebox	NebulaJukebox.shtml	5355
 NebulaJukebox	NebulaJukebox.xml	193
-NebulaJukebox/CVS	Entries	355
+NebulaJukebox/CVS	Entries	356
 NebulaJukebox/CVS	Repository	42
 NebulaJukebox/CVS	Root	26
 NebulaModel2	Nebula Model 2 v0.9b (cm).zip	14538
@@ -157,9 +157,9 @@ NebulaModel2/CVS	Repository	41
 NebulaModel2/CVS	Root	26
 Neo-Geo	Neo-Geo 20040817 (cm).zip	98075
 Neo-Geo	Neo-Geo 20040817 (rc).zip	53540
-Neo-Geo	Neo-Geo.ent.xml	6645
+Neo-Geo	Neo-Geo.ent.xml	6757
 Neo-Geo	Neo-Geo.gif	2287
-Neo-Geo	Neo-Geo.shtml	7568
+Neo-Geo	Neo-Geo.shtml	7697
 Neo-Geo	Neo-Geo.xml	173
 Neo-Geo/CVS	Entries	326
 Neo-Geo/CVS	Repository	36
@@ -175,13 +175,15 @@ OlderEmus	RCZIPContents.shtml	366
 OlderEmus/CVS	Entries	445
 OlderEmus/CVS	Repository	38
 OlderEmus/CVS	Root	26
-RAINE	RAINE v0.40.5 (cm).zip	215136
-RAINE	RAINE v0.40.5 (rc).zip	87506
-RAINE	RAINE.ent.xml	6883
+RAINE	RAINE v0.41.1 (cm).zip	222707
+RAINE	RAINE v0.41.1 (rc).zip	91036
+RAINE	RAINE.ent.xml	7122
 RAINE	RAINE.gif	2107
-RAINE	RAINE.shtml	7837
+RAINE	RAINE.shtml	8096
 RAINE	RAINE.xml	169
-RAINE/CVS	Entries	312
+RAINE/CVS	Entries	440
+RAINE/CVS	RAINE v0.41.1 (cm).zip,t	0
+RAINE/CVS	RAINE v0.41.1 (rc).zip,t	0
 RAINE/CVS	Repository	34
 RAINE/CVS	Root	26
 SEGAModel2Emulator	SEGA Model 2 Emulator v0.1 (cm).zip	13856
@@ -204,9 +206,9 @@ Tickle/CVS	Repository	35
 Tickle/CVS	Root	26
 WinKawaks	WinKawaks v1.49 (cm).zip	192718
 WinKawaks	WinKawaks v1.49 (rc).zip	88860
-WinKawaks	WinKawaks.ent.xml	6719
+WinKawaks	WinKawaks.ent.xml	6831
 WinKawaks	WinKawaks.gif	2719
-WinKawaks	WinKawaks.shtml	7652
+WinKawaks	WinKawaks.shtml	7781
 WinKawaks	WinKawaks.xml	181
 WinKawaks/CVS	Entries	332
 WinKawaks/CVS	Repository	38
@@ -222,10 +224,10 @@ XSL/CVS	Repository	32
 XSL/CVS	Root	26
 ZN	ZN 20040711 (cm).zip	7799
 ZN	ZN 20040711 (rc).zip	4767
-ZN	ZN.ent.xml	2417
+ZN	ZN.ent.xml	2536
 ZN	ZN.gif	1404
-ZN	ZN.shtml	3106
+ZN	ZN.shtml	3235
 ZN	ZN.xml	160
-ZN/CVS	Entries	295
+ZN/CVS	Entries	296
 ZN/CVS	Repository	31
 ZN/CVS	Root	26

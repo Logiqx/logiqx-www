@@ -27,14 +27,18 @@ dats</a> that I have produced you can generate ROM sets for practically any emul
 MAME ROMs. In fact, the only ROMs you can't generate from MAME sets are where MAME doesn't
 support the game.</p>
 
-<p align="center">Download <a href="rbuild20.zip">ROMBuild v2.0</a> (104KB)</p>
+<p align="center">Download <a href="rbuild21.zip">ROMBuild v2.1</a> (104KB)</p>
 
-<p align="center"><a href="rbuild20.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="rbuild21.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>10 September 2004</u></strong> - ROMBuild v2.1.</p>
+
+<p align="center"> - Removed the Snow Bros conversions for RAINE (now uses MAME ROMs).</p>
 
 <p align="center"><strong><u>2 July 2004</u></strong> - ROMBuild v2.0.</p>
 
