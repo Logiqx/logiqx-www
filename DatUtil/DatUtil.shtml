@@ -25,15 +25,21 @@ Listinfo, Retrocade Romlist, Callus Gamelist, System16 GCS, JFF.TXT, Sparcade RA
 Romlist, Mimic. Adding support for additional formats is really easy too if you know a
 little bit of C.</p>
 
-<p align="center"><font color="#000000">Download </font><a href="dutil121.zip">DatUtil
-v1.21</a><font color="#000000">      (90KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="dutil122.zip">DatUtil
+v1.22</a><font color="#000000">       (91KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="dutil121.zip"><img
+<p align="center"><font color="#000000"><a href="dutil122.zip"><img
 src="../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><strong><u>7 April 2003</u></strong> -
+DatUtil v1.22</font></p>
+
+<p align="center">- Fixed CMPro log scanner to support the syntax 'bad dump'.<br>
+	    - Added knowledge of konamigx resource.</p>
 
 <p align="center"><font color="#000000" size="3"><strong><u>18 January 2003</u></strong> -
 DatUtil v1.21</font></p>
