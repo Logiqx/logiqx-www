@@ -1,4 +1,4 @@
-<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<!-- edited with STYLEVISION v2004 rel. 3 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <emulator id="FinalBurn">
 	<img src="FinalBurn.gif" width="120" height="40"/>
 	<name>Final Burn</name>
@@ -19,6 +19,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>13 November 2003</date>
+			<comment>No change required for MAME v0.77.</comment>
+		</revision>
 		<revision>
 			<date>19 October 2003</date>
 			<comment>No change required for MAME v0.76.</comment>

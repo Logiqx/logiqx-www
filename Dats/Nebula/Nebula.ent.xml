@@ -1,4 +1,4 @@
-<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<!-- edited with STYLEVISION v2004 rel. 3 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <emulator id="Nebula">
 	<img src="Nebula.gif" width="85" height="40"/>
 	<name>Nebula</name>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>13 November 2003</date>
+			<comment>No update required, supplements are fine for MAME v0.77.</comment>
+		</revision>
 		<revision>
 			<date>19 October 2003</date>
 			<comment>No update required, supplements are fine for MAME v0.76.</comment>

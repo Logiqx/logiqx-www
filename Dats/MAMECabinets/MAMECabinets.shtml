@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAME Cabinets 20030918</title>
+    <title>MAME Cabinets 20031111</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="MAMECabinets.gif" width="190" height="40"></p>
-	<p>964 games of MAME Cabinets 20030918</p>
+	<p>962 games of MAME Cabinets 20031111</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Cabinets%2020031018%20(cm).zip">MAME Cabinets dat for CMPro</a> (16KB)</p>
+            <p>Download <a href="MAME%20Cabinets%2020031111%20(cm).zip">MAME Cabinets dat for CMPro</a> (15KB)</p>
             <p>
-              <a href="MAME%20Cabinets%2020031018%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Cabinets%2020031111%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Cabinets%2020031018%20(rc).zip">MAME Cabinets dat for ROMCenter</a> (15KB)</p>
+            <p>Download <a href="MAME%20Cabinets%2020031111%20(rc).zip">MAME Cabinets dat for ROMCenter</a> (15KB)</p>
             <p>
-              <a href="MAME%20Cabinets%2020031018%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Cabinets%2020031111%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>13 November 2003</u>
+        </strong> - 
+			
+			Official data file for MAME v0.77 by John IV.
+		</p>
       <p>
         <strong>
           <u>19 October 2003</u>

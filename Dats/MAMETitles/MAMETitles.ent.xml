@@ -1,11 +1,11 @@
-<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<!-- edited with STYLEVISION v2004 rel. 3 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <emulator id="MAMETitles">
 	<img src="MAMETitles.gif" width="150" height="40"/>
 	<name>MAME Titles</name>
-	<version>20031019</version>
+	<version>20031019a</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>19/10/2003</date>
+	<date>13/11/2003</date>
 	<games>2594</games>
 	<author href="http://www.mametitles.com/">Petr1fied</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Titles%2020031019%20(cm).zip" size="39"/>
+			<file name="MAME%20Titles%2020031019a%20(cm).zip" size="39"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Titles%2020031019%20(rc).zip" size="38"/>
+			<file name="MAME%20Titles%2020031019a%20(rc).zip" size="38"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>13 November 2003</date>
+			<comment>Better late than never: a small update to the MAME v0.76 data file by Petr1fied.</comment>
+		</revision>
 		<revision>
 			<date>19 October 2003</date>
 			<comment>Data file for MAME v0.76 by Petr1fied.</comment>
