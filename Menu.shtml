@@ -274,7 +274,10 @@ src="Menu/LinksOff.gif" alt="Links" border="0" width="37" height="20" name="Link
 <p align="center"><font color="#000000" size="1">Visitors since<br>
 1 April 2000:</font></p>
 <p align="center">
-<!--#include virtual="/cgi/counter.cgi" -->
+<div align="center">
+<a href="http://www.amazingcounters.com" target="_top"><img border="0" src="http://www.amazingcounters.com/counter.php?i=69155&c=207778" alt="hit counters"></a><br>
+<small><a href="http://www.allonlinecoupons.com/st/buy-com/" target="_top"><font color="#999999">Buy.com Coupon</font></a></small>
+</div>
 </p>
 </body>
 </html>
