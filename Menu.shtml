@@ -203,25 +203,25 @@ alt="Dats" border="0" width="33" height="20" name="Dats"></a></p>
 
 <hr>
 
-<p align="center"><a href="DatUtil/DatUtil.shtml" target="main" alt="DatUtil"
+<p align="center"><a href="Tools/DatUtil/DatUtil.shtml" target="main" alt="DatUtil"
 onmouseover="image_on('DatUtil')" onmouseout="image_off('DatUtil')"><img
 src="Menu/DatUtilOff.gif" alt="DatUtil" border="0" width="47" height="20" name="DatUtil"></a></p>
 
-<p align="center"><a href="MAMEDiff/MAMEDiff.shtml" target="main" alt="MAMEDiff"
+<p align="center"><a href="Tools/MAMEDiff/MAMEDiff.shtml" target="main" alt="MAMEDiff"
 onmouseover="image_on('MAMEDiff')" onmouseout="image_off('MAMEDiff')"><img
 src="Menu/MAMEDiffOff.gif" alt="MAMEDiff" border="0" width="72" height="20"
 name="MAMEDiff"></a></p>
 
-<p align="center"><a href="ROMBuild/ROMBuild.shtml" target="main" alt="ROMBuild"
+<p align="center"><a href="Tools/ROMBuild/ROMBuild.shtml" target="main" alt="ROMBuild"
 onmouseover="image_on('ROMBuild')" onmouseout="image_off('ROMBuild')"><img
 src="Menu/ROMBuildOff.gif" alt="ROMBuild" border="0" width="70" height="20"
 name="ROMBuild"></a></p>
 
-<p align="center"><a href="ROMInfo/ROMInfo.shtml" target="main" alt="ROMInfo"
+<p align="center"><a href="Tools/ROMInfo/ROMInfo.shtml" target="main" alt="ROMInfo"
 onmouseover="image_on('ROMInfo')" onmouseout="image_off('ROMInfo')"><img
 src="Menu/ROMInfoOff.gif" alt="ROMInfo" border="0" width="63" height="20" name="ROMInfo"></a></p>
 
-<p align="center"><a href="ZIPIdent/ZIPIdent.shtml" target="main" alt="ZIPIdent"
+<p align="center"><a href="Tools/ZIPIdent/ZIPIdent.shtml" target="main" alt="ZIPIdent"
 onmouseover="image_on('ZIPIdent')" onmouseout="image_off('ZIPIdent')"><img
 src="Menu/ZIPIdentOff.gif" alt="ZIPIdent" border="0" width="61" height="20" name="ZIPIdent"></a></p>
 
