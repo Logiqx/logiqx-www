@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAME Icons 20030903</title>
+    <title>MAME Icons 20030914</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="MAMEIcons.gif" width="150" height="40"></p>
-	<p>4141 games of MAME Icons 20030903</p>
+	<p>4148 games of MAME Icons 20030914</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Icons%2020030903%20(cm).zip">MAME Icons dat for CMPro</a> (39KB)</p>
+            <p>Download <a href="MAME%20Icons%2020030914%20(cm).zip">MAME Icons dat for CMPro</a> (46KB)</p>
             <p>
-              <a href="MAME%20Icons%2020030903%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Icons%2020030914%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Icons%2020030903%20(rc).zip">MAME Icons dat for ROMCenter</a> (39KB)</p>
+            <p>Download <a href="MAME%20Icons%2020030914%20(rc).zip">MAME Icons dat for ROMCenter</a> (46KB)</p>
             <p>
-              <a href="MAME%20Icons%2020030903%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Icons%2020030914%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>18 September 2003</u>
+        </strong> - 
+			
+			Official data file for MAME v0.74 by John IV.
+		</p>
       <p>
         <strong>
           <u>7 September 2003</u>

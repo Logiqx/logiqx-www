@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAME Titles 20030905</title>
+    <title>MAME Titles 20030916</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="MAMETitles.gif" width="150" height="40"></p>
-	<p>2341 games of MAME Titles 20030905</p>
+	<p>2344 games of MAME Titles 20030916</p>
 	
 	
 	
@@ -23,21 +23,35 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Titles%2020030905%20(cm).zip">MAME Titles dat for CMPro</a> (32KB)</p>
+            <p>Download <a href="MAME%20Titles%2020030916%20(cm).zip">MAME Titles dat for CMPro</a> (37KB)</p>
             <p>
-              <a href="MAME%20Titles%2020030905%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Titles%2020030916%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Titles%2020030905%20(rc).zip">MAME Titles dat for ROMCenter</a> (31KB)</p>
+            <p>Download <a href="MAME%20Titles%2020030916%20(rc).zip">MAME Titles dat for ROMCenter</a> (36KB)</p>
             <p>
-              <a href="MAME%20Titles%2020030905%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Titles%2020030916%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>18 September 2003</u>
+        </strong> - 
+			
+			Data file for MAME v0.74 by Petr1fied.
+		</p>
+      <p>
+        <strong>
+          <u>7 September 2003</u>
+        </strong> - 
+			
+			Data file for MAME v0.73 by Petr1fied.
+		</p>
       <p>
         <strong>
           <u>7 September 2003</u>

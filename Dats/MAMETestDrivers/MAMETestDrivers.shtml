@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAME Test Drivers v0.73</title>
+    <title>MAME Test Drivers v0.74</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="MAMETestDrivers.gif" width="229" height="40"></p>
-	<p>321 games of MAME Test Drivers v0.73</p>
+	<p>304 games of MAME Test Drivers v0.74</p>
 	
 	
 	
@@ -23,21 +23,28 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Test%20Drivers%20v0.73%20(cm).zip">MAME Test Drivers dat for CMPro</a> (331KB)</p>
+            <p>Download <a href="MAME%20Test%20Drivers%20v0.74%20(cm).zip">MAME Test Drivers dat for CMPro</a> (308KB)</p>
             <p>
-              <a href="MAME%20Test%20Drivers%20v0.73%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Test%20Drivers%20v0.74%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20Test%20Drivers%20v0.73%20(rc).zip">MAME Test Drivers dat for ROMCenter</a> (298KB)</p>
+            <p>Download <a href="MAME%20Test%20Drivers%20v0.74%20(rc).zip">MAME Test Drivers dat for ROMCenter</a> (278KB)</p>
             <p>
-              <a href="MAME%20Test%20Drivers%20v0.73%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20Test%20Drivers%20v0.74%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>18 September 2003</u>
+        </strong> - 
+			
+			Uploaded dats for MAME v0.74.
+		</p>
       <p>
         <strong>
           <u>7 September 2003</u>

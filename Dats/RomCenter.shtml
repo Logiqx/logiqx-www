@@ -153,7 +153,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						updated
+						-
 					</font>
             </b>
           </td>
@@ -260,13 +260,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="MAMEBeta/MAME%20v0.73%20(rc).zip">
+              <a href="MAMEBeta/MAME%20v0.74%20(rc).zip">
                 <b>MAME</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">v0.73</font>
+            <font face="Arial" size="2">v0.74</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -276,10 +276,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">4116</font>
+            <font face="Arial" size="2">4123</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/09/2003</font>
+            <font face="Arial" size="2">18/09/2003</font>
           </td>
         </tr>
 
@@ -294,13 +294,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="MAMEChanges/MAME%20Changes%20v0.73%20(rc).zip">
+              <a href="MAMEChanges/MAME%20Changes%20v0.74%20(rc).zip">
                 <b>MAME Changes</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">v0.73</font>
+            <font face="Arial" size="2">v0.74</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -313,7 +313,7 @@
             <font face="Arial" size="2">Various</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/09/2003</font>
+            <font face="Arial" size="2">18/09/2003</font>
           </td>
         </tr>
 
@@ -328,13 +328,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="MAMETestDrivers/MAME%20Test%20Drivers%20v0.73%20(rc).zip">
+              <a href="MAMETestDrivers/MAME%20Test%20Drivers%20v0.74%20(rc).zip">
                 <b>MAME Test Drivers</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">v0.73</font>
+            <font face="Arial" size="2">v0.74</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -344,10 +344,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">321</font>
+            <font face="Arial" size="2">304</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/09/2003</font>
+            <font face="Arial" size="2">18/09/2003</font>
           </td>
         </tr>
 
@@ -447,7 +447,7 @@
             <font face="Arial" size="2">403</font>
           </td>
           <td>
-            <font face="Arial" size="2">14/09/2003</font>
+            <font face="Arial" size="2">18/09/2003</font>
           </td>
         </tr>
 
@@ -589,7 +589,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						-
+						updated
 					</font>
             </b>
           </td>
@@ -614,7 +614,7 @@
             <font face="Arial" size="2">6</font>
           </td>
           <td>
-            <font face="Arial" size="2">03/10/2002</font>
+            <font face="Arial" size="2">18/09/2003</font>
           </td>
         </tr>
 
@@ -913,7 +913,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						updated
+						-
 					</font>
             </b>
           </td>
@@ -947,19 +947,19 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						-
+						updated
 					</font>
             </b>
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="Neo-Geo/Neo-Geo%2020030825%20(rc).zip">
+              <a href="Neo-Geo/Neo-Geo%2020030918%20(rc).zip">
                 <b>Neo-Geo</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">20030825</font>
+            <font face="Arial" size="2">20030918</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -972,7 +972,7 @@
             <font face="Arial" size="2">173</font>
           </td>
           <td>
-            <font face="Arial" size="2">25/08/2003</font>
+            <font face="Arial" size="2">18/09/2003</font>
           </td>
         </tr>
 
@@ -1162,7 +1162,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						-
+						updated
 					</font>
             </b>
           </td>
@@ -1187,7 +1187,7 @@
             <font face="Arial" size="2">937</font>
           </td>
           <td>
-            <font face="Arial" size="2">25/08/2003</font>
+            <font face="Arial" size="2">18/09/2003</font>
           </td>
         </tr>
 
@@ -1338,19 +1338,19 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						-
+						updated
 					</font>
             </b>
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="CrashTestsMAMEScreenshots/CrashTest's%20MAME%20Screenshots%20v0.72%20(rc).zip">
+              <a href="CrashTestsMAMEScreenshots/CrashTest's%20MAME%20Screenshots%20v0.74%20(rc).zip">
                 <b>CrashTest's MAME Screenshots</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">v0.72</font>
+            <font face="Arial" size="2">v0.74</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -1363,7 +1363,7 @@
             <font face="Arial" size="2">Various</font>
           </td>
           <td>
-            <font face="Arial" size="2">26/08/2003</font>
+            <font face="Arial" size="2">18/09/2003</font>
           </td>
         </tr>
 		
@@ -1372,7 +1372,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						updated
+						-
 					</font>
             </b>
           </td>
@@ -1412,13 +1412,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="MAMECabinets/MAME%20Cabinets%2020030903%20(rc).zip">
+              <a href="MAMECabinets/MAME%20Cabinets%2020030914%20(rc).zip">
                 <b>MAME Cabinets</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">20030903</font>
+            <font face="Arial" size="2">20030914</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -1431,7 +1431,7 @@
             <font face="Arial" size="2">965</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/09/2003</font>
+            <font face="Arial" size="2">18/09/2003</font>
           </td>
         </tr>
 
@@ -1480,13 +1480,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="MAMEIcons/MAME%20Icons%2020030903%20(rc).zip">
+              <a href="MAMEIcons/MAME%20Icons%2020030914%20(rc).zip">
                 <b>MAME Icons</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">20030903</font>
+            <font face="Arial" size="2">20030914</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -1496,44 +1496,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">4141</font>
+            <font face="Arial" size="2">4148</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/09/2003</font>
-          </td>
-        </tr>
-
-
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
-						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="MAMEMarquees/MAME%20Marquees%2020030822%20(rc).zip">
-                <b>MAME Marquees</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">20030822</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://emam.mameworld.net/">
-                <b>Eldio</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">1278</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">26/08/2003</font>
+            <font face="Arial" size="2">18/09/2003</font>
           </td>
         </tr>
 
@@ -1543,6 +1509,40 @@
             <b>
               <font face="Arial" size="2" color="#008000">
 						updated
+					</font>
+            </b>
+          </td>
+          <td>
+            <font face="Arial" size="2">
+              <a href="MAMEMarquees/MAME%20Marquees%2020030914%20(rc).zip">
+                <b>MAME Marquees</b>
+              </a>
+            </font>
+          </td>
+          <td>
+            <font face="Arial" size="2">20030914</font>
+          </td>
+          <td>
+            <font face="Arial" size="2">
+              <a href="http://emam.mameworld.net/">
+                <b>Eldio</b>
+              </a>
+            </font>
+          </td>
+          <td>
+            <font face="Arial" size="2">1275</font>
+          </td>
+          <td>
+            <font face="Arial" size="2">18/09/2003</font>
+          </td>
+        </tr>
+
+
+<tr>
+          <td align="center">
+            <b>
+              <font face="Arial" size="2" color="#008000">
+						-
 					</font>
             </b>
           </td>
@@ -1576,7 +1576,7 @@
           <td align="center">
             <b>
               <font face="Arial" size="2" color="#008000">
-						updated
+						-
 					</font>
             </b>
           </td>
@@ -1616,13 +1616,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="MAMESnaps/MAME%20Snaps%2020030903%20(rc).zip">
+              <a href="MAMESnaps/MAME%20Snaps%2020030914%20(rc).zip">
                 <b>MAME Snaps</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">20030903</font>
+            <font face="Arial" size="2">20030914</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -1632,10 +1632,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">2341</font>
+            <font face="Arial" size="2">2344</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/09/2003</font>
+            <font face="Arial" size="2">18/09/2003</font>
           </td>
         </tr>
 
@@ -1650,13 +1650,13 @@
           </td>
           <td>
             <font face="Arial" size="2">
-              <a href="MAMETitles/MAME%20Titles%2020030905%20(rc).zip">
+              <a href="MAMETitles/MAME%20Titles%2020030916%20(rc).zip">
                 <b>MAME Titles</b>
               </a>
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">20030905</font>
+            <font face="Arial" size="2">20030916</font>
           </td>
           <td>
             <font face="Arial" size="2">
@@ -1666,10 +1666,10 @@
             </font>
           </td>
           <td>
-            <font face="Arial" size="2">2341</font>
+            <font face="Arial" size="2">2344</font>
           </td>
           <td>
-            <font face="Arial" size="2">07/09/2003</font>
+            <font face="Arial" size="2">18/09/2003</font>
           </td>
         </tr>
 

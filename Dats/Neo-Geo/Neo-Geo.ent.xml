@@ -2,10 +2,10 @@
 <emulator id="Neo-Geo">
 	<img src="Neo-Geo.gif" width="108" height="40"/>
 	<name>Neo-Geo</name>
-	<version>20030825</version>
+	<version>20030918</version>
 	<suitability/>
-	<status></status>
-	<date>25/08/2003</date>
+	<status>Updated</status>
+	<date>18/09/2003</date>
 	<games>173</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Neo-Geo%2020030825%20(cm).zip" size="41"/>
+			<file name="Neo-Geo%2020030918%20(cm).zip" size="43"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Neo-Geo%2020030825%20(rc).zip" size="52"/>
+			<file name="Neo-Geo%2020030918%20(rc).zip" size="54"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>18 September 2003</date>
+			<comment>Updated data files to match MAME v0.74.</comment>
+		</revision>
 		<revision>
 			<date>25 August 2003</date>
 			<comment>Updated data files to match MAME v0.72.</comment>

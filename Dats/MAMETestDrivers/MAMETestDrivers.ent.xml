@@ -2,11 +2,11 @@
 <emulator id="MAMETestDrivers">
 	<img src="MAMETestDrivers.gif" width="229" height="40"/>
 	<name>MAME Test Drivers</name>
-	<version>v0.73</version>
+	<version>v0.74</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>07/09/2003</date>
-	<games>321</games>
+	<date>18/09/2003</date>
+	<games>304</games>
 	<author href="http://www.logiqx.com">Ben Jos - Team Logiqx</author>
 	<comment>
 		<p>Created and maintained by <a href="http://www.logiqx.com">Ben Jos - Team Logiqx</a>.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
       &CMPro;
-      <file name="MAME%20Test%20Drivers%20v0.73%20(cm).zip" size="331"/>
+      <file name="MAME%20Test%20Drivers%20v0.74%20(cm).zip" size="308"/>
 		</dat>
 		<dat>
       &ROMCenter;
-      <file name="MAME%20Test%20Drivers%20v0.73%20(rc).zip" size="298"/>
+      <file name="MAME%20Test%20Drivers%20v0.74%20(rc).zip" size="278"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>18 September 2003</date>
+			<comment>Uploaded dats for MAME v0.74.</comment>
+		</revision>
 		<revision>
 			<date>7 September 2003</date>
 			<comment>Uploaded dats for MAME v0.73.</comment>
