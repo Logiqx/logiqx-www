@@ -312,7 +312,7 @@ HowTo	012_update.png	10862
 HowTo	Compiling.gif	4992
 HowTo	cvs-1-11-17.zip	358012
 HowTo	Downloading.gif	4965
-HowTo	Downloading.shtml	6243
+HowTo	Downloading.shtml	6259
 HowTo	HowTo.gif	3124
 HowTo	HowTo.shtml	1727
 HowTo	jCVS.gif	2537
@@ -320,8 +320,7 @@ HowTo	jCVS.shtml	3461
 HowTo	RAINE32.gif	3899
 HowTo	RAINE32.shtml	13450
 HowTo	WinMAME.shtml	12785
-HowTo/CVS	cvs-1-11-17.zip,t	0
-HowTo/CVS	Entries	1281
+HowTo/CVS	Entries	1284
 HowTo/CVS	Repository	29
 HowTo/CVS	Root	26
 Links	advance-logo.png	8864
