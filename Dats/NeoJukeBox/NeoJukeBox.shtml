@@ -10,7 +10,7 @@
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="NeoJukeBox.gif" width="150" height="40"></p>
-	<p>191 games of NeoJukeBox v2.7</p>
+	<p>195 games of NeoJukeBox v2.7</p>
 	
 	
 	
@@ -38,6 +38,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>5 July 2003</u>
+        </strong> - 
+			
+			Updated to match MAME v0.71.
+		</p>
       <p>
         <strong>
           <u>18 January 2003</u>

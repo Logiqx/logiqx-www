@@ -24,7 +24,7 @@ email=support@romcenter.com
 ;Daphne;v0.99.5a;21;Logiqx;http://www.logiqx.com;;07/11/2002;http://www.logiqx.com/Dats/Daphne/Daphne%20v0.99.5a%20(rc).zip
 
 
-;FBA;v0.2.94;235;Logiqx;http://www.logiqx.com;;21/05/2003;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.94%20(rc).zip
+updated;FBA;v0.2.94;235;Logiqx;http://www.logiqx.com;;05/07/2003;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.94%20(rc).zip
 
 
 ;Final Burn;v0.517;57;Logiqx;http://www.logiqx.com;;21/05/2003;http://www.logiqx.com/Dats/FinalBurn/Final%20Burn%20v0.517%20(rc).zip
@@ -32,20 +32,20 @@ email=support@romcenter.com
 ;Laser;v0.20a;76;Logiqx;http://www.logiqx.com;;07/12/2002;http://www.logiqx.com/Dats/Laser/Laser%20v0.20a%20(rc).zip
 
 
-updated;MAME;v0.70;3990;Logiqx;http://www.logiqx.com;;15/06/2003;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.70%20(rc).zip
+updated;MAME;v0.71;4024;Logiqx;http://www.logiqx.com;;05/07/2003;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.71%20(rc).zip
 
 
-updated;MAME Changes;v0.70;Various;Logiqx;http://www.logiqx.com;;15/06/2003;http://www.logiqx.com/Dats/MAMEChanges/MAME%20Changes%20v0.70%20(rc).zip
+updated;MAME Changes;v0.71;Various;Logiqx;http://www.logiqx.com;;05/07/2003;http://www.logiqx.com/Dats/MAMEChanges/MAME%20Changes%20v0.71%20(rc).zip
 
 
-updated;MAME Test Drivers;v0.70;287;Ben Jos - Team Logiqx;http://www.logiqx.com;;15/06/2003;http://www.logiqx.com/Dats/MAMETestDrivers/MAME%20Test%20Drivers%20v0.70%20(rc).zip
+updated;MAME Test Drivers;v0.71;308;Ben Jos - Team Logiqx;http://www.logiqx.com;;05/07/2003;http://www.logiqx.com/Dats/MAMETestDrivers/MAME%20Test%20Drivers%20v0.71%20(rc).zip
 
 ;Mimic;v2.10;36;Logiqx;http://www.logiqx.com;;31/10/2002;http://www.logiqx.com/Dats/Mimic/Mimic%20v2.10%20(rc).zip
 
 ;Modeler;v0.9.3a;20;Logiqx;http://www.logiqx.com;;09/12/2001;http://www.logiqx.com/Dats/ModelerNew/Modeler%20v0.9.3a.zip
 
 
-updated;Nebula;v2.23b;389;rosewood - Team Logiqx;http://www.logiqx.com;;15/06/2003;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.23b%20(rc).zip
+updated;Nebula;v2.23b;389;Logiqx;http://www.logiqx.com;;05/07/2003;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.23b%20(rc).zip
 
 ;Nebula Model 2;v0.8;22;Logiqx;http://www.logiqx.com;;07/04/2003;http://www.logiqx.com/Dats/NebulaModel2/Nebula%20Model%202%20v0.8%20(rc).zip
 
@@ -60,7 +60,7 @@ updated;Nebula;v2.23b;389;rosewood - Team Logiqx;http://www.logiqx.com;;15/06/20
 ;Viva Nonno;v22.0.3;6;Logiqx;http://www.logiqx.com;;03/10/2002;http://www.logiqx.com/Dats/VivaNonno/Viva%20Nonno%20v22.0.3%20(rc).zip
 
 
-updated;WinKawaks;v1.46;378;rosewood - Team Logiqx;http://www.logiqx.com;;15/06/2003;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.46%20(rc).zip
+updated;WinKawaks;v1.46;378;Logiqx;http://www.logiqx.com;;05/07/2003;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.46%20(rc).zip
 
 ;Zinc;v0.9;26;Logiqx;http://www.logiqx.com;;03/10/2002;http://www.logiqx.com/Dats/Zinc/Zinc%20v0.9%20(rc).zip
 
@@ -96,13 +96,13 @@ updated;WinKawaks;v1.46;378;rosewood - Team Logiqx;http://www.logiqx.com;;15/06/
 		
 		
 
-updated;CPS-1;20030625;114;Logiqx;http://www.logiqx.com;;25/06/2003;http://www.logiqx.com/Dats/CPS-1/CPS-1%2020030625%20(rc).zip
+;CPS-1;20030625;114;Logiqx;http://www.logiqx.com;;25/06/2003;http://www.logiqx.com/Dats/CPS-1/CPS-1%2020030625%20(rc).zip
 
 
-updated;CPS-2;20030625;150;Logiqx;http://www.logiqx.com;;25/06/2003;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020030625%20(rc).zip
+updated;CPS-2;20030625;150;Logiqx;http://www.logiqx.com;;05/07/2003;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020030625%20(rc).zip
 
 
-updated;Neo-Geo;20030625;171;Logiqx;http://www.logiqx.com;;25/06/2003;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020030625%20(rc).zip
+updated;Neo-Geo;20030705;173;Logiqx;http://www.logiqx.com;;05/07/2003;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020030705%20(rc).zip
 
 ;ZN;20021002;19;Logiqx;http://www.logiqx.com;;01/12/2002;http://www.logiqx.com/Dats/ZN/ZN%2020021201%20(rc).zip
 
@@ -129,15 +129,15 @@ updated;Neo-Geo;20030625;171;Logiqx;http://www.logiqx.com;;25/06/2003;http://www
 ;Hoot;20011002;248;Ben Jos - Team Logiqx;http://www.logiqx.com;;21/12/2002;http://www.logiqx.com/Dats/Hoot/Hoot%2020011002%20(rc).zip
 
 
-updated;M1;v0.7.2;937;Logiqx;http://www.logiqx.com;;15/06/2003;http://www.logiqx.com/Dats/M1/M1%20v0.7.2%20(rc).zip
+updated;M1;v0.7.2;937;Logiqx;http://www.logiqx.com;;05/07/2003;http://www.logiqx.com/Dats/M1/M1%20v0.7.2%20(rc).zip
 
 
-;Nebula Jukebox;v2.8;251;Logiqx;http://www.logiqx.com;;06/03/2003;http://www.logiqx.com/Dats/NebulaJukebox/Nebula%20Jukebox%20v2.8%20(rc).zip
+updated;Nebula Jukebox;v2.8;254;Logiqx;http://www.logiqx.com;;05/07/2003;http://www.logiqx.com/Dats/NebulaJukebox/Nebula%20Jukebox%20v2.8%20(rc).zip
 
 
-;NeoJukeBox;v2.7;191;Logiqx;http://www.logiqx.com;;18/01/2003;http://www.logiqx.com/Dats/NeoJukeBox/NeoJukeBox%20v2.7%20(rc).zip
+updated;NeoJukeBox;v2.7;195;Logiqx;http://www.logiqx.com;;05/07/2003;http://www.logiqx.com/Dats/NeoJukeBox/NeoJukeBox%20v2.7%20(rc).zip
 
-;QPlayer;v1.4.3;49;Logiqx;http://www.logiqx.com;;18/01/2003;http://www.logiqx.com/Dats/QPlayer/QPlayer%20v1.4.3%20(rc).zip
+updated;QPlayer;v1.4.3;50;Logiqx;http://www.logiqx.com;;05/07/2003;http://www.logiqx.com/Dats/QPlayer/QPlayer%20v1.4.3%20(rc).zip
 
 		
 	

@@ -3,9 +3,9 @@
 	<name>QPlayer</name>
 	<version>v1.4.3</version>
 	<suitability></suitability>
-	<status></status>
-	<date>18/01/2003</date>
-	<games>49</games>
+	<status>Updated</status>
+	<date>05/07/2003</date>
+	<games>50</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 
 	<comment><p>CPS-1, CPS-2, ZN-1 and ZN-2 sound player</p></comment>
@@ -23,6 +23,11 @@
 	</dats>
 
 	<revisions>
+		<revision>
+			<date>5 July 2003</date>
+			<comment>Updated to match MAME v0.71.</comment>
+		</revision>
+
 		<revision>
 			<date>18 January 2003</date>
 			<comment>Updated to match MAME v0.63.</comment>

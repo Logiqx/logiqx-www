@@ -33,248 +33,29 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
-<p align="center"><strong><u>25 June 2003</u></strong></p>
+<p align="center"><strong><u>5 July 2003</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-      <p align="center">New system data file releases:</p>
-      <p align="center"><a href="../Dats/CPS-1/CPS-1.shtml">CPS-1</a>, <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
-      and <a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a></p>
-     </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>21 June 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center">I made a quick change to my <a href="../HowTo/HowTo.shtml">compile
-      guide</a> for MAME (Windows).</p>
-      <p align="center">As of MAME v0.68, DirectX 7 has been used so the little
-      section that explained the installation of DirectX 6.1 has been removed.</td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>19 June 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center">A couple more MAME resource collections for you to
-      update:<p align="center"><a href="../Dats/MAMEMarquees/MAMEMarquees.shtml">MAME
-      Marquees</a> and <a href="../Dats/MAMusIcons/MAMusIcons.shtml">MAMu's
-      Icons</a> </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>15 June 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center">After major hard disk problems at ZTNet earlier this week Logiqx.com is up and running again to bring you data files for MAME v0.70:<br>
-      (Some of the corrupted data files are still in the server cache, there is nothing we can do but wait.)
+      <p align="center">First batch of data files for yesterdays release of MAME
+      v0.71:
       </p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME
-      v0.70</a>, <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes
-      v0.70</a> and <a href="../Dats/MAMETestDrivers/MAMETestDrivers.shtml">MAME Test Drivers v0.70</a></p>
-      <p align="center"><a href="../Dats/MAMECabinets/MAMECabinets.shtml">Cabinets</a>, <a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>, <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a>,
-      <a href="../Dats/MAMETitles/MAMETitles.shtml">Titles</a> and <a href="../Dats/CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml">CrashTest's Screenshots</a></p> 
-      <p align="center"><a href="../Dats/CPS-1/CPS-1.shtml">CPS-1</a>, <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>,
+      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME v0.71</a>, <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes
+      v0.71</a> and <a href="../Dats/MAMETestDrivers/MAMETestDrivers.shtml">MAME Test Drivers
+      v0.71</a></p>
+      <p align="center"> <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>,
       <a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a></p>
-      <p align="center"><a href="../Dats/Nebula/Nebula.shtml">Nebula</a>, <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks</a> and <a href="../Dats/M1/M1.shtml">M1</a></p>      
+      <p align="center"> <a href="../Dats/NebulaJukebox/NebulaJukebox.shtml">Nebula
+      Jukebox</a>, <a href="../Dats/NeoJukeBox/NeoJukeBox.shtml">NeoJukeBox</a>,
+      <a href="../Dats/QPlayer/QPlayer.shtml">QPlayer</a></p>
+      <p align="center"><a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a>, <a href="../Dats/Nebula/Nebula.shtml">Nebula</a>, <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks</a> and <a href="../Dats/M1/M1.shtml">M1</a></p>      
      </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>7 June 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center">Released <a href="../DatUtil/DatUtil.shtml">DatUtil
-      v1.24</a> to support resource ROMs properly in RomCenter 2.
-      </p> <p align="center">Rebuilt some RomCenter 2 data files using DatUtil
-      v1.24:
-      </p> <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a>
-      and <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes</a>  (for
-      MAME v0.68 and v0.69).
-      </p> </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>3 June 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center"> Updated the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
-      data files with the new XORs and clones.
-      </p> </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>1 June 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center">Updated data files for <a href="../Dats/CPS-1/CPS-1.shtml">CPS-1</a>, <a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a>
-      and <a href="../Dats/M1/M1.shtml">M1 v0.7.2</a>.</p>
-      <p align="center">Also a small update to the <a href="../Dats/MAMETitles/MAMETitles.shtml">MAME Titles</a> data file.</p> </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>25 May 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center">Team Logiqx has brought you data files for MAME v0.69:</p>
-      <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME
-      v0.69</a>, <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes
-      v0.69</a> and <a href="../Dats/MAMETestDrivers/MAMETestDrivers.shtml">MAME Test Drivers v0.69</a></p>
-      <p align="center"><a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>, <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a>,
-      <a href="../Dats/MAMEMarquees/MAMEMarquees.shtml">Marquees</a> and <a href="../Dats/MAMETitles/MAMETitles.shtml">Titles</a></p>
-      <p align="center"><a href="../Dats/Nebula/Nebula.shtml">Nebula</a>, <a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a>
-      and <a href="../Dats/M1/M1.shtml">M1</a></p> </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>21 May 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center">Another update to <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> 
-      (v1.19) has allowed us to create all of the data files and supplements for
-      you now.<br>
-      <br>
-      After a fair number of complications caused by MAME v0.68, Rosewood has
-      now been able to package these up for you. What a star!</p>
-      <p align="center"><font size="3"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME
-      v0.68</a>, <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes
-      v0.68</a> and </font><a href="../Dats/MAMETestDrivers/MAMETestDrivers.shtml">MAME
-      Test Drivers v0.68</a>
-      <p align="center"><a href="../Dats/MAMECabinets/MAMECabinets.shtml">Cabinets</a>,
-      <a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>, <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a>,
-      <a href="../Dats/MAMEMarquees/MAMEMarquees.shtml">Marquees</a>, <a href="../Dats/CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml">CrashTest's Screenshots</a>,
-      <a href="../Dats/MAMETitles/MAMETitles.shtml">Titles</a> and <a href="../Dats/MAMESamples/MAMESamples.shtml">Samples</a>
-      <p align="center"><font size="3"><a href="../Dats/FinalBurn/FinalBurn.shtml">Final
-      Burn</a>, </font><a href="../Dats/FinalBurnAlpha/FinalBurnAlpha.shtml">FBA</a>,
-      <font size="3"><a href="../Dats/Nebula/Nebula.shtml">Nebula</a>, <a href="../Dats/RAINE/RAINE.shtml">RAINE</a>,
-      <a href="../Dats/WinKawaks/WinKawaks.shtml">WinKawaks</a></font></p>
-      <p align="center"><a href="../Dats/CPS-1/CPS-1.shtml">CPS-1</a>, <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>,
-      <a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a>
-      <p align="center"><a href="../Dats/M1/M1.shtml">M1</a> </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>19 May 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center"> Updated versions of <a href="../DatUtil/DatUtil.shtml">DatUtil</a>
-      and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff</a> for the
-      do-it-yourself types.
-      </p>
-      <p align="center"> Sorry for the delay, I'm pretty busy right now.
-      </p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>6 May 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center"> Updated the <a href="../Dats/CPS-1/CPS-1.shtml">CPS-1</a>
-      and <a href="../Dats/Neo-Geo/Neo-Geo.shtml">Neo-Geo</a> data files.
-      </p>
-      <p align="center"> Moved some emulators into the '<a href="../Dats/OlderEmus/OlderEmus.shtml">Older
-      Emus</a>' archive.
-      </p>
-      <p align="center"> Updated <a href="../ROMBuild/ROMBuild.shtml">ROMBuild</a>
-      in relation to MAME v0.67 .
-      </p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>24 April 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center"> Rosewood has created a data file for the last release of
-      <a href="../Dats/Nebula/Nebula.shtml">Nebula</a>.
-      </p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>18 April 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center"> Rosewood has brought you a data file for the new
-      release of <a href="../Dats/WinKawaks/WinKawaks.shtml">Kawaks</a>.
-      </p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>13 April 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center"> Updated the <a href="../Dats/CPS-2/CPS-2.shtml">CPS-2</a>
-      data files for the recent XOR release.
-      </p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>9 April 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center"> A couple more updates relating to MAME v0.67:
-      </p>
-      <p align="center"> &nbsp;<a href="../Dats/M1/M1.shtml">M1</a> (less games
-      required in a supplement now) and <a href="../Dats/CrashTestsMAMEScreenshots/CrashTestsMAMEScreenshots.shtml">CrashTest's
-      MAME Screenshots</a>
-      </p>
-      <p align="center"> None of the other supplements or resources need
-      updating so I have just added comments to the relevant pages.<br>
-      I'm not going to update ZIP contents where the only change is the MAME
-      version number anymore. ;)
-      </p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>7 April 2003</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-      <p align="center">About one week ago was the third anniversary of this
-      site!<br>
-      It's not quite showing 1 million visitors but from the number of times that
-      the counter has broken,<br>
-      that day may have passed long ago. ;)</p>
-      <p align="center">Right, on to the latest releases. There are two tool updates for the Konami GX games<font size="3">:</font></p>
-      <p align="center"><font size="3"><a href="../DatUtil/DatUtil.shtml">DatUtil
-      v1.22</a> and <a href="../MAMEDiff/MAMEDiff.shtml">MAMEDiff v1.16</a></font></p>
-      <p align="center">Rosewood has prepared many of the MAME updates<font size="3">:</font></p>
-      <p align="center"><font size="3"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME
-      v0.67</a>, <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes
-      v0.67</a> and </font><a href="../Dats/MAMETestDrivers/MAMETestDrivers.shtml">MAME
-      Test Drivers v0.67</a>
-      <p align="center"><a href="../Dats/MAMECabinets/MAMECabinets.shtml"></a><a href="../Dats/MAMEMarquees/MAMEMarquees.shtml">Marquees</a>,
-      <a href="../Dats/MAMECabinets/MAMECabinets.shtml">Cabinets</a>, <a href="../Dats/MAMEIcons/MAMEIcons.shtml">Icons</a>,
-      <a href="../Dats/MAMESnaps/MAMESnaps.shtml">Snaps</a> and <a href="../Dats/MAMETitles/MAMETitles.shtml">Titles</a>
-      <p align="center">I also updated the <a href="../Dats/NebulaModel2/NebulaModel2.shtml">Nebula
-      Model 2</a> data files for the release last week.</p>
-    </td>
   </tr>
 </table>
 
 <hr>
 
-<p align="center"><a href="News12.shtml">January to March 2003</a></p>
+<p align="center"><a href="News13.shtml">April to June 2003</a> - <a href="News12.shtml">January to March 2003</a></p>
 
 <p align="center"><a href="News11.shtml">October to December 2002</a> - <a href="News10.shtml">July to September 2002</a> - <a href="News09.shtml">April to June
 2002</a> - <a href="News08.shtml">January to March 2002</a></p>

@@ -5,7 +5,7 @@
 	<version>20030625</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>25/06/2003</date>
+	<date>05/07/2003</date>
 	<games>150</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020030625%20(cm).zip" size="33"/>
+			<file name="CPS-2%2020030625%20(cm).zip" size="30"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020030625%20(rc).zip" size="40"/>
+			<file name="CPS-2%2020030625%20(rc).zip" size="37"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 July 2003</date>
+			<comment>Updated supplementary dats for MAME v0.71.</comment>
+		</revision>
 		<revision>
 			<date>25 June 2003</date>
 			<comment>Renamed ssf2tu->ssf2tur1, vhunt2->vhunt2r1.<br/>Renames in sfz2ah and ddsomj XORs added.<br/>sfz2ab, ssf2u, vhunt2 and xmvsfb added.</comment>

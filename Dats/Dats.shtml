@@ -63,9 +63,13 @@
           <td>
             <a href="FinalBurnAlpha/FinalBurnAlpha.shtml">FBA v0.2.94</a>
           </td>
-          <td align="center"></td>
-          <td align="center">21/05/2003</td>
-          <td align="center">235</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>05/07/2003</strong>
+          </td>
+          <td align="center">
+            <strong>235</strong>
+          </td>
         </tr>
 
 			
@@ -89,25 +93,25 @@
 			
 <tr>
           <td>
-            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.70</a>
+            <a href="MAMEBeta/MAMEBeta.shtml">MAME v0.71</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>15/06/2003</strong>
+            <strong>05/07/2003</strong>
           </td>
           <td align="center">
-            <strong>3990</strong>
+            <strong>4024</strong>
           </td>
         </tr>
 
 			
 <tr>
           <td>
-            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.70</a>
+            <a href="MAMEChanges/MAMEChanges.shtml">MAME Changes v0.71</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>15/06/2003</strong>
+            <strong>05/07/2003</strong>
           </td>
           <td align="center">
             <strong>Various</strong>
@@ -117,14 +121,14 @@
 			
 <tr>
           <td>
-            <a href="MAMETestDrivers/MAMETestDrivers.shtml">MAME Test Drivers v0.70</a>
+            <a href="MAMETestDrivers/MAMETestDrivers.shtml">MAME Test Drivers v0.71</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>15/06/2003</strong>
+            <strong>05/07/2003</strong>
           </td>
           <td align="center">
-            <strong>287</strong>
+            <strong>308</strong>
           </td>
         </tr>
 
@@ -152,7 +156,7 @@
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>15/06/2003</strong>
+            <strong>05/07/2003</strong>
           </td>
           <td align="center">
             <strong>389</strong>
@@ -212,7 +216,7 @@
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>15/06/2003</strong>
+            <strong>05/07/2003</strong>
           </td>
           <td align="center">
             <strong>378</strong>
@@ -286,13 +290,9 @@
           <td>
             <a href="CPS-1/CPS-1.shtml">CPS-1 20030625</a>
           </td>
-          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
-          <td align="center">
-            <strong>25/06/2003</strong>
-          </td>
-          <td align="center">
-            <strong>114</strong>
-          </td>
+          <td align="center"></td>
+          <td align="center">25/06/2003</td>
+          <td align="center">114</td>
         </tr>
 
 			
@@ -302,7 +302,7 @@
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>25/06/2003</strong>
+            <strong>05/07/2003</strong>
           </td>
           <td align="center">
             <strong>150</strong>
@@ -312,14 +312,14 @@
 			
 <tr>
           <td>
-            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20030625</a>
+            <a href="Neo-Geo/Neo-Geo.shtml">Neo-Geo 20030705</a>
           </td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>25/06/2003</strong>
+            <strong>05/07/2003</strong>
           </td>
           <td align="center">
-            <strong>171</strong>
+            <strong>173</strong>
           </td>
         </tr>
 
@@ -369,7 +369,7 @@
             <a href="M1/M1.shtml">M1 v0.7.2</a> (suitable for v0.7.2a)</td>
           <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
           <td align="center">
-            <strong>15/06/2003</strong>
+            <strong>05/07/2003</strong>
           </td>
           <td align="center">
             <strong>937</strong>
@@ -381,9 +381,13 @@
           <td>
             <a href="NebulaJukebox/NebulaJukebox.shtml">Nebula Jukebox v2.8</a>
           </td>
-          <td align="center"></td>
-          <td align="center">06/03/2003</td>
-          <td align="center">251</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>05/07/2003</strong>
+          </td>
+          <td align="center">
+            <strong>254</strong>
+          </td>
         </tr>
 
 			
@@ -391,18 +395,26 @@
           <td>
             <a href="NeoJukeBox/NeoJukeBox.shtml">NeoJukeBox v2.7</a>
           </td>
-          <td align="center"></td>
-          <td align="center">18/01/2003</td>
-          <td align="center">191</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>05/07/2003</strong>
+          </td>
+          <td align="center">
+            <strong>195</strong>
+          </td>
         </tr>
 
 			<tr>
           <td>
             <a href="QPlayer/QPlayer.shtml">QPlayer v1.4.3</a>
           </td>
-          <td align="center"></td>
-          <td align="center">18/01/2003</td>
-          <td align="center">49</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>05/07/2003</strong>
+          </td>
+          <td align="center">
+            <strong>50</strong>
+          </td>
         </tr>
 
 		</table>

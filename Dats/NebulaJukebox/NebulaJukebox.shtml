@@ -10,7 +10,7 @@
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="NebulaJukebox.gif" width="189" height="40"></p>
-	<p>251 games of Nebula Jukebox v2.8</p>
+	<p>254 games of Nebula Jukebox v2.8</p>
 	
 	
 	
@@ -38,6 +38,13 @@
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>5 July 2003</u>
+        </strong> - 
+			
+			Updated to match MAME v0.71.
+		</p>
       <p>
         <strong>
           <u>6 March 2003</u>

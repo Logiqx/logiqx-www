@@ -4,7 +4,7 @@
 	<name>CPS-1</name>
 	<version>20030625</version>
 	<suitability/>
-	<status>Updated</status>
+	<status></status>
 	<date>25/06/2003</date>
 	<games>114</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 July 2003</date>
+			<comment>No update required, supplements are fine for MAME v0.71.</comment>
+		</revision>
 		<revision>
 			<date>25 June 2003</date>
 			<comment>Updated data files to match MAME v0.70.<br/>sf2uf+sf2ui bad dumps fixed and ffightj1 added.</comment>

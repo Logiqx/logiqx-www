@@ -4,9 +4,9 @@
 	<name>Nebula Jukebox</name>
 	<version>v2.8</version>
 	<suitability/>
-	<status/>
-	<date>06/03/2003</date>
-	<games>251</games>
+	<status>Updated</status>
+	<date>05/07/2003</date>
+	<games>254</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Neo-Geo, CPS-1, CPS-2, ZN-1, ZN-2 and Sega Model 2 sound player</p>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 July 2003</date>
+			<comment>Updated to match MAME v0.71.</comment>
+		</revision>
 		<revision>
 			<date>6 March 2003</date>
 			<comment>Updated for Jukebox v2.8 (added fvipers and more ROMs for stcc).</comment>
