@@ -24,6 +24,10 @@
 	</dats>
 	<revisions>
 		<revision>
+			<date>7 June 2003</date>
+			<comment>Updated RomCenter dats for MAME v0.68 and v0.69 to handle resources better.</comment>
+		</revision>
+		<revision>
 			<date>25 May 2003</date>
 			<comment>Uploaded dats for MAME v0.69.</comment>
 		</revision>

@@ -33,6 +33,21 @@ click here for my <a href="../E-Mail/Question.shtml">e-mail address</a>.</p>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
+<p align="center"><strong><u>7 June 2003</u></strong></p>
+<table border="0" width="100%" bgcolor="#ECF5FF">
+  <tr>
+    <td>
+      <p align="center">Released <a href="../DatUtil/DatUtil.shtml">DatUtil
+      v1.24</a> to support resource ROMs properly in RomCenter 2.
+      </p> <p align="center">Rebuilt some RomCenter 2 data files using DatUtil
+      v1.24:
+      </p> <p align="center"><a href="../Dats/MAMEBeta/MAMEBeta.shtml">MAME</a>
+      and <a href="../Dats/MAMEChanges/MAMEChanges.shtml">MAME Changes</a>  (for
+      MAME v0.68 and v0.69).
+      </p> </td>
+  </tr>
+</table>
+
 <p align="center"><strong><u>3 June 2003</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
