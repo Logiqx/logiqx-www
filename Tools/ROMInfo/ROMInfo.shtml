@@ -24,15 +24,20 @@ It does this using the <a href="../../Dats/Dats.shtml">CMPro dats</a>
 from the <a href="http://caesar.logiqx.com/" target="caesar">CAESAR</a>
 database and should cover every arcade game emulated so far.</p>
 
-<p align="center">Download <a href="rinfo22.zip">ROMInfo v2.2</a> (68KB)</p>
+<p align="center">Download <a href="rinfo23.zip">ROMInfo v2.3</a> (123KB)</p>
 
-<p align="center"><a href="rinfo22.zip"><img
+<p align="center"><a href="rinfo23.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85"
 height="40"></p>
+
+<p align="center"><strong><u>28 February 2005</u></strong>- ROMInfo v2.3.</p>
+
+<p align="center">- Uses DatLib v2.2.<br>
+            - Added support for tab delimited files.</p>
 
 <p align="center"><strong><u>22 July 2004</u></strong>- ROMInfo v2.2.</p>
 

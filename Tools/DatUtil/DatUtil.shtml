@@ -22,13 +22,14 @@ cleanse dats. It supports a variety of formats...<br>
 <br>
 <b>Load and Save:</b><br>
 <br>
-  - MAME ListInfo (ClrMamePro, MAME, MESS, RAINE, Shark)<br>
+- MAME ListInfo (ClrMamePro, MAME, MESS, RAINE, Shark)<br>
   - RomCenter 2.50<br>
   - MAME ListXML (MAME and MESS)<br>
+  - Tab Delimited<br>
 <br>
 <b>Load only:</b><br>
 <br>
-  - RomCenter 1.90<br>
+- RomCenter 1.90<br>
   - RomCenter 2.00<br>
   - Nebula Drivers<br>
   - Calice Drivers<br>
@@ -40,17 +41,27 @@ cleanse dats. It supports a variety of formats...<br>
 <p align="center">
 <b>Save only:</b><br>
 <br>
-  - Title List (for listing game titles - used by CPS-2 readme and RAINE docs)</p>
+- Title List (for listing game titles - used by CPS-2 readme and RAINE docs)<br>
+  - RomCenter Sublist</p>
 
-<p align="center"><font color="#000000">Download </font><a href="dutil213.zip">DatUtil
-v2.13</a><font color="#000000">                      (119KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="dutil214.zip">DatUtil
+v2.14</a><font color="#000000">                       (130KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="dutil213.zip"><img
+<p align="center"><font color="#000000"><a href="dutil214.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>28 February 2005</strong>
+</u>- DatUtil v2.14<br>
+<br>
+- Uses DatLib v2.2.<br>
+            - Added support for tab delimited files ('-f delimited').<br>
+            - Added save-support for RomCenter sublists ('-f sublist').<br>
+            - Added \t support to the listinfo driver (and tab delimited).<br>
+            - Fixed problem of unrecognised escape sequences looping forever!</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>22 February 2005</strong>
 </u>- DatUtil v2.13<br>

@@ -25,15 +25,24 @@ by tools such as DatUtil, MAMEDiff, ROMBuild, ROMInfo and ZipIdent.</p>
 <p align="center">This package is a source only release and is only required if
 you want to compile any of my tools.</p>
 
-<p align="center"><font color="#000000">Download </font><a href="datlib21.zip">DatLib
-v2.1</a><font color="#000000">        (75KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="datlib22.zip">DatLib
+v2.2</a><font color="#000000">         (79KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="datlib21.zip"><img
+<p align="center"><font color="#000000"><a href="datlib22.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>28 February 2005</strong>
+</u>- DatLib v2.2<br>
+<br>
+</font><font color="#000000" size="3">            - Changed strtof to atof (for the guys compiling on NetBSD).<br>
+            - Added support for tab delimited files ('-f delimited').<br>
+            - Added save-support for RomCenter sublists ('-f sublist').<br>
+            - Added \t support to the listinfo driver (and tab delimited).<br>
+            - Fixed problem of unrecognised escape sequences looping forever!</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>22 February 2005</strong>
 </u>- DatLib v2.1<br>

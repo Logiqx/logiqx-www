@@ -27,9 +27,9 @@ dats</a> that I have produced you can generate ROM sets for practically any emul
 MAME ROMs. In fact, the only ROMs you can't generate from MAME sets are where MAME doesn't
 support the game.</p>
 
-<p align="center">Download <a href="rbuild24.zip">ROMBuild v2.4</a> (105KB)</p>
+<p align="center">Download <a href="rbuild25.zip">ROMBuild v2.5</a> (105KB)</p>
 
-<p align="center"><a href="rbuild24.zip"><img src="../../Resources/Disk.gif" border="0"
+<p align="center"><a href="rbuild25.zip"><img src="../../Resources/Disk.gif" border="0"
 width="38" height="38"></a></p>
 
 <p align="center">There is also the special version that I created for the
@@ -39,9 +39,18 @@ from the old ones. In total 23 games were affected, iirc:</p>
 
 <p align="center"><a href="rbmame80.zip">ROMBuild [MAME v0.80 special] (52KB)</a></p>
 
+<p align="center"><a href="rbmame80.zip"><img src="../../Resources/Disk.gif" border="0"
+width="38" height="38"></a></p>
+
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><strong><u>28 February 2005</u></strong> - ROMBuild v2.5.</p>
+
+<p align="center"> - Internal game renames for Altered Beast (to match MAME v0.92).<br>
+- Internal ROM renames for a few CPS-2 games (to match MAME v0.92).<br>
+- Fixed a bug that caused the -l option to crash when listing ROMs.</p>
 
 <p align="center"><strong><u>30 January 2005</u></strong> - ROMBuild v2.4.</p>
 
