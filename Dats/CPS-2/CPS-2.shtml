@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>CPS-2 20050213</title>
+    <title>CPS-2 20050306</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="CPS-2.gif" width="80" height="40"></p>
-	<p>178 games for CPS-2 20050213</p>
+	<p>180 games for CPS-2 20050306</p>
 	
 	
 	
@@ -23,15 +23,15 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="CPS-2%2020050213%20(cm).zip">CPS-2 dat for CMPro</a> (64KB)</p>
+            <p>Download <a href="CPS-2%2020050306%20(cm).zip">CPS-2 dat for CMPro</a> (63KB)</p>
             <p>
-              <a href="CPS-2%2020050213%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="CPS-2%2020050306%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="CPS-2%2020050213%20(rc).zip">CPS-2 dat for ROMCenter</a> (36KB)</p>
+            <p>Download <a href="CPS-2%2020050306%20(rc).zip">CPS-2 dat for ROMCenter</a> (35KB)</p>
             <p>
-              <a href="CPS-2%2020050213%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="CPS-2%2020050306%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
@@ -40,10 +40,10 @@
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
       <p>
         <strong>
-          <u>27 January 2005</u>
+          <u>6 March 2005</u>
         </strong> - 
 			
-			No change required for MAME v0.93.
+			Updated to match MAME v0.93 (added sfz2h and sfzbr1, renamed puzloop2 to pzloop2j, changed choko).
 		</p>
       <p>
         <strong>
