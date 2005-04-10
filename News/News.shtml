@@ -21,288 +21,29 @@ alt="URLBig.gif (3995 bytes)"></p>
 files and other useful tools.</p>
 <p align="center">To see who you have to thank for the contents of this site, have a
 look at <a href="../E-Mail/TheTeam.shtml">the team</a> page.</p>
-<p align="center">If you have questions about datfiles then please use Eric Bole
-Feysot's <a href="http://www.romcenter.com/forum/">datfile message board</a>.<br>
-Although I don't read it regularly, I do pass by every once in a while to see if
-there are any outstanding queries.</p>
-<p align="center">I have also provided my <a href="../E-Mail/Conditions.shtml">e-mail address</a>
-but please pay careful attention to the list of things that I don't want to be
-e-mailed about.</p>
+<p align="center">If you have any questions about the files or utilities provided
+here, visit the <a href="../forum/">forum</a>.</p>
 
 <hr>
 
 <p align="center"><img src="News.gif" width="69" height="40"></p>
 
-<p align="center"><strong><u>29 March 2005</u></strong></p>
+<p align="center"><strong><u>10 April 2005</u></strong></p>
 <table border="0" width="100%" bgcolor="#ECF5FF">
   <tr>
     <td>
-        <p align="center">Roman updated the MAME Samples datafile:</p>
-        <p align="center"> <a href="../Dats/Dats.shtml">Get it now!</a></p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>28 March 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center"> MAME v0.95 and RAINE v0.42.4 have been released.</p>
-        <p align="center"> The data file updates are in the <a href="../Dats/Dats.shtml">usual
-        place</a>.</p>
-        <p align="center"> I have also updated <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>
-        (v2.6).</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>25 March 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center">A couple of updates to my tools:</p>
-        <p align="center"> <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
-        v2.16</a>, and <a href="../Tools/DatLib/DatLib.shtml">DatLib v2.4</a></p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>7 March 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center">Fixed a bug in DatLib/DatUtil that was caused by the
-        introduction of the -X option. It probably only affected me. ;)</p>
-        <p align="center"> <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
-        v2.15</a>, and <a href="../Tools/DatLib/DatLib.shtml">DatLib v2.3</a></p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>6 March 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center"> MAME v0.94 has been released.</p>
-        <p align="center"> Only required the following <a href="../Dats/Dats.shtml">updates</a> from me:</p>
-        <p align="center">MAME, MAME Changes, M1 (Supplements), CPS-2</p>
-        <p align="center">I have also updated the Kawaks data file for v1.54
-        (released earlier this week).</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>28 February 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center"> Lots of releases today... there are updates for all
-        of my tools!</p>
-        <p align="center"> Use the links at the left of this page to access
-        them. Enjoy!</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>27 February 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center"> MAME v0.93 has been released.</p>
-        <p align="center"> It is one of those very rare releases that only
-        requires the following <a href="../Dats/Dats.shtml">updates</a> from me:</p>
-        <p align="center">MAME, MAME Changes</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>24 February 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center">I have updated my <a href="../HowTo/HowTo.shtml">compile
-        guides</a> to make use of MSYS.</p>
-        <p align="center">These changes should make it quicker and simpler for
-        you to to set up a MinGW environment for MAME and/or RAINE.<br>
-        They also cut down the number of potential mistakes that can be made and
-        avoid common issues like paths conflicts (e.g. different versions of
-        'make' or 'patch' elsewhere on your machine).&nbsp;</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>22 February 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center">It's been a whole week since I lasted updated my tools
-        so it's about time for more releases!</p>
-        <p align="center"> <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
-        v2.13</a>, <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v2.15</a> and <a href="../Tools/DatLib/DatLib.shtml">DatLib
-        v2.1</a></p>
-        <p align="center">I have also updated the documentation for
-        <a href="../Tools/ZIPIdent/ZIPIdent.shtml">ZIPIdent v2.3</a>  because it
-        mentioned MAME listinfo (rather than listxml).</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>15 February 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center">I have made a big update to the internals of DatLib
-        and therefore released the following updates:</p>
-        <p align="center"> <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
-        v2.12</a>, <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v2.14</a>,
-        <a href="../Tools/ZIPIdent/ZIPIdent.shtml">ZIPIdent v2.3</a> and <a href="../Tools/DatLib/DatLib.shtml">DatLib
-        v2.0</a></p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>13 February 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center"> MAME v0.92 has been released so I have updated the following data
-        files:</p>
-        <p align="center">MAME, MAME Changes,<br>
-        FBA (Supplements), Nebula (Supplements), Kawaks (Supplements), M1 (Supplements), Nebula
-        Jukebox (Supplements),<br>
- CPS-2, Neo-Geo</p>
-        <p align="center">I have also updated my <a href="../HowTo/WinMAME.shtml">compile
-        guide</a> for the latest versions of GCC, Binutils and MinGW Runtime.</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>30 January 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center"> MAME v0.91 has been released, you know <a href="../Dats/Dats.shtml">where
-        to go</a> for the following data files!</p>
-        <p align="center">MAME, MAME Changes,<br>
-        FBA (Supplements), Nebula (Supplements), Kawaks (Supplements), M1 (Supplements), Nebula
-        Jukebox (Supplements),<br>
- CPS-2 (Supplements), Neo-Geo</p>
-        <p align="center">I have also updated some data files in the Older Emus
-        pack and released <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild
-        v2.4</a>.</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>27 January 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center">Released data files for Final Burn Alpha v0.2.95.23
-        and ZiNc v1.1.</p>
-        <p align="center">Both are available for download from the <a href="../Dats/Dats.shtml">data
-        files</a>   page.</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>22 January 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center">Final Burn Alpha v0.2.95.22 is available and includes
-        many changes since the last release (over a year ago).</p>
-        <p align="center">An updated data file is available for download from the <a href="../Dats/Dats.shtml">data
-        files</a>   page.</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>16 January 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center">Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
-        v2.11</a>, <a href="../Tools/MAMEDiff/MAMEDiff.shtml">MAMEDiff v2.13</a>
-        and <a href="../Tools/DatLib/DatLib.shtml">DatLib v1.14</a></p>
-        <p align="center">Updated Older Emus (20050116), Neo-Geo (20050116) and
-        Kawaks (v1.53).</p>
-        <p align="center">All available for download from the <a href="../Dats/Dats.shtml">data
-        files</a>   page.</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>13 January 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center">Updated the CPS-2 data file for recent dumps and also
-        upload Roman's new MAME Samples data file.</p>
-        <p align="center">As usual, get them from the <a href="../Dats/Dats.shtml">data
-        files</a>  page.</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>6 January 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center">I have added some missing SHA1 information to the
-        Neo-Geo 20050104 data file.</p>
-        <p align="center">There is no functional change but you can get it from the <a href="../Dats/Dats.shtml">data
-        files</a> page.</p>
-        <p align="center">I have also release <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild
-        v2.3</a></p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>5 January 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center">I have had a bit of a tidy up and also improved a
-        couple of things at the same time:</p>
-        <p align="center">1. A new counter in the menu bar to the left of this
-        page!</p>
-        <p align="center">2. The dynamic pages such as past MAME data files and
-        Older Emu contents are now static.<br>
-        In other words, the server generates them in advance of you viewing
-        them. ;)<br>
-        This is to get around the intermittent problems that the server has with
-        my cgi scripts.</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><strong><u>4 January 2005</u></strong></p>
-<table border="0" width="100%" bgcolor="#ECF5FF">
-  <tr>
-    <td>
-        <p align="center"><b>Another year and the first couple of data file
-        updates:</b></p>
-        <p align="center">1. WinKawaks v1.52 and CPS-2 20050103. Get them from the <a href="../Dats/Dats.shtml">data
-        files</a> page.</p>
-        <p align="center">2. Also, I have updated a variety of the Older Emus data
-        files. All of them are available in one big ZIP!</p>
-        <p align="center">3. Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
-        v2.10</a> and <a href="../Tools/DatLib/DatLib.shtml">DatLib v1.13</a></p>
-        <p align="center">4. Some of my previous updates from the past few days
-        seem to have disappeared too so I have re-uploaded them!</p>
-        <p align="center">5. Finally, lots of updates for MAME v0.90 (all on the <a href="../Dats/Dats.shtml">data
-        files</a>  page):</p>
-        <p align="center">MAME, MAME Changes,<br>
-        RAINE (Supplements), Kawaks (Supplements), M1 (Supplements), Nebula
-        Jukebox (Supplements),<br>
-        MAME Artwork, MAME Samples,<br>
-        CPS-1, CPS-2 (Supplements), Neo-Geo</p>
+        <p align="center"> Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
+        v2.17</a> and <a href="../Tools/DatLib/DatLib.shtml">DatLib v2.5</a>.<br>
+        They now exclude disks from RomCenter data files (by default).</p>
+        <p align="center">I have also opened a <a href="../forum/">forum</a> to replace my
+        public e-mail address.
     </td>
   </tr>
 </table>
 
 <hr>
+
+<p align="center"><a href="News20.shtml">January to March 2005</a></p>
 
 <p align="center"><a href="News19.shtml">October to December 2004</a> - <a href="News18.shtml">July to September 2004</a> - <a href="News17.shtml">April to June 2004</a> - <a href="News16.shtml">January to March 2004</a></p>
 

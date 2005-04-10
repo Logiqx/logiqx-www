@@ -52,6 +52,11 @@ CAESAROn = new Image;
   CAESAROn.src = "Menu/CAESAROn.gif";
   CAESAROff.src = "Menu/CAESAROff.gif";
 
+ForumOff = new Image;
+ForumOn = new Image;
+  ForumOn.src = "Menu/ForumOn.gif";
+  ForumOff.src = "Menu/ForumOff.gif";
+
 MAMEDiffOff = new Image;
 
 MAMEDiffOn = new Image;
@@ -252,6 +257,10 @@ onmouseover="image_on('DatLib')" onmouseout="image_off('DatLib')"><img
 src="Menu/DatLibOff.gif" alt="DatLib" border="0" width="46" height="20" name="DatLib"></a></p>
 
 <hr>
+
+<p align="center"><a href="forum/" target="forum" alt="Forum"
+onmouseover="image_on('Forum')" onmouseout="image_off('Forum')"><img
+src="Menu/ForumOff.gif" alt="Forum" border="0" width="46" height="20" name="Forum"></a></p>
 
 <p align="center"><a href="FAQs/DatFAQs.shtml" target="main" alt="DatFAQs"
 onmouseover="image_on('DatFAQs')" onmouseout="image_off('DatFAQs')"><img src="Menu/DatFAQsOff.gif"

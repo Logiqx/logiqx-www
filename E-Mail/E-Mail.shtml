@@ -4,18 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <title>E-Mail</title>
-
-<script type="text/javascript">
-<!--
-  function write_email(name, domain, descr)
-  {
-    descr = descr == void 0 ? name + "@" + domain : descr;
-    document.write('<a href=\"mailto:' + name + '@' + domain + '\">');
-    document.write(descr + '</a>'); 
-  }
-//-->
-</script>
-
 </head>
 
 <body bgcolor="#FFFFFF">
@@ -29,18 +17,7 @@ alt="Logiqx.gif (5970 bytes)"></p>
 
 <p align="center">&nbsp;</p>
 
-<p align="center">Okay, here's my e-mail address then:</p>
-
-<p align="center">
-  <script type="text/javascript">
-  <!--
-    write_email("logiqx", "nospam.logiqx.com"); 
-  //-->
-  </script> 
-</p>
-
-<p align="center">Any CPS-2 or Neo-Geo related e-mail will most likely be
-ignored so I wouldn't waste your time
-sending it!</p>
+<p align="center">I don't have a public e-mail address anymore!</p>
+<p align="center">Please use the <a href="../forum/">forum</a> instead.</p>
 </body>
 </html>

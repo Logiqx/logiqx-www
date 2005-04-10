@@ -44,15 +44,21 @@ cleanse dats. It supports a variety of formats...<br>
 - Title List (for listing game titles - used by CPS-2 readme and RAINE docs)<br>
   - RomCenter Sublist</p>
 
-<p align="center"><font color="#000000">Download </font><a href="dutil216.zip">DatUtil
-v2.16</a><font color="#000000">                        (134KB)</font></p>
+<p align="center"><font color="#000000">Download </font><a href="dutil217.zip">DatUtil
+v2.17</a><font color="#000000">                        (134KB)</font></p>
 
-<p align="center"><font color="#000000"><a href="dutil216.zip"><img
+<p align="center"><font color="#000000"><a href="dutil217.zip"><img
 src="../../Resources/Disk.gif" border="0" width="38" height="38"></a></font></p>
 
 <hr>
 
 <p align="center"><img src="../../Resources/History.gif" width="85" height="40"></p>
+
+<p align="center"><font color="#000000" size="3"><u><strong>10 April 2005</strong>
+</u>- DatUtil v2.17<br>
+<br>
+</font><font color="#000000" size="3">- Uses DatLib v2.5.<br>
+            - Excludes disks from RomCenter data files (-k will include them).</font></p>
 
 <p align="center"><font color="#000000" size="3"><u><strong>25 March 2005</strong>
 </u>- DatUtil v2.16<br>
