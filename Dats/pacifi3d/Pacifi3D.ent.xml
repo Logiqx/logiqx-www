@@ -2,28 +2,23 @@
 <emulator id="Pacifi3D">
 	<img src="Pacifi3D.gif" width="99" height="40"/>
 	<name>Pacifi3D</name>
-	<version>v0.3</version>
-	<suitability></suitability>
-	<status>Updated</status>
-	<date>13/04/2005</date>
-	<games>11</games>
+	<version>v0.1</version>
+	<suitability>v0.2</suitability>
+	<status></status>
+	<date>16/01/2005</date>
+	<games>1</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Pacifi3D%20v0.3%20(cm).zip" size="3"/>
+			<file name="Pacifi3D%20v0.1%20(cm).zip" size="1"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Pacifi3D%20v0.3%20(rc).zip" size="2"/>
+			<file name="Pacifi3D%20v0.1%20(rc).zip" size="1"/>
 		</dat>
 	</dats>
 	<revisions>
-		<revision>
-			<date>13 April 2005</date>
-			<comment>Pacifi3D v0.3.</comment>
-		</revision>
-
 		<revision>
 			<date>16 January 2005</date>
 			<comment>Pacifi3D v0.1.</comment>
