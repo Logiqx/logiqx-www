@@ -22,7 +22,7 @@ files and other useful tools.</p>
 <p align="center">To see who you have to thank for the contents of this site, have a
 look at <a href="../E-Mail/TheTeam.shtml">the team</a> page.</p>
 <p align="center">If you have any questions about the files or utilities provided
-here, visit the <a href="../forum/">forum</a>.</p>
+here, visit the <a href="../forum/" target="_blank">forum</a>.</p>
 
 <hr>
 
@@ -35,7 +35,7 @@ here, visit the <a href="../forum/">forum</a>.</p>
         <p align="center"> Released <a href="../Tools/DatUtil/DatUtil.shtml">DatUtil
         v2.17</a> and <a href="../Tools/DatLib/DatLib.shtml">DatLib v2.5</a>.<br>
         They now exclude disks from RomCenter data files (by default).</p>
-        <p align="center">I have also opened a <a href="../forum/">forum</a> to replace my
+        <p align="center">I have also opened a <a href="../forum/" target="_blank">forum</a> to replace my
         public e-mail address.
     </td>
   </tr>
