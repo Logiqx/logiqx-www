@@ -1,4 +1,5 @@
 AuthType Basic
 AuthName "Team"
-AuthUserFile /sites/logiqx.com/www/team/.htpasswd
+AuthUserFile /home2/lac/.htpasswds/team/passwd
 require user logiqx pi
+
