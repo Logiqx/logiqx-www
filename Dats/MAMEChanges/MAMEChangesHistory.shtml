@@ -12,7 +12,7 @@
           Previous MAME Releases
         </p>
         <p>
-          <!--#include virtual="/cgi/mamechanges_history.out" -->
+          <!--#include virtual="mamechanges_history.out" -->
         </p>
     </center>
   </body>
