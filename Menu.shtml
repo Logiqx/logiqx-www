@@ -103,15 +103,6 @@ DatLibOn = new Image;
   DatLibOff.src = "Menu/DatLibOff.gif";
 
 
-MAMEMD5Off = new Image;
-
-MAMEMD5On = new Image;
-
-  MAMEMD5On.src = "Menu/MAMEMD5On.gif";
-
-  MAMEMD5Off.src = "Menu/MAMEMD5Off.gif";
-
-
 ROMBuildOff = new Image;
 ROMBuildOn = new Image;
   ROMBuildOn.src = "Menu/ROMBuildOn.gif";
@@ -121,16 +112,6 @@ ROMInfoOff = new Image;
 ROMInfoOn = new Image;
   ROMInfoOn.src = "Menu/ROMInfoOn.gif";
   ROMInfoOff.src = "Menu/ROMInfoOff.gif";
-
-SampleFixOff = new Image;
-
-SampleFixOn = new Image;
-
-  SampleFixOn.src = "Menu/SampleFixOn.gif";
-
-  SampleFixOff.src = "Menu/SampleFixOff.gif";
-
-
 
 LinksOff = new Image;
 
