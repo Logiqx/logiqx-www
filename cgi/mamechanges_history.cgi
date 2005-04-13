@@ -1,6 +1,6 @@
 #!/bin/sh
 
-HOME=/home/lac/www
+HOME=/home2/lac/www
 
 cd $HOME
 
