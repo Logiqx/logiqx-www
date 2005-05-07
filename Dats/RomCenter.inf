@@ -23,19 +23,19 @@ email=support@romcenter.com
 ;Daphne;v0.99.6;30;Logiqx;http://www.logiqx.com;;11/07/2004;http://www.logiqx.com/Dats/Daphne/Daphne%20v0.99.6%20(rc).zip
 
 
-;FBA;v0.2.95.23;535;Logiqx;http://www.logiqx.com;;13/02/2005;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.95.23%20(rc).zip
+updated;FBA;v0.2.95.23;535;Logiqx;http://www.logiqx.com;;07/05/2005;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.95.23%20(rc).zip
 
 
 ;Kawaks;v1.54;444;Logiqx;http://www.logiqx.com;;06/03/2005;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.54%20(rc).zip
 
 
-;M1;v0.7.5a3;1076;Logiqx;http://www.logiqx.com;;06/03/2005;http://www.logiqx.com/Dats/M1/M1%20v0.7.5a3%20(rc).zip
+updated;M1;v0.7.5a3;1076;Logiqx;http://www.logiqx.com;;07/05/2005;http://www.logiqx.com/Dats/M1/M1%20v0.7.5a3%20(rc).zip
 
 
-updated;MAME;v0.95;5578;Logiqx;http://www.logiqx.com;;28/03/2005;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.95%20(rc).zip
+updated;MAME;v0.96;5632;Logiqx;http://www.logiqx.com;;07/05/2005;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.96%20(rc).zip
 
 
-updated;MAME Changes;v0.95;Various;Logiqx;http://www.logiqx.com;;28/03/2005;http://www.logiqx.com/Dats/MAMEChanges/MAME%20Changes%20v0.95%20(rc).zip
+updated;MAME Changes;v0.96;Various;Logiqx;http://www.logiqx.com;;07/05/2005;http://www.logiqx.com/Dats/MAMEChanges/MAME%20Changes%20v0.96%20(rc).zip
 
 
 ;Nebula;v2.24;422;Logiqx;http://www.logiqx.com;;13/02/2005;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.24%20(rc).zip
@@ -44,13 +44,13 @@ updated;MAME Changes;v0.95;Various;Logiqx;http://www.logiqx.com;;28/03/2005;http
 ;Nebula Jukebox;v2.9;249;Logiqx;http://www.logiqx.com;;13/02/2005;http://www.logiqx.com/Dats/NebulaJukebox/Nebula%20Jukebox%20v2.9%20(rc).zip
 
 
-updated;Pacifi3D;v0.3;11;Logiqx;http://www.logiqx.com;;13/04/2005;http://www.logiqx.com/Dats/Pacifi3D/Pacifi3D%20v0.3%20(rc).zip
+;Pacifi3D;v0.3;11;Logiqx;http://www.logiqx.com;;13/04/2005;http://www.logiqx.com/Dats/Pacifi3D/Pacifi3D%20v0.3%20(rc).zip
 
 
 ;Radikal Bikers Emulator;v0.9;1;Logiqx;http://www.logiqx.com;;31/12/2004;http://www.logiqx.com/Dats/RadikalBikersEmulator/Radikal%20Bikers%20Emulator%20v0.9%20(rc).zip
 
 
-updated;RAINE;v0.42.4;547;Logiqx;http://www.logiqx.com;;28/03/2005;http://www.logiqx.com/Dats/RAINE/RAINE%20v0.42.4%20(rc).zip
+updated;RAINE;v0.42.4;547;Logiqx;http://www.logiqx.com;;07/05/2005;http://www.logiqx.com/Dats/RAINE/RAINE%20v0.42.4%20(rc).zip
 
 ;SEGA Model 2 Emulator;v0.1;21;Logiqx;http://www.logiqx.com;;25/10/2004;http://www.logiqx.com/Dats/SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.1%20(rc).zip
 
@@ -115,7 +115,7 @@ updated;RAINE;v0.42.4;547;Logiqx;http://www.logiqx.com;;28/03/2005;http://www.lo
 ;MAME Artwork;20050104;167;Roman Scherzer;http://www.clrmame.com/;;04/01/2005;http://www.logiqx.com/Dats/MAMEArtwork/MAME%20Artwork%2020050104%20(rc).zip
 
 
-updated;MAME Samples;20050329;67;Roman Scherzer;http://www.clrmame.com/;;29/03/2005;http://www.logiqx.com/Dats/MAMESamples/MAME%20Samples%2020050329%20(rc).zip
+;MAME Samples;20050329;67;Roman Scherzer;http://www.clrmame.com/;;29/03/2005;http://www.logiqx.com/Dats/MAMESamples/MAME%20Samples%2020050329%20(rc).zip
 
 		
 	

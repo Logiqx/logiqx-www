@@ -2,10 +2,10 @@
 <emulator id="MAMEChanges">
 	<img src="MAMEChanges.gif" width="192" height="40"/>
 	<name>MAME Changes</name>
-	<version>v0.95</version>
+	<version>v0.96</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>28/03/2005</date>
+	<date>07/05/2005</date>
 	<games>Various</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Changes%20v0.95%20(cm).zip" size="127"/>
+			<file name="MAME%20Changes%20v0.96%20(cm).zip" size="132"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Changes%20v0.95%20(rc).zip" size="52"/>
+			<file name="MAME%20Changes%20v0.96%20(rc).zip" size="53"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>7 May 2005</date>
+			<comment>Uploaded dats for MAME v0.96.</comment>
+		</revision>
 		<revision>
 			<date>28 March 2005</date>
 			<comment>Uploaded dats for MAME v0.95.</comment>
