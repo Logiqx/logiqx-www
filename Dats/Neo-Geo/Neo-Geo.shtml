@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Neo-Geo 20050213</title>
+    <title>Neo-Geo 20050712</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="Neo-Geo.gif" width="108" height="40"></p>
-	<p>201 games for Neo-Geo 20050213</p>
+	<p>201 games for Neo-Geo 20050712</p>
 	
 	
 	
@@ -23,21 +23,35 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="Neo-Geo%2020050213%20(cm).zip">Neo-Geo dat for CMPro</a> (96KB)</p>
+            <p>Download <a href="Neo-Geo%2020050712%20(cm).zip">Neo-Geo dat for CMPro</a> (96KB)</p>
             <p>
-              <a href="Neo-Geo%2020050213%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="Neo-Geo%2020050712%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="Neo-Geo%2020050213%20(rc).zip">Neo-Geo dat for ROMCenter</a> (56KB)</p>
+            <p>Download <a href="Neo-Geo%2020050712%20(rc).zip">Neo-Geo dat for ROMCenter</a> (56KB)</p>
             <p>
-              <a href="Neo-Geo%2020050213%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="Neo-Geo%2020050712%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>15 July 2005</u>
+        </strong> - 
+			
+			Added the Universe BIOS v2.1.
+		</p>
+      <p>
+        <strong>
+          <u>6 June 2005</u>
+        </strong> - 
+			
+			No change required for MAME v0.97.
+		</p>
       <p>
         <strong>
           <u>7 May 2005</u>

@@ -2,10 +2,10 @@
 <emulator id="Neo-Geo">
 	<img src="Neo-Geo.gif" width="108" height="40"/>
 	<name>Neo-Geo</name>
-	<version>20050213</version>
+	<version>20050712</version>
 	<suitability/>
-	<status></status>
-	<date>13/02/2005</date>
+	<status>Updated</status>
+	<date>15/07/2005</date>
 	<games>201</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,22 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Neo-Geo%2020050213%20(cm).zip" size="96"/>
+			<file name="Neo-Geo%2020050712%20(cm).zip" size="96"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Neo-Geo%2020050213%20(rc).zip" size="56"/>
+			<file name="Neo-Geo%2020050712%20(rc).zip" size="56"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>15 July 2005</date>
+			<comment>Added the Universe BIOS v2.1.</comment>
+		</revision>
+		<revision>
+			<date>6 June 2005</date>
+			<comment>No change required for MAME v0.97.</comment>
+		</revision>
 		<revision>
 			<date>7 May 2005</date>
 			<comment>No change required for MAME v0.96.</comment>

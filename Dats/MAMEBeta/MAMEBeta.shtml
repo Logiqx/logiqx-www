@@ -3,14 +3,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAME v0.96</title>
+    <title>MAME v0.98</title>
   </head>
   <body>
     <center>
       <!--#include virtual="/ads/top.shtml"-->
       <hr>
 	<p><img src="MAME.gif" width="80" height="40"></p>
-	<p>5632 games for MAME v0.96</p>
+	<p>5687 games for MAME v0.98</p>
 	
 	
 	
@@ -24,21 +24,35 @@
 	<table border="0" width="100%">
         <tr>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20v0.96%20(cm).zip">MAME dat for CMPro</a> (2022KB)</p>
+            <p>Download <a href="MAME%20v0.98%20(cm).zip">MAME dat for CMPro</a> (2004KB)</p>
             <p>
-              <a href="MAME%20v0.96%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20v0.98%20(cm).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 		<td width="50%" align="center">
-            <p>Download <a href="MAME%20v0.96%20(rc).zip">MAME dat for ROMCenter</a> (868KB)</p>
+            <p>Download <a href="MAME%20v0.98%20(rc).zip">MAME dat for ROMCenter</a> (859KB)</p>
             <p>
-              <a href="MAME%20v0.96%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
+              <a href="MAME%20v0.98%20(rc).zip"><img src="../../Resources/Disk.gif" border="0" width="38" height="38"></a>
             </p>
           </td>
 	</tr>
       </table>
 	<hr>
       <p><img src="../../Resources/History.gif" width="85" height="40"></p>
+      <p>
+        <strong>
+          <u>15 July 2005</u>
+        </strong> - 
+			
+			Uploaded dats for MAME v0.98.
+		</p>
+      <p>
+        <strong>
+          <u>6 June 2005</u>
+        </strong> - 
+			
+			Uploaded dats for MAME v0.97.
+		</p>
       <p>
         <strong>
           <u>7 May 2005</u>

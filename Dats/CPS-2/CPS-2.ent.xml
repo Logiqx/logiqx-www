@@ -2,11 +2,11 @@
 <emulator id="CPS-2">
 	<img src="CPS-2.gif" width="80" height="40"/>
 	<name>CPS-2</name>
-	<version>20050306</version>
+	<version>20050606</version>
 	<suitability/>
 	<status></status>
-	<date>06/03/2005</date>
-	<games>180</games>
+	<date>06/06/2005</date>
+	<games>185</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Note: Not all of these games are emulated yet</p>
@@ -14,14 +14,22 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020050306%20(cm).zip" size="63"/>
+			<file name="CPS-2%2020050606%20(cm).zip" size="63"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020050306%20(rc).zip" size="35"/>
+			<file name="CPS-2%2020050606%20(rc).zip" size="36"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>15 July 2005</date>
+			<comment>No change required for MAME v0.98.</comment>
+		</revision>
+		<revision>
+			<date>6 June 2005</date>
+			<comment>Updated to match MAME v0.97 (added avsph+ddtodr1+gwinga+sfz3a+xmvsfar1, renamed sfz3a to sfz3ar1, changed choko+ddtod+xmvsfa).</comment>
+		</revision>
 		<revision>
 			<date>7 May 2005</date>
 			<comment>No change required for MAME v0.96.</comment>
