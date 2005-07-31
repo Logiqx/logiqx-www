@@ -58,8 +58,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="Daphne/Daphne.shtml">Daphne v0.99.6</a>
-          </td>
+            <a href="Daphne/Daphne.shtml">Daphne v0.99.6</a> (suitable for v0.99.6c)</td>
           <td align="center"></td>
           <td align="center">11/07/2004</td>
           <td align="center">30</td>
@@ -197,20 +196,28 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="Tickle/Tickle.shtml">Tickle v0.92</a>
+            <a href="Tickle/Tickle.shtml">Tickle "Rebound" Edition</a>
           </td>
-          <td align="center"></td>
-          <td align="center">13/07/2004</td>
-          <td align="center">27</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>31/07/2005</strong>
+          </td>
+          <td align="center">
+            <strong>28</strong>
+          </td>
         </tr>
 
 			<tr>
           <td>
             <a href="Zinc/Zinc.shtml">ZiNc v1.1</a>
           </td>
-          <td align="center"></td>
-          <td align="center">27/01/2005</td>
-          <td align="center">71</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>31/07/2005</strong>
+          </td>
+          <td align="center">
+            <strong>71</strong>
+          </td>
         </tr>
 
 		</table>
@@ -238,11 +245,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="OlderEmus/OlderEmus.shtml">Older Emus 20050130</a>
+            <a href="OlderEmus/OlderEmus.shtml">Older Emus 20050731</a>
           </td>
-          <td align="center"></td>
-          <td align="center">30/01/2005</td>
-          <td align="center">Thousands of</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>31/07/2005</strong>
+          </td>
+          <td align="center">
+            <strong>Thousands of</strong>
+          </td>
         </tr>
 
 		</table>

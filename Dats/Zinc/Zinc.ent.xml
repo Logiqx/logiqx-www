@@ -3,8 +3,8 @@
 	<name>ZiNc</name>
 	<version>v1.1</version>
 	<suitability></suitability>
-	<status></status>
-	<date>27/01/2005</date>
+	<status>Updated</status>
+	<date>31/07/2005</date>
 	<games>71</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 
@@ -13,7 +13,7 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="ZiNc%20v1.1%20(cm).zip" size="19"/>
+			<file name="ZiNc%20v1.1%20(cm).zip" size="18"/>
 		</dat>
 
 		<dat>
@@ -23,6 +23,11 @@
 	</dats>
 
 	<revisions>
+		<revision>
+			<date>31 July 2005</date>
+			<comment>Corrected a couple of SHA1 errors made in the last update.</comment>
+		</revision>
+
 		<revision>
 			<date>27 January 2005</date>
 			<comment>Released a data file for ZiNc v1.1.</comment>

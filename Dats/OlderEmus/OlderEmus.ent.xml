@@ -2,10 +2,10 @@
 <emulator id="OlderEmus">
 	<img src="OlderEmus.gif" width="140" height="40"/>
 	<name>Older Emus</name>
-	<version>20050130</version>
+	<version>20050731</version>
 	<suitability/>
-	<status></status>
-	<date>30/01/2005</date>
+	<status>Updated</status>
+	<date>31/07/2005</date>
 	<games>Thousands of</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Older%20Emus%2020050130%20(cm).zip" size="1169"/>
+			<file name="Older%20Emus%2020050731%20(cm).zip" size="1177"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Older%20Emus%2020050130%20(rc).zip" size="494"/>
+			<file name="Older%20Emus%2020050731%20(rc).zip" size="498"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>31 July 2005</date>
+			<comment>Added AsteroidsGL, BattleZoneGL, TempestGL.<br/>Updated Laser v0.20a, Retrovaders v1.02, Sideway v0.22a, VAntAGE v1.12.</comment>
+		</revision>
 		<revision>
 			<date>30 January 2005</date>
 			<comment>Updated SledgeHammer, Final Burn and System 16.</comment>

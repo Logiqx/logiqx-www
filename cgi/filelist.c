@@ -95,7 +95,10 @@ int scan_dir(char *dir, int images)
 	int errflg=0;
 
 	if ((dirp=opendir(dir))==0)
+	{
+		printf("Error opening directory %s\n", dir);
 		errflg++;
+	}
 
 	while (!errflg && ((direntp = readdir(dirp)) != NULL))
 	{
@@ -118,6 +121,9 @@ int scan_dir(char *dir, int images)
 			errflg++;
 		}
 	}
+
+	if (dirp)
+		closedir(dirp);
 
 	return(errflg);
 }
