@@ -1,0 +1,13 @@
+# Do not allow browsing
+
+Options All -Indexes
+
+# Switch rewrite engine on
+
+RewriteEngine On
+
+# Do not allow external linking to images and ZIPs
+
+RewriteCond %{HTTP_REFERER} !^http://.*logiqx.com/.*$ [NC]
+RewriteRule .*\.(jpg|gif|png|zip)$ - [F,NC]
+
