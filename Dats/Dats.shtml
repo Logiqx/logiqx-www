@@ -352,11 +352,15 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
           <td>
-            <a href="MAMESamples/MAMESamples.shtml">MAME Samples 20050329</a>
+            <a href="MAMESamples/MAMESamples.shtml">MAME Samples 20050808</a>
           </td>
-          <td align="center"></td>
-          <td align="center">29/03/2005</td>
-          <td align="center">67</td>
+          <td align="center"><img src="../Resources/Updated.gif" width="73" height="14"></td>
+          <td align="center">
+            <strong>11/08/2005</strong>
+          </td>
+          <td align="center">
+            <strong>68</strong>
+          </td>
         </tr>
 
 		</table>
