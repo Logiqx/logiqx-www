@@ -32,9 +32,9 @@
 		<p>Welcome to www.logiqx.com - Source of CMPro/RomCenter data
 		files and other useful tools.</p>
 		<p>To see who you have to thank for the contents of this site, have a
-		look at <a href="../E-Mail/TheTeam.shtml">the team</a> page.</p>
+		look at <a href="../E-Mail/TheTeam.php">the team</a> page.</p>
 		<p>If you have any questions about the files or utilities provided
-		here, visit the <a href="../forum/">forum</a>.</p>
+		here, visit the <a href="/forum/">forum</a>.</p>
 
 		<?php
 			// Standard page footer (counter)

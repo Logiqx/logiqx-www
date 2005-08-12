@@ -102,4 +102,9 @@ p.code
 	text-align: left;
 }
 
+p.huge
+{
+	font-size: 15pt;
+}
+
 
