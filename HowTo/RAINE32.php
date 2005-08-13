@@ -62,21 +62,21 @@
 
 					<table class="guide">
 					  <tr>
-					    <td class="green">File</td>
-					    <td class="green">Description</td>
+					    <td>File</td>
+					    <td>Description</td>
 					  </tr>
 					  <tr>
-					    <td class="green">
+					    <td>
 					    <a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/all403.zip">all403.zip</a></td>
-					    <td class="green">Source code for Allegro 4.0.3
+					    <td>Source code for Allegro 4.0.3
 					      <p class="guide">You can get the latest version of Allegro from
 					      the Demon link above. Just download the latest source code in DOS/Windows
 					      friendly format.</p>
 					    </td>
 					  </tr>
 					  <tr>
-					    <td class="green"><a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/ahack400.zip">ahack400.zip</a></td>
-					    <td class="green">RAINE triple buffer hack for Allegro 4.0.0 (fine for 4.0.3)</td>
+					    <td><a href="http://caesar.logiqx.com/zips/tools/gfx_libs/allegro/ahack400.zip">ahack400.zip</a></td>
+					    <td>RAINE triple buffer hack for Allegro 4.0.0 (fine for 4.0.3)</td>
 					  </tr>
 					</table>
 
@@ -149,13 +149,13 @@
 
 					<table class="guide">
 					  <tr>
-					    <td class="green">File</td>
-					    <td class="green">Description</td>
+					    <td>File</td>
+					    <td>Description</td>
 					  </tr>
 					  <tr>
-					    <td class="green">
+					    <td>
 					    <a href="http://caesar.logiqx.com/zips/tools/gfx_libs/sdl/SDL-devel-1.2.7-mingw32.tar.gz">SDL-devel-1.2.7-mingw32.tar.gz</a></td>
-					    <td class="green">SDL 1.2.7 development libraries for MinGW.
+					    <td>SDL 1.2.7 development libraries for MinGW.
 					      <p class="guide">You can get the latest version of the SDL development libraries from
 					      the link above. Just download the latest tar.gz file for MinGW.</p>
 					      <p class="guide">Note: I can't get SDL 1.2.8 to work yet!</p>
@@ -189,12 +189,12 @@
 
 					<table class="guide">
 					  <tr>
-					    <td class="green">File</td>
-					    <td class="green">Description</td>
+					    <td>File</td>
+					    <td>Description</td>
 					  </tr>
 					  <tr>
-					    <td class="green"><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib122.zip">zlib122.zip</a></td>
-					    <td class="green">Source code for zlib 1.2.2
+					    <td><a href="http://caesar.logiqx.com/zips/tools/zip_libs/zlib/zlib122.zip">zlib122.zip</a></td>
+					    <td>Source code for zlib 1.2.2
 					      <p class="guide">You can get the latest version of zlib from the gzip
 					      link above.</p>
 					    </td>
@@ -239,12 +239,12 @@
 
 					<table class="guide">
 					  <tr>
-					    <td class="green">File</td>
-					    <td class="green">Description</td>
+					    <td>File</td>
+					    <td>Description</td>
 					  </tr>
 					  <tr>
-					    <td class="green"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/upx125w.zip">upx125w.zip</a></td>
-					    <td class="green">UPX 1.25 for Win32</td>
+					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/upx125w.zip">upx125w.zip</a></td>
+					    <td>UPX 1.25 for Win32</td>
 					  </tr>
 					</table>
 

@@ -60,25 +60,25 @@
 
 					<table class="guide">
 					  <tr>
-					    <td class="green">File</td>
-					    <td class="green">Description</td>
+					    <td>File</td>
+					    <td>Description</td>
 					  </tr>
 					  <tr>
-					    <td class="green"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/gcc-core-3.4.2-20040916-1.tar.gz">gcc-core-3.4.2-20040916-1.tar.gz</a></td>
-					    <td class="green">GCC 3.4.2 (GNU C Compiler).
+					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/gcc-core-3.4.2-20040916-1.tar.gz">gcc-core-3.4.2-20040916-1.tar.gz</a></td>
+					    <td>GCC 3.4.2 (GNU C Compiler).
 					    </td>
 					  </tr>
 					  <tr>
-					    <td class="green"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/binutils-2.15.91-20040904-1.tar.gz">binutils-2.15.91-20040904-1.tar.gz</a></td>
-					    <td class="green"> Binutils 2.15.91 (binary and object handling)</td>
+					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/binutils-2.15.91-20040904-1.tar.gz">binutils-2.15.91-20040904-1.tar.gz</a></td>
+					    <td> Binutils 2.15.91 (binary and object handling)</td>
 					  </tr>
 					  <tr>
-					    <td class="green"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/mingw-runtime-3.7.tar.gz">mingw-runtime-3.7.tar.gz</a></td>
-					    <td class="green">MinGW Runtime 3.7 (stdio etc)</td>
+					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/mingw-runtime-3.7.tar.gz">mingw-runtime-3.7.tar.gz</a></td>
+					    <td>MinGW Runtime 3.7 (stdio etc)</td>
 					  </tr>
 					  <tr>
-					    <td class="green"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/w32api-3.2.tar.gz">w32api-3.2.tar.gz</a></td>
-					    <td class="green">Windows API 3.2 (needed during linking)</td>
+					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/w32api-3.2.tar.gz">w32api-3.2.tar.gz</a></td>
+					    <td>Windows API 3.2 (needed during linking)</td>
 					  </tr>
 					</table>
 
@@ -112,12 +112,12 @@
 
 					<table class="guide">
 					  <tr>
-					    <td class="green">File</td>
-					    <td class="green">Description</td>
+					    <td>File</td>
+					    <td>Description</td>
 					  </tr>
 					  <tr>
-					    <td class="green"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/MSYS-1.0.10.exe">MSYS-1.0.10.exe</a></td>
-					    <td class="green">MSYS 1.0.10
+					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/MSYS-1.0.10.exe">MSYS-1.0.10.exe</a></td>
+					    <td>MSYS 1.0.10
 					    </td>
 					  </tr>
 					</table>
@@ -147,13 +147,13 @@
 
 					<table class="guide">
 					  <tr>
-					    <td class="green">File</td>
-					    <td class="green">Description</td>
+					    <td>File</td>
+					    <td>Description</td>
 					  </tr>
 					  <tr>
-					    <td class="green"><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/dx70_mgw.zip">
+					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/dx70_mgw.zip">
 					    dx70_mgw.zip</a></td>
-					    <td class="green">DirectX 7.0 libraries and headers for MinGW</td>
+					    <td>DirectX 7.0 libraries and headers for MinGW</td>
 					  </tr>
 					</table>
 
@@ -178,13 +178,13 @@
 
 					<table class="guide">
 					  <tr>
-					    <td class="green">File</td>
-					    <td class="green">Description</td>
+					    <td>File</td>
+					    <td>Description</td>
 					  </tr>
 					  <tr>
-					    <td class="green">
+					    <td>
 					    <a href="http://caesar.logiqx.com/zips/tools/assemblers/nasm/nasm-0.98.39-win32.zip">nasm-0.98.39-win32.zip</a></td>
-					    <td class="green">NASM 0.98.39 for Win32
+					    <td>NASM 0.98.39 for Win32
 					      <p class="guide">You can get the latest version of NASM from the
 					      SourceForge link above. Click the 'Download' link then go to the 'Win32 binaries'
 					      right at the bottom of the page.</p>
