@@ -47,7 +47,7 @@
 
 					<p>Listed below is an old document explaining how to download the RAINE source from SourceForge.<br />
 					However, I suggest that you do not use this guide and just download the source
-					from the <a href="http://www.rainemu.com/" target="_blank">RAINE</a> home page!</p>
+					from the <a href="http://www.rainemu.com/">RAINE</a> home page!</p>
 					<p><a href="Downloading.php">Downloading the RAINE source using CVS</a>
 					or using <a href="jCVS.php">jCVS ( JAVA CVS)</a></p>
 		<?php

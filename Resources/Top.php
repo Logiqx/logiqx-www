@@ -24,6 +24,14 @@
 							echo INDENT . TAB . '</a>' . LF;
 							echo INDENT . TAB . '<br />' . LF;
 							echo INDENT . '</p>' . LF;
+
+							echo '<p>' . LF;
+							echo INDENT . TAB . '<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.logiqx.com/">' . LF;
+							echo INDENT . TAB . TAB . '<img src="/Resources/valid-css.png"' . LF;
+							echo INDENT . TAB . TAB . ' alt="Valid CSS!" height="31" width="88" />' . LF;
+							echo INDENT . TAB . '</a>' . LF;
+							echo INDENT . TAB . '<br />' . LF;
+							echo INDENT . '</p>' . LF;
 						}
 					?>
 

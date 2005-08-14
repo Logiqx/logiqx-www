@@ -30,7 +30,7 @@
 
 					<p>I don't have a public e-mail address anymore!</p>
 
-					<p>Please use the <a href="/forum/" target="_blank">forum</a> instead.</p>
+					<p>Please use the <a href="/forum/">forum</a> instead.</p>
 		<?php
 			// Standard page footer (counter)
 

@@ -33,9 +33,9 @@
 
 					<table class="links">
 					  <tr>
-					    <td><a href="http://www.clrmame.com/" target="_blank"><img src="CMPro.gif" 
+					    <td><a href="http://www.clrmame.com/"><img src="CMPro.gif" 
 					    width="120" height="78" alt="CMPro" /></a></td>
-					    <td><a href="http://www.romcenter.com/" target="_blank"><img src="RomCenter.gif" 
+					    <td><a href="http://www.romcenter.com/"><img src="RomCenter.gif" 
 					    width="241" height="49" alt="RomCenter" /></a></td>
 					  </tr>
 					  <tr>
@@ -46,15 +46,15 @@
 					  </tr>
 					</table>
 
-					<p>&nbsp;</p>
+					<p></p>
 
 					<p>There are some alternative ROM management tools that you might
 					also like to try...</p>
 
 					<table class="links">
 					  <tr>
-					    <td><a href="http://www.mamemerge.emuchrist.org/" target="_blank"><img src="mamemerge.png" width="222" height="40" alt="MAME Merge" /></a></td>
-					    <td><a href="http://www.mameworld.net/setcleaner/" target="_blank"><img src="setcleaner.png" width="197" height="40" alt="SetCleaner" /></a></td>
+					    <td><a href="http://www.mamemerge.emuchrist.org/"><img src="mamemerge.png" width="222" height="40" alt="MAME Merge" /></a></td>
+					    <td><a href="http://www.mameworld.net/setcleaner/"><img src="setcleaner.png" width="197" height="40" alt="SetCleaner" /></a></td>
 					  </tr>
 					  <tr>
 					    <td>MAME Merge by Insane.<br />
@@ -64,14 +64,14 @@
 					  </tr>
 					</table>
 
-					<p>&nbsp;</p>
+					<p></p>
 					<p>If you are using Linux, you might find these
 					tools useful although I have not tried them myself:</p>
 
 					<table class="links">
 					  <tr>
-					    <td><a href="http://advancemame.sourceforge.net/" target="_blank"><img src="advance-logo.png" width="250" height="46" alt="Advance Scan" /></a></td>
-					    <td><a href="http://mamory.sourceforge.net/" target="_blank"><img src="mamory.png" width="233" height="48" alt="MAMORY" /></a></td>
+					    <td><a href="http://advancemame.sourceforge.net/"><img src="advance-logo.png" width="250" height="46" alt="Advance Scan" /></a></td>
+					    <td><a href="http://mamory.sourceforge.net/"><img src="mamory.png" width="233" height="48" alt="MAMORY" /></a></td>
 					  </tr>
 					  <tr>
 					    <td>AdvanceScan by Andrea Mazzoleni.</td>

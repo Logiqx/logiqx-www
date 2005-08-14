@@ -56,7 +56,7 @@
 
 					<h1 class="guide">2. Installing Allegro</h1>
 
-					<p class="guide"><a href="http://www.talula.demon.co.uk/allegro/" target="_blank">Allegro</a> (A Low Level Game Routines
+					<p class="guide"><a href="http://www.talula.demon.co.uk/allegro/">Allegro</a> (A Low Level Game Routines
 					Library) is used by RAINE32 for graphics handling, sound and input handling.<br/>
 					</p>
 
@@ -144,7 +144,7 @@
 
 					<h1 class="guide">5. Installing SDL</h1>
 
-					<p class="guide"><a href="http://www.libsdl.org/" target="_blank">SDL</a> (Simple DirectMedia Layer) is used by RAINE32 for
+					<p class="guide"><a href="http://www.libsdl.org/">SDL</a> (Simple DirectMedia Layer) is used by RAINE32 for
 					sound handling. You need the following archive:</p>
 
 					<table class="guide">
@@ -182,7 +182,7 @@
 
 					<h1 class="guide">6. Installing zlib</h1>
 
-					<p class="guide"><a href="http://www.gzip.org/zlib/" target="_blank">zlib</a> (ZIP library) is used by RAINE32 for loading zipped ROMs.</p>
+					<p class="guide"><a href="http://www.gzip.org/zlib/">zlib</a> (ZIP library) is used by RAINE32 for loading zipped ROMs.</p>
 
 					<p class="guide"><u>To compile zlib from the source (n.b. you can skip this and use the
 					pre-compiled version below if you wish)</u></p>
@@ -233,7 +233,7 @@
 
 					<h1 class="guide">7. Installing UPX</h1>
 
-					<p class="guide"><a href="http://upx.sourceforge.net/" target="_blank">UPX</a> (Ultimate Packer for
+					<p class="guide"><a href="http://upx.sourceforge.net/">UPX</a> (Ultimate Packer for
 					eXecutables) is used to reduce the size of the RAINE32 executable. You will
 					need the following archive:</p>
 

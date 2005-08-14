@@ -8,7 +8,7 @@
 
 			// Display the page title
 
-			echo '<title>Logiqx - E-Mail</title>' . LF . LF;
+			echo '<title>Logiqx - Dats FAQs</title>' . LF . LF;
 
 			// Include standard <head> metadata
 
@@ -36,17 +36,17 @@
 
 					<hr />
 
-					<h2>General ROM Information</h2>
+					<h1>General ROM Information</h1>
 
 					<p><a href="ROMQuestions.php">ROM Questions</a></p>
 
-					<h2>Data File Creation</h2>
+					<h1>Data File Creation</h1>
 
 					<p><a href="DatCreation.php">Principals and Guidelines<br />
 					</a><a href="CMPro.php">CMPro Format<br />
 					</a><a href="RomCenter.php">RomCenter Format</a></p>
 
-					<h2>Case Studies!</h2>
+					<h1>Case Studies!</h1>
 
 					<p><a href="MAMEDat.php">MAME</a> - see below for details about
 					listinfo changes over time.<br />

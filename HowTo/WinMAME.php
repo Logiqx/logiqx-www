@@ -55,7 +55,7 @@
 
 					<h1 class="guide">2. Installing MinGW (Minimalist GNU for Windows)</h1>
 
-					<p class="guide"><a href="http://mingw.sourceforge.net/" target="_blank">MinGW</a> comes as separate
+					<p class="guide"><a href="http://mingw.sourceforge.net/">MinGW</a> comes as separate
 					downloadable components and you will need the following to compile MAME and RAINE32:</p>
 
 					<table class="guide">
@@ -108,7 +108,7 @@
 					for MinGW and includes the various Unix commands that are required when
 					compiling MAME as well as a fully functional version of GNU make. It also means
 					that you don't need to configure your Windows PATH variable to get MinGW working
-					and PATH conflicts should also be impossible.&nbsp;</p>
+					and PATH conflicts should also be impossible.</p>
 
 					<table class="guide">
 					  <tr>
@@ -173,7 +173,7 @@
 
 					<h1 class="guide">5. Installing NASM</h1>
 
-					<p class="guide"><a href="http://nasm.sourceforge.net/" target="_blank">NASM</a> (Netwide Assembler) is used by
+					<p class="guide"><a href="http://nasm.sourceforge.net/">NASM</a> (Netwide Assembler) is used by
 					MAME and RAINE32 as an x86 assembler. You require the following archive:</p>
 
 					<table class="guide">

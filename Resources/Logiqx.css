@@ -13,12 +13,14 @@ img
 h1
 {
 	font-family: arial, sans-serif;
+	font-size: 15pt;
 	text-align: center;
 }
 
 h2
 {
 	font-family: arial, sans-serif;
+	font-size: 10pt;
 	text-align: center;
 }
 
@@ -29,9 +31,28 @@ p
 	text-align: center;
 }
 
+pre.small
+{
+	font-size: 8pt;
+}
+
 p.huge
 {
 	font-size: 15pt;
+}
+
+ul
+{
+	font-family: arial, sans-serif;
+	font-size: 10pt;
+	text-align: center;
+}
+
+ol
+{
+	font-family: arial, sans-serif;
+	font-size: 10pt;
+	text-align: center;
 }
 
 table
@@ -49,7 +70,7 @@ colgroup
 table.layout td
 {
 	vertical-align: top;
-	text-align: center;
+	text-align: left;
 	empty-cells: show;
 }
 
@@ -68,7 +89,11 @@ table.links td
 h1.guide
 {
 	text-align: left;
-	font-size: 10pt;
+}
+
+h2.guide
+{
+	text-align: left;
 }
 
 p.guide
@@ -85,6 +110,13 @@ p.code
 table.guide
 {
 	border: outset 1pt;
+}
+
+table.guide th
+{
+	text-align: left;
+	border: inset 1pt;
+	background-color: #aaccdd;
 }
 
 table.guide td
