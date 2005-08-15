@@ -26,7 +26,7 @@
 							echo INDENT . '</p>' . LF;
 
 							echo '<p>' . LF;
-							echo INDENT . TAB . '<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.logiqx.com/">' . LF;
+							echo INDENT . TAB . '<a href="http://jigsaw.w3.org/css-validator/check/referer">' . LF;
 							echo INDENT . TAB . TAB . '<img src="/Resources/valid-css.png"' . LF;
 							echo INDENT . TAB . TAB . ' alt="Valid CSS!" height="31" width="88" />' . LF;
 							echo INDENT . TAB . '</a>' . LF;
@@ -37,7 +37,7 @@
 
 					<hr />
 
-					<p><a href="/"><img src="/Menu/NewsOff.gif"
+					<p><a href="/beta.php"><img src="/Menu/NewsOff.gif"
 						onmouseover="menuOn('News')" onmouseout="menuOff('News')"
 						alt="News" width="40" height="20" id="News" name="News" /></a></p>
 

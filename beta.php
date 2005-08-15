@@ -24,7 +24,7 @@
 			include('Resources/Top.php');
 		?>
 
-					<p><img src="Resources/Logiqx.gif" width="327" height="68" alt="Logiqx Logo" /></p>
+					<p><img src="Resources/Logiqx.gif" width="327" height="68" alt="Logiqx" /></p>
 
 					<p><img src="Resources/URLBig.gif" width="266" height="40" alt="http://www.logiqx.com/" /></p>
 
@@ -43,13 +43,13 @@
 						if (isset($_GET['page']))
 							include ('News/News' . $_GET['page'] . '.php');
 						else
-							include ('News/News.php');
+							include ('News/News22.php');
 					?>
 
 					<hr />
 
 					<p>
-						<a href="beta.php">July to September 2005</a> -
+						<a href="beta.php?page=22">July to September 2005</a> -
 						<a href="beta.php?page=21">April to June 2005</a> -
 						<a href="beta.php?page=20">January to March 2005</a>
 					</p>

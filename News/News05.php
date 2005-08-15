@@ -1,619 +1,789 @@
-<h1>30 June 2001</h1>
-
-<table class="news">
-  <tr>
-    <td>
-      <p>Created dats for Calice
-      v0.3.6</p>
-      <p>I have also written some pages on the subject
-      of CMPro and RomCenter data file creation.</p>
-      <p>Anyone who is thinking of creating their
-      own data files or who wants an insight into what I do should find them
-      interesting.</p>
-      <p>They are available from the menu on the
-      left, under the heading of <a href="FAQs/DatFAQs.php">Dat FAQs</a>.</p>
-      <p>I'm going to be away for a few days now
-      so please save any questions until after I come back.<br />
-      I don't want a full mailbox on my return.&nbsp; ;)</p>
-    </td>
-  </tr>
-</table>
-
-<h1>28 June 2001</h1>
-
-<table class="news">
-  <tr>
-    <td>
-      <p>Released dats for the
-      <a
-    href="Dats/Dats.php">Nebula v1.5</a>.</p>
-      <p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
-      v1.11</a>:</p>
-      <p>- Added some warnings for bad quality RomCenter dats<br />
-      (wrong version number in header and missing ROM sizes)</p>
-    </td>
-  </tr>
-</table>
-
-<h1>27 June 2001</h1>
-
-<table class="news">
-  <tr>
-    <td>
-      <p>Another CPS2Shock release:</p>
-      <p>Updated the dats for <a href="Dats/Dats.php">CPS-2</a>, Calice
-      v0.3.4 and <a href="Dats/Dats.php">WinKawaks v1.07</a>.</p>
-      <p>No dat release for Nebula. I have to go
-      out...</p>
-    </td>
-  </tr>
-</table>
-
-<h1>26 June 2001</h1>
-
-<table class="news">
-  <tr>
-    <td>
-      <p>No releases today but the 200,000 visitor
-      stopped by!
-    </td>
-  </tr>
-</table>
-
-<h1>24 June 2001</h1>
-
-<table class="news">
-  <tr>
-    <td>
-      <p>Released dat for <a href="Dats/Dats.php">WinKawaks
-      v1.06</a>.
-    </td>
-  </tr>
-</table>
-
-<h1>23 June 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>I've updated my <a href="HowTo/HowTo.php">How To
-      Compile</a> pages to use the latest versions of DJGPP and MinGW as well as
-      explaining RAINE32.</p>
-      <p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
-      v1.10</a></p>
-      <p>- Fixed detection of RAINE32 dat format.<br />
-            - Improved ZIP scanner (not case sensitive when searching for zips).</p>
-      <p>Dats for <a href="Dats/Dats.php">RAINE v0.32</a>
-      available.</p>
-    </td>
-  </tr>
-</table>
-
-<h1>20 June 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Another CPS2Shock release:</p>
-      <p>Updated the dats for <a href="Dats/Dats.php">CPS-2</a>,
-      <a
-    href="Dats/Dats.php">Nebula v1.4</a>, Calice
-      v0.3.2 and <a href="Dats/Dats.php">WinKawaks v1.05</a>.</p>
-      <p>Also updated the CPS-2 questions and answers page to include CPS2Shock release numbers.</p>
-    </td>
-  </tr>
-</table>
-
-<h1>13 June 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Another CPS2Shock release so I've updated the
-      <a href="Dats/Dats.php">CPS-2</a> dat.</p>
-      <p>Updated dats for <a
-    href="Dats/Dats.php">Nebula v1.4</a>, Calice
-      v0.3.2 and <a href="Dats/Dats.php">WinKawaks v1.04</a>.</p>
-    </td>
-  </tr>
-</table>
-
-<h1>12 June 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Dare updated his <a href="Dats/Dats.php">MAME
-    Icons</a>  dat.</p>
-    </td>
-  </tr>
-</table>
-
-<h1>10 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Dare has updated his <a
-    href="Dats/Dats.php">MAME Flyers</a> dat.</p>
-      <p>I have updated the tROMbone
-      dat.</p>
-    </td>
-  </tr>
-</table>
-
-<h1>8 June 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
-      v1.9</a></p>
-      <p>- Added <b> directory scanning </b> feature (reads ZIPs and
-      subdirectories).<br />
-      - Calice loader now uses the main driver code, not 'verifyroms'.<br />
-      - RomCenter 2 loader fixes missing 'romof' details automatically.</p>
-      %s:Dats/[\--z]*/[\--z]*.php:Dats/Dats.php:g<p>Released v1.7 of <a href="Tools/ROMBuild/ROMBuild.php">ROMBuild</a>:</p>
-      <p>Added Speed Freak for Cinelator 95 Beta.<br />
-      Now compiled using MinGW and the -Wall option (for clean code).<p>Added
-      Speed Freak CRCs to the Cinelator 95 dat in the <a href="Dats/Dats.php">older emus
-    archive</a>.</p>
-      <p>Thanks go to Leslaw for finding Speed Freak!</p>
-    </td>
-  </tr>
-</table>
-
-<h1>7 June 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Another CPS2Shock release so I've updated the
-      <a href="Dats/Dats.php">CPS-2</a> dat.</p>
-      <p>Updated dats for <a
-    href="Dats/Dats.php">Nebula v1.4</a>, Calice
-      v0.3.2 and <a href="Dats/Dats.php">WinKawaks v1.02</a>.</p>
-    </td>
-  </tr>
-</table>
-
-<h1>6 June 2001</h1>
-
-<table class="news">
-  <tr>
-    <td>
-    <p>Released dat for <a href="Dats/Dats.php">WinKawaks
-    v1.00</a>.</td>
-  </tr>
-</table>
-
-<h1>31 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Dare updated his <a href="Dats/Dats.php">MAME
-    Icons</a> dat.</p>
-    <p>Released dat for the new Calice
-    v0.3.2.</td>
-  </tr>
-</table>
-
-<h1>29 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Released dat for the new Calice v0.3.0.</p>
-    <p>Also, I've decided that I will no longer create (or host)
-    pinball related dats due to a lack of time on my part.<br />
-    I will just focus on arcade games as I have done previously.</td>
-  </tr>
-</table>
-
-<h1>27 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Dare has updated his MAME <a
-    href="Dats/Dats.php">Snaps</a> dat for v0.37b15.</td>
-  </tr>
-</table>
-
-<h1>26 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>More CPS2Shock releases so I've updated the dats for:</p>
-    <p><a href="Dats/Dats.php">CPS-2</a>, <a
-    href="Dats/Dats.php">Nebula v1.4</a>, Calice v0.2.9.</td>
-  </tr>
-</table>
-
-<h1>25 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>CAESAR is now accessible using <a
-    href="http://caesar.logiqx.com/">http://caesar.logiqx.com/</a>.</p>
-    <p>It'll take a day or two for every DNS to catch up
-    though...</td>
-  </tr>
-</table>
-
-<h1>24 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Doh... I generated dats using the wrong binary (don't
-    ask how)!<br />
-    New dats are now online.<br />
-    If you've used the incorrect dats, move any ZIPs dated today out of your ROMs directory
-    and build them back in using RomCenter/CMPro.<br />
-    Sorry for the inconvenience.</p>
-    <p>MAME v0.37b15 has been released.</p>
-    <p>Released the usual <a href="Dats/Dats.php">MAME
-    dats</a> and some new <a href="Dats/Dats.php">MAME Changes</a> dats.</p>
-    <p>If you're a technical user and want details of how to
-    build your own MingW environment then head on over to my '<a href="HowTo/WinMAME.php">How
-    To Compile MAMEW</a>' page. This guide has been written for anyone that doesn't want a
-    ready packaged version. ;)</p>
-    <p>Please don't bombard me with questions though, it is for
-    technically competent people only!</p>
-    <p>Mila76 updated his Visual
-    PinMAME Tables dat again (added Firepower II table and a ROMs dat).</td>
-  </tr>
-</table>
-
-<h1>23 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Mila76 updated his Visual PinMAME Tables
-      dat.</td>
-  </tr>
-</table>
-
-<h1>20 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Uploaded dats for Calice
-    v0.2.9</td>
-  </tr>
-</table>
-
-<h1>18 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil v1.8</a>:</p>
-    <p>- Fixed a minor bug in the '-m' feature (bug introduced in v1.7).<br />
-    - Now compiled with MinGW (no long filename problems on NT now).</td>
-  </tr>
-</table>
-
-<h1>17 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p><strong>Quick note: Re-uploaded the Nebula archives
-    to include a fixed Super Puzzle Fighter 2 X driver.</strong></p>
-    <p>CPS2Shock has released XORs for Super Puzzle Fighter 2 X
-    so I've updated the dats for:</p>
-    <p><a href="Dats/Dats.php">CPS-2</a>, <a
-    href="Dats/Dats.php">Nebula v1.3</a></p>
-    <p>There are also some new CPS-2 dumps and ROM renames
-    included in these dats.</td>
-  </tr>
-</table>
-
-<h1>16 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>A couple of new dats...</p>
-    <p>ACE (Another Capcom
-    Emulator).<br />
-    The NewZealand Story (another emulator by
-    the author of ACE).</td>
-  </tr>
-</table>
-
-<h1>14 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>The Visual
-    PinMAME Tables dat is back again but now owned and maintained by Mila76.</p>
-    <p>Seeing as AJ is now including all relevant files in his
-    PinMAME archives (readme.txt etc) the dats are a practical way to maintain your table
-    collections. Today's release should bring you up to date.</td>
-  </tr>
-</table>
-
-<h1>11 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>CPS2Shock has released XORs for D&amp;D: Shadow over
-    Mystara (US) so I've updated the dats for:</p>
-    <p><a href="Dats/Dats.php">CPS-2</a>, <a
-    href="Dats/Dats.php">Nebula v1.3</a>, Calice v0.2.6.</p>
-    <p>The Visual PinMAME Tables dat has now been discontinued
-    too. This is for two reasons:</p>
-    <p>1) Willman has suffered a hard disk crash and lost all
-    his tables.<br />
-    2) I no longer believe dats are suitable for this purpose. Just download new tables when
-    you see them!</td>
-  </tr>
-</table>
-
-<h1>8 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>My proper e-mail address is back again so you can
-    stop using the EmuHQ one now.</td>
-  </tr>
-</table>
-
-<h1>7 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Released <a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff v1.07</a>
-    (minor update).</p>
-    <p>CPS2Shock has released XORs for D&amp;D: Tower of Doom
-    (Japan) so I've updated the dats for:</p>
-    <p><a href="Dats/Dats.php">CPS-2</a>, <a
-    href="Dats/Dats.php">Nebula v1.3</a>, Calice v0.2.6.</p>
-    <p>The new CPS-2 dat also includes details of the new dumps
-    by Team Japump and Naz.</p>
-    <p>The domain issues seem to be resolved now so you can all
-    start using <a href="http://www.logiqx.com">http://www.logiqx.com</a> again.<br />
-    My old e-mail address isn't sorted yet though so you wil have to use the temporary one
-    still.</td>
-  </tr>
-</table>
-
-<h1>5 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Due to the EmuHQ server move my domain name (www.logiqx.com) is not
-    working. For the time being I suggest you use:</p>
-    <p>http://216.151.127.60/logiqx/
-    </p>
-    <p>To access CAESAR, you can use the menu on the left hand side of this
-    page.</p>
-    <p>Also, if you have sent an e-mail to me in the last 24 hours and not had
-    a response then it has more than likely gone down a black hole. The e-mail address that is
-    currently working is available from the usual place (above).</td>
-  </tr>
-</table>
-
-<h1>4 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Updated Visual
-    PinMAME Tables dat (two tables added and others updated).</p>
-    <p>Updated PinMAME dat
-    (for v0.99 beta 3)</td>
-  </tr>
-</table>
-
-<h1>3 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Minor update of the MAME <a
-    href="Dats/Dats.php">Artwork</a> dat.</p>
-    <p>Moved the Virtua dat into the the <a
-    href="Dats/Dats.php">Older Emus</a> ZIP (as it is now over six months old).</td>
-  </tr>
-</table>
-
-<h1>2 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Released dats for Calice
-    v0.2.6 (23 CPS-2 games added).</td>
-  </tr>
-</table>
-
-<h1>1 May 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Rob has created dats for MAME <a
-    href="Dats/Dats.php">samples</a> and <a href="Dats/Dats.php">artwork</a>.</td>
-  </tr>
-</table>
-
-<h1>30 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Released dats for Calice
-    v0.2.3 (Super Street Fighter 2 Turbo added).</p>
-    <p>Updated Visual
-    PinMAME Tables dat (six tables updated and Laser Cue added).</p>
-    <p>Removed Visual Pinball dat at Wilman's request.</td>
-  </tr>
-</table>
-
-<h1>28 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Updated Visual
-    PinMAME Tables dat (several new tables added and it should now cleanly scan original
-    ZIPs).</p>
-    <p>There are some table updates that are not yet in the dat.
-    Look out for another update soon!</td>
-  </tr>
-</table>
-
-<h1>27 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
-    dats (XORs added for Powered Gear).</p>
-    <p>Updated dats for <a href="Dats/Dats.php">Nebula
-    v1.2</a> (added Powered Gear).</td>
-  </tr>
-</table>
-
-<h1>26 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil v1.7</a>:</p>
-    <p>- Added handling of decocass resource in MAME dats.<br />
-    - Added load/save support for CMPro element 'clrmamepro' and ROMCenter headers.<br />
-    - Added preliminary support for Calice Driver files.<br />
-    - Added load support for ClrMamePro log files (i.e. to convert into a dat format).<br />
-    - Further improved the '-m' feature ('fix merging' option).<br />
-    - RomCenter2 save routine strips redundant 'merge' information from non-clones.<br />
-    - DJGPP compilation now uses -Wall option.<br />
-    - Can now be compiled with Microsoft Visual C++.</p>
-    <p>Released dats for Calice
-    v0.2.2 (various games added).</td>
-  </tr>
-</table>
-
-<h1>24 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Dare has split up his MAME images dat into seperate
-    dats:</p>
-    <p>MAME <a href="Dats/Dats.php">Cabinets</a>, <a
-    href="Dats/Dats.php">Flyers</a>, <a href="Dats/Dats.php">Icons</a>, <a
-    href="Dats/Dats.php">Marquees</a>, <a href="Dats/Dats.php">Snaps</a>.</p>
-    <p>Thanks go to Wilman for creating the following resource
-    dats:</p>
-    <p>Visual Pinball
-    Tables and Visual PinMAME Tables.</td>
-  </tr>
-</table>
-
-<h1>22 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
-    dats (XORs added for Marvel Super Heroes Hispanic).</p>
-    <p>Updated dats for <a href="Dats/Dats.php">Nebula
-    v1.2</a> (added Marvel Super Heroes Hispanic).</p>
-    <p>Dare has created a dat for the MAME images (snaps,
-    flyers, cabinets, marquees and icons).</td>
-  </tr>
-</table>
-
-<h1>20 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Released dats for Calice
-    v0.2.0 (20 games added).</p>
-    <p>Updated dats for Virtua (a CRC fix for Virtua Fighter and
-    changed Gunblade 00000000 CRCs to complimented CRCs).</td>
-  </tr>
-</table>
-
-<h1>15 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
-    dats (XORs added for 19XX Hispanic).</p>
-    <p>Updated dats for <a href="Dats/Dats.php">Nebula
-    v1.2</a> (added 19XX Hispanic).</td>
-  </tr>
-</table>
-
-<h1>14 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Uploaded dats for Mimic
-    v1.06 (Moon Cresta added).</p>
-    <p>Released dats for <a href="Dats/Dats.php">Nebula
-    v1.2</a>.<br />
-    Note that the 3 blue coloured games in Nebula's game list are not playable yet (they need
-    decryption files creating first).</td>
-  </tr>
-</table>
-
-<h1>13 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Minor site cleanup. Moved dats for Sega System
-    16 Emulator, VisualAM and WinGorf into the <a href="Dats/Dats.php">older emus
-    archive</a>.</td>
-  </tr>
-</table>
-
-<h1>12 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Released dats for <a href="Dats/Dats.php">RAINE
-    v0.31</a></td>
-  </tr>
-</table>
-
-<h1>10 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Another release of the <a href="Dats/Dats.php">Nebula
-    v1.1</a> dats.<br />
-    I have added the missing clones that can be emulated and corrected the way a couple of
-    games are loaded by Nebula.<br />
-    The required Nebula driver files for these additions and fixes are also included in the
-    archive.</td>
-  </tr>
-</table>
-
-<h1>9 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
-    dats (XORs added for Dungeons &amp; Dragons: Shadow over Mystara).</p>
-    <p>Uploaded dats for Mimic
-    v1.05 (13 games added, including some non-MAME games).</td>
-  </tr>
-</table>
-
-<h1>8 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Released dats to work with yesterday's release of <a
-    href="Dats/Dats.php">MAME v0.37 beta 14</a>.</p>
-    <p><strong>Update! Please re-download the MAME dat for
-    RomCenter if you use fully merged sets.</strong></p>
-    <p>Also, Nebula v1.1 now has the correct CRC information for
-    all games so the dat is 100% correct (i.e. no changes required).</td>
-  </tr>
-</table>
-
-<h1>5 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
-    dats (XORs added for Street Fighter Zero - Japan 950605).</td>
-  </tr>
-</table>
-
-<h1>4 April 2001</h1>
-
-<table class="news">
-  <tr>
-    <td><p><strong>Today's dat updates:</strong></p>
-    <p><a href="Dats/Dats.php">Nebula v1.0a</a><br />
-    PinMAME v0.99 beta 1 (previously called WPCmame)<br />
-    Calice v0.1.5 (only the RomCenter 2 dat has changed)<br />
-    <a href="Dats/Dats.php">Impact</a> (only the ROMCenter 2 dat has changed)</td>
-  </tr>
-</table>
+  <h1>30 June 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Created dats for Calice v0.3.6</p>
+
+        <p>I have also written some pages on the subject of CMPro
+        and RomCenter data file creation.</p>
+
+        <p>Anyone who is thinking of creating their own data files
+        or who wants an insight into what I do should find them
+        interesting.</p>
+
+        <p>They are available from the menu on the left, under the
+        heading of <a href="FAQs/DatFAQs.php">Dat FAQs</a>.</p>
+
+        <p>I'm going to be away for a few days now so please save
+        any questions until after I come back.<br />
+        I don't want a full mailbox on my return. ;)</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>28 June 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released dats for the <a href="Dats/Dats.php">Nebula
+        v1.5</a>.</p>
+
+        <p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        v1.11</a>:</p>
+
+        <p>- Added some warnings for bad quality RomCenter dats<br />
+        (wrong version number in header and missing ROM sizes)</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>27 June 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Another CPS2Shock release:</p>
+
+        <p>Updated the dats for <a href="Dats/Dats.php">CPS-2</a>,
+        Calice v0.3.4 and <a href="Dats/Dats.php">WinKawaks
+        v1.07</a>.</p>
+
+        <p>No dat release for Nebula. I have to go out...</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>26 June 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>No releases today but the 200,000 visitor stopped
+        by!</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>24 June 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released dat for <a href="Dats/Dats.php">WinKawaks
+        v1.06</a>.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>23 June 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>I've updated my <a href="HowTo/HowTo.php">How To
+        Compile</a> pages to use the latest versions of DJGPP and
+        MinGW as well as explaining RAINE32.</p>
+
+        <p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        v1.10</a></p>
+
+        <p>- Fixed detection of RAINE32 dat format.<br />
+        - Improved ZIP scanner (not case sensitive when searching
+        for zips).</p>
+
+        <p>Dats for <a href="Dats/Dats.php">RAINE v0.32</a>
+        available.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>20 June 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Another CPS2Shock release:</p>
+
+        <p>Updated the dats for <a href="Dats/Dats.php">CPS-2</a>,
+        <a href="Dats/Dats.php">Nebula v1.4</a>, Calice v0.3.2 and
+        <a href="Dats/Dats.php">WinKawaks v1.05</a>.</p>
+
+        <p>Also updated the CPS-2 questions and answers page to
+        include CPS2Shock release numbers.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>13 June 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Another CPS2Shock release so I've updated the <a href=
+        "Dats/Dats.php">CPS-2</a> dat.</p>
+
+        <p>Updated dats for <a href="Dats/Dats.php">Nebula
+        v1.4</a>, Calice v0.3.2 and <a href=
+        "Dats/Dats.php">WinKawaks v1.04</a>.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>12 June 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Dare updated his <a href="Dats/Dats.php">MAME Icons</a>
+        dat.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>10 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Dare has updated his <a href="Dats/Dats.php">MAME
+        Flyers</a> dat.</p>
+
+        <p>I have updated the tROMbone dat.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>8 June 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        v1.9</a></p>
+
+        <p>- Added <b>directory scanning</b> feature (reads ZIPs
+        and subdirectories).<br />
+        - Calice loader now uses the main driver code, not
+        'verifyroms'.<br />
+        - RomCenter 2 loader fixes missing 'romof' details
+        automatically.</p>%s:Dats/[\--z]*/[\--z]*.php:Dats/Dats.php:g
+
+        <p>Released v1.7 of <a href=
+        "Tools/ROMBuild/ROMBuild.php">ROMBuild</a>:</p>
+
+        <p>Added Speed Freak for Cinelator 95 Beta.<br />
+        Now compiled using MinGW and the -Wall option (for clean
+        code).</p>
+
+        <p>Added Speed Freak CRCs to the Cinelator 95 dat in the
+        <a href="Dats/Dats.php">older emus archive</a>.</p>
+
+        <p>Thanks go to Leslaw for finding Speed Freak!</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>7 June 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Another CPS2Shock release so I've updated the <a href=
+        "Dats/Dats.php">CPS-2</a> dat.</p>
+
+        <p>Updated dats for <a href="Dats/Dats.php">Nebula
+        v1.4</a>, Calice v0.3.2 and <a href=
+        "Dats/Dats.php">WinKawaks v1.02</a>.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>6 June 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released dat for <a href="Dats/Dats.php">WinKawaks
+        v1.00</a>.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>31 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Dare updated his <a href="Dats/Dats.php">MAME Icons</a>
+        dat.</p>
+
+        <p>Released dat for the new Calice v0.3.2.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>29 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released dat for the new Calice v0.3.0.</p>
+
+        <p>Also, I've decided that I will no longer create (or
+        host) pinball related dats due to a lack of time on my
+        part.<br />
+        I will just focus on arcade games as I have done
+        previously.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>27 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Dare has updated his MAME <a href=
+        "Dats/Dats.php">Snaps</a> dat for v0.37b15.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>26 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>More CPS2Shock releases so I've updated the dats
+        for:</p>
+
+        <p><a href="Dats/Dats.php">CPS-2</a>, <a href=
+        "Dats/Dats.php">Nebula v1.4</a>, Calice v0.2.9.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>25 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>CAESAR is now accessible using <a href=
+        "http://caesar.logiqx.com/">http://caesar.logiqx.com/</a>.</p>
+
+        <p>It'll take a day or two for every DNS to catch up
+        though...</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>24 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Doh... I generated dats using the wrong binary (don't
+        ask how)!<br />
+        New dats are now online.<br />
+        If you've used the incorrect dats, move any ZIPs dated
+        today out of your ROMs directory and build them back in
+        using RomCenter/CMPro.<br />
+        Sorry for the inconvenience.</p>
+
+        <p>MAME v0.37b15 has been released.</p>
+
+        <p>Released the usual <a href="Dats/Dats.php">MAME dats</a>
+        and some new <a href="Dats/Dats.php">MAME Changes</a>
+        dats.</p>
+
+        <p>If you're a technical user and want details of how to
+        build your own MingW environment then head on over to my
+        '<a href="HowTo/WinMAME.php">How To Compile MAMEW</a>'
+        page. This guide has been written for anyone that doesn't
+        want a ready packaged version. ;)</p>
+
+        <p>Please don't bombard me with questions though, it is for
+        technically competent people only!</p>
+
+        <p>Mila76 updated his Visual PinMAME Tables dat again
+        (added Firepower II table and a ROMs dat).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>23 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Mila76 updated his Visual PinMAME Tables dat.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>20 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Uploaded dats for Calice v0.2.9</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>18 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        v1.8</a>:</p>
+
+        <p>- Fixed a minor bug in the '-m' feature (bug introduced
+        in v1.7).<br />
+        - Now compiled with MinGW (no long filename problems on NT
+        now).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>17 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p><strong>Quick note: Re-uploaded the Nebula archives to
+        include a fixed Super Puzzle Fighter 2 X
+        driver.</strong></p>
+
+        <p>CPS2Shock has released XORs for Super Puzzle Fighter 2 X
+        so I've updated the dats for:</p>
+
+        <p><a href="Dats/Dats.php">CPS-2</a>, <a href=
+        "Dats/Dats.php">Nebula v1.3</a></p>
+
+        <p>There are also some new CPS-2 dumps and ROM renames
+        included in these dats.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>16 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>A couple of new dats...</p>
+
+        <p>ACE (Another Capcom Emulator).<br />
+        The NewZealand Story (another emulator by the author of
+        ACE).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>14 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>The Visual PinMAME Tables dat is back again but now
+        owned and maintained by Mila76.</p>
+
+        <p>Seeing as AJ is now including all relevant files in his
+        PinMAME archives (readme.txt etc) the dats are a practical
+        way to maintain your table collections. Today's release
+        should bring you up to date.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>11 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>CPS2Shock has released XORs for D&amp;D: Shadow over
+        Mystara (US) so I've updated the dats for:</p>
+
+        <p><a href="Dats/Dats.php">CPS-2</a>, <a href=
+        "Dats/Dats.php">Nebula v1.3</a>, Calice v0.2.6.</p>
+
+        <p>The Visual PinMAME Tables dat has now been discontinued
+        too. This is for two reasons:</p>
+
+        <p>1) Willman has suffered a hard disk crash and lost all
+        his tables.<br />
+        2) I no longer believe dats are suitable for this purpose.
+        Just download new tables when you see them!</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>8 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>My proper e-mail address is back again so you can stop
+        using the EmuHQ one now.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>7 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released <a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff
+        v1.07</a> (minor update).</p>
+
+        <p>CPS2Shock has released XORs for D&amp;D: Tower of Doom
+        (Japan) so I've updated the dats for:</p>
+
+        <p><a href="Dats/Dats.php">CPS-2</a>, <a href=
+        "Dats/Dats.php">Nebula v1.3</a>, Calice v0.2.6.</p>
+
+        <p>The new CPS-2 dat also includes details of the new dumps
+        by Team Japump and Naz.</p>
+
+        <p>The domain issues seem to be resolved now so you can all
+        start using <a href=
+        "http://www.logiqx.com">http://www.logiqx.com</a>
+        again.<br />
+        My old e-mail address isn't sorted yet though so you wil
+        have to use the temporary one still.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>5 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Due to the EmuHQ server move my domain name
+        (www.logiqx.com) is not working. For the time being I
+        suggest you use:</p>
+
+        <p>http://216.151.127.60/logiqx/</p>
+
+        <p>To access CAESAR, you can use the menu on the left hand
+        side of this page.</p>
+
+        <p>Also, if you have sent an e-mail to me in the last 24
+        hours and not had a response then it has more than likely
+        gone down a black hole. The e-mail address that is
+        currently working is available from the usual place
+        (above).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>4 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Updated Visual PinMAME Tables dat (two tables added and
+        others updated).</p>
+
+        <p>Updated PinMAME dat (for v0.99 beta 3)</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>3 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Minor update of the MAME <a href=
+        "Dats/Dats.php">Artwork</a> dat.</p>
+
+        <p>Moved the Virtua dat into the the <a href=
+        "Dats/Dats.php">Older Emus</a> ZIP (as it is now over six
+        months old).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>2 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released dats for Calice v0.2.6 (23 CPS-2 games
+        added).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>1 May 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Rob has created dats for MAME <a href=
+        "Dats/Dats.php">samples</a> and <a href=
+        "Dats/Dats.php">artwork</a>.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>30 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released dats for Calice v0.2.3 (Super Street Fighter 2
+        Turbo added).</p>
+
+        <p>Updated Visual PinMAME Tables dat (six tables updated
+        and Laser Cue added).</p>
+
+        <p>Removed Visual Pinball dat at Wilman's request.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>28 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Updated Visual PinMAME Tables dat (several new tables
+        added and it should now cleanly scan original ZIPs).</p>
+
+        <p>There are some table updates that are not yet in the
+        dat. Look out for another update soon!</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>27 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        dats (XORs added for Powered Gear).</p>
+
+        <p>Updated dats for <a href="Dats/Dats.php">Nebula v1.2</a>
+        (added Powered Gear).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>26 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        v1.7</a>:</p>
+
+        <p>- Added handling of decocass resource in MAME dats.<br />
+        - Added load/save support for CMPro element 'clrmamepro'
+        and ROMCenter headers.<br />
+        - Added preliminary support for Calice Driver files.<br />
+        - Added load support for ClrMamePro log files (i.e. to
+        convert into a dat format).<br />
+        - Further improved the '-m' feature ('fix merging'
+        option).<br />
+        - RomCenter2 save routine strips redundant 'merge'
+        information from non-clones.<br />
+        - DJGPP compilation now uses -Wall option.<br />
+        - Can now be compiled with Microsoft Visual C++.</p>
+
+        <p>Released dats for Calice v0.2.2 (various games
+        added).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>24 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Dare has split up his MAME images dat into seperate
+        dats:</p>
+
+        <p>MAME <a href="Dats/Dats.php">Cabinets</a>, <a href=
+        "Dats/Dats.php">Flyers</a>, <a href=
+        "Dats/Dats.php">Icons</a>, <a href=
+        "Dats/Dats.php">Marquees</a>, <a href=
+        "Dats/Dats.php">Snaps</a>.</p>
+
+        <p>Thanks go to Wilman for creating the following resource
+        dats:</p>
+
+        <p>Visual Pinball Tables and Visual PinMAME Tables.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>22 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        dats (XORs added for Marvel Super Heroes Hispanic).</p>
+
+        <p>Updated dats for <a href="Dats/Dats.php">Nebula v1.2</a>
+        (added Marvel Super Heroes Hispanic).</p>
+
+        <p>Dare has created a dat for the MAME images (snaps,
+        flyers, cabinets, marquees and icons).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>20 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released dats for Calice v0.2.0 (20 games added).</p>
+
+        <p>Updated dats for Virtua (a CRC fix for Virtua Fighter
+        and changed Gunblade 00000000 CRCs to complimented
+        CRCs).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>15 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        dats (XORs added for 19XX Hispanic).</p>
+
+        <p>Updated dats for <a href="Dats/Dats.php">Nebula v1.2</a>
+        (added 19XX Hispanic).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>14 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Uploaded dats for Mimic v1.06 (Moon Cresta added).</p>
+
+        <p>Released dats for <a href="Dats/Dats.php">Nebula
+        v1.2</a>.<br />
+        Note that the 3 blue coloured games in Nebula's game list
+        are not playable yet (they need decryption files creating
+        first).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>13 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Minor site cleanup. Moved dats for Sega System 16
+        Emulator, VisualAM and WinGorf into the <a href=
+        "Dats/Dats.php">older emus archive</a>.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>12 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released dats for <a href="Dats/Dats.php">RAINE
+        v0.31</a></p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>10 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Another release of the <a href="Dats/Dats.php">Nebula
+        v1.1</a> dats.<br />
+        I have added the missing clones that can be emulated and
+        corrected the way a couple of games are loaded by
+        Nebula.<br />
+        The required Nebula driver files for these additions and
+        fixes are also included in the archive.</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>9 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        dats (XORs added for Dungeons &amp; Dragons: Shadow over
+        Mystara).</p>
+
+        <p>Uploaded dats for Mimic v1.05 (13 games added, including
+        some non-MAME games).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>8 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Released dats to work with yesterday's release of
+        <a href="Dats/Dats.php">MAME v0.37 beta 14</a>.</p>
+
+        <p><strong>Update! Please re-download the MAME dat for
+        RomCenter if you use fully merged sets.</strong></p>
+
+        <p>Also, Nebula v1.1 now has the correct CRC information
+        for all games so the dat is 100% correct (i.e. no changes
+        required).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>5 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        dats (XORs added for Street Fighter Zero - Japan
+        950605).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>4 April 2001</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p><strong>Today's dat updates:</strong></p>
+
+        <p><a href="Dats/Dats.php">Nebula v1.0a</a><br />
+        PinMAME v0.99 beta 1 (previously called WPCmame)<br />
+        Calice v0.1.5 (only the RomCenter 2 dat has changed)<br />
+        <a href="Dats/Dats.php">Impact</a> (only the ROMCenter 2
+        dat has changed)</p>
+      </td>
+    </tr>
+  </table>
