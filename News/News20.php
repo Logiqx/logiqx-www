@@ -1,0 +1,268 @@
+<h1>29 March 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p>Roman updated the MAME Samples datafile:</p>
+        <p> <a href="Dats/Dats.php">Get it now!</a></p>
+    </td>
+  </tr>
+</table>
+
+<h1>28 March 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p> MAME v0.95 and RAINE v0.42.4 have been released.</p>
+        <p> The data file updates are in the <a href="Dats/Dats.php">usual
+        place</a>.</p>
+        <p> I have also updated <a href="Tools/ROMBuild/ROMBuild.php">ROMBuild</a>
+        (v2.6).</p>
+    </td>
+  </tr>
+</table>
+
+<h1>25 March 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p>A couple of updates to my tools:</p>
+        <p> <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        v2.16</a>, and <a href="Tools/DatLib/DatLib.php">DatLib v2.4</a></p>
+    </td>
+  </tr>
+</table>
+
+<h1>7 March 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p>Fixed a bug in DatLib/DatUtil that was caused by the
+        introduction of the -X option. It probably only affected me. ;)</p>
+        <p> <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        v2.15</a>, and <a href="Tools/DatLib/DatLib.php">DatLib v2.3</a></p>
+    </td>
+  </tr>
+</table>
+
+<h1>6 March 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p> MAME v0.94 has been released.</p>
+        <p> Only required the following <a href="Dats/Dats.php">updates</a> from me:</p>
+        <p>MAME, MAME Changes, M1 (Supplements), CPS-2</p>
+        <p>I have also updated the Kawaks data file for v1.54
+        (released earlier this week).</p>
+    </td>
+  </tr>
+</table>
+
+<h1>28 February 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p> Lots of releases today... there are updates for all
+        of my tools!</p>
+        <p> Use the links at the left of this page to access
+        them. Enjoy!</p>
+    </td>
+  </tr>
+</table>
+
+<h1>27 February 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p> MAME v0.93 has been released.</p>
+        <p> It is one of those very rare releases that only
+        requires the following <a href="Dats/Dats.php">updates</a> from me:</p>
+        <p>MAME, MAME Changes</p>
+    </td>
+  </tr>
+</table>
+
+<h1>24 February 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p>I have updated my <a href="HowTo/HowTo.php">compile
+        guides</a> to make use of MSYS.</p>
+        <p>These changes should make it quicker and simpler for
+        you to to set up a MinGW environment for MAME and/or RAINE.<br />
+        They also cut down the number of potential mistakes that can be made and
+        avoid common issues like paths conflicts (e.g. different versions of
+        'make' or 'patch' elsewhere on your machine).&nbsp;</p>
+    </td>
+  </tr>
+</table>
+
+<h1>22 February 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p>It's been a whole week since I lasted updated my tools
+        so it's about time for more releases!</p>
+        <p> <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        v2.13</a>, <a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff v2.15</a> and <a href="Tools/DatLib/DatLib.php">DatLib
+        v2.1</a></p>
+        <p>I have also updated the documentation for
+        <a href="Tools/ZIPIdent/ZIPIdent.php">ZIPIdent v2.3</a>  because it
+        mentioned MAME listinfo (rather than listxml).</p>
+    </td>
+  </tr>
+</table>
+
+<h1>15 February 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p>I have made a big update to the internals of DatLib
+        and therefore released the following updates:</p>
+        <p> <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        v2.12</a>, <a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff v2.14</a>,
+        <a href="Tools/ZIPIdent/ZIPIdent.php">ZIPIdent v2.3</a> and <a href="Tools/DatLib/DatLib.php">DatLib
+        v2.0</a></p>
+    </td>
+  </tr>
+</table>
+
+<h1>13 February 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p> MAME v0.92 has been released so I have updated the following data
+        files:</p>
+        <p>MAME, MAME Changes,<br />
+        FBA (Supplements), Nebula (Supplements), Kawaks (Supplements), M1 (Supplements), Nebula
+        Jukebox (Supplements),<br />
+ CPS-2, Neo-Geo</p>
+        <p>I have also updated my <a href="HowTo/WinMAME.php">compile
+        guide</a> for the latest versions of GCC, Binutils and MinGW Runtime.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>30 January 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p> MAME v0.91 has been released, you know <a href="Dats/Dats.php">where
+        to go</a> for the following data files!</p>
+        <p>MAME, MAME Changes,<br />
+        FBA (Supplements), Nebula (Supplements), Kawaks (Supplements), M1 (Supplements), Nebula
+        Jukebox (Supplements),<br />
+ CPS-2 (Supplements), Neo-Geo</p>
+        <p>I have also updated some data files in the Older Emus
+        pack and released <a href="Tools/ROMBuild/ROMBuild.php">ROMBuild
+        v2.4</a>.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>27 January 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p>Released data files for Final Burn Alpha v0.2.95.23
+        and ZiNc v1.1.</p>
+        <p>Both are available for download from the <a href="Dats/Dats.php">data
+        files</a>   page.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>22 January 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p>Final Burn Alpha v0.2.95.22 is available and includes
+        many changes since the last release (over a year ago).</p>
+        <p>An updated data file is available for download from the <a href="Dats/Dats.php">data
+        files</a>   page.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>16 January 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        v2.11</a>, <a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff v2.13</a>
+        and <a href="Tools/DatLib/DatLib.php">DatLib v1.14</a></p>
+        <p>Updated Older Emus (20050116), Neo-Geo (20050116) and
+        Kawaks (v1.53).</p>
+        <p>All available for download from the <a href="Dats/Dats.php">data
+        files</a>   page.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>13 January 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p>Updated the CPS-2 data file for recent dumps and also
+        upload Roman's new MAME Samples data file.</p>
+        <p>As usual, get them from the <a href="Dats/Dats.php">data
+        files</a>  page.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>6 January 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p>I have added some missing SHA1 information to the
+        Neo-Geo 20050104 data file.</p>
+        <p>There is no functional change but you can get it from the <a href="Dats/Dats.php">data
+        files</a> page.</p>
+        <p>I have also release <a href="Tools/ROMBuild/ROMBuild.php">ROMBuild
+        v2.3</a></p>
+    </td>
+  </tr>
+</table>
+
+<h1>5 January 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p>I have had a bit of a tidy up and also improved a
+        couple of things at the same time:</p>
+        <p>1. A new counter in the menu bar to the left of this
+        page!</p>
+        <p>2. The dynamic pages such as past MAME data files and
+        Older Emu contents are now static.<br />
+        In other words, the server generates them in advance of you viewing
+        them. ;)<br />
+        This is to get around the intermittent problems that the server has with
+        my cgi scripts.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>4 January 2005</h1>
+<table class="news">
+  <tr>
+    <td>
+        <p><b>Another year and the first couple of data file
+        updates:</b></p>
+        <p>1. WinKawaks v1.52 and CPS-2 20050103. Get them from the <a href="Dats/Dats.php">data
+        files</a> page.</p>
+        <p>2. Also, I have updated a variety of the Older Emus data
+        files. All of them are available in one big ZIP!</p>
+        <p>3. Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        v2.10</a> and <a href="Tools/DatLib/DatLib.php">DatLib v1.13</a></p>
+        <p>4. Some of my previous updates from the past few days
+        seem to have disappeared too so I have re-uploaded them!</p>
+        <p>5. Finally, lots of updates for MAME v0.90 (all on the <a href="Dats/Dats.php">data
+        files</a>  page):</p>
+        <p>MAME, MAME Changes,<br />
+        RAINE (Supplements), Kawaks (Supplements), M1 (Supplements), Nebula
+        Jukebox (Supplements),<br />
+        MAME Artwork, MAME Samples,<br />
+        CPS-1, CPS-2 (Supplements), Neo-Geo</p>
+    </td>
+  </tr>
+</table>

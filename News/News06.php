@@ -1,0 +1,492 @@
+<h1>30 September 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Rob has updated all of the MAME resource
+      data files:</p>
+      <p><a href="Dats/Dats.php">Cabinets</a>,
+      <a href="Dats/Dats.php">Flyers</a>, <a href="Dats/Dats.php">Icons</a>
+      and <a href="Dats/Dats.php">Snaps</a>.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>28 September 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Eldio has updated his <a href="Dats/Dats.php">MAME
+      Marquee</a>   data files for packs 08, 09 and 10.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>27 September 2001</h1>
+
+<table class="news">
+  <tr>
+    <td>
+      <p>Created data files for <a href="Dats/Dats.php">Daphne
+      v0.99.3a</a></p>
+      <p>This has been sitting on my hard drive
+      for a while now so here you go,&nbsp; <a href="Tools/DatUtil/DatUtil.php">DatUtil
+      v1.13</a>:
+      <p>- Supports CPSE driver file.<br />
+      - Added 'ignore funny size' option (-z) for non-arcade dats.<br />
+      - Added 'make lower case' option (-l). Affects names and CRCs.<br />
+      - Puts &quot;s around empty CMPro header items.<br />
+      - Fixed directory/zip scanner for ROM names containing spaces.<br />
+      - Fixed zip scanner to strip uppercase '.ZIP' from game names.<br />
+      - Improved the 'funny size' warning relating to RomCenter 2 dats.
+    </td>
+  </tr>
+</table>
+
+<h1>26 September 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Found a bit of time so I've made
+      data files for <a href="Dats/Dats.php">Nebula v1.91b</a></p>
+    </td>
+  </tr>
+</table>
+
+<h1>22 September 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>To reduce the number of e-mails I may receive:<p align="center">I
+      have important things to finish at work and until they're done there will be
+      no new Nebula dat or any other updated emulator dats. Hopefully things
+      will be back to normal after this weekend but I can't be sure (the job has
+      to be done, no matter how many hours I must put in). I'm sure you can all
+      understand!
+    </td>
+  </tr>
+</table>
+
+<h1>21 September 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Updated dats for Modeler
+      v0.9.0 (corrected CRCs in Rad Rally, get ROMs from Rad Mobile).
+    </td>
+  </tr>
+</table>
+
+<h1>18 September 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Uploaded dats for Modeler
+      v0.9.0.
+    <p>Uploaded dats for ACE
+    v1.5.</p>
+      <p>Eldio has updated the <a href="Dats/Dats.php">MAME
+      Marquee</a>  dats for MAME v0.55.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>16 September 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>MAME v0.55 has been released so here are the usual <a href="Dats/Dats.php">MAME</a> 
+      dats and <a href="Dats/Dats.php">MAME Changes</a>    dats.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>9 September 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Another CPS2Shock release. Updated the
+      data files for <a href="Dats/Dats.php">CPS-2</a>.</p>
+      <p>Emulator data files updated:</p>
+      <p>
+      <a href="Dats/Dats.php">Nebula v1.9</a>, Calice
+      v0.4.6 and <a href="Dats/Dats.php">WinKawaks v1.31</a>.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>8 September 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Uploaded MAMEMD5
+      v1.2:
+      <p>No functional changes (there's no need to re-check your
+      ROMs).<br />
+      Added a summary showing the number recognised/unrecognised ROMs.<br />
+      Added an extra message about when corrupted zip data is found.
+    </td>
+  </tr>
+</table>
+
+<h1>7 September 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Eldio has updated the <a href="Dats/Dats.php">MAME
+      Marquee</a>  dats for Marquee Pack 07.</p>
+      <p>Data files for <a href="Dats/Dats.php">RAINE v0.33</a> available.<br />
+      How spooky is this... the day after I released MAMEMD5 to detect CRC
+      conflicts, one appears in an emulator (Kingdom Grand Prix in
+      this release of RAINE). It feels like I've entered Twilight Zone. ;)
+      <p>Uploaded MAMEMD5
+      v1.1 which fixes a stupid bug in the original!&nbsp;&nbsp;
+    </td>
+  </tr>
+</table>
+
+<h1>6 September 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Released data files for <a href="Dats/Dats.php">WinKawaks
+      v1.30</a>.
+      <p>Uploaded my little experiment to hunt for
+      CRC conflicts within MAME ROM sets.<br />
+      Download MAMEMD5 and take part, the
+      more people the better!&nbsp;&nbsp;
+    </td>
+  </tr>
+</table>
+
+<h1>3 September 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Released dats for
+      <a href="Dats/Dats.php">Nebula v1.9</a> and Calice
+      v0.4.6.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>1 September 2001</h1>
+
+<table class="news">
+  <tr>
+    <td>
+    <p>Rob has updated of the <a href="Dats/Dats.php">MAME
+    Samples</a> data files.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>31 August 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Eldio has updated the <a href="Dats/Dats.php">MAME
+      Marquee</a>  dats for Marquee Pack 06.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>30 August 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Released dats for
+      <a href="Dats/Dats.php">Nebula v1.8</a>.</p>
+      <p>I could have released them at 23:30 last
+      night (it's now 21:30) but I wanted to get the missing details for
+      Prehistoric Isle 2.<br />
+      As it happens no-one knows anything about the needed ROMs so I have
+      released the dats as they are.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>28 August 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Eldio has updated the <a href="Dats/Dats.php">MAME
+      Marquee</a> dats.</p>
+      <p>I have created a new data file for Calice
+      v0.4.4</p>
+      <p>I have also released  <a href="Tools/DatUtil/DatUtil.php">DatUtil
+      v1.12</a> and <a href="Tools/ROMBuild/ROMBuild.php">ROMBuild v1.9</a> (only
+      Calice stuff added).</td>
+  </tr>
+</table>
+
+<h1>27 August 2001</h1>
+
+<table class="news">
+  <tr>
+    <td>
+    <p>I've updated the <a href="HowTo/HowTo.php">compilation</a>
+      pages to use the latest version of MinGW.
+    </p>
+    <p>Also updated are the data files for <a href="Dats/Dats.php">Final
+    Burn v0.123</a> (G-Loc and a few other games were added).</p>
+    </td>
+  </tr>
+</table>
+
+<h1>26 August 2001</h1>
+
+<table class="news">
+  <tr>
+    <td>
+    <p>The MAME team have changed the Discs of
+    Tron artwork (again) so Rob has updated the <a href="Dats/Dats.php">MAME
+    Artwork</a> data files.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>25 August 2001</h1>
+
+<table class="news">
+  <tr>
+    <td>
+    <p>Update. 3</p>
+    <p>Rob has updated of the <a href="Dats/Dats.php">MAME
+    Artwork</a> data files (Discs of Tron).</p>
+    <p>Update. 2</p>
+    <p><b>Update: </b>Ooops, I forgot to use the
+    '-m' option of DatUtil when I generated MAME's RomCenter dat (otherwise it
+    doesn't work quite right). A new version (20010825a) is now available for
+    download, sorry!</p>
+    <p>Update. 1</p>
+    <p>Uploaded dats for ACE
+    v1.4.</p>
+    <p>MAME v0.54 has been released, so:</p>
+    <p>Released the usual <a href="Dats/Dats.php">MAME
+    dats</a> and <a href="Dats/Dats.php">MAME Changes</a>   dats.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>16 August 2001</h1>
+
+<table class="news">
+  <tr>
+    <td>
+
+<p>New server!<br />
+I am now being hosted by ZTNet.</p>
+
+    </td>
+  </tr>
+</table>
+
+<h1>13 August 2001</h1>
+
+<table class="news">
+  <tr>
+    <td>
+
+<p>Added Laser 0.16 and VAntAGE 1.11 to the <a href="Dats/Dats.php">older
+emus archive</a>.<br />
+Also made a variety of other changes (see included text file).</p>
+
+    </td>
+  </tr>
+</table>
+
+<h1>12 August 2001</h1>
+
+<table class="news">
+  <tr>
+    <td>
+    <p>MAME v0.53 has been released.</p>
+    <p>Released the usual <a href="Dats/Dats.php">MAME
+    dats</a> and <a href="Dats/Dats.php">MAME Changes</a>  dats.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>9 August 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Uploaded dats for ACE
+      v1.3.</td>
+  </tr>
+</table>
+
+<h1>7 August 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Another CPS2Shock release:</p>
+      <p>Updated the dats for <a href="Dats/Dats.php">CPS-2</a>,
+      <a href="Dats/Dats.php">Nebula v1.7</a>, Calice
+      v0.3.8 and <a href="Dats/Dats.php">WinKawaks v1.20</a>.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>5 August 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Created dats for Calice
+      v0.3.8</p>
+    </td>
+  </tr>
+</table>
+
+<h1>31 July 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Uploaded dats for ACE
+      v1.2b.</td>
+  </tr>
+</table>
+
+<h1>27 July 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Another CPS2Shock release:</p>
+      <p>Updated the dats for <a href="Dats/Dats.php">CPS-2</a>,
+      <a href="Dats/Dats.php">Nebula v1.6a</a>, and <a href="Dats/Dats.php">WinKawaks
+      v1.14</a>.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>24 July 2001</h1>
+<table class="news">
+  <tr>
+    <td><p>Updated the data files for
+      <a href="Dats/Dats.php">Nebula v1.6a</a>&nbsp;</p>
+    </td>
+  </tr>
+</table>
+
+<h1>22 July 2001</h1>
+<table class="news">
+  <tr>
+    <td><p>Updated the data files for
+      <a href="Dats/Dats.php">Nebula v1.6</a> and Mimic
+      v1.08</p>
+      <p>Released v1.8 of <a href="Tools/ROMBuild/ROMBuild.php">ROMBuild</a>:</p>
+      <p>Added Super Galaxians for Mimic v1.08.<br />
+      Ms Pacman was renamed in MAME v0.37b16. Changed ROMBuild to match.</td>
+  </tr>
+</table>
+
+<h1>19 July 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Added Pang 3 to <a href="Dats/Dats.php">WinKawaks</a>
+      dat (for v1.13).
+    </td>
+  </tr>
+</table>
+
+<h1>15 July 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>I've updated the <a href="HowTo/HowTo.php">compilation</a>
+      pages to include Allegro 3.9.37 (for RAINE) and also explain how to
+      compile the static version Allegro for Windows (needed by RAINE32).
+      <p>Uploaded dats for SNAME
+      v0.2.</td>
+  </tr>
+</table>
+
+<h1>14 July 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Uploaded dats for ACE
+      v1.1 (Another Capcom Emulator).</td>
+  </tr>
+</table>
+
+<h1>13 July 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Data files for <a href="Dats/Dats.php">RAINE
+      v0.32a</a> available.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>11 June 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Another CPS2Shock release:</p>
+      <p>Updated the dats for <a href="Dats/Dats.php">CPS-2</a>,
+      <a href="Dats/Dats.php">Nebula v1.5</a>, and <a href="Dats/Dats.php">WinKawaks
+      v1.10</a>.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>9 July 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Rob has updated his <a href="Dats/Dats.php">MAME
+      Samples</a> data file.</td>
+  </tr>
+</table>
+
+<h1>7 July 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Dare has updated his <a href="Dats/Dats.php">Marquees</a>
+      data file.</td>
+  </tr>
+</table>
+
+<h1>4 July 2001</h1>
+
+<table class="news">
+  <tr>
+    <td>
+    <p>29 today... into the last year of my
+    twenties!</p>
+    <p>I am looking for one or two people that can assist me in
+    posting arcade related news items for <a href="http://caesar.logiqx.com">CAESAR</a>.
+    It would be nice if I can take a break occasionally and have people keep an
+    eye out for emulator releases whilst I'm away (obviously important I don't
+    miss anything for CAESAR's sake). If you think you could help me out then
+    please drop me an e-mail and I'll explain the methods for monitoring web
+    pages etc.</p>
+    <p>I also start a new job soon so my spare time will be
+    greatly reduced and I will be looking to get a couple of helpers together
+    for the dat maintenance (hence the <a href="FAQs/DatFAQs.php">FAQ</a> I
+    wrote about them). If you have read my FAQ and understand it completely then
+    I would also like to hear from you if you wish to join up. The most common
+    dat updates are CPS-2 related (every week) so it would be helpful if I could
+    have one person responsible for each emulator and prepare dats for me so I
+    can update the site quickly and not waste too much of my precious time.
+    Please only offer your services if you're sure you are up to it
+    though!&nbsp;
+    </td>
+  </tr>
+</table>
+
+<h1>2 July 2001</h1>
+
+<table class="news">
+  <tr>
+    <td>
+    <p>MAME v0.37b16 has been released.</p>
+    <p>Released the usual <a href="Dats/Dats.php">MAME
+    dats</a> and <a href="Dats/Dats.php">MAME Changes</a>  dats.</p>
+    </td>
+  </tr>
+</table>

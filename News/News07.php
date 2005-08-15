@@ -1,0 +1,457 @@
+<h1>30 December 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Updated <a href="Dats/Dats.php">Nebula</a>
+      data files for the latest release (v1.96).</p>
+      <p>Uploaded new <a href="Dats/Dats.php">MAME Flyers</a> data files.</p>
+      <p>Updated the <a href="HowTo/WinMAME.php">How
+      to Compile</a> guides (MAME and RAINE32) to use the latest MinGW packages
+      .</p>
+    </td>
+  </tr>
+</table>
+
+<h1>25 December 2001</h1>
+
+<table class="news">
+  <tr>
+    <td>
+      <p>Merry Christmas. Updated <a href="Dats/Dats.php">CPS-2</a> data files.</p>
+      <p>Kawaks and Nebula data files won't be updated until I have access to my own computer...</p>
+    </td>
+  </tr>
+</table>
+
+<h1>22 December 2001</h1>
+
+<table class="news">
+  <tr>
+    <td>
+      <p>Going away for a week and probably will not be reading
+      e-mails or doing anything else emulation related. ;)
+    </td>
+  </tr>
+</table>
+
+<h1>21 December 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Updated data files for the new version of S11Emu.
+      <p>Finally got ADSL (after waiting on BT for
+      18 months).<br />
+      It certainly beats the 64K ISDN that I've been using. :)
+    </td>
+  </tr>
+</table>
+
+<h1>20 December 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>A couple of minor updates:
+      <p>Updated <a href="Dats/Dats.php">Nebula</a>
+      data files for the latest release (v1.95c).</p>
+      <p>Updated the <a href="Dats/Dats.php">Neo-Geo</a> 
+      data files to include the SMA CRC for mslug3.
+    </td>
+  </tr>
+</table>
+
+<h1>19 December 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Added data files for S11Emu.
+      <p>Also moved some old data files into the '<a href="Dats/Dats.php">Older
+      Emus</a>' data file.
+    </td>
+  </tr>
+</table>
+
+<h1>15 December 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Dave updated the data files for MAME <a href="Dats/Dats.php">Cabinets</a>
+      and <a href="Dats/Dats.php">Snaps</a>.
+    </td>
+  </tr>
+</table>
+
+<h1>9 December 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Uploaded data files for Modeler
+      v0.9.3a (Outrunners has changed slightly but the ROMs can be fixed by
+      CMPro).
+      <p>Updated <a href="Dats/Dats.php">Nebula</a>
+      data files for the latest release (v1.95a).</p>
+      <p>Updated the <a href="Dats/Dats.php">Neo-Geo</a> 
+      data files for the new V2 ROM of mslug3. Also updated <a href="Dats/Dats.php">NeoJukeBox</a>
+      and <a href="Dats/Dats.php">Nebula
+      Jukebox</a> to match.<br />
+      RE-UPLOADED, please re-download if you downloaded before this message!
+    </td>
+  </tr>
+</table>
+
+<h1>27 November 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Updated the <a href="Dats/Dats.php">Neo-Geo</a> 
+      data files following the latest Metal Slug 3 release.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>26 November 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Uploaded
+      Roman's <a href="Dats/Dats.php">MAME Flyers</a> data files.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>25 November 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Updated the 
+      <a href="Dats/Dats.php">NeoJukeBox</a> data files and uploaded
+      Roman's <a href="Dats/Dats.php">MAME Icons</a> data files.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>24 November 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Updated the <a href="Dats/Dats.php">Neo-Geo</a> 
+      data files following the latest KOF2000 discoveries.</p>
+      <p>Also, I will no longer provide WinKawaks
+      data files as it now generates perfect ones itself (without
+      year/manufacturer information mind).
+    </td>
+  </tr>
+</table>
+
+<h1>19 November 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Updated <a href="Dats/Dats.php">Nebula</a>
+      data files for the latest release (v1.94b).</p>
+      <p>Updated the <a href="HowTo/HowTo.php">How
+      to Compile</a> guides to use Allegro v3.9.40 (for RAINE).</p>
+    </td>
+  </tr>
+</table>
+
+<h1>18 November 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Geez, I've had a hell of a week at
+      work... only 3-4 hours sleep each day and the rest of the time working!</p>
+      <p>Anyway, I've just updated these data
+      files for you:</p>
+      <p><a href="Dats/Dats.php">RAINE</a>, Modeler, <a href="Dats/Dats.php">Kawaks</a>,
+      <a href="Dats/Dats.php">Impact,</a> <a href="Dats/Dats.php">CPS-2</a>,
+      <a href="Dats/Dats.php">Neo-Geo</a> and <a href="Dats/Dats.php">ZN</a>.</p>
+      <p>Eldio updated his data files for <a href="Dats/Dats.php">MAME
+      Marquees</a> but I haven't been able to upload them until now, sorry El.
+      </p>
+      <p>Nebula is still to be done. I did start
+      on it (almost finished too) but I don't feel like any more computers
+      today.<br />
+      I'm sure you can understand my tiredness and can wait a while. ;)&nbsp;</p>
+    </td>
+  </tr>
+</table>
+
+<h1>15 November 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>No data files for a few days. I have to
+      work.&nbsp;</p>
+    </td>
+  </tr>
+</table>
+
+<h1>12 November 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Updated <a href="Dats/Dats.php">Nebula</a>
+      data files for the latest release (KOF2000 added).</p>
+    </td>
+  </tr>
+</table>
+
+<h1>11 November 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Phew, this MAME release was a lot of
+      work! Updated my tools <a href="Tools/DatUtil/DatUtil.php">DatUtil</a>
+      and <a href="Tools/ROMBuild/ROMBuild.php">RomBuild</a>.</p>
+      <p>Also updated all these data files
+      accordingly:</p>
+      <p><a href="Dats/Dats.php">MAME</a>,
+      <a href="Dats/Dats.php">MAME Changes</a>, <a href="Dats/Dats.php">Neo-Geo</a><br />
+      <a href="Dats/Dats.php">Nebula</a>, <a href="Dats/Dats.php">Kawaks</a>,
+      Calice, ACE<br />
+      <a href="Dats/Dats.php">NeoJukeBox</a>, <a href="Dats/Dats.php">Nebula
+      Jukebox</a><br />
+      Laser, Retrocade and NeoRAGEx (<a href="Dats/Dats.php">Older
+      Emus</a>)
+      </p>
+      <p>Uploaded data files for MAME <a href="Dats/Dats.php">Artwork</a>,
+      <a href="Dats/Dats.php">Samples</a> and <a href="Dats/Dats.php">Marquees</a>.&nbsp;<br />
+      </p>
+    </td>
+  </tr>
+</table>
+
+<h1>10 November 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>I am now back from my holiday but from
+      the look of my e-mail box many people didn't read the notice below.&nbsp;</p>
+      <p>There is much work for me to do so please
+      be patient and wait until I have caught up with everything.&nbsp;</p>
+    </td>
+  </tr>
+</table>
+
+<h1>29 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Released updated <a href="Dats/Dats.php">Neo-Geo</a>
+      data files (added the new preisle2 ROMs, nitd, garou, s1945 and sengoku3).</p>
+      <p>Also updated <a href="Dats/Dats.php">NeoJukeBox</a> 
+      data files accordingly.</p>
+      <p>Note: The Neo-Geo data files are 100%
+      MAME compatible for MAME supported games but other details cannot be
+      verified before the games are fully emulated. I cannot guarantee that the
+      CRCs for un-emulated games are correct (no-one can) so don't take them as
+      gospel. Only time will tell if they are right. ;)</p>
+      <p>Talking about time, I'm off for a while
+      now. After <b>tomorrow</b> night I will be<b>
+      on holiday</b> and won't be updating data
+      files, updating CAESAR, reading e-mail or monitoring the message boards.
+      Please save e-mails until after my return (Friday 9th November) so that I
+      don't have a huge mailbox to deal with!</p>
+    </td>
+  </tr>
+</table>
+
+<h1>28 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Released updated <a href="Dats/Dats.php">Neo-Geo</a>
+      data files (added the new mslug3 ROMs).</p>
+      <p>Released updated Laser
+      data files for v0.17.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<h1>24 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Eldio has updated his <a href="Dats/Dats.php">MAME
+      Marquee</a> data files for packs 12, 13 and 14.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>21 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Released updated data files for <a href="Dats/Dats.php">RAINE
+      v0.34</a> (RAINE contains an incorrect CRC that I have now fixed).</p>
+    </td>
+  </tr>
+</table>
+
+<h1>20 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Released data files for <a href="Dats/Dats.php">Daphne
+      0.99.4</a>.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>19 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Released data files for <a href="Dats/Dats.php">RAINE
+      v0.34</a>.</p>
+      <p>I also updated the <a href="HowTo/HowTo.php"> compile pages</a> ready
+      for this release a couple of days ago. ;)</p>
+    </td>
+  </tr>
+</table>
+
+<h1>17 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>CyrussD is doing his data file
+      apprenticeship and updated&nbsp; ACE v1.6.
+      :)</p>
+    </td>
+  </tr>
+</table>
+
+<h1>15 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Released updated <a href="Dats/Dats.php">Neo-Geo</a>
+      data files (added decrypted KOF99 and good V-Liner program ROMs).</p>
+      <p><b>CPS2Shock Closed</b></p>
+      <p>Some people just don't know when they should show some
+      gratitude and as a result of all the criticisms and insults that Raz has
+      received he has now closed up shop. Raz is a decent bloke, I've known him
+      from long before the XOR releases started and insulting his wife on
+      emulation message boards was completely uncalled for. Thanks for all the
+      work you've done Raz, it's a shame that some of the people who have
+      benefited have caused it to end.
+    </td>
+  </tr>
+</table>
+
+<h1>14 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Uploaded data files for <a href="Dats/Dats.php">M1</a>
+      and GXP.</p>
+      <p>I've made a lot of changes to the U64Emu
+      data file (now contains Killer Instinct 1 and 2).</p>
+      <p>Be sure to read the included text file or
+      you will probably have a heart attack!<br />
+      You do <b>not</b> have to re-download any hard disk images.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>13 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Minor update of the '<a href="Dats/Dats.php">Older
+      Emus</a>' data file pack.
+      <p>Released updated Laser
+      data files (for yesterdays release).
+    </td>
+  </tr>
+</table>
+
+<h1>12 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>I hadn't updated the 'How To Compile'
+      pages for a few months so I have forced myself to do them!</p>
+      <p>They now use the very latest versions of
+      DJGPP, MinGW and Allegro (for MAME v0.55 and RAINE v0.33).</p>
+    </td>
+  </tr>
+</table>
+
+<h1>11 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Updated <a href="Dats/Dats.php">Nebula
+      v1.92</a> data files (changed the p1 ROM in kof99).</p>
+    </td>
+  </tr>
+</table>
+
+<h1>10 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Another CPS2Shock release and so a new release of the <a href="Dats/Dats.php">CPS-2</a> data files.</p>
+      <p>Updated <a href="Dats/Dats.php">Nebula
+      v1.92</a>, Calice v0.4.6 and <a href="Dats/Dats.php">WinKawaks
+      v1.32</a> accordingly.</p>
+      <p>Sound emulator data files needed updates
+      too (<a href="Dats/Dats.php">QPlayer</a>,
+      <a href="Dats/Dats.php">NeoJukeBox</a> and <a href="Dats/Dats.php">Nebula
+      Jukebox</a>).</p>
+    </td>
+  </tr>
+</table>
+
+<h1>9 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Uploaded data files for U64Emu2</p>
+      <p>Note that there are two versions of the
+      dat in circulation so I suggest you re-download this new one. It contains
+      the standard Killer Instinct 2 ROM names but because of this you'll have
+      to re-type all of the names into the GUI.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>3 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Lot's of new releases (twelve data files
+      in seven archives)!</p>
+      <p>Sound emus: <a href="Dats/Dats.php">QPlayer</a>,
+      <a href="Dats/Dats.php">NeoJukeBox</a> and <a href="Dats/Dats.php">Nebula
+      Jukebox</a>.</p>
+      <p>Systems (to help in creating 'shared' ROM
+      sets): <a href="Dats/Dats.php">CPS-1</a>, <a href="Dats/Dats.php">CPS-2</a>,
+      <a href="Dats/Dats.php">Neo-Geo</a> and <a href="Dats/Dats.php">ZN</a>.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>2 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Eldio has updated his <a href="Dats/Dats.php">MAME
+      Marquee</a> data files for pack 11.</p>
+    </td>
+  </tr>
+</table>
+
+<h1>1 October 2001</h1>
+<table class="news">
+  <tr>
+    <td>
+      <p>Uploaded data files for Modeler
+      v0.9.2 (added Title Fight).<p>Eric has also opened a
+      RomCenter/datfiles <a href="http://www.romcenter.com/forum/">message
+      board</a>.
+    </td>
+  </tr>
+</table>

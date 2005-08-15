@@ -1,0 +1,299 @@
+<h1>31 December 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p><strong><a href="Tools/ROMInfo/ROMInfo.php">ROMInfo
+    v1.01</a>:</strong></p>
+    <p>Added ZIP support (to scan dats for any CRCs from a specified ZIP).</p>
+    <p><strong><a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff v1.04</a>:</strong></p>
+    <p>Increased game name length from 8 to 20 (for Modeler dat).<br />
+    Prefixes Neo-Geo titles with 'Neo-Geo' (so they stand out).<br />
+    ROMs added to parent set are also reported for clone too.<br />
+    Now spots merge changes at the same time as CRC compliment.<br />
+    Added '-c' option to assist with the maintenance of CAESAR.<br />
+    Included source, do not abuse!<br />
+    Internal change: max of 32 flags instead of 16 (int-&gt;long).<br />
+    Internal change: strcpy-&gt;strncpy to avoid memory problems.</td>
+  </tr>
+</table>
+
+<h1>30 December 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p><strong>Released a new tool similar to ROMIdent:</strong></p>
+    <p><a href="Tools/ROMInfo/ROMInfo.php">ROMInfo</a> is for identifying arcade
+    ROMs and checking if they are emulated yet.<br />
+    It does this using the <a href="Dats/Dats.php">CMPro dats</a> from the <a
+    href="http://caesar.logiqx.com/">CAESAR</a> database and should cover
+    every arcade game emulated so far.</td>
+  </tr>
+</table>
+
+<h1>27 December 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p><strong>New/updated CMPro/ROMCenter dats:</strong></p>
+    <p>Laser v0.15<br />
+    MESS v0.37 beta 10<br />
+    tROMbone v0.11</td>
+  </tr>
+</table>
+
+<h1>20 December 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p><strong>CMPro/ROMCenter Dat Updates</strong></p>
+    <p>Updated kotm in the <a href="Dats/Dats.php">NeoRAGEx
+    (MAME ROMs) dat</a>.<br />
+    Updated the Virtua dats to include new information from
+    Kayamon.</td>
+  </tr>
+</table>
+
+<h1>14 December 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p><strong>CMPro/ROMCenter Dats</strong></p>
+    <p>Uploaded dats for all the emus I added to <a
+    href="http://caesar.logiqx.com/">CAESAR</a> this week:</p>
+    <p>- 14 new dats have been added to the <a
+    href="Dats/Dats.php">'older emus'</a> ZIPs.<br />
+    - Added VisualAM dat in the 'recent' section.</p>
+    <p><strong>ROMBuild</strong></p>
+    <p>Released v1.1 of <a href="Tools/ROMBuild/ROMBuild.php">ROMBuild</a>. This
+    adds support for two of the new arcade dats above.</p>
+    <p><strong>DatUtil</strong></p>
+    <p>Okay, it's Christmas so I'll give you the latest version of <a
+    href="Tools/DatUtil/DatUtil.php">DatUtil</a> - it's been accumulating features for quite a
+    while now!</p>
+    <p>- Mimic HWC support.<br />
+    - New format to list game titles ('-f titlelist').<br />
+    - Year/Manufacturer support for formats that can include them.<br />
+    - Can specify values for ROMCenter/ROMCenter2 headers.<br />
+    - Remove clones factility ('-r').<br />
+    - GWC loader now understands '.speech' tags (System16 Beta).<br />
+    - Callus95 Patch renamed 'directory' to 'parent'. Now supported.<br />
+    - Auto sorts when converting to RomCenter format or a Title List.<br />
+    - Improved sorting (ensures each parent precedes it's clones).<br />
+    - RAINE and MESS files are converted to CMPro format by default.<br />
+    - Fixed a problem with the '-g' option and RAINE gameinfo files.<br />
+    - Increased maximum ROM size to 9 characters (~1GB) for U64Emu.<br />
+    - Increased number of lines scanned when identifying CMPro dats.<br />
+    - Source: Added a makefile and included a SAVE_ONLY_FORMAT.<br />
+    - Source: Changed parameter passing (uses a structure now).<br />
+    - Preliminary: 'Verify Merging' facility (currently disabled).</td>
+  </tr>
+</table>
+
+<h1>12 December 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Added CMPro/RomCenter
+    dats for Laser v0.14</td>
+  </tr>
+</table>
+
+<h1>8 December 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>The big day has arrived and my months of hard work are now available
+    to you all!<br />
+    To celebrate this fact, you can now access this site using <strong>http://www.logiqx.com/</strong></p>
+    <p>First out of the blocks are a few new <a href="Dats/Dats.php">arcade
+    emulator dats</a> for CMPro and ROMCenter (about 140 of them!!!)</p>
+    <p>Next up is a new tool called <a href="Tools/ROMBuild/ROMBuild.php">ROMBuild</a>
+    to build those ROMs that you were never able to find.</p>
+    <p>Last and <strong>most important of all </strong>is a new emulation
+    resource... <a href="http://caesar.logiqx.com/">CAESAR</a></p>
+    <p>Enjoy!</td>
+  </tr>
+</table>
+
+<h1>6 December 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Uploaded dats for <a href="Dats/Dats.php">MAME
+    v0.37 beta 10</a></p>
+    <p>...later on</p>
+    <p>Uploaded dats dats for MESS
+    v0.37 b9</td>
+  </tr>
+</table>
+
+<h1>5 December 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Uploaded dats for Modeler and while I was at it uploaded
+    Virtua dats also...</td>
+  </tr>
+</table>
+
+<h1>23 November 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Couldn't resist modifying this episode of <a
+    href="Dilbert.jpg">Dilbert</a>...</p>
+    <p>Can you say it doesn't apply to you? :)</td>
+  </tr>
+</table>
+
+<h1>21 November 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Uploaded dats for Callus95
+    v0.42 Patch 2.4 (five games added)</td>
+  </tr>
+</table>
+
+<h1>17 November 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Added 19XX: The War Against Destiny (Japan 951207) to
+    the <a href="Dats/Dats.php">CPS-2 dats</a></p>
+    <p>Uploaded dats for the new version of 
+    WPCmame (v0.37b8 ver 5)</td>
+  </tr>
+</table>
+
+<h1>12 November 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Added Lucky Today to the dats for <font
+    size="3">Mimic v1.04</p>
+    <p>Also uploaded dats for MESS
+    v0.37 b8.</td>
+  </tr>
+</table>
+
+<h1>7 November 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Uploaded dats for <a href="Dats/Dats.php">MAME
+    v0.37 beta 9</a></p>
+    <p>Uploaded dats for the new version of 
+    WPCmame (v0.37b8 ver 4)</td>
+  </tr>
+</table>
+
+<h1>31 October 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Uploaded dats for the new version of 
+    WPCmame (v0.37b8 ver 3)</td>
+  </tr>
+</table>
+
+<h1>30 October 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Uploaded dats for the new version of 
+    WPCmame (v0.37b8 ver 2)</td>
+  </tr>
+</table>
+
+<h1>27 October 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Added CMPro/RomCenter
+    dats for Laser v0.13</td>
+  </tr>
+</table>
+
+<h1>26 October 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Updated the RomCenter dat for U64Emu
+    (the HD size was incorrect but it didn't matter too much as ROMCenter currently ignores
+    sizes).</td>
+  </tr>
+</table>
+
+<h1>25 October 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Uploaded dats for the newly released U64Emu
+    (previously known as KIAME).</p>
+    <p>Thanks to RetroLover for making a CMPro dat while I slept. ;)</td>
+  </tr>
+</table>
+
+<h1>22 October 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Uploaded dats for the newly released version of 
+    WPCmame (v0.37b8)</td>
+  </tr>
+</table>
+
+<h1>20 October 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>I'm back! I have blistered hands, aching shoulders and
+    bruises/grazes everywhere but had a fantastic time :)</p>
+    <p>Anyway, while I'm waiting for next year I've uploaded some dats for your
+    pleasure... Mimic v1.04 and <a
+    href="Dats/Dats.php">Final Burn v0.050</a></p>
+    <p>Thanks to Roman for maintaining the Final Burn dat while
+    I was away.</td>
+  </tr>
+</table>
+
+<h1>4 October 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Well, it's my last evening in the UK (for the next two weeks) 'cos
+    I'm off to Lanzarote. :)</p>
+    <p>Q: What will the ROMCenter users do if there's a new MESS or RAINE
+    release?<br />
+    A: 'mess -listinfo &gt;mess.dat' or 'raine -gameinfo &gt;raine.dat', then use DatUtil to
+    sort the dat ('-s' option) and convert to ROMCenter format.</p>
+    <p>Well, here's what I'll be up to all day (yes, it is me on the board)!</p>
+    <p><img src="News/Shredder.gif" width="128" height="112"></p>
+    <p>Better pack my stuff now...</td>
+  </tr>
+</table>
+
+<h1>3 October 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Another release of the <a href="Dats/Dats.php">CPS-2
+    dat</a>... fixed an incorrect CRC in sfa3.</p>
+    <p>Now online are the <a href="Dats/Dats.php">dats
+    for MAME v0.37 beta 8</a></p>
+    <p>Somehow Street Fighter Zero Changer got into the <a
+    href="Dats/Dats.php">CPS-2 dat</a>!<br />
+    Uploaded a new dat with this game removed (only difference to the one a few hours ago).</td>
+  </tr>
+</table>
+
+<h1>2 October 2000</h1>
+
+<table class="news">
+  <tr>
+    <td><p>Released new <a href="Dats/Dats.php">CPS-2 dat</a>
+    to go with the latest MAME driver information (six new games added).<br />
+    This also incorporates details from Naz's FAQ (v2.10)</td>
+  </tr>
+</table>
