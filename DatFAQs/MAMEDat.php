@@ -57,14 +57,14 @@
 					<p class="guide">You will need the MAME data file from the previous MAME version in order to do
 					this. When you have both data files to hand, use the MAMEDiff options -s, -m and
 					-n with -d1 to
-					create data files the three set types. I do all of this generation
+					create data files for the three set types. I do all of this generation
 					using a 'makefile' (C programmers will know what that is) but a simple .bat
 					script could be used to save effort when a new MAME release comes out.</p>
 					<h2 class="guide">Creation of 'MAME Supplements' Data Files</h2>
 					<p class="guide">You will need the MAME data file from the previous MAME version in order to do
 					this. When you have both data files to hand, use the MAMEDiff options -s, -m and
 					-n with -d2 to
-					create data files the three set types. I do all of this generation
+					create data files for the three set types. I do all of this generation
 					using a 'makefile' (C programmers will know what that is) but a simple .bat
 					script could be used to save effort when a new MAME release comes out.</p>
 		<?php
