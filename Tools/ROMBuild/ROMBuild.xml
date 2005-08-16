@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE emulator_page SYSTEM "../dtd/tools.dtd" [
+	<!ENTITY ROMBuild SYSTEM "ROMBuild.ent.xml">
+]>
+
+<emulator_page>
+	&ROMBuild;
+</emulator_page>

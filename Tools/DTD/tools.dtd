@@ -1,0 +1,32 @@
+<!ELEMENT contents_page (section+)>
+<!ELEMENT section (img, type, comment, tools+)>
+<!ELEMENT img (#PCDATA)>
+<!ATTLIST img src CDATA "" width CDATA "" height CDATA "">
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT tools (tool+)>
+
+<!ELEMENT tool_page (tool+)>
+<!ELEMENT tool (img, name, version, status, date, comment?, downloads, revisions)>
+<!ATTLIST tool id NMTOKEN #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+
+<!ELEMENT comment (#PCDATA | p | ul| u | br | a )*>
+<!ELEMENT p (#PCDATA | br | a | u)*>
+<!ELEMENT ul (li+)>
+<!ELEMENT li (#PCDATA | p | a | u | br)*>
+<!ELEMENT br (#PCDATA)>
+<!ELEMENT u (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a href CDATA "">
+
+<!ELEMENT downloads (download+)>
+<!ELEMENT download (comment?, file)>
+<!ELEMENT file (#PCDATA)>
+<!ATTLIST file name CDATA "" size NMTOKEN #REQUIRED>
+
+<!ELEMENT revisions (revision+)>
+<!ELEMENT revision (date, version, comment)>

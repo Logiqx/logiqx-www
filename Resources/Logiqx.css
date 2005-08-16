@@ -62,11 +62,6 @@ table
 	font-size: 10pt;
 }
 
-colgroup
-{
-	text-align: center;     /* Needed by IE4 as it doesn't auto center */
-}
-
 /* --- Main Page Layout (menu on left, etc) --- */
 
 table.layout td
@@ -74,6 +69,14 @@ table.layout td
 	vertical-align: top;
 	text-align: left;
 	empty-cells: show;
+}
+
+/* --- News --- */
+
+table.news
+{
+	border: inset 1pt;
+	background-color: #cceeff;
 }
 
 /* --- Links Page --- */
@@ -84,13 +87,6 @@ table.links td
 	vertical-align: bottom;
 	text-align: center;
 	empty-cells: show;
-}
-
-/* --- News --- */
-
-table.news td
-{
-	background-color: #cceeff;
 }
 
 /* --- Guides/FAQs --- */
@@ -107,12 +103,6 @@ h2.guide
 
 p.guide
 {
-	text-align: left;
-}
-
-p.code
-{
-	font-family: courier, monospace;
 	text-align: left;
 }
 

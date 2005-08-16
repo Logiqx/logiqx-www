@@ -1,0 +1,22 @@
+<tool id="AVI2CDVC">
+	<img src="AVI2CDVC.gif" width="135" height="40"/>
+	<name>AVI2CDVC</name>
+	<version>v1.01</version>
+	<status></status>
+	<date>15/05/2003</date>
+	<comment>
+		<p>When capturing DV source on a PC it is usually stamped with the FourCC 'dvsd' and it therefore gets processed with the default DV codec of your PC (usually Microsoft). I prefer to use the Canopus codec and in order to do this you must change the FourCC to 'cdvc'. AVI2CDVC will allow you to quickly change the FourCC of your AVI files and is also quite powerful in that it can change all AVIs in a given directory, recursively processing all sub directories too if you so desire.</p>
+	</comment>
+	<downloads>
+		<download>
+			<file name="avi2cdvc.zip" size="17"/>
+		</download>
+	</downloads>
+	<revisions>
+		<revision>
+			<date>15 May 2003</date>
+			<version>v1.01</version>
+			<comment>- First public release.</comment>
+		</revision>
+	</revisions>
+</tool>

@@ -30,7 +30,7 @@
 	</xsl:template>
 
 	<xsl:template match="a">
-		<a><xsl:attribute name="href"><xsl:value-of select="@href"/></xsl:attribute><xsl:value-of select="."/></a>
+		<a><xsl:attribute name="href"><xsl:value-of select="@href"/></xsl:attribute><xsl:attribute name="target"><xsl:value-of select="@target"/></xsl:attribute><xsl:value-of select="."/></a>
 	</xsl:template>
 
 	<xsl:template match="br">

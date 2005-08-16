@@ -103,7 +103,7 @@
 					  <li>Type the following command:</li>
 					</ol>
 
-					<p class="code">cvs -d /cvs/raine checkout -kb raine</p>
+					<pre>cvs -d /cvs/raine checkout -kb raine</pre>
 
 					<p class="guide">Once the CVS command has completed you should be able to type 'cd RAINE' and compile it
 					with 'make dirs' followed by 'make'.</p>
@@ -144,9 +144,9 @@
 					  <li>Type the following commands (or create a batch script that does the same thing):</li>
 					</ol>
 
-					<p class="code">set HOME=c:\<br />
-					cvs -d:pserver:anonymous@cvs.raine.sourceforge.net:/cvsroot/raine login<br />
-					cvs -z3 -d:pserver:anonymous@cvs.raine.sourceforge.net:/cvsroot/raine checkout raine</p>
+<pre>set HOME=c:\
+cvs -d:pserver:anonymous@cvs.raine.sourceforge.net:/cvsroot/raine login
+cvs -z3 -d:pserver:anonymous@cvs.raine.sourceforge.net:/cvsroot/raine checkout raine</pre>
 
 					<p class="guide">Note: You can use anything you like instead of c:\ (logging in creates a file called <em>.cvspass
 					</em>in this location so you don&quot;t have to log in again). Also, just press &lt;return&gt;
@@ -162,8 +162,8 @@
 					  <li>Type the following commands (or create a batch script that does the same thing):</li>
 					</ol>
 
-					<p class="code">set HOME=c:\<br />
-					cvs -z3 update</p>
+<pre>set HOME=c:\
+cvs -z3 update</pre>
 
 					<p class="guide">Note: The -z3 option is for file compression and reduces the download time.</p>
 

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE emulator_page SYSTEM "../dtd/tools.dtd" [
+	<!ENTITY DatLib SYSTEM "DatLib.ent.xml">
+]>
+
+<emulator_page>
+	&DatLib;
+</emulator_page>

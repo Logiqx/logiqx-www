@@ -7,7 +7,7 @@
 
 <!ELEMENT emulator_page (emulator+)>
 <!ELEMENT emulator (img, name, version, suitability, status, date, games, author?, comment?, dats, revisions)>
-<!ATTLIST emulator id NMTOKEN "">
+<!ATTLIST emulator id NMTOKEN #REQUIRED>
 
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT version (#PCDATA)>
@@ -31,7 +31,7 @@
 <!ELEMENT dat_type (#PCDATA)>
 <!ATTLIST dat_type path CDATA "">
 <!ELEMENT file (#PCDATA)>
-<!ATTLIST file name CDATA "" size NMTOKEN "">
+<!ATTLIST file name CDATA "" size NMTOKEN #REQUIRED>
 
 <!ELEMENT revisions (revision+)>
 <!ELEMENT revision (date, comment)>

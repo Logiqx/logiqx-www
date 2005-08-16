@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE emulator_page SYSTEM "../dtd/tools.dtd" [
+	<!ENTITY ImgChk SYSTEM "ImgChk.ent.xml">
+]>
+
+<emulator_page>
+	&ImgChk;
+</emulator_page>
