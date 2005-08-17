@@ -36,7 +36,7 @@
 						onmouseover="menuOn('Tools')" onmouseout="menuOff('Tools')"
 						alt="Tools" width="40" height="20" id="Tools" name="Tools" /></a></p>
 
-					<p><a href="/FAQs/DatFAQs.php"><img src="/Menu/DatFAQsOff.gif"
+					<p><a href="/DatFAQs/DatFAQs.php"><img src="/Menu/DatFAQsOff.gif"
 						onmouseover="menuOn('DatFAQs')" onmouseout="menuOff('DatFAQs')"
 						alt="DatFAQs" width="69" height="20" id="DatFAQs" name="DatFAQs" /></a></p>
 

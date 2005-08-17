@@ -49,7 +49,7 @@
 					<p class="guide">The guide will explain how to enhance MinGW on the D: drive but you can choose any
 					drive and location that you wish (so long as you think about what you are doing!).</p>
 
-					<p class="guide">First things first, you must follow the guide for <a href="WinMAME.shtml">compiling
+					<p class="guide">First things first, you must follow the guide for <a href="WinMAME.php">compiling
 					MAME</a>. You cannot continue with this guide until you have done that!</p>
 
 					<hr />
@@ -278,7 +278,7 @@
 
 					<ol class="guide">
 					  <li>Create a directory called <em>D:\RAINE</em> and extract the RAINE source into it
-					    (acquiring the source is described in <a href="Downloading.shtml">this document</a>).</li>
+					    (acquiring the source is described in <a href="Downloading.php">this document</a>).</li>
 					  <li>Open an MSYS window and change directory to <em>D:/RAINE</em> (note the
 					    forward slash since you are using MSYS).</li>
 					  <li>Type 'make' and press return. If it fails straight away, try it again!</li>

@@ -181,7 +181,7 @@ game (
 					Do not create a data file containing incorrect merging information. It is a terrible
 					sin! </p>
 
-					<p class="guide">The syntax for specify merging information is detailed in the <a href="CMPro.shtml">CMPro</a> and <a href="RomCenter.shtml">RomCenter</a>format
+					<p class="guide">The syntax for specify merging information is detailed in the <a href="CMPro.php">CMPro</a> and <a href="RomCenter.php">RomCenter</a>format
 					documents. </p>
 
 					<h2 class="guide">Special CRCs and Flags </h2>
@@ -251,7 +251,7 @@ game (
 					use DatUtil: </p>
 
 					<ul class="guide">
-					  <li><a href="../Tools/DatUtil/DatUtil.shtml">DatUtil</a> has a directory/ZIP scanner facility that can save in CMPro and
+					  <li><a href="../Tools/DatUtil/DatUtil.php">DatUtil</a> has a directory/ZIP scanner facility that can save in CMPro and
 					    RomCenter format. It will include CRC, MD5 and SHA1 information in the data
 					    file that is generated.</li>
 					</ul>
@@ -279,7 +279,7 @@ game (
 					<p class="guide">Both the CMPro and RomCenter data files have headers to specify details such as the
 					emulator name, version number, data file author, etc. Both emulators use this
 					information so you should fill it in correctly. An explanation of the various
-					fields is within the <a href="CMPro.shtml">CMPro</a> and <a href="RomCenter.shtml">RomCenter</a>
+					fields is within the <a href="CMPro.php">CMPro</a> and <a href="RomCenter.php">RomCenter</a>
 					sections of this document.</p>
 
 					<p class="guide">The header file of a CMPro data file can also specify the type ROM merging
