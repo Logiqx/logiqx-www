@@ -1,22 +1,90 @@
-<tool id="AVI2CDVC">
-	<img src="AVI2CDVC.gif" width="135" height="40"/>
-	<name>AVI2CDVC</name>
-	<version>v1.01</version>
+<tool id="ImgChk">
+	<img src="../../Resources/Logiqx.gif" width="327" height="68"/>
+	<img src="ImgChk.gif" width="93" height="40"/>
+
+	<name>ImgChk</name>
+	<version>v2.5</version>
 	<status></status>
-	<date>15/05/2003</date>
+	<date>28/02/2005</date>
+
+	<description>ImgChk verifies image collections against any format datafile</description>
+
 	<comment>
-		<p>When capturing DV source on a PC it is usually stamped with the FourCC 'dvsd' and it therefore gets processed with the default DV codec of your PC (usually Microsoft). I prefer to use the Canopus codec and in order to do this you must change the FourCC to 'cdvc'. AVI2CDVC will allow you to quickly change the FourCC of your AVI files and is also quite powerful in that it can change all AVIs in a given directory, recursively processing all sub directories too if you so desire.</p>
+		<p>ImgChk has been created for the use of people that supply images for emulator frontends (e.g. icons, snaps, cabinets, marquees, flyers). It will verify image collections against a listinfo format datafile and can report unknown images as well as missing images. Image checks for clones and resources are optional.</p>
 	</comment>
+
 	<downloads>
 		<download>
-			<file name="avi2cdvc.zip" size="17"/>
+			<file name="imgchk25.zip" size="122"/>
 		</download>
 	</downloads>
+
 	<revisions>
 		<revision>
-			<date>15 May 2003</date>
-			<version>v1.01</version>
-			<comment>- First public release.</comment>
+			<date>28 February 2005</date>
+			<version>v2.5</version>
+			<comment>
+				- Uses DatLib v2.2. <br />
+				- Added support for tab delimited files. <br />
+			</comment>
+		</revision>
+
+		<revision>
+			<date>17 August 2004</date>
+			<version>v2.4</version>
+			<comment>
+				- Uses DatLib v1.9. <br />
+				- Improved 'AllowAlternates' (now supports '-' and '_' characters). <br />
+				- Automatically ignores '.txt' files within directories and zips. <br />
+				- Added all of the CrashTest snapshots to the INI file. <br />
+			</comment>
+		</revision>
+
+		<revision>
+			<date>6 August 2004</date>
+			<version>v2.3</version>
+			<comment>
+				- Uses DatLib v1.9. <br />
+				- Added an 'AllowAlternates' option for CrashTest snapshots. <br />
+			</comment>
+		</revision>
+
+		<revision>
+			<date>22 July 2004</date>
+			<version>v2.2</version>
+			<comment>
+				- Uses DatLib v1.8. <br />
+				- Removed the need for xml2info by adding my own MAME XML parser. <br />
+				- A nice side effect is that names like "Alien3: The Gun" work now! <br />
+			</comment>
+		</revision>
+
+		<revision>
+			<date>11 July 2004</date>
+			<version>v2.1</version>
+			<comment>
+				- Updated the source to use the new functions of DatLib v1.4. <br />
+				- There is no functional change within ImgChk though. <br />
+			</comment>
+		</revision>
+
+		<revision>
+			<date>2 July 2004</date>
+			<version>v2.0</version>
+			<comment>
+				- Added directory support (previously it only supported ZIPs). <br />
+				- Modified to use DatLib - there are no game or ROM limits anymore! <br />
+				- Also supports all DatLib formats (ListInfo, XML, RomCenter, etc). <br />
+				- Note: For XML support to work, you need xml2info.exe in your path. <br />
+			</comment>
+		</revision>
+
+		<revision>
+			<date>21 January 2003</date>
+			<version>v1.00</version>
+			<comment>
+				- First private release. <br />
+			</comment>
 		</revision>
 	</revisions>
 </tool>

@@ -1,9 +1,14 @@
 <tool id="DatLib">
+	<img src="../../Resources/Logiqx.gif" width="327" height="68"/>
 	<img src="DatLib.gif" width="78" height="40"/>
+
 	<name>DatLib</name>
 	<version>v2.5</version>
 	<status></status>
 	<date>10/04/2005</date>
+
+	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
+
 	<comment>
 		<p>DatLib is now at the heart of all of my tools!</p>
 
@@ -14,11 +19,13 @@
 		<p>This package is a source only release and is only required if
 		you want to compile any of my tools.</p>
 	</comment>
+
 	<downloads>
 		<download>
 			<file name="datlib25.zip" size="80"/>
 		</download>
 	</downloads>
+
 	<revisions>
 		<revision>
 			<date>10 April 2005</date>

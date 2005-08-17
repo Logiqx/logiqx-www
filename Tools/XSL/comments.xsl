@@ -11,6 +11,12 @@
 		</p>
 	</xsl:template>
 
+	<xsl:template match="strong">
+		<strong>
+			<xsl:apply-templates/>
+		</strong>
+	</xsl:template>
+
 	<xsl:template match="u">
 		<u>
 			<xsl:apply-templates/>

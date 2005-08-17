@@ -24,6 +24,9 @@
 					include('../../Resources/Top.php');
 				</script>
 	<p>
+      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+    </p>
+	<p>
       <img src="AVI2CDVC.gif" width="135" height="40" alt="AVI2CDVC.gif"/>
     </p>
 	
@@ -38,7 +41,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="avi2cdvc.zip">AVI2CDVC</a> (17KB)</p>
+          <p>Download <a href="avi2cdvc.zip">AVI2CDVC v1.01</a> (17KB)</p>
           <p>
             <a href="avi2cdvc.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>

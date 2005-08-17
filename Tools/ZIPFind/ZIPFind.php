@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>AVI2CDVC v1.01</title>
+    <title>ZIPFind v2.2</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -24,41 +24,88 @@
 					include('../../Resources/Top.php');
 				</script>
 	<p>
-      <img src="AVI2CDVC.gif" width="135" height="40" alt="AVI2CDVC.gif"/>
+      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
     </p>
+	<p>
+      <img src="ZIPFind.gif" width="95" height="40" alt="ZIPFind.gif"/>
+    </p>
+
 	
 	
 	
 	
+
 	
-		<p>When capturing DV source on a PC it is usually stamped with the FourCC 'dvsd' and it therefore gets processed with the default DV codec of your PC (usually Microsoft). I prefer to use the Canopus codec and in order to do this you must change the FourCC to 'cdvc'. AVI2CDVC will allow you to quickly change the FourCC of your AVI files and is also quite powerful in that it can change all AVIs in a given directory, recursively processing all sub directories too if you so desire.</p>
+		<p>ZIPFind is a useful little tool that helps you to find ZIPs that you want from a friends FTP server (or whatever).</p>
 	
+
 	<table>
       <colgroup span="1" width="50%"/>
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="avi2cdvc.zip">AVI2CDVC</a> (17KB)</p>
+          <p>Download <a href="zfind22.zip">ZIPFind v2.2</a> (71KB)</p>
           <p>
-            <a href="avi2cdvc.zip">
+            <a href="zfind22.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 	</tr>
     </table>
+
 	<hr/>
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
       <strong>
-        <u>15 May 2003</u>
-      </strong> - AVI2CDVC v1.01</p>
+        <u>22 July 2004</u>
+      </strong> - ZIPFind v2.2</p>
     <p>
 			
 			
-			- First public release.
+			
+				- Uses DatLib v1.8. <br/>
+				- Removed the need for xml2info by adding my own MAME XML parser. <br/>
+				- A nice side effect is that names like "Alien3: The Gun" work now! <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>11 July 2004</u>
+      </strong> - ZIPFind v2.1</p>
+    <p>
+			
+			
+			
+				- Updated the source to use the new functions of DatLib v1.4. <br/>
+				- There is no functional change within ZIPFind though. <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>2 July 2004</u>
+      </strong> - ZIPFind v2.0</p>
+    <p>
+			
+			
+			
+				- Modified to use DatLib - there are no game or ROM limits anymore! <br/>
+				- Also supports all DatLib formats (ListInfo, XML, RomCenter, etc). <br/>
+				- Note: For XML support to work, you need xml2info.exe in your path.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>2 February 2003</u>
+      </strong> - ZIPFind v1.00</p>
+    <p>
+			
+			
+			
+				- First private release. <br/>
+			
 		</p>
 <script language="php">
 					// Standard page footer (counter)

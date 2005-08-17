@@ -7,7 +7,7 @@
 					include ('../Resources/Include.php');
 
 				</script>
-    <title>CMPro/ROMCenter Dats</title>
+    <title>Logiqx Tools</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -25,166 +25,119 @@
     <p>
       <img src="../Resources/Logiqx.gif" width="327" height="68" alt="Logiqx"/>
     </p>
-    <p>
-      <img src="Dats.gif" width="57" height="40" alt="Dats"/>
-    </p>
-    <p>I have written loads of tools!</p>
-	<hr/>
-    <p>
-      <img src="Tools.gif" width="158" height="40" alt="Tools.gif"/>
+	<p>
+      <img src="Tools.gif" width="69" height="40" alt="Tools.gif"/>
     </p>
 		
 		
 		
-			<p>My tools!</p>
+			<p>Here are all of my arcade emulation related tools!</p>
 		
 		<table class="news">
+      <colgroup span="1" width="110"/>
       <colgroup span="1"/>
       <colgroup span="1" width="110"/>
       <colgroup span="1" width="110"/>
-      <colgroup span="1" width="110"/>
       <tr>
-        <th>Tools</th>
+        <th>Tool</th>
+        <th>Description</th>
         <th/>
         <th>
-          <p>Dat Updated</p>
-        </th>
-        <th>
-          <p>Games</p>
+          <p>Last Updated</p>
         </th>
       </tr>
-			<tr>
-        <td>
-          <a href="AVI2CDVC/AVI2CDVC.php">AVI2CDVC v1.01</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>15/05/2003</p>
-        </td>
-        <td>
-          <p></p>
-        </td>
-      </tr>
+			
 
 			<tr>
         <td>
           <a href="DatLib/DatLib.php">DatLib v2.5</a>
         </td>
+        <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
           <p/>
         </td>
         <td>
           <p>10/04/2005</p>
         </td>
+      </tr>
+
+			<tr>
         <td>
-          <p></p>
+          <a href="DatUtil/DatUtil.php">DatUtil v2.17</a>
+        </td>
+        <td>Data file creation/conversion tool</td>
+        <td>
+          <p/>
+        </td>
+        <td>
+          <p>10/04/2005</p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="AVI2CDVC/AVI2CDVC.php">AVI2CDVC v1.01</a>
+          <a href="ImgChk/ImgChk.php">ImgChk v2.5</a>
         </td>
+        <td>ImgChk verifies image collections against any format datafile</td>
+        <td>
+          <p/>
+        </td>
+        <td>
+          <p>28/02/2005</p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
+          <a href="MAMEDiff/MAMEDiff.php">MAMEDiff v2.16</a>
+        </td>
+        <td>Data file comparison tool</td>
+        <td>
+          <p/>
+        </td>
+        <td>
+          <p>28/02/2005</p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
+          <a href="ROMBuild/ROMBuild.php">ROMBuild v2.6</a>
+        </td>
+        <td>ROM manipulation tool that can convert modern day ROMs to older formats</td>
         <td>
           <p/>
         </td>
         <td>
           <p>15/05/2003</p>
         </td>
-        <td>
-          <p></p>
-        </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="AVI2CDVC/AVI2CDVC.php">AVI2CDVC v1.01</a>
+          <a href="ROMInfo/ROMInfo.php">ROMInfo v2.3</a>
         </td>
+        <td>ROM identification tool (for individual ROMs)</td>
         <td>
           <p/>
         </td>
         <td>
-          <p>15/05/2003</p>
-        </td>
-        <td>
-          <p></p>
+          <p>28/02/2005</p>
         </td>
       </tr>
 
-			<tr>
-        <td>
-          <a href="AVI2CDVC/AVI2CDVC.php">AVI2CDVC v1.01</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>15/05/2003</p>
-        </td>
-        <td>
-          <p></p>
-        </td>
-      </tr>
+			
 
 			<tr>
         <td>
-          <a href="AVI2CDVC/AVI2CDVC.php">AVI2CDVC v1.01</a>
+          <a href="ZIPIdent/ZIPIdent.php">ZIPIdent v2.4</a>
         </td>
+        <td>Game identification tool (for groups of ROMs)</td>
         <td>
           <p/>
         </td>
         <td>
-          <p>15/05/2003</p>
-        </td>
-        <td>
-          <p></p>
-        </td>
-      </tr>
-
-			<tr>
-        <td>
-          <a href="AVI2CDVC/AVI2CDVC.php">AVI2CDVC v1.01</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>15/05/2003</p>
-        </td>
-        <td>
-          <p></p>
-        </td>
-      </tr>
-
-			<tr>
-        <td>
-          <a href="AVI2CDVC/AVI2CDVC.php">AVI2CDVC v1.01</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>15/05/2003</p>
-        </td>
-        <td>
-          <p></p>
-        </td>
-      </tr>
-
-			<tr>
-        <td>
-          <a href="AVI2CDVC/AVI2CDVC.php">AVI2CDVC v1.01</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>15/05/2003</p>
-        </td>
-        <td>
-          <p></p>
+          <p>28/02/2005</p>
         </td>
       </tr>
 

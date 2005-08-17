@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>AVI2CDVC v1.01</title>
+    <title>MAMEDiff v2.16</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -24,41 +24,609 @@
 					include('../../Resources/Top.php');
 				</script>
 	<p>
-      <img src="AVI2CDVC.gif" width="135" height="40" alt="AVI2CDVC.gif"/>
+      <img src="MAMEMAME.gif" width="316" height="100" alt="MAMEMAME.gif"/>
     </p>
+	<p>
+      <img src="MAMEDiff.gif" width="123" height="40" alt="MAMEDiff.gif"/>
+    </p>
+
 	
 	
 	
 	
+
 	
-		<p>When capturing DV source on a PC it is usually stamped with the FourCC 'dvsd' and it therefore gets processed with the default DV codec of your PC (usually Microsoft). I prefer to use the Canopus codec and in order to do this you must change the FourCC to 'cdvc'. AVI2CDVC will allow you to quickly change the FourCC of your AVI files and is also quite powerful in that it can change all AVIs in a given directory, recursively processing all sub directories too if you so desire.</p>
+
 	
+		<p>MAMEDiff makes it easy to identify ROM related changes in a new release of MAME (it can even find game additions that aren't mentioned in whatsnew.txt). It can spot game renames and will not regard them as one game deleted and another added. When ROMs or games are renamed (or if there is a change in the way that sets are merged), MAMEDiff will just tell you how to rebuild the affected sets (i.e. no downloading required). A must-have for any MAME fanatic! It also works for new releases of MESS, RAINE, Final Burn Alpha, Kawaks, etc.</p>
+	
+
 	<table>
       <colgroup span="1" width="50%"/>
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="avi2cdvc.zip">AVI2CDVC</a> (17KB)</p>
+          <p>Download <a href="mdiff216.zip">MAMEDiff v2.16</a> (150KB)</p>
           <p>
-            <a href="avi2cdvc.zip">
+            <a href="mdiff216.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 	</tr>
     </table>
+
 	<hr/>
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
       <strong>
-        <u>15 May 2003</u>
-      </strong> - AVI2CDVC v1.01</p>
+        <u>28 February 2005</u>
+      </strong> - MAMEDiff v2.16</p>
     <p>
 			
 			
-			- First public release.
+			
+				- Uses DatLib v2.2. <br/>
+				- Added support for tab delimited files. <br/>
+				- Fixed problem of unrecognised escape sequences looping forever! <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>22 February 2005</u>
+      </strong> - MAMEDiff v2.15</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.1. <br/>
+				- Now outputs a listing of game name comparisons (mamediff.out). <br/>
+				- Can identify listinfo files even if they only contain resources. <br/>
+				- Changed the error messages that are given when files are missing. <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>15 February 2005</u>
+      </strong> - MAMEDiff v2.14</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.0. <br/>
+				- Supports the DatLib v2.0 method of handling baddump/nodump ROMs.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>16 January 2005</u>
+      </strong> - MAMEDiff v2.13</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v1.14. <br/>
+				- Added support for Calice drivers (DatLib v1.13). <br/>
+				- Added support for the GNGEO romrc file. <br/>
+				- Increased maximum ROM size to 64MB (used when scanning folders). <br/>
+				- Fixed a memory allocation bug that could cause a hang sometimes. <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>25 November 2004</u>
+      </strong> - MAMEDiff v2.12</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v1.12. <br/>
+				- Improved the handling of CRC conflicts within the 'fix merging'. <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>26 October 2004</u>
+      </strong> - MAMEDiff v2.11</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v1.11. <br/>
+				- Added a parser for the ZiNc --list-sets. <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>18 August 2004</u>
+      </strong> - MAMEDiff v2.10</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v1.10. <br/>
+				- Better handling of 'clones of clones' when loading data files. <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>2 August 2004</u>
+      </strong> - MAMEDiff v2.9</p>
+    <p>
+			
+			
+			
+				- Fixed a bug that was introduced in v2.6 and affected -d3 option.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>30 July 2004</u>
+      </strong> - MAMEDiff v2.8</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v1.9. <br/>
+				- Added full support for disk 'merge' and 'flags' information. <br/>
+				- Made use of the DatLib FORMAT_LISTINFO_XXXXXX macros throughout.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>22 July 2004</u>
+      </strong> - MAMEDiff v2.7</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v1.8. <br/>
+				- Removed the need for xml2info by adding my own MAME XML parser. <br/>
+				- A nice side effect is that names like "Alien3: The Gun" work now!<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>21 July 2004</u>
+      </strong> - MAMEDiff v2.6</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v1.7 <br/>
+				- Added support for MESS XML. <br/>
+				- Avoids duplicate ROMs in MAMEDiff -d1/-d2/-d3 data files. <br/>
+				- Added support for disks and samples in the -d1/-d2/-d3 options. <br/>
+				Use '-o disk' or '-o sample' to specify the desired object type. <br/>
+				These options even work when comparing directories against dats! <br/>
+				- Added instructions to the readme about ROM/disk/sample auditing.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>18 July 2004</u>
+      </strong> - MAMEDiff v2.5</p>
+    <p>
+			
+			
+			
+				- Added -b option (non-separated BIOS) for use with the -dX modes. <br/>
+				- Added sample and disk support to the standard comparison modes. <br/>
+				i.e. Running MAMEDiff without options or in verbose mode (-v).<br/>
+      <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>11 July 2004</u>
+      </strong> - MAMEDiff v2.4</p>
+    <p>
+			
+			
+			
+				- Updated the source to use the new functions of DatLib v1.4. <br/>
+				- There is no functional change within MAMEDiff though.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>6 July 2004</u>
+      </strong> - MAMEDiff v2.3</p>
+    <p>
+			
+			
+			
+				- Compiled with DatLib v1.3 to fix a small issue with -d1/-d2/-d3. <br/>
+				Problem only affected data files containing games without ROMs.<br/>
+      <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>5 July 2004</u>
+      </strong> - MAMEDiff v2.2</p>
+    <p>
+			
+			
+			
+				- Fixed a bug in the standard comparison that could cause a memory fault and crash MAMEDiff. <br/>
+				- Made a couple of changes so that MAMEDiff can be used as a batch tool <br/>
+				for ROM auditing (i.e. compare a directory against a dat): <br/>
+				- When using -d1/-d2/-d3, games without ROMs are now ignored. <br/>
+				- When using -d1/-d2/-d3 and -z, no dumps that replace a real CRC <br/>
+				are not considered a change now (the previous ROM is still fine). <br/>
+				- To use for simple ROM verification, use the following syntax: <br/>
+				mamediff -d1 -r [-z] &lt;dir> &lt;dat><br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>4 July 2004</u>
+      </strong> - MAMEDiff v2.1</p>
+    <p>
+			
+			
+			
+				- When using -d1, MAMEDiff will report the options in the log file. <br/>
+				- Uses DatLib v2.1 so ZIP comparisons will be much faster now. <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>2 July 2004</u>
+      </strong> - MAMEDiff v2.0</p>
+    <p>
+			
+			
+			
+				- Modified to use DatLib so there should be no size limitations now. <br/>
+				- Basically a complete rewrite of all dat generation routines! <br/>
+				- Supports all of the DatLib formats (CMPro, XML, RomCenter, Nebula Drivers, etc.) <br/>
+				- Does not re-order games and ROMs in output data files now. <br/>
+				- Outputs SHA1, MD5, flags (baddump and nodump) and regions now. <br/>
+				- Better at spotting renames now due to a different game checksum. <br/>
+				- Better internal 'fix merging' results in more accurate output. <br/>
+				- The prefix 'Neo-Geo' is no longer added to Neo-Geo games. <br/>
+				- Supports full-width game descriptions now (i.e. >100 characters). <br/>
+				- Replaced -M, -S, -N, -t, -T options with -d1, -d2, -d3, -r, -z. <br/>
+				Read the documentation for full details of the new options. <br/>
+				- Update and supplement dats will be different, hopefully better!<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>4 March 2004</u>
+      </strong> - MAMEDiff v1.26</p>
+    <p>
+			
+			
+			
+				- Increased length of ROM names to 40 chars (for MAME v0.79).<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>31 January 2004</u>
+      </strong> - MAMEDiff v1.25</p>
+    <p>
+			
+			
+			
+				- When generating data files and log files, 'crc 00000000' is now written out as 'flags nodump'.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>24 January 2004</u>
+      </strong> - MAMEDiff v1.24</p>
+    <p>
+			
+			
+			
+				- Increased the maximum number of games from 5000 to 6000. <br/>
+				- Added support for the 0x syntax used in some data files. <br/>
+				- Fixed a small glitch in -S/-N/-M (used by 'MAME Changes') where some resources containing changes may not get output. <br/>
+				- Note: This only used to happen when the resource was not required by any of the games in the output data file. <br/>
+				- I finally got around to making a change so that new MAME resources don't need to be added to MAMEDiff ever again. <br/>
+				- I guess I was being lazy and never expected so many of them!<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>20 January 2004</u>
+      </strong> - MAMEDiff v1.23</p>
+    <p>
+			
+			
+			
+				- Internal 'fix merging' runs twice now so that it propagates to all clones. <br/>
+				- Minor adjustment to the routine that decides if a ROM lives in a resource. <br/>
+				- This fixes the handling of shootgal/sg-01-0 and lots of unrequired games in a 'split-merged changes' datafile.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>31 December 2003</u>
+      </strong> - MAMEDiff v1.22</p>
+    <p>
+			
+			
+			
+				- Added knowledge of the atpsx resource.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>28 December 2003</u>
+      </strong> - MAMEDiff v1.21</p>
+    <p>
+			
+			
+			
+				- Added knowledge of the 2 new resources added in MAME v0.78. <br/>
+				- Increased the maximum ROM size to 9 digits (for sfish2).<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>25 August 2003</u>
+      </strong> - MAMEDiff v1.20</p>
+    <p>
+			
+			
+			
+				- Added knowledge of the seven new resources added in MAME v0.72.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>20 May 2003</u>
+      </strong> - MAMEDiff v1.19</p>
+    <p>
+			
+			
+			
+				- Found a small glitch in 'fix merging' while testing the non-public v1.18.<br/>
+				<br/>
+				- MAMEDiff v1.18 (non-public):<br/>
+				<br/>
+				- Fixed memory addressing bug (triggered by the many apparent [but not really] merge related changes in MAME v0.58). <br/>
+				- Included 'fix merging' logic in the listinfo parser because MAME listinfo no longer includes merge details.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>19 May 2003</u>
+      </strong> - MAMEDiff v1.17</p>
+    <p>
+			
+			
+			
+				- Fixed so that the missing konamigx resource in MAME v0.67 doesn't cause a crash! <br/>
+				- Added support for the new 'nodump' syntax of MAME v0.68.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>7 April 2003</u>
+      </strong> - MAMEDiff v1.16</p>
+    <p>
+			
+			
+			
+				- Added knowledge of the Konami GX BIOS.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>18 January 2003</u>
+      </strong> - MAMEDiff v1.15</p>
+    <p>
+			
+			
+			
+				- Increased line buffer size to 32KB (for those people who end up with MAME history in their listinfo). <br/>
+				- Added knowledge of the Sega ST-V BIOS.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>14 November 2002</u>
+      </strong> - MAMEDiff v1.14</p>
+    <p>
+			
+			
+			
+				- Required some improvements for MAME v0.62: <br/>
+				- Added support for the SKNS resource. <br/>
+				- Improved merge handling (required by European SKNS games). <br/>
+				- Does not output empty year information to mamediff.dat. <br/>
+				- Made a minor change to improve compatibility with MSVC++.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>20 May 2002</u>
+      </strong> - MAMEDiff v1.13</p>
+    <p>
+			
+			
+			
+				- Automatically detects and handles new resource ROMs. <br/>
+				- New resource ROMs are now included in the -t/-T output.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>22 April 2002</u>
+      </strong> - MAMEDiff v1.12</p>
+    <p>
+			
+			
+			
+				- Added support for the PGM resource. <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>4 April 2002</u>
+      </strong> - MAMEDiff v1.11</p>
+    <p>
+			
+			
+			
+				- Made internal 'fix-merging' logic check CRC as well as name. <br/>
+				- Increased maximum ROM name length to 20 (for neopong). <br/>
+				- Minor fix relating to ROM names that are too long. <br/>
+				- Exits gracefully when the maximum no of games/ROMs reached.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>17 March 2002</u>
+      </strong> - MAMEDiff v1.10</p>
+    <p>
+			
+			
+			
+				- Fixed bug with last version where standard compare refused to start (affected -v as well).<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>15 March 2002</u>
+      </strong> - MAMEDiff v1.09</p>
+    <p>
+			
+			
+			
+				- Added the -t and -T options (brief description below). <br/>
+				- Made CRCs case insensitive. <br/>
+				- Minor fix to -v output.<br/>
+				<br/>
+				- Explanation of the -t and -T options <br/>
+				<br/>
+				- In addition to the -M, -S and -N options that produce CMPro dats of changed ZIPs, you can produce 'tiny' versions of the dats. This allows you to create a small supplementary dat for the new emulator that when added to the original set is 100% suitable for the new emulator (i.e. for emulators that support multiple ROM paths).<br/>
+				<br/>
+				- Not only can these options be used when upgrading from one version of an emu to another but they can even be used when trying to use ROMs of one emulator with another (e.g. trying to use MAME ROMs with RAINE, Kawaks or Nebula). When used in this way you can use a standard MAME ROM set and a small emulator specific 'supplementary' ROM set for the emulator of your choice. <br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>10 February 2002</u>
+      </strong> - MAMEDiff v1.08</p>
+    <p>
+			
+			
+			
+				- Improved the -M, -S and -N options:<br/>
+				- The dats generated now include resource information so that CMPro can separate out Standard/Neo-Geo games etc.<br/>
+				- The non-merged dat now doesn't include 'merge' information in games where the parent isn't included in the dat.<br/>
+				- Modified source to compile easily with CygWin (and FreeBSD?).<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>7 May 2001</u>
+      </strong> - MAMEDiff v1.07</p>
+    <p>
+			
+			
+			
+				- Minor fix: Removes unneeded 'romof' details with -S and -N. <br/>
+				- Now compiled with MinGW (just like the new Windows MAME). <br/>
+				- Can also be compiled with Microsoft Visual C++.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>24 March 2001</u>
+      </strong> - MAMEDiff v1.06</p>
+    <p>
+			
+			
+			
+				- Major: Added three new modes (-M, -S and -N) to show newly required ZIPs (generates a report and CMPro dat file). <br/>
+				- Minor: Now ignores RAINE and clrmamepro headers. <br/>
+				- Minor: Compiled with -Wall (fixed all warnings it uncovered).<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>11 March 2001</u>
+      </strong> - MAMEDiff v1.05</p>
+    <p>
+			
+			
+			
+				- Tiny fix to exclude resources from the game and ROM totals.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>31 December 2000</u>
+      </strong> - MAMEDiff v1.04</p>
+    <p>
+			
+			
+			
+				- Increased game name length from 8 to 20 (for Modeler dat). <br/>
+				- Prefixes Neo-Geo titles with 'Neo-Geo' (so they stand out). <br/>
+				- ROMs added to parent set are also reported for clone too. <br/>
+				- Now spots merge changes at the same time as CRC compliment. <br/>
+				- Added '-c' option to assist with the maintenance of CAESAR. <br/>
+				- Included source, do not abuse! <br/>
+				- Internal change: max of 32 flags instead of 16 (int->long). <br/>
+				- Internal change: strcpy->strncpy to avoid memory problems.<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>28 July 2000</u>
+      </strong> - MAMEDiff v1.03</p>
+    <p>
+			
+			
+			
+				- Added support for complimented CRCs. <br/>
+				- MAME v0.37 beta 5 convinced me to do it ;)<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>23 May 2000</u>
+      </strong> - MAMEDiff v1.02</p>
+    <p>
+			
+			
+			
+				- Added support for MESS (just a minor modification) <br/>
+				- Added RAINE support too (since it was so easy)<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>24 April 2000</u>
+      </strong> - MAMEDiff v1.01</p>
+    <p>
+			
+			
+			
+				- Released v1.01 of MameDiff to fix SIGSEGV crash in pure DOS. Didn't affect Windows users...<br/>
+			
+		</p>
+    <p>
+      <strong>
+        <u>15 April 2000</u>
+      </strong> - MAMEDiff v1.0</p>
+    <p>
+			
+			
+			
+				- Released version 1.0 of my new tool for MAME users. <br/>
+			
 		</p>
 <script language="php">
 					// Standard page footer (counter)

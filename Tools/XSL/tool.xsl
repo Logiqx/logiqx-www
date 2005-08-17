@@ -24,6 +24,7 @@
 	<xsl:template match="status"/>
 	<xsl:template match="date"/>
 	<xsl:template match="games"/>
+	<xsl:template match="description"/>
 
 	<xsl:template match="downloads">
 		<table>
@@ -39,7 +40,13 @@
 		<td>
 			<p>
 				<xsl:text>Download </xsl:text>
-				<a><xsl:attribute name="href"><xsl:value-of select="file/@name"/></xsl:attribute><xsl:value-of select="../../name"/></a>
+				<a><xsl:attribute name="href"><xsl:value-of select="file/@name"/></xsl:attribute>
+				<xsl:value-of select="../../name"/><xsl:text> </xsl:text>
+				<xsl:choose>
+					<xsl:when test="file/@version!=''"><xsl:value-of select="file/@version"/></xsl:when>
+					<xsl:otherwise><xsl:value-of select="../../version"/></xsl:otherwise>
+				</xsl:choose>
+				</a>
 				<xsl:text> (</xsl:text>
 				<xsl:value-of select="file/@size"/>
 				<xsl:text>KB)</xsl:text>

@@ -12,10 +12,10 @@
 ]>
 <contents_page>
 	<section>
-		<img src="Tools.gif" width="158" height="40"/>
+		<img src="Tools.gif" width="69" height="40"/>
 		<type>Tools</type>
 		<comment>
-			<p>My tools!</p>
+			<p>Here are all of my arcade emulation related tools!</p>
 		</comment>
 		<tools>
 			&AVI2CDVC;

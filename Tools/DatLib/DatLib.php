@@ -24,12 +24,19 @@
 					include('../../Resources/Top.php');
 				</script>
 	<p>
+      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+    </p>
+	<p>
       <img src="DatLib.gif" width="78" height="40" alt="DatLib.gif"/>
     </p>
+
 	
 	
 	
 	
+
+	
+
 	
 		<p>DatLib is now at the heart of all of my tools!</p>
 
@@ -40,12 +47,13 @@
 		<p>This package is a source only release and is only required if
 		you want to compile any of my tools.</p>
 	
+
 	<table>
       <colgroup span="1" width="50%"/>
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="datlib25.zip">DatLib</a> (80KB)</p>
+          <p>Download <a href="datlib25.zip">DatLib v2.5</a> (80KB)</p>
           <p>
             <a href="datlib25.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
@@ -54,6 +62,7 @@
         </td>
 	</tr>
     </table>
+
 	<hr/>
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
