@@ -184,7 +184,7 @@
 			
 				- Uses DatLib v1.8. <br/>
 				- Removed the need for xml2info by adding my own MAME XML parser. <br/>
-				- A nice side effect is that names like "Alien3: The Gun" work now!<br/>
+				- A nice side effect is that names like "Alien<sup>3</sup>: The Gun" work now!<br/>
 			
 		</p>
     <p>

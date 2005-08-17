@@ -17,7 +17,7 @@ TOOLS= \
 
 all: $(CONTENTS) $(FILELIST) $(TOOLS)
 
-$(CONTENTS): $(TOOLS) Tools.xml xsl/contents.xsl
+$(CONTENTS): $(TOOLS) Tools.xml xsl/contents.xsl xsl/comments.xsl
 	@echo Building $@...
 	$(XT) $(XTOPTS) xsl/contents.xsl Tools.xml $@
 
@@ -28,6 +28,6 @@ $(FILELIST): $(TOOLS) Tools.xml xsl/filelist.xsl
 	@FILECHK.EXE
 	@rm $(FILELIST)
 
-%.php: %.xml %.ent.xml xsl/tool.xsl
+%.php: %.xml %.ent.xml xsl/tool.xsl xsl/comments.xsl
 	@echo Building $@...
 	$(XT) $(XTOPTS) xsl/tool.xsl $< $@

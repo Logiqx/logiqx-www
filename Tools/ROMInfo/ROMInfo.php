@@ -38,7 +38,7 @@
 	
 
 	
-		<p>ROMInfo is for identifying arcade ROMs and checking if they are emulated yet.<br/> It does this using the <a href="../../Dats/Dats.php" target="">CMPro dats</a> from the <a href="http://caesar.logiqx.com/" target="">CAESAR</a> database and should cover every arcade game emulated so far.</p>
+		<p>ROMInfo is for identifying arcade ROMs and checking if they are emulated yet.<br/> It does this using the <a href="../../Dats/Dats.php">CMPro dats</a> from the <a href="http://caesar.logiqx.com/">CAESAR</a> database and should cover every arcade game emulated so far.</p>
 	
 
 	<table>
@@ -82,7 +82,7 @@
 			
 				- Uses DatLib v1.8. <br/>
 				- Removed the need for xml2info by adding my own MAME XML parser. <br/>
-				- A nice side effect is that names like "Alien3: The Gun" work now!<br/>
+				- A nice side effect is that names like "Alien<sup>3</sup>: The Gun" work now!<br/>
 			
 		</p>
     <p>

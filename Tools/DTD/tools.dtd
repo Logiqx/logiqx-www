@@ -16,11 +16,12 @@
 <!ELEMENT description (#PCDATA)>
 
 <!ELEMENT comment (#PCDATA | p | ul| u | br | a | strong)*>
-<!ELEMENT p (#PCDATA | br | a | u | strong)*>
+<!ELEMENT p (#PCDATA | br | a | u | sup | strong)*>
 <!ELEMENT ul (li+)>
 <!ELEMENT li (#PCDATA | p | a | u | strong | br)*>
 <!ELEMENT br (#PCDATA)>
 <!ELEMENT u (#PCDATA)>
+<!ELEMENT sup (#PCDATA)>
 <!ELEMENT strong (#PCDATA)>
 <!ELEMENT a (#PCDATA)>
 <!ATTLIST a href CDATA "">

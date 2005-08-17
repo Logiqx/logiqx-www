@@ -57,15 +57,15 @@ EMULATORS= \
 
 all: $(CONTENTS) $(CONTENTS_PHP) $(ROMCENTER) $(ROMCENTER_INF) $(FILELIST) $(EMULATORS)
 
-$(CONTENTS): $(EMULATORS) Dats.xml xsl/contents.xsl
+$(CONTENTS): $(EMULATORS) Dats.xml xsl/contents.xsl xsl/comments.xsl
 	@echo Building $@...
 	$(XT) $(XTOPTS) xsl/contents.xsl Dats.xml $@
 
-$(CONTENTS_PHP): $(EMULATORS) Dats.xml xsl/contents_php.xsl
+$(CONTENTS_PHP): $(EMULATORS) Dats.xml xsl/contents_php.xsl xsl/comments.xsl
 	@echo Building $@...
 	$(XT) $(XTOPTS) xsl/contents_php.xsl Dats.xml $@
 
-$(ROMCENTER): $(EMULATORS) RomCenter.xml xsl/romcenter.xsl
+$(ROMCENTER): $(EMULATORS) RomCenter.xml xsl/romcenter.xsl xsl/comments.xsl
 	@echo Building $@...
 	$(XT) $(XTOPTS) xsl/romcenter.xsl RomCenter.xml $@
 
@@ -80,10 +80,10 @@ $(FILELIST): $(EMULATORS) Dats.xml xsl/filelist.xsl
 	@FILECHK.EXE
 	@rm $(FILELIST)
 
-%.shtml: %.xml %.ent.xml xsl/emulator.xsl
+%.shtml: %.xml %.ent.xml xsl/emulator.xsl xsl/comments.xsl
 	@echo Building $@...
 	$(XT) $(XTOPTS) xsl/emulator.xsl $< $@
 
-%.php: %.xml %.ent.xml xsl/emulator_php.xsl
+%.php: %.xml %.ent.xml xsl/emulator_php.xsl xsl/comments.xsl
 	@echo Building $@...
 	$(XT) $(XTOPTS) xsl/emulator_php.xsl $< $@
