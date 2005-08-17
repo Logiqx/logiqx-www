@@ -8,6 +8,14 @@ RewriteEngine On
 
 # Do not allow external linking to images and ZIPs
 
-RewriteCond %{HTTP_REFERER} !^http://.*logiqx.com/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://.*logiqx.*/.*$ [NC]
 RewriteRule .*\.(jpg|gif|png|zip)$ - [F,NC]
 
+# Convert old style HTML addresses to the modern PHP ones
+
+#RewriteRule ^(.*).shtml$ $1.php
+
+# Allow use of shortened URLs (e.g. http://www.logiqx.com/Tools/DatUtil/)
+
+RewriteRule ^([^/]+)/$ $1/$1.php
+RewriteRule ^(.*)/([^/]+)/$ $1/$2/$2.php
