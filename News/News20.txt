@@ -5,7 +5,7 @@
       <td>
         <p>Roman updated the MAME Samples datafile:</p>
 
-        <p><a href="Dats/Dats.php">Get it now!</a></p>
+        <p><a href="Dats/">Get it now!</a></p>
       </td>
     </tr>
   </table>
@@ -18,10 +18,10 @@
         <p>MAME v0.95 and RAINE v0.42.4 have been released.</p>
 
         <p>The data file updates are in the <a href=
-        "Dats/Dats.php">usual place</a>.</p>
+        "Dats/">usual place</a>.</p>
 
         <p>I have also updated <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild</a> (v2.6).</p>
+        "Tools/ROMBuild/">ROMBuild</a> (v2.6).</p>
       </td>
     </tr>
   </table>
@@ -33,8 +33,8 @@
       <td>
         <p>A couple of updates to my tools:</p>
 
-        <p><a href="Tools/DatUtil/DatUtil.php">DatUtil v2.16</a>,
-        and <a href="Tools/DatLib/DatLib.php">DatLib v2.4</a></p>
+        <p><a href="Tools/DatUtil/">DatUtil v2.16</a>,
+        and <a href="Tools/DatLib/">DatLib v2.4</a></p>
       </td>
     </tr>
   </table>
@@ -48,8 +48,8 @@
         introduction of the -X option. It probably only affected
         me. ;)</p>
 
-        <p><a href="Tools/DatUtil/DatUtil.php">DatUtil v2.15</a>,
-        and <a href="Tools/DatLib/DatLib.php">DatLib v2.3</a></p>
+        <p><a href="Tools/DatUtil/">DatUtil v2.15</a>,
+        and <a href="Tools/DatLib/">DatLib v2.3</a></p>
       </td>
     </tr>
   </table>
@@ -62,7 +62,7 @@
         <p>MAME v0.94 has been released.</p>
 
         <p>Only required the following <a href=
-        "Dats/Dats.php">updates</a> from me:</p>
+        "Dats/">updates</a> from me:</p>
 
         <p>MAME, MAME Changes, M1 (Supplements), CPS-2</p>
 
@@ -94,7 +94,7 @@
         <p>MAME v0.93 has been released.</p>
 
         <p>It is one of those very rare releases that only requires
-        the following <a href="Dats/Dats.php">updates</a> from
+        the following <a href="Dats/">updates</a> from
         me:</p>
 
         <p>MAME, MAME Changes</p>
@@ -107,7 +107,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>I have updated my <a href="HowTo/HowTo.php">compile
+        <p>I have updated my <a href="HowTo/">compile
         guides</a> to make use of MSYS.</p>
 
         <p>These changes should make it quicker and simpler for you
@@ -128,12 +128,12 @@
         <p>It's been a whole week since I lasted updated my tools
         so it's about time for more releases!</p>
 
-        <p><a href="Tools/DatUtil/DatUtil.php">DatUtil v2.13</a>,
-        <a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff v2.15</a>
-        and <a href="Tools/DatLib/DatLib.php">DatLib v2.1</a></p>
+        <p><a href="Tools/DatUtil/">DatUtil v2.13</a>,
+        <a href="Tools/MAMEDiff/">MAMEDiff v2.15</a>
+        and <a href="Tools/DatLib/">DatLib v2.1</a></p>
 
         <p>I have also updated the documentation for <a href=
-        "Tools/ZIPIdent/ZIPIdent.php">ZIPIdent v2.3</a> because it
+        "Tools/ZIPIdent/">ZIPIdent v2.3</a> because it
         mentioned MAME listinfo (rather than listxml).</p>
       </td>
     </tr>
@@ -147,10 +147,10 @@
         <p>I have made a big update to the internals of DatLib and
         therefore released the following updates:</p>
 
-        <p><a href="Tools/DatUtil/DatUtil.php">DatUtil v2.12</a>,
-        <a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff v2.14</a>,
-        <a href="Tools/ZIPIdent/ZIPIdent.php">ZIPIdent v2.3</a> and
-        <a href="Tools/DatLib/DatLib.php">DatLib v2.0</a></p>
+        <p><a href="Tools/DatUtil/">DatUtil v2.12</a>,
+        <a href="Tools/MAMEDiff/">MAMEDiff v2.14</a>,
+        <a href="Tools/ZIPIdent/">ZIPIdent v2.3</a> and
+        <a href="Tools/DatLib/">DatLib v2.0</a></p>
       </td>
     </tr>
   </table>
@@ -170,7 +170,7 @@
         CPS-2, Neo-Geo</p>
 
         <p>I have also updated my <a href=
-        "HowTo/WinMAME.php">compile guide</a> for the latest
+        "HowTo/">compile guide</a> for the latest
         versions of GCC, Binutils and MinGW Runtime.</p>
       </td>
     </tr>
@@ -182,7 +182,7 @@
     <tr>
       <td>
         <p>MAME v0.91 has been released, you know <a href=
-        "Dats/Dats.php">where to go</a> for the following data
+        "Dats/">where to go</a> for the following data
         files!</p>
 
         <p>MAME, MAME Changes,<br />
@@ -193,7 +193,7 @@
 
         <p>I have also updated some data files in the Older Emus
         pack and released <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild v2.4</a>.</p>
+        "Tools/ROMBuild/">ROMBuild v2.4</a>.</p>
       </td>
     </tr>
   </table>
@@ -207,7 +207,7 @@
         ZiNc v1.1.</p>
 
         <p>Both are available for download from the <a href=
-        "Dats/Dats.php">data files</a> page.</p>
+        "Dats/">data files</a> page.</p>
       </td>
     </tr>
   </table>
@@ -221,7 +221,7 @@
         many changes since the last release (over a year ago).</p>
 
         <p>An updated data file is available for download from the
-        <a href="Dats/Dats.php">data files</a> page.</p>
+        <a href="Dats/">data files</a> page.</p>
       </td>
     </tr>
   </table>
@@ -231,16 +231,16 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
-        v2.11</a>, <a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff
-        v2.13</a> and <a href="Tools/DatLib/DatLib.php">DatLib
+        <p>Released <a href="Tools/DatUtil/">DatUtil
+        v2.11</a>, <a href="Tools/MAMEDiff/">MAMEDiff
+        v2.13</a> and <a href="Tools/DatLib/">DatLib
         v1.14</a></p>
 
         <p>Updated Older Emus (20050116), Neo-Geo (20050116) and
         Kawaks (v1.53).</p>
 
         <p>All available for download from the <a href=
-        "Dats/Dats.php">data files</a> page.</p>
+        "Dats/">data files</a> page.</p>
       </td>
     </tr>
   </table>
@@ -253,7 +253,7 @@
         <p>Updated the CPS-2 data file for recent dumps and also
         upload Roman's new MAME Samples data file.</p>
 
-        <p>As usual, get them from the <a href="Dats/Dats.php">data
+        <p>As usual, get them from the <a href="Dats/">data
         files</a> page.</p>
       </td>
     </tr>
@@ -268,10 +268,10 @@
         Neo-Geo 20050104 data file.</p>
 
         <p>There is no functional change but you can get it from
-        the <a href="Dats/Dats.php">data files</a> page.</p>
+        the <a href="Dats/">data files</a> page.</p>
 
         <p>I have also release <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild v2.3</a></p>
+        "Tools/ROMBuild/">ROMBuild v2.3</a></p>
       </td>
     </tr>
   </table>
@@ -306,13 +306,13 @@
         updates:</b></p>
 
         <p>1. WinKawaks v1.52 and CPS-2 20050103. Get them from the
-        <a href="Dats/Dats.php">data files</a> page.</p>
+        <a href="Dats/">data files</a> page.</p>
 
         <p>2. Also, I have updated a variety of the Older Emus data
         files. All of them are available in one big ZIP!</p>
 
-        <p>3. Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
-        v2.10</a> and <a href="Tools/DatLib/DatLib.php">DatLib
+        <p>3. Released <a href="Tools/DatUtil/">DatUtil
+        v2.10</a> and <a href="Tools/DatLib/">DatLib
         v1.13</a></p>
 
         <p>4. Some of my previous updates from the past few days
@@ -320,7 +320,7 @@
         them!</p>
 
         <p>5. Finally, lots of updates for MAME v0.90 (all on the
-        <a href="Dats/Dats.php">data files</a> page):</p>
+        <a href="Dats/">data files</a> page):</p>
 
         <p>MAME, MAME Changes,<br />
         RAINE (Supplements), Kawaks (Supplements), M1

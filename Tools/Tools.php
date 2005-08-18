@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <script language="php">
@@ -50,7 +50,7 @@
 
 			<tr>
         <td>
-          <a href="DatLib/DatLib.php">DatLib v2.5</a>
+          <a href="DatLib/">DatLib v2.5</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
@@ -63,7 +63,7 @@
 
 			<tr>
         <td>
-          <a href="DatUtil/DatUtil.php">DatUtil v2.17</a>
+          <a href="DatUtil/">DatUtil v2.17</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
@@ -76,7 +76,7 @@
 
 			<tr>
         <td>
-          <a href="ImgChk/ImgChk.php">ImgChk v2.5</a>
+          <a href="ImgChk/">ImgChk v2.5</a>
         </td>
         <td>ImgChk verifies image collections against any format datafile</td>
         <td>
@@ -89,7 +89,7 @@
 
 			<tr>
         <td>
-          <a href="MAMEDiff/MAMEDiff.php">MAMEDiff v2.16</a>
+          <a href="MAMEDiff/">MAMEDiff v2.16</a>
         </td>
         <td>Data file comparison tool</td>
         <td>
@@ -102,7 +102,7 @@
 
 			<tr>
         <td>
-          <a href="ROMBuild/ROMBuild.php">ROMBuild v2.6</a>
+          <a href="ROMBuild/">ROMBuild v2.6</a>
         </td>
         <td>ROM manipulation tool that can convert modern day ROMs to older formats</td>
         <td>
@@ -115,7 +115,7 @@
 
 			<tr>
         <td>
-          <a href="ROMInfo/ROMInfo.php">ROMInfo v2.3</a>
+          <a href="ROMInfo/">ROMInfo v2.3</a>
         </td>
         <td>ROM identification tool (for individual ROMs)</td>
         <td>
@@ -130,7 +130,7 @@
 
 			<tr>
         <td>
-          <a href="ZIPIdent/ZIPIdent.php">ZIPIdent v2.4</a>
+          <a href="ZIPIdent/">ZIPIdent v2.4</a>
         </td>
         <td>Game identification tool (for groups of ROMs)</td>
         <td>

@@ -6,7 +6,7 @@
         <p>I have released data files for Crystal System Emulator
         v1.1 and Radikal Bikers Emulator v0.9.</p>
 
-        <p>Get them from the <a href="Dats/Dats.php">data files</a>
+        <p>Get them from the <a href="Dats/">data files</a>
         page.</p>
       </td>
     </tr>
@@ -20,7 +20,7 @@
         <p>I have released data files for Kawaks v1.50 and RAINE
         v0.42.3.</p>
 
-        <p>Get them from the <a href="Dats/Dats.php">data files</a>
+        <p>Get them from the <a href="Dats/">data files</a>
         page.</p>
       </td>
     </tr>
@@ -32,7 +32,7 @@
     <tr>
       <td>
         <p>I have now completed the guide about <a href=
-        "HowTo/HowTo.php">compiling RAINE</a>.</p>
+        "HowTo/">compiling RAINE</a>.</p>
       </td>
     </tr>
   </table>
@@ -43,7 +43,7 @@
     <tr>
       <td>
         <p>I have updated my guides about <a href=
-        "HowTo/HowTo.php">compiling MAME and RAINE</a> again!</p>
+        "HowTo/">compiling MAME and RAINE</a> again!</p>
 
         <p>I have now split the guide into two parts since a lot of
         stuff is RAINE specific and not needed by MAME.</p>
@@ -122,7 +122,7 @@
     <tr>
       <td>
         <p>I have updated my guide about <a href=
-        "HowTo/HowTo.php">compiling MAME and RAINE</a>. The
+        "HowTo/">compiling MAME and RAINE</a>. The
         previous guide would successfully compile MAME but it would
         crash when starting a game (due to the suggested version of
         GCC being too old).</p>
@@ -139,9 +139,9 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released <a href="Tools/DatLib/DatLib.php">DatLib
-        v1.12</a>, <a href="Tools/DatUtil/DatUtil.php">DatUtil
-        v2.9</a> and <a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff
+        <p>Released <a href="Tools/DatLib/">DatLib
+        v1.12</a>, <a href="Tools/DatUtil/">DatUtil
+        v2.9</a> and <a href="Tools/MAMEDiff/">MAMEDiff
         v2.12</a> to fix a problem that periodically arises with
         intermediate MAME builds (e.g. MAME 0.88u7).</p>
       </td>
@@ -155,7 +155,7 @@
       <td>
         <p>Released all of the required updates for MAME v0.89.</p>
 
-        <p>Get them from the <a href="Dats/Dats.php">data files</a>
+        <p>Get them from the <a href="Dats/">data files</a>
         page.</p>
       </td>
     </tr>
@@ -168,7 +168,7 @@
       <td>
         <p>Released a data file for RAINE v0.42.0.</p>
 
-        <p>Get it from the <a href="Dats/Dats.php">data files</a>
+        <p>Get it from the <a href="Dats/">data files</a>
         page.</p>
       </td>
     </tr>
@@ -181,7 +181,7 @@
       <td>
         <p>I've released a data file for ZiNc v1.0.2.</p>
 
-        <p>Get it from the <a href="Dats/Dats.php">data files</a>
+        <p>Get it from the <a href="Dats/">data files</a>
         page.</p>
       </td>
     </tr>
@@ -197,16 +197,16 @@
         names to MAME. The data file should be 100% correct
         now.</p>
 
-        <p>Get it from the <a href="Dats/Dats.php">data files</a>
+        <p>Get it from the <a href="Dats/">data files</a>
         page.</p>
 
-        <p>Released <a href="Tools/DatLib/DatLib.php">DatLib
-        v1.11</a>, <a href="Tools/DatUtil/DatUtil.php">DatUtil
-        v2.8</a> and <a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff
+        <p>Released <a href="Tools/DatLib/">DatLib
+        v1.11</a>, <a href="Tools/DatUtil/">DatUtil
+        v2.8</a> and <a href="Tools/MAMEDiff/">MAMEDiff
         v2.11</a> which all support ZiNc --list-sets output.</p>
 
         <p>Also released <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild v2.2</a></p>
+        "Tools/ROMBuild/">ROMBuild v2.2</a></p>
       </td>
     </tr>
   </table>
@@ -218,7 +218,7 @@
       <td>
         <p>Released all of the required updates for MAME v0.88.</p>
 
-        <p>Get them from the <a href="Dats/Dats.php">data files</a>
+        <p>Get them from the <a href="Dats/">data files</a>
         page.</p>
 
         <p>I have also generated a data file for ZiNc v1.0.1 but I

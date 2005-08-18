@@ -5,10 +5,10 @@
       <td>
         <p>Rob has updated all of the MAME resource data files:</p>
 
-        <p><a href="Dats/Dats.php">Cabinets</a>, <a href=
-        "Dats/Dats.php">Flyers</a>, <a href=
-        "Dats/Dats.php">Icons</a> and <a href=
-        "Dats/Dats.php">Snaps</a>.</p>
+        <p><a href="Dats/">Cabinets</a>, <a href=
+        "Dats/">Flyers</a>, <a href=
+        "Dats/">Icons</a> and <a href=
+        "Dats/">Snaps</a>.</p>
       </td>
     </tr>
   </table>
@@ -18,7 +18,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Eldio has updated his <a href="Dats/Dats.php">MAME
+        <p>Eldio has updated his <a href="Dats/">MAME
         Marquee</a> data files for packs 08, 09 and 10.</p>
       </td>
     </tr>
@@ -29,12 +29,12 @@
   <table class="news">
     <tr>
       <td>
-        <p>Created data files for <a href="Dats/Dats.php">Daphne
+        <p>Created data files for <a href="Dats/">Daphne
         v0.99.3a</a></p>
 
         <p>This has been sitting on my hard drive for a while now
         so here you go, <a href=
-        "Tools/DatUtil/DatUtil.php">DatUtil v1.13</a>:</p>
+        "Tools/DatUtil/">DatUtil v1.13</a>:</p>
 
         <p>- Supports CPSE driver file.<br />
         - Added 'ignore funny size' option (-z) for non-arcade
@@ -58,7 +58,7 @@
     <tr>
       <td>
         <p>Found a bit of time so I've made data files for <a href=
-        "Dats/Dats.php">Nebula v1.91b</a></p>
+        "Dats/">Nebula v1.91b</a></p>
       </td>
     </tr>
   </table>
@@ -100,7 +100,7 @@
 
         <p>Uploaded dats for ACE v1.5.</p>
 
-        <p>Eldio has updated the <a href="Dats/Dats.php">MAME
+        <p>Eldio has updated the <a href="Dats/">MAME
         Marquee</a> dats for MAME v0.55.</p>
       </td>
     </tr>
@@ -112,8 +112,8 @@
     <tr>
       <td>
         <p>MAME v0.55 has been released so here are the usual
-        <a href="Dats/Dats.php">MAME</a> dats and <a href=
-        "Dats/Dats.php">MAME Changes</a> dats.</p>
+        <a href="Dats/">MAME</a> dats and <a href=
+        "Dats/">MAME Changes</a> dats.</p>
       </td>
     </tr>
   </table>
@@ -124,12 +124,12 @@
     <tr>
       <td>
         <p>Another CPS2Shock release. Updated the data files for
-        <a href="Dats/Dats.php">CPS-2</a>.</p>
+        <a href="Dats/">CPS-2</a>.</p>
 
         <p>Emulator data files updated:</p>
 
-        <p><a href="Dats/Dats.php">Nebula v1.9</a>, Calice v0.4.6
-        and <a href="Dats/Dats.php">WinKawaks v1.31</a>.</p>
+        <p><a href="Dats/">Nebula v1.9</a>, Calice v0.4.6
+        and <a href="Dats/">WinKawaks v1.31</a>.</p>
       </td>
     </tr>
   </table>
@@ -156,10 +156,10 @@
   <table class="news">
     <tr>
       <td>
-        <p>Eldio has updated the <a href="Dats/Dats.php">MAME
+        <p>Eldio has updated the <a href="Dats/">MAME
         Marquee</a> dats for Marquee Pack 07.</p>
 
-        <p>Data files for <a href="Dats/Dats.php">RAINE v0.33</a>
+        <p>Data files for <a href="Dats/">RAINE v0.33</a>
         available.<br />
         How spooky is this... the day after I released MAMEMD5 to
         detect CRC conflicts, one appears in an emulator (Kingdom
@@ -178,7 +178,7 @@
     <tr>
       <td>
         <p>Released data files for <a href=
-        "Dats/Dats.php">WinKawaks v1.30</a>.</p>
+        "Dats/">WinKawaks v1.30</a>.</p>
 
         <p>Uploaded my little experiment to hunt for CRC conflicts
         within MAME ROM sets.<br />
@@ -193,7 +193,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released dats for <a href="Dats/Dats.php">Nebula
+        <p>Released dats for <a href="Dats/">Nebula
         v1.9</a> and Calice v0.4.6.</p>
       </td>
     </tr>
@@ -204,7 +204,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Rob has updated of the <a href="Dats/Dats.php">MAME
+        <p>Rob has updated of the <a href="Dats/">MAME
         Samples</a> data files.</p>
       </td>
     </tr>
@@ -215,7 +215,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Eldio has updated the <a href="Dats/Dats.php">MAME
+        <p>Eldio has updated the <a href="Dats/">MAME
         Marquee</a> dats for Marquee Pack 06.</p>
       </td>
     </tr>
@@ -226,7 +226,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released dats for <a href="Dats/Dats.php">Nebula
+        <p>Released dats for <a href="Dats/">Nebula
         v1.8</a>.</p>
 
         <p>I could have released them at 23:30 last night (it's now
@@ -243,14 +243,14 @@
   <table class="news">
     <tr>
       <td>
-        <p>Eldio has updated the <a href="Dats/Dats.php">MAME
+        <p>Eldio has updated the <a href="Dats/">MAME
         Marquee</a> dats.</p>
 
         <p>I have created a new data file for Calice v0.4.4</p>
 
         <p>I have also released <a href=
-        "Tools/DatUtil/DatUtil.php">DatUtil v1.12</a> and <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild v1.9</a> (only
+        "Tools/DatUtil/">DatUtil v1.12</a> and <a href=
+        "Tools/ROMBuild/">ROMBuild v1.9</a> (only
         Calice stuff added).</p>
       </td>
     </tr>
@@ -262,11 +262,11 @@
     <tr>
       <td>
         <p>I've updated the <a href=
-        "HowTo/HowTo.php">compilation</a> pages to use the latest
+        "HowTo/">compilation</a> pages to use the latest
         version of MinGW.</p>
 
         <p>Also updated are the data files for <a href=
-        "Dats/Dats.php">Final Burn v0.123</a> (G-Loc and a few
+        "Dats/">Final Burn v0.123</a> (G-Loc and a few
         other games were added).</p>
       </td>
     </tr>
@@ -278,7 +278,7 @@
     <tr>
       <td>
         <p>The MAME team have changed the Discs of Tron artwork
-        (again) so Rob has updated the <a href="Dats/Dats.php">MAME
+        (again) so Rob has updated the <a href="Dats/">MAME
         Artwork</a> data files.</p>
       </td>
     </tr>
@@ -291,7 +291,7 @@
       <td>
         <p>Update. 3</p>
 
-        <p>Rob has updated of the <a href="Dats/Dats.php">MAME
+        <p>Rob has updated of the <a href="Dats/">MAME
         Artwork</a> data files (Discs of Tron).</p>
 
         <p>Update. 2</p>
@@ -307,8 +307,8 @@
 
         <p>MAME v0.54 has been released, so:</p>
 
-        <p>Released the usual <a href="Dats/Dats.php">MAME dats</a>
-        and <a href="Dats/Dats.php">MAME Changes</a> dats.</p>
+        <p>Released the usual <a href="Dats/">MAME dats</a>
+        and <a href="Dats/">MAME Changes</a> dats.</p>
       </td>
     </tr>
   </table>
@@ -330,7 +330,7 @@
     <tr>
       <td>
         <p>Added Laser 0.16 and VAntAGE 1.11 to the <a href=
-        "Dats/Dats.php">older emus archive</a>.<br />
+        "Dats/">older emus archive</a>.<br />
         Also made a variety of other changes (see included text
         file).</p>
       </td>
@@ -344,8 +344,8 @@
       <td>
         <p>MAME v0.53 has been released.</p>
 
-        <p>Released the usual <a href="Dats/Dats.php">MAME dats</a>
-        and <a href="Dats/Dats.php">MAME Changes</a> dats.</p>
+        <p>Released the usual <a href="Dats/">MAME dats</a>
+        and <a href="Dats/">MAME Changes</a> dats.</p>
       </td>
     </tr>
   </table>
@@ -367,9 +367,9 @@
       <td>
         <p>Another CPS2Shock release:</p>
 
-        <p>Updated the dats for <a href="Dats/Dats.php">CPS-2</a>,
-        <a href="Dats/Dats.php">Nebula v1.7</a>, Calice v0.3.8 and
-        <a href="Dats/Dats.php">WinKawaks v1.20</a>.</p>
+        <p>Updated the dats for <a href="Dats/">CPS-2</a>,
+        <a href="Dats/">Nebula v1.7</a>, Calice v0.3.8 and
+        <a href="Dats/">WinKawaks v1.20</a>.</p>
       </td>
     </tr>
   </table>
@@ -401,9 +401,9 @@
       <td>
         <p>Another CPS2Shock release:</p>
 
-        <p>Updated the dats for <a href="Dats/Dats.php">CPS-2</a>,
-        <a href="Dats/Dats.php">Nebula v1.6a</a>, and <a href=
-        "Dats/Dats.php">WinKawaks v1.14</a>.</p>
+        <p>Updated the dats for <a href="Dats/">CPS-2</a>,
+        <a href="Dats/">Nebula v1.6a</a>, and <a href=
+        "Dats/">WinKawaks v1.14</a>.</p>
       </td>
     </tr>
   </table>
@@ -414,7 +414,7 @@
     <tr>
       <td>
         <p>Updated the data files for <a href=
-        "Dats/Dats.php">Nebula v1.6a</a></p>
+        "Dats/">Nebula v1.6a</a></p>
       </td>
     </tr>
   </table>
@@ -425,10 +425,10 @@
     <tr>
       <td>
         <p>Updated the data files for <a href=
-        "Dats/Dats.php">Nebula v1.6</a> and Mimic v1.08</p>
+        "Dats/">Nebula v1.6</a> and Mimic v1.08</p>
 
         <p>Released v1.8 of <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild</a>:</p>
+        "Tools/ROMBuild/">ROMBuild</a>:</p>
 
         <p>Added Super Galaxians for Mimic v1.08.<br />
         Ms Pacman was renamed in MAME v0.37b16. Changed ROMBuild to
@@ -442,7 +442,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Added Pang 3 to <a href="Dats/Dats.php">WinKawaks</a>
+        <p>Added Pang 3 to <a href="Dats/">WinKawaks</a>
         dat (for v1.13).</p>
       </td>
     </tr>
@@ -454,7 +454,7 @@
     <tr>
       <td>
         <p>I've updated the <a href=
-        "HowTo/HowTo.php">compilation</a> pages to include Allegro
+        "HowTo/">compilation</a> pages to include Allegro
         3.9.37 (for RAINE) and also explain how to compile the
         static version Allegro for Windows (needed by RAINE32).</p>
 
@@ -479,7 +479,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Data files for <a href="Dats/Dats.php">RAINE v0.32a</a>
+        <p>Data files for <a href="Dats/">RAINE v0.32a</a>
         available.</p>
       </td>
     </tr>
@@ -492,9 +492,9 @@
       <td>
         <p>Another CPS2Shock release:</p>
 
-        <p>Updated the dats for <a href="Dats/Dats.php">CPS-2</a>,
-        <a href="Dats/Dats.php">Nebula v1.5</a>, and <a href=
-        "Dats/Dats.php">WinKawaks v1.10</a>.</p>
+        <p>Updated the dats for <a href="Dats/">CPS-2</a>,
+        <a href="Dats/">Nebula v1.5</a>, and <a href=
+        "Dats/">WinKawaks v1.10</a>.</p>
       </td>
     </tr>
   </table>
@@ -504,7 +504,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Rob has updated his <a href="Dats/Dats.php">MAME
+        <p>Rob has updated his <a href="Dats/">MAME
         Samples</a> data file.</p>
       </td>
     </tr>
@@ -516,7 +516,7 @@
     <tr>
       <td>
         <p>Dare has updated his <a href=
-        "Dats/Dats.php">Marquees</a> data file.</p>
+        "Dats/">Marquees</a> data file.</p>
       </td>
     </tr>
   </table>
@@ -541,7 +541,7 @@
         <p>I also start a new job soon so my spare time will be
         greatly reduced and I will be looking to get a couple of
         helpers together for the dat maintenance (hence the
-        <a href="FAQs/DatFAQs.php">FAQ</a> I wrote about them). If
+        <a href="DatFAQs/">FAQ</a> I wrote about them). If
         you have read my FAQ and understand it completely then I
         would also like to hear from you if you wish to join up.
         The most common dat updates are CPS-2 related (every week)
@@ -561,8 +561,8 @@
       <td>
         <p>MAME v0.37b16 has been released.</p>
 
-        <p>Released the usual <a href="Dats/Dats.php">MAME dats</a>
-        and <a href="Dats/Dats.php">MAME Changes</a> dats.</p>
+        <p>Released the usual <a href="Dats/">MAME dats</a>
+        and <a href="Dats/">MAME Changes</a> dats.</p>
       </td>
     </tr>
   </table>

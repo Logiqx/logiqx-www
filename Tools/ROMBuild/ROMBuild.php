@@ -1,5 +1,5 @@
 
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <script language="php">
@@ -43,13 +43,11 @@
 		</p>
 
 		<p>
-			When used in conjunction with the <a href="../../Dats/Dats.php">CMPro/ROMCenter dats</a> that I have produced you can generate ROM sets for practically any emulator from MAME ROMs. In fact, the only ROMs you can't generate from MAME sets are where MAME doesn't support the game.
+			When used in conjunction with the <a href="../../Dats/Dats.shtml">CMPro/ROMCenter dats</a> that I have produced you can generate ROM sets for practically any emulator from MAME ROMs. In fact, the only ROMs you can't generate from MAME sets are where MAME doesn't support the game.
 		</p>
 	
 
 	<table>
-      <colgroup span="1" width="50%"/>
-      <colgroup span="1" width="50%"/>
       <tr>
 		<td>
           <p>Download <a href="rbuild26.zip">ROMBuild v2.6</a> (105KB)</p>
@@ -68,8 +66,6 @@
 		</p>
 	
 	<table>
-      <colgroup span="1" width="50%"/>
-      <colgroup span="1" width="50%"/>
       <tr>
 		<td>
           <p>Download <a href="rbmame80.zip">ROMBuild [MAME v0.80 special]</a> (52KB)</p>

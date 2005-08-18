@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<?php
@@ -30,7 +30,7 @@
 
 					<p>I don't have a public e-mail address anymore!</p>
 
-					<p>Please use the <a href="/forum/">forum</a> instead.</p>
+					<p>Please use the <a href="../forum/">forum</a> instead.</p>
 		<?php
 			// Standard page footer (counter)
 

@@ -3,13 +3,13 @@
   <table class="news">
     <tr>
       <td>
-        <p><strong><a href="Tools/ROMInfo/ROMInfo.php">ROMInfo
+        <p><strong><a href="Tools/ROMInfo/">ROMInfo
         v1.01</a>:</strong></p>
 
         <p>Added ZIP support (to scan dats for any CRCs from a
         specified ZIP).</p>
 
-        <p><strong><a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff
+        <p><strong><a href="Tools/MAMEDiff/">MAMEDiff
         v1.04</a>:</strong></p>
 
         <p>Increased game name length from 8 to 20 (for Modeler
@@ -39,10 +39,10 @@
         <p><strong>Released a new tool similar to
         ROMIdent:</strong></p>
 
-        <p><a href="Tools/ROMInfo/ROMInfo.php">ROMInfo</a> is for
+        <p><a href="Tools/ROMInfo/">ROMInfo</a> is for
         identifying arcade ROMs and checking if they are emulated
         yet.<br />
-        It does this using the <a href="Dats/Dats.php">CMPro
+        It does this using the <a href="Dats/">CMPro
         dats</a> from the <a href=
         "http://caesar.logiqx.com/">CAESAR</a> database and should
         cover every arcade game emulated so far.</p>
@@ -71,7 +71,7 @@
       <td>
         <p><strong>CMPro/ROMCenter Dat Updates</strong></p>
 
-        <p>Updated kotm in the <a href="Dats/Dats.php">NeoRAGEx
+        <p>Updated kotm in the <a href="Dats/">NeoRAGEx
         (MAME ROMs) dat</a>.<br />
         Updated the Virtua dats to include new information from
         Kayamon.</p>
@@ -90,19 +90,19 @@
         "http://caesar.logiqx.com/">CAESAR</a> this week:</p>
 
         <p>- 14 new dats have been added to the <a href=
-        "Dats/Dats.php">'older emus'</a> ZIPs.<br />
+        "Dats/">'older emus'</a> ZIPs.<br />
         - Added VisualAM dat in the 'recent' section.</p>
 
         <p><strong>ROMBuild</strong></p>
 
         <p>Released v1.1 of <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild</a>. This adds
+        "Tools/ROMBuild/">ROMBuild</a>. This adds
         support for two of the new arcade dats above.</p>
 
         <p><strong>DatUtil</strong></p>
 
         <p>Okay, it's Christmas so I'll give you the latest version
-        of <a href="Tools/DatUtil/DatUtil.php">DatUtil</a> - it's
+        of <a href="Tools/DatUtil/">DatUtil</a> - it's
         been accumulating features for quite a while now!</p>
 
         <p>- Mimic HWC support.<br />
@@ -158,11 +158,11 @@
         <strong>http://www.logiqx.com/</strong></p>
 
         <p>First out of the blocks are a few new <a href=
-        "Dats/Dats.php">arcade emulator dats</a> for CMPro and
+        "Dats/">arcade emulator dats</a> for CMPro and
         ROMCenter (about 140 of them!!!)</p>
 
         <p>Next up is a new tool called <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild</a> to build those
+        "Tools/ROMBuild/">ROMBuild</a> to build those
         ROMs that you were never able to find.</p>
 
         <p>Last and <strong>most important of all</strong> is a new
@@ -179,7 +179,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">MAME v0.37
+        <p>Uploaded dats for <a href="Dats/">MAME v0.37
         beta 10</a></p>
 
         <p>...later on</p>
@@ -230,7 +230,7 @@
     <tr>
       <td>
         <p>Added 19XX: The War Against Destiny (Japan 951207) to
-        the <a href="Dats/Dats.php">CPS-2 dats</a></p>
+        the <a href="Dats/">CPS-2 dats</a></p>
 
         <p>Uploaded dats for the new version of WPCmame (v0.37b8
         ver 5)</p>
@@ -255,7 +255,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">MAME v0.37
+        <p>Uploaded dats for <a href="Dats/">MAME v0.37
         beta 9</a></p>
 
         <p>Uploaded dats for the new version of WPCmame (v0.37b8
@@ -343,7 +343,7 @@
 
         <p>Anyway, while I'm waiting for next year I've uploaded
         some dats for your pleasure... Mimic v1.04 and <a href=
-        "Dats/Dats.php">Final Burn v0.050</a></p>
+        "Dats/">Final Burn v0.050</a></p>
 
         <p>Thanks to Roman for maintaining the Final Burn dat while
         I was away.</p>
@@ -381,14 +381,14 @@
   <table class="news">
     <tr>
       <td>
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... fixed an incorrect CRC in sfa3.</p>
 
-        <p>Now online are the <a href="Dats/Dats.php">dats for MAME
+        <p>Now online are the <a href="Dats/">dats for MAME
         v0.37 beta 8</a></p>
 
         <p>Somehow Street Fighter Zero Changer got into the
-        <a href="Dats/Dats.php">CPS-2 dat</a>!<br />
+        <a href="Dats/">CPS-2 dat</a>!<br />
         Uploaded a new dat with this game removed (only difference
         to the one a few hours ago).</p>
       </td>
@@ -400,7 +400,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released new <a href="Dats/Dats.php">CPS-2 dat</a> to go
+        <p>Released new <a href="Dats/">CPS-2 dat</a> to go
         with the latest MAME driver information (six new games
         added).<br />
         This also incorporates details from Naz's FAQ (v2.10)</p>

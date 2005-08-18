@@ -3,13 +3,13 @@
   <table class="news">
     <tr>
       <td>
-        <p>Updated <a href="Dats/Dats.php">Nebula</a> data files
+        <p>Updated <a href="Dats/">Nebula</a> data files
         for the latest release (v1.96).</p>
 
-        <p>Uploaded new <a href="Dats/Dats.php">MAME Flyers</a>
+        <p>Uploaded new <a href="Dats/">MAME Flyers</a>
         data files.</p>
 
-        <p>Updated the <a href="HowTo/WinMAME.php">How to
+        <p>Updated the <a href="HowTo/">How to
         Compile</a> guides (MAME and RAINE32) to use the latest
         MinGW packages .</p>
       </td>
@@ -22,7 +22,7 @@
     <tr>
       <td>
         <p>Merry Christmas. Updated <a href=
-        "Dats/Dats.php">CPS-2</a> data files.</p>
+        "Dats/">CPS-2</a> data files.</p>
 
         <p>Kawaks and Nebula data files won't be updated until I
         have access to my own computer...</p>
@@ -63,10 +63,10 @@
       <td>
         <p>A couple of minor updates:</p>
 
-        <p>Updated <a href="Dats/Dats.php">Nebula</a> data files
+        <p>Updated <a href="Dats/">Nebula</a> data files
         for the latest release (v1.95c).</p>
 
-        <p>Updated the <a href="Dats/Dats.php">Neo-Geo</a> data
+        <p>Updated the <a href="Dats/">Neo-Geo</a> data
         files to include the SMA CRC for mslug3.</p>
       </td>
     </tr>
@@ -80,7 +80,7 @@
         <p>Added data files for S11Emu.</p>
 
         <p>Also moved some old data files into the '<a href=
-        "Dats/Dats.php">Older Emus</a>' data file.</p>
+        "Dats/">Older Emus</a>' data file.</p>
       </td>
     </tr>
   </table>
@@ -91,8 +91,8 @@
     <tr>
       <td>
         <p>Dave updated the data files for MAME <a href=
-        "Dats/Dats.php">Cabinets</a> and <a href=
-        "Dats/Dats.php">Snaps</a>.</p>
+        "Dats/">Cabinets</a> and <a href=
+        "Dats/">Snaps</a>.</p>
       </td>
     </tr>
   </table>
@@ -105,13 +105,13 @@
         <p>Uploaded data files for Modeler v0.9.3a (Outrunners has
         changed slightly but the ROMs can be fixed by CMPro).</p>
 
-        <p>Updated <a href="Dats/Dats.php">Nebula</a> data files
+        <p>Updated <a href="Dats/">Nebula</a> data files
         for the latest release (v1.95a).</p>
 
-        <p>Updated the <a href="Dats/Dats.php">Neo-Geo</a> data
+        <p>Updated the <a href="Dats/">Neo-Geo</a> data
         files for the new V2 ROM of mslug3. Also updated <a href=
-        "Dats/Dats.php">NeoJukeBox</a> and <a href=
-        "Dats/Dats.php">Nebula Jukebox</a> to match.<br />
+        "Dats/">NeoJukeBox</a> and <a href=
+        "Dats/">Nebula Jukebox</a> to match.<br />
         RE-UPLOADED, please re-download if you downloaded before
         this message!</p>
       </td>
@@ -123,7 +123,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Updated the <a href="Dats/Dats.php">Neo-Geo</a> data
+        <p>Updated the <a href="Dats/">Neo-Geo</a> data
         files following the latest Metal Slug 3 release.</p>
       </td>
     </tr>
@@ -134,7 +134,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded Roman's <a href="Dats/Dats.php">MAME Flyers</a>
+        <p>Uploaded Roman's <a href="Dats/">MAME Flyers</a>
         data files.</p>
       </td>
     </tr>
@@ -145,8 +145,8 @@
   <table class="news">
     <tr>
       <td>
-        <p>Updated the <a href="Dats/Dats.php">NeoJukeBox</a> data
-        files and uploaded Roman's <a href="Dats/Dats.php">MAME
+        <p>Updated the <a href="Dats/">NeoJukeBox</a> data
+        files and uploaded Roman's <a href="Dats/">MAME
         Icons</a> data files.</p>
       </td>
     </tr>
@@ -157,7 +157,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Updated the <a href="Dats/Dats.php">Neo-Geo</a> data
+        <p>Updated the <a href="Dats/">Neo-Geo</a> data
         files following the latest KOF2000 discoveries.</p>
 
         <p>Also, I will no longer provide WinKawaks data files as
@@ -172,10 +172,10 @@
   <table class="news">
     <tr>
       <td>
-        <p>Updated <a href="Dats/Dats.php">Nebula</a> data files
+        <p>Updated <a href="Dats/">Nebula</a> data files
         for the latest release (v1.94b).</p>
 
-        <p>Updated the <a href="HowTo/HowTo.php">How to Compile</a>
+        <p>Updated the <a href="HowTo/">How to Compile</a>
         guides to use Allegro v3.9.40 (for RAINE).</p>
       </td>
     </tr>
@@ -191,15 +191,15 @@
 
         <p>Anyway, I've just updated these data files for you:</p>
 
-        <p><a href="Dats/Dats.php">RAINE</a>, Modeler, <a href=
-        "Dats/Dats.php">Kawaks</a>, <a href=
-        "Dats/Dats.php">Impact,</a> <a href=
-        "Dats/Dats.php">CPS-2</a>, <a href=
-        "Dats/Dats.php">Neo-Geo</a> and <a href=
-        "Dats/Dats.php">ZN</a>.</p>
+        <p><a href="Dats/">RAINE</a>, Modeler, <a href=
+        "Dats/">Kawaks</a>, <a href=
+        "Dats/">Impact,</a> <a href=
+        "Dats/">CPS-2</a>, <a href=
+        "Dats/">Neo-Geo</a> and <a href=
+        "Dats/">ZN</a>.</p>
 
         <p>Eldio updated his data files for <a href=
-        "Dats/Dats.php">MAME Marquees</a> but I haven't been able
+        "Dats/">MAME Marquees</a> but I haven't been able
         to upload them until now, sorry El.</p>
 
         <p>Nebula is still to be done. I did start on it (almost
@@ -226,7 +226,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Updated <a href="Dats/Dats.php">Nebula</a> data files
+        <p>Updated <a href="Dats/">Nebula</a> data files
         for the latest release (KOF2000 added).</p>
       </td>
     </tr>
@@ -238,25 +238,25 @@
     <tr>
       <td>
         <p>Phew, this MAME release was a lot of work! Updated my
-        tools <a href="Tools/DatUtil/DatUtil.php">DatUtil</a> and
-        <a href="Tools/ROMBuild/ROMBuild.php">RomBuild</a>.</p>
+        tools <a href="Tools/DatUtil/">DatUtil</a> and
+        <a href="Tools/ROMBuild/">RomBuild</a>.</p>
 
         <p>Also updated all these data files accordingly:</p>
 
-        <p><a href="Dats/Dats.php">MAME</a>, <a href=
-        "Dats/Dats.php">MAME Changes</a>, <a href=
-        "Dats/Dats.php">Neo-Geo</a><br />
-        <a href="Dats/Dats.php">Nebula</a>, <a href=
-        "Dats/Dats.php">Kawaks</a>, Calice, ACE<br />
-        <a href="Dats/Dats.php">NeoJukeBox</a>, <a href=
-        "Dats/Dats.php">Nebula Jukebox</a><br />
+        <p><a href="Dats/">MAME</a>, <a href=
+        "Dats/">MAME Changes</a>, <a href=
+        "Dats/">Neo-Geo</a><br />
+        <a href="Dats/">Nebula</a>, <a href=
+        "Dats/">Kawaks</a>, Calice, ACE<br />
+        <a href="Dats/">NeoJukeBox</a>, <a href=
+        "Dats/">Nebula Jukebox</a><br />
         Laser, Retrocade and NeoRAGEx (<a href=
-        "Dats/Dats.php">Older Emus</a>)</p>
+        "Dats/">Older Emus</a>)</p>
 
         <p>Uploaded data files for MAME <a href=
-        "Dats/Dats.php">Artwork</a>, <a href=
-        "Dats/Dats.php">Samples</a> and <a href=
-        "Dats/Dats.php">Marquees</a>.<br /></p>
+        "Dats/">Artwork</a>, <a href=
+        "Dats/">Samples</a> and <a href=
+        "Dats/">Marquees</a>.<br /></p>
       </td>
     </tr>
   </table>
@@ -280,11 +280,11 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released updated <a href="Dats/Dats.php">Neo-Geo</a>
+        <p>Released updated <a href="Dats/">Neo-Geo</a>
         data files (added the new preisle2 ROMs, nitd, garou, s1945
         and sengoku3).</p>
 
-        <p>Also updated <a href="Dats/Dats.php">NeoJukeBox</a> data
+        <p>Also updated <a href="Dats/">NeoJukeBox</a> data
         files accordingly.</p>
 
         <p>Note: The Neo-Geo data files are 100% MAME compatible
@@ -309,7 +309,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released updated <a href="Dats/Dats.php">Neo-Geo</a>
+        <p>Released updated <a href="Dats/">Neo-Geo</a>
         data files (added the new mslug3 ROMs).</p>
 
         <p>Released updated Laser data files for v0.17.</p>
@@ -322,7 +322,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Eldio has updated his <a href="Dats/Dats.php">MAME
+        <p>Eldio has updated his <a href="Dats/">MAME
         Marquee</a> data files for packs 12, 13 and 14.</p>
       </td>
     </tr>
@@ -334,7 +334,7 @@
     <tr>
       <td>
         <p>Released updated data files for <a href=
-        "Dats/Dats.php">RAINE v0.34</a> (RAINE contains an
+        "Dats/">RAINE v0.34</a> (RAINE contains an
         incorrect CRC that I have now fixed).</p>
       </td>
     </tr>
@@ -345,7 +345,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released data files for <a href="Dats/Dats.php">Daphne
+        <p>Released data files for <a href="Dats/">Daphne
         0.99.4</a>.</p>
       </td>
     </tr>
@@ -356,10 +356,10 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released data files for <a href="Dats/Dats.php">RAINE
+        <p>Released data files for <a href="Dats/">RAINE
         v0.34</a>.</p>
 
-        <p>I also updated the <a href="HowTo/HowTo.php">compile
+        <p>I also updated the <a href="HowTo/">compile
         pages</a> ready for this release a couple of days ago.
         ;)</p>
       </td>
@@ -382,7 +382,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released updated <a href="Dats/Dats.php">Neo-Geo</a>
+        <p>Released updated <a href="Dats/">Neo-Geo</a>
         data files (added decrypted KOF99 and good V-Liner program
         ROMs).</p>
 
@@ -405,7 +405,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded data files for <a href="Dats/Dats.php">M1</a>
+        <p>Uploaded data files for <a href="Dats/">M1</a>
         and GXP.</p>
 
         <p>I've made a lot of changes to the U64Emu data file (now
@@ -424,7 +424,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Minor update of the '<a href="Dats/Dats.php">Older
+        <p>Minor update of the '<a href="Dats/">Older
         Emus</a>' data file pack.</p>
 
         <p>Released updated Laser data files (for yesterdays
@@ -452,7 +452,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Updated <a href="Dats/Dats.php">Nebula v1.92</a> data
+        <p>Updated <a href="Dats/">Nebula v1.92</a> data
         files (changed the p1 ROM in kof99).</p>
       </td>
     </tr>
@@ -464,16 +464,16 @@
     <tr>
       <td>
         <p>Another CPS2Shock release and so a new release of the
-        <a href="Dats/Dats.php">CPS-2</a> data files.</p>
+        <a href="Dats/">CPS-2</a> data files.</p>
 
-        <p>Updated <a href="Dats/Dats.php">Nebula v1.92</a>, Calice
-        v0.4.6 and <a href="Dats/Dats.php">WinKawaks v1.32</a>
+        <p>Updated <a href="Dats/">Nebula v1.92</a>, Calice
+        v0.4.6 and <a href="Dats/">WinKawaks v1.32</a>
         accordingly.</p>
 
         <p>Sound emulator data files needed updates too (<a href=
-        "Dats/Dats.php">QPlayer</a>, <a href=
-        "Dats/Dats.php">NeoJukeBox</a> and <a href=
-        "Dats/Dats.php">Nebula Jukebox</a>).</p>
+        "Dats/">QPlayer</a>, <a href=
+        "Dats/">NeoJukeBox</a> and <a href=
+        "Dats/">Nebula Jukebox</a>).</p>
       </td>
     </tr>
   </table>
@@ -502,15 +502,15 @@
         <p>Lot's of new releases (twelve data files in seven
         archives)!</p>
 
-        <p>Sound emus: <a href="Dats/Dats.php">QPlayer</a>,
-        <a href="Dats/Dats.php">NeoJukeBox</a> and <a href=
-        "Dats/Dats.php">Nebula Jukebox</a>.</p>
+        <p>Sound emus: <a href="Dats/">QPlayer</a>,
+        <a href="Dats/">NeoJukeBox</a> and <a href=
+        "Dats/">Nebula Jukebox</a>.</p>
 
         <p>Systems (to help in creating 'shared' ROM sets):
-        <a href="Dats/Dats.php">CPS-1</a>, <a href=
-        "Dats/Dats.php">CPS-2</a>, <a href=
-        "Dats/Dats.php">Neo-Geo</a> and <a href=
-        "Dats/Dats.php">ZN</a>.</p>
+        <a href="Dats/">CPS-1</a>, <a href=
+        "Dats/">CPS-2</a>, <a href=
+        "Dats/">Neo-Geo</a> and <a href=
+        "Dats/">ZN</a>.</p>
       </td>
     </tr>
   </table>
@@ -520,7 +520,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Eldio has updated his <a href="Dats/Dats.php">MAME
+        <p>Eldio has updated his <a href="Dats/">MAME
         Marquee</a> data files for pack 11.</p>
       </td>
     </tr>

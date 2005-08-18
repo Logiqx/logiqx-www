@@ -40,7 +40,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Updated the dat for <a href="Dats/Dats.php">Final Burn
+        <p>Updated the dat for <a href="Dats/">Final Burn
         v0.011</a></p>
       </td>
     </tr>
@@ -53,7 +53,7 @@
       <td>
         <p>Woohoo! MAME now includes my sample fix. :)</p>
 
-        <p>Now online are the <a href="Dats/Dats.php">dats for MAME
+        <p>Now online are the <a href="Dats/">dats for MAME
         v0.37 beta 7</a></p>
       </td>
     </tr>
@@ -64,7 +64,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Updated the dat for <a href="Dats/Dats.php">Final Burn
+        <p>Updated the dat for <a href="Dats/">Final Burn
         v0.008</a></p>
       </td>
     </tr>
@@ -76,11 +76,11 @@
     <tr>
       <td>
         <p>Hopefully the last change to the <a href=
-        "Dats/Dats.php">CPS-2 dat</a> for a while (one CRC
+        "Dats/">CPS-2 dat</a> for a while (one CRC
         fixed).</p>
 
         <p>Two new dats also: Sega System C2 (by Haze) and <a href=
-        "Dats/Dats.php">Final Burn v0.007</a></p>
+        "Dats/">Final Burn v0.007</a></p>
       </td>
     </tr>
   </table>
@@ -91,7 +91,7 @@
     <tr>
       <td>
         <p>Okay, people are getting confused so here's the latest
-        <a href="Dats/Dats.php">CPS-2 dat</a> release.</p>
+        <a href="Dats/">CPS-2 dat</a> release.</p>
 
         <p>This update adds information that will be in the next
         FAQ and also matches the latest MAME submission.</p>
@@ -128,7 +128,7 @@
       <td>
         <p>Added CMPro/RomCenter dats for MESS v0.37b6</p>
 
-        <p>Updated dats for <a href="Dats/Dats.php">Capcom System
+        <p>Updated dats for <a href="Dats/">Capcom System
         2</a> (fixed some mistypes from the FAQ).</p>
       </td>
     </tr>
@@ -139,7 +139,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Added <a href="Dats/Dats.php">dats for MAME v0.37 beta
+        <p>Added <a href="Dats/">dats for MAME v0.37 beta
         6</a> (CMPro dat includes correct sample information)</p>
       </td>
     </tr>
@@ -152,7 +152,7 @@
       <td>
         <p>Added RomCenter dat for Raine 20000819</p>
 
-        <p>Updated dats for <a href="Dats/Dats.php">Capcom System
+        <p>Updated dats for <a href="Dats/">Capcom System
         2</a> so that they match Naz's new FAQ (v2.00m).</p>
 
         <p>Another MAME release... MAME v0.37 beta 6</p>
@@ -213,12 +213,12 @@
     </tr>
   </table>
 
-  <h1>28 July 2000</h1>%s:Dats/[\--z]*/[\--z]*.php:Dats/Dats.php:g
+  <h1>28 July 2000</h1>%s:Dats/[\--z]*/[\--z]*:Dats/Dats.php:g
 
   <table class="news">
     <tr>
       <td>
-        <p><a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff v1.03</a>
+        <p><a href="Tools/MAMEDiff/">MAMEDiff v1.03</a>
         - Added support for complemented CRCs.</p>
 
         <p>The verbose report for MAME v0.37 beta 5 now looks much
@@ -243,7 +243,7 @@
 
         <p>Anyway, added sample fix for MAME v0.37 beta 5</p>
 
-        <p>Added <a href="Dats/Dats.php">dats for MAME v0.37 beta
+        <p>Added <a href="Dats/">dats for MAME v0.37 beta
         5</a> (CMPro dat includes correct sample information)</p>
       </td>
     </tr>

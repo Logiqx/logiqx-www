@@ -1,6 +1,6 @@
 
 	
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <script language="php">
@@ -24,6 +24,9 @@
 
 					include('../../Resources/Top.php');
 				</script>
+    <p>
+      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+    </p>
 	<p>
       <img src="MAME.gif" width="80" height="40" alt="MAME.gif"/>
     </p>
@@ -36,7 +39,7 @@
 	
 	
 		<p>Both dats were generated using DatUtil.</p>
-		<p>Previous dats are <a href="MAMEBetaHistory.shtml">still online</a>.</p>
+		<p>Previous dats are <a href="MAMEBetaHistory.php">still online</a>.</p>
 	
 	<table>
       <colgroup span="1" width="50%"/>

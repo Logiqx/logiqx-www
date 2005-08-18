@@ -1,5 +1,5 @@
 
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <script language="php">
@@ -37,8 +37,6 @@
 		<p>When capturing DV source on a PC it is usually stamped with the FourCC 'dvsd' and it therefore gets processed with the default DV codec of your PC (usually Microsoft). I prefer to use the Canopus codec and in order to do this you must change the FourCC to 'cdvc'. AVI2CDVC will allow you to quickly change the FourCC of your AVI files and is also quite powerful in that it can change all AVIs in a given directory, recursively processing all sub directories too if you so desire.</p>
 	
 	<table>
-      <colgroup span="1" width="50%"/>
-      <colgroup span="1" width="50%"/>
       <tr>
 		<td>
           <p>Download <a href="avi2cdvc.zip">AVI2CDVC v1.01</a> (17KB)</p>

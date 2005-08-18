@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-	<xsl:output method="xml" indent="yes" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
-        doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" omit-xml-declaration="yes"/>
+	<xsl:output method="xml" indent="yes" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
+        doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" omit-xml-declaration="yes"/>
 
 	<xsl:include href="comments.xsl"/>
 
@@ -40,7 +40,7 @@
 		<xsl:if test="@hidden = ''">
 			<tr>
 				<td>
-					<a><xsl:attribute name="href"><xsl:value-of select="@id"/>/<xsl:value-of select="@id"/>.php</xsl:attribute><xsl:value-of select="name"/><xsl:text> </xsl:text><xsl:value-of select="version"/></a>
+					<a><xsl:attribute name="href"><xsl:value-of select="@id"/>/</xsl:attribute><xsl:value-of select="name"/><xsl:text> </xsl:text><xsl:value-of select="version"/></a>
 				</td>
 				<td>
 					<xsl:value-of select="description"/>

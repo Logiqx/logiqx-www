@@ -6,8 +6,8 @@
         <p>I'm about to leave go on holiday for a week and a bit,
         so here is a little something for while I am gone:</p>
 
-        <p>Data files for the new <a href="Dats/Dats.php">Nebula
-        v2.19d</a>, <a href="Dats/Dats.php">WinKawaks v1.45</a></p>
+        <p>Data files for the new <a href="Dats/">Nebula
+        v2.19d</a>, <a href="Dats/">WinKawaks v1.45</a></p>
       </td>
     </tr>
   </table>
@@ -17,10 +17,10 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded data files for <a href="Dats/Dats.php">Viva
+        <p>Uploaded data files for <a href="Dats/">Viva
         Nonno v22.0.3</a>.</p>
 
-        <p>Uploaded the latest <a href="Dats/Dats.php">MAME
+        <p>Uploaded the latest <a href="Dats/">MAME
         Icons</a> data file (for MAME v0.61).</p>
       </td>
     </tr>
@@ -31,7 +31,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded the latest <a href="Dats/Dats.php">MAME
+        <p>Uploaded the latest <a href="Dats/">MAME
         Marquees</a> data file (for MAME v0.61).</p>
       </td>
     </tr>
@@ -52,8 +52,8 @@
 
         <p>In the meantime, here are a couple of releases:<br />
         <br />
-        <a href="Dats/Dats.php">CPS-2</a>, <a href=
-        "Dats/Dats.php">MAME</a> and <a href="Dats/Dats.php">MAME
+        <a href="Dats/">CPS-2</a>, <a href=
+        "Dats/">MAME</a> and <a href="Dats/Dats.php">MAME
         Changes</a> (v0.61).</p>
       </td>
     </tr>

@@ -13,9 +13,11 @@ RewriteRule .*\.(jpg|gif|png|zip)$ - [F,NC]
 
 # Convert old style HTML addresses to the modern PHP ones
 
-#RewriteRule ^(.*).shtml$ $1.php
+RewriteRule ^News/News([0-9]*).shtml$ /?page=$1
+RewriteRule ^FAQs/([^\.]*).*$ DatFAQs/$1.php
+RewriteRule ^(.*).shtml$ $1.php
 
 # Allow use of shortened URLs (e.g. http://www.logiqx.com/Tools/DatUtil/)
 
 RewriteRule ^([^/]+)/$ $1/$1.php
-RewriteRule ^(.*)/([^/]+)/$ $1/$2/$2.php
+RewriteRule ^(.+)/([^/]+)/$ $1/$2/$2.php

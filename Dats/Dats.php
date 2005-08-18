@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <script language="php">
@@ -28,7 +28,7 @@
     <p>
       <img src="Dats.gif" width="57" height="40" alt="Dats"/>
     </p>
-    <p>As a result of the developing CAESAR there are now CMPro and ROMCenter dats for every arcade emulator that I could get my hands on (about 200 of them)! Furthermore, once inside CAESAR I have been able to identify the bad dumps in old sets and correct the dats accordingly. Some of the old emulators require ROMs that are different to ones in MAME but only in the way that they have been split/joined/interleaved/padded etc. These ROMs can be reconstructed using <a href="../Tools/ROMBuild/ROMBuild.php">ROMBuild</a>, after which you can use your favorite ROM manager to build a proper ROM set from them. As you should have gathered, I am keen that all available dats are of the highest quality and would like to keep them this way. If you produce any dats then please <a href="/forum/">contact me</a>
+    <p>As a result of the developing CAESAR there are now CMPro and ROMCenter dats for every arcade emulator that I could get my hands on (about 200 of them)! Furthermore, once inside CAESAR I have been able to identify the bad dumps in old sets and correct the dats accordingly. Some of the old emulators require ROMs that are different to ones in MAME but only in the way that they have been split/joined/interleaved/padded etc. These ROMs can be reconstructed using <a href="../Tools/ROMBuild/ROMBuild.php">ROMBuild</a>, after which you can use your favorite ROM manager to build a proper ROM set from them. As you should have gathered, I am keen that all available dats are of the highest quality and would like to keep them this way. If you produce any dats then please <a href="../forum/">contact me</a>
 and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they work correctly for both managers and are suitable for CAESAR. I will take no credit for your dats but I would like to check them over before they are released (rather than submit changes after they are public).</p>
 	<hr/>
     <p>
@@ -57,7 +57,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="CrystalSystemEmulator/CrystalSystemEmulator.php">Crystal System Emulator v1.1</a> (suitable for v1.2)</td>
+          <a href="CrystalSystemEmulator/">Crystal System Emulator v1.1</a> (suitable for v1.2)</td>
         <td>
           <p/>
         </td>
@@ -72,7 +72,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="Daphne/Daphne.php">Daphne v0.99.6</a> (suitable for v0.99.6c)</td>
+          <a href="Daphne/">Daphne v0.99.6</a> (suitable for v0.99.6c)</td>
         <td>
           <p/>
         </td>
@@ -87,7 +87,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="FinalBurnAlpha/FinalBurnAlpha.php">FBA v0.2.95.23</a>
+          <a href="FinalBurnAlpha/">FBA v0.2.95.23</a>
         </td>
         <td>
           <p/>
@@ -103,7 +103,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="WinKawaks/WinKawaks.php">Kawaks v1.54</a>
+          <a href="WinKawaks/">Kawaks v1.54</a>
         </td>
         <td>
           <p/>
@@ -119,7 +119,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="M1/M1.php">M1 v0.7.5a3</a>
+          <a href="M1/">M1 v0.7.5a3</a>
         </td>
         <td>
           <p>
@@ -141,7 +141,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMEBeta/MAMEBeta.php">MAME v0.99</a>
+          <a href="MAMEBeta/">MAME v0.99</a>
         </td>
         <td>
           <p>
@@ -163,7 +163,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMEChanges/MAMEChanges.php">MAME Changes v0.99</a>
+          <a href="MAMEChanges/">MAME Changes v0.99</a>
         </td>
         <td>
           <p>
@@ -185,7 +185,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="Nebula/Nebula.php">Nebula v2.24</a>
+          <a href="Nebula/">Nebula v2.24</a>
         </td>
         <td>
           <p/>
@@ -201,7 +201,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="NebulaJukebox/NebulaJukebox.php">Nebula Jukebox v2.9</a>
+          <a href="NebulaJukebox/">Nebula Jukebox v2.9</a>
         </td>
         <td>
           <p/>
@@ -217,7 +217,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="Pacifi3D/Pacifi3D.php">Pacifi3D v0.3</a>
+          <a href="Pacifi3D/">Pacifi3D v0.3</a>
         </td>
         <td>
           <p/>
@@ -233,7 +233,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RadikalBikersEmulator/RadikalBikersEmulator.php">Radikal Bikers Emulator v0.9</a>
+          <a href="RadikalBikersEmulator/">Radikal Bikers Emulator v0.9</a>
         </td>
         <td>
           <p/>
@@ -249,7 +249,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RAINE/RAINE.php">RAINE v0.42.4</a>
+          <a href="RAINE/">RAINE v0.42.4</a>
         </td>
         <td>
           <p>
@@ -270,7 +270,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="SEGAModel2Emulator/SEGAModel2Emulator.php">SEGA Model 2 Emulator v0.1</a>
+          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.1</a>
         </td>
         <td>
           <p/>
@@ -286,7 +286,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="Tickle/Tickle.php">Tickle "Rebound" Edition</a>
+          <a href="Tickle/">Tickle "Rebound" Edition</a>
         </td>
         <td>
           <p>
@@ -307,7 +307,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="Zinc/Zinc.php">ZiNc v1.1</a>
+          <a href="Zinc/">ZiNc v1.1</a>
         </td>
         <td>
           <p>
@@ -355,7 +355,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="OlderEmus/OlderEmus.php">Older Emus 20050731</a>
+          <a href="OlderEmus/">Older Emus 20050731</a>
         </td>
         <td>
           <p>
@@ -403,7 +403,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="CPS-1/CPS-1.php">CPS-1 20050104</a>
+          <a href="CPS-1/">CPS-1 20050104</a>
         </td>
         <td>
           <p/>
@@ -419,7 +419,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="CPS-2/CPS-2.php">CPS-2 20050807</a>
+          <a href="CPS-2/">CPS-2 20050807</a>
         </td>
         <td>
           <p>
@@ -441,7 +441,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="Neo-Geo/Neo-Geo.php">Neo-Geo 20050712</a>
+          <a href="Neo-Geo/">Neo-Geo 20050712</a>
         </td>
         <td>
           <p/>
@@ -456,7 +456,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="ZN/ZN.php">ZN 20041124</a>
+          <a href="ZN/">ZN 20041124</a>
         </td>
         <td>
           <p/>
@@ -498,7 +498,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMEArtwork/MAMEArtwork.php">MAME Artwork 20050104</a>
+          <a href="MAMEArtwork/">MAME Artwork 20050104</a>
         </td>
         <td>
           <p/>
@@ -514,7 +514,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMESamples/MAMESamples.php">MAME Samples 20050808</a>
+          <a href="MAMESamples/">MAME Samples 20050808</a>
         </td>
         <td>
           <p>

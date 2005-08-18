@@ -1,5 +1,5 @@
 
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <script language="php">
@@ -42,8 +42,6 @@
 	
 
 	<table>
-      <colgroup span="1" width="50%"/>
-      <colgroup span="1" width="50%"/>
       <tr>
 		<td>
           <p>Download <a href="mdiff216.zip">MAMEDiff v2.16</a> (150KB)</p>

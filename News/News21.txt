@@ -6,7 +6,7 @@
         <p>MAME v0.97 was released a few days ago.</p>
 
         <p>The required data file updates are in the <a href=
-        "Dats/Dats.php">usual place</a>.</p>
+        "Dats/">usual place</a>.</p>
       </td>
     </tr>
   </table>
@@ -19,7 +19,7 @@
         <p>MAME v0.96 was released a few days ago.</p>
 
         <p>The data file updates are now in the <a href=
-        "Dats/Dats.php">usual place</a> (sorry for the delay)!</p>
+        "Dats/">usual place</a> (sorry for the delay)!</p>
       </td>
     </tr>
   </table>
@@ -29,7 +29,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>I have update the <a href="Dats/Dats.php">data files</a>
+        <p>I have update the <a href="Dats/">data files</a>
         for Pacifi3D now that v0.3 has been released.</p>
       </td>
     </tr>
@@ -40,8 +40,8 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
-        v2.17</a> and <a href="Tools/DatLib/DatLib.php">DatLib
+        <p>Released <a href="Tools/DatUtil/">DatUtil
+        v2.17</a> and <a href="Tools/DatLib/">DatLib
         v2.5</a>.<br />
         They now exclude disks from RomCenter data files (by
         default).</p>

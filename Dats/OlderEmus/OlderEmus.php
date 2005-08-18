@@ -1,6 +1,6 @@
 
 	
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <script language="php">
@@ -24,6 +24,9 @@
 
 					include('../../Resources/Top.php');
 				</script>
+    <p>
+      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+    </p>
 	<p>
       <img src="OlderEmus.gif" width="140" height="40" alt="OlderEmus.gif"/>
     </p>
@@ -35,8 +38,8 @@
 	
 	
 	
-		<p>You can view the contents of the ZIPs for <a href="CMZIPContents.shtml">ClrMamePro</a> and
-		<a href="RCZIPContents.shtml">RomCenter</a>.</p>
+		<p>You can view the contents of the ZIPs for <a href="CMZIPContents.php">ClrMamePro</a> and
+		<a href="RCZIPContents.php">RomCenter</a>.</p>
 	
 	<table>
       <colgroup span="1" width="50%"/>

@@ -3,7 +3,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded data files for <a href="Dats/Dats.php">RAINE
+        <p>Uploaded data files for <a href="Dats/">RAINE
         v0.37.0</a> and updated data files for Hoot (Crashtest's
         version)</p>
       </td>
@@ -30,7 +30,7 @@
     <tr>
       <td>
         <p>Ben Jos updated the data file for <a href=
-        "Dats/Dats.php">CottAGE v0.12</a>.</p>
+        "Dats/">CottAGE v0.12</a>.</p>
       </td>
     </tr>
   </table>
@@ -40,8 +40,8 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded new data files for <a href="Dats/Dats.php">MAME
-        Artwork</a> and <a href="Dats/Dats.php">MAME
+        <p>Uploaded new data files for <a href="Dats/">MAME
+        Artwork</a> and <a href="Dats/">MAME
         Marquees</a></p>
       </td>
     </tr>
@@ -54,7 +54,7 @@
       <td>
         <p>Added supplementary dats for MAME Test Drivers.</p>
 
-        <p>Updated dats for <a href="Dats/Dats.php">Nebula
+        <p>Updated dats for <a href="Dats/">Nebula
         Jukebox</a> to match the new release (v2.5).</p>
       </td>
     </tr>
@@ -67,12 +67,12 @@
       <td>
         <p>Two completely new dats:</p>
 
-        <p><a href="Dats/Dats.php">MAMu's Icons v0.62</a> (by
+        <p><a href="Dats/">MAMu's Icons v0.62</a> (by
         Eldio) and MAME Test Drivers v0.62 (by Ben Jos)</p>
 
         <p>Updated:</p>
 
-        <p>Laser v0.20a and <a href="Dats/Dats.php">M1
+        <p>Laser v0.20a and <a href="Dats/">M1
         v0.7.1</a></p>
       </td>
     </tr>
@@ -85,8 +85,8 @@
       <td>
         <p>Missed two uploads last night:</p>
 
-        <p><a href="Dats/Dats.php">Nebula</a> and <a href=
-        "Dats/Dats.php">QPlayer</a></p>
+        <p><a href="Dats/">Nebula</a> and <a href=
+        "Dats/">QPlayer</a></p>
       </td>
     </tr>
   </table>
@@ -98,22 +98,22 @@
       <td>
         <p>Uploaded lots of new/changed data files:</p>
 
-        <p><a href="Dats/Dats.php">M1</a>, <a href=
-        "Dats/Dats.php">Nebula Jukebox</a>, <a href=
-        "Dats/Dats.php">NeoJukeBox</a>, Calice</p>
+        <p><a href="Dats/">M1</a>, <a href=
+        "Dats/">Nebula Jukebox</a>, <a href=
+        "Dats/">NeoJukeBox</a>, Calice</p>
 
-        <p><a href="Dats/Dats.php">CPS-1</a>, <a href=
-        "Dats/Dats.php">CPS-2</a>, <a href=
-        "Dats/Dats.php">Neo-Geo</a></p>
+        <p><a href="Dats/">CPS-1</a>, <a href=
+        "Dats/">CPS-2</a>, <a href=
+        "Dats/">Neo-Geo</a></p>
 
-        <p><a href="Dats/Dats.php">MAME Artwork</a>, <a href=
-        "Dats/Dats.php">Cabinets</a>, <a href=
-        "Dats/Dats.php">Flyers</a>, <a href=
-        "Dats/Dats.php">Icons</a>, <a href=
-        "Dats/Dats.php">Marquees</a>, <a href=
-        "Dats/Dats.php">Samples</a>, <a href=
-        "Dats/Dats.php">Snaps</a> and <a href=
-        "Dats/Dats.php">Titles</a></p>
+        <p><a href="Dats/">MAME Artwork</a>, <a href=
+        "Dats/">Cabinets</a>, <a href=
+        "Dats/">Flyers</a>, <a href=
+        "Dats/">Icons</a>, <a href=
+        "Dats/">Marquees</a>, <a href=
+        "Dats/">Samples</a>, <a href=
+        "Dats/">Snaps</a> and <a href=
+        "Dats/">Titles</a></p>
       </td>
     </tr>
   </table>
@@ -124,7 +124,7 @@
     <tr>
       <td>
         <p>Added year and manufacturer information to the data file
-        for <a href="Dats/Dats.php">M1 v0.7.1</a></p>
+        for <a href="Dats/">M1 v0.7.1</a></p>
       </td>
     </tr>
   </table>
@@ -134,7 +134,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded data file for <a href="Dats/Dats.php">M1
+        <p>Uploaded data file for <a href="Dats/">M1
         v0.7.1</a></p>
 
         <p>I have to say, listening to Outrun whilst preparing the
@@ -153,9 +153,9 @@
       <td>
         <p>Today's uploads:</p>
 
-        <p><a href="Dats/Dats.php">Final Burn</a>, <a href=
-        "Dats/Dats.php">Nebula</a>, <a href="Dats/Dats.php">Nebula
-        Model 2</a>, <a href="Dats/Dats.php">ZN</a></p>
+        <p><a href="Dats/">Final Burn</a>, <a href=
+        "Dats/">Nebula</a>, <a href="Dats/Dats.php">Nebula
+        Model 2</a>, <a href="Dats/">ZN</a></p>
       </td>
     </tr>
   </table>
@@ -168,11 +168,11 @@
         <p>Rosewood has packaged up some of the MAME related
         supplement changes:</p>
 
-        <p><a href="Dats/Dats.php">FBA</a>, <a href=
-        "Dats/Dats.php">RAINE</a>, <a href=
-        "Dats/Dats.php">WinKawaks</a>, <a href=
-        "Dats/Dats.php">Nebula Jukebox</a>, <a href=
-        "Dats/Dats.php">NeoJukeBox</a></p>
+        <p><a href="Dats/">FBA</a>, <a href=
+        "Dats/">RAINE</a>, <a href=
+        "Dats/">WinKawaks</a>, <a href=
+        "Dats/">Nebula Jukebox</a>, <a href=
+        "Dats/">NeoJukeBox</a></p>
       </td>
     </tr>
   </table>
@@ -184,11 +184,11 @@
       <td>
         <p>A few things for you all:</p>
 
-        <p><a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff v1.14</a>
+        <p><a href="Tools/MAMEDiff/">MAMEDiff v1.14</a>
         (needed for MAME v0.62)</p>
 
-        <p>Dats for <a href="Dats/Dats.php">MAME v0.62</a> and
-        <a href="Dats/Dats.php">MAME Changes v0.62</a></p>
+        <p>Dats for <a href="Dats/">MAME v0.62</a> and
+        <a href="Dats/">MAME Changes v0.62</a></p>
       </td>
     </tr>
   </table>
@@ -199,10 +199,10 @@
     <tr>
       <td>
         <p>Ben Jos updated the data file for <a href=
-        "Dats/Dats.php">Daphne v0.99.5a</a>.</p>
+        "Dats/">Daphne v0.99.5a</a>.</p>
 
         <p>SLA updated the data file for <a href=
-        "Dats/Dats.php">CottAGE v0.10</a>.</p>
+        "Dats/">CottAGE v0.10</a>.</p>
       </td>
     </tr>
   </table>
@@ -212,7 +212,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Updated the data file for <a href="Dats/Dats.php">Daphne
+        <p>Updated the data file for <a href="Dats/">Daphne
         v0.99.5a</a> (added Bega's Battle).</p>
       </td>
     </tr>
@@ -225,12 +225,12 @@
       <td>
         <p>A variety of updates, mainly trivial:</p>
 
-        <p><a href="Dats/Dats.php">Neo-Geo</a>, Calice, <a href=
-        "Dats/Dats.php">Nebula</a>, <a href=
-        "Dats/Dats.php">WinKawaks</a>, <a href=
-        "Dats/Dats.php">Daphne v0.99.5a</a>, Mimic v2.10, <a href=
-        "Dats/Dats.php">Nebula Jukebox</a>, <a href=
-        "Dats/Dats.php">NeoJukeBox</a></p>
+        <p><a href="Dats/">Neo-Geo</a>, Calice, <a href=
+        "Dats/">Nebula</a>, <a href=
+        "Dats/">WinKawaks</a>, <a href=
+        "Dats/">Daphne v0.99.5a</a>, Mimic v2.10, <a href=
+        "Dats/">Nebula Jukebox</a>, <a href=
+        "Dats/">NeoJukeBox</a></p>
       </td>
     </tr>
   </table>
@@ -240,7 +240,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Created data file for <a href="Dats/Dats.php">Nebula
+        <p>Created data file for <a href="Dats/">Nebula
         Model 2</a></p>
       </td>
     </tr>
@@ -254,8 +254,8 @@
         <p>A couple of releases from the team:</p>
 
         <p>SLA updated the data file for <a href=
-        "Dats/Dats.php">Nebula</a> and I updated <a href=
-        "Dats/Dats.php">CPS-1</a></p>
+        "Dats/">Nebula</a> and I updated <a href=
+        "Dats/">CPS-1</a></p>
       </td>
     </tr>
   </table>
@@ -265,7 +265,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Updated the <a href="Dats/Dats.php">Older Emus</a>
+        <p>Updated the <a href="Dats/">Older Emus</a>
         archive:</p>
 
         <p>Removed U64Emu 1+2 (it is now new again)!<br />
@@ -312,10 +312,10 @@
       <td>
         <p>Uploaded a few data files:</p>
 
-        <p><a href="Dats/Dats.php">Neo-Geo</a>, <a href=
-        "Dats/Dats.php">CPS-1</a>, <a href="Dats/Dats.php">Nebula
-        Jukebox</a>, <a href="Dats/Dats.php">NeoJukeBox</a>,
-        <a href="Dats/Dats.php">QPlayer</a></p>
+        <p><a href="Dats/">Neo-Geo</a>, <a href=
+        "Dats/">CPS-1</a>, <a href="Dats/Dats.php">Nebula
+        Jukebox</a>, <a href="Dats/">NeoJukeBox</a>,
+        <a href="Dats/">QPlayer</a></p>
       </td>
     </tr>
   </table>
@@ -337,19 +337,19 @@
       <td>
         <p>Updated a variety of data files:</p>
 
-        <p>ACE, <a href="Dats/Dats.php">Older Emus</a>, <a href=
-        "Dats/Dats.php">Viva Nonno</a>, Zinc and <a href=
-        "Dats/Dats.php">ZN</a>.</p>
+        <p>ACE, <a href="Dats/">Older Emus</a>, <a href=
+        "Dats/">Viva Nonno</a>, Zinc and <a href=
+        "Dats/">ZN</a>.</p>
 
         <p>As always, the changes are described in the history
         section of each page.</p>
 
         <p>More updates!</p>
 
-        <p><a href="Dats/Dats.php">MAME Artwork</a>, <a href=
-        "Dats/Dats.php">MAME Flyers</a>, <a href=
-        "Dats/Dats.php">MAME Samples</a>, <a href=
-        "Dats/Dats.php">MAME Marquees</a>.</p>
+        <p><a href="Dats/">MAME Artwork</a>, <a href=
+        "Dats/">MAME Flyers</a>, <a href=
+        "Dats/">MAME Samples</a>, <a href=
+        "Dats/">MAME Marquees</a>.</p>
       </td>
     </tr>
   </table>
@@ -362,13 +362,13 @@
         <p>Back from my holiday and cleared more of the
         backlog:</p>
 
-        <p><a href="Dats/Dats.php">RAINE v0.36.1</a>, <a href=
-        "Dats/Dats.php">Daphne v0.99.5</a>, <a href=
-        "Dats/Dats.php">FBA v0.2.93</a>.</p>
+        <p><a href="Dats/">RAINE v0.36.1</a>, <a href=
+        "Dats/">Daphne v0.99.5</a>, <a href=
+        "Dats/">FBA v0.2.93</a>.</p>
 
         <p>Uploaded John IV's data files for <a href=
-        "Dats/Dats.php">Snaps</a> and <a href=
-        "Dats/Dats.php">Titles</a>.</p>
+        "Dats/">Snaps</a> and <a href=
+        "Dats/">Titles</a>.</p>
       </td>
     </tr>
   </table>

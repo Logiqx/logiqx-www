@@ -7,8 +7,13 @@
 				<td>
 					<script type="text/javascript">
 						<!--
-							function menuOn(obj) { document[obj].src = '/Menu/' + obj + 'On.gif'; } 
-							function menuOff(obj) { document[obj].src = '/Menu/' + obj + 'Off.gif'; } 
+							if (navigator.userAgent.indexOf("Firefox") != -1)
+								menuAnimationOn = true;
+							else
+								menuAnimationOn = false;
+								
+							function menuOn(obj) { if (menuAnimationOn) document[obj].src = '/Menu/' + obj + 'On.gif'; } 
+							function menuOff(obj) { if (menuAnimationOn) document[obj].src = '/Menu/' + obj + 'Off.gif'; } 
 						//-->
 					</script>
 
@@ -16,37 +21,37 @@
 
 					<hr />
 
-					<p><a href="/beta.php"><img src="/Menu/NewsOff.gif"
+					<p><a href="/"><img src="/Menu/NewsOff.gif"
 						onmouseover="menuOn('News')" onmouseout="menuOff('News')"
-						alt="News" width="40" height="20" id="News" name="News" /></a></p>
+						alt="News" width="40" height="20" id="News" /></a></p>
 
 					<p><a href="http://caesar.logiqx.com/"><img src="/Menu/CAESAROff.gif"
 						onmouseover="menuOn('CAESAR')" onmouseout="menuOff('CAESAR')"
-						alt="CAESAR" width="64" height="20" id="CAESAR" name="CAESAR" /></a></p>
+						alt="CAESAR" width="64" height="20" id="CAESAR" /></a></p>
 
 					<p><a href="/forum/"><img src="/Menu/ForumOff.gif"
 						onmouseover="menuOn('Forum')" onmouseout="menuOff('Forum')"
-						alt="Forum" width="46" height="20" id="Forum" name="Forum" /></a></p>
+						alt="Forum" width="46" height="20" id="Forum" /></a></p>
 
-					<p><a href="/Dats/Dats.php"><img src="/Menu/DatsOff.gif"
+					<p><a href="/Dats/"><img src="/Menu/DatsOff.gif"
 						onmouseover="menuOn('Dats')" onmouseout="menuOff('Dats')"
-						alt="Dats" width="33" height="20" id="Dats" name="Dats" /></a></p>
+						alt="Dats" width="33" height="20" id="Dats" /></a></p>
 
-					<p><a href="/Tools/Tools.php"><img src="/Menu/ToolsOff.gif"
+					<p><a href="/Tools/"><img src="/Menu/ToolsOff.gif"
 						onmouseover="menuOn('Tools')" onmouseout="menuOff('Tools')"
-						alt="Tools" width="40" height="20" id="Tools" name="Tools" /></a></p>
+						alt="Tools" width="40" height="20" id="Tools" /></a></p>
 
-					<p><a href="/DatFAQs/DatFAQs.php"><img src="/Menu/DatFAQsOff.gif"
+					<p><a href="/DatFAQs/"><img src="/Menu/DatFAQsOff.gif"
 						onmouseover="menuOn('DatFAQs')" onmouseout="menuOff('DatFAQs')"
-						alt="DatFAQs" width="69" height="20" id="DatFAQs" name="DatFAQs" /></a></p>
+						alt="DatFAQs" width="69" height="20" id="DatFAQs" /></a></p>
 
-					<p><a href="/HowTo/HowTo.php"><img src="/Menu/HowToOff.gif"
+					<p><a href="/HowTo/"><img src="/Menu/HowToOff.gif"
 						onmouseover="menuOn('HowTo')" onmouseout="menuOff('HowTo')"
-						alt="HowTo" width="116" height="20" id="HowTo" name="HowTo" /></a></p>
+						alt="HowTo" width="116" height="20" id="HowTo" /></a></p>
 
-					<p><a href="/Links/Links.php"><img src="/Menu/LinksOff.gif"
+					<p><a href="/Links/"><img src="/Menu/LinksOff.gif"
 						onmouseover="menuOn('Links')" onmouseout="menuOff('Links')"
-						alt="Links" width="37" height="20" id="Links" name="Links" /></a></p>
+						alt="Links" width="37" height="20" id="Links" /></a></p>
 
 					<hr />
 

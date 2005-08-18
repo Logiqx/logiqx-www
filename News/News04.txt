@@ -14,7 +14,7 @@
         return.</p>
 
         <p>Seeing as I will be away for a few days I have created
-        <a href="Dats/Dats.php">Nebula</a> dats in anticipation of
+        <a href="Dats/">Nebula</a> dats in anticipation of
         Saturday's launch.<br />
         The dats are of all currently emulated CPS-2 games (i.e.
         everything Nebula <em>could</em> support).<br />
@@ -22,17 +22,17 @@
         they will be very soon!</p>
 
         <p>Again, as I am away I have uploaded dats for <a href=
-        "Dats/Dats.php">Final Burn v0.113</a> (X-Men Vs Street
+        "Dats/">Final Burn v0.113</a> (X-Men Vs Street
         Fighter added).</p>
 
         <p>Uploaded new ROMCenter dat for <a href=
-        "Dats/Dats.php">MAME v0.37 beta 13</a>.<br />
+        "Dats/">MAME v0.37 beta 13</a>.<br />
         There was a problem with ROMCenter's handling of
         NeoGeo/Deco games but the new dat works around it.<br />
         The problem didn't affect split-merged sets (the most
         common choice), just the other two types.</p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        <p>Another release of the <a href="Dats/">CPS-2</a>
         dats (XORs added for X-Men Vs Street Fighter).</p>
       </td>
     </tr>
@@ -60,7 +60,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released <a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff
+        <p>Released <a href="Tools/MAMEDiff/">MAMEDiff
         v1.06</a>.</p>
 
         <p>This is a big update and will be extremely useful to
@@ -82,7 +82,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        <p>Another release of the <a href="Dats/">CPS-2</a>
         dats (XORs added for Super Street Fighter 2 Japan).</p>
       </td>
     </tr>
@@ -93,7 +93,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.112</a> (Cyberbots added).</p>
       </td>
     </tr>
@@ -104,14 +104,14 @@
   <table class="news">
     <tr>
       <td>
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        <p>Another release of the <a href="Dats/">CPS-2</a>
         dats (cybotsj has been redumped).</p>
 
-        <p>Updated <a href="Dats/Dats.php">Xevious Emulator and
+        <p>Updated <a href="Dats/">Xevious Emulator and
         HiVE</a> dats (see notes within the archive itself).</p>
 
         <p>Released v1.6 of <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild</a>:</p>
+        "Tools/ROMBuild/">ROMBuild</a>:</p>
 
         <p>Fixed problem affecting NeoRAGEx/Callus builds from
         unzipped ROMs.<br />
@@ -130,7 +130,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        <p>Another release of the <a href="Dats/">CPS-2</a>
         dats (Added XOR files for cybotsj).</p>
       </td>
     </tr>
@@ -152,7 +152,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        <p>Another release of the <a href="Dats/">CPS-2</a>
         dats (Added XOR files for avspj and a couple of renames in
         xmvsf).</p>
 
@@ -167,23 +167,23 @@
   <table class="news">
     <tr>
       <td>
-        <p>Added a '<a href="HowTo/HowTo.php">How To Compile</a>'
+        <p>Added a '<a href="HowTo/">How To Compile</a>'
         page for MAME and RAINE. This is slightly different to
         other guides as it allows you to install everything where
         you want and also works for both RAINE and MAME. There is
         also a page that explains how to get a copy of the latest
         RAINE source.</p>
 
-        <p>Released <a href="Tools/MAMEDiff/MAMEDiff.php">MAMEDiff
+        <p>Released <a href="Tools/MAMEDiff/">MAMEDiff
         v1.05</a>. A tiny fix to exclude resources from the game
         and ROM totals.</p>
 
         <p>Released v1.5 of <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild</a>. Added SonSon
+        "Tools/ROMBuild/">ROMBuild</a>. Added SonSon
         support for RAGE, Replay, Rockulator++ and SonSon
         Emulator.</p>
 
-        <p>Updated <a href="Dats/Dats.php">QPlayer, NeoJukeBox,
+        <p>Updated <a href="Dats/">QPlayer, NeoJukeBox,
         Rockulator++, Replay, RAGE and SonSon</a> dats (see notes
         within the archive itself).</p>
       </td>
@@ -195,7 +195,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">MAME v0.37
+        <p>Uploaded dats for <a href="Dats/">MAME v0.37
         beta 13</a></p>
 
         <p>Released dats for Calice v0.1.4 (added lots of Street
@@ -209,10 +209,10 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.111</a> (19xx added).</p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        <p>Another release of the <a href="Dats/">CPS-2</a>
         dats (XORs for for 19xx and ROM details for Alien vs
         Predator Japan).</p>
       </td>
@@ -227,7 +227,7 @@
         <p>Released dats for Calice v0.1.2 (added megaman, rockmanj
         and wof ).</p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        <p>Another release of the <a href="Dats/">CPS-2</a>
         dats (XORs for Super Street Fighter 2 USA added).</p>
       </td>
     </tr>
@@ -238,10 +238,10 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.110</a> (Quiz Nanairo Dreams added).</p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2</a>
+        <p>Another release of the <a href="Dats/">CPS-2</a>
         dats (XORs for Quiz Nanairo Dreams added).</p>
       </td>
     </tr>
@@ -252,7 +252,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.109</a> (Ring of Destruction: Slammasters II added).</p>
       </td>
     </tr>
@@ -263,7 +263,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... Added XOR files for Ring of Destruction:
         Slammasters II.</p>
       </td>
@@ -276,11 +276,11 @@
     <tr>
       <td>
         <p>Released v1.4 of <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild</a>. Added support
+        "Tools/ROMBuild/">ROMBuild</a>. Added support
         for QSound Player and NeoRAGEx so you can generate any
         NeoRAGEx set from MAME sets.</p>
 
-        <p>Updated <a href="Dats/Dats.php">QSound Player, QPlayer,
+        <p>Updated <a href="Dats/">QSound Player, QPlayer,
         NeoJukeBox and NeoRAGEx</a> dats (see notes within the
         archive itself).</p>
 
@@ -296,7 +296,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.108</a> (X-Men Jap added back in).</p>
       </td>
     </tr>
@@ -307,13 +307,13 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.107</a> (X-Men USA and Street Fighter 2 added, Jap X-Men
         removed).</p>
 
         <p>Released dats for VAntAGE v1.11.</p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... XORs for X-Men (USA) added plus a couple of
         redumps and renames.</p>
       </td>
@@ -325,7 +325,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.106</a> (Final Fight added).</p>
       </td>
     </tr>
@@ -336,18 +336,18 @@
   <table class="news">
     <tr>
       <td>
-        <p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        <p>Released <a href="Tools/DatUtil/">DatUtil
         v1.6</a> (added '-m' option to improve MAME's merging
         information).</p>
 
-        <p>Improved dats for <a href="Dats/Dats.php">MAME v0.37
+        <p>Improved dats for <a href="Dats/">MAME v0.37
         beta 12</a> (Only ROMCenter users who use split-merging
         need this new dat).</p>
 
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.103</a> (Super Street Fighter 2 Turbo added).</p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... XORs for Super Street Fighter 2 added and some
         ROM redumps.</p>
       </td>
@@ -359,7 +359,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.102</a> (Street Fighter Alpha 2 added).</p>
       </td>
     </tr>
@@ -370,7 +370,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">MAME v0.37
+        <p>Uploaded dats for <a href="Dats/">MAME v0.37
         beta 12 fixed binary</a> (only msh.02 changed).</p>
       </td>
     </tr>
@@ -381,7 +381,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.101</a> (Alien vs Predator added and set reorganisations
         made).</p>
       </td>
@@ -393,11 +393,11 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.100</a> (Super Street Fighter 2 and Marvel Super Heroes
         added).</p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... MAME v0.37b12 plus additional info from
         CPS2Shock.</p>
       </td>
@@ -409,7 +409,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">MAME v0.37
+        <p>Uploaded dats for <a href="Dats/">MAME v0.37
         beta 12</a></p>
 
         <p>Updated dats for tROMbone v0.11</p>
@@ -444,7 +444,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">RAINE
+        <p>Uploaded dats for <a href="Dats/">RAINE
         v0.30a</a>.</p>
       </td>
     </tr>
@@ -458,7 +458,7 @@
         <p>The CPS-2 dat released earlier contained a typo,
         corrected version now online.</p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... fixed bad ROM in Alien Vs Predator.</p>
       </td>
     </tr>
@@ -480,7 +480,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... decrypt files for Super Street Fighter 2 (USA)
         added.</p>
       </td>
@@ -500,7 +500,7 @@
 
         <p>Released dats for VAntAGE v1.1 (52 games added).</p>
 
-        <p>Released <a href="Tools/DatUtil/DatUtil.php">DatUtil
+        <p>Released <a href="Tools/DatUtil/">DatUtil
         v1.5</a> (only a minor update):</p>
 
         <p>- Some handling of the playch10 and cvs resources in
@@ -526,10 +526,10 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.096</a> (another X-Men added).</p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... a couple of games added.</p>
       </td>
     </tr>
@@ -540,9 +540,9 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.092</a> (Dungeons and Dragons added).<br />
-        Another release of the <a href="Dats/Dats.php">CPS-2
+        Another release of the <a href="Dats/">CPS-2
         dat</a>... ddtod and ddtodr1decryption data files
         included.</p>
 
@@ -559,18 +559,18 @@
         <p>Released dats for Calice v0.0.6 (11 games added).</p>
 
         <p>Released v1.3 of <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild</a>. This supports
+        "Tools/ROMBuild/">ROMBuild</a>. This supports
         Road Runner for Sideway and removes RAINE (no longer
         required).</p>
 
-        <p>Uploaded dats for <a href="Dats/Dats.php">RAINE
+        <p>Uploaded dats for <a href="Dats/">RAINE
         v0.30</a>.</p>
 
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.090</a> (X-Men: Children of the Atom added as well as
         CPS-1 sound).</p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... added decrypt files for xmcotaj.</p>
       </td>
     </tr>
@@ -581,7 +581,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... some name changes (relating to MAME).</p>
       </td>
     </tr>
@@ -592,7 +592,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.085</a> (Megaman, Rockman and Gouls'n Ghosts added).</p>
       </td>
     </tr>
@@ -603,7 +603,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... two more clones, more decryption data files and
         some reorganisation.</p>
 
@@ -611,7 +611,7 @@
 
         <p>Updated dats for WPCmame v0.37b8 ver 6</p>
 
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.080</a> (Vampire Japan added).</p>
       </td>
     </tr>
@@ -622,7 +622,7 @@
   <table class="news">
     <tr>
       <td>
-        <p><strong><a href="Tools/ROMInfo/ROMInfo.php">ROMInfo
+        <p><strong><a href="Tools/ROMInfo/">ROMInfo
         v1.03</a>:</strong></p>
 
         <p>Added standard file support<br />
@@ -639,14 +639,14 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.077</a> (Vampire Savior Japan added).<br />
-        Another release of the <a href="Dats/Dats.php">CPS-2
+        Another release of the <a href="Dats/">CPS-2
         dat</a>... vsavj decryption data files included.</p>
 
         <p>Earlier:</p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... sfar1 renamed to sfaer1 (confirmed as Euro
         version) and decryption data files included.</p>
       </td>
@@ -658,10 +658,10 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.076</a> (Street Fighter Alpha added).</p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... a couple of ROM renames in Street Fighter
         Alpha/Zero (courtesy of Razoola).</p>
       </td>
@@ -676,17 +676,17 @@
         <p><strong>ROMBuild</strong></p>
 
         <p>Released v1.2 of <a href=
-        "Tools/ROMBuild/ROMBuild.php">ROMBuild</a>. This deals with
+        "Tools/ROMBuild/">ROMBuild</a>. This deals with
         some Galaxian ROM changes made in MAME v0.37 b11.</p>
 
         <p><strong>CMPro/ROMCenter Arcade Dat Pack</strong></p>
 
-        <p>Updated some of the <a href="Dats/Dats.php">dats</a>
+        <p>Updated some of the <a href="Dats/">dats</a>
         slightly.</p>
 
         <p><strong>CPS-2 Dat</strong></p>
 
-        <p>Another release of the <a href="Dats/Dats.php">CPS-2
+        <p>Another release of the <a href="Dats/">CPS-2
         dat</a>... added a couple of new Japanese clones from Team
         Japump.</p>
       </td>
@@ -698,7 +698,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">MAME v0.37
+        <p>Uploaded dats for <a href="Dats/">MAME v0.37
         beta 11</a></p>
       </td>
     </tr>
@@ -709,7 +709,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.069</a></p>
       </td>
     </tr>
@@ -732,7 +732,7 @@
   <table class="news">
     <tr>
       <td>
-        <p><strong><a href="Tools/ROMInfo/ROMInfo.php">ROMInfo
+        <p><strong><a href="Tools/ROMInfo/">ROMInfo
         v1.02</a>:</strong></p>
 
         <p>Added drag and drop support for ZIP files</p>
@@ -745,7 +745,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.063</a> (and above)</p>
       </td>
     </tr>
@@ -756,7 +756,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>Uploaded dats for <a href="Dats/Dats.php">Final Burn
+        <p>Uploaded dats for <a href="Dats/">Final Burn
         v0.061</a></p>
       </td>
     </tr>

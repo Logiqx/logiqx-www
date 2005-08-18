@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-	<xsl:output method="html" indent="yes"/>
+	<xsl:output method="xml" indent="yes" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
+        doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" omit-xml-declaration="yes"/>
 
 	<xsl:include href="comments.xsl"/>
 
@@ -13,18 +14,23 @@
 				<xsl:attribute name="src"><xsl:value-of select="img/@src"/></xsl:attribute>
 				<xsl:attribute name="width"><xsl:value-of select="img/@width"/></xsl:attribute>
 				<xsl:attribute name="height"><xsl:value-of select="img/@height"/></xsl:attribute>
+				<xsl:attribute name="alt"><xsl:value-of select="img/@src"/></xsl:attribute>
 			</img>
 		</p>
 		<xsl:apply-templates/>
 	</xsl:template>
 
 	<xsl:template match="emulators">
-		<table border="0" width="100%" bgcolor="#ECF5FF">
+		<table class="news">
+			<colgroup span="1"/>
+			<colgroup span="1" width="110"/>
+			<colgroup span="1" width="110"/>
+			<colgroup span="1" width="110"/>
 			<tr>
-				<td><strong><xsl:value-of select="../type"/></strong></td>
-				<td align="center" width="110"></td>
-				<td align="center" width="110"><strong>Dat Updated</strong></td>
-				<td align="center" width="110"><strong>Games</strong></td>
+				<th><xsl:value-of select="../type"/></th>
+				<th></th>
+				<th><p>Dat Updated</p></th>
+				<th><p>Games</p></th>
 			</tr>
 
 			<xsl:apply-templates/>
@@ -34,76 +40,83 @@
 	<xsl:template match="emulator">
 		<tr>
 			<td>
-				<a><xsl:attribute name="href"><xsl:value-of select="@id"/>/<xsl:value-of select="@id"/>.shtml</xsl:attribute><xsl:value-of select="name"/><xsl:text> </xsl:text><xsl:value-of select="version"/></a>
+				<a><xsl:attribute name="href"><xsl:value-of select="@id"/>/</xsl:attribute><xsl:value-of select="name"/><xsl:text> </xsl:text><xsl:value-of select="version"/></a>
 				<xsl:if test="suitability != ''">
 					<xsl:text> (suitable for </xsl:text>
 					<xsl:value-of select="suitability"/>
 					<xsl:text>)</xsl:text>
 				</xsl:if>
 			</td>
-			<td align="center">
+			<td>
+				<p>
 				<xsl:choose>
 					<xsl:when test="status = 'Updated'">
-						<img src="../Resources/Updated.gif" width="73" height="14"/>
+						<img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
 					</xsl:when>
 					<xsl:when test="status = 'New'">
-						<img src="../Resources/New.gif" width="53" height="14"/>
+						<img src="../Resources/New.gif" width="53" height="14" alt="New"/>
 					</xsl:when>
 				</xsl:choose>
+				</p>
 			</td>
 
 			<xsl:choose>
 				<xsl:when test="status != ''">
-					<td align="center"><strong><xsl:value-of select="date"/></strong></td>
-					<td align="center"><strong><xsl:value-of select="games"/></strong></td>
+					<td><p><strong><xsl:value-of select="date"/></strong></p></td>
+					<td><p><strong><xsl:value-of select="games"/></strong></p></td>
 				</xsl:when>
 
 				<xsl:otherwise>
-					<td align="center"><xsl:value-of select="date"/></td>
-					<td align="center"><xsl:value-of select="games"/></td>
+					<td><p><xsl:value-of select="date"/></p></td>
+					<td><p><xsl:value-of select="games"/></p></td>
 				</xsl:otherwise>
 			</xsl:choose>
 		</tr>
 	</xsl:template>
 
 	<xsl:template match="contents_page">
-		<html>
+		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 			<head>
+				<script language="php">
+					// Standard PHP includes (database connection and constants)
+
+					include ('../Resources/Include.php');
+
+				</script>
+
 				<title>CMPro/ROMCenter Dats</title>
 
-				<script type="text/javascript">
-				<xsl:comment>
-  				function write_email(name, domain, descr)
-  				{
-    					descr = descr == void 0 ? name + "@" + domain : descr;
-    					document.write('&lt;a href=\"mailto:' + name + '@' + domain + '\">');
-    					document.write(descr + '&lt;/a>'); 
-  				}
-				</xsl:comment>
+				<script language="php">
+					// Include standard &lt;head> metadata
+
+					include('../Resources/Head.php');
 				</script>
 			</head>
 
 			<body>
-				<center>
-					<xsl:comment>#include virtual="/ads/top.shtml"</xsl:comment>
+				<script language="php">
+					// The main page content is a 3 column table (left column is the menu, right one is the news)
 
-					<hr/>
+					echo '<!-- Logiqx pages are basically a table with one row and three columns -->' . LF . LF;
 
-					<p align="center"><img src="../Resources/Logiqx.gif" width="327" height="68"/></p>
+					include('../Resources/Top.php');
+				</script>
 
-					<p align="center"><img src="Dats.gif" width="57" height="40"/></p>
+					<p><img src="../Resources/Logiqx.gif" width="327" height="68" alt="Logiqx"/></p>
 
-					<p align="left">As a result of the developing CAESAR there are now CMPro and ROMCenter dats for every arcade emulator that I could get my hands on (about 150 of them)! Furthermore, once inside CAESAR I have been able to identify the bad dumps in old sets and correct the dats accordingly. Some of the old emulators require ROMs that are different to ones in MAME but only in the way that they have been split/joined/interleaved/padded etc. These ROMs can be reconstructed using <a href="../Tools/ROMBuild/ROMBuild.shtml">ROMBuild</a>, after which you can use your favorite ROM manager to build a proper ROM set from them. As you should have gathered, I am keen that all available dats are of the highest quality and would like to keep them this way. If you produce any dats then please send them on to
-<script type="text/javascript">
-<xsl:comment>
-  write_email("logiqx", "logiqx.com", "me"); 
-</xsl:comment>
-</script>
+					<p><img src="Dats.gif" width="57" height="40" alt="Dats"/></p>
+
+					<p>As a result of the developing CAESAR there are now CMPro and ROMCenter dats for every arcade emulator that I could get my hands on (about 200 of them)! Furthermore, once inside CAESAR I have been able to identify the bad dumps in old sets and correct the dats accordingly. Some of the old emulators require ROMs that are different to ones in MAME but only in the way that they have been split/joined/interleaved/padded etc. These ROMs can be reconstructed using <a href="../Tools/ROMBuild/ROMBuild.php">ROMBuild</a>, after which you can use your favorite ROM manager to build a proper ROM set from them. As you should have gathered, I am keen that all available dats are of the highest quality and would like to keep them this way. If you produce any dats then please <a href="../forum/">contact me</a>
 and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they work correctly for both managers and are suitable for CAESAR. I will take no credit for your dats but I would like to check them over before they are released (rather than submit changes after they are public).</p>
 
 					<xsl:apply-templates/>
 
-				</center>
+
+				<script language="php">
+					// Standard page footer (counter)
+
+					include('../Resources/Bottom.php');
+				</script>
 			</body>
 		</html>
 	</xsl:template>

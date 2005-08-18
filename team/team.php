@@ -1,4 +1,4 @@
-<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 strict//en">
 <html>
 <head>
   <meta http-equiv="Content-Type"
