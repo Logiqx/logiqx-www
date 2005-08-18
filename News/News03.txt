@@ -206,7 +206,7 @@
     <tr>
       <td>
         <p>Couldn't resist modifying this episode of <a href=
-        "Dilbert.jpg">Dilbert</a>...</p>
+        "News/Dilbert.jpg">Dilbert</a>...</p>
 
         <p>Can you say it doesn't apply to you? :)</p>
       </td>
