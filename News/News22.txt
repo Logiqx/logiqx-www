@@ -1,3 +1,31 @@
+  <h1>18 August 2005</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>
+          Welcome to the new look site!
+        </p>
+
+        <p>
+          I've been wanting to do this for ages but it's always been beneath the CAESAR rewrite on my (never ending) todo list. ;)
+        </p>
+
+        <p>
+	  It may not look massively different but there are a number of improvements for you guys:
+        </p>
+
+        <ul>
+          <li>Slightly different look (e.g. it has turned blue) and no more annoying frames</li>
+          <li>Simpler URLs (e.g. http://www.logiqx.com/Tools/DatUtil/)</li>
+          <li>Links to individual pages are better, due to the removal of frames</li>
+          <li>You can still use any old URLs that you have for a while (to minimise transitional problems)</li>
+          <li>Fully XHTML compliant and use of CSS throughout</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
   <h1>11 August 2005</h1>
 
   <table class="news">
