@@ -59,9 +59,7 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>28 February 2005</u>
-      </strong> - MAMEDiff v2.16</p>
+      <b>28 February 2005</b> - MAMEDiff v2.16</p>
     <p>
 			
 			
@@ -72,9 +70,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 February 2005</u>
-      </strong> - MAMEDiff v2.15</p>
+      <b>22 February 2005</b> - MAMEDiff v2.15</p>
     <p>
 			
 			
@@ -86,9 +82,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>15 February 2005</u>
-      </strong> - MAMEDiff v2.14</p>
+      <b>15 February 2005</b> - MAMEDiff v2.14</p>
     <p>
 			
 			
@@ -98,9 +92,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>16 January 2005</u>
-      </strong> - MAMEDiff v2.13</p>
+      <b>16 January 2005</b> - MAMEDiff v2.13</p>
     <p>
 			
 			
@@ -113,9 +105,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>25 November 2004</u>
-      </strong> - MAMEDiff v2.12</p>
+      <b>25 November 2004</b> - MAMEDiff v2.12</p>
     <p>
 			
 			
@@ -125,9 +115,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>26 October 2004</u>
-      </strong> - MAMEDiff v2.11</p>
+      <b>26 October 2004</b> - MAMEDiff v2.11</p>
     <p>
 			
 			
@@ -137,9 +125,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>18 August 2004</u>
-      </strong> - MAMEDiff v2.10</p>
+      <b>18 August 2004</b> - MAMEDiff v2.10</p>
     <p>
 			
 			
@@ -149,9 +135,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>2 August 2004</u>
-      </strong> - MAMEDiff v2.9</p>
+      <b>2 August 2004</b> - MAMEDiff v2.9</p>
     <p>
 			
 			
@@ -160,9 +144,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>30 July 2004</u>
-      </strong> - MAMEDiff v2.8</p>
+      <b>30 July 2004</b> - MAMEDiff v2.8</p>
     <p>
 			
 			
@@ -173,9 +155,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 July 2004</u>
-      </strong> - MAMEDiff v2.7</p>
+      <b>22 July 2004</b> - MAMEDiff v2.7</p>
     <p>
 			
 			
@@ -186,9 +166,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>21 July 2004</u>
-      </strong> - MAMEDiff v2.6</p>
+      <b>21 July 2004</b> - MAMEDiff v2.6</p>
     <p>
 			
 			
@@ -203,9 +181,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>18 July 2004</u>
-      </strong> - MAMEDiff v2.5</p>
+      <b>18 July 2004</b> - MAMEDiff v2.5</p>
     <p>
 			
 			
@@ -217,9 +193,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>11 July 2004</u>
-      </strong> - MAMEDiff v2.4</p>
+      <b>11 July 2004</b> - MAMEDiff v2.4</p>
     <p>
 			
 			
@@ -229,9 +203,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>6 July 2004</u>
-      </strong> - MAMEDiff v2.3</p>
+      <b>6 July 2004</b> - MAMEDiff v2.3</p>
     <p>
 			
 			
@@ -242,9 +214,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>5 July 2004</u>
-      </strong> - MAMEDiff v2.2</p>
+      <b>5 July 2004</b> - MAMEDiff v2.2</p>
     <p>
 			
 			
@@ -260,9 +230,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>4 July 2004</u>
-      </strong> - MAMEDiff v2.1</p>
+      <b>4 July 2004</b> - MAMEDiff v2.1</p>
     <p>
 			
 			
@@ -272,9 +240,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>2 July 2004</u>
-      </strong> - MAMEDiff v2.0</p>
+      <b>2 July 2004</b> - MAMEDiff v2.0</p>
     <p>
 			
 			
@@ -294,9 +260,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>4 March 2004</u>
-      </strong> - MAMEDiff v1.26</p>
+      <b>4 March 2004</b> - MAMEDiff v1.26</p>
     <p>
 			
 			
@@ -305,9 +269,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>31 January 2004</u>
-      </strong> - MAMEDiff v1.25</p>
+      <b>31 January 2004</b> - MAMEDiff v1.25</p>
     <p>
 			
 			
@@ -316,9 +278,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>24 January 2004</u>
-      </strong> - MAMEDiff v1.24</p>
+      <b>24 January 2004</b> - MAMEDiff v1.24</p>
     <p>
 			
 			
@@ -332,9 +292,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>20 January 2004</u>
-      </strong> - MAMEDiff v1.23</p>
+      <b>20 January 2004</b> - MAMEDiff v1.23</p>
     <p>
 			
 			
@@ -345,9 +303,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>31 December 2003</u>
-      </strong> - MAMEDiff v1.22</p>
+      <b>31 December 2003</b> - MAMEDiff v1.22</p>
     <p>
 			
 			
@@ -356,9 +312,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>28 December 2003</u>
-      </strong> - MAMEDiff v1.21</p>
+      <b>28 December 2003</b> - MAMEDiff v1.21</p>
     <p>
 			
 			
@@ -368,9 +322,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>25 August 2003</u>
-      </strong> - MAMEDiff v1.20</p>
+      <b>25 August 2003</b> - MAMEDiff v1.20</p>
     <p>
 			
 			
@@ -379,9 +331,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>20 May 2003</u>
-      </strong> - MAMEDiff v1.19</p>
+      <b>20 May 2003</b> - MAMEDiff v1.19</p>
     <p>
 			
 			
@@ -395,9 +345,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>19 May 2003</u>
-      </strong> - MAMEDiff v1.17</p>
+      <b>19 May 2003</b> - MAMEDiff v1.17</p>
     <p>
 			
 			
@@ -407,9 +355,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>7 April 2003</u>
-      </strong> - MAMEDiff v1.16</p>
+      <b>7 April 2003</b> - MAMEDiff v1.16</p>
     <p>
 			
 			
@@ -418,9 +364,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>18 January 2003</u>
-      </strong> - MAMEDiff v1.15</p>
+      <b>18 January 2003</b> - MAMEDiff v1.15</p>
     <p>
 			
 			
@@ -430,9 +374,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>14 November 2002</u>
-      </strong> - MAMEDiff v1.14</p>
+      <b>14 November 2002</b> - MAMEDiff v1.14</p>
     <p>
 			
 			
@@ -445,9 +387,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>20 May 2002</u>
-      </strong> - MAMEDiff v1.13</p>
+      <b>20 May 2002</b> - MAMEDiff v1.13</p>
     <p>
 			
 			
@@ -457,9 +397,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 April 2002</u>
-      </strong> - MAMEDiff v1.12</p>
+      <b>22 April 2002</b> - MAMEDiff v1.12</p>
     <p>
 			
 			
@@ -468,9 +406,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>4 April 2002</u>
-      </strong> - MAMEDiff v1.11</p>
+      <b>4 April 2002</b> - MAMEDiff v1.11</p>
     <p>
 			
 			
@@ -482,9 +418,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>17 March 2002</u>
-      </strong> - MAMEDiff v1.10</p>
+      <b>17 March 2002</b> - MAMEDiff v1.10</p>
     <p>
 			
 			
@@ -493,9 +427,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>15 March 2002</u>
-      </strong> - MAMEDiff v1.09</p>
+      <b>15 March 2002</b> - MAMEDiff v1.09</p>
     <p>
 			
 			
@@ -512,9 +444,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>10 February 2002</u>
-      </strong> - MAMEDiff v1.08</p>
+      <b>10 February 2002</b> - MAMEDiff v1.08</p>
     <p>
 			
 			
@@ -526,9 +456,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>7 May 2001</u>
-      </strong> - MAMEDiff v1.07</p>
+      <b>7 May 2001</b> - MAMEDiff v1.07</p>
     <p>
 			
 			
@@ -539,9 +467,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>24 March 2001</u>
-      </strong> - MAMEDiff v1.06</p>
+      <b>24 March 2001</b> - MAMEDiff v1.06</p>
     <p>
 			
 			
@@ -552,9 +478,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>11 March 2001</u>
-      </strong> - MAMEDiff v1.05</p>
+      <b>11 March 2001</b> - MAMEDiff v1.05</p>
     <p>
 			
 			
@@ -563,9 +487,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>31 December 2000</u>
-      </strong> - MAMEDiff v1.04</p>
+      <b>31 December 2000</b> - MAMEDiff v1.04</p>
     <p>
 			
 			
@@ -581,9 +503,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>28 July 2000</u>
-      </strong> - MAMEDiff v1.03</p>
+      <b>28 July 2000</b> - MAMEDiff v1.03</p>
     <p>
 			
 			
@@ -593,9 +513,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>23 May 2000</u>
-      </strong> - MAMEDiff v1.02</p>
+      <b>23 May 2000</b> - MAMEDiff v1.02</p>
     <p>
 			
 			
@@ -605,9 +523,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>24 April 2000</u>
-      </strong> - MAMEDiff v1.01</p>
+      <b>24 April 2000</b> - MAMEDiff v1.01</p>
     <p>
 			
 			
@@ -616,9 +532,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>15 April 2000</u>
-      </strong> - MAMEDiff v1.0</p>
+      <b>15 April 2000</b> - MAMEDiff v1.0</p>
     <p>
 			
 			

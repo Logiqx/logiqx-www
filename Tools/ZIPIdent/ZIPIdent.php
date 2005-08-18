@@ -64,9 +64,7 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>28 February 2005</u>
-      </strong> - ZIPIdent v2.4</p>
+      <b>28 February 2005</b> - ZIPIdent v2.4</p>
     <p>
 			
 			
@@ -77,9 +75,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 February 2005</u>
-      </strong> - ZIPIdent No change.</p>
+      <b>22 February 2005</b> - ZIPIdent No change.</p>
     <p>
 			
 			
@@ -88,9 +84,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>15 February 2005</u>
-      </strong> - ZIPIdent v2.3</p>
+      <b>15 February 2005</b> - ZIPIdent v2.3</p>
     <p>
 			
 			
@@ -101,9 +95,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 July 2004</u>
-      </strong> - ZIPIdent v2.2</p>
+      <b>22 July 2004</b> - ZIPIdent v2.2</p>
     <p>
 			
 			
@@ -114,9 +106,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>11 July 2004</u>
-      </strong> - ZIPIdent v2.1</p>
+      <b>11 July 2004</b> - ZIPIdent v2.1</p>
     <p>
 			
 			
@@ -126,9 +116,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>2 July 2004</u>
-      </strong> - ZIPIdent v2.0</p>
+      <b>2 July 2004</b> - ZIPIdent v2.0</p>
     <p>
 			
 			
@@ -139,9 +127,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>19 January 2003</u>
-      </strong> - ZIPIdent v1.01</p>
+      <b>19 January 2003</b> - ZIPIdent v1.01</p>
     <p>
 			
 			
@@ -153,9 +139,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>7 April 2002</u>
-      </strong> - ZIPIdent v1.0</p>
+      <b>7 April 2002</b> - ZIPIdent v1.0</p>
     <p>
 			
 			

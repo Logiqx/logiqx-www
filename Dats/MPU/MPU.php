@@ -68,9 +68,7 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>8 August 2001</u>
-      </strong> - 
+      <b>8 August 2001</b> - 
 			
 			First release.
 		</p>

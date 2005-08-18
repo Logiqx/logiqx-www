@@ -66,93 +66,67 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>7 August 2005</u>
-      </strong> - 
+      <b>7 August 2005</b> - 
 			
 			No change required for MAME v0.99.
 		</p>
     <p>
-      <strong>
-        <u>15 July 2005</u>
-      </strong> - 
+      <b>15 July 2005</b> - 
 			
 			No change required for MAME v0.98.
 		</p>
     <p>
-      <strong>
-        <u>6 June 2005</u>
-      </strong> - 
+      <b>6 June 2005</b> - 
 			
 			No change required for MAME v0.97.
 		</p>
     <p>
-      <strong>
-        <u>7 May 2005</u>
-      </strong> - 
+      <b>7 May 2005</b> - 
 			
 			No change required for MAME v0.96.
 		</p>
     <p>
-      <strong>
-        <u>28 March 2005</u>
-      </strong> - 
+      <b>28 March 2005</b> - 
 			
 			No change required for MAME v0.95.
 		</p>
     <p>
-      <strong>
-        <u>6 March 2005</u>
-      </strong> - 
+      <b>6 March 2005</b> - 
 			
 			No change required for MAME v0.94.
 		</p>
     <p>
-      <strong>
-        <u>27 February 2005</u>
-      </strong> - 
+      <b>27 February 2005</b> - 
 			
 			No change required for MAME v0.93.
 		</p>
     <p>
-      <strong>
-        <u>13 February 2005</u>
-      </strong> - 
+      <b>13 February 2005</b> - 
 			
 			No change required for MAME v0.92.
 		</p>
     <p>
-      <strong>
-        <u>30 January 2005</u>
-      </strong> - 
+      <b>30 January 2005</b> - 
 			
 			No change required for MAME v0.91.
 		</p>
     <p>
-      <strong>
-        <u>5 January 2005</u>
-      </strong> - 
+      <b>5 January 2005</b> - 
 			
 			No change required for MAME v0.90.
 		</p>
     <p>
-      <strong>
-        <u>24 November 2004</u>
-      </strong> - 
+      <b>24 November 2004</b> - 
 			
 			No change required for MAME v0.89.
 		</p>
     <p>
-      <strong>
-        <u>25 October 2004</u>
-      </strong> - 
+      <b>25 October 2004</b> - 
 			
 			Added supplements for MAME v0.88.
 		</p>
     <p>
-      <strong>
-        <u>27 July 2004</u>
-      </strong> - 
+      <b>27 July 2004</b> - 
 			
 			Uploaded dats for SEGA Model 2 Emulator v0.1.
 		</p>

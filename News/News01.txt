@@ -187,7 +187,7 @@
 
         <p><a href="Dats/">RomCenter Dats</a> - MAME
         v0.36/v0.37 beta, MESS v0.36/v0.37 beta, RAINE
-        v0.28f/v0.28g (all <u>needed</u> for correct behaviour of
+        v0.28f/v0.28g (all needed for correct behaviour of
         RomCenter).</p>
 
         <p><a href="Dats/">CMPro Dats</a> - MAME

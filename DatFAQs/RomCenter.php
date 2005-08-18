@@ -135,14 +135,14 @@ version=Daphne v0.99.5a</pre>
 					    <tr>
 					      <td>EMULATOR/refname</td>
 					      <td>name</td>
-					      <td>Name of the emulator <u>without</u> a version number. This field is
+					      <td>Name of the emulator without a version number. This field is
 						used to identify the emulator from one version of the data file to
 						another.</td>
 					    </tr>
 					    <tr>
 					      <td>EMULATOR/version</td>
 					      <td>description</td>
-					      <td>Name of the emulator <u>with</u> a version number. This is the name
+					      <td>Name of the emulator with a version number. This is the name
 						displayed by RomCenter.</td>
 					    </tr>
 					  </tbody>

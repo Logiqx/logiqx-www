@@ -63,7 +63,7 @@
 
 		<xsl:for-each select="revision">
 			<p>
-				<strong><u><xsl:value-of select="date"/></u></strong>
+				<b><xsl:value-of select="date"/></b>
 				<xsl:text> - </xsl:text>
 				<xsl:value-of select="../../name"/>
 				<xsl:text> </xsl:text>

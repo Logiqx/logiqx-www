@@ -66,9 +66,7 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>10 April 2005</u>
-      </strong> - DatLib v2.5</p>
+      <b>10 April 2005</b> - DatLib v2.5</p>
     <p>
 			
 			
@@ -77,9 +75,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>25 March 2005</u>
-      </strong> - DatLib v2.4</p>
+      <b>25 March 2005</b> - DatLib v2.4</p>
     <p>
 			
 			
@@ -93,9 +89,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>7 March 2005</u>
-      </strong> - DatLib v2.3</p>
+      <b>7 March 2005</b> - DatLib v2.3</p>
     <p>
 			
 			
@@ -105,9 +99,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>28 February 2005</u>
-      </strong> - DatLib v2.2</p>
+      <b>28 February 2005</b> - DatLib v2.2</p>
     <p>
 			
 			
@@ -120,9 +112,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 February 2005</u>
-      </strong> - DatLib v2.1</p>
+      <b>22 February 2005</b> - DatLib v2.1</p>
     <p>
 			
 			
@@ -139,9 +129,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>15 February 2005</u>
-      </strong> - DatLib v2.0</p>
+      <b>15 February 2005</b> - DatLib v2.0</p>
     <p>
 			
 			
@@ -170,9 +158,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>16 January 2005</u>
-      </strong> - DatLib v1.14</p>
+      <b>16 January 2005</b> - DatLib v1.14</p>
     <p>
 			
 			
@@ -182,9 +168,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>4 January 2005</u>
-      </strong> - DatLib v1.13</p>
+      <b>4 January 2005</b> - DatLib v1.13</p>
     <p>
 			
 			
@@ -195,9 +179,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>25 November 2004</u>
-      </strong> - DatLib v1.12</p>
+      <b>25 November 2004</b> - DatLib v1.12</p>
     <p>
 			
 			
@@ -206,9 +188,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>26 October 2004</u>
-      </strong> - DatLib v1.11</p>
+      <b>26 October 2004</b> - DatLib v1.11</p>
     <p>
 			
 			
@@ -217,9 +197,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>18 August 2004</u>
-      </strong> - DatLib v1.10</p>
+      <b>18 August 2004</b> - DatLib v1.10</p>
     <p>
 			
 			
@@ -228,9 +206,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>30 July 2004</u>
-      </strong> - DatLib v1.9</p>
+      <b>30 July 2004</b> - DatLib v1.9</p>
     <p>
 			
 			
@@ -240,9 +216,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 July 2004</u>
-      </strong> - DatLib v1.8</p>
+      <b>22 July 2004</b> - DatLib v1.8</p>
     <p>
 			
 			
@@ -252,9 +226,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>21 July 2004</u>
-      </strong> - DatLib v1.7</p>
+      <b>21 July 2004</b> - DatLib v1.7</p>
     <p>
 			
 			
@@ -271,9 +243,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>18 July 2004</u>
-      </strong> - DatLib v1.6</p>
+      <b>18 July 2004</b> - DatLib v1.6</p>
     <p>
 			
 			
@@ -283,9 +253,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>17 July 2004</u>
-      </strong> - DatLib v1.5</p>
+      <b>17 July 2004</b> - DatLib v1.5</p>
     <p>
 			
 			
@@ -294,9 +262,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>11 July 2004</u>
-      </strong> - DatLib v1.4</p>
+      <b>11 July 2004</b> - DatLib v1.4</p>
     <p>
 			
 			
@@ -310,9 +276,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>6 July 2004</u>
-      </strong> - DatLib v1.3</p>
+      <b>6 July 2004</b> - DatLib v1.3</p>
     <p>
 			
 			
@@ -321,9 +285,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>5 July 2004</u>
-      </strong> - DatLib v1.2</p>
+      <b>5 July 2004</b> - DatLib v1.2</p>
     <p>
 			
 			
@@ -333,9 +295,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>4 July 2004</u>
-      </strong> - DatLib v1.1</p>
+      <b>4 July 2004</b> - DatLib v1.1</p>
     <p>
 			
 			
@@ -348,9 +308,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>2 July 2004</u>
-      </strong> - DatLib v1.0</p>
+      <b>2 July 2004</b> - DatLib v1.0</p>
     <p>
 			
 			

@@ -62,8 +62,8 @@
 
 			<xsl:choose>
 				<xsl:when test="status != ''">
-					<td><p><strong><xsl:value-of select="date"/></strong></p></td>
-					<td><p><strong><xsl:value-of select="games"/></strong></p></td>
+					<td><p><b><xsl:value-of select="date"/></b></p></td>
+					<td><p><b><xsl:value-of select="games"/></b></p></td>
 				</xsl:when>
 
 				<xsl:otherwise>

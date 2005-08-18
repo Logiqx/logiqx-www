@@ -64,317 +64,227 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>7 August 2005</u>
-      </strong> - 
+      <b>7 August 2005</b> - 
 			
 			No change required for MAME v0.99.
 		</p>
     <p>
-      <strong>
-        <u>15 July 2005</u>
-      </strong> - 
+      <b>15 July 2005</b> - 
 			
 			Updated supplements for MAME v0.98.
 		</p>
     <p>
-      <strong>
-        <u>6 June 2005</u>
-      </strong> - 
+      <b>6 June 2005</b> - 
 			
 			Updated supplements for MAME v0.97.
 		</p>
     <p>
-      <strong>
-        <u>7 May 2005</u>
-      </strong> - 
+      <b>7 May 2005</b> - 
 			
 			Updated supplements for MAME v0.96.
 		</p>
     <p>
-      <strong>
-        <u>28 March 2005</u>
-      </strong> - 
+      <b>28 March 2005</b> - 
 			
 			No change required for MAME v0.95.
 		</p>
     <p>
-      <strong>
-        <u>6 March 2005</u>
-      </strong> - 
+      <b>6 March 2005</b> - 
 			
 			No change required for MAME v0.94.
 		</p>
     <p>
-      <strong>
-        <u>27 February 2005</u>
-      </strong> - 
+      <b>27 February 2005</b> - 
 			
 			No change required for MAME v0.93.
 		</p>
     <p>
-      <strong>
-        <u>13 February 2005</u>
-      </strong> - 
+      <b>13 February 2005</b> - 
 			
 			Updated supplements for MAME v0.92.
 		</p>
     <p>
-      <strong>
-        <u>30 January 2005</u>
-      </strong> - 
+      <b>30 January 2005</b> - 
 			
 			Updated supplements for MAME v0.91.
 		</p>
     <p>
-      <strong>
-        <u>27 January 2005</u>
-      </strong> - 
+      <b>27 January 2005</b> - 
 			
 			Updated for FBA v0.2.95.23.
 		</p>
     <p>
-      <strong>
-        <u>22 January 2005</u>
-      </strong> - 
+      <b>22 January 2005</b> - 
 			
 			Updated for FBA v0.2.95.22.
 		</p>
     <p>
-      <strong>
-        <u>5 January 2005</u>
-      </strong> - 
+      <b>5 January 2005</b> - 
 			
 			No change required for MAME v0.90.
 		</p>
     <p>
-      <strong>
-        <u>24 November 2004</u>
-      </strong> - 
+      <b>24 November 2004</b> - 
 			
 			Updated supplements for MAME v0.89.
 		</p>
     <p>
-      <strong>
-        <u>25 October 2004</u>
-      </strong> - 
+      <b>25 October 2004</b> - 
 			
 			No change required for MAME v0.88.
 		</p>
     <p>
-      <strong>
-        <u>23 September 2004</u>
-      </strong> - 
+      <b>23 September 2004</b> - 
 			
 			Updated supplements for MAME v0.87.
 		</p>
     <p>
-      <strong>
-        <u>24 August 2004</u>
-      </strong> - 
+      <b>24 August 2004</b> - 
 			
 			No change required for MAME v0.86.
 		</p>
     <p>
-      <strong>
-        <u>16 August 2004</u>
-      </strong> - 
+      <b>16 August 2004</b> - 
 			
 			Updated supplements for MAME v0.85.
 		</p>
     <p>
-      <strong>
-        <u>11 July 2004</u>
-      </strong> - 
+      <b>11 July 2004</b> - 
 			
 			Added SHA1 information.
 		</p>
     <p>
-      <strong>
-        <u>2 July 2004</u>
-      </strong> - 
+      <b>2 July 2004</b> - 
 			
 			No change required for MAME v0.84.
 		</p>
     <p>
-      <strong>
-        <u>5 June 2004</u>
-      </strong> - 
+      <b>5 June 2004</b> - 
 			
 			No change required for MAME v0.83.
 		</p>
     <p>
-      <strong>
-        <u>9 May 2004</u>
-      </strong> - 
+      <b>9 May 2004</b> - 
 			
 			No change required for MAME v0.82.
 		</p>
     <p>
-      <strong>
-        <u>10 April 2004</u>
-      </strong> - 
+      <b>10 April 2004</b> - 
 			
 			Updated supplements for MAME v0.81.
 		</p>
     <p>
-      <strong>
-        <u>7 March 2003</u>
-      </strong> - 
+      <b>7 March 2003</b> - 
 			
 			Updated supplements for MAME v0.80.
 		</p>
     <p>
-      <strong>
-        <u>31 January 2004</u>
-      </strong> - 
+      <b>31 January 2004</b> - 
 			
 			Updated for FBA v0.2.94.98.
 		</p>
     <p>
-      <strong>
-        <u>29 December 2003</u>
-      </strong> - 
+      <b>29 December 2003</b> - 
 			
 			Updated supplements for MAME v0.78.
 		</p>
     <p>
-      <strong>
-        <u>22 November 2003</u>
-      </strong> - 
+      <b>22 November 2003</b> - 
 			
 			Updated for FBA v0.2.94.96.
 		</p>
     <p>
-      <strong>
-        <u>13 November 2003</u>
-      </strong> - 
+      <b>13 November 2003</b> - 
 			
 			No update required, supplements are fine for MAME v0.77.
 		</p>
     <p>
-      <strong>
-        <u>19 October 2003</u>
-      </strong> - 
+      <b>19 October 2003</b> - 
 			
 			No update required, supplements are fine for MAME v0.76.
 		</p>
     <p>
-      <strong>
-        <u>14 October 2003</u>
-      </strong> - 
+      <b>14 October 2003</b> - 
 			
 			Updated supplements for MAME v0.75.
 		</p>
     <p>
-      <strong>
-        <u>18 September 2003</u>
-      </strong> - 
+      <b>18 September 2003</b> - 
 			
 			No change required for MAME v0.74.
 		</p>
     <p>
-      <strong>
-        <u>7 September 2003</u>
-      </strong> - 
+      <b>7 September 2003</b> - 
 			
 			Updated supplements for MAME v0.73.
 		</p>
     <p>
-      <strong>
-        <u>25 August 2003</u>
-      </strong> - 
+      <b>25 August 2003</b> - 
 			
 			Updated supplements for MAME v0.72.
 		</p>
     <p>
-      <strong>
-        <u>5 July 2003</u>
-      </strong> - 
+      <b>5 July 2003</b> - 
 			
 			Updated supplements for MAME v0.71.
 		</p>
     <p>
-      <strong>
-        <u>15 June 2003</u>
-      </strong> - 
+      <b>15 June 2003</b> - 
 			
 			No update required, supplements are fine for MAME v0.70.
 		</p>
     <p>
-      <strong>
-        <u>21 May 2003</u>
-      </strong> - 
+      <b>21 May 2003</b> - 
 			
 			Updated supplements for MAME v0.68.
 		</p>
     <p>
-      <strong>
-        <u>9 April 2003</u>
-      </strong> - 
+      <b>9 April 2003</b> - 
 			
 			No update required, supplements are fine for MAME v0.67.
 		</p>
     <p>
-      <strong>
-        <u>10 March 2003</u>
-      </strong> - 
+      <b>10 March 2003</b> - 
 			
 			Updated supplements for MAME v0.66.
 		</p>
     <p>
-      <strong>
-        <u>19 February 2003</u>
-      </strong> - 
+      <b>19 February 2003</b> - 
 			
 			Updated supplements for MAME v0.65.
 		</p>
     <p>
-      <strong>
-        <u>30 January 2003</u>
-      </strong> - 
+      <b>30 January 2003</b> - 
 			
 			Updated supplements for MAME v0.64.
 		</p>
     <p>
-      <strong>
-        <u>19 January 2003</u>
-      </strong> - 
+      <b>19 January 2003</b> - 
 			
 			Updated for FBA v0.2.94 (25 games added).<br/>Updated supplementary dats for MAME v0.63.
 		</p>
     <p>
-      <strong>
-        <u>30 November 2002</u>
-      </strong> - 
+      <b>30 November 2002</b> - 
 			
 			Updated supplementary dats for MAME v0.62.
 		</p>
     <p>
-      <strong>
-        <u>1 October 2002</u>
-      </strong> - 
+      <b>1 October 2002</b> - 
 			
 			Updated for FBA v0.2.93 (32 games added).
 		</p>
     <p>
-      <strong>
-        <u>3 May 2002</u>
-      </strong> - 
+      <b>3 May 2002</b> - 
 			
 			Updated supplementary dats for MAME v0.60.
 		</p>
     <p>
-      <strong>
-        <u>2 April 2002</u>
-      </strong> - 
+      <b>2 April 2002</b> - 
 			
 			Released for Final Burn Alpha v0.2.6.
 		</p>
     <p>
-      <strong>
-        <u>29 March 2002</u>
-      </strong> - 
+      <b>29 March 2002</b> - 
 			
 			Released for Final Burn Alpha v0.2.5.
 		</p>

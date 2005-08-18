@@ -64,16 +64,12 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>31 July 2005</u>
-      </strong> - 
+      <b>31 July 2005</b> - 
 			
 			Tickle "Rebound" Edition (no new ROMs needed).
 		</p>
     <p>
-      <strong>
-        <u>13 July 2004</u>
-      </strong> - 
+      <b>13 July 2004</b> - 
 			
 			Tickle v0.92.
 		</p>

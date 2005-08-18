@@ -41,7 +41,7 @@
 		<p>
 			DatUtil was created to aid in the creation of dat files for Rom Managers such as ClrMamePro and RomCenter (Roman Scherzer / Eric Bole-Feysot). It can convert between formats, extract individual games (and optionally their clones) and cleanse dats. It supports a variety of formats...<br/>
 			<br/>
-			<strong>Load and Save:</strong>
+			<b>Load and Save:</b>
       <br/>
 			<br/>
 			- MAME ListInfo (ClrMamePro, MAME, MESS, RAINE, Shark)<br/>
@@ -49,7 +49,7 @@
 			- MAME ListXML (MAME and MESS)<br/>
 			- Tab Delimited<br/>
 			<br/>
-			<strong>Load only:</strong>
+			<b>Load only:</b>
       <br/>
 			<br/>
 			- RomCenter 1.90<br/>
@@ -61,7 +61,7 @@
 			- ClrMame Log<br/>
 			- Folder Scan (subdirectories and zips)<br/>
 			<br/>
-			<strong>Save only:</strong>
+			<b>Save only:</b>
       <br/>
 			<br/>
 			- Title List (for listing game titles - used by CPS-2 readme and RAINE docs)<br/>
@@ -87,9 +87,7 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>10 April 2005</u>
-      </strong> - DatUtil v2.17</p>
+      <b>10 April 2005</b> - DatUtil v2.17</p>
     <p>
 			
 			
@@ -99,9 +97,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>25 March 2005</u>
-      </strong> - DatUtil v2.16</p>
+      <b>25 March 2005</b> - DatUtil v2.16</p>
     <p>
 			
 			
@@ -116,9 +112,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>7 March 2005</u>
-      </strong> - DatUtil v2.15</p>
+      <b>7 March 2005</b> - DatUtil v2.15</p>
     <p>
 			
 			
@@ -129,9 +123,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>28 February 2005</u>
-      </strong> - DatUtil v2.14</p>
+      <b>28 February 2005</b> - DatUtil v2.14</p>
     <p>
 			
 			
@@ -144,9 +136,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 February 2005</u>
-      </strong> - DatUtil v2.13</p>
+      <b>22 February 2005</b> - DatUtil v2.13</p>
     <p>
 			
 			
@@ -167,9 +157,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>15 February 2005</u>
-      </strong> - DatUtil v2.12</p>
+      <b>15 February 2005</b> - DatUtil v2.12</p>
     <p>
 			
 			
@@ -202,9 +190,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>16 January 2005</u>
-      </strong> - DatUtil v2.11</p>
+      <b>16 January 2005</b> - DatUtil v2.11</p>
     <p>
 			
 			
@@ -215,9 +201,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>4 January 2005</u>
-      </strong> - DatUtil v2.10</p>
+      <b>4 January 2005</b> - DatUtil v2.10</p>
     <p>
 			
 			
@@ -227,9 +211,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>25 November 2004</u>
-      </strong> - DatUtil v2.9</p>
+      <b>25 November 2004</b> - DatUtil v2.9</p>
     <p>
 			
 			
@@ -239,9 +221,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>26 October 2004</u>
-      </strong> - DatUtil v2.8</p>
+      <b>26 October 2004</b> - DatUtil v2.8</p>
     <p>
 			
 			
@@ -251,9 +231,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>18 August 2004</u>
-      </strong> - DatUtil v2.7</p>
+      <b>18 August 2004</b> - DatUtil v2.7</p>
     <p>
 			
 			
@@ -263,9 +241,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>30 July 2004</u>
-      </strong> - DatUtil v2.6</p>
+      <b>30 July 2004</b> - DatUtil v2.6</p>
     <p>
 			
 			
@@ -275,9 +251,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 July 2004</u>
-      </strong> - DatUtil v2.5</p>
+      <b>22 July 2004</b> - DatUtil v2.5</p>
     <p>
 			
 			
@@ -288,9 +262,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>21 July 2004</u>
-      </strong> - DatUtil v2.4</p>
+      <b>21 July 2004</b> - DatUtil v2.4</p>
     <p>
 			
 			
@@ -304,9 +276,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>17 July 2004</u>
-      </strong> - DatUtil v2.3</p>
+      <b>17 July 2004</b> - DatUtil v2.3</p>
     <p>
 			
 			
@@ -316,9 +286,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>11 July 2004</u>
-      </strong> - DatUtil v2.2</p>
+      <b>11 July 2004</b> - DatUtil v2.2</p>
     <p>
 			
 			
@@ -334,9 +302,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>4 July 2004</u>
-      </strong> - DatUtil v2.1</p>
+      <b>4 July 2004</b> - DatUtil v2.1</p>
     <p>
 			
 			
@@ -351,9 +317,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>2 July 2004</u>
-      </strong> - DatUtil v2.0</p>
+      <b>2 July 2004</b> - DatUtil v2.0</p>
     <p>
 			
 			
@@ -466,9 +430,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>26 February 2004</u>
-      </strong> - DatUtil v1.32</p>
+      <b>26 February 2004</b> - DatUtil v1.32</p>
     <p>
 			
 			
@@ -477,9 +439,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>31 January 2004</u>
-      </strong> - DatUtil v1.31</p>
+      <b>31 January 2004</b> - DatUtil v1.31</p>
     <p>
 			
 			
@@ -489,9 +449,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>24 January 2004</u>
-      </strong> - DatUtil v1.30</p>
+      <b>24 January 2004</b> - DatUtil v1.30</p>
     <p>
 			
 			
@@ -504,9 +462,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>20 January 2004</u>
-      </strong> - DatUtil v1.29</p>
+      <b>20 January 2004</b> - DatUtil v1.29</p>
     <p>
 			
 			
@@ -516,9 +472,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>31 December 2003</u>
-      </strong> - DatUtil v1.28</p>
+      <b>31 December 2003</b> - DatUtil v1.28</p>
     <p>
 			
 			
@@ -527,9 +481,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>29 December 2003</u>
-      </strong> - DatUtil v1.27</p>
+      <b>29 December 2003</b> - DatUtil v1.27</p>
     <p>
 			
 			
@@ -538,9 +490,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>14 September 2003</u>
-      </strong> - DatUtil v1.26</p>
+      <b>14 September 2003</b> - DatUtil v1.26</p>
     <p>
 			
 			
@@ -549,9 +499,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>25 August 2003</u>
-      </strong> - DatUtil v1.25</p>
+      <b>25 August 2003</b> - DatUtil v1.25</p>
     <p>
 			
 			
@@ -560,9 +508,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>19 May 2003</u>
-      </strong> - DatUtil v1.24</p>
+      <b>19 May 2003</b> - DatUtil v1.24</p>
     <p>
 			
 			
@@ -571,9 +517,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>19 May 2003</u>
-      </strong> - DatUtil v1.23</p>
+      <b>19 May 2003</b> - DatUtil v1.23</p>
     <p>
 			
 			
@@ -582,9 +526,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>7 April 2003</u>
-      </strong> - DatUtil v1.22</p>
+      <b>7 April 2003</b> - DatUtil v1.22</p>
     <p>
 			
 			
@@ -594,9 +536,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>18 January 2003</u>
-      </strong> - DatUtil v1.21</p>
+      <b>18 January 2003</b> - DatUtil v1.21</p>
     <p>
 			
 			
@@ -606,9 +546,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>20 May 2002</u>
-      </strong> - DatUtil v1.20</p>
+      <b>20 May 2002</b> - DatUtil v1.20</p>
     <p>
 			
 			
@@ -621,9 +559,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 April 2002</u>
-      </strong> - DatUtil v1.19</p>
+      <b>22 April 2002</b> - DatUtil v1.19</p>
     <p>
 			
 			
@@ -632,9 +568,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>20 April 2002</u>
-      </strong> - DatUtil v1.18</p>
+      <b>20 April 2002</b> - DatUtil v1.18</p>
     <p>
 			
 			
@@ -644,9 +578,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>4 April 2002</u>
-      </strong> - DatUtil v1.17</p>
+      <b>4 April 2002</b> - DatUtil v1.17</p>
     <p>
 			
 			
@@ -658,9 +590,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>29 March 2002</u>
-      </strong> - DatUtil v1.16</p>
+      <b>29 March 2002</b> - DatUtil v1.16</p>
     <p>
 			
 			
@@ -675,9 +605,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>10 February 2002</u>
-      </strong> - DatUtil v1.15</p>
+      <b>10 February 2002</b> - DatUtil v1.15</p>
     <p>
 			
 			
@@ -687,9 +615,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>11 November 2001</u>
-      </strong> - DatUtil v1.14</p>
+      <b>11 November 2001</b> - DatUtil v1.14</p>
     <p>
 			
 			
@@ -698,9 +624,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>27 September 2001</u>
-      </strong> - DatUtil v1.13</p>
+      <b>27 September 2001</b> - DatUtil v1.13</p>
     <p>
 			
 			
@@ -715,9 +639,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>28 August 2001</u>
-      </strong> - DatUtil v1.12</p>
+      <b>28 August 2001</b> - DatUtil v1.12</p>
     <p>
 			
 			
@@ -726,9 +648,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>28 June 2001</u>
-      </strong> - DatUtil v1.11</p>
+      <b>28 June 2001</b> - DatUtil v1.11</p>
     <p>
 			
 			
@@ -738,9 +658,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>23 June 2001</u>
-      </strong> - DatUtil v1.10</p>
+      <b>23 June 2001</b> - DatUtil v1.10</p>
     <p>
 			
 			
@@ -750,9 +668,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>8 June 2001</u>
-      </strong> - DatUtil v1.9</p>
+      <b>8 June 2001</b> - DatUtil v1.9</p>
     <p>
 			
 			
@@ -763,9 +679,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>18 May 2001</u>
-      </strong> - DatUtil v1.8</p>
+      <b>18 May 2001</b> - DatUtil v1.8</p>
     <p>
 			
 			
@@ -775,9 +689,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>26 April 2001</u>
-      </strong> - DatUtil v1.7</p>
+      <b>26 April 2001</b> - DatUtil v1.7</p>
     <p>
 			
 			
@@ -793,9 +705,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 February 2001</u>
-      </strong> - DatUtil v1.6</p>
+      <b>22 February 2001</b> - DatUtil v1.6</p>
     <p>
 			
 			
@@ -804,9 +714,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>6 February 2001</u>
-      </strong> - DatUtil v1.5</p>
+      <b>6 February 2001</b> - DatUtil v1.5</p>
     <p>
 			
 			
@@ -816,9 +724,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>18 December 2000</u>
-      </strong> - DatUtil v1.4</p>
+      <b>18 December 2000</b> - DatUtil v1.4</p>
     <p>
 			
 			
@@ -842,9 +748,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>19 May 2000</u>
-      </strong> - DatUtil v1.3</p>
+      <b>19 May 2000</b> - DatUtil v1.3</p>
     <p>
 			
 			
@@ -859,9 +763,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>28 April 2000</u>
-      </strong> - DatUtil v1.2</p>
+      <b>28 April 2000</b> - DatUtil v1.2</p>
     <p>
 			
 			
@@ -871,9 +773,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>8 April 2000</u>
-      </strong> - DatUtil v1.1</p>
+      <b>8 April 2000</b> - DatUtil v1.1</p>
     <p>
 			
 			
@@ -886,9 +786,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>1 April 2000</u>
-      </strong> - DatUtil v1.0</p>
+      <b>1 April 2000</b> - DatUtil v1.0</p>
     <p>
 			
 			

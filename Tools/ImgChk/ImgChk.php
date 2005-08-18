@@ -59,9 +59,7 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>28 February 2005</u>
-      </strong> - ImgChk v2.5</p>
+      <b>28 February 2005</b> - ImgChk v2.5</p>
     <p>
 			
 			
@@ -71,9 +69,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>17 August 2004</u>
-      </strong> - ImgChk v2.4</p>
+      <b>17 August 2004</b> - ImgChk v2.4</p>
     <p>
 			
 			
@@ -85,9 +81,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>6 August 2004</u>
-      </strong> - ImgChk v2.3</p>
+      <b>6 August 2004</b> - ImgChk v2.3</p>
     <p>
 			
 			
@@ -97,9 +91,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 July 2004</u>
-      </strong> - ImgChk v2.2</p>
+      <b>22 July 2004</b> - ImgChk v2.2</p>
     <p>
 			
 			
@@ -110,9 +102,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>11 July 2004</u>
-      </strong> - ImgChk v2.1</p>
+      <b>11 July 2004</b> - ImgChk v2.1</p>
     <p>
 			
 			
@@ -122,9 +112,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>2 July 2004</u>
-      </strong> - ImgChk v2.0</p>
+      <b>2 July 2004</b> - ImgChk v2.0</p>
     <p>
 			
 			
@@ -136,9 +124,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>21 January 2003</u>
-      </strong> - ImgChk v1.00</p>
+      <b>21 January 2003</b> - ImgChk v1.00</p>
     <p>
 			
 			

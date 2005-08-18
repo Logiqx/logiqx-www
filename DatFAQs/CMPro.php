@@ -91,13 +91,13 @@ game (
 					  <tr>
 					    <td>name</td>
 					    <td>EMULATOR/refname</td>
-					    <td>Name of the emulator <u>without</u> a version number. This field is
+					    <td>Name of the emulator without a version number. This field is
 						used by the update feature of the CMPro profiler.</td>
 					  </tr>
 					  <tr>
 					    <td>description</td>
 					    <td>EMULATOR/version</td>
-					    <td>Name of the emulator <u>with</u> a version number. This is the name
+					    <td>Name of the emulator with a version number. This is the name
 						displayed by CMPro.</td>
 					  </tr>
 					  <tr>

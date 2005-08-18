@@ -128,12 +128,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <strong>07/08/2005</strong>
+            <b>07/08/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <strong>1076</strong>
+            <b>1076</b>
           </p>
         </td>
       </tr>
@@ -150,12 +150,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <strong>07/08/2005</strong>
+            <b>07/08/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <strong>5705</strong>
+            <b>5705</b>
           </p>
         </td>
       </tr>
@@ -172,12 +172,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <strong>07/08/2005</strong>
+            <b>07/08/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <strong>Various</strong>
+            <b>Various</b>
           </p>
         </td>
       </tr>
@@ -258,12 +258,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <strong>07/08/2005</strong>
+            <b>07/08/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <strong>547</strong>
+            <b>547</b>
           </p>
         </td>
       </tr>
@@ -295,12 +295,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <strong>31/07/2005</strong>
+            <b>31/07/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <strong>28</strong>
+            <b>28</b>
           </p>
         </td>
       </tr>
@@ -316,12 +316,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <strong>31/07/2005</strong>
+            <b>31/07/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <strong>71</strong>
+            <b>71</b>
           </p>
         </td>
       </tr>
@@ -364,12 +364,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <strong>31/07/2005</strong>
+            <b>31/07/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <strong>Thousands of</strong>
+            <b>Thousands of</b>
           </p>
         </td>
       </tr>
@@ -428,12 +428,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <strong>07/08/2005</strong>
+            <b>07/08/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <strong>184</strong>
+            <b>184</b>
           </p>
         </td>
       </tr>
@@ -523,12 +523,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <strong>11/08/2005</strong>
+            <b>11/08/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <strong>68</strong>
+            <b>68</b>
           </p>
         </td>
       </tr>

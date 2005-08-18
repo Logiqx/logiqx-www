@@ -67,429 +67,307 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>7 August 2005</u>
-      </strong> - 
+      <b>7 August 2005</b> - 
 			
 			No change required for MAME v0.99.
 		</p>
     <p>
-      <strong>
-        <u>15 July 2005</u>
-      </strong> - 
+      <b>15 July 2005</b> - 
 			
 			No change required for MAME v0.98.
 		</p>
     <p>
-      <strong>
-        <u>6 June 2005</u>
-      </strong> - 
+      <b>6 June 2005</b> - 
 			
 			Updated supplements for MAME v0.97.
 		</p>
     <p>
-      <strong>
-        <u>7 May 2005</u>
-      </strong> - 
+      <b>7 May 2005</b> - 
 			
 			No change required for MAME v0.96.
 		</p>
     <p>
-      <strong>
-        <u>28 March 2005</u>
-      </strong> - 
+      <b>28 March 2005</b> - 
 			
 			No change required for MAME v0.95.
 		</p>
     <p>
-      <strong>
-        <u>6 March 2005</u>
-      </strong> - 
+      <b>6 March 2005</b> - 
 			
 			Updated for WinKawaks v1.54.
 		</p>
     <p>
-      <strong>
-        <u>27 February 2005</u>
-      </strong> - 
+      <b>27 February 2005</b> - 
 			
 			No change required for MAME v0.93.
 		</p>
     <p>
-      <strong>
-        <u>13 February 2005</u>
-      </strong> - 
+      <b>13 February 2005</b> - 
 			
 			Updated supplements for MAME v0.92.
 		</p>
     <p>
-      <strong>
-        <u>30 January 2005</u>
-      </strong> - 
+      <b>30 January 2005</b> - 
 			
 			Updated supplements for MAME v0.91.
 		</p>
     <p>
-      <strong>
-        <u>16 January 2005</u>
-      </strong> - 
+      <b>16 January 2005</b> - 
 			
 			Updated for WinKawaks v1.53.
 		</p>
     <p>
-      <strong>
-        <u>4 January 2005 - Pt. 2</u>
-      </strong> - 
+      <b>4 January 2005 - Pt. 2</b> - 
 			
 			Updated supplements for MAME v0.90.
 		</p>
     <p>
-      <strong>
-        <u>4 January 2005</u>
-      </strong> - 
+      <b>4 January 2005</b> - 
 			
 			Updated for WinKawaks v1.52.
 		</p>
     <p>
-      <strong>
-        <u>30 December 2004</u>
-      </strong> - 
+      <b>30 December 2004</b> - 
 			
 			Updated for WinKawaks v1.50.
 		</p>
     <p>
-      <strong>
-        <u>24 November 2004</u>
-      </strong> - 
+      <b>24 November 2004</b> - 
 			
 			Updated supplements for MAME v0.89.
 		</p>
     <p>
-      <strong>
-        <u>25 October 2004</u>
-      </strong> - 
+      <b>25 October 2004</b> - 
 			
 			No change required for MAME v0.88.
 		</p>
     <p>
-      <strong>
-        <u>23 September 2004</u>
-      </strong> - 
+      <b>23 September 2004</b> - 
 			
 			Updated supplements for MAME v0.87.
 		</p>
     <p>
-      <strong>
-        <u>24 August 2004</u>
-      </strong> - 
+      <b>24 August 2004</b> - 
 			
 			No change required for MAME v0.86.
 		</p>
     <p>
-      <strong>
-        <u>16 August 2004</u>
-      </strong> - 
+      <b>16 August 2004</b> - 
 			
 			Updated supplements for MAME v0.85.
 		</p>
     <p>
-      <strong>
-        <u>11 July 2004</u>
-      </strong> - 
+      <b>11 July 2004</b> - 
 			
 			Added SHA1 information.
 		</p>
     <p>
-      <strong>
-        <u>2 July 2004</u>
-      </strong> - 
+      <b>2 July 2004</b> - 
 			
 			Updated supplements for MAME v0.84.
 		</p>
     <p>
-      <strong>
-        <u>5 June 2004</u>
-      </strong> - 
+      <b>5 June 2004</b> - 
 			
 			No change required for MAME v0.83.
 		</p>
     <p>
-      <strong>
-        <u>9 May 2004</u>
-      </strong> - 
+      <b>9 May 2004</b> - 
 			
 			No change required for MAME v0.82.
 		</p>
     <p>
-      <strong>
-        <u>10 April 2004</u>
-      </strong> - 
+      <b>10 April 2004</b> - 
 			
 			Updated supplements for MAME v0.81.
 		</p>
     <p>
-      <strong>
-        <u>7 March 2004</u>
-      </strong> - 
+      <b>7 March 2004</b> - 
 			
 			Updated supplements for MAME v0.80.
 		</p>
     <p>
-      <strong>
-        <u>2 March 2003</u>
-      </strong> - 
+      <b>2 March 2003</b> - 
 			
 			Updated for WinKawaks v1.49. Use <a href="../../Tools/ROMBuild/rbmame80.zip">ROMBuild</a> [MAME v0.80 Special] to build the new Neo-Geo ROMs.
 		</p>
     <p>
-      <strong>
-        <u>3 February 2003</u>
-      </strong> - 
+      <b>3 February 2003</b> - 
 			
 			Updated for WinKawaks v1.48.
 		</p>
     <p>
-      <strong>
-        <u>31 January 2004</u>
-      </strong> - 
+      <b>31 January 2004</b> - 
 			
 			Updated supplements for MAME v0.79.
 		</p>
     <p>
-      <strong>
-        <u>13 November 2003</u>
-      </strong> - 
+      <b>13 November 2003</b> - 
 			
 			No update required, supplements are fine for MAME v0.77.
 		</p>
     <p>
-      <strong>
-        <u>19 October 2003</u>
-      </strong> - 
+      <b>19 October 2003</b> - 
 			
 			No update required, supplements are fine for MAME v0.76.
 		</p>
     <p>
-      <strong>
-        <u>14 October 2003</u>
-      </strong> - 
+      <b>14 October 2003</b> - 
 			
 			Updated supplements for MAME v0.75.
 		</p>
     <p>
-      <strong>
-        <u>19 September 2003</u>
-      </strong> - 
+      <b>19 September 2003</b> - 
 			
 			Updated for WinKawaks v1.47b.
 		</p>
     <p>
-      <strong>
-        <u>5 July 2003</u>
-      </strong> - 
+      <b>5 July 2003</b> - 
 			
 			Updated supplements for MAME v0.71.
 		</p>
     <p>
-      <strong>
-        <u>15 June 2003</u>
-      </strong> - 
+      <b>15 June 2003</b> - 
 			
 			Updated supplements for MAME v0.70.
 		</p>
     <p>
-      <strong>
-        <u>21 May 2003</u>
-      </strong> - 
+      <b>21 May 2003</b> - 
 			
 			Updated supplements for MAME v0.68.
 		</p>
     <p>
-      <strong>
-        <u>18 April 2003</u>
-      </strong> - 
+      <b>18 April 2003</b> - 
 			
 			Released WinKawaks v1.46 dats.<br/>Updated supplements for MAME v0.67.
 		</p>
     <p>
-      <strong>
-        <u>9 April 2003</u>
-      </strong> - 
+      <b>9 April 2003</b> - 
 			
 			No update required, supplements are fine for MAME v0.67.
 		</p>
     <p>
-      <strong>
-        <u>10 March 2003</u>
-      </strong> - 
+      <b>10 March 2003</b> - 
 			
 			Updated supplements for MAME v0.66.
 		</p>
     <p>
-      <strong>
-        <u>19 February 2003</u>
-      </strong> - 
+      <b>19 February 2003</b> - 
 			
 			Updated supplements for MAME v0.65.
 		</p>
     <p>
-      <strong>
-        <u>30 January 2003</u>
-      </strong> - 
+      <b>30 January 2003</b> - 
 			
 			Updated supplements for MAME v0.64.
 		</p>
     <p>
-      <strong>
-        <u>18 January 2003</u>
-      </strong> - 
+      <b>18 January 2003</b> - 
 			
 			Updated supplementary dats for MAME v0.63.
 		</p>
     <p>
-      <strong>
-        <u>30 November 2002</u>
-      </strong> - 
+      <b>30 November 2002</b> - 
 			
 			Updated supplementary dats for MAME v0.62.
 		</p>
     <p>
-      <strong>
-        <u>31 October 2002</u>
-      </strong> - 
+      <b>31 October 2002</b> - 
 			
 			A few minor fixes but fairly trivial.
 		</p>
     <p>
-      <strong>
-        <u>20 September 2002</u>
-      </strong> - 
+      <b>20 September 2002</b> - 
 			
 			Released WinKawaks v1.45 dats.
 		</p>
     <p>
-      <strong>
-        <u>2 May 2002</u>
-      </strong> - 
+      <b>2 May 2002</b> - 
 			
 			Released WinKawaks v1.43 dats.
 		</p>
     <p>
-      <strong>
-        <u>2 April 2002</u>
-      </strong> - 
+      <b>2 April 2002</b> - 
 			
 			Released WinKawaks v1.42 dats.
 		</p>
     <p>
-      <strong>
-        <u>15 March 2002</u>
-      </strong> - 
+      <b>15 March 2002</b> - 
 			
 			Released WinKawaks v1.41 dats including MAME Supplementary dats.
 		</p>
     <p>
-      <strong>
-        <u>18 November 2001</u>
-      </strong> - 
+      <b>18 November 2001</b> - 
 			
 			Updated for Kawaks v1.36 (latest XORs added and some changes to the KOF2000 sets).
 		</p>
     <p>
-      <strong>
-        <u>11 November 2001</u>
-      </strong> - 
+      <b>11 November 2001</b> - 
 			
 			Updated for Kawaks v1.35 (loads of Neo-Geo changes and additions).
 		</p>
     <p>
-      <strong>
-        <u>10 October 2001</u>
-      </strong> - 
+      <b>10 October 2001</b> - 
 			
 			Updated for Kawaks v1.32.<br/>Added playable games armwar, mshvsf, mshvsfj, mshvsfj1 and vsav.<br/>Added 'dummy parents' ddtod and xmvsf.
 		</p>
     <p>
-      <strong>
-        <u>12 September 2001</u>
-      </strong> - 
+      <b>12 September 2001</b> - 
 			
 			Added XORs for dstlk, dstlkr1, ddsom, sfa and sfar1.
 		</p>
     <p>
-      <strong>
-        <u>6 September 2001</u>
-      </strong> - 
+      <b>6 September 2001</b> - 
 			
 			Added Neo-Geo games for Kawaks v1.30.
 		</p>
     <p>
-      <strong>
-        <u>7 August 2001</u>
-      </strong> - 
+      <b>7 August 2001</b> - 
 			
 			Added slammast, slammasu, mbomberj, mbombrd, mbombrdj, 3wonderu, pang3j, batcirj, ecofghtr, sfa3, sfa3r1, sfz3j and vampjr1 for Kawaks v1.20. Renamed some ROMs in xmcota.
 		</p>
     <p>
-      <strong>
-        <u>28 July 2001</u>
-      </strong> - 
+      <b>28 July 2001</b> - 
 			
 			Updated for Kawaks v1.14 (added smbomb, smbombr1, mshj, sf2ja and also did some renaming).
 		</p>
     <p>
-      <strong>
-        <u>19 July 2001</u>
-      </strong> - 
+      <b>19 July 2001</b> - 
 			
 			Added Pang 3 for Kawaks v1.13.
 		</p>
     <p>
-      <strong>
-        <u>11 July 2001</u>
-      </strong> - 
+      <b>11 July 2001</b> - 
 			
 			Added Capcom Sports Club, Capcom World and SSF2 Tournament Battle for Kawaks v1.10.
 		</p>
     <p>
-      <strong>
-        <u>27 June 2001</u>
-      </strong> - 
+      <b>27 June 2001</b> - 
 			
 			Added sfz2aj and avsp (Euro) for Kawaks v1.07.
 		</p>
     <p>
-      <strong>
-        <u>24 June 2001</u>
-      </strong> - 
+      <b>24 June 2001</b> - 
 			
 			Added Forgotten Worlds and Lost Worlds for Kawaks v1.06.
 		</p>
     <p>
-      <strong>
-        <u>20 June 2001</u>
-      </strong> - 
+      <b>20 June 2001</b> - 
 			
 			Added XORs for Armored Warriors plus two new games (sfzch and dwj).
 		</p>
     <p>
-      <strong>
-        <u>13 June 2001</u>
-      </strong> - 
+      <b>13 June 2001</b> - 
 			
 			Uploaded dats for Kawaks v1.04.<br/>Street Fighter Zero 2 was added and many SF changes made (to match MAME).
 		</p>
     <p>
-      <strong>
-        <u>7 June 2001</u>
-      </strong> - 
+      <b>7 June 2001</b> - 
 			
 			Uploaded dats for Kawaks v1.02.
 		</p>
     <p>
-      <strong>
-        <u>6 June 2001</u>
-      </strong> - 
+      <b>6 June 2001</b> - 
 			
 			Uploaded dats for Kawaks v1.00.
 		</p>

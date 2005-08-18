@@ -59,9 +59,7 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>28 February 2005</u>
-      </strong> - ROMInfo v2.3</p>
+      <b>28 February 2005</b> - ROMInfo v2.3</p>
     <p>
 			
 			
@@ -71,9 +69,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 July 2004</u>
-      </strong> - ROMInfo v2.2</p>
+      <b>22 July 2004</b> - ROMInfo v2.2</p>
     <p>
 			
 			
@@ -84,9 +80,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>11 July 2004</u>
-      </strong> - ROMInfo v2.1</p>
+      <b>11 July 2004</b> - ROMInfo v2.1</p>
     <p>
 			
 			
@@ -96,9 +90,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>2 July 2004</u>
-      </strong> - ROMInfo v2.0</p>
+      <b>2 July 2004</b> - ROMInfo v2.0</p>
     <p>
 			
 			
@@ -109,9 +101,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 January 2001</u>
-      </strong> - ROMInfo v1.03</p>
+      <b>22 January 2001</b> - ROMInfo v1.03</p>
     <p>
 			
 			
@@ -123,9 +113,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>6 January 2001</u>
-      </strong> - ROMInfo v1.02</p>
+      <b>6 January 2001</b> - ROMInfo v1.02</p>
     <p>
 			
 			
@@ -134,9 +122,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>31 December 2000</u>
-      </strong> - ROMInfo v1.01</p>
+      <b>31 December 2000</b> - ROMInfo v1.01</p>
     <p>
 			
 			
@@ -145,9 +131,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>30 December 2000</u>
-      </strong> - ROMInfo v1.0</p>
+      <b>30 December 2000</b> - ROMInfo v1.0</p>
     <p>
 			
 			

@@ -53,9 +53,7 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>15 May 2003</u>
-      </strong> - AVI2CDVC v1.01</p>
+      <b>15 May 2003</b> - AVI2CDVC v1.01</p>
     <p>
 			
 			

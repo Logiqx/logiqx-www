@@ -68,65 +68,47 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>31 July 2005</u>
-      </strong> - 
+      <b>31 July 2005</b> - 
 			
 			Corrected a couple of SHA1 errors made in the last update.
 		</p>
     <p>
-      <strong>
-        <u>27 January 2005</u>
-      </strong> - 
+      <b>27 January 2005</b> - 
 			
 			Released a data file for ZiNc v1.1.
 		</p>
     <p>
-      <strong>
-        <u>11 November 2004</u>
-      </strong> - 
+      <b>11 November 2004</b> - 
 			
 			Released a data file for ZiNc v1.0.2.
 		</p>
     <p>
-      <strong>
-        <u>26 October 2004</u>
-      </strong> - 
+      <b>26 October 2004</b> - 
 			
 			Released an updated data file for ZiNc v1.0.1 (now tested).
 		</p>
     <p>
-      <strong>
-        <u>25 October 2004</u>
-      </strong> - 
+      <b>25 October 2004</b> - 
 			
 			Released data file for ZiNc v1.0.1 (n.b. untested).
 		</p>
     <p>
-      <strong>
-        <u>21 September 2003</u>
-      </strong> - 
+      <b>21 September 2003</b> - 
 			
 			Released data file for ZiNc v0.9 within the Older Emus archive.
 		</p>
     <p>
-      <strong>
-        <u>3 October 2002</u>
-      </strong> - 
+      <b>3 October 2002</b> - 
 			
 			Corrected a minor error in the merging details of sfexpj. No effect on your ROMs!
 		</p>
     <p>
-      <strong>
-        <u>9 April 2002</u>
-      </strong> - 
+      <b>9 April 2002</b> - 
 			
 			Uploaded data files for ZiNc v0.8 (renamed sound ROM in psyforce).
 		</p>
     <p>
-      <strong>
-        <u>24 March 2002</u>
-      </strong> - 
+      <b>24 March 2002</b> - 
 			
 			Uploaded data files for ZiNc v0.5.
 		</p>

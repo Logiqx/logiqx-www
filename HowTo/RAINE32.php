@@ -163,7 +163,7 @@
 					  </tr>
 					</table>
 
-					<p class="guide"><u>To install SDL:</u></p>
+					<p class="guide">To install SDL:</p>
 
 					<ol class="guide">
 					  <li>Extract <em>SDL-devel-1.2.7-mingw32.tar.gz</em> to <em>D:\</em> (a directory called <em>SDL-1.2.7</em>
@@ -184,8 +184,8 @@
 
 					<p class="guide"><a href="http://www.gzip.org/zlib/">zlib</a> (ZIP library) is used by RAINE32 for loading zipped ROMs.</p>
 
-					<p class="guide"><u>To compile zlib from the source (n.b. you can skip this and use the
-					pre-compiled version below if you wish)</u></p>
+					<p class="guide">To compile zlib from the source (n.b. you can skip this and use the
+					pre-compiled version below if you wish)</p>
 
 					<table class="guide">
 					  <tr>

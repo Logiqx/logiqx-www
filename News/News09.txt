@@ -113,7 +113,7 @@
       <td>
         <p>More MAME v0.60 related releases:</p>
 
-        <p align="center">Updated the supplementary data files for
+        <p>Updated the supplementary data files for
         <a href="Dats/">Final Burn Alpha</a> and <a href=
         "Dats/">RAINE</a></p>
       </td>

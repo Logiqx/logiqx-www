@@ -64,16 +64,12 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>13 April 2005</u>
-      </strong> - 
+      <b>13 April 2005</b> - 
 			
 			Pacifi3D v0.3.
 		</p>
     <p>
-      <strong>
-        <u>16 January 2005</u>
-      </strong> - 
+      <b>16 January 2005</b> - 
 			
 			Pacifi3D v0.1.
 		</p>

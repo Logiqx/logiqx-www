@@ -67,289 +67,207 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>7 August 2005</u>
-      </strong> - 
+      <b>7 August 2005</b> - 
 			
 			No change required for MAME v0.99.
 		</p>
     <p>
-      <strong>
-        <u>15 July 2005</u>
-      </strong> - 
+      <b>15 July 2005</b> - 
 			
 			No change required for MAME v0.98.
 		</p>
     <p>
-      <strong>
-        <u>6 June 2005</u>
-      </strong> - 
+      <b>6 June 2005</b> - 
 			
 			No change required for MAME v0.97.
 		</p>
     <p>
-      <strong>
-        <u>7 May 2005</u>
-      </strong> - 
+      <b>7 May 2005</b> - 
 			
 			No change required for MAME v0.96.
 		</p>
     <p>
-      <strong>
-        <u>28 March 2005</u>
-      </strong> - 
+      <b>28 March 2005</b> - 
 			
 			No change required for MAME v0.95.
 		</p>
     <p>
-      <strong>
-        <u>6 March 2005</u>
-      </strong> - 
+      <b>6 March 2005</b> - 
 			
 			No change required for MAME v0.94.
 		</p>
     <p>
-      <strong>
-        <u>27 February 2005</u>
-      </strong> - 
+      <b>27 February 2005</b> - 
 			
 			No change required for MAME v0.93.
 		</p>
     <p>
-      <strong>
-        <u>30 January 2005</u>
-      </strong> - 
+      <b>30 January 2005</b> - 
 			
 			No change required for MAME v0.91.
 		</p>
     <p>
-      <strong>
-        <u>4 January 2005</u>
-      </strong> - 
+      <b>4 January 2005</b> - 
 			
 			Added sf2turyu.
 		</p>
     <p>
-      <strong>
-        <u>24 November 2004</u>
-      </strong> - 
+      <b>24 November 2004</b> - 
 			
 			No change required for MAME v0.89.
 		</p>
     <p>
-      <strong>
-        <u>25 October 2004</u>
-      </strong> - 
+      <b>25 October 2004</b> - 
 			
 			No change required for MAME v0.88.
 		</p>
     <p>
-      <strong>
-        <u>23 September 2004</u>
-      </strong> - 
+      <b>23 September 2004</b> - 
 			
 			Updated to match MAME v0.87.
 		</p>
     <p>
-      <strong>
-        <u>24 August 2004</u>
-      </strong> - 
+      <b>24 August 2004</b> - 
 			
 			No change required for MAME v0.86.
 		</p>
     <p>
-      <strong>
-        <u>17 August 2004</u>
-      </strong> - 
+      <b>17 August 2004</b> - 
 			
 			No change required for MAME v0.85.
 		</p>
     <p>
-      <strong>
-        <u>11 July 2004</u>
-      </strong> - 
+      <b>11 July 2004</b> - 
 			
 			Added SHA1 information.
 		</p>
     <p>
-      <strong>
-        <u>2 July 2004</u>
-      </strong> - 
+      <b>2 July 2004</b> - 
 			
 			No change required for MAME v0.84.
 		</p>
     <p>
-      <strong>
-        <u>5 June 2004</u>
-      </strong> - 
+      <b>5 June 2004</b> - 
 			
 			No change required for MAME v0.83.
 		</p>
     <p>
-      <strong>
-        <u>9 May 2004</u>
-      </strong> - 
+      <b>9 May 2004</b> - 
 			
 			No change required for MAME v0.82.
 		</p>
     <p>
-      <strong>
-        <u>10 April 2004</u>
-      </strong> - 
+      <b>10 April 2004</b> - 
 			
 			No change required for MAME v0.81.
 		</p>
     <p>
-      <strong>
-        <u>31 January 2004</u>
-      </strong> - 
+      <b>31 January 2004</b> - 
 			
 			No change required for MAME v0.79.
 		</p>
     <p>
-      <strong>
-        <u>13 November 2003</u>
-      </strong> - 
+      <b>13 November 2003</b> - 
 			
 			No change required for MAME v0.77.
 		</p>
     <p>
-      <strong>
-        <u>19 October 2003</u>
-      </strong> - 
+      <b>19 October 2003</b> - 
 			
 			No change required for MAME v0.76.
 		</p>
     <p>
-      <strong>
-        <u>14 October 2003</u>
-      </strong> - 
+      <b>14 October 2003</b> - 
 			
 			Updated for MAME v0.75.
 		</p>
     <p>
-      <strong>
-        <u>18 September 2003</u>
-      </strong> - 
+      <b>18 September 2003</b> - 
 			
 			No change required for MAME v0.74.
 		</p>
     <p>
-      <strong>
-        <u>25 August 2003</u>
-      </strong> - 
+      <b>25 August 2003</b> - 
 			
 			No update required, supplements are fine for MAME v0.72.
 		</p>
     <p>
-      <strong>
-        <u>5 July 2003</u>
-      </strong> - 
+      <b>5 July 2003</b> - 
 			
 			No update required, supplements are fine for MAME v0.71.
 		</p>
     <p>
-      <strong>
-        <u>25 June 2003</u>
-      </strong> - 
+      <b>25 June 2003</b> - 
 			
 			Updated data files to match MAME v0.70.<br/>sf2uf+sf2ui bad dumps fixed and ffightj1 added.
 		</p>
     <p>
-      <strong>
-        <u>15 June 2003</u>
-      </strong> - 
+      <b>15 June 2003</b> - 
 			
 			Updated supplements to match MAME v0.70.
 		</p>
     <p>
-      <strong>
-        <u>1 June 2003</u>
-      </strong> - 
+      <b>1 June 2003</b> - 
 			
 			Updated to match the latest changes in MAME v0.69.<br/> (mercsua, stridrua and added sf2uk.)
 		</p>
     <p>
-      <strong>
-        <u>21 May 2003</u>
-      </strong> - 
+      <b>21 May 2003</b> - 
 			
 			Updated supplements to match MAME v0.68.
 		</p>
     <p>
-      <strong>
-        <u>6 May 2003</u>
-      </strong> - 
+      <b>6 May 2003</b> - 
 			
 			Added mercsua and stridrua.
 		</p>
     <p>
-      <strong>
-        <u>9 April 2003</u>
-      </strong> - 
+      <b>9 April 2003</b> - 
 			
 			No update required, supplements are fine for MAME v0.67.
 		</p>
     <p>
-      <strong>
-        <u>10 March 2003</u>
-      </strong> - 
+      <b>10 March 2003</b> - 
 			
 			Updated supplements to match MAME v0.66.
 		</p>
     <p>
-      <strong>
-        <u>19 February 2003</u>
-      </strong> - 
+      <b>19 February 2003</b> - 
 			
 			Updated to match MAME v0.65.
 		</p>
     <p>
-      <strong>
-        <u>30 January 2003</u>
-      </strong> - 
+      <b>30 January 2003</b> - 
 			
 			Added cawingu, sf2ceuc, sf2eg, sf2ud and willow, renamed willow to willowje.<br/>Also updated the supplements to match MAME v0.64.
 		</p>
     <p>
-      <strong>
-        <u>18 January 2003</u>
-      </strong> - 
+      <b>18 January 2003</b> - 
 			
 			Added mswordr1, sf2uf and dinou. Supplements to MAME v0.63.
 		</p>
     <p>
-      <strong>
-        <u>5 December 2002</u>
-      </strong> - 
+      <b>5 December 2002</b> - 
 			
 			Uploaded with supplements to MAME v0.62.
 		</p>
     <p>
-      <strong>
-        <u>23 October 2002</u>
-      </strong> - 
+      <b>23 October 2002</b> - 
 			
 			Added the new Street Fighter II CE hacks from Nebula v2.20.
 		</p>
     <p>
-      <strong>
-        <u>7 October 2002</u>
-      </strong> - 
+      <b>7 October 2002</b> - 
 			
 			Added dinoh, knightsh, kouryu, sf2yyc, wofh. Also added MAME supplement data files.
 		</p>
     <p>
-      <strong>
-        <u>24 March 2002</u>
-      </strong> - 
+      <b>24 March 2002</b> - 
 			
 			Added Dynasty Wars (World).
 		</p>
     <p>
-      <strong>
-        <u>3 October 2001</u>
-      </strong> - 
+      <b>3 October 2001</b> - 
 			
 			First release.
 		</p>

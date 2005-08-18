@@ -13,14 +13,14 @@
 		<p>
 			DatUtil was created to aid in the creation of dat files for Rom Managers such as ClrMamePro and RomCenter (Roman Scherzer / Eric Bole-Feysot). It can convert between formats, extract individual games (and optionally their clones) and cleanse dats. It supports a variety of formats...<br />
 			<br />
-			<strong>Load and Save:</strong><br />
+			<b>Load and Save:</b><br />
 			<br />
 			- MAME ListInfo (ClrMamePro, MAME, MESS, RAINE, Shark)<br />
 			- RomCenter 2.50<br />
 			- MAME ListXML (MAME and MESS)<br />
 			- Tab Delimited<br />
 			<br />
-			<strong>Load only:</strong><br />
+			<b>Load only:</b><br />
 			<br />
 			- RomCenter 1.90<br />
 			- RomCenter 2.00<br />
@@ -31,7 +31,7 @@
 			- ClrMame Log<br />
 			- Folder Scan (subdirectories and zips)<br />
 			<br />
-			<strong>Save only:</strong><br />
+			<b>Save only:</b><br />
 			<br />
 			- Title List (for listing game titles - used by CPS-2 readme and RAINE docs)<br />
 			- RomCenter Sublist

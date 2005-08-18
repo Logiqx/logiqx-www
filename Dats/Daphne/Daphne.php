@@ -64,58 +64,42 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>11 July 2004</u>
-      </strong> - 
+      <b>11 July 2004</b> - 
 			
 			Added SHA1 information.
 		</p>
     <p>
-      <strong>
-        <u>14 September 2003</u>
-      </strong> - 
+      <b>14 September 2003</b> - 
 			
 			Updated for Daphne 0.99.6.<br/>Accurately reflects the number of games available and ROMs required but see comments in the data file for extra details.
 		</p>
     <p>
-      <strong>
-        <u>7 November 2002</u>
-      </strong> - 
+      <b>7 November 2002</b> - 
 			
 			Renamed dle->dle11, added badlands.c4 and removed badlands.c13 to/from badlands.
 		</p>
     <p>
-      <strong>
-        <u>1 November 2002</u>
-      </strong> - 
+      <b>1 November 2002</b> - 
 			
 			Was missing Bega's Battle (2 revisions) in the last release.
 		</p>
     <p>
-      <strong>
-        <u>31 October 2002</u>
-      </strong> - 
+      <b>31 October 2002</b> - 
 			
 			Updated for Daphne v0.99.5a.<br/>Added Dragons Lair (enhanced release 2.0) and Cliffhanger (alternate).
 		</p>
     <p>
-      <strong>
-        <u>1 October 2002</u>
-      </strong> - 
+      <b>1 October 2002</b> - 
 			
 			Updated for Daphne v0.99.5.<br/>Added Space Ace enhanced and upgraded Space Ace to rev 3.<br/>Also added some PROMs and improved the merging of blazer/galaxy.
 		</p>
     <p>
-      <strong>
-        <u>20 October 2001</u>
-      </strong> - 
+      <b>20 October 2001</b> - 
 			
 			Daphne v0.99.4 (added Badlands and Goal to Go).
 		</p>
     <p>
-      <strong>
-        <u>27 September 2001</u>
-      </strong> - 
+      <b>27 September 2001</b> - 
 			
 			Daphne v0.99.3a.
 		</p>

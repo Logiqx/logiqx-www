@@ -298,7 +298,7 @@
       <td>
         <p>The data file flood continues!</p>
 
-        <p align="center">Laser v0.20, Mimic v2.08</p>
+        <p>Laser v0.20, Mimic v2.08</p>
 
         <p>Put the U64Emu data file back online too!</p>
       </td>

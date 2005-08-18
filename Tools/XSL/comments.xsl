@@ -17,10 +17,10 @@
 		</sup>
 	</xsl:template>
 
-	<xsl:template match="strong">
-		<strong>
+	<xsl:template match="b">
+		<b>
 			<xsl:apply-templates/>
-		</strong>
+		</b>
 	</xsl:template>
 
 	<xsl:template match="u">

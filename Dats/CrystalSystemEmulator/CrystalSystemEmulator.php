@@ -64,9 +64,7 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>31 December 2004</u>
-      </strong> - 
+      <b>31 December 2004</b> - 
 			
 			Crystal System Emulator v1.1.
 		</p>

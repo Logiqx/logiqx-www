@@ -82,9 +82,7 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>28 March 2005</u>
-      </strong> - ROMBuild v2.6</p>
+      <b>28 March 2005</b> - ROMBuild v2.6</p>
     <p>
 			
 			
@@ -93,9 +91,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>28 February 2005</u>
-      </strong> - ROMBuild v2.5</p>
+      <b>28 February 2005</b> - ROMBuild v2.5</p>
     <p>
 			
 			
@@ -106,9 +102,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>30 January 2005</u>
-      </strong> - ROMBuild v2.4</p>
+      <b>30 January 2005</b> - ROMBuild v2.4</p>
     <p>
 			
 			
@@ -118,9 +112,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>6 January 2005</u>
-      </strong> - ROMBuild v2.3</p>
+      <b>6 January 2005</b> - ROMBuild v2.3</p>
     <p>
 			
 			
@@ -132,9 +124,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>26 October 2004</u>
-      </strong> - ROMBuild v2.2</p>
+      <b>26 October 2004</b> - ROMBuild v2.2</p>
     <p>
 			
 			
@@ -143,9 +133,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>10 September 2004</u>
-      </strong> - ROMBuild v2.1</p>
+      <b>10 September 2004</b> - ROMBuild v2.1</p>
     <p>
 			
 			
@@ -154,9 +142,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>2 July 2004</u>
-      </strong> - ROMBuild v2.0</p>
+      <b>2 July 2004</b> - ROMBuild v2.0</p>
     <p>
 			
 			
@@ -166,9 +152,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>9 March 2004</u>
-      </strong> - ROMBuild v1.18</p>
+      <b>9 March 2004</b> - ROMBuild v1.18</p>
     <p>
 			
 			
@@ -181,9 +165,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>5 February 2004</u>
-      </strong> - ROMBuild v1.17</p>
+      <b>5 February 2004</b> - ROMBuild v1.17</p>
     <p>
 			
 			
@@ -193,9 +175,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>19 December 2003</u>
-      </strong> - ROMBuild v1.16</p>
+      <b>19 December 2003</b> - ROMBuild v1.16</p>
     <p>
 			
 			
@@ -204,9 +184,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 October 2003</u>
-      </strong> - ROMBuild v1.15</p>
+      <b>22 October 2003</b> - ROMBuild v1.15</p>
     <p>
 			
 			
@@ -220,9 +198,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>6 May 2003</u>
-      </strong> - ROMBuild v1.14</p>
+      <b>6 May 2003</b> - ROMBuild v1.14</p>
     <p>
 			
 			
@@ -232,9 +208,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>18 January 2003</u>
-      </strong> - ROMBuild v1.13</p>
+      <b>18 January 2003</b> - ROMBuild v1.13</p>
     <p>
 			
 			
@@ -243,9 +217,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>24 March 2002</u>
-      </strong> - ROMBuild v1.12</p>
+      <b>24 March 2002</b> - ROMBuild v1.12</p>
     <p>
 			
 			
@@ -255,9 +227,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>23 March 2002</u>
-      </strong> - ROMBuild v1.11</p>
+      <b>23 March 2002</b> - ROMBuild v1.11</p>
     <p>
 			
 			
@@ -271,9 +241,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>11 November 2001</u>
-      </strong> - ROMBuild v1.10</p>
+      <b>11 November 2001</b> - ROMBuild v1.10</p>
     <p>
 			
 			
@@ -283,9 +251,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>28 August 2001</u>
-      </strong> - ROMBuild v1.9</p>
+      <b>28 August 2001</b> - ROMBuild v1.9</p>
     <p>
 			
 			
@@ -295,9 +261,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>22 July 2001</u>
-      </strong> - ROMBuild v1.8</p>
+      <b>22 July 2001</b> - ROMBuild v1.8</p>
     <p>
 			
 			
@@ -307,9 +271,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>8 June 2001</u>
-      </strong> - ROMBuild v1.7</p>
+      <b>8 June 2001</b> - ROMBuild v1.7</p>
     <p>
 			
 			
@@ -319,9 +281,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>17 March 2001</u>
-      </strong> - ROMBuild v1.6</p>
+      <b>17 March 2001</b> - ROMBuild v1.6</p>
     <p>
 			
 			
@@ -333,9 +293,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>11 March 2001</u>
-      </strong> - ROMBuild v1.5</p>
+      <b>11 March 2001</b> - ROMBuild v1.5</p>
     <p>
 			
 			
@@ -344,9 +302,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>1 March 2001</u>
-      </strong> - ROMBuild v1.4</p>
+      <b>1 March 2001</b> - ROMBuild v1.4</p>
     <p>
 			
 			
@@ -355,9 +311,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>1 February 2001</u>
-      </strong> - ROMBuild v1.3</p>
+      <b>1 February 2001</b> - ROMBuild v1.3</p>
     <p>
 			
 			
@@ -366,9 +320,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>18 January 2001</u>
-      </strong> - ROMBuild v1.2</p>
+      <b>18 January 2001</b> - ROMBuild v1.2</p>
     <p>
 			
 			
@@ -377,9 +329,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>18 December 2000</u>
-      </strong> - ROMBuild v1.1</p>
+      <b>18 December 2000</b> - ROMBuild v1.1</p>
     <p>
 			
 			
@@ -388,9 +338,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>8 December 2000</u>
-      </strong> - ROMBuild v1.0</p>
+      <b>8 December 2000</b> - ROMBuild v1.0</p>
     <p>
 			
 			

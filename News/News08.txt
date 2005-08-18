@@ -217,7 +217,7 @@
         Made CRCs case insensitive.<br />
         Minor fix to -v output.</p>
 
-        <p><u>Explanation of the -t and -T options</u></p>
+        <p>Explanation of the -t and -T options</p>
 
         <p>In addition to the -M, -S and -N options that produce
         CMPro dats of changed ZIPs, you can produce 'tiny' versions

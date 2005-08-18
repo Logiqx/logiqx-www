@@ -70,7 +70,7 @@
       <td>
         <p>To reduce the number of e-mails I may receive:</p>
 
-        <p align="center">I have important things to finish at work
+        <p>I have important things to finish at work
         and until they're done there will be no new Nebula dat or
         any other updated emulator dats. Hopefully things will be
         back to normal after this weekend but I can't be sure (the

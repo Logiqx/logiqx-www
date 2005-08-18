@@ -57,9 +57,7 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <strong>
-        <u>22 July 2004</u>
-      </strong> - ZIPFind v2.2</p>
+      <b>22 July 2004</b> - ZIPFind v2.2</p>
     <p>
 			
 			
@@ -70,9 +68,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>11 July 2004</u>
-      </strong> - ZIPFind v2.1</p>
+      <b>11 July 2004</b> - ZIPFind v2.1</p>
     <p>
 			
 			
@@ -82,9 +78,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>2 July 2004</u>
-      </strong> - ZIPFind v2.0</p>
+      <b>2 July 2004</b> - ZIPFind v2.0</p>
     <p>
 			
 			
@@ -95,9 +89,7 @@
 			
 		</p>
     <p>
-      <strong>
-        <u>2 February 2003</u>
-      </strong> - ZIPFind v1.00</p>
+      <b>2 February 2003</b> - ZIPFind v1.00</p>
     <p>
 			
 			

@@ -190,8 +190,7 @@
         <p>ElSemi has released a cool new SEGA Model 2
         Emulator.</p>
 
-        <p align="center">I have upload <a href=
-        "Dats/">data files</a> for ClrMamePro and
+        <p>I have upload <a href="Dats/">data files</a> for ClrMamePro and
         RomCenter.</p>
       </td>
     </tr>
