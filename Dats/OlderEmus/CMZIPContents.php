@@ -8,7 +8,7 @@
 
 			// Display the page title
 
-			echo '<title>Logiqx - ZIP Contents</title>' . LF . LF;
+			echo '<title>Logiqx - CMPro ZIP Contents</title>' . LF . LF;
 
 			// Include standard <head> metadata
 

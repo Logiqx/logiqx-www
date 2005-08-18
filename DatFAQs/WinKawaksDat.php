@@ -8,7 +8,7 @@
 
 			// Display the page title
 
-			echo '<title>Logiqx - Dats FAQs</title>' . LF . LF;
+			echo '<title>Logiqx - WinKawaks Dat</title>' . LF . LF;
 
 			// Include standard <head> metadata
 
