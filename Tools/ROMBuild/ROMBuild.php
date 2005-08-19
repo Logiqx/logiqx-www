@@ -43,7 +43,7 @@
 		</p>
 
 		<p>
-			When used in conjunction with the <a href="../../Dats/Dats.shtml">CMPro/ROMCenter dats</a> that I have produced you can generate ROM sets for practically any emulator from MAME ROMs. In fact, the only ROMs you can't generate from MAME sets are where MAME doesn't support the game.
+			When used in conjunction with the <a href="../../Dats/">CMPro/ROMCenter dats</a> that I have produced you can generate ROM sets for practically any emulator from MAME ROMs. In fact, the only ROMs you can't generate from MAME sets are where MAME doesn't support the game.
 		</p>
 	
 
