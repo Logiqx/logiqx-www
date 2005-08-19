@@ -17,12 +17,12 @@
 <!ELEMENT games (#PCDATA)>
 <!ELEMENT author (#PCDATA)>
 <!ATTLIST author href CDATA "">
-<!ELEMENT comment (#PCDATA | p | ul| u | br | a )*>
+<!ELEMENT comment (#PCDATA | p | ul| b | br | a )*>
 <!ELEMENT p (#PCDATA | br | a | u)*>
 <!ELEMENT ul (li+)>
-<!ELEMENT li (#PCDATA | p | a | u | br)*>
+<!ELEMENT li (#PCDATA | p | a | b | br)*>
 <!ELEMENT br (#PCDATA)>
-<!ELEMENT u (#PCDATA)>
+<!ELEMENT b (#PCDATA)>
 <!ELEMENT a (#PCDATA)>
 <!ATTLIST a href CDATA "">
 

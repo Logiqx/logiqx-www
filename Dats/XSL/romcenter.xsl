@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-	<xsl:output method="html" indent="yes"/>
+	<xsl:output method="xml" indent="no" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
+        doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" omit-xml-declaration="yes"/>
 
 	<xsl:include href="comments.xsl"/>
 
 	<xsl:template match="type"/>
 
 	<xsl:template match="section">
-		<b>
-			<xsl:apply-templates/>
-		</b>
+		<xsl:apply-templates/>
 	</xsl:template>
 
 	<xsl:template match="emulators">
-		<table border="1" width="100%" cellspacing="0" cellpadding="0" bgcolor="#FFF1D5" bordercolorlight="#FFFFFF" bordercolordark="#FFCC66">
+		<table cellspacing="0" cellpadding="0">
 			<tr>
-				<td bgcolor="#FFCC66"><b><font color="#FF0000" face="Arial" size="2">Status</font></b></td>
+				<th>Status</th>
 
-				<td bgcolor="#FFCC66"><b><font color="#FF0000" face="Arial" size="2">
-					<xsl:value-of select="../type"/>
-				</font></b></td>
+				<th><xsl:value-of select="../type"/></th>
 
-				<td bgcolor="#FFCC66"><b><font color="#FF0000" size="2" face="Arial">Version</font></b></td>
-				<td bgcolor="#FFCC66"><b><font color="#FF0000" size="2" face="Arial">Author</font></b></td>
-				<td bgcolor="#FFCC66"><b><font color="#FF0000" face="Arial" size="2">Games</font></b></td>
-				<td bgcolor="#FFCC66"><b><font color="#FF0000" face="Arial" size="2">Update date</font></b></td>
+				<th>Version</th>
+				<th>Author</th>
+				<th>Games</th>
+				<th>Update date</th>
 			</tr>
 
 			<xsl:apply-templates/>
@@ -33,7 +30,7 @@
 
 	<xsl:template match="emulator">
 		<tr>
-			<td align="center"><b><font face="Arial" size="2" color="#008000">
+			<td class="status"><b>
 				<xsl:choose>
 					<xsl:when test="status = 'Updated'">
 						updated
@@ -45,17 +42,16 @@
 						-
 					</xsl:otherwise>
 				</xsl:choose>
-			</font></b></td>
+			</b></td>
 
-      			<td><font face="Arial" size="2"><a>
+      			<td><a>
 				<xsl:attribute name="href"><xsl:value-of select="@id"/>/<xsl:value-of select="dats/dat[2]/file/@name"/></xsl:attribute>
 				<b><xsl:value-of select="name"/></b>
-			</a></font></td>
+			</a></td>
 
-			<td><font face="Arial" size="2"><xsl:value-of select="version"/></font></td>
+			<td><xsl:value-of select="version"/></td>
 
-      			<td><font face="Arial" size="2">
-
+      			<td>
 				<xsl:if test="author/@href != ''">
 					<a>
 						<xsl:attribute name="href"><xsl:value-of select="author/@href"/></xsl:attribute>
@@ -68,23 +64,31 @@
 						<b><xsl:value-of select="author"/></b>
 					</a>
 				</xsl:if>
-			</font></td>
+			</td>
 
-      			<td><font face="Arial" size="2"><xsl:value-of select="games"/></font></td>
-      			<td><font face="Arial" size="2"><xsl:value-of select="date"/></font></td>
+      			<td><xsl:value-of select="games"/></td>
+      			<td><xsl:value-of select="date"/></td>
 		</tr>
 	</xsl:template>
 
 	<xsl:template match="contents_page">
-		<html>
-			<style name="fprolloverstyle">A:hover {color: #FF0000}</style>
-
+		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 			<head>
 				<title>ROMCenter Dats</title>
+
+				<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+				<meta name="author" content="Logiqx" />
+				<meta name="keywords" content="caesar,logiqx,emulation,emulators,arcade,dats" />
+				<link rel="stylesheet" href="RomCenter.css" type="text/css" />
 			</head>
 
-			<body link="#FF8000" vlink="#FF8000" alink="#FFCC66">
-    			<p><font face="Times New Roman" size="3">This datafiles list is maintained by <b>Logiqx</b>.</font> Visit the <a href="http://www.logiqx.com"><b>Logiqx Home Page</b></a> for more detailed information.</p>
+			<body>
+    				<p>This datafiles list is maintained by <b>Logiqx</b>. Visit the <a href="http://www.logiqx.com/"><b>Logiqx Home Page</b></a> for more detailed information.</p>
+
+				<p>
+					<a href="http://validator.w3.org/check?uri=referer"><img src="/resources/valid-xhtml10.png" alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/resources/valid-css.png" alt="Valid CSS!" height="31" width="88" /></a>
+				</p>
 				<xsl:apply-templates/>
 			</body>
 		</html>

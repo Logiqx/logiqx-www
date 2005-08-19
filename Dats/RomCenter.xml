@@ -30,7 +30,7 @@
 		<img src="RecentEmus.gif" width="158" height="40"/>
 		<type>Emulator</type>
 		<comment>
-			<p>Emulators that are up to a year old, still active or likely to receive further updates.<br/>These data files correspond to the <a href="http://caesar.logiqx.com/html/emus/recent.shtml" target="_blank">recent emulators</a> listed at CAESAR.</p>
+			<p><b>Emulators that are up to a year old, still active or likely to receive further updates.<br/>These data files correspond to the <a href="http://caesar.logiqx.com/php/emulators.php?id=recent">recent emulators</a> listed at CAESAR.</b></p>
 		</comment>
 		<emulators>
 &CrystalSystemEmulator;
@@ -54,7 +54,7 @@
 		<img src="OlderEmus.gif" width="140" height="40"/>
 		<type>Emulator</type>
 		<comment>
-			<p>Emulators that are no longer regarded as 'recent'.</p>
+			<p><b>Emulators that are no longer regarded as 'recent'.</b></p>
 		</comment>
 		<emulators>
 &OlderEmus;
@@ -64,7 +64,7 @@
 		<img src="Systems.gif" width="104" height="40"/>
 		<type>System</type>
 		<comment>
-			<p>General Systems</p>
+			<p><b>General Systems</b></p>
 		</comment>
 		<emulators>
 &CPS1;
@@ -77,7 +77,7 @@
 		<img src="Systems.gif" width="104" height="40"/>
 		<type>System</type>
 		<comment>
-			<p>Slightly Arcade Related (Fruit Machines/Pinball)</p>
+			<p><b>Slightly Arcade Related (Fruit Machines/Pinball)</b></p>
 		</comment>
 		<emulators>
 &MPU;
@@ -87,7 +87,7 @@
 		<img src="ResourceFiles.gif" width="177" height="40"/>
 		<type>Resource</type>
 		<comment>
-			<p>Resource Files</p>
+			<p><b>Resource Files</b></p>
 		</comment>
 		<emulators>
 &MAMEArtwork;

@@ -11,10 +11,10 @@
 		</p>
 	</xsl:template>
 
-	<xsl:template match="u">
-		<u>
+	<xsl:template match="b">
+		<b>
 			<xsl:apply-templates/>
-		</u>
+		</b>
 	</xsl:template>
 
 	<xsl:template match="ul">

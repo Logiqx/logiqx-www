@@ -1,996 +1,159 @@
-<html>
-  <style name="fprolloverstyle">A:hover {color: #FF0000}</style>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>ROMCenter Dats</title>
-  </head>
-  <body link="#FF8000" vlink="#FF8000" alink="#FFCC66">
-    <p>
-      <font face="Times New Roman" size="3">This datafiles list is maintained by <b>Logiqx</b>.</font> Visit the <a href="http://www.logiqx.com">
-        <b>Logiqx Home Page</b>
-      </a> for more detailed information.</p>
-	<b>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><title>ROMCenter Dats</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="author" content="Logiqx"/><meta name="keywords" content="caesar,logiqx,emulation,emulators,arcade,dats"/><link rel="stylesheet" href="RomCenter.css" type="text/css"/></head><body><p>This datafiles list is maintained by <b>Logiqx</b>. Visit the <a href="http://www.logiqx.com/"><b>Logiqx Home Page</b></a> for more detailed information.</p><p><a href="http://validator.w3.org/check?uri=referer"><img src="/resources/valid-xhtml10.png" alt="Valid XHTML 1.0!" height="31" width="88"/></a><a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/resources/valid-css.png" alt="Valid CSS!" height="31" width="88"/></a></p>
+	
 		
 		
 		
-			<p>Emulators that are up to a year old, still active or likely to receive further updates.<br>These data files correspond to the <a href="http://caesar.logiqx.com/html/emus/recent.shtml">recent emulators</a> listed at CAESAR.</p>
+			<p><b>Emulators that are up to a year old, still active or likely to receive further updates.<br/>These data files correspond to the <a href="http://caesar.logiqx.com/php/emulators.php?id=recent">recent emulators</a> listed at CAESAR.</b></p>
 		
-		<table border="1" width="100%" cellspacing="0" cellpadding="0" bgcolor="#FFF1D5" bordercolorlight="#FFFFFF" bordercolordark="#FFCC66">
-        <tr>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Status</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Emulator</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" size="2" face="Arial">Version</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" size="2" face="Arial">Author</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Games</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Update date</font>
-            </b>
-          </td>
-        </tr>
+		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="CrystalSystemEmulator/Crystal%20System%20Emulator%20v1.1%20(rc).zip">
-                <b>Crystal System Emulator</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v1.1</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">2</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">31/12/2004</font>
-          </td>
-        </tr>
+					</b></td><td><a href="CrystalSystemEmulator/Crystal%20System%20Emulator%20v1.1%20(rc).zip"><b>Crystal System Emulator</b></a></td><td>v1.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>2</td><td>31/12/2004</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="Daphne/Daphne%20v0.99.6%20(rc).zip">
-                <b>Daphne</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v0.99.6</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">30</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">11/07/2004</font>
-          </td>
-        </tr>
+					</b></td><td><a href="Daphne/Daphne%20v0.99.6%20(rc).zip"><b>Daphne</b></a></td><td>v0.99.6</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>30</td><td>11/07/2004</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="FinalBurnAlpha/FBA%20v0.2.95.23%20(rc).zip">
-                <b>FBA</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v0.2.95.23</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">535</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">15/07/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.95.23%20(rc).zip"><b>FBA</b></a></td><td>v0.2.95.23</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>535</td><td>15/07/2005</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="WinKawaks/WinKawaks%20v1.54%20(rc).zip">
-                <b>Kawaks</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v1.54</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">444</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">06/06/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="WinKawaks/WinKawaks%20v1.54%20(rc).zip"><b>Kawaks</b></a></td><td>v1.54</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>444</td><td>06/06/2005</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						updated
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="M1/M1%20v0.7.5a3%20(rc).zip">
-                <b>M1</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v0.7.5a3</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">1076</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">07/08/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="M1/M1%20v0.7.5a3%20(rc).zip"><b>M1</b></a></td><td>v0.7.5a3</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1076</td><td>07/08/2005</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						updated
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="MAMEBeta/MAME%20v0.99%20(rc).zip">
-                <b>MAME</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v0.99</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">5705</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">07/08/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="MAMEBeta/MAME%20v0.99%20(rc).zip"><b>MAME</b></a></td><td>v0.99</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>5705</td><td>07/08/2005</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						updated
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="MAMEChanges/MAME%20Changes%20v0.99%20(rc).zip">
-                <b>MAME Changes</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v0.99</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">Various</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">07/08/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="MAMEChanges/MAME%20Changes%20v0.99%20(rc).zip"><b>MAME Changes</b></a></td><td>v0.99</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Various</td><td>07/08/2005</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="Nebula/Nebula%20v2.24%20(rc).zip">
-                <b>Nebula</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v2.24</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">422</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">06/06/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="Nebula/Nebula%20v2.24%20(rc).zip"><b>Nebula</b></a></td><td>v2.24</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>422</td><td>06/06/2005</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="NebulaJukebox/Nebula%20Jukebox%20v2.9%20(rc).zip">
-                <b>Nebula Jukebox</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v2.9</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">249</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">13/02/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="NebulaJukebox/Nebula%20Jukebox%20v2.9%20(rc).zip"><b>Nebula Jukebox</b></a></td><td>v2.9</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>249</td><td>13/02/2005</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="Pacifi3D/Pacifi3D%20v0.3%20(rc).zip">
-                <b>Pacifi3D</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v0.3</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">11</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">13/04/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="Pacifi3D/Pacifi3D%20v0.3%20(rc).zip"><b>Pacifi3D</b></a></td><td>v0.3</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>11</td><td>13/04/2005</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="RadikalBikersEmulator/Radikal%20Bikers%20Emulator%20v0.9%20(rc).zip">
-                <b>Radikal Bikers Emulator</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v0.9</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">1</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">31/12/2004</font>
-          </td>
-        </tr>
+					</b></td><td><a href="RadikalBikersEmulator/Radikal%20Bikers%20Emulator%20v0.9%20(rc).zip"><b>Radikal Bikers Emulator</b></a></td><td>v0.9</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1</td><td>31/12/2004</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						updated
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="RAINE/RAINE%20v0.42.4%20(rc).zip">
-                <b>RAINE</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v0.42.4</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">547</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">07/08/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="RAINE/RAINE%20v0.42.4%20(rc).zip"><b>RAINE</b></a></td><td>v0.42.4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>547</td><td>07/08/2005</td></tr>
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.1%20(rc).zip">
-                <b>SEGA Model 2 Emulator</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v0.1</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">21</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">25/10/2004</font>
-          </td>
-        </tr>
+					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.1%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>21</td><td>25/10/2004</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						updated
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="Tickle/Tickle%20Rebound%20Edition%20(rc).zip">
-                <b>Tickle</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">"Rebound" Edition</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">28</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">31/07/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="Tickle/Tickle%20Rebound%20Edition%20(rc).zip"><b>Tickle</b></a></td><td>"Rebound" Edition</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>28</td><td>31/07/2005</td></tr>
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						updated
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="Zinc/ZiNc%20v1.1%20(rc).zip">
-                <b>ZiNc</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">v1.1</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">71</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">31/07/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="Zinc/ZiNc%20v1.1%20(rc).zip"><b>ZiNc</b></a></td><td>v1.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>71</td><td>31/07/2005</td></tr>
 
 		</table>
-	</b>
-	<b>
+	
+	
 		
 		
 		
-			<p>Emulators that are no longer regarded as 'recent'.</p>
+			<p><b>Emulators that are no longer regarded as 'recent'.</b></p>
 		
-		<table border="1" width="100%" cellspacing="0" cellpadding="0" bgcolor="#FFF1D5" bordercolorlight="#FFFFFF" bordercolordark="#FFCC66">
-        <tr>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Status</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Emulator</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" size="2" face="Arial">Version</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" size="2" face="Arial">Author</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Games</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Update date</font>
-            </b>
-          </td>
-        </tr>
+		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						updated
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="OlderEmus/Older%20Emus%2020050731%20(rc).zip">
-                <b>Older Emus</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">20050731</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">Thousands of</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">31/07/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="OlderEmus/Older%20Emus%2020050731%20(rc).zip"><b>Older Emus</b></a></td><td>20050731</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>31/07/2005</td></tr>
 
 		</table>
-	</b>
-	<b>
+	
+	
 		
 		
 		
-			<p>General Systems</p>
+			<p><b>General Systems</b></p>
 		
-		<table border="1" width="100%" cellspacing="0" cellpadding="0" bgcolor="#FFF1D5" bordercolorlight="#FFFFFF" bordercolordark="#FFCC66">
-        <tr>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Status</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">System</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" size="2" face="Arial">Version</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" size="2" face="Arial">Author</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Games</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Update date</font>
-            </b>
-          </td>
-        </tr>
+		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>System</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="CPS-1/CPS-1%2020050104%20(rc).zip">
-                <b>CPS-1</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">20050104</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">116</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">04/01/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="CPS-1/CPS-1%2020050104%20(rc).zip"><b>CPS-1</b></a></td><td>20050104</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>116</td><td>04/01/2005</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						updated
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="CPS-2/CPS-2%2020050807%20(rc).zip">
-                <b>CPS-2</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">20050807</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">184</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">07/08/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="CPS-2/CPS-2%2020050807%20(rc).zip"><b>CPS-2</b></a></td><td>20050807</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>184</td><td>07/08/2005</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="Neo-Geo/Neo-Geo%2020050712%20(rc).zip">
-                <b>Neo-Geo</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">20050712</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">201</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">15/07/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="Neo-Geo/Neo-Geo%2020050712%20(rc).zip"><b>Neo-Geo</b></a></td><td>20050712</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>201</td><td>15/07/2005</td></tr>
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="ZN/ZN%2020041124%20(rc).zip">
-                <b>ZN</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">20041124</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.logiqx.com">
-                <b>Logiqx</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">25</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">24/11/2004</font>
-          </td>
-        </tr>
+					</b></td><td><a href="ZN/ZN%2020041124%20(rc).zip"><b>ZN</b></a></td><td>20041124</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>25</td><td>24/11/2004</td></tr>
 
 		</table>
-	</b>
-	<b>
+	
+	
 		
 		
 		
-			<p>Slightly Arcade Related (Fruit Machines/Pinball)</p>
+			<p><b>Slightly Arcade Related (Fruit Machines/Pinball)</b></p>
 		
-		<table border="1" width="100%" cellspacing="0" cellpadding="0" bgcolor="#FFF1D5" bordercolorlight="#FFFFFF" bordercolordark="#FFCC66">
-        <tr>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Status</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">System</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" size="2" face="Arial">Version</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" size="2" face="Arial">Author</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Games</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Update date</font>
-            </b>
-          </td>
-        </tr>
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>System</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="MPU/MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip">
-                <b>MPU</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">20010808</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="mailto:firewave@breaken.de">
-                <b>Firewave</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">5</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">08/08/2001</font>
-          </td>
-        </tr>
+					</b></td><td><a href="MPU/MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip"><b>MPU</b></a></td><td>20010808</td><td><a href="mailto:firewave@breaken.de"><b>Firewave</b></a></td><td>5</td><td>08/08/2001</td></tr>
 
 		</table>
-	</b>
-	<b>
+	
+	
 		
 		
 		
-			<p>Resource Files</p>
+			<p><b>Resource Files</b></p>
 		
-		<table border="1" width="100%" cellspacing="0" cellpadding="0" bgcolor="#FFF1D5" bordercolorlight="#FFFFFF" bordercolordark="#FFCC66">
-        <tr>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Status</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Resource</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" size="2" face="Arial">Version</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" size="2" face="Arial">Author</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Games</font>
-            </b>
-          </td>
-          <td bgcolor="#FFCC66">
-            <b>
-              <font color="#FF0000" face="Arial" size="2">Update date</font>
-            </b>
-          </td>
-        </tr>
+		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Resource</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						-
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="MAMEArtwork/MAME%20Artwork%2020050104%20(rc).zip">
-                <b>MAME Artwork</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">20050104</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.clrmame.com/">
-                <b>Roman Scherzer</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">167</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">04/01/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020050104%20(rc).zip"><b>MAME Artwork</b></a></td><td>20050104</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>167</td><td>04/01/2005</td></tr>
 
 
-<tr>
-          <td align="center">
-            <b>
-              <font face="Arial" size="2" color="#008000">
+<tr><td class="status"><b>
 						updated
-					</font>
-            </b>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="MAMESamples/MAME%20Samples%2020050808%20(rc).zip">
-                <b>MAME Samples</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">20050808</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">
-              <a href="http://www.clrmame.com/">
-                <b>Roman Scherzer</b>
-              </a>
-            </font>
-          </td>
-          <td>
-            <font face="Arial" size="2">68</font>
-          </td>
-          <td>
-            <font face="Arial" size="2">11/08/2005</font>
-          </td>
-        </tr>
+					</b></td><td><a href="MAMESamples/MAME%20Samples%2020050808%20(rc).zip"><b>MAME Samples</b></a></td><td>20050808</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>68</td><td>11/08/2005</td></tr>
 
 		</table>
-	</b>
-</body>
-</html>
+	
+</body></html>

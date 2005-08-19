@@ -29,7 +29,7 @@ format, not zipped).
 <blockquote>
   <p><b>Lessons and other pearls of wisdom:</b></p>
 </blockquote>
-Remind: <a href="http://www.logiqx.com/FAQs/DatFAQs.shtml">Logiqx DAT
+Remind: <a href="../DatFAQs/">Logiqx DAT
 FAQs</a>. A must! And also a good way to start.
 <p>Lesson 0, part 1: <a href="wisdom/lesson0.html">Tools to Install</a>
 (Sept 11th) <br>
