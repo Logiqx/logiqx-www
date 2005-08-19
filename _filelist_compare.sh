@@ -5,7 +5,7 @@ PC_TMP=_filelist_pc.tmp
 ZTNET_TXT=_filelist_ztnet.txt
 ZTNET_TMP=_filelist_ztnet.tmp
 
-EXCLUSIONS="CVS	|MAMEBeta.*zip|MAMEChanges.*zip|^. team/download"
+EXCLUSIONS="CVS	|MAMEBeta.*zip|MAMEChanges.*zip|^. caesar|^. forum|^. pi|^. waagle|^. team/download"
 
 CMP_TMP=_filelist_compare.tmp
 TIDY_SH=_filelist_tidy.sh
