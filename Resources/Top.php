@@ -21,6 +21,28 @@
 
 					<hr />
 
+					<?php
+						if (!isset($non_xhtml_compliant))
+						{
+							echo '<p>' . LF;
+							echo INDENT . TAB . '<a href="http://validator.w3.org/check?uri=referer">' . LF;
+							echo INDENT . TAB . TAB . '<img src="/Resources/valid-xhtml10.png"' . LF;
+							echo INDENT . TAB . TAB . ' alt="Valid XHTML 1.0!" height="31" width="88" />' . LF;
+							echo INDENT . TAB . '</a>' . LF;
+							echo INDENT . TAB . '<br />' . LF;
+							echo INDENT . '</p>' . LF;
+						}
+
+						echo '<p>' . LF;
+						echo INDENT . TAB . '<a href="http://jigsaw.w3.org/css-validator/check/referer">' . LF;
+						echo INDENT . TAB . TAB . '<img src="/Resources/valid-css.png"' . LF;
+						echo INDENT . TAB . TAB . ' alt="Valid CSS!" height="31" width="88" />' . LF;
+						echo INDENT . TAB . '</a>' . LF;
+						echo INDENT . TAB . '<br />' . LF;
+						echo INDENT . '</p>' . LF . LF;
+						echo INDENT . '<hr />' . LF . LF;
+					?>
+
 					<p><a href="/"><img src="/Menu/NewsOff.gif"
 						onmouseover="menuOn('News')" onmouseout="menuOff('News')"
 						alt="News" width="40" height="20" id="News" /></a></p>
@@ -52,29 +74,6 @@
 					<p><a href="/Links/"><img src="/Menu/LinksOff.gif"
 						onmouseover="menuOn('Links')" onmouseout="menuOff('Links')"
 						alt="Links" width="37" height="20" id="Links" /></a></p>
-
-					<hr />
-
-					<?php
-						if (!isset($non_xhtml_compliant))
-						{
-							echo '<p>' . LF;
-							echo INDENT . TAB . '<a href="http://validator.w3.org/check?uri=referer">' . LF;
-							echo INDENT . TAB . TAB . '<img src="/Resources/valid-xhtml10.png"' . LF;
-							echo INDENT . TAB . TAB . ' alt="Valid XHTML 1.0!" height="31" width="88" />' . LF;
-							echo INDENT . TAB . '</a>' . LF;
-							echo INDENT . TAB . '<br />' . LF;
-							echo INDENT . '</p>' . LF;
-
-							echo '<p>' . LF;
-							echo INDENT . TAB . '<a href="http://jigsaw.w3.org/css-validator/check/referer">' . LF;
-							echo INDENT . TAB . TAB . '<img src="/Resources/valid-css.png"' . LF;
-							echo INDENT . TAB . TAB . ' alt="Valid CSS!" height="31" width="88" />' . LF;
-							echo INDENT . TAB . '</a>' . LF;
-							echo INDENT . TAB . '<br />' . LF;
-							echo INDENT . '</p>' . LF;
-						}
-					?>
 
 					<hr />
 
