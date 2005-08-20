@@ -8,7 +8,7 @@
 
 			// Display the page title
 
-			echo '<title>Logiqx - Last Chance!</title>' . LF . LF;
+			echo '<title>Logiqx - Video</title>' . LF . LF;
 
 			// Include standard <head> metadata
 

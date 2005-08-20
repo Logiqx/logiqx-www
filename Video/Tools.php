@@ -8,7 +8,7 @@
 
 			// Display the page title
 
-			echo '<title>Logiqx - Last Chance!</title>' . LF . LF;
+			echo '<title>Logiqx - Video Tools</title>' . LF . LF;
 
 			// Include standard <head> metadata
 
@@ -23,10 +23,10 @@
 
 			include('../Resources/Top.php');
 		?>
-					<h2>Useful Digital Video Tools:<br />
-					Applicable to DVD Ripping/Copying and Video Capture</h2>
+					<h1>Useful Digital Video Tools:<br />
+					Applicable to DVD Ripping/Copying and Video Capture</h1>
 
-					<p><b>RECOMMENDED</b></p>
+					<h2>RECOMMENDED</h2>
 					<p>
 					<b>AviSynth </b>v2.5.5 - 31/08/2004<br />
 					Use AviSynth to feed MPEG-2 or DV footage straight into CCE (or any other MPEG-2 
@@ -62,7 +62,7 @@
 					http://neuron2.net/decomb/decombnew.html</a><br />
 					<i>Freeware</i></p>
 
-					<p><b>OPTIONAL</b></p>
+					<h2>OPTIONAL</h2>
 
 					<p><b>Bitrate Viewer</b> v1.5.054 - 30/06/2002<br />
 					Despite being slightly buggy and having some odd behaviour, this tool is
@@ -71,10 +71,10 @@
 					<i>Shareware, 29.95 Euros. Warning, Bitrate figures do not seem to function as
 					expected once registered!</i></p>
 
-					<hr /><h2>Step 1 - Video Capture<br />
-					Note: This does not apply to DVD Ripping/Copying</h2>
+					<hr /><h1>Step 1 - Video Capture<br />
+					Note: This does not apply to DVD Ripping/Copying</h1>
 
-					<p><b>RECOMMENDED</b></p>
+					<h2>RECOMMENDED</h2>
 
 					<p><b>ScenalyzerLive </b>v2.1 - 28/07/2003<br />
 					The ultimate DV capture tool! ScenalyzerLive can save DV in Canopus format so AVI2CDVC (see 'optional' below) is not required.<br />
@@ -91,7 +91,7 @@
 					http://www.canopus.com/US/support/drivers/drivers_dvcodec.php</a><br />
 					<i>Freeware</i></p>
 
-					<p><b>OPTIONAL</b></p>
+					<h2>OPTIONAL</h2>
 					<p>
 					<b>AVI2CDVC </b>v1.01 - 15/05/2003<br />
 					Allows you to change the FourCC of DV captures from 'dvsd' to 'cdvc' in batch.
@@ -118,10 +118,10 @@
 
 					<hr />
 
-					<h2>Step 1 - DVD Ripping<br />
-					Note: This does not apply to Video Capture</h2>
+					<h1>Step 1 - DVD Ripping<br />
+					Note: This does not apply to Video Capture</h1>
 
-					<p><b>RECOMMENDED</b></p>
+					<h2>RECOMMENDED</h2>
 					<p>
 					<b>DVD Decrypter </b>v3.5.1.0 - 02/09/2004<br />
 					The best DVD ripper available.
@@ -147,10 +147,10 @@
 
 					<hr />
 
-					<h2>Step 2 - MPEG-2 Encoding/Transcoding<br />
-					see <a href="http://www.tecoltd.com/enctest/enctest.htm">http://www.tecoltd.com/enctest/enctest.htm</a></h2>
+					<h1>Step 2 - MPEG-2 Encoding/Transcoding<br />
+					see <a href="http://www.tecoltd.com/enctest/enctest.htm">http://www.tecoltd.com/enctest/enctest.htm</a></h1>
 
-					<p><b>RECOMMENDED</b></p>
+					<h2>RECOMMENDED</h2>
 
 					<p>
 					<b>Cinema Craft Encoder Basic (CCE-Basic)</b> v2.69.01.10 - 30/06/2004<br />
@@ -170,7 +170,7 @@
 					<a href="http://nic.dnsalias.com/ReJig.zip">http://nic.dnsalias.com/ReJig.zip</a><br />
 					<i>Freeware</i></p>
 
-					<p><b>OPTIONAL</b></p>
+					<h2>OPTIONAL</h2>
 					<p>
 					<b>Bitrate Calculator Spreadsheet </b>- 28/10/2003<br />
 					A spreadsheet that I created for calculating bitrates to be used when encoding
@@ -180,10 +180,10 @@
 
 					<hr />
 
-					<h2>Step 3 - Dolby Digital Encoding<br />
-					Note: This does not apply to DVD Ripping/Copying</h2>
+					<h1>Step 3 - Dolby Digital Encoding<br />
+					Note: This does not apply to DVD Ripping/Copying</h1>
 
-					<p><b>RECOMMENDED</b></p>
+					<h2>RECOMMENDED</h2>
 					<p><b>Soft Encode</b> v1.0<br />
 					A good Dolby Digital encoding tool.<br />
 					<a href="http://www.sonicspot.com/softencode/softencode.html">http://www.sonicspot.com/softencode/softencode.html</a><br />
@@ -197,9 +197,9 @@
 
 					<hr />
 
-					<h2>Step 4 - DVD Authoring</h2>
+					<h1>Step 4 - DVD Authoring</h1>
 
-					<p><b>RECOMMENDED</b></p>
+					<h2>RECOMMENDED</h2>
 					<p>
 					<b>DVD-lab</b> v1.3 - 23/01/2004<br />
 					A sub $100 authoring system that is very simple to use and very capable in terms of features.<br />
@@ -215,7 +215,7 @@
 					<a href="http://forum.doom9.org/showthread.php?postid=548359">http://forum.doom9.org/showthread.php?postid=548359</a><br />
 					<i>Donations (suggests $10), no registration as such</i></p>
 
-					<p><b>OPTIONAL</b></p>
+					<h2>OPTIONAL</h2>
 
 					<p><b>IfoEdit </b>v0.96 - 11/10/2003<br />
 					A very useful tool for viewing and editing IFO files (these contain all of the
