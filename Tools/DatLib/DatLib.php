@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.5</title>
+    <title>DatLib v2.6</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib25.zip">DatLib v2.5</a> (80KB)</p>
+          <p>Download <a href="datlib26.zip">DatLib v2.6</a> (81KB)</p>
           <p>
-            <a href="datlib25.zip">
+            <a href="datlib26.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,15 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>31 August 2005</b> - DatLib v2.6</p>
+    <p>
+			
+			
+			
+				- Fixed a 'hang' that occurred with circular cloneof relationships.
+			
+		</p>
     <p>
       <b>10 April 2005</b> - DatLib v2.5</p>
     <p>

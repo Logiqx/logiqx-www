@@ -50,27 +50,35 @@
 
 			<tr>
         <td>
-          <a href="DatLib/">DatLib v2.5</a>
+          <a href="DatLib/">DatLib v2.6</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>10/04/2005</p>
+          <p>
+            <strong>31/08/2005</strong>
+          </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="DatUtil/">DatUtil v2.17</a>
+          <a href="DatUtil/">DatUtil v2.18</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>10/04/2005</p>
+          <p>
+            <strong>31/08/2005</strong>
+          </p>
         </td>
       </tr>
 
@@ -89,14 +97,18 @@
 
 			<tr>
         <td>
-          <a href="MAMEDiff/">MAMEDiff v2.16</a>
+          <a href="MAMEDiff/">MAMEDiff v2.17</a>
         </td>
         <td>Data file comparison tool</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>28/02/2005</p>
+          <p>
+            <strong>31/08/2005</strong>
+          </p>
         </td>
       </tr>
 

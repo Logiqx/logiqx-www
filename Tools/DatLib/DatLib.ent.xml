@@ -3,9 +3,9 @@
 	<img src="DatLib.gif" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.5</version>
-	<status></status>
-	<date>10/04/2005</date>
+	<version>v2.6</version>
+	<status>Updated</status>
+	<date>31/08/2005</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,19 @@
 
 	<downloads>
 		<download>
-			<file name="datlib25.zip" size="80"/>
+			<file name="datlib26.zip" size="81"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>31 August 2005</date>
+			<version>v2.6</version>
+			<comment>
+				- Fixed a 'hang' that occurred with circular cloneof relationships.
+			</comment>
+		</revision>
+
 		<revision>
 			<date>10 April 2005</date>
 			<version>v2.5</version>

@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAMEDiff v2.16</title>
+    <title>MAMEDiff v2.17</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="mdiff216.zip">MAMEDiff v2.16</a> (150KB)</p>
+          <p>Download <a href="mdiff217.zip">MAMEDiff v2.17</a> (155KB)</p>
           <p>
-            <a href="mdiff216.zip">
+            <a href="mdiff217.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,16 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>31 August 2005</b> - MAMEDiff v2.18</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.6. <br/>
+				- Fixed a 'hang' that occurred with circular cloneof relationships.<br/>
+			
+		</p>
     <p>
       <b>28 February 2005</b> - MAMEDiff v2.16</p>
     <p>

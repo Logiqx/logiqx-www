@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>M1 v0.7.5a3</title>
+    <title>M1 v0.7.6</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="M1.gif" width="35" height="40" alt="M1.gif"/>
     </p>
-	<p>1076 games for M1 v0.7.5a3</p>
+	<p>1151 games for M1 v0.7.6</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="M1%20v0.7.5a3%20(cm).zip">M1 dat for CMPro</a> (214KB)</p>
+          <p>Download <a href="M1%20v0.7.6%20(cm).zip">M1 dat for CMPro</a> (193KB)</p>
           <p>
-            <a href="M1%20v0.7.5a3%20(cm).zip">
+            <a href="M1%20v0.7.6%20(cm).zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="M1%20v0.7.5a3%20(rc).zip">M1 dat for ROMCenter</a> (102KB)</p>
+          <p>Download <a href="M1%20v0.7.6%20(rc).zip">M1 dat for ROMCenter</a> (88KB)</p>
           <p>
-            <a href="M1%20v0.7.5a3%20(rc).zip">
+            <a href="M1%20v0.7.6%20(rc).zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>31 August 2005</b> - 
+			
+			Updated for M1 v0.7.6.
+		</p>
     <p>
       <b>7 August 2005</b> - 
 			

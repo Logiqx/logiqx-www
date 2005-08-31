@@ -3,9 +3,9 @@
 	<img src="MAMEDiff.gif" width="123" height="40"/>
 
 	<name>MAMEDiff</name>
-	<version>v2.16</version>
-	<status></status>
-	<date>28/02/2005</date>
+	<version>v2.17</version>
+	<status>Updated</status>
+	<date>31/08/2005</date>
 
 	<description>Data file comparison tool</description>
 
@@ -15,11 +15,20 @@
 
 	<downloads>
 		<download>
-			<file name="mdiff216.zip" size="150"/>
+			<file name="mdiff217.zip" size="155"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>31 August 2005</date>
+			<version>v2.18</version>
+			<comment>
+				- Uses DatLib v2.6. <br />
+				- Fixed a 'hang' that occurred with circular cloneof relationships.<br />
+			</comment>
+		</revision>
+
 		<revision>
 			<date>28 February 2005</date>
 			<version>v2.16</version>

@@ -30,16 +30,16 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="M1/M1%20v0.7.5a3%20(rc).zip"><b>M1</b></a></td><td>v0.7.5a3</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1076</td><td>07/08/2005</td></tr>
+					</b></td><td><a href="M1/M1%20v0.7.6%20(rc).zip"><b>M1</b></a></td><td>v0.7.6</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1151</td><td>31/08/2005</td></tr>
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="MAMEBeta/MAME%20v0.99%20(rc).zip"><b>MAME</b></a></td><td>v0.99</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>5705</td><td>07/08/2005</td></tr>
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="MAMEChanges/MAME%20Changes%20v0.99%20(rc).zip"><b>MAME Changes</b></a></td><td>v0.99</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Various</td><td>07/08/2005</td></tr>
 
 
@@ -65,7 +65,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="RAINE/RAINE%20v0.42.4%20(rc).zip"><b>RAINE</b></a></td><td>v0.42.4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>547</td><td>07/08/2005</td></tr>
+					</b></td><td><a href="RAINE/RAINE%20v0.43.0%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.0</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>553</td><td>31/08/2005</td></tr>
 
 <tr><td class="status"><b>
 						-
@@ -73,11 +73,11 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="Tickle/Tickle%20Rebound%20Edition%20(rc).zip"><b>Tickle</b></a></td><td>"Rebound" Edition</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>28</td><td>31/07/2005</td></tr>
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="Zinc/ZiNc%20v1.1%20(rc).zip"><b>ZiNc</b></a></td><td>v1.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>71</td><td>31/07/2005</td></tr>
 
 		</table>
@@ -91,7 +91,7 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="OlderEmus/Older%20Emus%2020050731%20(rc).zip"><b>Older Emus</b></a></td><td>20050731</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>31/07/2005</td></tr>
 
 		</table>
@@ -110,7 +110,7 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="CPS-2/CPS-2%2020050807%20(rc).zip"><b>CPS-2</b></a></td><td>20050807</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>184</td><td>07/08/2005</td></tr>
 
 
@@ -151,7 +151,7 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="MAMESamples/MAME%20Samples%2020050808%20(rc).zip"><b>MAME Samples</b></a></td><td>20050808</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>68</td><td>11/08/2005</td></tr>
 
 		</table>

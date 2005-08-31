@@ -8,6 +8,7 @@ RewriteEngine On
 
 # Do not allow external linking to images and ZIPs
 
+RewriteCond %{HTTP_REFERER} !^$
 RewriteCond %{HTTP_REFERER} !^http://[^/]*logiqx[^/]*/?.*$ [NC]
 RewriteRule .*\.(jpg|gif|png|zip)$ - [F,NC]
 

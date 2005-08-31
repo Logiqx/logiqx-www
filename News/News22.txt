@@ -1,3 +1,14 @@
+  <h1>31 August 2005</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>I have updated the <a href="Dats/">data files</a> for M1 v0.7.6 and RAINE v0.43.0.</p>
+        <p>In addition to that, I have released bug-fixes for some of my <a href="Tools/">tools</a> (DatLib, DatUtil and MAMEDiff).</p>
+      </td>
+    </tr>
+  </table>
+
   <h1>18 August 2005</h1>
 
   <table class="news">

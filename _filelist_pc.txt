@@ -1,4 +1,4 @@
-.	.htaccess	604
+.	.htaccess	611
 .	_archive_bit_clear.bat	133
 .	_filelist_compare.sh	1118
 .	_filelist_pc.bat	289
@@ -57,9 +57,10 @@ Dats	Dats.xml	2925
 Dats	OlderEmus.gif	2785
 Dats	RecentEmus.gif	3013
 Dats	ResourceFiles.gif	2855
+Dats	RomCenter.css	906
 Dats	RomCenter.inf	3539
-Dats	RomCenter.php	25850
-Dats	RomCenter.xml	3065
+Dats	RomCenter.php	8023
+Dats	RomCenter.xml	3089
 Dats	Systems.gif	2213
 Dats/CPS-1	CPS-1 20050104 (cm).zip	45893
 Dats/CPS-1	CPS-1 20050104 (rc).zip	24460
@@ -90,7 +91,7 @@ Dats/CrystalSystemEmulator	CrystalSystemEmulator.xml	216
 Dats/CrystalSystemEmulator/CVS	Entries	394
 Dats/CrystalSystemEmulator/CVS	Repository	50
 Dats/CrystalSystemEmulator/CVS	Root	26
-Dats/CVS	Entries	1013
+Dats/CVS	Entries	1060
 Dats/CVS	Repository	28
 Dats/CVS	Root	26
 Dats/Daphne	Daphne v0.99.6 (cm).zip	5927
@@ -283,9 +284,9 @@ Dats/XSL	comments.xsl	797
 Dats/XSL	contents.xsl	4503
 Dats/XSL	emulator.xsl	3549
 Dats/XSL	filelist.xsl	433
-Dats/XSL	romcenter.xsl	3038
+Dats/XSL	romcenter.xsl	2984
 Dats/XSL	romcenter_inf.xsl	1276
-Dats/XSL/CVS	Entries	297
+Dats/XSL/CVS	Entries	293
 Dats/XSL/CVS	Repository	32
 Dats/XSL/CVS	Root	26
 Dats/Zinc	_zip_zinc.bat	614
@@ -766,7 +767,7 @@ Resources	Logiqx.css	1372
 Resources	Logiqx.gif	12793
 Resources	New.gif	1084
 Resources	Texture.gif	25022
-Resources	Top.php	4038
+Resources	Top.php	4062
 Resources	Updated.gif	1195
 Resources	URLBig.gif	3995
 Resources	valid-css.png	1582
@@ -779,28 +780,28 @@ suspended.page/CVS	Entries	47
 suspended.page/CVS	Repository	38
 suspended.page/CVS	Root	26
 team	.htaccess	107
-team	team.php	2886
+team	team.php	3257
 team/CVS	Entries	115
 team/CVS	Repository	28
 team/CVS	Root	26
-team/download	index.html	2183
+team/download	download.php	1915
 team/download	mame_related_updates.xls	19456
 team/download	phpbb_db_backup.zip	7484
-team/download/CVS	Entries	161
+team/download/CVS	Entries	163
 team/download/CVS	Repository	37
 team/download/CVS	Root	26
-team/wisdom	cygwin.html	2919
-team/wisdom	exercise1.html	1695
-team/wisdom	exercise2.html	1222
-team/wisdom	lesson0.html	3447
-team/wisdom	lesson1.html	9292
-team/wisdom	lesson2.html	9260
-team/wisdom	lesson3.html	3572
-team/wisdom	lesson4.html	2035
-team/wisdom	lesson5.html	1758
-team/wisdom	lesson6.html	3379
-team/wisdom	lesson7.html	4272
-team/wisdom/CVS	Entries	575
+team/wisdom	cygwin.php	4431
+team/wisdom	exercise1.php	2578
+team/wisdom	exercise2.php	1984
+team/wisdom	lesson0.php	4695
+team/wisdom	lesson1.php	10964
+team/wisdom	lesson2.php	10858
+team/wisdom	lesson3.php	4362
+team/wisdom	lesson4.php	2938
+team/wisdom	lesson5.php	2599
+team/wisdom	lesson6.php	4591
+team/wisdom	lesson7.php	5646
+team/wisdom/CVS	Entries	520
 team/wisdom/CVS	Repository	35
 team/wisdom/CVS	Root	26
 team/wisdom/img	2002-DSC_0301c.jpg	158823
@@ -886,9 +887,9 @@ Tools/MAMEDiff/CVS	Repository	38
 Tools/MAMEDiff/CVS	Root	26
 Tools/ROMBuild	rbmame80.zip	52512
 Tools/ROMBuild	rbuild26.zip	107274
-Tools/ROMBuild	ROMBuild.ent.xml	8824
+Tools/ROMBuild	ROMBuild.ent.xml	8814
 Tools/ROMBuild	ROMBuild.gif	2774
-Tools/ROMBuild	ROMBuild.php	9022
+Tools/ROMBuild	ROMBuild.php	9012
 Tools/ROMBuild	ROMBuild.xml	179
 Tools/ROMBuild/CVS	Entries	292
 Tools/ROMBuild/CVS	Repository	38
@@ -928,14 +929,14 @@ upload	_upload.bat	173
 upload/CVS	Entries	48
 upload/CVS	Repository	30
 upload/CVS	Root	26
-Video	Tools.html	9287
-Video	Video.php	1140
+Video	Tools.php	10533
+Video	Video.php	2031
 Video/CCE Basic Settings	PAL 4.3 - Interlaced DV - 2-pass VBR - Advanced.png	14093
 Video/CCE Basic Settings	PAL 4.3 - Interlaced DV - 2-pass VBR - General.png	24984
 Video/CCE Basic Settings/CVS	Entries	178
 Video/CCE Basic Settings/CVS	Repository	48
 Video/CCE Basic Settings/CVS	Root	26
-Video/CVS	Entries	143
+Video/CVS	Entries	142
 Video/CVS	Repository	29
 Video/CVS	Root	26
 Video/DVD Decrypter Settings	1 - General.png	14287
