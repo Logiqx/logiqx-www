@@ -30,7 +30,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="M1/M1%20v0.7.6%20(rc).zip"><b>M1</b></a></td><td>v0.7.6</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1151</td><td>31/08/2005</td></tr>
+					</b></td><td><a href="M1/M1%20v0.7.7%20(rc).zip"><b>M1</b></a></td><td>v0.7.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1157</td><td>03/09/2005</td></tr>
 
 
 <tr><td class="status"><b>

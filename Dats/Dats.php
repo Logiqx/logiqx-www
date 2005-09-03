@@ -119,7 +119,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="M1/">M1 v0.7.6</a>
+          <a href="M1/">M1 v0.7.7</a>
         </td>
         <td>
           <p>
@@ -128,12 +128,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>31/08/2005</b>
+            <b>03/09/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <b>1151</b>
+            <b>1157</b>
           </p>
         </td>
       </tr>
