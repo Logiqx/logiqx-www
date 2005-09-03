@@ -26,9 +26,9 @@
 
 					<p><img src="Compiling.gif" width="317" height="40" alt="Compiling MAME &amp; RAINE" /></p>
 
-					<p>24th February 2005</p>
+					<p>3rd September 2005</p>
 
-					<p>Tested with MAME v0.92u2000 and RAINE32 v0.42.3</p>
+					<p>Tested with MAME v0.99 and RAINE32 v0.43.0</p>
 
 					<h1 class="guide">1. Introduction</h1>
 
@@ -73,12 +73,12 @@
 					    <td> Binutils 2.15.91 (binary and object handling)</td>
 					  </tr>
 					  <tr>
-					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/mingw-runtime-3.7.tar.gz">mingw-runtime-3.7.tar.gz</a></td>
-					    <td>MinGW Runtime 3.7 (stdio etc)</td>
+					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/mingw-runtime-3.8.tar.gz">mingw-runtime-3.8.tar.gz</a></td>
+					    <td>MinGW Runtime 3.8 (stdio etc)</td>
 					  </tr>
 					  <tr>
-					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/w32api-3.2.tar.gz">w32api-3.2.tar.gz</a></td>
-					    <td>Windows API 3.2 (needed during linking)</td>
+					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/w32api-3.3.tar.gz">w32api-3.3.tar.gz</a></td>
+					    <td>Windows API 3.3 (needed during linking)</td>
 					  </tr>
 					</table>
 
@@ -240,7 +240,7 @@
 					    extracted the MAME source). </li>
 					  <li>Open an MSYS window and change directory to <em>D:/MAME</em>  (note the
 					    forward slash since you are using MSYS). </li>
-					  <li>Type 'patch -p1 &lt;whatever.diff' and press return.<br />
+					  <li>Type 'patch -p0 -E &lt;whatever.diff' and press return.<br />
 					    Use this procedure for all of the updates that you wish to apply.<br />
 					    Note: Be sure to apply all updates in the correct sequence and do not miss any out! </li>
 					  <li>Type 'make clean' and press return. </li>
