@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.6</title>
+    <title>DatLib v2.7</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib26.zip">DatLib v2.6</a> (81KB)</p>
+          <p>Download <a href="datlib27.zip">DatLib v2.7</a> (81KB)</p>
           <p>
-            <a href="datlib26.zip">
+            <a href="datlib27.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,17 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>17 September 2005</b> - DatLib v2.7</p>
+    <p>
+			
+			
+			
+				- Compiled with zlib 1.3.<br/>
+				- Improved Neo-Geo handling for the Nebula driver.<br/>
+				- Improved 'romof' handling for RomCenter 2 driver (during loading).
+			
+		</p>
     <p>
       <b>31 August 2005</b> - DatLib v2.6</p>
     <p>

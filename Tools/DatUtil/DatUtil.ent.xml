@@ -3,9 +3,9 @@
 	<img src="DatUtil.gif" width="81" height="40"/>
 
 	<name>DatUtil</name>
-	<version>v2.18</version>
+	<version>v2.19</version>
 	<status>Updated</status>
-	<date>31/08/2005</date>
+	<date>17/09/2005</date>
 
 	<description>Data file creation/conversion tool</description>
 
@@ -40,11 +40,22 @@
 
 	<downloads>
 		<download>
-			<file name="dutil218.zip" size="135"/>
+			<file name="dutil219.zip" size="287"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>17 September 2005</date>
+			<version>v2.19</version>
+			<comment>
+				- Uses DatLib v2.7.<br/>
+				- Compiled with zlib 1.3.<br/>
+				- Improved Neo-Geo handling for the Nebula driver.<br/>
+				- Improved 'romof' handling for RomCenter 2 driver (during loading).
+			</comment>
+		</revision>
+
 		<revision>
 			<date>31 August 2005</date>
 			<version>v2.18</version>

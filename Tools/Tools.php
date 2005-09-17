@@ -50,7 +50,7 @@
 
 			<tr>
         <td>
-          <a href="DatLib/">DatLib v2.6</a>
+          <a href="DatLib/">DatLib v2.7</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
@@ -60,14 +60,14 @@
         </td>
         <td>
           <p>
-            <strong>31/08/2005</strong>
+            <strong>17/09/2005</strong>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="DatUtil/">DatUtil v2.18</a>
+          <a href="DatUtil/">DatUtil v2.19</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
@@ -77,7 +77,7 @@
         </td>
         <td>
           <p>
-            <strong>31/08/2005</strong>
+            <strong>17/09/2005</strong>
           </p>
         </td>
       </tr>
@@ -97,7 +97,7 @@
 
 			<tr>
         <td>
-          <a href="MAMEDiff/">MAMEDiff v2.17</a>
+          <a href="MAMEDiff/">MAMEDiff v2.18</a>
         </td>
         <td>Data file comparison tool</td>
         <td>
@@ -107,7 +107,7 @@
         </td>
         <td>
           <p>
-            <strong>31/08/2005</strong>
+            <strong>17/09/2005</strong>
           </p>
         </td>
       </tr>

@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.18</title>
+    <title>DatUtil v2.19</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -72,9 +72,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil218.zip">DatUtil v2.18</a> (135KB)</p>
+          <p>Download <a href="dutil219.zip">DatUtil v2.19</a> (287KB)</p>
           <p>
-            <a href="dutil218.zip">
+            <a href="dutil219.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -86,6 +86,18 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>17 September 2005</b> - DatUtil v2.19</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.7.<br/>
+				- Compiled with zlib 1.3.<br/>
+				- Improved Neo-Geo handling for the Nebula driver.<br/>
+				- Improved 'romof' handling for RomCenter 2 driver (during loading).
+			
+		</p>
     <p>
       <b>31 August 2005</b> - DatUtil v2.18</p>
     <p>
