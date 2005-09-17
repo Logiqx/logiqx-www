@@ -90,13 +90,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="FinalBurnAlpha/">FBA v0.2.95.23</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>15/07/2005</p>
+          <p>
+            <b>17/09/2005</b>
+          </p>
         </td>
         <td>
-          <p>535</p>
+          <p>
+            <b>535</b>
+          </p>
         </td>
       </tr>
 
@@ -106,13 +112,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="WinKawaks/">Kawaks v1.54</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>06/06/2005</p>
+          <p>
+            <b>17/09/2005</b>
+          </p>
         </td>
         <td>
-          <p>444</p>
+          <p>
+            <b>444</b>
+          </p>
         </td>
       </tr>
 
@@ -128,7 +140,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>03/09/2005</b>
+            <b>17/09/2005</b>
           </p>
         </td>
         <td>
@@ -141,48 +153,66 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMEBeta/">MAME v0.99</a>
+          <a href="MAMEBeta/">MAME v0.100</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>07/08/2005</p>
+          <p>
+            <b>17/09/2005</b>
+          </p>
         </td>
         <td>
-          <p>5705</p>
-        </td>
-      </tr>
-
-			
-<tr>
-        <td>
-          <a href="MAMEChanges/">MAME Changes v0.99</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>07/08/2005</p>
-        </td>
-        <td>
-          <p>Various</p>
+          <p>
+            <b>5778</b>
+          </p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="Nebula/">Nebula v2.24</a>
+          <a href="MAMEChanges/">MAME Changes v0.100</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>06/06/2005</p>
+          <p>
+            <b>17/09/2005</b>
+          </p>
         </td>
         <td>
-          <p>422</p>
+          <p>
+            <b>Various</b>
+          </p>
+        </td>
+      </tr>
+
+			
+<tr>
+        <td>
+          <a href="Nebula/">Nebula v2.25</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>17/09/2005</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>469</b>
+          </p>
         </td>
       </tr>
 
@@ -237,7 +267,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RAINE/">RAINE v0.43.0</a>
+          <a href="RAINE/">RAINE v0.43.1</a>
         </td>
         <td>
           <p>
@@ -246,12 +276,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>31/08/2005</b>
+            <b>17/09/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <b>553</b>
+            <b>560</b>
           </p>
         </td>
       </tr>
@@ -373,32 +403,44 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="CPS-1/">CPS-1 20050104</a>
+          <a href="CPS-1/">CPS-1 20050917</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>04/01/2005</p>
+          <p>
+            <b>17/09/2005</b>
+          </p>
         </td>
         <td>
-          <p>116</p>
+          <p>
+            <b>119</b>
+          </p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="CPS-2/">CPS-2 20050807</a>
+          <a href="CPS-2/">CPS-2 20050916</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>07/08/2005</p>
+          <p>
+            <b>17/09/2005</b>
+          </p>
         </td>
         <td>
-          <p>184</p>
+          <p>
+            <b>186</b>
+          </p>
         </td>
       </tr>
 

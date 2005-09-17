@@ -67,6 +67,11 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>17 September 2005</b> - 
+			
+			No change required for MAME v0.100.
+		</p>
+    <p>
       <b>11 August 2005</b> - 
 			
 			Roman updated the datafile for MAME v0.99.

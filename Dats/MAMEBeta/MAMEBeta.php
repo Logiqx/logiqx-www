@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAME v0.99</title>
+    <title>MAME v0.100</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="MAME.gif" width="80" height="40" alt="MAME.gif"/>
     </p>
-	<p>5705 games for MAME v0.99</p>
+	<p>5778 games for MAME v0.100</p>
 	
 	
 	
@@ -46,17 +46,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20v0.99%20(cm).zip">MAME dat for CMPro</a> (1983KB)</p>
+          <p>Download <a href="MAME%20v0.100%20(cm).zip">MAME dat for CMPro</a> (2067KB)</p>
           <p>
-            <a href="MAME%20v0.99%20(cm).zip">
+            <a href="MAME%20v0.100%20(cm).zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20v0.99%20(rc).zip">MAME dat for ROMCenter</a> (847KB)</p>
+          <p>Download <a href="MAME%20v0.100%20(rc).zip">MAME dat for ROMCenter</a> (893KB)</p>
           <p>
-            <a href="MAME%20v0.99%20(rc).zip">
+            <a href="MAME%20v0.100%20(rc).zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>17 September 2005</b> - 
+			
+			Uploaded dats for MAME v0.100.
+		</p>
     <p>
       <b>7 August 2005</b> - 
 			

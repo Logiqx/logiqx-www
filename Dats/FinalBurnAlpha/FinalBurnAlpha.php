@@ -42,7 +42,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="FBA%20v0.2.95.23%20(cm).zip">FBA dat for CMPro</a> (202KB)</p>
+          <p>Download <a href="FBA%20v0.2.95.23%20(cm).zip">FBA dat for CMPro</a> (203KB)</p>
           <p>
             <a href="FBA%20v0.2.95.23%20(cm).zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
@@ -63,6 +63,11 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>17 September 2005</b> - 
+			
+			Updated supplements for MAME v0.100.
+		</p>
     <p>
       <b>7 August 2005</b> - 
 			

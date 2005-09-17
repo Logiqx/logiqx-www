@@ -67,6 +67,11 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>17 September 2005</b> - 
+			
+			Updated supplements for MAME v0.100.
+		</p>
+    <p>
       <b>3 September 2005</b> - 
 			
 			Updated for M1 v0.7.7.

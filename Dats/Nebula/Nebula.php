@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Nebula v2.24</title>
+    <title>Nebula v2.25</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="Nebula.gif" width="85" height="40" alt="Nebula.gif"/>
     </p>
-	<p>422 games for Nebula v2.24</p>
+	<p>469 games for Nebula v2.25</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Nebula%20v2.24%20(cm).zip">Nebula dat for CMPro</a> (202KB)</p>
+          <p>Download <a href="Nebula%20v2.25%20(cm).zip">Nebula dat for CMPro</a> (189KB)</p>
           <p>
-            <a href="Nebula%20v2.24%20(cm).zip">
+            <a href="Nebula%20v2.25%20(cm).zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Nebula%20v2.24%20(rc).zip">Nebula dat for ROMCenter</a> (100KB)</p>
+          <p>Download <a href="Nebula%20v2.25%20(rc).zip">Nebula dat for ROMCenter</a> (94KB)</p>
           <p>
-            <a href="Nebula%20v2.24%20(rc).zip">
+            <a href="Nebula%20v2.25%20(rc).zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>17 September 2005</b> - 
+			
+			Uploaded dats for Nebula v2.25 and MAME v0.100.
+		</p>
     <p>
       <b>7 August 2005</b> - 
 			
