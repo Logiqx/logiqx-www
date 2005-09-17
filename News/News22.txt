@@ -1,4 +1,16 @@
-  <h1>3 Septmber 2005</h1>
+  <h1>17 September 2005</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>I have released the <a href="Dats/">data files</a> for MAME v0.100, RAINE v0.43.1, Nebula v2.25, CPS-1 20050917 and CPS-2 20050916.</p>
+        <p>Supplements for the other data files have been updated to match MAME v0.100 (where necessary).</p>
+        <p>In addition to that, I have released updates for some of my <a href="Tools/">tools</a> (DatLib v2.7, DatUtil v2.19 and MAMEDiff v2.18).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>3 September 2005</h1>
 
   <table class="news">
     <tr>
