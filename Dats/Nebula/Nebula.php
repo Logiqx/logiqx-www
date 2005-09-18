@@ -67,6 +67,11 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>18 September 2005</b> - 
+			
+			Made some fixes to the data file for kov2 clones (merging changes), mslug4 and kof2001 (ROM names > 16 characters).
+		</p>
+    <p>
       <b>17 September 2005</b> - 
 			
 			Uploaded dats for Nebula v2.25 and MAME v0.100.

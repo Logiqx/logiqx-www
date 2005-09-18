@@ -5,7 +5,7 @@
 	<version>v2.25</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>17/09/2005</date>
+	<date>18/09/2005</date>
 	<games>469</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>18 September 2005</date>
+			<comment>Made some fixes to the data file for kov2 clones (merging changes), mslug4 and kof2001 (ROM names > 16 characters).</comment>
+		</revision>
 		<revision>
 			<date>17 September 2005</date>
 			<comment>Uploaded dats for Nebula v2.25 and MAME v0.100.</comment>

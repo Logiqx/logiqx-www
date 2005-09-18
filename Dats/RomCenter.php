@@ -45,7 +45,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="Nebula/Nebula%20v2.25%20(rc).zip"><b>Nebula</b></a></td><td>v2.25</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>469</td><td>17/09/2005</td></tr>
+					</b></td><td><a href="Nebula/Nebula%20v2.25%20(rc).zip"><b>Nebula</b></a></td><td>v2.25</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>469</td><td>18/09/2005</td></tr>
 
 
 <tr><td class="status"><b>
