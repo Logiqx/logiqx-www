@@ -1,0 +1,134 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Author" content="Pi">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Lesson 0: Tools to Install</title>
+</head>
+
+<body>
+
+<h1>Lesson 0: <b>Tools to Install</b></h1>
+
+<p><strong>(Posted on the list by Logiqx on Sept 11th) </strong></p>
+
+<p>Before we start doing the lessons proper, you will need to
+install a few tools on your PC. Please ensure you do this before
+you begin the lessons themselves. </p>
+
+<p>This shouldn't take more than 30 minutes. Let me know how you
+get on. ;)</p>
+
+<hr>
+
+<h2>STEP 1 - Install CygWin</h2>
+
+<ul>
+    <li><a href="cygwin.html">Install CygWin</a>, ensuring that
+        you include the 'make' command too (by default it is not
+        installed).</li>
+</ul>
+
+<hr>
+
+<h2>STEP 2 - Create a 'Logiqx' directory</h2>
+
+<ul>
+    <li>Create a directory called 'Logiqx' on a drive that is
+        convenient for you.</li>
+</ul>
+
+<p>Hint: This will probably be 'c:\' for most people.</p>
+
+<hr>
+
+<h2>STEP 3 - Download the 'Bin' tools needed</h2>
+
+<ul>
+    <li>Download all of the 'Bin' archives from <a
+        href="../download/index.html">http://www.logiqx.com/team/download/</a>
+    </li>
+    <li>Extract all of the archives into your 'Logiqx' directory
+        (e.g. 'c:\Logiqx').</li>
+</ul>
+
+<p>Note: The ZIPs will automatically create a 'Bin' directory for
+you under 'Logiqx'. &nbsp; </p>
+
+<hr>
+
+<h2>STEP 4 - Configure your path</h2>
+
+<p><strong><u>Windows 95 or 98</u></strong></p>
+
+<ul>
+    <li>Add these lines to c:\autoexec.bat </li>
+</ul>
+
+<pre>     SET LOGIQX=c:\Logiqx
+     SET PATH=%PATH%;%LOGIQX%\bin</pre>
+
+<ul>
+    <li>Once your autoexec.bat is updated you will need to reboot
+        your PC.</li>
+</ul>
+
+<p><strong><u>Windows NT, 2000 or XP (do not use c:\autoexec.bat,
+that is naughty, lol)</u></strong></p>
+
+<p>I only have Windows 2000 as reference but NT and XP are almost
+identical... </p>
+
+<ul>
+    <li>From the Start Menu, select 'Settings-&gt;Control Panel'</li>
+    <li>Double-click the 'System' icon </li>
+</ul>
+
+<ul>
+    <li>Select the 'Advanced' sheet (on Windows 2000, called
+        'Environment' on NT)</li>
+    <li>Click on 'Environment Variables...'</li>
+</ul>
+
+<ul>
+    <li>Click on 'New...' (under the 'System variables' section)</li>
+    <li>Specify a variable name of 'LOGIQX' and value of
+        'c:\Logiqx' (change the 'c:' as appropriate, if you are
+        using a different disk!)</li>
+</ul>
+
+<ul>
+    <li>Select 'Path' (under the 'System variables' section)</li>
+    <li>Click 'Edit...'</li>
+    <li>Add ';%LOGIQX%\bin' at the end of the value line and
+        press 'OK' </li>
+</ul>
+
+<p>Important! You can define these two variables in either 'User
+variables' or 'System variables' but you must do <u>both in the
+same section</u>!</p>
+
+<p>Note: On NT/2000/XP there is no need for a reboot (if you
+followed my steps above).</p>
+
+<hr>
+
+<h2>STEP 5 - Test it works!</h2>
+
+<ul>
+    <li>Open a command prompt (what some people call a 'DOS
+        window') </li>
+    <li>Execute 'echo %LOGIQX%'. This should show something like
+        'c:\Logiqx'. </li>
+    <li>Execute 'path'. This should show something like
+        'c:\Logiqx\bin' at the end of the line. </li>
+    <li>Execute 'ls -l'. This should show a Unix-style directory
+        listing. &nbsp; </li>
+</ul>
+
+<p>If everything worked as expected then you have done everything
+right. :)</p>
+</body>
+</html>

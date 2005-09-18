@@ -1,0 +1,73 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Author" content="Pi">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Lesson 3: Viva Nonno, Clones and Bad dumps</title>
+</head>
+
+<body>
+
+<h1><b>Lesson 3: </b>Viva Nonno, Clones and Bad dumps</h1>
+
+<p><strong>(Posted on the list by Logiqx on Sept 18th) </strong></p>
+
+<p>I've finally got around to looking at this emulator and
+updating the dat by Roman. </p>
+
+<p>Okay, I was able to improve on his original dat: </p>
+
+<ul>
+    <li>I made it evident that there are six games by using
+        clones (previous dat showed four games since clones were
+        lumped in with the parent).</li>
+    <li>Changed his 00000000 CRCs in Ridge Racer to complimented
+        CRCs. The dumps may be bad but they are the best
+        available! </li>
+    <li>Added year information (used <a
+        href="http://www.system16.com/">www.system16.com</a> and <a
+        href="http://www.klov.com/">www.klov.com</a> to find out
+        the years). </li>
+    <li>Swapped the size and crc bits around (I prefer size, then
+        crc). Just use DatUtil to convert to my prefered format.
+        ;)</li>
+</ul>
+
+<p>To tell if a dump is bad, use ROMCMP.EXE (comes with MAME).
+For rr1.zip it shows the following: </p>
+
+<pre>   E:\ROMs\Complete\Recent\Multi\Viva Nonno&gt;romcmp rr1.zip
+   21 files
+   rr1ccrh.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIRST AND SECOND HALF IDENTICAL
+   rr1ccrl.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIXED BITS (xxxxx0xx11xxxxxx)
+   rr1cg0.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIXED BITS (xxxxx0xxxxxxxxxx)
+   rr1cg1.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIXED BITS (xxxxx0xxxxxxxxxx)
+   rr1cg2.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIXED BITS (xxxxx0xxxxxxxxxx)
+   rr1cg3.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIXED BITS (xxxxx0xxxxxxxxxx)
+   rr1data.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11xxxxxxxxxxxxxxxxx = 0xFF
+   rr1pot-l1.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1xxxxxxxxxxxxxxxxxx = 0xFF
+   rr1pot-m1.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1xxxxxxxxxxxxxxxxxx = 0xFF
+   rr1pot-u1.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1xxxxxxxxxxxxxxxxxx = 0xFF
+   rr1prg-ll.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1xxxxxxxxxxxxxxxxxx = 0xFF
+   rr1prg-lm.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1xxxxxxxxxxxxxxxxxx = 0xFF
+   rr1prg-um.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1xxxxxxxxxxxxxxxxxx = 0xFF
+   rr1prg-uu.bin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1xxxxxxxxxxxxxxxxxx = 0xFF</pre>
+
+<ul>
+    <li>It can be seen that rr1ccrh.bin has been overdumped
+        (since both halfs are identical, i.e. it should be half
+        the size).</li>
+    <li>It can be seen that the rr1ccrl.bin and rr1cgX.bin ROMs
+        are bad (since they have stuck bits, a common dumping
+        error).</li>
+</ul>
+
+<p>I did ROMCMP checks on all Viva ROMs and there was another
+game which needed a CRC complimenting too.</p>
+
+<p>Tip: RomCenter shows games that have complimented CRCs with a
+little 'x' next to the game.</p>
+</body>
+</html>
