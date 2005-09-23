@@ -1,3 +1,21 @@
+  <h1>22 September 2005</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>ClrMamePro v3.80 has been released and has a WWW update facility.</p>
+
+        <p>The XML details that you need for logiqx.com are as follows:</p>
+
+        <p>Logiqx - Recent Emus ... www.logiqx.com/Dats/RecentEmus.zip<br />
+        Logiqx - Older Emus ... www.logiqx.com/Dats/OlderEmus.zip<br />
+        Logiqx - Systems ... www.logiqx.com/Dats/Systems.zip</p>
+
+        <p>If you don't know how to set it up, you should read the file wwwprofiler.txt that comes with CMPro v3.80.</p>
+      </td>
+    </tr>
+  </table>
+
   <h1>18 September 2005</h1>
 
   <table class="news">
