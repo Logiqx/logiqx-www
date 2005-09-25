@@ -65,7 +65,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="RAINE/RAINE%20v0.43.1%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>560</td><td>17/09/2005</td></tr>
+					</b></td><td><a href="RAINE/RAINE%20v0.43.2%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.2</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>567</td><td>25/09/2005</td></tr>
 
 <tr><td class="status"><b>
 						-

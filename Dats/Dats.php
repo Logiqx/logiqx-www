@@ -267,7 +267,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RAINE/">RAINE v0.43.1</a>
+          <a href="RAINE/">RAINE v0.43.2</a>
         </td>
         <td>
           <p>
@@ -276,12 +276,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>17/09/2005</b>
+            <b>25/09/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <b>560</b>
+            <b>567</b>
           </p>
         </td>
       </tr>

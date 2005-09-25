@@ -1,3 +1,14 @@
+  <h1>25 September 2005</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>I have released <a href="Dats/">data files</a> for RAINE v0.43.2.</p>
+        <p>Those of you using the new ClrMamePro 'WWW Update' feature should be able to get them using that!</p>
+      </td>
+    </tr>
+  </table>
+
   <h1>22 September 2005</h1>
 
   <table class="news">
