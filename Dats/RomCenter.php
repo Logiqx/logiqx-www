@@ -15,7 +15,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="Daphne/Daphne%20v0.99.7%20(rc).zip"><b>Daphne</b></a></td><td>v0.99.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>60</td><td>01/10/2005</td></tr>
+					</b></td><td><a href="Daphne/Daphne%20v0.99.7%20(rc).zip"><b>Daphne</b></a></td><td>v0.99.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>59</td><td>01/10/2005</td></tr>
 
 
 <tr><td class="status"><b>
