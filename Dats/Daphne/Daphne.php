@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Daphne v0.99.6</title>
+    <title>Daphne v0.99.7</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="Daphne.gif" width="94" height="40" alt="Daphne.gif"/>
     </p>
-	<p>30 games for Daphne v0.99.6<br/>(suitable for v0.99.6c)</p>
+	<p>60 games for Daphne v0.99.7</p>
 	
 	
 	
@@ -42,17 +42,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Daphne%20v0.99.6%20(cm).zip">Daphne dat for CMPro</a> (6KB)</p>
+          <p>Download <a href="Daphne%20v0.99.7%20(cm).zip">Daphne dat for CMPro</a> (11KB)</p>
           <p>
-            <a href="Daphne%20v0.99.6%20(cm).zip">
+            <a href="Daphne%20v0.99.7%20(cm).zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Daphne%20v0.99.6%20(rc).zip">Daphne dat for ROMCenter</a> (3KB)</p>
+          <p>Download <a href="Daphne%20v0.99.7%20(rc).zip">Daphne dat for ROMCenter</a> (5KB)</p>
           <p>
-            <a href="Daphne%20v0.99.6%20(rc).zip">
+            <a href="Daphne%20v0.99.7%20(rc).zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -63,6 +63,11 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>1 October 2005</b> - 
+			
+			Updated for Daphne 0.99.7.<br/>In addition to games mentioned in the changelog... added galaxyp, badlandh, dle21, lgp and timetrav (all new since 0.99.6).
+		</p>
     <p>
       <b>11 July 2004</b> - 
 			

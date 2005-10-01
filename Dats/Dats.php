@@ -72,15 +72,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="Daphne/">Daphne v0.99.6</a> (suitable for v0.99.6c)</td>
-        <td>
-          <p/>
+          <a href="Daphne/">Daphne v0.99.7</a>
         </td>
         <td>
-          <p>11/07/2004</p>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>30</p>
+          <p>
+            <b>01/10/2005</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>60</b>
+          </p>
         </td>
       </tr>
 
