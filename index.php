@@ -43,7 +43,7 @@
 						if (isset($_GET['page']) && $_GET['page']!='')
 							include ('News/News' . $_GET['page'] . '.txt');
 						else
-							include ('News/News22.txt');
+							include ('News/News23.txt');
 					?>
 
 					<hr />

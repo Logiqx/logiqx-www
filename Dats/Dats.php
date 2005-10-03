@@ -81,12 +81,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>01/10/2005</b>
+            <b>03/10/2005</b>
           </p>
         </td>
         <td>
           <p>
-            <b>59</b>
+            <b>61</b>
           </p>
         </td>
       </tr>

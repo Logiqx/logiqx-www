@@ -5,8 +5,8 @@
 	<version>v0.99.7</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>01/10/2005</date>
-	<games>59</games>
+	<date>03/10/2005</date>
+	<games>61</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
 		<dat>
@@ -19,6 +19,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>3 October 2005</date>
+			<comment>Added the CPU test ROMs (for completeness). Added SHA-1 for M.A.C.H. 3 target ROM.</comment>
+		</revision>
 		<revision>
 			<date>1 October 2005</date>
 			<comment>Updated for Daphne 0.99.7.<br/>In addition to games mentioned in the changelog... added galaxyp, badlandh, dle21, lgp and timetrav (all new since 0.99.6).</comment>

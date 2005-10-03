@@ -30,7 +30,7 @@
 	<p>
       <img src="Daphne.gif" width="94" height="40" alt="Daphne.gif"/>
     </p>
-	<p>59 games for Daphne v0.99.7</p>
+	<p>61 games for Daphne v0.99.7</p>
 	
 	
 	
@@ -63,6 +63,11 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>3 October 2005</b> - 
+			
+			Added the CPU test ROMs (for completeness). Added SHA-1 for M.A.C.H. 3 target ROM.
+		</p>
     <p>
       <b>1 October 2005</b> - 
 			
