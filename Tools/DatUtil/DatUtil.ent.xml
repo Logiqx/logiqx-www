@@ -3,9 +3,9 @@
 	<img src="DatUtil.gif" width="81" height="40"/>
 
 	<name>DatUtil</name>
-	<version>v2.19</version>
+	<version>v2.20</version>
 	<status>Updated</status>
-	<date>17/09/2005</date>
+	<date>05/10/2005</date>
 
 	<description>Data file creation/conversion tool</description>
 
@@ -40,11 +40,21 @@
 
 	<downloads>
 		<download>
-			<file name="dutil219.zip" size="287"/>
+			<file name="dutil220.zip" size="289"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>5 October 2005</date>
+			<version>v2.20</version>
+			<comment>
+				- Uses DatLib v2.8.<br/>
+				- Improved the logerror() function (used for reporting ZIP errors).<br/>
+				- Added support for M1's XML format (when it becomes available).
+			</comment>
+		</revision>
+
 		<revision>
 			<date>17 September 2005</date>
 			<version>v2.19</version>

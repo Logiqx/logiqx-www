@@ -1,3 +1,14 @@
+  <h1>5 October 2005</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Whilst I have a little time free, I have updated some of my <a href="Tools/">tools</a>:</p>
+	<p>DatLib v2.8, DatUtil v2.20, MAMEDiff v2.19 and ROMBuild v2.7.</p>
+      </td>
+    </tr>
+  </table>
+
   <h1>3 October 2005</h1>
 
   <table class="news">

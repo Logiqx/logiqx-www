@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ROMBuild v2.6</title>
+    <title>ROMBuild v2.7</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -50,9 +50,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="rbuild26.zip">ROMBuild v2.6</a> (105KB)</p>
+          <p>Download <a href="rbuild27.zip">ROMBuild v2.7</a> (256KB)</p>
           <p>
-            <a href="rbuild26.zip">
+            <a href="rbuild27.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,7 @@
 			There is also the special version that I created for the Neo-Geo changes around the time of MAME v0.80. The changes affected many emulators but this special release of my tool can build the new type of ROMs from the old ones. In total 23 games were affected, iirc:
 		</p>
 	
+
 	<table>
       <tr>
 		<td>
@@ -77,10 +78,22 @@
         </td>
 	</tr>
     </table>
+
 	<hr/>
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 October 2005</b> - ROMBuild v2.7</p>
+    <p>
+			
+			
+			
+				- Removed M1 ROMs since they are now MAME compatible (from v0.7.6).<br/>
+				- Removed Nebula ROMs since they are now MAME compatible (from v2.25).<br/>
+				- Added support for invaders.rom for SIDE.
+			
+		</p>
     <p>
       <b>28 March 2005</b> - ROMBuild v2.6</p>
     <p>

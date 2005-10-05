@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAMEDiff v2.18</title>
+    <title>MAMEDiff v2.19</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="mdiff218.zip">MAMEDiff v2.18</a> (307KB)</p>
+          <p>Download <a href="mdiff219.zip">MAMEDiff v2.19</a> (309KB)</p>
           <p>
-            <a href="mdiff218.zip">
+            <a href="mdiff219.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,17 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 October 2005</b> - MAMEDiff v2.19</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.8.<br/>
+				- Improved the logerror() function (used for reporting ZIP errors).<br/>
+				- Added support for M1's XML format (when it becomes available).
+			
+		</p>
     <p>
       <b>17 September 2005</b> - MAMEDiff v2.18</p>
     <p>

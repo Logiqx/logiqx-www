@@ -3,9 +3,9 @@
 	<img src="DatLib.gif" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.7</version>
+	<version>v2.8</version>
 	<status>Updated</status>
-	<date>17/09/2005</date>
+	<date>05/10/2005</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,20 @@
 
 	<downloads>
 		<download>
-			<file name="datlib27.zip" size="81"/>
+			<file name="datlib28.zip" size="82"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>5 October 2005</date>
+			<version>v2.8</version>
+			<comment>
+				- Improved the logerror() function (used for reporting ZIP errors).<br/>
+				- Added support for M1's XML format (when it becomes available).
+			</comment>
+		</revision>
+
 		<revision>
 			<date>17 September 2005</date>
 			<version>v2.7</version>

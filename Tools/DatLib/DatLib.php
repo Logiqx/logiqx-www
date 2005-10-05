@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.7</title>
+    <title>DatLib v2.8</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib27.zip">DatLib v2.7</a> (81KB)</p>
+          <p>Download <a href="datlib28.zip">DatLib v2.8</a> (82KB)</p>
           <p>
-            <a href="datlib27.zip">
+            <a href="datlib28.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,16 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 October 2005</b> - DatLib v2.8</p>
+    <p>
+			
+			
+			
+				- Improved the logerror() function (used for reporting ZIP errors).<br/>
+				- Added support for M1's XML format (when it becomes available).
+			
+		</p>
     <p>
       <b>17 September 2005</b> - DatLib v2.7</p>
     <p>

@@ -3,9 +3,9 @@
 	<img src="ROMBuild.gif" width="120" height="40"/>
 
 	<name>ROMBuild</name>
-	<version>v2.6</version>
-	<status></status>
-	<date>15/05/2003</date>
+	<version>v2.7</version>
+	<status>Updated</status>
+	<date>05/10/2005</date>
 
 	<description>ROM manipulation tool that can convert modern day ROMs to older formats</description>
 
@@ -21,7 +21,7 @@
 
 	<downloads>
 		<download>
-			<file name="rbuild26.zip" size="105"/>
+			<file name="rbuild27.zip" size="256"/>
 		</download>
 	</downloads>
 
@@ -30,12 +30,24 @@
 			There is also the special version that I created for the Neo-Geo changes around the time of MAME v0.80. The changes affected many emulators but this special release of my tool can build the new type of ROMs from the old ones. In total 23 games were affected, iirc:
 		</p>
 	</comment>
+
 	<downloads>
 		<download>
 			<file name="rbmame80.zip" version="[MAME v0.80 special]" size="52"/>
 		</download>
 	</downloads>
+
 	<revisions>
+		<revision>
+			<date>5 October 2005</date>
+			<version>v2.7</version>
+			<comment>
+				- Removed M1 ROMs since they are now MAME compatible (from v0.7.6).<br/>
+				- Removed Nebula ROMs since they are now MAME compatible (from v2.25).<br/>
+				- Added support for invaders.rom for SIDE.
+			</comment>
+		</revision>
+
 		<revision>
 			<date>28 March 2005</date>
 			<version>v2.6</version>

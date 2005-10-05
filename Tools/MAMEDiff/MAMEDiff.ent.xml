@@ -3,9 +3,9 @@
 	<img src="MAMEDiff.gif" width="123" height="40"/>
 
 	<name>MAMEDiff</name>
-	<version>v2.18</version>
+	<version>v2.19</version>
 	<status>Updated</status>
-	<date>17/09/2005</date>
+	<date>05/10/2005</date>
 
 	<description>Data file comparison tool</description>
 
@@ -15,11 +15,21 @@
 
 	<downloads>
 		<download>
-			<file name="mdiff218.zip" size="307"/>
+			<file name="mdiff219.zip" size="309"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>5 October 2005</date>
+			<version>v2.19</version>
+			<comment>
+				- Uses DatLib v2.8.<br/>
+				- Improved the logerror() function (used for reporting ZIP errors).<br/>
+				- Added support for M1's XML format (when it becomes available).
+			</comment>
+		</revision>
+
 		<revision>
 			<date>17 September 2005</date>
 			<version>v2.18</version>
