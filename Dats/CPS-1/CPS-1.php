@@ -67,6 +67,11 @@
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>10 October 2005</b> - 
+			
+			No change required for MAME v0.101.
+		</p>
+    <p>
       <b>17 September 2005</b> - 
 			
 			Added sf2turyu1, sf2toryu, sfach.
