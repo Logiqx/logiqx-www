@@ -240,22 +240,6 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RadikalBikersEmulator/">Radikal Bikers Emulator v0.9</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>31/12/2004</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-      </tr>
-
-			
-<tr>
-        <td>
           <a href="RAINE/">RAINE v0.43.2</a>
         </td>
         <td>
@@ -344,16 +328,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="OlderEmus/">Older Emus 20050731</a>
+          <a href="OlderEmus/">Older Emus 20051012</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>31/07/2005</p>
+          <p>
+            <b>12/10/2005</b>
+          </p>
         </td>
         <td>
-          <p>Thousands of</p>
+          <p>
+            <b>Thousands of</b>
+          </p>
         </td>
       </tr>
 

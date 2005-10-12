@@ -60,11 +60,6 @@
 
 <tr><td class="status"><b>
 						-
-					</b></td><td><a href="RadikalBikersEmulator/Radikal%20Bikers%20Emulator%20v0.9%20(rc).zip"><b>Radikal Bikers Emulator</b></a></td><td>v0.9</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1</td><td>31/12/2004</td></tr>
-
-
-<tr><td class="status"><b>
-						-
 					</b></td><td><a href="RAINE/RAINE%20v0.43.2%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.2</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>567</td><td>25/09/2005</td></tr>
 
 <tr><td class="status"><b>
@@ -91,8 +86,8 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="OlderEmus/Older%20Emus%2020050731%20(rc).zip"><b>Older Emus</b></a></td><td>20050731</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>31/07/2005</td></tr>
+						updated
+					</b></td><td><a href="OlderEmus/Older%20Emus%2020051012%20(rc).zip"><b>Older Emus</b></a></td><td>20051012</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>12/10/2005</td></tr>
 
 		</table>
 	

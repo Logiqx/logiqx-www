@@ -1,3 +1,13 @@
+  <h1>12 October 2005</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Updated the <a href="Dats/">data files</a> for Older Emus (added Radikal Bikers Emulator v0.9, PIE v1.12 and SIDE).</p>
+      </td>
+    </tr>
+  </table>
+
   <h1>10 October 2005</h1>
 
   <table class="news">

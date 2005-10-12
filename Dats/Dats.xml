@@ -10,7 +10,6 @@
 	<!ENTITY SEGAModel2Emulator SYSTEM "SEGAModel2Emulator/SEGAModel2Emulator.ent.xml">
 	<!ENTITY Pacifi3D SYSTEM "Pacifi3D/Pacifi3D.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
-	<!ENTITY RadikalBikersEmulator SYSTEM "RadikalBikersEmulator/RadikalBikersEmulator.ent.xml">
 	<!ENTITY Tickle SYSTEM "Tickle/Tickle.ent.xml">
 	<!ENTITY Kawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
 	<!ENTITY Zinc SYSTEM "Zinc/Zinc.ent.xml">
@@ -42,7 +41,6 @@
 			&Nebula;
 			&NebulaJukebox;
 			&Pacifi3D;
-			&RadikalBikersEmulator;
 			&RAINE;
 			&SEGAModel2Emulator;
 			&Tickle;

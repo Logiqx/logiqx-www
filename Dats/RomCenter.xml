@@ -8,7 +8,6 @@
 	<!ENTITY MAMEChanges SYSTEM "MAMEChanges/MAMEChanges.ent.xml">
 	<!ENTITY Nebula SYSTEM "Nebula/Nebula.ent.xml">
 	<!ENTITY SEGAModel2Emulator SYSTEM "SEGAModel2Emulator/SEGAModel2Emulator.ent.xml">
-	<!ENTITY RadikalBikersEmulator SYSTEM "RadikalBikersEmulator/RadikalBikersEmulator.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
 	<!ENTITY Pacifi3D SYSTEM "Pacifi3D/Pacifi3D.ent.xml">
 	<!ENTITY Tickle SYSTEM "Tickle/Tickle.ent.xml">
@@ -43,7 +42,6 @@
 &Nebula;
 &NebulaJukebox;
 &Pacifi3D;
-&RadikalBikersEmulator;
 &RAINE;
 &SEGAModel2Emulator;
 &Tickle;

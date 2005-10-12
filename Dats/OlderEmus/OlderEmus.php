@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Older Emus 20050731</title>
+    <title>Older Emus 20051012</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="OlderEmus.gif" width="140" height="40" alt="OlderEmus.gif"/>
     </p>
-	<p>Thousands of games for Older Emus 20050731</p>
+	<p>Thousands of games for Older Emus 20051012</p>
 	
 	
 	
@@ -46,17 +46,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Older%20Emus%2020050731%20(cm).zip">Older Emus dat for CMPro</a> (1177KB)</p>
+          <p>Download <a href="Older%20Emus%2020051012%20(cm).zip">Older Emus dat for CMPro</a> (1179KB)</p>
           <p>
-            <a href="Older%20Emus%2020050731%20(cm).zip">
+            <a href="Older%20Emus%2020051012%20(cm).zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Older%20Emus%2020050731%20(rc).zip">Older Emus dat for ROMCenter</a> (498KB)</p>
+          <p>Download <a href="Older%20Emus%2020051012%20(rc).zip">Older Emus dat for ROMCenter</a> (499KB)</p>
           <p>
-            <a href="Older%20Emus%2020050731%20(rc).zip">
+            <a href="Older%20Emus%2020051012%20(rc).zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>12 October 2005</b> - 
+			
+			Added Radikal Bikers Emulator v0.9, PIE v1.12 and SIDE.<br/>Corrected SHA-1 error in JAS-SYS1 b1.2.
+		</p>
     <p>
       <b>31 July 2005</b> - 
 			

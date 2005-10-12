@@ -13,7 +13,6 @@ EMULATORS= \
 	MAMEBeta/MAMEBeta.php \
 	MAMEChanges/MAMEChanges.php \
 	Pacifi3D/Pacifi3D.php \
-	RadikalBikersEmulator/RadikalBikersEmulator.php \
 	RAINE/RAINE.php \
 	Tickle/Tickle.php \
 	WinKawaks/WinKawaks.php \
