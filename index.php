@@ -24,9 +24,9 @@
 			include('Resources/Top.php');
 		?>
 
-					<p><img src="/Resources/Logiqx.gif" width="327" height="68" alt="Logiqx" /></p>
+					<p><img src="Resources/Logiqx.gif" width="327" height="68" alt="Logiqx" /></p>
 
-					<p><img src="/Resources/URLBig.gif" width="266" height="40" alt="http://www.logiqx.com/" /></p>
+					<p><img src="Resources/URLBig.gif" width="266" height="40" alt="http://www.logiqx.com/" /></p>
 
 					<p>Welcome to www.logiqx.com - Source of CMPro/RomCenter data
 					files and other useful tools.</p>
@@ -37,7 +37,7 @@
 
 					<hr />
 
-					<p><img src="/News/News.gif" width="69" height="40" alt="News" /></p>
+					<p><img src="News/News.gif" width="69" height="40" alt="News" /></p>
 
 					<?php
 						if (isset($_GET['page']) && $_GET['page']!='')
@@ -49,43 +49,43 @@
 					<hr />
 
 					<p>
-						<a href="/?page=22">July to September 2005</a> -
-						<a href="/?page=21">April to June 2005</a> -
-						<a href="/?page=20">January to March 2005</a>
+						<a href="?page=22">July to September 2005</a> -
+						<a href="?page=21">April to June 2005</a> -
+						<a href="?page=20">January to March 2005</a>
 					</p>
 
 					<p>
-						<a href="/?page=19">October to December 2004</a> -
-						<a href="/?page=18">July to September 2004</a> -
-						<a href="/?page=17">April to June 2004</a> -
-						<a href="/?page=16">January to March 2004</a>
+						<a href="?page=19">October to December 2004</a> -
+						<a href="?page=18">July to September 2004</a> -
+						<a href="?page=17">April to June 2004</a> -
+						<a href="?page=16">January to March 2004</a>
 					</p>
 
 					<p>
-						<a href="/?page=15">October to December 2003</a> -
-						<a href="/?page=14">July to September 2003</a> -
-						<a href="/?page=13">April to June 2003</a> -
-						<a href="/?page=12">January to March 2003</a>
+						<a href="?page=15">October to December 2003</a> -
+						<a href="?page=14">July to September 2003</a> -
+						<a href="?page=13">April to June 2003</a> -
+						<a href="?page=12">January to March 2003</a>
 					</p>
 
 					<p>
-						<a href="/?page=11">October to December 2002</a> -
-						<a href="/?page=10">July to September 2002</a> -
-						<a href="/?page=09">April to June 2002</a> -
-						<a href="/?page=08">January to March 2002</a>
+						<a href="?page=11">October to December 2002</a> -
+						<a href="?page=10">July to September 2002</a> -
+						<a href="?page=09">April to June 2002</a> -
+						<a href="?page=08">January to March 2002</a>
 					</p>
 
 					<p>
-						<a href="/?page=07">October to December 2001</a> -
-						<a href="/?page=06">July to September 2001</a> -
-						<a href="/?page=05">April to June 2001</a> -
-						<a href="/?page=04">January to March 2001</a>
+						<a href="?page=07">October to December 2001</a> -
+						<a href="?page=06">July to September 2001</a> -
+						<a href="?page=05">April to June 2001</a> -
+						<a href="?page=04">January to March 2001</a>
 					</p>
 
 					<p>
-						<a href="/?page=03">October to December 2000</a> -
-						<a href="/?page=02">July to September 2000</a> -
-						<a href="/?page=01">April to June 2000</a>
+						<a href="?page=03">October to December 2000</a> -
+						<a href="?page=02">July to September 2000</a> -
+						<a href="?page=01">April to June 2000</a>
 					</p>
 
 		<?php

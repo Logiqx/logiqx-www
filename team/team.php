@@ -28,7 +28,7 @@
 
 					<h2>CGI scripts:</h2>
 
-					<p><a href="/cgi-bin/untar_all.cgi">untar_all.cgi</a> (Extract upload.tar.gz)</p>
+					<p><a href="../cgi-bin/untar_all.cgi">untar_all.cgi</a> (Extract upload.tar.gz)</p>
 
 					<h2>Stuff to use:</h2>
 
