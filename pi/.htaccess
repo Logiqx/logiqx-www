@@ -1,0 +1,19 @@
+# Do not allow browsing
+
+Options All -Indexes
+
+# Switch rewrite engine on
+
+RewriteEngine On
+
+# Re-direct http://www.logiqx.com/pi/ to http://pi.logiqx.com/
+
+RewriteCond %{REQUEST_URI} ^/pi/.*$
+RewriteRule ^(.*)$ http://pi.logiqx.com/$1 [R=301,L]
+
+# Do not allow external linking to images and ZIPs
+
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://pi.logiqx.com/?.*$ [NC]
+RewriteRule .*\.(jpg|gif|png|zip)$ - [F,NC]
+

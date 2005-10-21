@@ -1,0 +1,19 @@
+# Do not allow browsing
+
+Options All -Indexes
+
+# Switch rewrite engine on
+
+RewriteEngine On
+
+# Re-direct http://www.logiqx.com/forum/ to http://forum.logiqx.com/
+
+RewriteCond %{REQUEST_URI} ^/forum/.*$
+RewriteRule ^(.*)$ http://forum.logiqx.com/$1 [R=301,L]
+
+# Do not allow external linking to images and ZIPs
+
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://forum.logiqx.com/?.*$ [NC]
+RewriteRule .*\.(jpg|gif|png|zip)$ - [F,NC]
+
