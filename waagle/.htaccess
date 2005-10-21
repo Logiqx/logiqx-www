@@ -1,0 +1,19 @@
+# Do not allow browsing
+
+Options All -Indexes
+
+# Switch rewrite engine on
+
+RewriteEngine On
+
+# Re-direct http://www.logiqx.com/waagle/ to http://waagle.logiqx.com/
+
+RewriteCond %{REQUEST_URI} ^/waagle/.*$
+RewriteRule ^(.*)$ http://waagle.logiqx.com/$1 [R=301,L]
+
+# Do not allow external linking to images and ZIPs
+
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://waagle.logiqx.com/?.*$ [NC]
+RewriteRule .*\.(jpg|gif|png|zip)$ - [F,NC]
+
