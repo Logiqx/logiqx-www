@@ -19,4 +19,13 @@
 	// Select the database
 
 	//	@mysql_select_db (DB_NAME) or die ('Could not select the database: ' . mysql_error());
+
+	// Determine where the www root is
+
+	$www_root="";
+
+	for ($i=0; $i<(substr_count($_SERVER['REQUEST_URI'], '/') - 1); $i++)
+	{
+		$www_root=$www_root . '../';
+	}
 ?>
