@@ -3,6 +3,7 @@
 body
 {
 	background-color: #ecf5ff;
+	color: #000000;
 }
 
 img
@@ -77,6 +78,7 @@ table.news
 {
 	border: inset 1pt;
 	background-color: #cceeff;
+	color: #000000;
 }
 
 /* --- Links Page --- */
@@ -116,6 +118,7 @@ table.guide th
 	text-align: left;
 	border: inset 1pt;
 	background-color: #aaccdd;
+	color: #000000;
 }
 
 table.guide td
@@ -123,6 +126,7 @@ table.guide td
 	text-align: left;
 	border: inset 1pt;
 	background-color: #cceeff;
+	color: #000000;
 }
 
 ul.guide
