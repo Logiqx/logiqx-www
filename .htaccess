@@ -2,6 +2,12 @@
 
 Options All -Indexes
 
+# Error documents
+
+ErrorDocument 401 /error.php?code=401
+ErrorDocument 403 /error.php?code=403
+ErrorDocument 404 /error.php?code=404
+
 # Switch rewrite engine on
 
 RewriteEngine On
@@ -12,14 +18,24 @@ RewriteCond %{HTTP_REFERER} !^$
 RewriteCond %{HTTP_REFERER} !^http://[^/]*logiqx[^/]*/?.*$ [NC]
 RewriteRule .*\.(jpg|gif|png|zip)$ - [F,NC]
 
+# Directories that have been moved
+
+RewriteRule ^FAQs/(.*)$ /DatFAQs/$1 [R=301,L]
+RewriteRule ^DatLib/(.*)$ /Tools/DatLib/$1 [R=301,L]
+RewriteRule ^DatUtil/(.*)$ /Tools/DatUtil/$1 [R=301,L]
+RewriteRule ^ImgChk/(.*)$ /Tools/ImgChk/$1 [R=301,L]
+RewriteRule ^MAMEDiff/(.*)$ /Tools/MAMEDiff/$1 [R=301,L]
+RewriteRule ^ROMBuild/(.*)$ /Tools/ROMBuild/$1 [R=301,L]
+RewriteRule ^ROMInfo/(.*)$ /Tools/ROMInfo/$1 [R=301,L]
+RewriteRule ^ZIPIdent/(.*)$ /Tools/ZIPIdent/$1 [R=301,L]
+
 # Convert old style HTML addresses to the modern PHP ones
 
 RewriteRule ^News/News(.*)\.shtml$ /?page=$1 [R=301,L]
-RewriteRule ^FAQs/(.*)$ /DatFAQs/$1 [R=301,L]
-RewriteRule ^([^/]*)/(.*)\.shtml$ /$1/$2.php [R=301,L]
+RewriteRule ^(.*)\.shtml$ /$1.php [R=301,L]
 
 # Allow use of shortened URLs (e.g. http://www.logiqx.com/Tools/DatUtil/)
 
-RewriteRule ^([^/]+)/$ $1/$1.php
-RewriteRule ^(.+)/([^/]+)/$ $1/$2/$2.php
+RewriteRule ^([^/]+)/$ /$1/$1.php [L]
+RewriteRule ^(.+)/([^/]+)/$ /$1/$2/$2.php [L]
 
