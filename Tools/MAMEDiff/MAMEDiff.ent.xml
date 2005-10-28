@@ -3,9 +3,9 @@
 	<img src="MAMEDiff.gif" width="123" height="40"/>
 
 	<name>MAMEDiff</name>
-	<version>v2.19</version>
+	<version>v2.20</version>
 	<status>Updated</status>
-	<date>05/10/2005</date>
+	<date>28/10/2005</date>
 
 	<description>Data file comparison tool</description>
 
@@ -15,11 +15,20 @@
 
 	<downloads>
 		<download>
-			<file name="mdiff219.zip" size="309"/>
+			<file name="mdiff220.zip" size="309"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>28 October 2005</date>
+			<version>v2.20</version>
+			<comment>
+				- Uses DatLib v2.9.<br/>
+				- M1 XML will use hex for ROM sizes. Changed driver accordingly.<br/>
+			</comment>
+		</revision>
+
 		<revision>
 			<date>5 October 2005</date>
 			<version>v2.19</version>

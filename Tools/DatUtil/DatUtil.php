@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.20</title>
+    <title>DatUtil v2.21</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -72,9 +72,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil220.zip">DatUtil v2.20</a> (289KB)</p>
+          <p>Download <a href="dutil221.zip">DatUtil v2.21</a> (289KB)</p>
           <p>
-            <a href="dutil220.zip">
+            <a href="dutil221.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -86,6 +86,17 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>28 October 2005</b> - DatUtil v2.21</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.9.<br/>
+				- M1 XML will use hex for ROM sizes. Changed driver accordingly.<br/>
+				- Now reports duplicate game descriptions and CRCs (i.e. ROMs).
+			
+		</p>
     <p>
       <b>5 October 2005</b> - DatUtil v2.20</p>
     <p>

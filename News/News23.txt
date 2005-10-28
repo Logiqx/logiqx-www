@@ -1,3 +1,14 @@
+  <h1>28 October 2005</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>I have updated some of my <a href="Tools/">tools</a>...</p>
+	<p>DatLib v2.9, DatUtil v2.21 and MAMEDiff v2.20.</p>
+      </td>
+    </tr>
+  </table>
+
   <h1>12 October 2005</h1>
 
   <table class="news">

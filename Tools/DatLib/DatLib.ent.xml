@@ -3,9 +3,9 @@
 	<img src="DatLib.gif" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.8</version>
+	<version>v2.9</version>
 	<status>Updated</status>
-	<date>05/10/2005</date>
+	<date>28/10/2005</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,21 @@
 
 	<downloads>
 		<download>
-			<file name="datlib28.zip" size="82"/>
+			<file name="datlib29.zip" size="83"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>28 October 2005</date>
+			<version>v2.9</version>
+			<comment>
+				- Added better support for file formats that use hex ROM sizes.<br/>
+				- M1 XML will use hex for ROM sizes. Changed driver accordingly.<br/>
+				- Now reports duplicate game descriptions and CRCs (i.e. ROMs).
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>5 October 2005</date>
 			<version>v2.8</version>
