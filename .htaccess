@@ -1,8 +1,8 @@
-# Do not allow browsing
+# Do not allow directory browsing
 
 Options All -Indexes
 
-# Error documents
+# Custom error documents
 
 ErrorDocument 401 /error.php?code=401
 ErrorDocument 403 /error.php?code=403
@@ -12,13 +12,19 @@ ErrorDocument 404 /error.php?code=404
 
 RewriteEngine On
 
-# Do not allow external linking to images and ZIPs
+# Prevent hot-linking (protect images and ZIPs)
 
 RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http://[^/]*logiqx[^/]*/?.*$ [NC]
-RewriteRule .*\.(jpg|gif|png|zip)$ - [F,NC]
+RewriteCond %{HTTP_REFERER} !^http://www.logiqx.com [NC]
+RewriteCond %{HTTP_REFERER} !^http://logiqx/ [NC]
+RewriteRule ^.+\.(jpe?g|gif|png|zip)$ - [F,NC]
 
-# Directories that have been moved
+# Redirect http://logiqx.com to http://www.logiqx.com
+
+RewriteCond %{HTTP_HOST} ^logiqx.com$ [NC]
+RewriteRule ^(.*)$ http://www.logiqx.com/$1 [R=301,L]
+
+# Directories that have been moved (process before the shortened URL stuff)
 
 RewriteRule ^FAQs/(.*)$ /DatFAQs/$1 [R=301,L]
 RewriteRule ^DatLib/(.*)$ /Tools/DatLib/$1 [R=301,L]
@@ -29,13 +35,17 @@ RewriteRule ^ROMBuild/(.*)$ /Tools/ROMBuild/$1 [R=301,L]
 RewriteRule ^ROMInfo/(.*)$ /Tools/ROMInfo/$1 [R=301,L]
 RewriteRule ^ZIPIdent/(.*)$ /Tools/ZIPIdent/$1 [R=301,L]
 
-# Convert old style HTML addresses to the modern PHP ones
-
-RewriteRule ^News/News(.*)\.shtml$ /?page=$1 [R=301,L]
-RewriteRule ^(.*)\.shtml$ /$1.php [R=301,L]
-
-# Allow use of shortened URLs (e.g. http://www.logiqx.com/Tools/DatUtil/)
+# Rewrite shortened URLs (e.g. http://www.logiqx.com/Tools/)
 
 RewriteRule ^([^/]+)/$ /$1/$1.php [L]
 RewriteRule ^(.+)/([^/]+)/$ /$1/$2/$2.php [L]
+
+# Pages that have been renamed or moved
+
+RewriteRule ^Dats/Dats\.s?html?$ /Dats/ [R=301,L]
+RewriteRule ^Dats/RomCenter\.s?html?$ /Dats/RomCenter.php [R=301,L]
+RewriteRule ^Dats/([^/]+)\.s?html?$ /Dats/$1/ [R=301,L]
+RewriteRule ^HowTo/Compiling\.s?html?$ /HowTo/ [R=301,L]
+RewriteRule ^News/News([0-9]+)\.s?html?$ /?page=$1 [R=301,L]
+RewriteRule ^(.+)\.s?html?$ /$1.php [R=301,L]
 

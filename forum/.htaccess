@@ -6,14 +6,15 @@ Options All -Indexes
 
 RewriteEngine On
 
-# Re-direct http://www.logiqx.com/forum/ to http://forum.logiqx.com/
-
-RewriteCond %{REQUEST_URI} ^/forum/.*$
-RewriteRule ^(.*)$ http://forum.logiqx.com/$1 [R=301,L]
-
 # Do not allow external linking to images and ZIPs
 
 RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http://forum.logiqx.com/?.*$ [NC]
-RewriteRule .*\.(jpg|gif|png|zip)$ - [F,NC]
+RewriteCond %{HTTP_REFERER} !^http://forum.logiqx.com [NC]
+RewriteRule ^.+\.(jpe?g|gif|png|zip)$ - [F,NC]
+
+# Redirect http://www.forum.logiqx.com and http://www.logiqx.com/forum/
+
+RewriteCond %{HTTP_HOST} ^www.forum.logiqx.com$ [NC,OR]
+RewriteCond %{REQUEST_URI} ^/forum/.*$
+RewriteRule ^(.*)$ http://forum.logiqx.com/$1 [R=301,L]
 

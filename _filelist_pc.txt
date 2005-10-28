@@ -1,4 +1,4 @@
-.	.htaccess	677
+.	.htaccess	1731
 .	_archive_bit_clear.bat	133
 .	_check_for_absolute_links.sh	54
 .	_filelist_compare.sh	1118
@@ -7,8 +7,8 @@
 .	_filelist_tidy.sh	159
 .	_filelist_ztnet.sh	261
 .	_filelist_ztnet.txt	0
-.	_prepare_upload.bat	605
-.	index.bak	3981
+.	_prepare_upload.bat	625
+.	error.php	1885
 .	index.php	3031
 .	robots.txt	0
 ads/CVS	Entries	3
@@ -24,7 +24,7 @@ cgi-bin	untar_all.sh	144
 cgi-bin/CVS	Entries	323
 cgi-bin/CVS	Repository	27
 cgi-bin/CVS	Root	26
-CVS	Entries	837
+CVS	Entries	904
 CVS	Repository	23
 CVS	Root	26
 DatFAQs	CMPro.gif	2671
@@ -328,11 +328,11 @@ E-Mail	TheTeam.php	1510
 E-Mail/CVS	Entries	286
 E-Mail/CVS	Repository	30
 E-Mail/CVS	Root	26
+forum	.htaccess	530
 forum	common.php	6955
 forum	config.php	265
 forum	extension.inc	833
 forum	faq.php	3783
-forum	forum.php	14965
 forum	groupcp.php	46941
 forum	index.php	14965
 forum	login.php	7973
@@ -341,6 +341,7 @@ forum	modcp.php	39824
 forum	posting.php	35541
 forum	privmsg.php	75073
 forum	profile.php	4069
+forum	robots.txt	0
 forum	search.php	44681
 forum	viewforum.php	23837
 forum	viewonline.php	7512
@@ -372,7 +373,7 @@ forum/cache	index.htm	169
 forum/cache/CVS	Entries	89
 forum/cache/CVS	Repository	35
 forum/cache/CVS	Root	26
-forum/CVS	Entries	873
+forum/CVS	Entries	917
 forum/CVS	Repository	29
 forum/CVS	Root	26
 forum/db	db2.php	8307
@@ -775,12 +776,17 @@ News	Shredder.gif	3762
 News/CVS	Entries	1170
 News/CVS	Repository	28
 News/CVS	Root	26
+pi	.htaccess	512
+pi	robots.txt	0
+pi/CVS	Entries	90
+pi/CVS	Repository	26
+pi/CVS	Root	26
 Resources	Bottom.php	31
 Resources	Disk.gif	1456
 Resources	Head.php	778
 Resources	History.gif	2192
 Resources	Include.php	733
-Resources	Logiqx.css	1372
+Resources	Logiqx.css	1440
 Resources	Logiqx.gif	12793
 Resources	New.gif	1084
 Resources	Texture.gif	25022
@@ -966,3 +972,8 @@ Video/DVD Decrypter Settings	6 - Events.png	10292
 Video/DVD Decrypter Settings/CVS	Entries	328
 Video/DVD Decrypter Settings/CVS	Repository	52
 Video/DVD Decrypter Settings/CVS	Root	26
+waagle	.htaccess	536
+waagle	robots.txt	0
+waagle/CVS	Entries	90
+waagle/CVS	Repository	30
+waagle/CVS	Root	26
