@@ -6,7 +6,7 @@
  *   copyright            : (C) 2001 The phpBB Group
  *   email                : support@phpbb.com
  *
- *   $Id: usercp_register.php,v 1.20.2.61 2005/06/26 12:03:44 acydburn Exp $
+ *   $Id: usercp_register.php,v 1.20.2.66 2005/10/10 20:54:40 grahamje Exp $
  *
  *
  ***************************************************************************/
@@ -152,7 +152,7 @@ if (
 	}
 	else
 	{
-		$attachsig = ( isset($HTTP_POST_VARS['attachsig']) ) ? ( ($HTTP_POST_VARS['attachsig']) ? TRUE : 0 ) : 0;
+		$attachsig = ( isset($HTTP_POST_VARS['attachsig']) ) ? ( ($HTTP_POST_VARS['attachsig']) ? TRUE : 0 ) : $userdata['user_attachsig'];
 
 		$allowhtml = ( isset($HTTP_POST_VARS['allowhtml']) ) ? ( ($HTTP_POST_VARS['allowhtml']) ? TRUE : 0 ) : $userdata['user_allowhtml'];
 		$allowbbcode = ( isset($HTTP_POST_VARS['allowbbcode']) ) ? ( ($HTTP_POST_VARS['allowbbcode']) ? TRUE : 0 ) : $userdata['user_allowbbcode'];
@@ -199,8 +199,8 @@ if (
 	$user_avatar_size = ( !empty($HTTP_POST_FILES['avatar']['size']) ) ? $HTTP_POST_FILES['avatar']['size'] : 0;
 	$user_avatar_filetype = ( !empty($HTTP_POST_FILES['avatar']['type']) ) ? $HTTP_POST_FILES['avatar']['type'] : '';
 
-	$user_avatar = ( empty($user_avatar_loc) && $mode == 'editprofile' ) ? $userdata['user_avatar'] : '';
-	$user_avatar_type = ( empty($user_avatar_loc) && $mode == 'editprofile' ) ? $userdata['user_avatar_type'] : '';
+	$user_avatar = ( empty($user_avatar_local) && $mode == 'editprofile' ) ? $userdata['user_avatar'] : '';
+	$user_avatar_type = ( empty($user_avatar_local) && $mode == 'editprofile' ) ? $userdata['user_avatar_type'] : '';
 
 	if ( (isset($HTTP_POST_VARS['avatargallery']) || isset($HTTP_POST_VARS['submitavatar']) || isset($HTTP_POST_VARS['cancelavatar'])) && (!isset($HTTP_POST_VARS['submit'])) )
 	{
@@ -532,22 +532,56 @@ if ( isset($HTTP_POST_VARS['submit']) )
 				include($phpbb_root_path . 'includes/emailer.'.$phpEx);
 				$emailer = new emailer($board_config['smtp_delivery']);
 
-				$emailer->from($board_config['board_email']);
-				$emailer->replyto($board_config['board_email']);
-
-				$emailer->use_template('user_activate', stripslashes($user_lang));
-				$emailer->email_address($email);
-				$emailer->set_subject($lang['Reactivate']);
-
-				$emailer->assign_vars(array(
-					'SITENAME' => $board_config['sitename'],
-					'USERNAME' => preg_replace($unhtml_specialchars_match, $unhtml_specialchars_replace, substr(str_replace("\'", "'", $username), 0, 25)),
-					'EMAIL_SIG' => (!empty($board_config['board_email_sig'])) ? str_replace('<br />', "\n", "-- \n" . $board_config['board_email_sig']) : '',
-
-					'U_ACTIVATE' => $server_url . '?mode=activate&' . POST_USERS_URL . '=' . $user_id . '&act_key=' . $user_actkey)
-				);
-				$emailer->send();
-				$emailer->reset();
+ 				if ( $board_config['require_activation'] != USER_ACTIVATION_ADMIN )
+ 				{
+ 					$emailer->from($board_config['board_email']);
+ 					$emailer->replyto($board_config['board_email']);
+ 
+ 					$emailer->use_template('user_activate', stripslashes($user_lang));
+ 					$emailer->email_address($email);
+ 					$emailer->set_subject($lang['Reactivate']);
+  
+ 					$emailer->assign_vars(array(
+ 						'SITENAME' => $board_config['sitename'],
+ 						'USERNAME' => preg_replace($unhtml_specialchars_match, $unhtml_specialchars_replace, substr(str_replace("\'", "'", $username), 0, 25)),
+ 						'EMAIL_SIG' => (!empty($board_config['board_email_sig'])) ? str_replace('<br />', "\n", "-- \n" . $board_config['board_email_sig']) : '',
+  
+ 						'U_ACTIVATE' => $server_url . '?mode=activate&' . POST_USERS_URL . '=' . $user_id . '&act_key=' . $user_actkey)
+ 					);
+ 					$emailer->send();
+ 					$emailer->reset();
+ 				}
+ 				else if ( $board_config['require_activation'] == USER_ACTIVATION_ADMIN )
+ 				{
+ 					$sql = 'SELECT user_email, user_lang 
+ 						FROM ' . USERS_TABLE . '
+ 						WHERE user_level = ' . ADMIN;
+ 					
+ 					if ( !($result = $db->sql_query($sql)) )
+ 					{
+ 						message_die(GENERAL_ERROR, 'Could not select Administrators', '', __LINE__, __FILE__, $sql);
+ 					}
+ 					
+ 					while ($row = $db->sql_fetchrow($result))
+ 					{
+ 						$emailer->from($board_config['board_email']);
+ 						$emailer->replyto($board_config['board_email']);
+ 						
+ 						$emailer->email_address(trim($row['user_email']));
+ 						$emailer->use_template("admin_activate", $row['user_lang']);
+ 						$emailer->set_subject($lang['Reactivate']);
+ 
+ 						$emailer->assign_vars(array(
+ 							'USERNAME' => preg_replace($unhtml_specialchars_match, $unhtml_specialchars_replace, substr(str_replace("\'", "'", $username), 0, 25)),
+ 							'EMAIL_SIG' => str_replace('<br />', "\n", "-- \n" . $board_config['board_email_sig']),
+ 
+ 							'U_ACTIVATE' => $server_url . '?mode=activate&' . POST_USERS_URL . '=' . $user_id . '&act_key=' . $user_actkey)
+ 						);
+ 						$emailer->send();
+ 						$emailer->reset();
+ 					}
+ 					$db->sql_freeresult($result);
+ 				}
 
 				$message = $lang['Profile_updated_inactive'] . '<br /><br />' . sprintf($lang['Click_return_index'],  '<a href="' . append_sid("index.$phpEx") . '">', '</a>');
 			}
@@ -818,7 +852,7 @@ if( isset($HTTP_POST_VARS['avatargallery']) && !$error )
 
 	$allowviewonline = !$allowviewonline;
 
-	display_avatar_gallery($mode, $avatar_category, $user_id, $email, $current_email, $coppa, $username, $email, &$new_password, &$cur_password, $password_confirm, $icq, $aim, $msn, $yim, $website, $location, $occupation, $interests, $signature, $viewemail, $notifypm, $popup_pm, $notifyreply, $attachsig, $allowhtml, $allowbbcode, $allowsmilies, $allowviewonline, $user_style, $user_lang, $user_timezone, $user_dateformat, $userdata['session_id']);
+	display_avatar_gallery($mode, $avatar_category, $user_id, $email, $current_email, $coppa, $username, $email, $new_password, $cur_password, $password_confirm, $icq, $aim, $msn, $yim, $website, $location, $occupation, $interests, $signature, $viewemail, $notifypm, $popup_pm, $notifyreply, $attachsig, $allowhtml, $allowbbcode, $allowsmilies, $allowviewonline, $user_style, $user_lang, $user_timezone, $user_dateformat, $userdata['session_id']);
 }
 else
 {
@@ -829,9 +863,9 @@ else
 		$coppa = FALSE;
 	}
 
-	if ( !isset($user_template) )
+	if ( !isset($user_style) )
 	{
-		$selected_template = $board_config['system_template'];
+		$user_style = $board_config['default_style'];
 	}
 
 	$avatar_img = '';
