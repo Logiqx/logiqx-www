@@ -2,8 +2,8 @@
 
 body
 {
-	background-image: url('/resources/bg-pumpkin.png');
-	background-repeat: repeat-x,repeat-y;
+	background-image: url('/Resources/bg-pumpkin.png');
+	background-repeat: repeat;
 	background-color: #ecf5ff;
 	color: #000000;
 }
