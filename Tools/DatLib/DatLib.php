@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.9</title>
+    <title>DatLib v2.10</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib29.zip">DatLib v2.9</a> (83KB)</p>
+          <p>Download <a href="datlib210.zip">DatLib v2.10</a> (83KB)</p>
           <p>
-            <a href="datlib29.zip">
+            <a href="datlib210.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,16 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>31 October 2005</b> - DatLib v2.10</p>
+    <p>
+			
+			
+			
+				- Fixed identification of ListXML for MAME+MESS v0.101u4 onwards.<br/>
+				- Added OPTION_ALWAYS_QUOTE for DatUtil (the '-q' option).
+    			
+		</p>
     <p>
       <b>28 October 2005</b> - DatLib v2.9</p>
     <p>

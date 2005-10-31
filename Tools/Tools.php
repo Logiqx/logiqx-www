@@ -50,7 +50,7 @@
 
 			<tr>
         <td>
-          <a href="DatLib/">DatLib v2.9</a>
+          <a href="DatLib/">DatLib v2.10</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
@@ -60,14 +60,14 @@
         </td>
         <td>
           <p>
-            <strong>28/10/2005</strong>
+            <strong>31/10/2005</strong>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="DatUtil/">DatUtil v2.21</a>
+          <a href="DatUtil/">DatUtil v2.22</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
@@ -77,27 +77,31 @@
         </td>
         <td>
           <p>
-            <strong>28/10/2005</strong>
+            <strong>31/10/2005</strong>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="ImgChk/">ImgChk v2.5</a>
+          <a href="ImgChk/">ImgChk v2.6</a>
         </td>
         <td>ImgChk verifies image collections against any format datafile</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>28/02/2005</p>
+          <p>
+            <strong>31/10/2005</strong>
+          </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="MAMEDiff/">MAMEDiff v2.20</a>
+          <a href="MAMEDiff/">MAMEDiff v2.21</a>
         </td>
         <td>Data file comparison tool</td>
         <td>
@@ -107,7 +111,7 @@
         </td>
         <td>
           <p>
-            <strong>28/10/2005</strong>
+            <strong>31/10/2005</strong>
           </p>
         </td>
       </tr>
@@ -127,14 +131,18 @@
 
 			<tr>
         <td>
-          <a href="ROMInfo/">ROMInfo v2.3</a>
+          <a href="ROMInfo/">ROMInfo v2.4</a>
         </td>
         <td>ROM identification tool (for individual ROMs)</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>28/02/2005</p>
+          <p>
+            <strong>31/10/2005</strong>
+          </p>
         </td>
       </tr>
 
@@ -142,14 +150,18 @@
 
 			<tr>
         <td>
-          <a href="ZIPIdent/">ZIPIdent v2.4</a>
+          <a href="ZIPIdent/">ZIPIdent v2.5</a>
         </td>
         <td>Game identification tool (for groups of ROMs)</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>28/02/2005</p>
+          <p>
+            <strong>31/10/2005</strong>
+          </p>
         </td>
       </tr>
 

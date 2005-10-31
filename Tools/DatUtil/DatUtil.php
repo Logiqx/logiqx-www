@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.21</title>
+    <title>DatUtil v2.22</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -72,9 +72,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil221.zip">DatUtil v2.21</a> (289KB)</p>
+          <p>Download <a href="dutil222.zip">DatUtil v2.22</a> (290KB)</p>
           <p>
-            <a href="dutil221.zip">
+            <a href="dutil222.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -86,6 +86,17 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>31 October 2005</b> - DatUtil v2.22</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.10.<br/>
+				- Fixed identification of ListXML for MAME+MESS v0.101u4 onwards.<br/>
+				- Added the '-q' option (to save Listinfo with quotes throughout).
+    			
+		</p>
     <p>
       <b>28 October 2005</b> - DatUtil v2.21</p>
     <p>

@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ZIPFind v2.2</title>
+    <title>ZIPFind v2.3</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -42,9 +42,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="zfind22.zip">ZIPFind v2.2</a> (71KB)</p>
+          <p>Download <a href="zfind23.zip">ZIPFind v2.3</a> (284KB)</p>
           <p>
-            <a href="zfind22.zip">
+            <a href="zfind23.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -56,6 +56,16 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>31 October 2005</b> - ZIPFind v2.3</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.10.<br/>
+				- Fixed identification of ListXML for MAME+MESS v0.101u4 onwards.<br/>
+    			
+		</p>
     <p>
       <b>22 July 2004</b> - ZIPFind v2.2</p>
     <p>

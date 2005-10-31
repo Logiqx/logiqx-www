@@ -3,9 +3,9 @@
 	<img src="ZIPFind.gif" width="95" height="40"/>
 
 	<name>ZIPFind</name>
-	<version>v2.2</version>
-	<status></status>
-	<date>22/07/2004</date>
+	<version>v2.3</version>
+	<status>Updated</status>
+	<date>31/10/2005</date>
 
 	<comment>
 		<p>ZIPFind is a useful little tool that helps you to find ZIPs that you want from a friends FTP server (or whatever).</p>
@@ -13,11 +13,20 @@
 
 	<downloads>
 		<download>
-			<file name="zfind22.zip" size="71"/>
+			<file name="zfind23.zip" size="284"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>31 October 2005</date>
+			<version>v2.3</version>
+			<comment>
+				- Uses DatLib v2.10.<br/>
+				- Fixed identification of ListXML for MAME+MESS v0.101u4 onwards.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>22 July 2004</date>
 			<version>v2.2</version>

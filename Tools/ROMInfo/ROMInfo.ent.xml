@@ -3,9 +3,9 @@
 	<img src="ROMInfo.gif" width="107" height="40"/>
 
 	<name>ROMInfo</name>
-	<version>v2.3</version>
-	<status></status>
-	<date>28/02/2005</date>
+	<version>v2.4</version>
+	<status>Updated</status>
+	<date>31/10/2005</date>
 
 	<description>ROM identification tool (for individual ROMs)</description>
 
@@ -15,11 +15,20 @@
 
 	<downloads>
 		<download>
-			<file name="rinfo23.zip" size="123"/>
+			<file name="rinfo24.zip" size="282"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>31 October 2005</date>
+			<version>v2.4</version>
+			<comment>
+				- Uses DatLib v2.10.<br/>
+				- Fixed identification of ListXML for MAME+MESS v0.101u4 onwards.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>28 February 2005</date>
 			<version>v2.3</version>

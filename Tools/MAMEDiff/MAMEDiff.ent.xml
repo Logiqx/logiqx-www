@@ -3,9 +3,9 @@
 	<img src="MAMEDiff.gif" width="123" height="40"/>
 
 	<name>MAMEDiff</name>
-	<version>v2.20</version>
+	<version>v2.21</version>
 	<status>Updated</status>
-	<date>28/10/2005</date>
+	<date>31/10/2005</date>
 
 	<description>Data file comparison tool</description>
 
@@ -15,11 +15,20 @@
 
 	<downloads>
 		<download>
-			<file name="mdiff220.zip" size="309"/>
+			<file name="mdiff221.zip" size="310"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>31 October 2005</date>
+			<version>v2.21</version>
+			<comment>
+				- Uses DatLib v2.10.<br/>
+				- Fixed identification of ListXML for MAME+MESS v0.101u4 onwards.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>28 October 2005</date>
 			<version>v2.20</version>

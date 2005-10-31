@@ -3,9 +3,9 @@
 	<img src="ImgChk.gif" width="93" height="40"/>
 
 	<name>ImgChk</name>
-	<version>v2.5</version>
-	<status></status>
-	<date>28/02/2005</date>
+	<version>v2.6</version>
+	<status>Updated</status>
+	<date>31/10/2005</date>
 
 	<description>ImgChk verifies image collections against any format datafile</description>
 
@@ -15,11 +15,20 @@
 
 	<downloads>
 		<download>
-			<file name="imgchk25.zip" size="122"/>
+			<file name="imgchk26.zip" size="281"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>31 October 2005</date>
+			<version>v2.6</version>
+			<comment>
+				- Uses DatLib v2.10.<br/>
+				- Fixed identification of ListXML for MAME+MESS v0.101u4 onwards.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>28 February 2005</date>
 			<version>v2.5</version>

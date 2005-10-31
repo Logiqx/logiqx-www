@@ -3,9 +3,9 @@
 	<img src="DatUtil.gif" width="81" height="40"/>
 
 	<name>DatUtil</name>
-	<version>v2.21</version>
+	<version>v2.22</version>
 	<status>Updated</status>
-	<date>28/10/2005</date>
+	<date>31/10/2005</date>
 
 	<description>Data file creation/conversion tool</description>
 
@@ -40,11 +40,21 @@
 
 	<downloads>
 		<download>
-			<file name="dutil221.zip" size="289"/>
+			<file name="dutil222.zip" size="290"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>31 October 2005</date>
+			<version>v2.22</version>
+			<comment>
+				- Uses DatLib v2.10.<br/>
+				- Fixed identification of ListXML for MAME+MESS v0.101u4 onwards.<br/>
+				- Added the '-q' option (to save Listinfo with quotes throughout).
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>28 October 2005</date>
 			<version>v2.21</version>

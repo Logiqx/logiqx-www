@@ -3,9 +3,9 @@
 	<img src="DatLib.gif" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.9</version>
+	<version>v2.10</version>
 	<status>Updated</status>
-	<date>28/10/2005</date>
+	<date>31/10/2005</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,20 @@
 
 	<downloads>
 		<download>
-			<file name="datlib29.zip" size="83"/>
+			<file name="datlib210.zip" size="83"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>31 October 2005</date>
+			<version>v2.10</version>
+			<comment>
+				- Fixed identification of ListXML for MAME+MESS v0.101u4 onwards.<br/>
+				- Added OPTION_ALWAYS_QUOTE for DatUtil (the '-q' option).
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>28 October 2005</date>
 			<version>v2.9</version>

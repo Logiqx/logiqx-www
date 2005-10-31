@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ImgChk v2.5</title>
+    <title>ImgChk v2.6</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="imgchk25.zip">ImgChk v2.5</a> (122KB)</p>
+          <p>Download <a href="imgchk26.zip">ImgChk v2.6</a> (281KB)</p>
           <p>
-            <a href="imgchk25.zip">
+            <a href="imgchk26.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,16 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>31 October 2005</b> - ImgChk v2.6</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.10.<br/>
+				- Fixed identification of ListXML for MAME+MESS v0.101u4 onwards.<br/>
+    			
+		</p>
     <p>
       <b>28 February 2005</b> - ImgChk v2.5</p>
     <p>
