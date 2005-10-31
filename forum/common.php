@@ -6,7 +6,7 @@
  *   copyright            : (C) 2001 The phpBB Group
  *   email                : support@phpbb.com
  *
- *   $Id: common.php,v 1.74.2.20 2005/10/30 15:17:13 acydburn Exp $
+ *   $Id: common.php,v 1.74.2.21 2005/10/31 07:31:06 acydburn Exp $
  *
  ***************************************************************************/
 
@@ -32,7 +32,7 @@ set_magic_quotes_runtime(0); // Disable magic_quotes_runtime
 // Thanks to Matt Kavanagh and Stefan Esser for providing feedback as well as patch files
 
 // PHP5 with register_long_arrays off?
-if (@phpversion() >= '5.0.0' && (!ini_get('register_long_arrays') || @ini_get('register_long_arrays') == '0' || strtolower(@ini_get('register_long_arrays')) == 'off'))
+if (@phpversion() >= '5.0.0' && (!@ini_get('register_long_arrays') || @ini_get('register_long_arrays') == '0' || strtolower(@ini_get('register_long_arrays')) == 'off'))
 {
 	$HTTP_POST_VARS = $_POST;
 	$HTTP_GET_VARS = $_GET;
