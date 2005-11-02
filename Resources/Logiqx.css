@@ -2,8 +2,6 @@
 
 body
 {
-	background-image: url('/Resources/bg-pumpkin.png');
-	background-repeat: repeat;
 	background-color: #ecf5ff;
 	color: #000000;
 }
@@ -81,9 +79,6 @@ table.news
 	border: inset 1pt;
 	background-color: #cceeff;
 	color: #000000;
-	filter:alpha(opacity=80);
-	opacity: 0.8;
-	-moz-opacity:0.8;
 }
 
 /* --- Links Page --- */
@@ -116,9 +111,6 @@ p.guide
 table.guide
 {
 	border: outset 1pt;
-	filter:alpha(opacity=80);
-	opacity: 0.8;
-	-moz-opacity:0.8;
 }
 
 table.guide th
