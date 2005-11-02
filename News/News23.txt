@@ -3,7 +3,7 @@
   <table class="news">
     <tr>
       <td>
-        <p>I have updated practically all of my <a href="Tools/">tools</a> for MAME v1.01u4 onwards.</p>
+        <p>I have updated practically all of my <a href="Tools/">tools</a> for MAME v0.101u4 onwards.</p>
       </td>
     </tr>
   </table>
