@@ -26,9 +26,9 @@ RewriteRule ^(.*)$ http://www.logiqx.com/$1 [R=301,L]
 
 # Directories that have been moved (process before the shortened URL stuff)
 
-RewriteRule ^FAQs/(.*)$ /DatFAQs/$1 [R=301,L]
 RewriteRule ^DatLib/(.*)$ /Tools/DatLib/$1 [R=301,L]
 RewriteRule ^DatUtil/(.*)$ /Tools/DatUtil/$1 [R=301,L]
+RewriteRule ^FAQs/(.*)$ /DatFAQs/$1 [R=301,L]
 RewriteRule ^ImgChk/(.*)$ /Tools/ImgChk/$1 [R=301,L]
 RewriteRule ^MAMEDiff/(.*)$ /Tools/MAMEDiff/$1 [R=301,L]
 RewriteRule ^ROMBuild/(.*)$ /Tools/ROMBuild/$1 [R=301,L]
@@ -45,7 +45,9 @@ RewriteRule ^(.+)/([^/]+)/$ /$1/$2/$2.php [L]
 RewriteRule ^Dats/Dats\.s?html?$ /Dats/ [R=301,L]
 RewriteRule ^Dats/RomCenter\.s?html?$ /Dats/RomCenter.php [R=301,L]
 RewriteRule ^Dats/([^/]+)\.s?html?$ /Dats/$1/ [R=301,L]
+RewriteRule ^E-Mail/CPS-2\.s?html?$ http://cps2shock.retrogames.com/ [R=301,L]
 RewriteRule ^HowTo/Compiling\.s?html?$ /HowTo/ [R=301,L]
+RewriteRule ^News/News\.s?html?$ / [R=301,L]
 RewriteRule ^News/News([0-9]+)\.s?html?$ /?page=$1 [R=301,L]
 RewriteRule ^(.+)\.s?html?$ /$1.php [R=301,L]
 
