@@ -32,6 +32,8 @@
 
 					<h2>Stuff to use:</h2>
 
+					<p><a href="download/phpbb_db_backup.sql">phpbb backup</a></p>
+
 					<p><a href="download/mame_related_updates.xls">MAME related updates</a> (Excel
 					format, not zipped).</p>
 
