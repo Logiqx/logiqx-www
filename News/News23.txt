@@ -1,3 +1,13 @@
+  <h1>13 November 2005</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>I have released updates for a couple of my <a href="Tools/">tools</a> - DatLib v2.11 and DatUtil v2.23</p>
+      </td>
+    </tr>
+  </table>
+
   <h1>31 October 2005</h1>
 
   <table class="news">

@@ -123,7 +123,7 @@
 
 					<h2>RECOMMENDED</h2>
 					<p>
-					<b>DVD Decrypter </b>v3.5.1.0 - 02/09/2004<br />
+					<b>DVD Decrypter </b>v3.5.4.0 - 21/03/2005<br />
 					The best DVD ripper available.
 					It has Disk (ISO), File (VOB) and IFO (VOB/M2V/AC3, etc) modes.<br />
 					<a href="http://www.dvddecrypter.com/">http://www.dvddecrypter.com/</a><br />

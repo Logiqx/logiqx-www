@@ -50,7 +50,7 @@
 
 			<tr>
         <td>
-          <a href="DatLib/">DatLib v2.10</a>
+          <a href="DatLib/">DatLib v2.11</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
@@ -60,14 +60,14 @@
         </td>
         <td>
           <p>
-            <strong>31/10/2005</strong>
+            <strong>13/11/2005</strong>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="DatUtil/">DatUtil v2.22</a>
+          <a href="DatUtil/">DatUtil v2.23</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
@@ -77,7 +77,7 @@
         </td>
         <td>
           <p>
-            <strong>31/10/2005</strong>
+            <strong>13/11/2005</strong>
           </p>
         </td>
       </tr>
@@ -88,14 +88,10 @@
         </td>
         <td>ImgChk verifies image collections against any format datafile</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>31/10/2005</strong>
-          </p>
+          <p>31/10/2005</p>
         </td>
       </tr>
 
@@ -105,14 +101,10 @@
         </td>
         <td>Data file comparison tool</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>31/10/2005</strong>
-          </p>
+          <p>31/10/2005</p>
         </td>
       </tr>
 
@@ -135,14 +127,10 @@
         </td>
         <td>ROM identification tool (for individual ROMs)</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>31/10/2005</strong>
-          </p>
+          <p>31/10/2005</p>
         </td>
       </tr>
 
@@ -154,14 +142,10 @@
         </td>
         <td>Game identification tool (for groups of ROMs)</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>31/10/2005</strong>
-          </p>
+          <p>31/10/2005</p>
         </td>
       </tr>
 

@@ -47,7 +47,10 @@ RewriteRule ^Dats/RomCenter\.s?html?$ /Dats/RomCenter.php [R=301,L]
 RewriteRule ^Dats/([^/]+)\.s?html?$ /Dats/$1/ [R=301,L]
 RewriteRule ^E-Mail/CPS-2\.s?html?$ http://cps2shock.retrogames.com/ [R=301,L]
 RewriteRule ^HowTo/Compiling\.s?html?$ /HowTo/ [R=301,L]
-RewriteRule ^News/News\.s?html?$ / [R=301,L]
+RewriteRule ^News/News\.php$ / [R=301,L]
 RewriteRule ^News/News([0-9]+)\.s?html?$ /?page=$1 [R=301,L]
 RewriteRule ^(.+)\.s?html?$ /$1.php [R=301,L]
 
+# Tee's latest routine!
+
+RewriteRule ^routine.zip$ /Salsa/routine3.zip [R=301,L]

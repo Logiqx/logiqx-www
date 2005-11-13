@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.22</title>
+    <title>DatUtil v2.23</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -72,9 +72,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil222.zip">DatUtil v2.22</a> (290KB)</p>
+          <p>Download <a href="dutil223.zip">DatUtil v2.23</a> (293KB)</p>
           <p>
-            <a href="dutil222.zip">
+            <a href="dutil223.zip">
               <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -86,6 +86,21 @@
     <p>
       <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>13 November 2005</b> - DatUtil v2.23</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.11.<br/>
+				- Added support for 'board', 'colordeep', 'credits' and 'archive'<br/>
+				(fully supported by ListInfo, ListXML and Delimited formats).<br/>
+				- M1 XML loader now retains the 'board' information (see above).<br/>
+				- M1 XML will not use hex for ROM sizes after all... changed back!<br/>
+				- Improved the way that the Nebula driver handles Neo-Geo ROMs.<br/>
+				- Fixed Nebula Jukebox driver for Neo-Geo ROMs (broken in v2.7).
+    			
+		</p>
     <p>
       <b>31 October 2005</b> - DatUtil v2.22</p>
     <p>

@@ -3,9 +3,9 @@
 	<img src="DatUtil.gif" width="81" height="40"/>
 
 	<name>DatUtil</name>
-	<version>v2.22</version>
+	<version>v2.23</version>
 	<status>Updated</status>
-	<date>31/10/2005</date>
+	<date>13/11/2005</date>
 
 	<description>Data file creation/conversion tool</description>
 
@@ -40,11 +40,25 @@
 
 	<downloads>
 		<download>
-			<file name="dutil222.zip" size="290"/>
+			<file name="dutil223.zip" size="293"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>13 November 2005</date>
+			<version>v2.23</version>
+			<comment>
+				- Uses DatLib v2.11.<br/>
+				- Added support for 'board', 'colordeep', 'credits' and 'archive'<br/>
+				(fully supported by ListInfo, ListXML and Delimited formats).<br/>
+				- M1 XML loader now retains the 'board' information (see above).<br/>
+				- M1 XML will not use hex for ROM sizes after all... changed back!<br/>
+				- Improved the way that the Nebula driver handles Neo-Geo ROMs.<br/>
+				- Fixed Nebula Jukebox driver for Neo-Geo ROMs (broken in v2.7).
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>31 October 2005</date>
 			<version>v2.22</version>
