@@ -24,10 +24,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="SEGAModel2Emulator.gif" width="290" height="40" alt="SEGAModel2Emulator.gif"/>
+      <img src="SEGAModel2Emulator.png" width="290" height="40" alt="SEGAModel2Emulator.png"/>
     </p>
 	<p>21 games for SEGA Model 2 Emulator v0.1</p>
 	
@@ -47,7 +47,7 @@
           <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.1%20(cm).zip">SEGA Model 2 Emulator dat for CMPro</a> (27KB)</p>
           <p>
             <a href="SEGA%20Model%202%20Emulator%20v0.1%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -55,7 +55,7 @@
           <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.1%20(rc).zip">SEGA Model 2 Emulator dat for ROMCenter</a> (14KB)</p>
           <p>
             <a href="SEGA%20Model%202%20Emulator%20v0.1%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -63,7 +63,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>10 October 2005</b> - 

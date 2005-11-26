@@ -1,6 +1,6 @@
 <!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <emulator id="CrystalSystemEmulator">
-	<img src="CrystalSystemEmulator.gif" width="293" height="40"/>
+	<img src="CrystalSystemEmulator.png" width="293" height="40"/>
 	<name>Crystal System Emulator</name>
 	<version>v1.1</version>
 	<suitability>v1.2</suitability>

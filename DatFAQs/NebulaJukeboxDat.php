@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="NebulaJukeboxDat.gif" width="239" height="40" alt="Nebula Jukebox" /></p>
+					<p><img src="NebulaJukeboxDat.png" width="239" height="40" alt="Nebula Jukebox" /></p>
 
 					<p>Last updated: 17th July 2004</p>
 

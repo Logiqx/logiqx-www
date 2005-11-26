@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="Daphne.gif" width="94" height="40" alt="Daphne.gif"/>
+      <img src="Daphne.png" width="94" height="40" alt="Daphne.png"/>
     </p>
 	<p>61 games for Daphne v0.99.7</p>
 	
@@ -45,7 +45,7 @@
           <p>Download <a href="Daphne%20v0.99.7%20(cm).zip">Daphne dat for CMPro</a> (11KB)</p>
           <p>
             <a href="Daphne%20v0.99.7%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -53,7 +53,7 @@
           <p>Download <a href="Daphne%20v0.99.7%20(rc).zip">Daphne dat for ROMCenter</a> (5KB)</p>
           <p>
             <a href="Daphne%20v0.99.7%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -61,7 +61,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>3 October 2005</b> - 

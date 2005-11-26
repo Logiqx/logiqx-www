@@ -24,10 +24,10 @@
 					include('../../Resources/Top.php');
 				</script>
 	<p>
-      <img src="CMProRC.gif" width="233" height="142" alt="CMProRC.gif"/>
+      <img src="CMProRC.png" width="233" height="142" alt="CMProRC.png"/>
     </p>
 	<p>
-      <img src="DatUtil.gif" width="81" height="40" alt="DatUtil.gif"/>
+      <img src="DatUtil.png" width="81" height="40" alt="DatUtil.png"/>
     </p>
 
 	
@@ -75,7 +75,7 @@
           <p>Download <a href="dutil223.zip">DatUtil v2.23</a> (293KB)</p>
           <p>
             <a href="dutil223.zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -84,7 +84,7 @@
 
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>13 November 2005</b> - DatUtil v2.23</p>

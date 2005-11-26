@@ -24,10 +24,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="ZN.gif" width="37" height="40" alt="ZN.gif"/>
+      <img src="ZN.png" width="37" height="40" alt="ZN.png"/>
     </p>
 	<p>25 games for ZN 20041124</p>
 	
@@ -47,7 +47,7 @@
           <p>Download <a href="ZN%2020041124%20(cm).zip">ZN dat for CMPro</a> (7KB)</p>
           <p>
             <a href="ZN%2020041124%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -56,7 +56,7 @@
           <p>Download <a href="ZN%2020041124%20(rc).zip">ZN dat for ROMCenter</a> (4KB)</p>
           <p>
             <a href="ZN%2020041124%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -65,7 +65,7 @@
 
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>10 October 2005</b> - 

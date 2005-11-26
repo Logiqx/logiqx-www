@@ -24,10 +24,10 @@
 					include('../../Resources/Top.php');
 				</script>
 	<p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="DatLib.gif" width="78" height="40" alt="DatLib.gif"/>
+      <img src="DatLib.png" width="78" height="40" alt="DatLib.png"/>
     </p>
 
 	
@@ -54,7 +54,7 @@
           <p>Download <a href="datlib211.zip">DatLib v2.11</a> (84KB)</p>
           <p>
             <a href="datlib211.zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -63,7 +63,7 @@
 
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>13 November 2005</b> - DatLib v2.11</p>

@@ -368,7 +368,7 @@
         <p>Well, here's what I'll be up to all day (yes, it is me
         on the board)!</p>
 
-        <p><img src="News/Shredder.gif" width="128" height=
+        <p><img src="News/Shredder.png" width="128" height=
         "112" alt="Shredder" /></p>
 
         <p>Better pack my stuff now...</p>

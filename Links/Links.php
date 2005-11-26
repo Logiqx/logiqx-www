@@ -24,18 +24,18 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="../Resources/Logiqx.gif" width="327" height="68" alt="Logiqx" /></p>
+					<p><img src="../Resources/Logiqx.png" width="327" height="68" alt="Logiqx" /></p>
 
-					<p><img src="Links.gif" width="64" height="40" alt="Links" /></p>
+					<p><img src="Links.png" width="64" height="40" alt="Links" /></p>
 
 					<p>In order to use the data files provided on this site, you will
 					need either ClrMamePro or RomCenter.</p>
 
 					<table class="links">
 					  <tr>
-					    <td><a href="http://www.clrmame.com/"><img src="CMPro.gif" 
+					    <td><a href="http://www.clrmame.com/"><img src="CMPro.png" 
 					    width="120" height="78" alt="CMPro" /></a></td>
-					    <td><a href="http://www.romcenter.com/"><img src="RomCenter.gif" 
+					    <td><a href="http://www.romcenter.com/"><img src="RomCenter.png" 
 					    width="241" height="49" alt="RomCenter" /></a></td>
 					  </tr>
 					  <tr>

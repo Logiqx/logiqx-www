@@ -1,6 +1,6 @@
 <tool id="ZIPIdent">
-	<img src="../../Resources/Logiqx.gif" width="327" height="68"/>
-	<img src="ZIPIdent.gif" width="104" height="40"/>
+	<img src="../../Resources/Logiqx.png" width="327" height="68"/>
+	<img src="ZIPIdent.png" width="104" height="40"/>
 
 	<name>ZIPIdent</name>
 	<version>v2.5</version>

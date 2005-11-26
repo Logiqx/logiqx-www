@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="Compiling.gif" width="317" height="40" alt="Compiling MAME &amp; RAINE" /></p>
+					<p><img src="Compiling.png" width="317" height="40" alt="Compiling MAME &amp; RAINE" /></p>
 
 					<p>3rd September 2005</p>
 

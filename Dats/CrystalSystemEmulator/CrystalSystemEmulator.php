@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="CrystalSystemEmulator.gif" width="293" height="40" alt="CrystalSystemEmulator.gif"/>
+      <img src="CrystalSystemEmulator.png" width="293" height="40" alt="CrystalSystemEmulator.png"/>
     </p>
 	<p>2 games for Crystal System Emulator v1.1<br/>(suitable for v1.2)</p>
 	
@@ -45,7 +45,7 @@
           <p>Download <a href="Crystal%20System%20Emulator%20v1.1%20(cm).zip">Crystal System Emulator dat for CMPro</a> (1KB)</p>
           <p>
             <a href="Crystal%20System%20Emulator%20v1.1%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -53,7 +53,7 @@
           <p>Download <a href="Crystal%20System%20Emulator%20v1.1%20(rc).zip">Crystal System Emulator dat for ROMCenter</a> (1KB)</p>
           <p>
             <a href="Crystal%20System%20Emulator%20v1.1%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -61,7 +61,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>31 December 2004</b> - 

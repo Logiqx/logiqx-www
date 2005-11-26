@@ -23,16 +23,16 @@
 					include('../Resources/Top.php');
 				</script>
     <p>
-      <img src="../Resources/Logiqx.gif" width="327" height="68" alt="Logiqx"/>
+      <img src="../Resources/Logiqx.png" width="327" height="68" alt="Logiqx"/>
     </p>
     <p>
-      <img src="Dats.gif" width="57" height="40" alt="Dats"/>
+      <img src="Dats.png" width="57" height="40" alt="Dats"/>
     </p>
     <p>As a result of the developing CAESAR there are now CMPro and ROMCenter dats for every arcade emulator that I could get my hands on (about 200 of them)! Furthermore, once inside CAESAR I have been able to identify the bad dumps in old sets and correct the dats accordingly. Some of the old emulators require ROMs that are different to ones in MAME but only in the way that they have been split/joined/interleaved/padded etc. These ROMs can be reconstructed using <a href="../Tools/ROMBuild/">ROMBuild</a>, after which you can use your favorite ROM manager to build a proper ROM set from them. As you should have gathered, I am keen that all available dats are of the highest quality and would like to keep them this way. If you produce any dats then please <a href="../forum/">contact me</a>
 and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they work correctly for both managers and are suitable for CAESAR. I will take no credit for your dats but I would like to check them over before they are released (rather than submit changes after they are public).</p>
 	<hr/>
     <p>
-      <img src="RecentEmus.gif" width="158" height="40" alt="RecentEmus.gif"/>
+      <img src="RecentEmus.png" width="158" height="40" alt="RecentEmus.png"/>
     </p>
 		
 		
@@ -76,7 +76,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
           </p>
         </td>
         <td>
@@ -130,7 +130,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
           </p>
         </td>
         <td>
@@ -152,7 +152,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
           </p>
         </td>
         <td>
@@ -174,7 +174,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
           </p>
         </td>
         <td>
@@ -303,7 +303,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 	
 	<hr/>
     <p>
-      <img src="OlderEmus.gif" width="140" height="40" alt="OlderEmus.gif"/>
+      <img src="OlderEmus.png" width="140" height="40" alt="OlderEmus.png"/>
     </p>
 		
 		
@@ -332,7 +332,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
           </p>
         </td>
         <td>
@@ -351,7 +351,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 	
 	<hr/>
     <p>
-      <img src="Systems.gif" width="104" height="40" alt="Systems.gif"/>
+      <img src="Systems.png" width="104" height="40" alt="Systems.png"/>
     </p>
 		
 		
@@ -440,7 +440,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 	
 	<hr/>
     <p>
-      <img src="ResourceFiles.gif" width="177" height="40" alt="ResourceFiles.gif"/>
+      <img src="ResourceFiles.png" width="177" height="40" alt="ResourceFiles.png"/>
     </p>
 		
 		

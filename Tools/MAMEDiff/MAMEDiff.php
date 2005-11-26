@@ -24,10 +24,10 @@
 					include('../../Resources/Top.php');
 				</script>
 	<p>
-      <img src="MAMEMAME.gif" width="316" height="100" alt="MAMEMAME.gif"/>
+      <img src="MAMEMAME.png" width="316" height="100" alt="MAMEMAME.png"/>
     </p>
 	<p>
-      <img src="MAMEDiff.gif" width="123" height="40" alt="MAMEDiff.gif"/>
+      <img src="MAMEDiff.png" width="123" height="40" alt="MAMEDiff.png"/>
     </p>
 
 	
@@ -47,7 +47,7 @@
           <p>Download <a href="mdiff221.zip">MAMEDiff v2.21</a> (310KB)</p>
           <p>
             <a href="mdiff221.zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -56,7 +56,7 @@
 
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>31 October 2005</b> - MAMEDiff v2.21</p>

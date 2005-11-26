@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="CPS-1.gif" width="77" height="40" alt="CPS-1.gif"/>
+      <img src="CPS-1.png" width="77" height="40" alt="CPS-1.png"/>
     </p>
 	<p>119 games for CPS-1 20050917</p>
 	
@@ -48,7 +48,7 @@
           <p>Download <a href="CPS-1%2020050917%20(cm).zip">CPS-1 dat for CMPro</a> (47KB)</p>
           <p>
             <a href="CPS-1%2020050917%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -56,7 +56,7 @@
           <p>Download <a href="CPS-1%2020050917%20(rc).zip">CPS-1 dat for ROMCenter</a> (26KB)</p>
           <p>
             <a href="CPS-1%2020050917%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -64,7 +64,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>10 October 2005</b> - 

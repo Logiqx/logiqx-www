@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="WinKawaksDat.gif" width="189" height="40" alt="WinKawaks Dat" /></p>
+					<p><img src="WinKawaksDat.png" width="189" height="40" alt="WinKawaks Dat" /></p>
 
 					<p>Last updated: 30th June 2004</p>
 

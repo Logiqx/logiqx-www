@@ -24,10 +24,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="MPU.gif" width="37" height="40" alt="MPU.gif"/>
+      <img src="MPU.png" width="37" height="40" alt="MPU.png"/>
     </p>
 	<p>5 games for MPU 20010808</p>
 	
@@ -47,7 +47,7 @@
           <p>Download <a href="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip">MPU dat for ROMCenter</a> (3KB)</p>
           <p>
             <a href="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -56,7 +56,7 @@
           <p>Download <a href="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip">MPU dat for ROMCenter</a> (3KB)</p>
           <p>
             <a href="MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -65,7 +65,7 @@
 
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>8 August 2001</b> - 

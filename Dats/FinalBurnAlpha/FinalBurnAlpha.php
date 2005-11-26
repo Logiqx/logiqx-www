@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="FinalBurnAlpha.gif" width="195" height="40" alt="FinalBurnAlpha.gif"/>
+      <img src="FinalBurnAlpha.png" width="195" height="40" alt="FinalBurnAlpha.png"/>
     </p>
 	<p>535 games for FBA v0.2.95.23</p>
 	
@@ -45,7 +45,7 @@
           <p>Download <a href="FBA%20v0.2.95.23%20(cm).zip">FBA dat for CMPro</a> (203KB)</p>
           <p>
             <a href="FBA%20v0.2.95.23%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -53,7 +53,7 @@
           <p>Download <a href="FBA%20v0.2.95.23%20(rc).zip">FBA dat for ROMCenter</a> (107KB)</p>
           <p>
             <a href="FBA%20v0.2.95.23%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -61,7 +61,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>10 October 2005</b> - 

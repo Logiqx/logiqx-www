@@ -1,6 +1,6 @@
 <tool id="ROMInfo">
-	<img src="../../Resources/Logiqx.gif" width="327" height="68"/>
-	<img src="ROMInfo.gif" width="107" height="40"/>
+	<img src="../../Resources/Logiqx.png" width="327" height="68"/>
+	<img src="ROMInfo.png" width="107" height="40"/>
 
 	<name>ROMInfo</name>
 	<version>v2.4</version>

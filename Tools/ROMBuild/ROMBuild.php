@@ -24,10 +24,10 @@
 					include('../../Resources/Top.php');
 				</script>
 	<p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="ROMBuild.gif" width="120" height="40" alt="ROMBuild.gif"/>
+      <img src="ROMBuild.png" width="120" height="40" alt="ROMBuild.png"/>
     </p>
 
 	
@@ -53,7 +53,7 @@
           <p>Download <a href="rbuild27.zip">ROMBuild v2.7</a> (256KB)</p>
           <p>
             <a href="rbuild27.zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -72,7 +72,7 @@
           <p>Download <a href="rbmame80.zip">ROMBuild [MAME v0.80 special]</a> (54KB)</p>
           <p>
             <a href="rbmame80.zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -81,7 +81,7 @@
 
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>5 October 2005</b> - ROMBuild v2.7</p>

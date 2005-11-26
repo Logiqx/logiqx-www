@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="Tickle.gif" width="73" height="40" alt="Tickle.gif"/>
+      <img src="Tickle.png" width="73" height="40" alt="Tickle.png"/>
     </p>
 	<p>28 games for Tickle "Rebound" Edition</p>
 	
@@ -45,7 +45,7 @@
           <p>Download <a href="Tickle%20Rebound%20Edition%20(cm).zip">Tickle dat for CMPro</a> (9KB)</p>
           <p>
             <a href="Tickle%20Rebound%20Edition%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -53,7 +53,7 @@
           <p>Download <a href="Tickle%20Rebound%20Edition%20(rc).zip">Tickle dat for ROMCenter</a> (4KB)</p>
           <p>
             <a href="Tickle%20Rebound%20Edition%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -61,7 +61,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>31 July 2005</b> - 

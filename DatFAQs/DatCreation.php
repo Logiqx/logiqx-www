@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="DatCreation.gif" width="147" height="40" alt="Dat Creation" /></p>
+					<p><img src="DatCreation.png" width="147" height="40" alt="Dat Creation" /></p>
 
 					<p>Last updated: 30th June 2004</p>
 

@@ -1,6 +1,6 @@
 <!-- edited with STYLEVISION v2004 rel. 3 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <emulator id="MAMEBeta">
-	<img src="MAME.gif" width="80" height="40"/>
+	<img src="MAME.png" width="80" height="40"/>
 	<name>MAME</name>
 	<version>v0.101</version>
 	<suitability/>

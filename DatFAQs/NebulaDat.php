@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="NebulaDat.gif" width="134" height="40" alt="Nebula Dat" /></p>
+					<p><img src="NebulaDat.png" width="134" height="40" alt="Nebula Dat" /></p>
 
 					<p>Last updated: 17th July 2004</p>
 

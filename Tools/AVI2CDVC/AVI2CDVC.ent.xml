@@ -1,6 +1,6 @@
 <tool id="AVI2CDVC" hidden="yes">
-	<img src="../../Resources/Logiqx.gif" width="327" height="68"/>
-	<img src="AVI2CDVC.gif" width="135" height="40"/>
+	<img src="../../Resources/Logiqx.png" width="327" height="68"/>
+	<img src="AVI2CDVC.png" width="135" height="40"/>
 	<name>AVI2CDVC</name>
 	<version>v1.01</version>
 	<status></status>

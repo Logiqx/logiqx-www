@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="HowTo.gif" width="196" height="40" alt="HowTo" /></p>
+					<p><img src="HowTo.png" width="196" height="40" alt="HowTo" /></p>
 
 					<p>I wrote a document sometime in January 2001 to help out a few
 					people who could compile MAME but also wanted to compile RAINE. At that time, MAME and

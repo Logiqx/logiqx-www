@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="M1.gif" width="35" height="40" alt="M1.gif"/>
+      <img src="M1.png" width="35" height="40" alt="M1.png"/>
     </p>
 	<p>1157 games for M1 v0.7.7</p>
 	
@@ -48,7 +48,7 @@
           <p>Download <a href="M1%20v0.7.7%20(cm).zip">M1 dat for CMPro</a> (195KB)</p>
           <p>
             <a href="M1%20v0.7.7%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -56,7 +56,7 @@
           <p>Download <a href="M1%20v0.7.7%20(rc).zip">M1 dat for ROMCenter</a> (89KB)</p>
           <p>
             <a href="M1%20v0.7.7%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -64,7 +64,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>10 October 2005</b> - 

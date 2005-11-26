@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="jCVS.gif" width="136" height="40" alt="jCVS" /></p>
+					<p><img src="jCVS.png" width="136" height="40" alt="jCVS" /></p>
 					<p>6th March 2002</p>
 					<h1 class="guide">1. Installing jCVS</h1>
 					<p class="guide">Firstly, download <a href="http://www.jcvs.org/">jCVS</a> and extract it to your PC using WinZip or

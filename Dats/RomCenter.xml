@@ -26,7 +26,7 @@
 ]>
 <contents_page>
 	<section>
-		<img src="RecentEmus.gif" width="158" height="40"/>
+		<img src="RecentEmus.png" width="158" height="40"/>
 		<type>Emulator</type>
 		<comment>
 			<p><b>Emulators that are up to a year old, still active or likely to receive further updates.<br/>These data files correspond to the <a href="http://caesar.logiqx.com/php/emulators.php?id=recent">recent emulators</a> listed at CAESAR.</b></p>
@@ -49,7 +49,7 @@
 		</emulators>
 	</section>
 	<section>
-		<img src="OlderEmus.gif" width="140" height="40"/>
+		<img src="OlderEmus.png" width="140" height="40"/>
 		<type>Emulator</type>
 		<comment>
 			<p><b>Emulators that are no longer regarded as 'recent'.</b></p>
@@ -59,7 +59,7 @@
 		</emulators>
 	</section>
 	<section>
-		<img src="Systems.gif" width="104" height="40"/>
+		<img src="Systems.png" width="104" height="40"/>
 		<type>System</type>
 		<comment>
 			<p><b>General Systems</b></p>
@@ -72,7 +72,7 @@
 		</emulators>
 	</section>
 	<section>
-		<img src="Systems.gif" width="104" height="40"/>
+		<img src="Systems.png" width="104" height="40"/>
 		<type>System</type>
 		<comment>
 			<p><b>Slightly Arcade Related (Fruit Machines/Pinball)</b></p>
@@ -82,7 +82,7 @@
 		</emulators>
 	</section>
 	<section>
-		<img src="ResourceFiles.gif" width="177" height="40"/>
+		<img src="ResourceFiles.png" width="177" height="40"/>
 		<type>Resource</type>
 		<comment>
 			<p><b>Resource Files</b></p>

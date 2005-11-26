@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="MAMEArtwork.gif" width="176" height="40" alt="MAMEArtwork.gif"/>
+      <img src="MAMEArtwork.png" width="176" height="40" alt="MAMEArtwork.png"/>
     </p>
 	<p>167 games for MAME Artwork 20050104</p>
 	
@@ -48,7 +48,7 @@
           <p>Download <a href="MAME%20Artwork%2020050104%20(cm).zip">MAME Artwork dat for CMPro</a> (28KB)</p>
           <p>
             <a href="MAME%20Artwork%2020050104%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -56,7 +56,7 @@
           <p>Download <a href="MAME%20Artwork%2020050104%20(rc).zip">MAME Artwork dat for ROMCenter</a> (11KB)</p>
           <p>
             <a href="MAME%20Artwork%2020050104%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -64,7 +64,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>17 September 2005</b> - 

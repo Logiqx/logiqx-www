@@ -23,10 +23,10 @@
 					include('../Resources/Top.php');
 				</script>
     <p>
-      <img src="../Resources/Logiqx.gif" width="327" height="68" alt="Logiqx"/>
+      <img src="../Resources/Logiqx.png" width="327" height="68" alt="Logiqx"/>
     </p>
 	<p>
-      <img src="Tools.gif" width="69" height="40" alt="Tools.gif"/>
+      <img src="Tools.png" width="69" height="40" alt="Tools.png"/>
     </p>
 		
 		
@@ -55,7 +55,7 @@
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
           <p>
-            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
           </p>
         </td>
         <td>
@@ -72,7 +72,7 @@
         <td>Data file creation/conversion tool</td>
         <td>
           <p>
-            <img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
           </p>
         </td>
         <td>

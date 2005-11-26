@@ -59,7 +59,7 @@
 			</p>
 
 			<p>
-				<a><xsl:attribute name="href"><xsl:value-of select="file/@name"/></xsl:attribute><img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/></a>
+				<a><xsl:attribute name="href"><xsl:value-of select="file/@name"/></xsl:attribute><img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/></a>
 			</p>
 		</td>
 	</xsl:template>
@@ -67,7 +67,7 @@
 	<xsl:template match="revisions">
 		<hr/>
 
-		<p><img src="../../Resources/History.gif" width="85" height="40" alt="History"/></p>
+		<p><img src="../../Resources/History.png" width="85" height="40" alt="History"/></p>
 
 		<xsl:for-each select="revision">
 			<p>
@@ -107,7 +107,7 @@
 				</script>
 
 				<p>
-					<img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+					<img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
 				</p>
 
 				<xsl:apply-templates/>

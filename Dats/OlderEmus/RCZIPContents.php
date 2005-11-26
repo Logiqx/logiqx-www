@@ -24,7 +24,7 @@
 			include('../../Resources/Top.php');
 		?>
 
-					<p><img src="OlderEmus.gif" width="140" height="40" alt="MAME" /></p>
+					<p><img src="OlderEmus.png" width="140" height="40" alt="MAME" /></p>
 
 					<pre>
 <?php

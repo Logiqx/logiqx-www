@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="WinKawaks.gif" width="141" height="40" alt="WinKawaks.gif"/>
+      <img src="WinKawaks.png" width="141" height="40" alt="WinKawaks.png"/>
     </p>
 	<p>444 games for Kawaks v1.54</p>
 	
@@ -48,7 +48,7 @@
           <p>Download <a href="WinKawaks%20v1.54%20(cm).zip">Kawaks dat for CMPro</a> (198KB)</p>
           <p>
             <a href="WinKawaks%20v1.54%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -56,7 +56,7 @@
           <p>Download <a href="WinKawaks%20v1.54%20(rc).zip">Kawaks dat for ROMCenter</a> (94KB)</p>
           <p>
             <a href="WinKawaks%20v1.54%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -64,7 +64,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>10 October 2005</b> - 

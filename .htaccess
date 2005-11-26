@@ -50,6 +50,7 @@ RewriteRule ^HowTo/Compiling\.s?html?$ /HowTo/ [R=301,L]
 RewriteRule ^News/News\.php$ / [R=301,L]
 RewriteRule ^News/News([0-9]+)\.s?html?$ /?page=$1 [R=301,L]
 RewriteRule ^(.+)\.s?html?$ /$1.php [R=301,L]
+RewriteRule ^(.+)\.gif$ /$1.png [R=301,L]
 
 # Tee's latest routine!
 

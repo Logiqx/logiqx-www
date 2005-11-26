@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="CMPro.gif" width="145" height="40" alt="CMPro Dats" /></p>
+					<p><img src="CMPro.png" width="145" height="40" alt="CMPro Dats" /></p>
 
 					<p>Last updated: 30th June 2004</p>
 

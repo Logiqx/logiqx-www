@@ -24,10 +24,10 @@
 					include('../../Resources/Top.php');
 				</script>
 	<p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="ROMInfo.gif" width="107" height="40" alt="ROMInfo.gif"/>
+      <img src="ROMInfo.png" width="107" height="40" alt="ROMInfo.png"/>
     </p>
 
 	
@@ -47,7 +47,7 @@
           <p>Download <a href="rinfo24.zip">ROMInfo v2.4</a> (282KB)</p>
           <p>
             <a href="rinfo24.zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -56,7 +56,7 @@
 
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>31 October 2005</b> - ROMInfo v2.4</p>

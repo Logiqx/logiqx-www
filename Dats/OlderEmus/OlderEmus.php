@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="OlderEmus.gif" width="140" height="40" alt="OlderEmus.gif"/>
+      <img src="OlderEmus.png" width="140" height="40" alt="OlderEmus.png"/>
     </p>
 	<p>Thousands of games for Older Emus 20051012</p>
 	
@@ -49,7 +49,7 @@
           <p>Download <a href="Older%20Emus%2020051012%20(cm).zip">Older Emus dat for CMPro</a> (1179KB)</p>
           <p>
             <a href="Older%20Emus%2020051012%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -57,7 +57,7 @@
           <p>Download <a href="Older%20Emus%2020051012%20(rc).zip">Older Emus dat for ROMCenter</a> (499KB)</p>
           <p>
             <a href="Older%20Emus%2020051012%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -65,7 +65,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>12 October 2005</b> - 

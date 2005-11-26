@@ -24,7 +24,7 @@
 			include('../../Resources/Top.php');
 		?>
 
-					<p><img src="MAME.gif" width="80" height="40" alt="MAME" /></p>
+					<p><img src="MAME.png" width="80" height="40" alt="MAME" /></p>
 
 					<p>Previous MAME Releases</p>
 

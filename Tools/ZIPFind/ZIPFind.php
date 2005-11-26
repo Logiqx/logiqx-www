@@ -24,10 +24,10 @@
 					include('../../Resources/Top.php');
 				</script>
 	<p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="ZIPFind.gif" width="95" height="40" alt="ZIPFind.gif"/>
+      <img src="ZIPFind.png" width="95" height="40" alt="ZIPFind.png"/>
     </p>
 
 	
@@ -45,7 +45,7 @@
           <p>Download <a href="zfind23.zip">ZIPFind v2.3</a> (284KB)</p>
           <p>
             <a href="zfind23.zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -54,7 +54,7 @@
 
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>31 October 2005</b> - ZIPFind v2.3</p>

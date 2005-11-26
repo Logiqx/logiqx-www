@@ -1,6 +1,6 @@
 <tool id="MAMEDiff">
-	<img src="MAMEMAME.gif" width="316" height="100"/>
-	<img src="MAMEDiff.gif" width="123" height="40"/>
+	<img src="MAMEMAME.png" width="316" height="100"/>
+	<img src="MAMEDiff.png" width="123" height="40"/>
 
 	<name>MAMEDiff</name>
 	<version>v2.21</version>

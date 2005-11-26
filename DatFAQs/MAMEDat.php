@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="MAMEDat.gif" width="128" height="40" alt="MAME Dat" /></p>
+					<p><img src="MAMEDat.png" width="128" height="40" alt="MAME Dat" /></p>
 
 					<p>Last updated: 30th June 2004</p>
 

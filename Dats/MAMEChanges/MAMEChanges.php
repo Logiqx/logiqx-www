@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="MAMEChanges.gif" width="192" height="40" alt="MAMEChanges.gif"/>
+      <img src="MAMEChanges.png" width="192" height="40" alt="MAMEChanges.png"/>
     </p>
 	<p>Various games for MAME Changes v0.101</p>
 	
@@ -49,7 +49,7 @@
           <p>Download <a href="MAME%20Changes%20v0.101%20(cm).zip">MAME Changes dat for CMPro</a> (104KB)</p>
           <p>
             <a href="MAME%20Changes%20v0.101%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -57,7 +57,7 @@
           <p>Download <a href="MAME%20Changes%20v0.101%20(rc).zip">MAME Changes dat for ROMCenter</a> (45KB)</p>
           <p>
             <a href="MAME%20Changes%20v0.101%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -65,7 +65,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>10 October 2005</b> - 

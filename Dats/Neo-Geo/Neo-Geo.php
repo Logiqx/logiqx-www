@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="Neo-Geo.gif" width="108" height="40" alt="Neo-Geo.gif"/>
+      <img src="Neo-Geo.png" width="108" height="40" alt="Neo-Geo.png"/>
     </p>
 	<p>201 games for Neo-Geo 20050712</p>
 	
@@ -48,7 +48,7 @@
           <p>Download <a href="Neo-Geo%2020050712%20(cm).zip">Neo-Geo dat for CMPro</a> (96KB)</p>
           <p>
             <a href="Neo-Geo%2020050712%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -56,7 +56,7 @@
           <p>Download <a href="Neo-Geo%2020050712%20(rc).zip">Neo-Geo dat for ROMCenter</a> (56KB)</p>
           <p>
             <a href="Neo-Geo%2020050712%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -64,7 +64,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>10 October 2005</b> - 

@@ -23,9 +23,9 @@
 
 			include('Resources/Top.php');
 
-			echo INDENT . '<p><img src="' . $www_root . 'Resources/Logiqx.gif" width="327" height="68" alt="Logiqx" /></p>' . LF;
+			echo INDENT . '<p><img src="' . $www_root . 'Resources/Logiqx.png" width="327" height="68" alt="Logiqx" /></p>' . LF;
 
-			echo INDENT . '<p><img src="' . $www_root . 'Resources/URLBig.gif" width="266" height="40" alt="http://www.logiqx.com/" /></p>' . LF . LF;
+			echo INDENT . '<p><img src="' . $www_root . 'Resources/URLBig.png" width="266" height="40" alt="http://www.logiqx.com/" /></p>' . LF . LF;
 
 			switch ($_GET['code'])
 			{

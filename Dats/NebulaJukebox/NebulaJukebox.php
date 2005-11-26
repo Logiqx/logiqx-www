@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="NebulaJukebox.gif" width="189" height="40" alt="NebulaJukebox.gif"/>
+      <img src="NebulaJukebox.png" width="189" height="40" alt="NebulaJukebox.png"/>
     </p>
 	<p>249 games for Nebula Jukebox v2.9</p>
 	
@@ -48,7 +48,7 @@
           <p>Download <a href="Nebula%20Jukebox%20v2.9%20(cm).zip">Nebula Jukebox dat for CMPro</a> (47KB)</p>
           <p>
             <a href="Nebula%20Jukebox%20v2.9%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -56,7 +56,7 @@
           <p>Download <a href="Nebula%20Jukebox%20v2.9%20(rc).zip">Nebula Jukebox dat for ROMCenter</a> (25KB)</p>
           <p>
             <a href="Nebula%20Jukebox%20v2.9%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -64,7 +64,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>10 October 2005</b> - 

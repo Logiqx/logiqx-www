@@ -1,6 +1,6 @@
 <tool id="DatUtil">
-	<img src="CMProRC.gif" width="233" height="142"/>
-	<img src="DatUtil.gif" width="81" height="40"/>
+	<img src="CMProRC.png" width="233" height="142"/>
+	<img src="DatUtil.png" width="81" height="40"/>
 
 	<name>DatUtil</name>
 	<version>v2.23</version>

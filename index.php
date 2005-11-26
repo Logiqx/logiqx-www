@@ -24,9 +24,9 @@
 			include('Resources/Top.php');
 		?>
 
-					<p><img src="Resources/Logiqx.gif" width="327" height="68" alt="Logiqx" /></p>
+					<p><img src="Resources/Logiqx.png" width="327" height="68" alt="Logiqx" /></p>
 
-					<p><img src="Resources/URLBig.gif" width="266" height="40" alt="http://www.logiqx.com/" /></p>
+					<p><img src="Resources/URLBig.png" width="266" height="40" alt="http://www.logiqx.com/" /></p>
 
 					<p>Welcome to www.logiqx.com - Source of CMPro/RomCenter data
 					files and other useful tools.</p>
@@ -37,7 +37,7 @@
 
 					<hr />
 
-					<p><img src="News/News.gif" width="69" height="40" alt="News" /></p>
+					<p><img src="News/News.png" width="69" height="40" alt="News" /></p>
 
 					<?php
 						if (isset($_GET['page']) && $_GET['page']!='')

@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="RAINE32.gif" width="237" height="40" alt="Compiling RAINE32" /></p>
+					<p><img src="RAINE32.png" width="237" height="40" alt="Compiling RAINE32" /></p>
 
 					<p>3rd September 2005</p>
 

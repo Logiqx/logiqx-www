@@ -1,6 +1,6 @@
 <tool id="ZIPFind" hidden="yes">
-	<img src="../../Resources/Logiqx.gif" width="327" height="68"/>
-	<img src="ZIPFind.gif" width="95" height="40"/>
+	<img src="../../Resources/Logiqx.png" width="327" height="68"/>
+	<img src="ZIPFind.png" width="95" height="40"/>
 
 	<name>ZIPFind</name>
 	<version>v2.3</version>

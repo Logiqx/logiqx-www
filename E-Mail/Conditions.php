@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="../Resources/Logiqx.gif" width="327" height="68" alt="Logiqx" /></p>
+					<p><img src="../Resources/Logiqx.png" width="327" height="68" alt="Logiqx" /></p>
 
 					<p></p>
 

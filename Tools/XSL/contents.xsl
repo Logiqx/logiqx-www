@@ -49,10 +49,10 @@
 					<p>
 					<xsl:choose>
 						<xsl:when test="status = 'Updated'">
-							<img src="../Resources/Updated.gif" width="73" height="14" alt="Updated"/>
+							<img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
 						</xsl:when>
 						<xsl:when test="status = 'New'">
-							<img src="../Resources/New.gif" width="53" height="14" alt="New"/>
+							<img src="../Resources/New.png" width="53" height="14" alt="New"/>
 						</xsl:when>
 					</xsl:choose>
 					</p>
@@ -99,7 +99,7 @@
 					include('../Resources/Top.php');
 				</script>
 
-					<p><img src="../Resources/Logiqx.gif" width="327" height="68" alt="Logiqx"/></p>
+					<p><img src="../Resources/Logiqx.png" width="327" height="68" alt="Logiqx"/></p>
 
 					<xsl:apply-templates/>
 

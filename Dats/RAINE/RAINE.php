@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="RAINE.gif" width="82" height="40" alt="RAINE.gif"/>
+      <img src="RAINE.png" width="82" height="40" alt="RAINE.png"/>
     </p>
 	<p>567 games for RAINE v0.43.2</p>
 	
@@ -48,7 +48,7 @@
           <p>Download <a href="RAINE%20v0.43.2%20(cm).zip">RAINE dat for CMPro</a> (256KB)</p>
           <p>
             <a href="RAINE%20v0.43.2%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -56,7 +56,7 @@
           <p>Download <a href="RAINE%20v0.43.2%20(rc).zip">RAINE dat for ROMCenter</a> (104KB)</p>
           <p>
             <a href="RAINE%20v0.43.2%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -64,7 +64,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>10 October 2005</b> - 

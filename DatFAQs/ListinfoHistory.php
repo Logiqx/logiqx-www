@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="ListinfoHistory.gif" width="174" height="40" alt="Listinfo History" /></p>
+					<p><img src="ListinfoHistory.png" width="174" height="40" alt="Listinfo History" /></p>
 
 					<p>Last updated: 30th June 2004</p>
 

@@ -25,10 +25,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="Pacifi3D.gif" width="99" height="40" alt="Pacifi3D.gif"/>
+      <img src="Pacifi3D.png" width="99" height="40" alt="Pacifi3D.png"/>
     </p>
 	<p>11 games for Pacifi3D v0.3</p>
 	
@@ -45,7 +45,7 @@
           <p>Download <a href="Pacifi3D%20v0.3%20(cm).zip">Pacifi3D dat for CMPro</a> (3KB)</p>
           <p>
             <a href="Pacifi3D%20v0.3%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -53,7 +53,7 @@
           <p>Download <a href="Pacifi3D%20v0.3%20(rc).zip">Pacifi3D dat for ROMCenter</a> (2KB)</p>
           <p>
             <a href="Pacifi3D%20v0.3%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -61,7 +61,7 @@
     </table>
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>13 April 2005</b> - 

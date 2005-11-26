@@ -24,9 +24,9 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="../Resources/Logiqx.gif" width="327" height="68" alt="Logiqx" /></p>
+					<p><img src="../Resources/Logiqx.png" width="327" height="68" alt="Logiqx" /></p>
 
-					<p><img src="TheTeam.gif" width="123" height="40" alt="The Team" /></p>
+					<p><img src="TheTeam.png" width="123" height="40" alt="The Team" /></p>
 
 					<p>The contents of this site are brought to you by 
 					the following people:<br />

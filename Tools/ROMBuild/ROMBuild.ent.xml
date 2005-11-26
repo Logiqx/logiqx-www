@@ -1,6 +1,6 @@
 <tool id="ROMBuild">
-	<img src="../../Resources/Logiqx.gif" width="327" height="68"/>
-	<img src="ROMBuild.gif" width="120" height="40"/>
+	<img src="../../Resources/Logiqx.png" width="327" height="68"/>
+	<img src="ROMBuild.png" width="120" height="40"/>
 
 	<name>ROMBuild</name>
 	<version>v2.7</version>

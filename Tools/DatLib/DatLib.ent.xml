@@ -1,6 +1,6 @@
 <tool id="DatLib">
-	<img src="../../Resources/Logiqx.gif" width="327" height="68"/>
-	<img src="DatLib.gif" width="78" height="40"/>
+	<img src="../../Resources/Logiqx.png" width="327" height="68"/>
+	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
 	<version>v2.11</version>

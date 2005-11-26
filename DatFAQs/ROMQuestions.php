@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="ROMQuestions.gif" width="188" height="40" alt="ROM Questions" /></p>
+					<p><img src="ROMQuestions.png" width="188" height="40" alt="ROM Questions" /></p>
 
 					<p>Last updated: 30th June 2004</p>
 

@@ -24,10 +24,10 @@
 					include('../../Resources/Top.php');
 				</script>
     <p>
-      <img src="../../Resources/Logiqx.gif" width="327" height="68" alt="../../Resources/Logiqx.gif"/>
+      <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
 	<p>
-      <img src="Zinc.gif" width="53" height="40" alt="Zinc.gif"/>
+      <img src="Zinc.png" width="53" height="40" alt="Zinc.png"/>
     </p>
 	<p>71 games for ZiNc v1.1</p>
 	
@@ -47,7 +47,7 @@
           <p>Download <a href="ZiNc%20v1.1%20(cm).zip">ZiNc dat for CMPro</a> (18KB)</p>
           <p>
             <a href="ZiNc%20v1.1%20(cm).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -56,7 +56,7 @@
           <p>Download <a href="ZiNc%20v1.1%20(rc).zip">ZiNc dat for ROMCenter</a> (9KB)</p>
           <p>
             <a href="ZiNc%20v1.1%20(rc).zip">
-              <img src="../../Resources/Disk.gif" width="38" height="38" alt="Download"/>
+              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
@@ -65,7 +65,7 @@
 
 	<hr/>
     <p>
-      <img src="../../Resources/History.gif" width="85" height="40" alt="History"/>
+      <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
       <b>31 July 2005</b> - 

@@ -1,6 +1,6 @@
 <tool id="ImgChk">
-	<img src="../../Resources/Logiqx.gif" width="327" height="68"/>
-	<img src="ImgChk.gif" width="93" height="40"/>
+	<img src="../../Resources/Logiqx.png" width="327" height="68"/>
+	<img src="ImgChk.png" width="93" height="40"/>
 
 	<name>ImgChk</name>
 	<version>v2.6</version>

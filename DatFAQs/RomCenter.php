@@ -24,7 +24,7 @@
 			include('../Resources/Top.php');
 		?>
 
-					<p><img src="RomCenter.gif" width="202" height="39" alt="RomCenter Dats" /></p>
+					<p><img src="RomCenter.png" width="202" height="39" alt="RomCenter Dats" /></p>
 
 					<p>Last updated: 30th June 2004</p>
 

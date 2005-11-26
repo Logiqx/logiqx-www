@@ -149,8 +149,8 @@
 					    <tr>
 						<td>Status (New/Updated)</td>
 						<td>Either 'New', 'Updated' or blank.<br />
-						It is this field that results in the GIFs 'New.gif' or
-						'Updated.gif' being used on the contents page.</td>
+						It is this field that results in the GIFs 'New.png' or
+						'Updated.png' being used on the contents page.</td>
 					    </tr>
 					    <tr>
 						<td>Date (DD/MM/YYYY)</td>
