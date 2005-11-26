@@ -69,7 +69,7 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="rbmame80.zip">ROMBuild [MAME v0.80 special]</a> (54KB)</p>
+          <p>Download <a href="rbmame80.zip">ROMBuild [MAME v0.80 special]</a> (52KB)</p>
           <p>
             <a href="rbmame80.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
