@@ -4,7 +4,9 @@
     <tr>
       <td>
         <p>I have released the <a href="Dats/">data files</a> for MAME v0.102.</p>
-	<p>Note: Quite a few of the supplements needed updating.</td>
+	<p>Note: Quite a few of the supplements needed updating.</p>
+	<p>On a different note, I have also changed all of the images on this site to PNG format (they used to be GIF).</p>
+      </td>
     </tr>
   </table>
 
