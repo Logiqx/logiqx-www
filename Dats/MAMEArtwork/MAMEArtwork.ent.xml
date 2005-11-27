@@ -2,10 +2,10 @@
 <emulator id="MAMEArtwork">
 	<img src="MAMEArtwork.png" width="176" height="40"/>
 	<name>MAME Artwork</name>
-	<version>20050104</version>
+	<version>20051010</version>
 	<suitability/>
-	<status></status>
-	<date>04/01/2005</date>
+	<status>Updated</status>
+	<date>24/11/2005</date>
 	<games>167</games>
 	<author href="http://www.clrmame.com/">Roman Scherzer</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Artwork%2020050104%20(cm).zip" size="28"/>
+			<file name="MAME%20Artwork%2020051010%20(cm).zip" size="28"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Artwork%2020050104%20(rc).zip" size="11"/>
+			<file name="MAME%20Artwork%2020051010%20(rc).zip" size="11"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>24 November 2005</date>
+			<comment>Uploaded Roman's latest update.</comment>
+		</revision>
 		<revision>
 			<date>17 September 2005</date>
 			<comment>No change required for MAME v0.100.</comment>

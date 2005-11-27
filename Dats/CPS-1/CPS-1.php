@@ -1,6 +1,5 @@
 
-	
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <script language="php">
@@ -9,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>CPS-1 20050917</title>
+    <title>CPS-1 20051124</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,42 +29,50 @@
 	<p>
       <img src="CPS-1.png" width="77" height="40" alt="CPS-1.png"/>
     </p>
-	<p>119 games for CPS-1 20050917</p>
+	<p>120 games for CPS-1 20051124</p>
 	
 	
 	
 	
 	
 	
+
 	
 		<p>Capcom Play System 1</p>
 	
+
 	<table>
       <colgroup span="1" width="50%"/>
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="CPS-1%2020050917%20(cm).zip">CPS-1 dat for CMPro</a> (47KB)</p>
+          <p>Download <a href="CPS-1%2020051124%20(cm).zip">CPS-1 dat for CMPro</a> (48KB)</p>
           <p>
-            <a href="CPS-1%2020050917%20(cm).zip">
+            <a href="CPS-1%2020051124%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="CPS-1%2020050917%20(rc).zip">CPS-1 dat for ROMCenter</a> (26KB)</p>
+          <p>Download <a href="CPS-1%2020051124%20(rc).zip">CPS-1 dat for ROMCenter</a> (26KB)</p>
           <p>
-            <a href="CPS-1%2020050917%20(rc).zip">
+            <a href="CPS-1%2020051124%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 	</tr>
     </table>
+
 	<hr/>
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>24 November 2005</b> - 
+			
+			Updated to match MAME v0.102.
+		</p>
     <p>
       <b>10 October 2005</b> - 
 			

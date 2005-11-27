@@ -1,3 +1,13 @@
+  <h1>27 November 2005</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>I have released the <a href="Dats/">data files</a> for MAME v0.102.</p>
+	<p>Note: Quite a few of the supplements needed updating.</td>
+    </tr>
+  </table>
+
   <h1>13 November 2005</h1>
 
   <table class="news">

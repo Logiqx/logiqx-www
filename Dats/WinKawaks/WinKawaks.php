@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="WinKawaks%20v1.54%20(cm).zip">Kawaks dat for CMPro</a> (198KB)</p>
+          <p>Download <a href="WinKawaks%20v1.54%20(cm).zip">Kawaks dat for CMPro</a> (199KB)</p>
           <p>
             <a href="WinKawaks%20v1.54%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="WinKawaks%20v1.54%20(rc).zip">Kawaks dat for ROMCenter</a> (94KB)</p>
+          <p>Download <a href="WinKawaks%20v1.54%20(rc).zip">Kawaks dat for ROMCenter</a> (95KB)</p>
           <p>
             <a href="WinKawaks%20v1.54%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>24 November 2005</b> - 
+			
+			Updated supplements for MAME v0.102.
+		</p>
     <p>
       <b>10 October 2005</b> - 
 			

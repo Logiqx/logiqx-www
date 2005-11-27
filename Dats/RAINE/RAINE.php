@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="RAINE%20v0.43.2%20(cm).zip">RAINE dat for CMPro</a> (256KB)</p>
+          <p>Download <a href="RAINE%20v0.43.2%20(cm).zip">RAINE dat for CMPro</a> (258KB)</p>
           <p>
             <a href="RAINE%20v0.43.2%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="RAINE%20v0.43.2%20(rc).zip">RAINE dat for ROMCenter</a> (104KB)</p>
+          <p>Download <a href="RAINE%20v0.43.2%20(rc).zip">RAINE dat for ROMCenter</a> (105KB)</p>
           <p>
             <a href="RAINE%20v0.43.2%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>24 November 2005</b> - 
+			
+			Updated supplements for MAME v0.102.
+		</p>
     <p>
       <b>10 October 2005</b> - 
 			
