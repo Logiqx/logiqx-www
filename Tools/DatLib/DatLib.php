@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.11</title>
+    <title>DatLib v2.12</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib211.zip">DatLib v2.11</a> (84KB)</p>
+          <p>Download <a href="datlib212.zip">DatLib v2.12</a> (84KB)</p>
           <p>
-            <a href="datlib211.zip">
+            <a href="datlib212.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 December 2005</b> - DatLib v2.12</p>
+    <p>
+			
+			
+			
+				- Fixed a rare crash (if the longest line in the dat was the last).<br/>
+				- Fixed a problem loading RomCenter data files containing [].
+    			
+		</p>
     <p>
       <b>13 November 2005</b> - DatLib v2.11</p>
     <p>

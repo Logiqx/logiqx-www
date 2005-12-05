@@ -3,9 +3,9 @@
 	<img src="MAMEDiff.png" width="123" height="40"/>
 
 	<name>MAMEDiff</name>
-	<version>v2.21</version>
-	<status></status>
-	<date>31/10/2005</date>
+	<version>v2.22</version>
+	<status>Updated</status>
+	<date>05/12/2005</date>
 
 	<description>Data file comparison tool</description>
 
@@ -15,11 +15,23 @@
 
 	<downloads>
 		<download>
-			<file name="mdiff221.zip" size="310"/>
+			<file name="mdiff222.zip" size="313"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>5 December 2005</date>
+			<version>v2.22</version>
+			<comment>
+				- Uses DatLib v2.12.<br/>
+				- Fixed a rare crash (if the longest line in the dat was the last).<br/>
+				- Fixed a problem loading RomCenter data files containing [].<br/>
+				- From DatLib v2.11.<br/>
+				- M1 XML will not use hex for ROM sizes after all... changed back!
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>31 October 2005</date>
 			<version>v2.21</version>

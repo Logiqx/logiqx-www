@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ROMInfo v2.4</title>
+    <title>ROMInfo v2.5</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="rinfo24.zip">ROMInfo v2.4</a> (282KB)</p>
+          <p>Download <a href="rinfo25.zip">ROMInfo v2.5</a> (285KB)</p>
           <p>
-            <a href="rinfo24.zip">
+            <a href="rinfo25.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,17 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 December 2005</b> - ROMInfo v2.5</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.12.<br/>
+				- Fixed a rare crash (if the longest line in the dat was the last).<br/>
+				- Fixed a problem loading RomCenter data files containing [].
+    			
+		</p>
     <p>
       <b>31 October 2005</b> - ROMInfo v2.4</p>
     <p>

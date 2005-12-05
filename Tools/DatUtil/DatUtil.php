@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.23</title>
+    <title>DatUtil v2.24</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -72,9 +72,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil223.zip">DatUtil v2.23</a> (293KB)</p>
+          <p>Download <a href="dutil224.zip">DatUtil v2.24</a> (293KB)</p>
           <p>
-            <a href="dutil223.zip">
+            <a href="dutil224.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -86,6 +86,17 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 December 2005</b> - DatUtil v2.24</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.12.<br/>
+				- Fixed a rare crash (if the longest line in the dat was the last).<br/>
+				- Fixed a problem loading RomCenter data files containing [].
+    			
+		</p>
     <p>
       <b>13 November 2005</b> - DatUtil v2.23</p>
     <p>

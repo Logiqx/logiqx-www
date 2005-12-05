@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAMEDiff v2.21</title>
+    <title>MAMEDiff v2.22</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="mdiff221.zip">MAMEDiff v2.21</a> (310KB)</p>
+          <p>Download <a href="mdiff222.zip">MAMEDiff v2.22</a> (313KB)</p>
           <p>
-            <a href="mdiff221.zip">
+            <a href="mdiff222.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,19 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 December 2005</b> - MAMEDiff v2.22</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.12.<br/>
+				- Fixed a rare crash (if the longest line in the dat was the last).<br/>
+				- Fixed a problem loading RomCenter data files containing [].<br/>
+				- From DatLib v2.11.<br/>
+				- M1 XML will not use hex for ROM sizes after all... changed back!
+    			
+		</p>
     <p>
       <b>31 October 2005</b> - MAMEDiff v2.21</p>
     <p>

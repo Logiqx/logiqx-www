@@ -50,7 +50,7 @@
 
 			<tr>
         <td>
-          <a href="DatLib/">DatLib v2.11</a>
+          <a href="DatLib/">DatLib v2.12</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
@@ -60,14 +60,14 @@
         </td>
         <td>
           <p>
-            <strong>13/11/2005</strong>
+            <strong>05/12/2005</strong>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="DatUtil/">DatUtil v2.23</a>
+          <a href="DatUtil/">DatUtil v2.24</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
@@ -77,7 +77,7 @@
         </td>
         <td>
           <p>
-            <strong>13/11/2005</strong>
+            <strong>05/12/2005</strong>
           </p>
         </td>
       </tr>
@@ -97,14 +97,18 @@
 
 			<tr>
         <td>
-          <a href="MAMEDiff/">MAMEDiff v2.21</a>
+          <a href="MAMEDiff/">MAMEDiff v2.22</a>
         </td>
         <td>Data file comparison tool</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>31/10/2005</p>
+          <p>
+            <strong>05/12/2005</strong>
+          </p>
         </td>
       </tr>
 
@@ -123,14 +127,18 @@
 
 			<tr>
         <td>
-          <a href="ROMInfo/">ROMInfo v2.4</a>
+          <a href="ROMInfo/">ROMInfo v2.5</a>
         </td>
         <td>ROM identification tool (for individual ROMs)</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>31/10/2005</p>
+          <p>
+            <strong>05/12/2005</strong>
+          </p>
         </td>
       </tr>
 
@@ -138,14 +146,18 @@
 
 			<tr>
         <td>
-          <a href="ZIPIdent/">ZIPIdent v2.5</a>
+          <a href="ZIPIdent/">ZIPIdent v2.6</a>
         </td>
         <td>Game identification tool (for groups of ROMs)</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>31/10/2005</p>
+          <p>
+            <strong>05/12/2005</strong>
+          </p>
         </td>
       </tr>
 
