@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAMEDiff v2.22</title>
+    <title>MAMEDiff v2.23</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="mdiff222.zip">MAMEDiff v2.22</a> (313KB)</p>
+          <p>Download <a href="mdiff223.zip">MAMEDiff v2.23</a> (313KB)</p>
           <p>
-            <a href="mdiff222.zip">
+            <a href="mdiff223.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>6 December 2005</b> - MAMEDiff v2.23</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.13.<br/>
+				- DatLib v2.12 broke the RomCenter drivers (now fixed).
+    			
+		</p>
     <p>
       <b>5 December 2005</b> - MAMEDiff v2.22</p>
     <p>

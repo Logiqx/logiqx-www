@@ -3,9 +3,9 @@
 	<img src="ZIPIdent.png" width="104" height="40"/>
 
 	<name>ZIPIdent</name>
-	<version>v2.6</version>
+	<version>v2.7</version>
 	<status>Updated</status>
-	<date>05/12/2005</date>
+	<date>06/12/2005</date>
 
 	<description>Game identification tool (for groups of ROMs)</description>
 
@@ -20,11 +20,20 @@
 
 	<downloads>
 		<download>
-			<file name="zident26.zip" size="292"/>
+			<file name="zident27.zip" size="293"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>6 December 2005</date>
+			<version>v2.7</version>
+			<comment>
+				- Uses DatLib v2.13.<br/>
+				- DatLib v2.12 broke the RomCenter drivers (now fixed).
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>5 December 2005</date>
 			<version>v2.6</version>

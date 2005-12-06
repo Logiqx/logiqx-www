@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ZIPIdent v2.6</title>
+    <title>ZIPIdent v2.7</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -49,9 +49,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="zident26.zip">ZIPIdent v2.6</a> (292KB)</p>
+          <p>Download <a href="zident27.zip">ZIPIdent v2.7</a> (293KB)</p>
           <p>
-            <a href="zident26.zip">
+            <a href="zident27.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -63,6 +63,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>6 December 2005</b> - ZIPIdent v2.7</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.13.<br/>
+				- DatLib v2.12 broke the RomCenter drivers (now fixed).
+    			
+		</p>
     <p>
       <b>5 December 2005</b> - ZIPIdent v2.6</p>
     <p>

@@ -50,7 +50,7 @@
 
 			<tr>
         <td>
-          <a href="DatLib/">DatLib v2.12</a>
+          <a href="DatLib/">DatLib v2.13</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
@@ -60,14 +60,14 @@
         </td>
         <td>
           <p>
-            <strong>05/12/2005</strong>
+            <strong>06/12/2005</strong>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="DatUtil/">DatUtil v2.24</a>
+          <a href="DatUtil/">DatUtil v2.25</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
@@ -77,7 +77,7 @@
         </td>
         <td>
           <p>
-            <strong>05/12/2005</strong>
+            <strong>06/12/2005</strong>
           </p>
         </td>
       </tr>
@@ -97,7 +97,7 @@
 
 			<tr>
         <td>
-          <a href="MAMEDiff/">MAMEDiff v2.22</a>
+          <a href="MAMEDiff/">MAMEDiff v2.23</a>
         </td>
         <td>Data file comparison tool</td>
         <td>
@@ -107,7 +107,7 @@
         </td>
         <td>
           <p>
-            <strong>05/12/2005</strong>
+            <strong>06/12/2005</strong>
           </p>
         </td>
       </tr>
@@ -127,7 +127,7 @@
 
 			<tr>
         <td>
-          <a href="ROMInfo/">ROMInfo v2.5</a>
+          <a href="ROMInfo/">ROMInfo v2.6</a>
         </td>
         <td>ROM identification tool (for individual ROMs)</td>
         <td>
@@ -137,7 +137,7 @@
         </td>
         <td>
           <p>
-            <strong>05/12/2005</strong>
+            <strong>06/12/2005</strong>
           </p>
         </td>
       </tr>
@@ -146,7 +146,7 @@
 
 			<tr>
         <td>
-          <a href="ZIPIdent/">ZIPIdent v2.6</a>
+          <a href="ZIPIdent/">ZIPIdent v2.7</a>
         </td>
         <td>Game identification tool (for groups of ROMs)</td>
         <td>
@@ -156,7 +156,7 @@
         </td>
         <td>
           <p>
-            <strong>05/12/2005</strong>
+            <strong>06/12/2005</strong>
           </p>
         </td>
       </tr>
