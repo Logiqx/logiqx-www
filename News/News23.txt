@@ -1,3 +1,13 @@
+  <h1>10 December 2005</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>I have now released the <a href="Dats/">data files</a> for Kawaks v1.55.</p>
+      </td>
+    </tr>
+  </table>
+
   <h1>6 December 2005</h1>
 
   <table class="news">

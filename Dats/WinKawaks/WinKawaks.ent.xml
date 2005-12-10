@@ -2,11 +2,11 @@
 <emulator id="WinKawaks">
 	<img src="WinKawaks.png" width="141" height="40"/>
 	<name>Kawaks</name>
-	<version>v1.54</version>
+	<version>v1.55</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>24/11/2005</date>
-	<games>444</games>
+	<date>10/12/2005</date>
+	<games>452</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Kawaks emulates CPS-1, CPS-2 and Neo-Geo games.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="WinKawaks%20v1.54%20(cm).zip" size="199"/>
+			<file name="WinKawaks%20v1.55%20(cm).zip" size="196"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="WinKawaks%20v1.54%20(rc).zip" size="95"/>
+			<file name="WinKawaks%20v1.55%20(rc).zip" size="97"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>10 December 2005</date>
+			<comment>Updated for Kawaks v1.55.</comment>
+		</revision>
 		<revision>
 			<date>24 November 2005</date>
 			<comment>Updated supplements for MAME v0.102.</comment>
@@ -56,7 +60,7 @@
 		</revision>
 		<revision>
 			<date>6 March 2005</date>
-			<comment>Updated for WinKawaks v1.54.</comment>
+			<comment>Updated for Kawaks v1.54.</comment>
 		</revision>
 		<revision>
 			<date>27 February 2005</date>
@@ -72,7 +76,7 @@
 		</revision>
 		<revision>
 			<date>16 January 2005</date>
-			<comment>Updated for WinKawaks v1.53.</comment>
+			<comment>Updated for Kawaks v1.53.</comment>
 		</revision>
 		<revision>
 			<date>4 January 2005 - Pt. 2</date>
@@ -80,11 +84,11 @@
 		</revision>
 		<revision>
 			<date>4 January 2005</date>
-			<comment>Updated for WinKawaks v1.52.</comment>
+			<comment>Updated for Kawaks v1.52.</comment>
 		</revision>
 		<revision>
 			<date>30 December 2004</date>
-			<comment>Updated for WinKawaks v1.50.</comment>
+			<comment>Updated for Kawaks v1.50.</comment>
 		</revision>
 		<revision>
 			<date>24 November 2004</date>
@@ -132,11 +136,11 @@
 		</revision>
 		<revision>
 			<date>2 March 2003</date>
-			<comment>Updated for WinKawaks v1.49. Use <a href="../../Tools/ROMBuild/rbmame80.zip">ROMBuild</a> [MAME v0.80 Special] to build the new Neo-Geo ROMs.</comment>
+			<comment>Updated for Kawaks v1.49. Use <a href="../../Tools/ROMBuild/rbmame80.zip">ROMBuild</a> [MAME v0.80 Special] to build the new Neo-Geo ROMs.</comment>
 		</revision>
 		<revision>
 			<date>3 February 2003</date>
-			<comment>Updated for WinKawaks v1.48.</comment>
+			<comment>Updated for Kawaks v1.48.</comment>
 		</revision>
 		<revision>
 			<date>31 January 2004</date>
@@ -156,7 +160,7 @@
 		</revision>
 		<revision>
 			<date>19 September 2003</date>
-			<comment>Updated for WinKawaks v1.47b.</comment>
+			<comment>Updated for Kawaks v1.47b.</comment>
 		</revision>
 		<revision>
 			<date>5 July 2003</date>
@@ -172,7 +176,7 @@
 		</revision>
 		<revision>
 			<date>18 April 2003</date>
-			<comment>Released WinKawaks v1.46 dats.<br/>Updated supplements for MAME v0.67.</comment>
+			<comment>Released Kawaks v1.46 dats.<br/>Updated supplements for MAME v0.67.</comment>
 		</revision>
 		<revision>
 			<date>9 April 2003</date>
@@ -204,19 +208,19 @@
 		</revision>
 		<revision>
 			<date>20 September 2002</date>
-			<comment>Released WinKawaks v1.45 dats.</comment>
+			<comment>Released Kawaks v1.45 dats.</comment>
 		</revision>
 		<revision>
 			<date>2 May 2002</date>
-			<comment>Released WinKawaks v1.43 dats.</comment>
+			<comment>Released Kawaks v1.43 dats.</comment>
 		</revision>
 		<revision>
 			<date>2 April 2002</date>
-			<comment>Released WinKawaks v1.42 dats.</comment>
+			<comment>Released Kawaks v1.42 dats.</comment>
 		</revision>
 		<revision>
 			<date>15 March 2002</date>
-			<comment>Released WinKawaks v1.41 dats including MAME Supplementary dats.</comment>
+			<comment>Released Kawaks v1.41 dats including MAME Supplementary dats.</comment>
 		</revision>
 		<revision>
 			<date>18 November 2001</date>

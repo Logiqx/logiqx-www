@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Kawaks v1.54</title>
+    <title>Kawaks v1.55</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="WinKawaks.png" width="141" height="40" alt="WinKawaks.png"/>
     </p>
-	<p>444 games for Kawaks v1.54</p>
+	<p>452 games for Kawaks v1.55</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="WinKawaks%20v1.54%20(cm).zip">Kawaks dat for CMPro</a> (199KB)</p>
+          <p>Download <a href="WinKawaks%20v1.55%20(cm).zip">Kawaks dat for CMPro</a> (196KB)</p>
           <p>
-            <a href="WinKawaks%20v1.54%20(cm).zip">
+            <a href="WinKawaks%20v1.55%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="WinKawaks%20v1.54%20(rc).zip">Kawaks dat for ROMCenter</a> (95KB)</p>
+          <p>Download <a href="WinKawaks%20v1.55%20(rc).zip">Kawaks dat for ROMCenter</a> (97KB)</p>
           <p>
-            <a href="WinKawaks%20v1.54%20(rc).zip">
+            <a href="WinKawaks%20v1.55%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>10 December 2005</b> - 
+			
+			Updated for Kawaks v1.55.
+		</p>
     <p>
       <b>24 November 2005</b> - 
 			
@@ -109,7 +114,7 @@
     <p>
       <b>6 March 2005</b> - 
 			
-			Updated for WinKawaks v1.54.
+			Updated for Kawaks v1.54.
 		</p>
     <p>
       <b>27 February 2005</b> - 
@@ -129,7 +134,7 @@
     <p>
       <b>16 January 2005</b> - 
 			
-			Updated for WinKawaks v1.53.
+			Updated for Kawaks v1.53.
 		</p>
     <p>
       <b>4 January 2005 - Pt. 2</b> - 
@@ -139,12 +144,12 @@
     <p>
       <b>4 January 2005</b> - 
 			
-			Updated for WinKawaks v1.52.
+			Updated for Kawaks v1.52.
 		</p>
     <p>
       <b>30 December 2004</b> - 
 			
-			Updated for WinKawaks v1.50.
+			Updated for Kawaks v1.50.
 		</p>
     <p>
       <b>24 November 2004</b> - 
@@ -204,12 +209,12 @@
     <p>
       <b>2 March 2003</b> - 
 			
-			Updated for WinKawaks v1.49. Use <a href="../../Tools/ROMBuild/rbmame80.zip">ROMBuild</a> [MAME v0.80 Special] to build the new Neo-Geo ROMs.
+			Updated for Kawaks v1.49. Use <a href="../../Tools/ROMBuild/rbmame80.zip">ROMBuild</a> [MAME v0.80 Special] to build the new Neo-Geo ROMs.
 		</p>
     <p>
       <b>3 February 2003</b> - 
 			
-			Updated for WinKawaks v1.48.
+			Updated for Kawaks v1.48.
 		</p>
     <p>
       <b>31 January 2004</b> - 
@@ -234,7 +239,7 @@
     <p>
       <b>19 September 2003</b> - 
 			
-			Updated for WinKawaks v1.47b.
+			Updated for Kawaks v1.47b.
 		</p>
     <p>
       <b>5 July 2003</b> - 
@@ -254,7 +259,7 @@
     <p>
       <b>18 April 2003</b> - 
 			
-			Released WinKawaks v1.46 dats.<br/>Updated supplements for MAME v0.67.
+			Released Kawaks v1.46 dats.<br/>Updated supplements for MAME v0.67.
 		</p>
     <p>
       <b>9 April 2003</b> - 
@@ -294,22 +299,22 @@
     <p>
       <b>20 September 2002</b> - 
 			
-			Released WinKawaks v1.45 dats.
+			Released Kawaks v1.45 dats.
 		</p>
     <p>
       <b>2 May 2002</b> - 
 			
-			Released WinKawaks v1.43 dats.
+			Released Kawaks v1.43 dats.
 		</p>
     <p>
       <b>2 April 2002</b> - 
 			
-			Released WinKawaks v1.42 dats.
+			Released Kawaks v1.42 dats.
 		</p>
     <p>
       <b>15 March 2002</b> - 
 			
-			Released WinKawaks v1.41 dats including MAME Supplementary dats.
+			Released Kawaks v1.41 dats including MAME Supplementary dats.
 		</p>
     <p>
       <b>18 November 2001</b> - 
