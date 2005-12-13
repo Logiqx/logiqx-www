@@ -29,6 +29,10 @@
 
 			switch ($_GET['code'])
 			{
+				case 400:
+					echo INDENT . '<h1>Error 400 - Bad Request</h1>' . LF . LF;
+					echo INDENT . '<p>Syntax error in the client request!</p>' . LF;
+					break;
 				case 401:
 					echo INDENT . '<h1>Error 401 - Authorization Required</h1>' . LF . LF;
 					echo INDENT . '<p>You are not authorized to access this section of the website!</p>' . LF;
