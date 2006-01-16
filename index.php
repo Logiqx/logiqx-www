@@ -43,12 +43,13 @@
 						if (isset($_GET['page']) && $_GET['page']!='')
 							include ('News/News' . $_GET['page'] . '.txt');
 						else
-							include ('News/News23.txt');
+							include ('News/News24.txt');
 					?>
 
 					<hr />
 
 					<p>
+						<a href="?page=23">October to December 2005</a> -
 						<a href="?page=22">July to September 2005</a> -
 						<a href="?page=21">April to June 2005</a> -
 						<a href="?page=20">January to March 2005</a>

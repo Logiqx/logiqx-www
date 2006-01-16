@@ -1,0 +1,41 @@
+  <h1>13 January 2006</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+	<p>Released <a href="Tools/">DatUtil</a> v2.27 and <a href="Tools/">DatLib</a> v2.15 (fixes a bug in yesterdays release).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>12 January 2006</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+	<p>Released <a href="Tools/">DatUtil</a> v2.26 and <a href="Tools/">DatLib</a> v2.14 (added a save-only format to imitate MAME's gamelist.txt file).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>9 January 2006</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+	<p>Released <a href="Tools/">MAMEDiff</a> v2.24 (includes a new -d4 option for ROM archival).</p>
+      </td>
+    </tr>
+  </table>
+
+  <h1>4 January 2006</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Happy New Year!</p>
+        <p>I have released the <a href="Dats/">data files</a> for MAME v0.103.</p>
+	<p>Note: The CPS-2, Neo-Geo and ZN data files have also been updated.</p>
+      </td>
+    </tr>
+  </table>
