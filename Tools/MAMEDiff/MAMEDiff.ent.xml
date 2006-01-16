@@ -3,9 +3,9 @@
 	<img src="MAMEDiff.png" width="123" height="40"/>
 
 	<name>MAMEDiff</name>
-	<version>v2.23</version>
+	<version>v2.24</version>
 	<status>Updated</status>
-	<date>06/12/2005</date>
+	<date>09/01/2006</date>
 
 	<description>Data file comparison tool</description>
 
@@ -15,11 +15,21 @@
 
 	<downloads>
 		<download>
-			<file name="mdiff223.zip" size="313"/>
+			<file name="mdiff224.zip" size="162"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>9 January 2005</date>
+			<version>v2.24</version>
+			<comment>
+				- Added -d4 (even smaller supplements - for ROM archival only).<br/>
+				- Updated the usage information on the command line.<br/>
+            			- Tidied up the code in generate.c (used by -d1, -d2, -d3, -d4).
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>6 December 2005</date>
 			<version>v2.23</version>

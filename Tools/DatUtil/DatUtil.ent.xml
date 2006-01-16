@@ -3,9 +3,9 @@
 	<img src="DatUtil.png" width="81" height="40"/>
 
 	<name>DatUtil</name>
-	<version>v2.25</version>
+	<version>v2.27</version>
 	<status>Updated</status>
-	<date>06/12/2005</date>
+	<date>13/01/2006</date>
 
 	<description>Data file creation/conversion tool</description>
 
@@ -33,6 +33,7 @@
 			<br />
 			<b>Save only:</b><br />
 			<br />
+			- MAME GameList<br />
 			- Title List (for listing game titles - used by CPS-2 readme and RAINE docs)<br />
 			- RomCenter Sublist
 		</p>
@@ -40,16 +41,36 @@
 
 	<downloads>
 		<download>
-			<file name="dutil225.zip" size="293"/>
+			<file name="dutil227.zip" size="145"/>
 		</download>
 	</downloads>
 
 	<revisions>
 		<revision>
+			<date>13 January 2006</date>
+			<version>v2.27</version>
+			<comment>
+				- Uses DatLib v2.15.<br />
+            			- Last release would not load data files less than 4KB in size!
+    			</comment>
+		</revision>
+
+		<revision>
+			<date>12 January 2006</date>
+			<version>v2.26</version>
+			<comment>
+				- Uses DatLib v2.14.<br />
+				- Added a save-only format to imitate MAME's gamelist.txt file.<br />
+				- File identification is now done by loading just the first 4KB.<br />
+				- Added a list of supported save-formats to the command line help.
+    			</comment>
+		</revision>
+
+		<revision>
 			<date>6 December 2005</date>
 			<version>v2.25</version>
 			<comment>
-				- Uses DatLib v2.13.<br/>
+				- Uses DatLib v2.13.<br />
 				- DatLib v2.12 broke the RomCenter drivers (now fixed).
     			</comment>
 		</revision>
@@ -58,8 +79,8 @@
 			<date>5 December 2005</date>
 			<version>v2.24</version>
 			<comment>
-				- Uses DatLib v2.12.<br/>
-				- Fixed a rare crash (if the longest line in the dat was the last).<br/>
+				- Uses DatLib v2.12.<br />
+				- Fixed a rare crash (if the longest line in the dat was the last).<br />
 				- Fixed a problem loading RomCenter data files containing [].
     			</comment>
 		</revision>
@@ -68,12 +89,12 @@
 			<date>13 November 2005</date>
 			<version>v2.23</version>
 			<comment>
-				- Uses DatLib v2.11.<br/>
-				- Added support for 'board', 'colordeep', 'credits' and 'archive'<br/>
-				(fully supported by ListInfo, ListXML and Delimited formats).<br/>
-				- M1 XML loader now retains the 'board' information (see above).<br/>
-				- M1 XML will not use hex for ROM sizes after all... changed back!<br/>
-				- Improved the way that the Nebula driver handles Neo-Geo ROMs.<br/>
+				- Uses DatLib v2.11.<br />
+				- Added support for 'board', 'colordeep', 'credits' and 'archive'<br />
+				(fully supported by ListInfo, ListXML and Delimited formats).<br />
+				- M1 XML loader now retains the 'board' information (see above).<br />
+				- M1 XML will not use hex for ROM sizes after all... changed back!<br />
+				- Improved the way that the Nebula driver handles Neo-Geo ROMs.<br />
 				- Fixed Nebula Jukebox driver for Neo-Geo ROMs (broken in v2.7).
     			</comment>
 		</revision>
@@ -82,8 +103,8 @@
 			<date>31 October 2005</date>
 			<version>v2.22</version>
 			<comment>
-				- Uses DatLib v2.10.<br/>
-				- Fixed identification of ListXML for MAME+MESS v0.101u4 onwards.<br/>
+				- Uses DatLib v2.10.<br />
+				- Fixed identification of ListXML for MAME+MESS v0.101u4 onwards.<br />
 				- Added the '-q' option (to save Listinfo with quotes throughout).
     			</comment>
 		</revision>
@@ -92,8 +113,8 @@
 			<date>28 October 2005</date>
 			<version>v2.21</version>
 			<comment>
-				- Uses DatLib v2.9.<br/>
-				- M1 XML will use hex for ROM sizes. Changed driver accordingly.<br/>
+				- Uses DatLib v2.9.<br />
+				- M1 XML will use hex for ROM sizes. Changed driver accordingly.<br />
 				- Now reports duplicate game descriptions and CRCs (i.e. ROMs).
 			</comment>
 		</revision>
@@ -102,8 +123,8 @@
 			<date>5 October 2005</date>
 			<version>v2.20</version>
 			<comment>
-				- Uses DatLib v2.8.<br/>
-				- Improved the logerror() function (used for reporting ZIP errors).<br/>
+				- Uses DatLib v2.8.<br />
+				- Improved the logerror() function (used for reporting ZIP errors).<br />
 				- Added support for M1's XML format (when it becomes available).
 			</comment>
 		</revision>
@@ -112,9 +133,9 @@
 			<date>17 September 2005</date>
 			<version>v2.19</version>
 			<comment>
-				- Uses DatLib v2.7.<br/>
-				- Compiled with zlib 1.3.<br/>
-				- Improved Neo-Geo handling for the Nebula driver.<br/>
+				- Uses DatLib v2.7.<br />
+				- Compiled with zlib 1.3.<br />
+				- Improved Neo-Geo handling for the Nebula driver.<br />
 				- Improved 'romof' handling for RomCenter 2 driver (during loading).
 			</comment>
 		</revision>

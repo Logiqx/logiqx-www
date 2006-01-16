@@ -50,7 +50,7 @@
 
 			<tr>
         <td>
-          <a href="DatLib/">DatLib v2.13</a>
+          <a href="DatLib/">DatLib v2.15</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
@@ -60,14 +60,14 @@
         </td>
         <td>
           <p>
-            <strong>06/12/2005</strong>
+            <strong>13/01/2006</strong>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="DatUtil/">DatUtil v2.25</a>
+          <a href="DatUtil/">DatUtil v2.27</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
@@ -77,7 +77,7 @@
         </td>
         <td>
           <p>
-            <strong>06/12/2005</strong>
+            <strong>13/01/2006</strong>
           </p>
         </td>
       </tr>
@@ -97,7 +97,7 @@
 
 			<tr>
         <td>
-          <a href="MAMEDiff/">MAMEDiff v2.23</a>
+          <a href="MAMEDiff/">MAMEDiff v2.24</a>
         </td>
         <td>Data file comparison tool</td>
         <td>
@@ -107,7 +107,7 @@
         </td>
         <td>
           <p>
-            <strong>06/12/2005</strong>
+            <strong>09/01/2006</strong>
           </p>
         </td>
       </tr>
@@ -131,14 +131,10 @@
         </td>
         <td>ROM identification tool (for individual ROMs)</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>06/12/2005</strong>
-          </p>
+          <p>06/12/2005</p>
         </td>
       </tr>
 
@@ -150,14 +146,10 @@
         </td>
         <td>Game identification tool (for groups of ROMs)</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>06/12/2005</strong>
-          </p>
+          <p>06/12/2005</p>
         </td>
       </tr>
 

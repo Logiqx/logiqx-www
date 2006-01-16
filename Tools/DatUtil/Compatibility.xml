@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compatibility>
+	<emulator id="M1" version="v0.7.7">
+		<datutil version="v2.23"/>
+		<executable name="m1.exe" option="-d"/>
+	</emulator>
+	<emulator id="MAME" version="v0.101u4">
+		<datutil version="v2.22"/>
+		<executable name="mame*.exe" option="-listxml"/>
+	</emulator>
+	<emulator id="MESS" version="v0.102">
+		<datutil version="v2.22"/>
+		<executable name="mess*.exe" option="-listxml"/>
+	</emulator>
+	<emulator id="Nebula" version="v2.25">
+		<datutil version="v2.23"/>
+		<file name="*.dat"/>
+	</emulator>
+	<emulator id="Nebula Jukebox" version="v2.9">
+		<datutil version="v2.23" option="-j"/>
+		<file name="*.dat"/>
+	</emulator>
+	<emulator id="RAINE" version="v0.102">
+		<datutil version="v2.18"/>
+		<executable name="raine*.exe" option="-gameinfo"/>
+	</emulator>
+	<emulator id="ZiNc" version="v1.1">
+		<datutil version="v2.8"/>
+		<executable name="zinc.exe" option="--list-sets"/>
+	</emulator>
+</compatibility>

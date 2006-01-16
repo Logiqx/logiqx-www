@@ -31,3 +31,4 @@ $(FILELIST): $(TOOLS) Tools.xml xsl/filelist.xsl
 %.php: %.xml %.ent.xml xsl/tool.xsl xsl/comments.xsl
 	@echo Building $@...
 	$(XT) $(XTOPTS) xsl/tool.xsl $< $@
+

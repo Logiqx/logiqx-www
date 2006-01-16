@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.13</version>
+	<version>v2.15</version>
 	<status>Updated</status>
-	<date>06/12/2005</date>
+	<date>13/01/2006</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,28 @@
 
 	<downloads>
 		<download>
-			<file name="datlib213.zip" size="84"/>
+			<file name="datlib215.zip" size="88"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>13 January 2006</date>
+			<version>v2.15</version>
+			<comment>
+				- Last release would not load data files less than 4KB in size!
+    			</comment>
+		</revision>
+
+		<revision>
+			<date>12 January 2006</date>
+			<version>v2.14</version>
+			<comment>
+				- Added a save-only format to imitate MAME's gamelist.txt file.<br/>
+				- File identification is now done by loading just the first 4KB.
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>6 December 2005</date>
 			<version>v2.13</version>

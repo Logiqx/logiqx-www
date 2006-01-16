@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.25</title>
+    <title>DatUtil v2.27</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -64,6 +64,7 @@
 			<b>Save only:</b>
       <br/>
 			<br/>
+			- MAME GameList<br/>
 			- Title List (for listing game titles - used by CPS-2 readme and RAINE docs)<br/>
 			- RomCenter Sublist
 		</p>
@@ -72,9 +73,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil225.zip">DatUtil v2.25</a> (293KB)</p>
+          <p>Download <a href="dutil227.zip">DatUtil v2.27</a> (145KB)</p>
           <p>
-            <a href="dutil225.zip">
+            <a href="dutil227.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -86,6 +87,28 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>13 January 2006</b> - DatUtil v2.27</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.15.<br/>
+            			- Last release would not load data files less than 4KB in size!
+    			
+		</p>
+    <p>
+      <b>12 January 2006</b> - DatUtil v2.26</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.14.<br/>
+				- Added a save-only format to imitate MAME's gamelist.txt file.<br/>
+				- File identification is now done by loading just the first 4KB.<br/>
+				- Added a list of supported save-formats to the command line help.
+    			
+		</p>
     <p>
       <b>6 December 2005</b> - DatUtil v2.25</p>
     <p>

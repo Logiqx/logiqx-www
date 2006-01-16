@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAMEDiff v2.23</title>
+    <title>MAMEDiff v2.24</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="mdiff223.zip">MAMEDiff v2.23</a> (313KB)</p>
+          <p>Download <a href="mdiff224.zip">MAMEDiff v2.24</a> (162KB)</p>
           <p>
-            <a href="mdiff223.zip">
+            <a href="mdiff224.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,17 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>9 January 2005</b> - MAMEDiff v2.24</p>
+    <p>
+			
+			
+			
+				- Added -d4 (even smaller supplements - for ROM archival only).<br/>
+				- Updated the usage information on the command line.<br/>
+            			- Tidied up the code in generate.c (used by -d1, -d2, -d3, -d4).
+    			
+		</p>
     <p>
       <b>6 December 2005</b> - MAMEDiff v2.23</p>
     <p>

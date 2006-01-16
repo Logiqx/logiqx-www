@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.13</title>
+    <title>DatLib v2.15</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib213.zip">DatLib v2.13</a> (84KB)</p>
+          <p>Download <a href="datlib215.zip">DatLib v2.15</a> (88KB)</p>
           <p>
-            <a href="datlib213.zip">
+            <a href="datlib215.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,25 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>13 January 2006</b> - DatLib v2.15</p>
+    <p>
+			
+			
+			
+				- Last release would not load data files less than 4KB in size!
+    			
+		</p>
+    <p>
+      <b>12 January 2006</b> - DatLib v2.14</p>
+    <p>
+			
+			
+			
+				- Added a save-only format to imitate MAME's gamelist.txt file.<br/>
+				- File identification is now done by loading just the first 4KB.
+    			
+		</p>
     <p>
       <b>6 December 2005</b> - DatLib v2.13</p>
     <p>
