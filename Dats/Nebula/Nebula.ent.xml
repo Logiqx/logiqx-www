@@ -4,8 +4,8 @@
 	<name>Nebula</name>
 	<version>v2.25</version>
 	<suitability/>
-	<status></status>
-	<date>24/11/2005</date>
+	<status>Updated</status>
+	<date>04/01/2006</date>
 	<games>469</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -18,10 +18,14 @@
 		</dat>
 		<dat>
                         &ROMCenter;
-                        <file name="Nebula%20v2.25%20(rc).zip" size="95"/>
+                        <file name="Nebula%20v2.25%20(rc).zip" size="94"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>4 January 2006</date>
+			<comment>Updated supplements for MAME v0.103.</comment>
+		</revision>
 		<revision>
 			<date>24 November 2005</date>
 			<comment>Updated supplements for MAME v0.102.</comment>

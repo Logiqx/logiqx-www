@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAME Changes v0.102</title>
+    <title>MAME Changes v0.103</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="MAMEChanges.png" width="192" height="40" alt="MAMEChanges.png"/>
     </p>
-	<p>Various games for MAME Changes v0.102</p>
+	<p>Various games for MAME Changes v0.103</p>
 	
 	
 	
@@ -46,17 +46,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20Changes%20v0.102%20(cm).zip">MAME Changes dat for CMPro</a> (98KB)</p>
+          <p>Download <a href="MAME%20Changes%20v0.103%20(cm).zip">MAME Changes dat for CMPro</a> (242KB)</p>
           <p>
-            <a href="MAME%20Changes%20v0.102%20(cm).zip">
+            <a href="MAME%20Changes%20v0.103%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20Changes%20v0.102%20(rc).zip">MAME Changes dat for ROMCenter</a> (40KB)</p>
+          <p>Download <a href="MAME%20Changes%20v0.103%20(rc).zip">MAME Changes dat for ROMCenter</a> (96KB)</p>
           <p>
-            <a href="MAME%20Changes%20v0.102%20(rc).zip">
+            <a href="MAME%20Changes%20v0.103%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>4 January 2006</b> - 
+			
+			Uploaded dats for MAME v0.103.
+		</p>
     <p>
       <b>24 November 2005</b> - 
 			

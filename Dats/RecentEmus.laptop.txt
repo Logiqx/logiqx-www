@@ -1,0 +1,15 @@
+C:\GNU\Logiqx\WWW\Dats\CrystalSystemEmulator;CrystalSystemEmulator
+C:\GNU\Logiqx\WWW\Dats\Daphne;Daphne
+C:\GNU\Logiqx\WWW\Dats\FinalBurnAlpha;FinalBurnAlpha
+C:\GNU\Logiqx\WWW\Dats\M1;M1
+C:\GNU\Logiqx\WWW\Dats\MAMEBeta;MAMEBeta
+C:\GNU\Logiqx\WWW\Dats\MAMEChanges;MAMEChanges
+C:\GNU\Logiqx\WWW\Dats\Nebula;Nebula
+C:\GNU\Logiqx\WWW\Dats\NebulaJukebox;NebulaJukebox
+C:\GNU\Logiqx\WWW\Dats\Pacifi3D;Pacifi3D
+C:\GNU\Logiqx\WWW\Dats\RAINE;RAINE
+C:\GNU\Logiqx\WWW\Dats\RadikalBikersEmulator;RadikalBikersEmulator
+C:\GNU\Logiqx\WWW\Dats\SEGAModel2Emulator;SEGAModel2Emulator
+C:\GNU\Logiqx\WWW\Dats\Tickle;Tickle
+C:\GNU\Logiqx\WWW\Dats\WinKawaks;WinKawaks
+C:\GNU\Logiqx\WWW\Dats\Zinc;Zinc

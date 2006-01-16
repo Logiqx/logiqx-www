@@ -5,7 +5,7 @@
 	<version>v1.55</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>10/12/2005</date>
+	<date>04/01/2006</date>
 	<games>452</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="WinKawaks%20v1.55%20(cm).zip" size="196"/>
+			<file name="WinKawaks%20v1.55%20(cm).zip" size="182"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="WinKawaks%20v1.55%20(rc).zip" size="97"/>
+			<file name="WinKawaks%20v1.55%20(rc).zip" size="89"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>4 January 2006</date>
+			<comment>Updated supplements for MAME v0.103.</comment>
+		</revision>
 		<revision>
 			<date>10 December 2005</date>
 			<comment>Updated for Kawaks v1.55.</comment>

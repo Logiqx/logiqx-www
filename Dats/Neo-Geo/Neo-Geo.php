@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Neo-Geo 20051212</title>
+    <title>Neo-Geo 20060104</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="Neo-Geo.png" width="108" height="40" alt="Neo-Geo.png"/>
     </p>
-	<p>229 games for Neo-Geo 20051212</p>
+	<p>232 games for Neo-Geo 20060104</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Neo-Geo%2020051212%20(cm).zip">Neo-Geo dat for CMPro</a> (136KB)</p>
+          <p>Download <a href="Neo-Geo%2020060104%20(cm).zip">Neo-Geo dat for CMPro</a> (124KB)</p>
           <p>
-            <a href="Neo-Geo%2020051212%20(cm).zip">
+            <a href="Neo-Geo%2020060104%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Neo-Geo%2020051212%20(rc).zip">Neo-Geo dat for ROMCenter</a> (78KB)</p>
+          <p>Download <a href="Neo-Geo%2020060104%20(rc).zip">Neo-Geo dat for ROMCenter</a> (71KB)</p>
           <p>
-            <a href="Neo-Geo%2020051212%20(rc).zip">
+            <a href="Neo-Geo%2020060104%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -67,9 +67,19 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>4 January 2006</b> - 
+			
+			Updated to match MAME v0.103.
+		</p>
+    <p>
       <b>13 December 2005</b> - 
 			
 			Added all of bootleg/hack/decrypted games supported by Nebula and Kawaks (i.e. 28 more games).
+		</p>
+    <p>
+      <b>24 November 2005</b> - 
+			
+			No change required for MAME v0.102.
 		</p>
     <p>
       <b>10 October 2005</b> - 

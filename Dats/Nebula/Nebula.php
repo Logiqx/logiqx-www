@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="Nebula%20v2.25%20(rc).zip">Nebula dat for ROMCenter</a> (95KB)</p>
+          <p>Download <a href="Nebula%20v2.25%20(rc).zip">Nebula dat for ROMCenter</a> (94KB)</p>
           <p>
             <a href="Nebula%20v2.25%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>4 January 2006</b> - 
+			
+			Updated supplements for MAME v0.103.
+		</p>
     <p>
       <b>24 November 2005</b> - 
 			

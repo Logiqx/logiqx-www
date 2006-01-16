@@ -1,11 +1,11 @@
 <emulator id="ZN">
 	<img src="ZN.png" width="37" height="40"/>
 	<name>ZN</name>
-	<version>20051124</version>
+	<version>20060104</version>
 	<suitability></suitability>
-	<status></status>
-	<date>24/11/2005</date>
-	<games>26</games>
+	<status>Updated</status>
+	<date>04/01/2006</date>
+	<games>28</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 
 	<comment><p>Capcom ZN-1 and ZN-2</p></comment>
@@ -13,16 +13,20 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="ZN%2020051124%20(cm).zip" size="7"/>
+			<file name="ZN%2020060104%20(cm).zip" size="7"/>
 		</dat>
 
 		<dat>
 			&ROMCenter;
-			<file name="ZN%2020051124%20(rc).zip" size="4"/>
+			<file name="ZN%2020060104%20(rc).zip" size="5"/>
 		</dat>
 	</dats>
 
 	<revisions>
+		<revision>
+			<date>4 January 2006</date>
+			<comment>Updated to match MAME v0.103.</comment>
+		</revision>
 		<revision>
 			<date>24 November 2005</date>
 			<comment>Updated to match MAME v0.102.</comment>

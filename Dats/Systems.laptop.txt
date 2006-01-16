@@ -1,0 +1,4 @@
+C:\GNU\Logiqx\WWW\Dats\CPS-1;CPS-1
+C:\GNU\Logiqx\WWW\Dats\CPS-2;CPS-2
+C:\GNU\Logiqx\WWW\Dats\Neo-Geo;Neo-Geo
+C:\GNU\Logiqx\WWW\Dats\ZN;ZN

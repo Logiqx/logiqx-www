@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ZN 20051124</title>
+    <title>ZN 20060104</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="ZN.png" width="37" height="40" alt="ZN.png"/>
     </p>
-	<p>26 games for ZN 20051124</p>
+	<p>28 games for ZN 20060104</p>
 	
 	
 	
@@ -44,18 +44,18 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="ZN%2020051124%20(cm).zip">ZN dat for CMPro</a> (7KB)</p>
+          <p>Download <a href="ZN%2020060104%20(cm).zip">ZN dat for CMPro</a> (7KB)</p>
           <p>
-            <a href="ZN%2020051124%20(cm).zip">
+            <a href="ZN%2020060104%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 
 		<td>
-          <p>Download <a href="ZN%2020051124%20(rc).zip">ZN dat for ROMCenter</a> (4KB)</p>
+          <p>Download <a href="ZN%2020060104%20(rc).zip">ZN dat for ROMCenter</a> (5KB)</p>
           <p>
-            <a href="ZN%2020051124%20(rc).zip">
+            <a href="ZN%2020060104%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>4 January 2006</b> - 
+			
+			Updated to match MAME v0.103.
+		</p>
     <p>
       <b>24 November 2005</b> - 
 			
