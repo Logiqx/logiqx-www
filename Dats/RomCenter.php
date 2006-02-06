@@ -35,7 +35,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMEBeta/MAME%20v0.104%20(rc).zip"><b>MAME</b></a></td><td>v0.104</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6031</td><td>06/02/2006</td></tr>
+					</b></td><td><a href="MAMEBeta/MAME%20v0.104%20(rc).zip"><b>MAME</b></a></td><td>v0.104</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6024</td><td>06/02/2006</td></tr>
 
 
 

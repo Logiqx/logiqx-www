@@ -6,7 +6,7 @@
 	<suitability/>
 	<status>Updated</status>
 	<date>06/02/2006</date>
-	<games>6031</games>
+	<games>6024</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Both dats were generated using DatUtil.</p>
@@ -15,11 +15,11 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20v0.104%20(cm).zip" size="2043"/>
+			<file name="MAME%20v0.104%20(cm).zip" size="2042"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20v0.104%20(rc).zip" size="873"/>
+			<file name="MAME%20v0.104%20(rc).zip" size="872"/>
 		</dat>
 	</dats>
 	<revisions>
