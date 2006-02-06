@@ -105,8 +105,8 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="Neo-Geo/Neo-Geo%2020060104%20(rc).zip"><b>Neo-Geo</b></a></td><td>20060104</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>232</td><td>04/01/2006</td></tr>
+						updated
+					</b></td><td><a href="Neo-Geo/Neo-Geo%2020060206%20(rc).zip"><b>Neo-Geo</b></a></td><td>20060206</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>243</td><td>06/02/2006</td></tr>
 
 <tr><td class="status"><b>
 						-

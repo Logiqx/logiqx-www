@@ -380,16 +380,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="Neo-Geo/">Neo-Geo 20060104</a>
+          <a href="Neo-Geo/">Neo-Geo 20060206</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>04/01/2006</p>
+          <p>
+            <b>06/02/2006</b>
+          </p>
         </td>
         <td>
-          <p>232</p>
+          <p>
+            <b>243</b>
+          </p>
         </td>
       </tr>
 
