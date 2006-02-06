@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>6 February 2006</b> - 
+			
+			No change required for MAME v0.104.
+		</p>
+    <p>
       <b>4 January 2006</b> - 
 			
 			Updated to match MAME v0.103.

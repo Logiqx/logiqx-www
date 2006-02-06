@@ -11,7 +11,6 @@ EMULATORS= \
 	Daphne/Daphne.php \
 	FinalBurnAlpha/FinalBurnAlpha.php \
 	MAMEBeta/MAMEBeta.php \
-	MAMEChanges/MAMEChanges.php \
 	Pacifi3D/Pacifi3D.php \
 	RAINE/RAINE.php \
 	Tickle/Tickle.php \

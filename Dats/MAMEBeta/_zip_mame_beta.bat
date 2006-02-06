@@ -12,7 +12,7 @@ DEL "MAME.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "MAME %MAME_VER_CURRENT% (cm).zip" "MAME %MAME_VER_CURRENT%*" -x "MAME %MAME_VER_CURRENT% *Changes*"
+zip "MAME %MAME_VER_CURRENT% (cm).zip" "MAME %MAME_VER_CURRENT%.dat" "MAME %MAME_VER_CURRENT% *.txt"
 mv "MAME %MAME_VER_CURRENT% (cm).zip" "%LOGIQX%/WWW/Dats/MAMEBeta"
 
 REM --- Move to RomCenter directory
@@ -21,5 +21,5 @@ cd "%LOGIQX%\Dats_RC\Recent\Multi"
 
 REM --- Generate RomCenter ZIP
 
-zip "MAME %MAME_VER_CURRENT% (rc).zip" "MAME %MAME_VER_CURRENT%*" -x "MAME %MAME_VER_CURRENT% *Changes*"
+zip "MAME %MAME_VER_CURRENT% (rc).zip" "MAME %MAME_VER_CURRENT%.dat" "MAME %MAME_VER_CURRENT% *.txt"
 mv "MAME %MAME_VER_CURRENT% (rc).zip" "%LOGIQX%/WWW/Dats/MAMEBeta"

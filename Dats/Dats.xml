@@ -5,7 +5,6 @@
 	<!ENTITY Daphne SYSTEM "Daphne/Daphne.ent.xml">
 	<!ENTITY FinalBurnAlpha SYSTEM "FinalBurnAlpha/FinalBurnAlpha.ent.xml">
 	<!ENTITY MAMEBeta SYSTEM "MAMEBeta/MAMEBeta.ent.xml">
-	<!ENTITY MAMEChanges SYSTEM "MAMEChanges/MAMEChanges.ent.xml">
 	<!ENTITY Nebula SYSTEM "Nebula/Nebula.ent.xml">
 	<!ENTITY SEGAModel2Emulator SYSTEM "SEGAModel2Emulator/SEGAModel2Emulator.ent.xml">
 	<!ENTITY Pacifi3D SYSTEM "Pacifi3D/Pacifi3D.ent.xml">
