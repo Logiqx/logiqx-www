@@ -1,3 +1,13 @@
+  <h1>4 March 2006</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>I have updated my <a href="HowTo/">compile guides</a> to use mingw-runtime-3.9 and w32api-3.6 (for MAME v0.104u4).</p>
+      </td>
+    </tr>
+  </table>
+
   <h1>6 February 2006</h1>
 
   <table class="news">

@@ -1,0 +1,9 @@
+  <h1>5 April 2006</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>I have released the <a href="Dats/">data files</a> for MAME v0.105.</p>
+      </td>
+    </tr>
+  </table>

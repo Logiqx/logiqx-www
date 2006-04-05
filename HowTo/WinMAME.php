@@ -26,9 +26,9 @@
 
 					<p><img src="Compiling.png" width="317" height="40" alt="Compiling MAME &amp; RAINE" /></p>
 
-					<p>3rd September 2005</p>
+					<p>4th March 2006</p>
 
-					<p>Tested with MAME v0.99 and RAINE32 v0.43.0</p>
+					<p>Tested with MAME v0.104u4 and RAINE32 v0.43.0</p>
 
 					<h1 class="guide">1. Introduction</h1>
 
@@ -73,12 +73,12 @@
 					    <td> Binutils 2.15.91 (binary and object handling)</td>
 					  </tr>
 					  <tr>
-					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/mingw-runtime-3.8.tar.gz">mingw-runtime-3.8.tar.gz</a></td>
-					    <td>MinGW Runtime 3.8 (stdio etc)</td>
+					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/mingw-runtime-3.9.tar.gz">mingw-runtime-3.9.tar.gz</a></td>
+					    <td>MinGW Runtime 3.9 (stdio etc)</td>
 					  </tr>
 					  <tr>
-					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/w32api-3.3.tar.gz">w32api-3.3.tar.gz</a></td>
-					    <td>Windows API 3.3 (needed during linking)</td>
+					    <td><a href="http://caesar.logiqx.com/zips/tools/compilers/mingw/w32api-3.6.tar.gz">w32api-3.6.tar.gz</a></td>
+					    <td>Windows API 3.6 (needed during linking)</td>
 					  </tr>
 					</table>
 

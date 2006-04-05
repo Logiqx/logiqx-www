@@ -19,23 +19,23 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.95.23%20(rc).zip"><b>FBA</b></a></td><td>v0.2.95.23</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>535</td><td>04/01/2006</td></tr>
+						updated
+					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.95.23%20(rc).zip"><b>FBA</b></a></td><td>v0.2.95.23</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>535</td><td>05/04/2006</td></tr>
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="WinKawaks/WinKawaks%20v1.55%20(rc).zip"><b>Kawaks</b></a></td><td>v1.55</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>452</td><td>06/02/2006</td></tr>
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="M1/M1%20v0.7.7%20(rc).zip"><b>M1</b></a></td><td>v0.7.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1157</td><td>04/01/2006</td></tr>
+						updated
+					</b></td><td><a href="M1/M1%20v0.7.7%20(rc).zip"><b>M1</b></a></td><td>v0.7.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1157</td><td>05/04/2006</td></tr>
 
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMEBeta/MAME%20v0.104%20(rc).zip"><b>MAME</b></a></td><td>v0.104</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6024</td><td>06/02/2006</td></tr>
+					</b></td><td><a href="MAMEBeta/MAME%20v0.105%20(rc).zip"><b>MAME</b></a></td><td>v0.105</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6096</td><td>05/04/2006</td></tr>
 
 
 
@@ -56,7 +56,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="RAINE/RAINE%20v0.43.2%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.2</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>567</td><td>06/02/2006</td></tr>
+					</b></td><td><a href="RAINE/RAINE%20v0.43.2%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.2</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>567</td><td>05/04/2006</td></tr>
 
 <tr><td class="status"><b>
 						-
@@ -95,18 +95,18 @@
 		
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>System</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="CPS-1/CPS-1%2020051124%20(rc).zip"><b>CPS-1</b></a></td><td>20051124</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>120</td><td>24/11/2005</td></tr>
-
-
-<tr><td class="status"><b>
-						-
-					</b></td><td><a href="CPS-2/CPS-2%2020060104%20(rc).zip"><b>CPS-2</b></a></td><td>20060104</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>189</td><td>04/01/2006</td></tr>
+						updated
+					</b></td><td><a href="CPS-1/CPS-1%2020060405%20(rc).zip"><b>CPS-1</b></a></td><td>20060405</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>121</td><td>05/04/2006</td></tr>
 
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="Neo-Geo/Neo-Geo%2020060206%20(rc).zip"><b>Neo-Geo</b></a></td><td>20060206</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>243</td><td>06/02/2006</td></tr>
+					</b></td><td><a href="CPS-2/CPS-2%2020060405%20(rc).zip"><b>CPS-2</b></a></td><td>20060405</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>189</td><td>05/04/2006</td></tr>
+
+
+<tr><td class="status"><b>
+						updated
+					</b></td><td><a href="Neo-Geo/Neo-Geo%2020060405%20(rc).zip"><b>Neo-Geo</b></a></td><td>20060405</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>247</td><td>05/04/2006</td></tr>
 
 <tr><td class="status"><b>
 						-
@@ -136,13 +136,13 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Resource</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020051230%20(rc).zip"><b>MAME Artwork</b></a></td><td>20051230</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>167</td><td>04/01/2006</td></tr>
+						updated
+					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020060404%20(rc).zip"><b>MAME Artwork</b></a></td><td>20060404</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>167</td><td>04/04/2006</td></tr>
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMESamples/MAME%20Samples%2020051010%20(rc).zip"><b>MAME Samples</b></a></td><td>20051010</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>68</td><td>24/11/2005</td></tr>
+						updated
+					</b></td><td><a href="MAMESamples/MAME%20Samples%2020060404%20(rc).zip"><b>MAME Samples</b></a></td><td>20050404</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>66</td><td>04/04/2005</td></tr>
 
 		</table>
 	

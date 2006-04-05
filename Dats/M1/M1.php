@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="M1%20v0.7.7%20(cm).zip">M1 dat for CMPro</a> (196KB)</p>
+          <p>Download <a href="M1%20v0.7.7%20(cm).zip">M1 dat for CMPro</a> (197KB)</p>
           <p>
             <a href="M1%20v0.7.7%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 April 2006</b> - 
+			
+			Updated supplements for MAME v0.105.
+		</p>
     <p>
       <b>6 February 2006</b> - 
 			
