@@ -40,7 +40,7 @@
 					<li>Using PASV mode (invented to make life simpler for clients behind firewalls or NAT routers), the server provides the client with an IP address and port to connect to for the data. As with PORT mode, commands go across the initial connection and actual data (including directory listings) goes across the data connection.</li>
 					</ul>
 
-					<p>The diagrams below illustrate the difference between PORT and PASV mode.</p>
+					<p class="guide">The diagrams below illustrate the difference between PORT and PASV mode.</p>
 
 					<p><img src="FTP_1.png" alt="FTP_1.png"/></p>
 
@@ -53,7 +53,7 @@
 					<li>Clients actually connect to the router (at an internet address)</li>
 					<li>The router forwards the connections to the actual server (at a LAN address)</li>
 					</ul>
-					<p>Modified diagrams are as follows...</p>
+					<p class="guide">Modified diagrams are as follows...</p>
 
 					<p><img src="FTP_2.png" alt="FTP_2.png"/></p>
 
@@ -63,7 +63,7 @@
 					<li>If using a software firewall on your PC (ZoneAlarm, Windows Firewall, etc) then ports 1400-1500 must be opened up. If not, the data connection cannot be established.</li>
 					</ol>
 
-					<p>Important settings in PASV mode:<br/><br/>
+					<p class="guide">Important settings in PASV mode:<br/><br/>
 
 					None... there is nothing special for you to do!
 					The server will supply a valid IP address and port (1400-1500) for the data connection.
@@ -88,7 +88,7 @@
 					<li>If using a software firewall on your PC (ZoneAlarm, Windows Firewall, etc) then ports 1400-1500 must be opened up. If not, the data connection cannot be established.</li>
 					</ol>
 
-					<p>Important settings in PASV mode:<br/><br/>
+					<p class="guide">Important settings in PASV mode:<br/><br/>
 
 					None... there is nothing special for you to do!
 					The server will supply a valid IP address and port (1400-1500) for the data connection.
