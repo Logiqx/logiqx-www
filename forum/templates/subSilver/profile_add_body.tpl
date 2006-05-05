@@ -58,11 +58,10 @@
 	<!-- Visual Confirmation -->
 	<!-- BEGIN switch_confirm -->
 	<tr>
-		<td class="row1" colspan="2" align="center"><span class="gensmall">{L_CONFIRM_CODE_IMPAIRED}</span><br /><br />{CONFIRM_IMG}<br /><br /></td>
+	  <td class="row1" colspan="2"><span class="gen">{L_CONFIRM_CODE}: * </span></td>
 	</tr>
-	<tr> 
-	  <td class="row1"><span class="gen">{L_CONFIRM_CODE}: * </span><br /><span class="gensmall">{L_CONFIRM_CODE_EXPLAIN}</span></td>
-	  <td class="row2"><input type="text" class="post" style="width: 200px" name="confirm_code" size="6" maxlength="6" value="" /></td>
+	<tr>
+	  <td class="row1" colspan="2" align="center"><span class="gensmall">{L_CONFIRM_CODE_IMPAIRED}</span><br /><br />{CONFIRM_IMG}<br /><br /></td>
 	</tr>
 	<!-- END switch_confirm -->
 	<tr> 

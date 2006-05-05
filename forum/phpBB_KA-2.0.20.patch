@@ -1,0 +1,100 @@
+--- includes/usercp_register.php.orig	2006-04-05 18:53:36.000000000 +0200
++++ includes/usercp_register.php	2006-04-17 22:56:53.000000000 +0200
+@@ -76,6 +76,9 @@
+ $error_msg = '';
+ $page_title = ( $mode == 'editprofile' ) ? $lang['Edit_profile'] : $lang['Register'];
+ 
++// include functions for KittenAuth based visual confirmation
++include($phpbb_root_path . 'includes/functions_ka.'.$phpEx);
++
+ if ( $mode == 'register' && !isset($HTTP_POST_VARS['agreed']) && !isset($HTTP_GET_VARS['agreed']) )
+ {
+ 	include($phpbb_root_path . 'includes/page_header.'.$phpEx);
+@@ -297,7 +300,11 @@
+ 
+ 			if ($row = $db->sql_fetchrow($result))
+ 			{
+-				if ($row['code'] != $confirm_code)
++				// KittenAuth based visual confirmation
++				// (only needed to convert confirm code)
++				$ka_confirm_tmp = new ka_confirm();
++
++				if ($row['code'] != $ka_confirm_tmp->get_short_code_from_long_code($confirm_code))
+ 				{
+ 					$error = TRUE;
+ 					$error_msg .= ( ( isset($error_msg) ) ? '<br />' : '' ) . $lang['Confirm_code_wrong'];
+@@ -990,11 +997,18 @@
+ 		
+ 		// Generate the required confirmation code
+ 		// NB 0 (zero) could get confused with O (the letter) so we make change it
+-		$code = dss_rand();
+-		$code = strtoupper(str_replace('0', 'o', substr($code, 6)));
++
++		// Captcha based visual confirmation
++		// $code = dss_rand();
++		// $code = strtoupper(str_replace('0', 'o', substr($code, 6)));
+ 
+ 		$confirm_id = md5(uniqid($user_ip));
+ 
++		// KittenAuth based visual confirmation
++		$ka_confirm = new ka_confirm();
++		$ka_confirm->create_test();
++		$code = $ka_confirm->get_short_code();
++
+ 		$sql = 'INSERT INTO ' . CONFIRM_TABLE . " (confirm_id, session_id, code) 
+ 			VALUES ('$confirm_id', '". $userdata['session_id'] . "', '$code')";
+ 		if (!$db->sql_query($sql))
+@@ -1003,8 +1017,17 @@
+ 		}
+ 
+ 		unset($code);
+-		
+-		$confirm_image = (@extension_loaded('zlib')) ? '<img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id") . '" alt="" title="" />' : '<img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=1") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=2") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=3") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=4") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=5") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=6") . '" alt="" title="" />';
++
++		// Captcha based visual confirmation
++		// $confirm_image = (@extension_loaded('zlib')) ? '<img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id") . '" alt="" title="" />' : '<img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=1") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=2") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=3") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=4") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=5") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=6") . '" alt="" title="" />';
++
++		// KittenAuth based visual confirmation
++		$confirm_image = $ka_confirm->get_test();
++
++		// KittenAuth based visual confirmation (debug only)
++		// $confirm_image .= '<br />' . $ka_confirm->get_long_code();
++		// $confirm_image .= '<br />' . $ka_confirm->get_short_code();
++
+ 		$s_hidden_fields .= '<input type="hidden" name="confirm_id" value="' . $confirm_id . '" />';
+ 
+ 		$template->assign_block_vars('switch_confirm', array());
+
+--- language/lang_english/lang_main.php.orig	2006-04-05 18:53:37.000000000 +0200
++++ language/lang_english/lang_main.php	2006-04-17 02:32:15.000000000 +0200
+@@ -656,10 +656,10 @@
+ //
+ // Visual confirmation system strings
+ //
+-$lang['Confirm_code_wrong'] = 'The confirmation code you entered was incorrect';
++$lang['Confirm_code_wrong'] = 'The confirmation test images you selected were incorrect.';
+ $lang['Too_many_registers'] = 'You have exceeded the number of registration attempts for this session. Please try again later.';
+-$lang['Confirm_code_impaired'] = 'If you are visually impaired or cannot otherwise read this code please contact the %sAdministrator%s for help.';
+-$lang['Confirm_code'] = 'Confirmation code';
++$lang['Confirm_code_impaired'] = 'If you are visually impaired or cannot otherwise pass this test, please contact the %sAdministrator%s for help.';
++$lang['Confirm_code'] = 'Confirmation test';
+ $lang['Confirm_code_explain'] = 'Enter the code exactly as you see it. The code is case sensitive and zero has a diagonal line through it.';
+ 
+ 
+--- templates/subSilver/profile_add_body.tpl.orig	2006-04-05 18:53:37.000000000 +0200
++++ templates/subSilver/profile_add_body.tpl	2006-04-17 02:29:11.000000000 +0200
+@@ -58,11 +58,10 @@
+ 	<!-- Visual Confirmation -->
+ 	<!-- BEGIN switch_confirm -->
+ 	<tr>
+-		<td class="row1" colspan="2" align="center"><span class="gensmall">{L_CONFIRM_CODE_IMPAIRED}</span><br /><br />{CONFIRM_IMG}<br /><br /></td>
++	  <td class="row1" colspan="2"><span class="gen">{L_CONFIRM_CODE}: * </span></td>
+ 	</tr>
+-	<tr> 
+-	  <td class="row1"><span class="gen">{L_CONFIRM_CODE}: * </span><br /><span class="gensmall">{L_CONFIRM_CODE_EXPLAIN}</span></td>
+-	  <td class="row2"><input type="text" class="post" style="width: 200px" name="confirm_code" size="6" maxlength="6" value="" /></td>
++	<tr>
++	  <td class="row1" colspan="2" align="center"><span class="gensmall">{L_CONFIRM_CODE_IMPAIRED}</span><br /><br />{CONFIRM_IMG}<br /><br /></td>
+ 	</tr>
+ 	<!-- END switch_confirm -->
+ 	<tr> 

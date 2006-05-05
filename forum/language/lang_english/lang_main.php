@@ -6,7 +6,7 @@
  *     copyright            : (C) 2001 The phpBB Group
  *     email                : support@phpbb.com
  *
- *     $Id: lang_main.php,v 1.85.2.21 2006/02/05 15:59:48 grahamje Exp $
+ *     $Id: lang_main.php,v 1.6 2006/04/12 18:18:42 Mike Exp $
  *
  ****************************************************************************/
 
@@ -656,10 +656,10 @@ $lang['Empty_message_email'] = 'You must enter a message to be e-mailed.';
 //
 // Visual confirmation system strings
 //
-$lang['Confirm_code_wrong'] = 'The confirmation code you entered was incorrect';
+$lang['Confirm_code_wrong'] = 'The confirmation test images you selected were incorrect.';
 $lang['Too_many_registers'] = 'You have exceeded the number of registration attempts for this session. Please try again later.';
-$lang['Confirm_code_impaired'] = 'If you are visually impaired or cannot otherwise read this code please contact the %sAdministrator%s for help.';
-$lang['Confirm_code'] = 'Confirmation code';
+$lang['Confirm_code_impaired'] = 'If you are visually impaired or cannot otherwise pass this test, please contact the %sAdministrator%s for help.';
+$lang['Confirm_code'] = 'Confirmation test';
 $lang['Confirm_code_explain'] = 'Enter the code exactly as you see it. The code is case sensitive and zero has a diagonal line through it.';
 
 

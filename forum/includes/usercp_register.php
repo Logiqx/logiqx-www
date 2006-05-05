@@ -6,7 +6,7 @@
  *   copyright            : (C) 2001 The phpBB Group
  *   email                : support@phpbb.com
  *
- *   $Id: usercp_register.php,v 1.20.2.74 2006/04/05 12:42:23 grahamje Exp $
+ *   $Id: usercp_register.php,v 1.7 2006/04/12 18:18:42 Mike Exp $
  *
  *
  ***************************************************************************/
@@ -75,6 +75,9 @@ function show_coppa()
 $error = FALSE;
 $error_msg = '';
 $page_title = ( $mode == 'editprofile' ) ? $lang['Edit_profile'] : $lang['Register'];
+
+// include functions for KittenAuth based visual confirmation
+include($phpbb_root_path . 'includes/functions_ka.'.$phpEx);
 
 if ( $mode == 'register' && !isset($HTTP_POST_VARS['agreed']) && !isset($HTTP_GET_VARS['agreed']) )
 {
@@ -297,7 +300,11 @@ if ( isset($HTTP_POST_VARS['submit']) )
 
 			if ($row = $db->sql_fetchrow($result))
 			{
-				if ($row['code'] != $confirm_code)
+				// KittenAuth based visual confirmation
+				// (only needed to convert confirm code)
+				$ka_confirm_tmp = new ka_confirm();
+
+				if ($row['code'] != $ka_confirm_tmp->get_short_code_from_long_code($confirm_code))
 				{
 					$error = TRUE;
 					$error_msg .= ( ( isset($error_msg) ) ? '<br />' : '' ) . $lang['Confirm_code_wrong'];
@@ -990,10 +997,17 @@ else
 		
 		// Generate the required confirmation code
 		// NB 0 (zero) could get confused with O (the letter) so we make change it
-		$code = dss_rand();
-		$code = strtoupper(str_replace('0', 'o', substr($code, 6)));
+
+		// Captcha based visual confirmation
+		// $code = dss_rand();
+		// $code = strtoupper(str_replace('0', 'o', substr($code, 6)));
 
 		$confirm_id = md5(uniqid($user_ip));
+
+		// KittenAuth based visual confirmation
+		$ka_confirm = new ka_confirm();
+		$ka_confirm->create_test();
+		$code = $ka_confirm->get_short_code();
 
 		$sql = 'INSERT INTO ' . CONFIRM_TABLE . " (confirm_id, session_id, code) 
 			VALUES ('$confirm_id', '". $userdata['session_id'] . "', '$code')";
@@ -1003,8 +1017,17 @@ else
 		}
 
 		unset($code);
-		
-		$confirm_image = (@extension_loaded('zlib')) ? '<img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id") . '" alt="" title="" />' : '<img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=1") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=2") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=3") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=4") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=5") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=6") . '" alt="" title="" />';
+
+		// Captcha based visual confirmation
+		// $confirm_image = (@extension_loaded('zlib')) ? '<img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id") . '" alt="" title="" />' : '<img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=1") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=2") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=3") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=4") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=5") . '" alt="" title="" /><img src="' . append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=6") . '" alt="" title="" />';
+
+		// KittenAuth based visual confirmation
+		$confirm_image = $ka_confirm->get_test();
+
+		// KittenAuth based visual confirmation (debug only)
+		// $confirm_image .= '<br />' . $ka_confirm->get_long_code();
+		// $confirm_image .= '<br />' . $ka_confirm->get_short_code();
+
 		$s_hidden_fields .= '<input type="hidden" name="confirm_id" value="' . $confirm_id . '" />';
 
 		$template->assign_block_vars('switch_confirm', array());
