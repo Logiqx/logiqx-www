@@ -105,9 +105,9 @@
 
 					Note: Usually the IP address and port are written as six numbers seperated by commas, for example:<br/><br/>
 
-					80,203,184,74,5,121<br/><br/>
+					80,208,184,74,5,121<br/><br/>
 
-					The first 4 numbers (80,203,184,74) are the IP address.<br/>
+					The first 4 numbers (80,208,184,74) are the IP address.<br/>
 					The last two numbers (5,121) are the port number (multiply the first number by 256 and add the second number). In this case it indicates port 1401.<br/><br/>
 
 					iii) The server will only allow logins from specific IP address ranges. If your IP address changes then it is possible that you may not be able to log in to the server and must ask the administrator to add your new IP address. This problem can clearly be seen by an appropriate message within your FTP client.<br/>
