@@ -2,11 +2,11 @@
 <emulator id="CPS-2">
 	<img src="CPS-2.png" width="80" height="40"/>
 	<name>CPS-2</name>
-	<version>20060405</version>
+	<version>20060514</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>05/04/2006</date>
-	<games>189</games>
+	<date>14/05/2006</date>
+	<games>190</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Note: Not all of these games are emulated yet</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020060405%20(cm).zip" size="64"/>
+			<file name="CPS-2%2020060514%20(cm).zip" size="65"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020060405%20(rc).zip" size="36"/>
+			<file name="CPS-2%2020060514%20(rc).zip" size="37"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>14 May 2006</date>
+			<comment>Updated to match MAME v0.106.</comment>
+		</revision>
 		<revision>
 			<date>5 April 2006</date>
 			<comment>Updated to match MAME v0.105.</comment>

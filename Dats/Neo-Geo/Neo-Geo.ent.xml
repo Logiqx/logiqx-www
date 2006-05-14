@@ -2,11 +2,11 @@
 <emulator id="Neo-Geo">
 	<img src="Neo-Geo.png" width="108" height="40"/>
 	<name>Neo-Geo</name>
-	<version>20060405</version>
+	<version>20060514</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>05/04/2006</date>
-	<games>247</games>
+	<date>14/05/2006</date>
+	<games>248</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>SNK Neo-Geo</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Neo-Geo%2020060405%20(cm).zip" size="114"/>
+			<file name="Neo-Geo%2020060514%20(cm).zip" size="114"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Neo-Geo%2020060405%20(rc).zip" size="67"/>
+			<file name="Neo-Geo%2020060514%20(rc).zip" size="67"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>14 May 2006</date>
+			<comment>Updated to match MAME v0.106.</comment>
+		</revision>
 		<revision>
 			<date>5 April 2006</date>
 			<comment>Updated to match MAME v0.105.</comment>

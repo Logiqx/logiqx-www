@@ -64,6 +64,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>14 May 2006</b> - 
+			
+			Updated supplements for MAME v0.106.
+		</p>
+    <p>
       <b>5 April 2006</b> - 
 			
 			Updated supplements for MAME v0.105.

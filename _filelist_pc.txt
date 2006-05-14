@@ -1,4 +1,4 @@
-.	.htaccess	1971
+.	.htaccess	2010
 .	_archive_bit_clear.bat	133
 .	_check_for_absolute_links.sh	54
 .	_filelist_compare.sh	1113
@@ -8,8 +8,8 @@
 .	_filelist_ztnet.sh	261
 .	_filelist_ztnet.txt	0
 .	_prepare_upload.bat	593
-.	error.php	1831
-.	index.php	2933
+.	error.php	1992
+.	index.php	3060
 .	robots.txt	0
 ads/CVS	Entries	3
 ads/CVS	Repository	27
@@ -24,7 +24,7 @@ cgi-bin	untar_all.sh	144
 cgi-bin/CVS	Entries	323
 cgi-bin/CVS	Repository	27
 cgi-bin/CVS	Root	26
-CVS	Entries	918
+CVS	Entries	929
 CVS	Repository	23
 CVS	Root	26
 DatFAQs	CMPro.php	11736
@@ -51,42 +51,46 @@ DatFAQs/CVS	Entries	999
 DatFAQs/CVS	Repository	31
 DatFAQs/CVS	Root	26
 Dats	_rebuild_all.bat	55
-Dats	_rebuild_all.mak	1549
+Dats	_rebuild_all.mak	1517
 Dats	_rebuild_xml.bat	606
-Dats	Dats.php	9745
+Dats	_rebuild_xml.laptop.bat	705
+Dats	Dats.php	10798
 Dats	Dats.png	1033
-Dats	Dats.xml	2718
+Dats	Dats.xml	2654
+Dats	OlderEmus.laptop.txt	44
 Dats	OlderEmus.png	1948
 Dats	OlderEmus.txt	40
 Dats	OlderEmus.zip	4135
+Dats	RecentEmus.laptop.txt	694
 Dats	RecentEmus.png	2121
 Dats	RecentEmus.txt	634
-Dats	RecentEmus.zip	1213
+Dats	RecentEmus.zip	1004
 Dats	ResourceFiles.png	1885
 Dats	RomCenter.css	906
-Dats	RomCenter.inf	3312
-Dats	RomCenter.php	7696
-Dats	RomCenter.xml	2874
+Dats	RomCenter.inf	3223
+Dats	RomCenter.php	7491
+Dats	RomCenter.xml	2810
+Dats	Systems.laptop.txt	142
 Dats	Systems.png	1413
 Dats	Systems.txt	126
-Dats	Systems.zip	501
+Dats	Systems.zip	490
 Dats/CPS-1	_cvs_purge_add.bat	48
 Dats/CPS-1	_zip_cps1.bat	623
-Dats/CPS-1	CPS-1 20051124 (cm).zip	48153
-Dats/CPS-1	CPS-1 20051124 (rc).zip	25986
-Dats/CPS-1	CPS-1.ent.xml	5886
-Dats/CPS-1	CPS-1.php	6163
+Dats/CPS-1	CPS-1 20060405 (cm).zip	48426
+Dats/CPS-1	CPS-1 20060405 (rc).zip	26210
+Dats/CPS-1	CPS-1.ent.xml	6234
+Dats/CPS-1	CPS-1.php	6423
 Dats/CPS-1	CPS-1.png	1149
 Dats/CPS-1	CPS-1.xml	167
-Dats/CPS-1/CVS	Entries	406
+Dats/CPS-1/CVS	Entries	407
 Dats/CPS-1/CVS	Repository	34
 Dats/CPS-1/CVS	Root	26
 Dats/CPS-2	_cvs_purge_add.bat	48
 Dats/CPS-2	_zip_cps2.bat	623
-Dats/CPS-2	CPS-2 20050916 (cm).zip	64610
-Dats/CPS-2	CPS-2 20050916 (rc).zip	36247
-Dats/CPS-2	CPS-2.ent.xml	16230
-Dats/CPS-2	CPS-2.php	14904
+Dats/CPS-2	CPS-2 20060405 (cm).zip	65023
+Dats/CPS-2	CPS-2 20060405 (rc).zip	36634
+Dats/CPS-2	CPS-2.ent.xml	16690
+Dats/CPS-2	CPS-2.php	15249
 Dats/CPS-2	CPS-2.png	1268
 Dats/CPS-2	CPS-2.xml	167
 Dats/CPS-2/CVS	Entries	406
@@ -101,7 +105,7 @@ Dats/CrystalSystemEmulator	CrystalSystemEmulator.xml	216
 Dats/CrystalSystemEmulator/CVS	Entries	394
 Dats/CrystalSystemEmulator/CVS	Repository	50
 Dats/CrystalSystemEmulator/CVS	Root	26
-Dats/CVS	Entries	1355
+Dats/CVS	Entries	1554
 Dats/CVS	Repository	28
 Dats/CVS	Root	26
 Dats/Daphne	_cvs_purge_add.bat	48
@@ -120,71 +124,56 @@ Dats/DTD/CVS	Entries	45
 Dats/DTD/CVS	Repository	32
 Dats/DTD/CVS	Root	26
 Dats/FinalBurnAlpha	_zip_fba.bat	608
-Dats/FinalBurnAlpha	FBA v0.2.95.23 (cm).zip	208428
-Dats/FinalBurnAlpha	FBA v0.2.95.23 (rc).zip	109929
-Dats/FinalBurnAlpha	FinalBurnAlpha.ent.xml	6262
-Dats/FinalBurnAlpha	FinalBurnAlpha.php	6355
+Dats/FinalBurnAlpha	FBA v0.2.95.23 (cm).zip	208545
+Dats/FinalBurnAlpha	FBA v0.2.95.23 (rc).zip	110205
+Dats/FinalBurnAlpha	FinalBurnAlpha.ent.xml	6618
+Dats/FinalBurnAlpha	FinalBurnAlpha.php	6623
 Dats/FinalBurnAlpha	FinalBurnAlpha.png	2202
 Dats/FinalBurnAlpha	FinalBurnAlpha.xml	196
-Dats/FinalBurnAlpha/CVS	Entries	389
+Dats/FinalBurnAlpha/CVS	Entries	390
 Dats/FinalBurnAlpha/CVS	Repository	43
 Dats/FinalBurnAlpha/CVS	Root	26
 Dats/M1	_cvs_purge_add.bat	48
 Dats/M1	_zip_m1.bat	566
-Dats/M1	M1 v0.7.7 (cm).zip	199777
-Dats/M1	M1 v0.7.7 (rc).zip	91123
-Dats/M1	M1.ent.xml	6951
-Dats/M1	M1.php	6860
+Dats/M1	M1 v0.7.7 (cm).zip	201396
+Dats/M1	M1 v0.7.7 (rc).zip	92143
+Dats/M1	M1.ent.xml	7307
+Dats/M1	M1.php	7128
 Dats/M1	M1.png	691
 Dats/M1	M1.xml	160
-Dats/M1/CVS	Entries	382
+Dats/M1/CVS	Entries	383
 Dats/M1/CVS	Repository	31
 Dats/M1/CVS	Root	26
 Dats/MAMEArtwork	_cvs_purge_add.bat	48
 Dats/MAMEArtwork	_zip_mame_artwork.bat	772
-Dats/MAMEArtwork	MAME Artwork 20051010 (cm).zip	28668
-Dats/MAMEArtwork	MAME Artwork 20051010 (rc).zip	11158
-Dats/MAMEArtwork	MAMEArtwork.ent.xml	5094
-Dats/MAMEArtwork	MAMEArtwork.php	5482
+Dats/MAMEArtwork	MAME Artwork 20060404 (cm).zip	28548
+Dats/MAMEArtwork	MAME Artwork 20060404 (rc).zip	11185
+Dats/MAMEArtwork	MAMEArtwork.ent.xml	5354
+Dats/MAMEArtwork	MAMEArtwork.php	5681
 Dats/MAMEArtwork	MAMEArtwork.png	2351
 Dats/MAMEArtwork	MAMEArtwork.xml	187
 Dats/MAMEArtwork/CVS	Entries	452
 Dats/MAMEArtwork/CVS	Repository	40
 Dats/MAMEArtwork/CVS	Root	26
 Dats/MAMEBeta	_cvs_purge_add.bat	48
-Dats/MAMEBeta	_zip_mame_beta.bat	733
-Dats/MAMEBeta	MAME v0.102 (cm).zip	2140389
-Dats/MAMEBeta	MAME v0.102 (rc).zip	902648
+Dats/MAMEBeta	_zip_mame_beta.bat	725
+Dats/MAMEBeta	MAME v0.105 (cm).zip	2109361
+Dats/MAMEBeta	MAME v0.105 (rc).zip	902492
 Dats/MAMEBeta	MAME.png	1395
-Dats/MAMEBeta	MAMEBeta.ent.xml	9235
-Dats/MAMEBeta	MAMEBeta.php	8677
+Dats/MAMEBeta	MAMEBeta.ent.xml	9574
+Dats/MAMEBeta	MAMEBeta.php	8928
 Dats/MAMEBeta	MAMEBeta.xml	178
 Dats/MAMEBeta	MAMEBetaHistory.php	1703
-Dats/MAMEBeta/CVS	Entries	466
+Dats/MAMEBeta/CVS	Entries	467
 Dats/MAMEBeta/CVS	Repository	37
 Dats/MAMEBeta/CVS	Root	26
-Dats/MAMEChanges	_cvs_purge_add.bat	48
-Dats/MAMEChanges	_zip_mame_changes.bat	711
-Dats/MAMEChanges	MAME Changes v0.102 (cm).zip	100244
-Dats/MAMEChanges	MAME Changes v0.102 (rc).zip	40530
-Dats/MAMEChanges	MAMEChanges.ent.xml	7197
-Dats/MAMEChanges	MAMEChanges.php	7092
-Dats/MAMEChanges	MAMEChanges.png	2590
-Dats/MAMEChanges	MAMEChanges.xml	187
-Dats/MAMEChanges	MAMEChangesHistory.php	1735
-Dats/MAMEChanges/CVS	Entries	504
-Dats/MAMEChanges/CVS	MAME Changes v0.74  (rc).zip,t	0
-Dats/MAMEChanges/CVS	MAME v0.73 Changes (cm).zip,t	0
-Dats/MAMEChanges/CVS	MAME v0.73 Changes (rc).zip,t	0
-Dats/MAMEChanges/CVS	Repository	40
-Dats/MAMEChanges/CVS	Root	26
 Dats/MAMESamples	_cvs_purge_add.bat	80
 Dats/MAMESamples	_zip_mame_samples.bat	765
 Dats/MAMESamples	dummy.zip	482
-Dats/MAMESamples	MAME Samples 20051010 (cm).zip	29352
-Dats/MAMESamples	MAME Samples 20051010 (rc).zip	11361
-Dats/MAMESamples	MAMESamples.ent.xml	5501
-Dats/MAMESamples	MAMESamples.php	5862
+Dats/MAMESamples	MAME Samples 20060404 (cm).zip	27476
+Dats/MAMESamples	MAME Samples 20060404 (rc).zip	10737
+Dats/MAMESamples	MAMESamples.ent.xml	5618
+Dats/MAMESamples	MAMESamples.php	5945
 Dats/MAMESamples	MAMESamples.png	2522
 Dats/MAMESamples	MAMESamples.xml	187
 Dats/MAMESamples/CVS	Entries	502
@@ -199,19 +188,19 @@ Dats/MPU/CVS	Repository	32
 Dats/MPU/CVS	Root	26
 Dats/Nebula	_cvs_purge_add.bat	48
 Dats/Nebula	_zip_nebula.bat	646
-Dats/Nebula	Nebula v2.25 (cm).zip	194485
-Dats/Nebula	Nebula v2.25 (rc).zip	96623
-Dats/Nebula	Nebula.ent.xml	13267
-Dats/Nebula	Nebula.php	11955
+Dats/Nebula	Nebula v2.25 (cm).zip	193779
+Dats/Nebula	Nebula v2.25 (rc).zip	96083
+Dats/Nebula	Nebula.ent.xml	13615
+Dats/Nebula	Nebula.php	12222
 Dats/Nebula	Nebula.png	1219
 Dats/Nebula	Nebula.xml	172
-Dats/Nebula/CVS	Entries	408
+Dats/Nebula/CVS	Entries	409
 Dats/Nebula/CVS	Repository	35
 Dats/Nebula/CVS	Root	26
 Dats/NebulaJukebox	Nebula Jukebox v2.9 (cm).zip	47819
 Dats/NebulaJukebox	Nebula Jukebox v2.9 (rc).zip	24588
-Dats/NebulaJukebox	NebulaJukebox.ent.xml	6114
-Dats/NebulaJukebox	NebulaJukebox.php	6345
+Dats/NebulaJukebox	NebulaJukebox.ent.xml	6579
+Dats/NebulaJukebox	NebulaJukebox.php	6702
 Dats/NebulaJukebox	NebulaJukebox.png	2307
 Dats/NebulaJukebox	NebulaJukebox.xml	193
 Dats/NebulaJukebox/CVS	Entries	349
@@ -219,13 +208,13 @@ Dats/NebulaJukebox/CVS	Repository	42
 Dats/NebulaJukebox/CVS	Root	26
 Dats/Neo-Geo	_cvs_purge_add.bat	48
 Dats/Neo-Geo	_zip_neogeo.bat	663
-Dats/Neo-Geo	Neo-Geo 20050712 (cm).zip	98201
-Dats/Neo-Geo	Neo-Geo 20050712 (rc).zip	56462
-Dats/Neo-Geo	Neo-Geo.ent.xml	8699
-Dats/Neo-Geo	Neo-Geo.php	8463
+Dats/Neo-Geo	Neo-Geo 20060405 (cm).zip	116263
+Dats/Neo-Geo	Neo-Geo 20060405 (rc).zip	68101
+Dats/Neo-Geo	Neo-Geo.ent.xml	9331
+Dats/Neo-Geo	Neo-Geo.php	8953
 Dats/Neo-Geo	Neo-Geo.png	1501
 Dats/Neo-Geo	Neo-Geo.xml	173
-Dats/Neo-Geo/CVS	Entries	420
+Dats/Neo-Geo/CVS	Entries	421
 Dats/Neo-Geo/CVS	Repository	36
 Dats/Neo-Geo/CVS	Root	26
 Dats/OlderEmus	_cvs_purge_add.bat	48
@@ -251,19 +240,19 @@ Dats/Pacifi3D/CVS	Repository	37
 Dats/Pacifi3D/CVS	Root	26
 Dats/RAINE	_cvs_purge_add.bat	48
 Dats/RAINE	_zip_raine.bat	626
-Dats/RAINE	RAINE v0.43.2 (cm).zip	263196
-Dats/RAINE	RAINE v0.43.2 (rc).zip	107312
-Dats/RAINE	RAINE.ent.xml	9268
-Dats/RAINE	RAINE.php	8776
+Dats/RAINE	RAINE v0.43.2 (cm).zip	267373
+Dats/RAINE	RAINE v0.43.2 (rc).zip	109541
+Dats/RAINE	RAINE.ent.xml	9625
+Dats/RAINE	RAINE.php	9045
 Dats/RAINE	RAINE.png	1339
 Dats/RAINE	RAINE.xml	169
-Dats/RAINE/CVS	Entries	405
+Dats/RAINE/CVS	Entries	406
 Dats/RAINE/CVS	Repository	34
 Dats/RAINE/CVS	Root	26
 Dats/SEGAModel2Emulator	SEGA Model 2 Emulator v0.1 (cm).zip	27452
 Dats/SEGAModel2Emulator	SEGA Model 2 Emulator v0.1 (rc).zip	13557
-Dats/SEGAModel2Emulator	SEGAModel2Emulator.ent.xml	2402
-Dats/SEGAModel2Emulator	SEGAModel2Emulator.php	3500
+Dats/SEGAModel2Emulator	SEGAModel2Emulator.ent.xml	2867
+Dats/SEGAModel2Emulator	SEGAModel2Emulator.php	3857
 Dats/SEGAModel2Emulator	SEGAModel2Emulator.png	3339
 Dats/SEGAModel2Emulator	SEGAModel2Emulator.xml	208
 Dats/SEGAModel2Emulator/CVS	Entries	379
@@ -282,13 +271,13 @@ Dats/Tickle/CVS	Repository	35
 Dats/Tickle/CVS	Root	26
 Dats/WinKawaks	_cvs_purge_add.bat	48
 Dats/WinKawaks	_zip_winkawaks.bat	706
-Dats/WinKawaks	WinKawaks v1.55 (cm).zip	200467
-Dats/WinKawaks	WinKawaks v1.55 (rc).zip	98691
-Dats/WinKawaks	WinKawaks.ent.xml	8888
-Dats/WinKawaks	WinKawaks.php	8502
+Dats/WinKawaks	WinKawaks v1.55 (cm).zip	185658
+Dats/WinKawaks	WinKawaks v1.55 (rc).zip	90807
+Dats/WinKawaks	WinKawaks.ent.xml	9230
+Dats/WinKawaks	WinKawaks.php	8770
 Dats/WinKawaks	WinKawaks.png	1885
 Dats/WinKawaks	WinKawaks.xml	181
-Dats/WinKawaks/CVS	Entries	429
+Dats/WinKawaks/CVS	Entries	430
 Dats/WinKawaks/CVS	Repository	38
 Dats/WinKawaks/CVS	Root	26
 Dats/XSL	comments.xsl	797
@@ -312,13 +301,13 @@ Dats/Zinc/CVS	Repository	33
 Dats/Zinc/CVS	Root	26
 Dats/ZN	_cvs_purge_add.bat	48
 Dats/ZN	_zip_zn.bat	570
-Dats/ZN	ZN 20051124 (cm).zip	6527
-Dats/ZN	ZN 20051124 (rc).zip	4081
-Dats/ZN	ZN.ent.xml	4149
-Dats/ZN	ZN.php	4770
+Dats/ZN	ZN 20060104 (cm).zip	6647
+Dats/ZN	ZN 20060104 (rc).zip	4211
+Dats/ZN	ZN.ent.xml	4490
+Dats/ZN	ZN.php	5030
 Dats/ZN	ZN.png	757
 Dats/ZN	ZN.xml	160
-Dats/ZN/CVS	Entries	386
+Dats/ZN/CVS	Entries	387
 Dats/ZN/CVS	Repository	31
 Dats/ZN/CVS	Root	26
 E-Mail	Conditions.php	2058
@@ -331,43 +320,46 @@ E-Mail/CVS	Entries	282
 E-Mail/CVS	Repository	30
 E-Mail/CVS	Root	26
 forum	.htaccess	529
-forum	common.php	6901
+forum	.ka_config.php.swp	16384
+forum	common.php	6884
 forum	config.php	265
 forum	extension.inc	833
 forum	faq.php	3783
 forum	groupcp.php	47076
-forum	index.php	15104
-forum	login.php	8057
-forum	memberlist.php	12448
-forum	modcp.php	39869
-forum	posting.php	36010
-forum	privmsg.php	75873
-forum	profile.php	4069
+forum	index.php	15166
+forum	ka_config.php	5790
+forum	login.php	9746
+forum	memberlist.php	12508
+forum	modcp.php	40255
+forum	phpBB_KA-2.0.20.patch	6018
+forum	posting.php	36018
+forum	privmsg.php	75999
+forum	profile.php	3541
 forum	robots.txt	0
 forum	rss.php	9202
-forum	search.php	44760
+forum	search.php	45083
 forum	viewforum.php	23837
 forum	viewonline.php	7512
 forum	viewtopic.php	46437
-forum/admin	admin_board.php	14725
-forum/admin	admin_db_utilities.php	27338
-forum/admin	admin_disallow.php	4835
+forum/admin	admin_board.php	15548
+forum/admin	admin_db_utilities.php	27348
+forum/admin	admin_disallow.php	4823
 forum/admin	admin_forum_prune.php	5770
 forum/admin	admin_forumauth.php	9820
 forum/admin	admin_forums.php	31982
-forum/admin	admin_groups.php	14054
+forum/admin	admin_groups.php	14210
 forum/admin	admin_mass_email.php	6188
-forum/admin	admin_ranks.php	11166
-forum/admin	admin_smilies.php	18595
-forum/admin	admin_styles.php	32554
+forum/admin	admin_ranks.php	10087
+forum/admin	admin_smilies.php	19192
+forum/admin	admin_styles.php	32552
 forum/admin	admin_ug_auth.php	33052
 forum/admin	admin_user_ban.php	13465
-forum/admin	admin_users.php	47785
-forum/admin	admin_words.php	6965
-forum/admin	index.php	18878
+forum/admin	admin_users.php	48350
+forum/admin	admin_words.php	7866
+forum/admin	index.php	18895
 forum/admin	page_footer_admin.php	2104
-forum/admin	page_header_admin.php	4864
-forum/admin	pagestart.php	2346
+forum/admin	page_header_admin.php	5302
+forum/admin	pagestart.php	1886
 forum/admin/CVS	Entries	973
 forum/admin/CVS	Repository	35
 forum/admin/CVS	Root	26
@@ -376,14 +368,14 @@ forum/cache	index.htm	169
 forum/cache/CVS	Entries	89
 forum/cache/CVS	Repository	35
 forum/cache/CVS	Root	26
-forum/CVS	Entries	958
+forum/CVS	Entries	1060
 forum/CVS	Repository	29
 forum/CVS	Root	26
 forum/db	db2.php	8307
 forum/db	index.htm	169
 forum/db	msaccess.php	8906
 forum/db	mssql-odbc.php	8816
-forum/db	mssql.php	9273
+forum/db	mssql.php	9368
 forum/db	mysql.php	6391
 forum/db	mysql4.php	6818
 forum/db	oracle.php	9895
@@ -392,7 +384,7 @@ forum/db/CVS	Entries	402
 forum/db/CVS	Repository	32
 forum/db/CVS	Root	26
 forum/docs	AUTHORS	480
-forum/docs	CHANGELOG.html	44949
+forum/docs	CHANGELOG.html	48363
 forum/docs	coding-guidelines.txt	2056
 forum/docs	codingstandards.htm	14988
 forum/docs	COPYING	15128
@@ -415,9 +407,128 @@ forum/images/avatars/gallery	index.htm	169
 forum/images/avatars/gallery/CVS	Entries	46
 forum/images/avatars/gallery/CVS	Repository	52
 forum/images/avatars/gallery/CVS	Root	26
-forum/images/CVS	Entries	133
+forum/images/CVS	Entries	152
 forum/images/CVS	Repository	36
 forum/images/CVS	Root	26
+forum/images/kitten_auth	animal__bublbob2.png	1640
+forum/images/kitten_auth	animal__chinagat.png	2384
+forum/images/kitten_auth	animal__cyvern.png	11721
+forum/images/kitten_auth	animal__digdug.png	18739
+forum/images/kitten_auth	animal_bublbob2.png	1703
+forum/images/kitten_auth	animal_bublbob2_.png	1655
+forum/images/kitten_auth	animal_bublbob2__.png	1672
+forum/images/kitten_auth	animal_chinagat.png	2054
+forum/images/kitten_auth	animal_chinagat_.png	2135
+forum/images/kitten_auth	animal_cyvern.png	11887
+forum/images/kitten_auth	animal_digdug.png	10214
+forum/images/kitten_auth	animal_dkong.png	918
+forum/images/kitten_auth	animal_dkong3.png	1009
+forum/images/kitten_auth	animal_mario.png	9052
+forum/images/kitten_auth	female__beastrzb.png	18112
+forum/images/kitten_auth	female__doapp.png	14489
+forum/images/kitten_auth	female_aafbb.png	9864
+forum/images/kitten_auth	female_astorm.png	9315
+forum/images/kitten_auth	female_bcstry.png	3556
+forum/images/kitten_auth	female_beastrzb.png	19730
+forum/images/kitten_auth	female_danceyes.png	17336
+forum/images/kitten_auth	female_doapp.png	14027
+forum/images/kitten_auth	female_dragngun.png	10557
+forum/images/kitten_auth	female_drgnmst.png	2693
+forum/images/kitten_auth	female_kabukizj.png	3326
+forum/images/kitten_auth	female_sf2m1.png	6541
+forum/images/kitten_auth	hardware_megaplay.png	7867
+forum/images/kitten_auth	hardware_neogeo-1.png	4403
+forum/images/kitten_auth	hardware_neogeo.png	4152
+forum/images/kitten_auth	hardware_pgm.png	8222
+forum/images/kitten_auth	hardware_playch10.png	4303
+forum/images/kitten_auth	hardware_stv.png	8642
+forum/images/kitten_auth	hardware_system24.png	5692
+forum/images/kitten_auth	hardware_taitogn.png	4550
+forum/images/kitten_auth	male__3countb.png	3713
+forum/images/kitten_auth	male__aof.png	15987
+forum/images/kitten_auth	male__aof2.png	17421
+forum/images/kitten_auth	male__aof3.png	19545
+forum/images/kitten_auth	male__asterix.png	7582
+forum/images/kitten_auth	male__beastrzr.png	17826
+forum/images/kitten_auth	male__bloodstm.png	6253
+forum/images/kitten_auth	male__btlkroad.png	9071
+forum/images/kitten_auth	male__doubledr.png	3935
+forum/images/kitten_auth	male__dragoonj.png	7929
+forum/images/kitten_auth	male__jchan2.png	7743
+forum/images/kitten_auth	male_3countb.png	3838
+forum/images/kitten_auth	male_aof.png	16494
+forum/images/kitten_auth	male_aof2.png	16625
+forum/images/kitten_auth	male_aof3.png	18779
+forum/images/kitten_auth	male_ar_fast.png	2697
+forum/images/kitten_auth	male_ar_ninj.png	1325
+forum/images/kitten_auth	male_asterix.png	10528
+forum/images/kitten_auth	male_astorm.png	9747
+forum/images/kitten_auth	male_avengrgs.png	21857
+forum/images/kitten_auth	male_baddudes.png	18412
+forum/images/kitten_auth	male_bcstry.png	3086
+forum/images/kitten_auth	male_beastrzr.png	18277
+forum/images/kitten_auth	male_bloodstm.png	5686
+forum/images/kitten_auth	male_bmaster.png	14028
+forum/images/kitten_auth	male_breakers.png	24366
+forum/images/kitten_auth	male_breakrev.png	4655
+forum/images/kitten_auth	male_btlkroad.png	11704
+forum/images/kitten_auth	male_cthd2003.png	2498
+forum/images/kitten_auth	male_digdug.png	10191
+forum/images/kitten_auth	male_doubledr.png	4087
+forum/images/kitten_auth	male_dragnblz.png	12205
+forum/images/kitten_auth	male_dragngun.png	12150
+forum/images/kitten_auth	male_dragoonj.png	18681
+forum/images/kitten_auth	male_drgnmst.png	2900
+forum/images/kitten_auth	male_ggreats2.png	9129
+forum/images/kitten_auth	male_jchan2.png	6551
+forum/images/kitten_auth	male_mario.png	10929
+forum/images/kitten_auth	male_mjleague.png	2199
+forum/images/kitten_auth	male_sf2m1.png	3384
+forum/images/kitten_auth	spaceship__1945kiii.png	9981
+forum/images/kitten_auth	spaceship__airduel.png	3718
+forum/images/kitten_auth	spaceship__batsugun.png	2375
+forum/images/kitten_auth	spaceship__cawing.png	2318
+forum/images/kitten_auth	spaceship__ddonpach.png	3513
+forum/images/kitten_auth	spaceship__dfeveron.png	2129
+forum/images/kitten_auth	spaceship__donpachi.png	2560
+forum/images/kitten_auth	spaceship_1945kiii.png	12044
+forum/images/kitten_auth	spaceship_airduel.png	4022
+forum/images/kitten_auth	spaceship_batsugun.png	2698
+forum/images/kitten_auth	spaceship_cawing.png	2236
+forum/images/kitten_auth	spaceship_cawing_.png	2303
+forum/images/kitten_auth	spaceship_ddonpach.png	3543
+forum/images/kitten_auth	spaceship_dfeveron.png	2110
+forum/images/kitten_auth	spaceship_donpachi.png	2750
+forum/images/kitten_auth	spaceship_mach3.png	1607
+forum/images/kitten_auth	title_arknid2u.png	8818
+forum/images/kitten_auth	title_assault.png	7124
+forum/images/kitten_auth	title_bionicc.png	7258
+forum/images/kitten_auth	title_captaven.png	23253
+forum/images/kitten_auth	title_cbuster.png	17313
+forum/images/kitten_auth	title_ddragon.png	15625
+forum/images/kitten_auth	title_ddragon2.png	12991
+forum/images/kitten_auth	title_dkongjr.png	4895
+forum/images/kitten_auth	title_forgottn.png	11675
+forum/images/kitten_auth	title_ghoulsu.png	14896
+forum/images/kitten_auth	title_ikari.png	5242
+forum/images/kitten_auth	title_invaders.png	18580
+forum/images/kitten_auth	title_joust.png	5939
+forum/images/kitten_auth	title_msh.png	15819
+forum/images/kitten_auth	title_msword.png	14872
+forum/images/kitten_auth	title_opwolf.png	10031
+forum/images/kitten_auth	title_scontra.png	16874
+forum/images/kitten_auth	title_sf2ce.png	10675
+forum/images/kitten_auth	title_sf2ui.png	11276
+forum/images/kitten_auth	title_snowbros.png	9748
+forum/images/kitten_auth	title_xevious.png	4596
+forum/images/kitten_auth	title_xmcota.png	13181
+forum/images/kitten_auth	vehicle_crusnwld-1.png	18612
+forum/images/kitten_auth	vehicle_cybrcycc-1.png	13674
+forum/images/kitten_auth	vehicle_drifto94.png	11915
+forum/images/kitten_auth	vehicle_rallybik.png	9866
+forum/images/kitten_auth/CVS	Entries	7299
+forum/images/kitten_auth/CVS	Repository	48
+forum/images/kitten_auth/CVS	Root	26
 forum/images/logiqx	WWWSite.png	5507
 forum/images/logiqx/CVS	Entries	51
 forum/images/logiqx/CVS	Repository	43
@@ -448,34 +559,35 @@ forum/images/smiles	icon_wink.gif	170
 forum/images/smiles/CVS	Entries	1186
 forum/images/smiles/CVS	Repository	43
 forum/images/smiles/CVS	Root	26
-forum/includes	auth.php	9851
-forum/includes	bbcode.php	27465
+forum/includes	auth.php	10042
+forum/includes	bbcode.php	27547
 forum/includes	constants.php	5409
 forum/includes	db.php	1776
 forum/includes	emailer.php	11192
-forum/includes	functions.php	23359
+forum/includes	functions.php	25152
 forum/includes	functions_admin.php	5707
-forum/includes	functions_post.php	28408
+forum/includes	functions_ka.php	11289
+forum/includes	functions_post.php	28887
 forum/includes	functions_search.php	14497
 forum/includes	functions_selects.php	3419
 forum/includes	functions_validate.php	6036
 forum/includes	index.htm	169
 forum/includes	page_header.php	16067
 forum/includes	page_tail.php	2225
-forum/includes	prune.php	4731
-forum/includes	sessions.php	17073
+forum/includes	prune.php	5130
+forum/includes	sessions.php	18760
 forum/includes	smtp.php	6371
 forum/includes	sql_parse.php	5633
 forum/includes	template.php	14849
 forum/includes	topic_review.php	6617
 forum/includes	usercp_activate.php	4267
-forum/includes	usercp_avatar.php	13218
-forum/includes	usercp_confirm.php	104905
+forum/includes	usercp_avatar.php	13275
+forum/includes	usercp_confirm.php	104869
 forum/includes	usercp_email.php	6634
-forum/includes	usercp_register.php	47131
+forum/includes	usercp_register.php	48255
 forum/includes	usercp_sendpasswd.php	4529
 forum/includes	usercp_viewprofile.php	10410
-forum/includes/CVS	Entries	1321
+forum/includes/CVS	Entries	1371
 forum/includes/CVS	Repository	38
 forum/includes/CVS	Root	26
 forum/language	index.htm	169
@@ -483,13 +595,14 @@ forum/language/CVS	Entries	63
 forum/language/CVS	Repository	38
 forum/language/CVS	Root	26
 forum/language/lang_english	index.htm	169
-forum/language/lang_english	lang_admin.php	42998
+forum/language/lang_english	lang_admin.php	43852
 forum/language/lang_english	lang_bbcode.php	12089
 forum/language/lang_english	lang_faq.php	19721
-forum/language/lang_english	lang_main.php	48199
+forum/language/lang_english	lang_ka.php	1289
+forum/language/lang_english	lang_main.php	48601
 forum/language/lang_english	search_stopwords.txt	1538
 forum/language/lang_english	search_synonyms.txt	2785
-forum/language/lang_english/CVS	Entries	353
+forum/language/lang_english/CVS	Entries	398
 forum/language/lang_english/CVS	Repository	51
 forum/language/lang_english/CVS	Root	26
 forum/language/lang_english/email	admin_activate.tpl	252
@@ -499,13 +612,13 @@ forum/language/lang_english/email	admin_welcome_inactive.tpl	702
 forum/language/lang_english/email	coppa_welcome_inactive.tpl	1502
 forum/language/lang_english/email	group_added.tpl	324
 forum/language/lang_english/email	group_approved.tpl	242
-forum/language/lang_english/email	group_request.tpl	276
+forum/language/lang_english/email	group_request.tpl	275
 forum/language/lang_english/email	index.htm	169
 forum/language/lang_english/email	privmsg_notify.tpl	425
 forum/language/lang_english/email	profile_send_email.tpl	505
 forum/language/lang_english/email	topic_notify.tpl	572
 forum/language/lang_english/email	user_activate.tpl	269
-forum/language/lang_english/email	user_activate_passwd.tpl	693
+forum/language/lang_english/email	user_activate_passwd.tpl	694
 forum/language/lang_english/email	user_welcome.tpl	532
 forum/language/lang_english/email	user_welcome_inactive.tpl	637
 forum/language/lang_english/email/CVS	Entries	861
@@ -517,7 +630,7 @@ forum/templates/CVS	Repository	39
 forum/templates/CVS	Root	26
 forum/templates/subSilver	agreement.tpl	852
 forum/templates/subSilver	bbcode.tpl	2127
-forum/templates/subSilver	confirm_body.tpl	750
+forum/templates/subSilver	confirm_body.tpl	718
 forum/templates/subSilver	error_body.tpl	376
 forum/templates/subSilver	faq_body.tpl	1825
 forum/templates/subSilver	formIE.css	354
@@ -545,7 +658,7 @@ forum/templates/subSilver	privmsgs_body.tpl	5200
 forum/templates/subSilver	privmsgs_popup.tpl	618
 forum/templates/subSilver	privmsgs_preview.tpl	916
 forum/templates/subSilver	privmsgs_read_body.tpl	3404
-forum/templates/subSilver	profile_add_body.tpl	11696
+forum/templates/subSilver	profile_add_body.tpl	11788
 forum/templates/subSilver	profile_avatar_gallery.tpl	1561
 forum/templates/subSilver	profile_send_email.tpl	2502
 forum/templates/subSilver	profile_send_pass.tpl	1295
@@ -569,8 +682,9 @@ forum/templates/subSilver/admin	admin_message_body.tpl	289
 forum/templates/subSilver/admin	auth_forum_body.tpl	944
 forum/templates/subSilver/admin	auth_select_body.tpl	431
 forum/templates/subSilver/admin	auth_ug_body.tpl	1447
-forum/templates/subSilver/admin	board_config_body.tpl	13932
+forum/templates/subSilver/admin	board_config_body.tpl	14726
 forum/templates/subSilver/admin	category_edit_body.tpl	637
+forum/templates/subSilver/admin	confirm_body.tpl	534
 forum/templates/subSilver/admin	db_utils_backup_body.tpl	1220
 forum/templates/subSilver/admin	db_utils_restore_body.tpl	514
 forum/templates/subSilver/admin	disallow_body.tpl	943
@@ -583,7 +697,7 @@ forum/templates/subSilver/admin	forum_prune_select_body.tpl	412
 forum/templates/subSilver/admin	group_edit_body.tpl	2629
 forum/templates/subSilver/admin	group_select_body.tpl	642
 forum/templates/subSilver/admin	index.htm	169
-forum/templates/subSilver/admin	index_body.tpl	4042
+forum/templates/subSilver/admin	index_body.tpl	4043
 forum/templates/subSilver/admin	index_frameset.tpl	560
 forum/templates/subSilver/admin	index_navigate.tpl	1313
 forum/templates/subSilver/admin	page_footer.tpl	782
@@ -604,7 +718,7 @@ forum/templates/subSilver/admin	user_email_body.tpl	1087
 forum/templates/subSilver/admin	user_select_body.tpl	748
 forum/templates/subSilver/admin	words_edit_body.tpl	708
 forum/templates/subSilver/admin	words_list_body.tpl	857
-forum/templates/subSilver/admin/CVS	Entries	2091
+forum/templates/subSilver/admin/CVS	Entries	2141
 forum/templates/subSilver/admin/CVS	Repository	55
 forum/templates/subSilver/admin/CVS	Root	26
 forum/templates/subSilver/CVS	Entries	2606
@@ -680,6 +794,13 @@ forum/templates/subSilver/images/lang_english	reply.gif	1693
 forum/templates/subSilver/images/lang_english/CVS	Entries	802
 forum/templates/subSilver/images/lang_english/CVS	Repository	69
 forum/templates/subSilver/images/lang_english/CVS	Root	26
+FTP	FTP.php	7272
+FTP	FTP_1.png	15372
+FTP	FTP_2.png	18045
+FTP	FTP_3.png	20705
+FTP/CVS	Entries	182
+FTP/CVS	Repository	27
+FTP/CVS	Root	26
 HowTo	001_checkout.png	7672
 HowTo	002_checkout_complete.png	10570
 HowTo	003_project.png	6606
@@ -702,7 +823,7 @@ HowTo	jCVS.php	4651
 HowTo	jCVS.png	1679
 HowTo	RAINE32.php	14464
 HowTo	RAINE32.png	2883
-HowTo	WinMAME.php	11254
+HowTo	WinMAME.php	11253
 HowTo/CVS	Entries	1206
 HowTo/CVS	Repository	29
 HowTo/CVS	Root	26
@@ -775,9 +896,11 @@ News	News19.txt	6059
 News	News20.txt	8479
 News	News21.txt	1173
 News	News22.txt	4309
-News	News23.txt	3045
+News	News23.txt	3225
+News	News24.txt	1408
+News	News25.txt	184
 News	Shredder.png	3449
-News/CVS	Entries	1163
+News/CVS	Entries	1251
 News/CVS	Repository	28
 News/CVS	Root	26
 pi	.htaccess	511
@@ -821,8 +944,8 @@ team/CVS	Entries	115
 team/CVS	Repository	28
 team/CVS	Root	26
 team/download	download.php	1915
-team/download	mame_related_updates.xls	19456
-team/download	phpbb_db_backup.sql	1462620
+team/download	mame_related_updates.xls	18944
+team/download	phpbb_db_backup.sql	1866040
 team/download/CVS	Entries	160
 team/download/CVS	Repository	37
 team/download/CVS	Root	26
@@ -866,8 +989,8 @@ team/wisdom/zip/CVS	Entries	425
 team/wisdom/zip/CVS	Repository	39
 team/wisdom/zip/CVS	Root	26
 Tools	_rebuild_all.bat	55
-Tools	_rebuild_all.mak	773
-Tools	Tools.php	4001
+Tools	_rebuild_all.mak	775
+Tools	Tools.php	3717
 Tools	Tools.png	859
 Tools	Tools.xml	899
 Tools/AVI2CDVC	AVI2CDVC.ent.xml	1014
@@ -881,23 +1004,24 @@ Tools/AVI2CDVC/CVS	Root	26
 Tools/CVS	Entries	392
 Tools/CVS	Repository	29
 Tools/CVS	Root	26
-Tools/DatLib	DatLib.ent.xml	11438
-Tools/DatLib	DatLib.php	11619
+Tools/DatLib	DatLib.ent.xml	11886
+Tools/DatLib	DatLib.php	12011
 Tools/DatLib	DatLib.png	1150
 Tools/DatLib	DatLib.xml	173
-Tools/DatLib	datlib213.zip	85880
+Tools/DatLib	datlib215.zip	89283
 Tools/DatLib/CVS	dlib10.zip,t	0
 Tools/DatLib/CVS	dlib19.zip,t	0
 Tools/DatLib/CVS	Entries	238
 Tools/DatLib/CVS	Repository	36
 Tools/DatLib/CVS	Root	26
 Tools/DatUtil	CMProRC.png	11264
-Tools/DatUtil	DatUtil.ent.xml	27716
-Tools/DatUtil	DatUtil.php	26860
+Tools/DatUtil	Compatibility.xml	954
+Tools/DatUtil	DatUtil.ent.xml	28358
+Tools/DatUtil	DatUtil.php	27425
 Tools/DatUtil	DatUtil.png	1379
 Tools/DatUtil	DatUtil.xml	176
-Tools/DatUtil	dutil225.zip	299489
-Tools/DatUtil/CVS	Entries	289
+Tools/DatUtil	dutil227.zip	148272
+Tools/DatUtil/CVS	Entries	340
 Tools/DatUtil/CVS	Repository	37
 Tools/DatUtil/CVS	Root	26
 Tools/DTD	tools.dtd	1180
@@ -912,12 +1036,12 @@ Tools/ImgChk	imgchk26.zip	287003
 Tools/ImgChk/CVS	Entries	235
 Tools/ImgChk/CVS	Repository	36
 Tools/ImgChk/CVS	Root	26
-Tools/MAMEDiff	MAMEDiff.ent.xml	17786
-Tools/MAMEDiff	MAMEDiff.php	17416
+Tools/MAMEDiff	MAMEDiff.ent.xml	18119
+Tools/MAMEDiff	MAMEDiff.php	17723
 Tools/MAMEDiff	MAMEDiff.png	2002
 Tools/MAMEDiff	MAMEDiff.xml	179
 Tools/MAMEDiff	MAMEMAME.png	8243
-Tools/MAMEDiff	mdiff223.zip	319874
+Tools/MAMEDiff	mdiff224.zip	165512
 Tools/MAMEDiff/CVS	Entries	294
 Tools/MAMEDiff/CVS	Repository	38
 Tools/MAMEDiff/CVS	Root	26
@@ -931,7 +1055,7 @@ Tools/ROMBuild/CVS	Entries	293
 Tools/ROMBuild/CVS	Repository	38
 Tools/ROMBuild/CVS	Root	26
 Tools/ROMInfo	rinfo26.zip	291200
-Tools/ROMInfo	ROMInfo.ent.xml	3377
+Tools/ROMInfo	ROMInfo.ent.xml	3370
 Tools/ROMInfo	ROMInfo.php	4109
 Tools/ROMInfo	ROMInfo.png	1639
 Tools/ROMInfo	ROMInfo.xml	176
@@ -954,7 +1078,7 @@ Tools/ZIPFind/CVS	Entries	238
 Tools/ZIPFind/CVS	Repository	37
 Tools/ZIPFind/CVS	Root	26
 Tools/ZIPIdent	zident27.zip	299025
-Tools/ZIPIdent	ZIPIdent.ent.xml	4166
+Tools/ZIPIdent	ZIPIdent.ent.xml	4159
 Tools/ZIPIdent	ZIPIdent.php	4909
 Tools/ZIPIdent	ZIPIdent.png	1244
 Tools/ZIPIdent	ZIPIdent.xml	179
