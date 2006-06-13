@@ -6,7 +6,7 @@
  *     copyright            : (C) 2001 The phpBB Group
  *     email                : support@phpbb.com
  *
- *     $Id: lang_main.php,v 1.6 2006/04/12 18:18:42 Mike Exp $
+ *     $Id: lang_main.php,v 1.85.2.21 2006/02/05 15:59:48 grahamje Exp $
  *
  ****************************************************************************/
 
