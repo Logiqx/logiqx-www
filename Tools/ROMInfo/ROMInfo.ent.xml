@@ -3,9 +3,9 @@
 	<img src="ROMInfo.png" width="107" height="40"/>
 
 	<name>ROMInfo</name>
-	<version>v2.6</version>
-	<status></status>
-	<date>06/12/2005</date>
+	<version>v2.7</version>
+	<status>Updated</status>
+	<date>11/07/2005</date>
 
 	<description>ROM identification tool (for individual ROMs)</description>
 
@@ -15,11 +15,20 @@
 
 	<downloads>
 		<download>
-			<file name="rinfo26.zip" size="285"/>
+			<file name="rinfo27.zip" size="138"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>11 July 2006</date>
+			<version>v2.8</version>
+			<comment>
+				- Uses DatLib v2.16.<br/>
+				- Fixed bug that messed up internal indices (affected crc matching)<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>6 December 2005</date>
 			<version>v2.6</version>

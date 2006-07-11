@@ -3,9 +3,9 @@
 	<img src="ZIPIdent.png" width="104" height="40"/>
 
 	<name>ZIPIdent</name>
-	<version>v2.7</version>
-	<status></status>
-	<date>06/12/2005</date>
+	<version>v2.8</version>
+	<status>Updated</status>
+	<date>11/07/2006</date>
 
 	<description>Game identification tool (for groups of ROMs)</description>
 
@@ -20,11 +20,20 @@
 
 	<downloads>
 		<download>
-			<file name="zident27.zip" size="293"/>
+			<file name="zident28.zip" size="145"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>11 July 2006</date>
+			<version>v2.8</version>
+			<comment>
+				- Uses DatLib v2.16.<br/>
+				- Fixed bug that messed up internal indices (affected crc matching)<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>6 December 2005</date>
 			<version>v2.7</version>

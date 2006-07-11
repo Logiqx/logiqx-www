@@ -1,0 +1,10 @@
+  <h1>11 July 2006</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>I have released <a href="Tools/">DatLib v2.16, DatUtil v2.28, MAMEDiff v2.25, ROMInfo v2.7 and ZIPIdent v2.8</a> (all bug fixes).</p>
+      </td>
+    </tr>
+  </table>
+

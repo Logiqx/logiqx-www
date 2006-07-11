@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAMEDiff v2.24</title>
+    <title>MAMEDiff v2.25</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="mdiff224.zip">MAMEDiff v2.24</a> (162KB)</p>
+          <p>Download <a href="mdiff225.zip">MAMEDiff v2.25</a> (167KB)</p>
           <p>
-            <a href="mdiff224.zip">
+            <a href="mdiff225.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,18 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>11 July 2006</b> - MAMEDiff v2.25</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.16.<br/>
+				- Fixed bug that messed up internal indices (affected crc matching)<br/>
+				- More intelligent directory scanner (regarding samples and CHDs)<br/>
+				- Removed 64MB file limit from directory scanner (reads 1MB blocks)
+    			
+		</p>
     <p>
       <b>9 January 2005</b> - MAMEDiff v2.24</p>
     <p>

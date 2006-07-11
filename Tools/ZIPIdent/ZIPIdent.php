@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ZIPIdent v2.7</title>
+    <title>ZIPIdent v2.8</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -49,9 +49,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="zident27.zip">ZIPIdent v2.7</a> (293KB)</p>
+          <p>Download <a href="zident28.zip">ZIPIdent v2.8</a> (145KB)</p>
           <p>
-            <a href="zident27.zip">
+            <a href="zident28.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -63,6 +63,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>11 July 2006</b> - ZIPIdent v2.8</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.16.<br/>
+				- Fixed bug that messed up internal indices (affected crc matching)<br/>
+    			
+		</p>
     <p>
       <b>6 December 2005</b> - ZIPIdent v2.7</p>
     <p>
