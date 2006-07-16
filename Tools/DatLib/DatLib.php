@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.16</title>
+    <title>DatLib v2.17</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib216.zip">DatLib v2.16</a> (88KB)</p>
+          <p>Download <a href="datlib217.zip">DatLib v2.17</a> (88KB)</p>
           <p>
-            <a href="datlib216.zip">
+            <a href="datlib217.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,15 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>16 July 2006</b> - DatLib v2.17</p>
+    <p>
+			
+			
+			
+				- Fixed bug that caused the DatUtil -g and -r options to crash
+    			
+		</p>
     <p>
       <b>11 July 2006</b> - DatLib v2.16</p>
     <p>

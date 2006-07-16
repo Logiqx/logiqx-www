@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.16</version>
+	<version>v2.17</version>
 	<status>Updated</status>
-	<date>11/07/2006</date>
+	<date>16/07/2006</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,19 @@
 
 	<downloads>
 		<download>
-			<file name="datlib216.zip" size="88"/>
+			<file name="datlib217.zip" size="88"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>16 July 2006</date>
+			<version>v2.17</version>
+			<comment>
+				- Fixed bug that caused the DatUtil -g and -r options to crash
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>11 July 2006</date>
 			<version>v2.16</version>
