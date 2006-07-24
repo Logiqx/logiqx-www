@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="Nebula%20Jukebox%20v2.9%20(rc).zip">Nebula Jukebox dat for ROMCenter</a> (25KB)</p>
+          <p>Download <a href="Nebula%20Jukebox%20v2.9%20(rc).zip">Nebula Jukebox dat for ROMCenter</a> (24KB)</p>
           <p>
             <a href="Nebula%20Jukebox%20v2.9%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>24 July 2006</b> - 
+			
+			Updated supplements for MAME v0.107.
+		</p>
     <p>
       <b>14 May 2006</b> - 
 			

@@ -1,10 +1,10 @@
 <emulator id="CPS-1">
 	<img src="CPS-1.png" width="77" height="40"/>
 	<name>CPS-1</name>
-	<version>20060514</version>
+	<version>20060724</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>14/05/2006</date>
+	<date>24/07/2006</date>
 	<games>122</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 
@@ -15,15 +15,19 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-1%2020060514%20(cm).zip" size="48"/>
+			<file name="CPS-1%2020060724%20(cm).zip" size="48"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-1%2020060514%20(rc).zip" size="26"/>
+			<file name="CPS-1%2020060724%20(rc).zip" size="26"/>
 		</dat>
 	</dats>
 
 	<revisions>
+		<revision>
+			<date>24 July 2006</date>
+			<comment>Updated to match MAME v0.107.</comment>
+		</revision>
 		<revision>
 			<date>14 May 2006</date>
 			<comment>Updated to match MAME v0.106.</comment>

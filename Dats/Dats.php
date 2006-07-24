@@ -91,19 +91,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="FinalBurnAlpha/">FBA v0.2.95.23</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>14/05/2006</b>
-          </p>
+          <p>14/05/2006</p>
         </td>
         <td>
-          <p>
-            <b>535</b>
-          </p>
+          <p>535</p>
         </td>
       </tr>
 
@@ -113,13 +107,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="WinKawaks/">Kawaks v1.55</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>06/02/2006</p>
+          <p>
+            <b>24/07/2006</b>
+          </p>
         </td>
         <td>
-          <p>452</p>
+          <p>
+            <b>452</b>
+          </p>
         </td>
       </tr>
 
@@ -129,26 +129,20 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="M1/">M1 v0.7.7</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>14/05/2006</b>
-          </p>
+          <p>14/05/2006</p>
         </td>
         <td>
-          <p>
-            <b>1157</b>
-          </p>
+          <p>1157</p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="MAMEBeta/">MAME v0.106</a>
+          <a href="MAMEBeta/">MAME v0.107</a>
         </td>
         <td>
           <p>
@@ -157,12 +151,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>14/05/2006</b>
+            <b>24/07/2006</b>
           </p>
         </td>
         <td>
           <p>
-            <b>6166</b>
+            <b>6187</b>
           </p>
         </td>
       </tr>
@@ -174,13 +168,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="Nebula/">Nebula v2.25</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>04/01/2006</p>
+          <p>
+            <b>24/07/2006</b>
+          </p>
         </td>
         <td>
-          <p>469</p>
+          <p>
+            <b>469</b>
+          </p>
         </td>
       </tr>
 
@@ -190,13 +190,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="NebulaJukebox/">Nebula Jukebox v2.9</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>13/02/2005</p>
+          <p>
+            <b>24/07/2006</b>
+          </p>
         </td>
         <td>
-          <p>249</p>
+          <p>
+            <b>249</b>
+          </p>
         </td>
       </tr>
 
@@ -237,13 +243,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.1</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>25/10/2004</p>
+          <p>
+            <b>24/07/2006</b>
+          </p>
         </td>
         <td>
-          <p>21</p>
+          <p>
+            <b>21</b>
+          </p>
         </td>
       </tr>
 
@@ -348,7 +360,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
       </tr>
 			<tr>
         <td>
-          <a href="CPS-1/">CPS-1 20060514</a>
+          <a href="CPS-1/">CPS-1 20060724</a>
         </td>
         <td>
           <p>
@@ -357,7 +369,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>14/05/2006</b>
+            <b>24/07/2006</b>
           </p>
         </td>
         <td>
@@ -370,7 +382,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="CPS-2/">CPS-2 20060514</a>
+          <a href="CPS-2/">CPS-2 20060724</a>
         </td>
         <td>
           <p>
@@ -379,12 +391,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>14/05/2006</b>
+            <b>24/07/2006</b>
           </p>
         </td>
         <td>
           <p>
-            <b>190</b>
+            <b>191</b>
           </p>
         </td>
       </tr>
@@ -392,7 +404,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="Neo-Geo/">Neo-Geo 20060514</a>
+          <a href="Neo-Geo/">Neo-Geo 20060724</a>
         </td>
         <td>
           <p>
@@ -401,7 +413,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>14/05/2006</b>
+            <b>24/07/2006</b>
           </p>
         </td>
         <td>
@@ -416,19 +428,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="ZN/">ZN 20060514</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>14/05/2006</b>
-          </p>
+          <p>14/05/2006</p>
         </td>
         <td>
-          <p>
-            <b>29</b>
-          </p>
+          <p>29</p>
         </td>
       </tr>
 
