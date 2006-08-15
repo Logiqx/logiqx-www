@@ -2,11 +2,11 @@
 <emulator id="WinKawaks">
 	<img src="WinKawaks.png" width="141" height="40"/>
 	<name>Kawaks</name>
-	<version>v1.55</version>
+	<version>v1.56</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>24/07/2006</date>
-	<games>452</games>
+	<date>15/08/2006</date>
+	<games>489</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Kawaks emulates CPS-1, CPS-2 and Neo-Geo games.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="WinKawaks%20v1.55%20(cm).zip" size="181"/>
+			<file name="WinKawaks%20v1.56%20(cm).zip" size="197"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="WinKawaks%20v1.55%20(rc).zip" size="89"/>
+			<file name="WinKawaks%20v1.56%20(rc).zip" size="97"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>15 August 2006</date>
+			<comment>Updated for Kawaks v1.56.</comment>
+		</revision>
 		<revision>
 			<date>24 July 2006</date>
 			<comment>Updated supplements for MAME v0.107.</comment>

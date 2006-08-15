@@ -25,7 +25,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="WinKawaks/WinKawaks%20v1.55%20(rc).zip"><b>Kawaks</b></a></td><td>v1.55</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>452</td><td>24/07/2006</td></tr>
+					</b></td><td><a href="WinKawaks/WinKawaks%20v1.56%20(rc).zip"><b>Kawaks</b></a></td><td>v1.56</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>489</td><td>15/08/2006</td></tr>
 
 
 <tr><td class="status"><b>

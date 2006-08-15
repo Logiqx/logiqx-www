@@ -104,7 +104,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="WinKawaks/">Kawaks v1.55</a>
+          <a href="WinKawaks/">Kawaks v1.56</a>
         </td>
         <td>
           <p>
@@ -113,12 +113,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>24/07/2006</b>
+            <b>15/08/2006</b>
           </p>
         </td>
         <td>
           <p>
-            <b>452</b>
+            <b>489</b>
           </p>
         </td>
       </tr>

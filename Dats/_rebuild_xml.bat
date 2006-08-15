@@ -14,3 +14,5 @@ ECHO Generating Systems.xml...
 e:\tools\cmpro\cmpro /xml www.logiqx.com/Dats H:\Logiqx\WWW\Dats\Systems.txt H:\Logiqx\WWW\Dats\Systems.xml
 zip Systems.zip Systems.xml
 rm Systems.xml
+
+PAUSE
