@@ -2,10 +2,10 @@
 <emulator id="OlderEmus">
 	<img src="OlderEmus.png" width="140" height="40"/>
 	<name>Older Emus</name>
-	<version>20051012</version>
+	<version>20060821</version>
 	<suitability/>
-	<status></status>
-	<date>12/10/2005</date>
+	<status>Updated</status>
+	<date>21/08/2006</date>
 	<games>Thousands of</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Older%20Emus%2020051012%20(cm).zip" size="1179"/>
+			<file name="Older%20Emus%2020060821%20(cm).zip" size="1181"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Older%20Emus%2020051012%20(rc).zip" size="499"/>
+			<file name="Older%20Emus%2020060821%20(rc).zip" size="500"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>21 August 2006</date>
+			<comment>NeoJukeBox v2.7 - Updated the newer Neo-Geo games to match MAME v0.104<br/>Viva Nonno v22.0.3 - Added missing SHA-1 information (taken from MAME v0.105)<br/>Nebula Model 2 v0.9b - Updated supplement to match MAME v0.108</comment>
+		</revision>
 		<revision>
 			<date>12 October 2005</date>
 			<comment>Added Radikal Bikers Emulator v0.9, PIE v1.12 and SIDE.<br />Corrected SHA-1 error in JAS-SYS1 b1.2.</comment>

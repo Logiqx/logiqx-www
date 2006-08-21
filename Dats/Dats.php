@@ -107,19 +107,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="WinKawaks/">Kawaks v1.56</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>15/08/2006</b>
-          </p>
+          <p>15/08/2006</p>
         </td>
         <td>
-          <p>
-            <b>489</b>
-          </p>
+          <p>489</p>
         </td>
       </tr>
 
@@ -129,20 +123,26 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="M1/">M1 v0.7.7</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>14/05/2006</p>
+          <p>
+            <b>21/08/2006</b>
+          </p>
         </td>
         <td>
-          <p>1157</p>
+          <p>
+            <b>1157</b>
+          </p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="MAMEBeta/">MAME v0.107</a>
+          <a href="MAMEBeta/">MAME v0.108</a>
         </td>
         <td>
           <p>
@@ -151,12 +151,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>24/07/2006</b>
+            <b>21/08/2006</b>
           </p>
         </td>
         <td>
           <p>
-            <b>6187</b>
+            <b>6216</b>
           </p>
         </td>
       </tr>
@@ -168,19 +168,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="Nebula/">Nebula v2.25</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>24/07/2006</b>
-          </p>
+          <p>24/07/2006</p>
         </td>
         <td>
-          <p>
-            <b>469</b>
-          </p>
+          <p>469</p>
         </td>
       </tr>
 
@@ -190,19 +184,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="NebulaJukebox/">Nebula Jukebox v2.9</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>24/07/2006</b>
-          </p>
+          <p>24/07/2006</p>
         </td>
         <td>
-          <p>
-            <b>249</b>
-          </p>
+          <p>249</p>
         </td>
       </tr>
 
@@ -249,7 +237,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>24/07/2006</b>
+            <b>21/08/2006</b>
           </p>
         </td>
         <td>
@@ -319,16 +307,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="OlderEmus/">Older Emus 20051012</a>
+          <a href="OlderEmus/">Older Emus 20060821</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>12/10/2005</p>
+          <p>
+            <b>21/08/2006</b>
+          </p>
         </td>
         <td>
-          <p>Thousands of</p>
+          <p>
+            <b>Thousands of</b>
+          </p>
         </td>
       </tr>
 
@@ -363,26 +357,20 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="CPS-1/">CPS-1 20060724</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>24/07/2006</b>
-          </p>
+          <p>24/07/2006</p>
         </td>
         <td>
-          <p>
-            <b>122</b>
-          </p>
+          <p>122</p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="CPS-2/">CPS-2 20060724</a>
+          <a href="CPS-2/">CPS-2 20060821</a>
         </td>
         <td>
           <p>
@@ -391,12 +379,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>24/07/2006</b>
+            <b>21/08/2006</b>
           </p>
         </td>
         <td>
           <p>
-            <b>191</b>
+            <b>192</b>
           </p>
         </td>
       </tr>
@@ -407,19 +395,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="Neo-Geo/">Neo-Geo 20060724</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>24/07/2006</b>
-          </p>
+          <p>24/07/2006</p>
         </td>
         <td>
-          <p>
-            <b>248</b>
-          </p>
+          <p>248</p>
         </td>
       </tr>
 

@@ -44,7 +44,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.1%20(cm).zip">SEGA Model 2 Emulator dat for CMPro</a> (27KB)</p>
+          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.1%20(cm).zip">SEGA Model 2 Emulator dat for CMPro</a> (28KB)</p>
           <p>
             <a href="SEGA%20Model%202%20Emulator%20v0.1%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -65,6 +65,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>21 August 2006</b> - 
+			
+			Updated supplements for MAME v0.108.
+		</p>
     <p>
       <b>24 July 2006</b> - 
 			

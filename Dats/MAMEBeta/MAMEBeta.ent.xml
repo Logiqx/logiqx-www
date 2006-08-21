@@ -2,11 +2,11 @@
 <emulator id="MAMEBeta">
 	<img src="MAME.png" width="80" height="40"/>
 	<name>MAME</name>
-	<version>v0.107</version>
+	<version>v0.108</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>24/07/2006</date>
-	<games>6187</games>
+	<date>21/08/2006</date>
+	<games>6216</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Both dats were generated using DatUtil.</p>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20v0.107%20(cm).zip" size="2100"/>
+			<file name="MAME%20v0.108%20(cm).zip" size="2107"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20v0.107%20(rc).zip" size="903"/>
+			<file name="MAME%20v0.108%20(rc).zip" size="908"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>21 August 2006</date>
+			<comment>Uploaded dats for MAME v0.108.</comment>
+		</revision>
 		<revision>
 			<date>24 July 2006</date>
 			<comment>Uploaded dats for MAME v0.107.</comment>

@@ -24,28 +24,28 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="WinKawaks/WinKawaks%20v1.56%20(rc).zip"><b>Kawaks</b></a></td><td>v1.56</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>489</td><td>15/08/2006</td></tr>
 
 
 <tr><td class="status"><b>
+						updated
+					</b></td><td><a href="M1/M1%20v0.7.7%20(rc).zip"><b>M1</b></a></td><td>v0.7.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1157</td><td>21/08/2006</td></tr>
+
+
+<tr><td class="status"><b>
+						updated
+					</b></td><td><a href="MAMEBeta/MAME%20v0.108%20(rc).zip"><b>MAME</b></a></td><td>v0.108</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6216</td><td>21/08/2006</td></tr>
+
+
+
+<tr><td class="status"><b>
 						-
-					</b></td><td><a href="M1/M1%20v0.7.7%20(rc).zip"><b>M1</b></a></td><td>v0.7.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1157</td><td>14/05/2006</td></tr>
-
-
-<tr><td class="status"><b>
-						updated
-					</b></td><td><a href="MAMEBeta/MAME%20v0.107%20(rc).zip"><b>MAME</b></a></td><td>v0.107</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6187</td><td>24/07/2006</td></tr>
-
-
-
-<tr><td class="status"><b>
-						updated
 					</b></td><td><a href="Nebula/Nebula%20v2.25%20(rc).zip"><b>Nebula</b></a></td><td>v2.25</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>469</td><td>24/07/2006</td></tr>
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="NebulaJukebox/Nebula%20Jukebox%20v2.9%20(rc).zip"><b>Nebula Jukebox</b></a></td><td>v2.9</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>249</td><td>24/07/2006</td></tr>
 
 
@@ -60,7 +60,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.1%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>21</td><td>24/07/2006</td></tr>
+					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.1%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>21</td><td>21/08/2006</td></tr>
 
 
 <tr><td class="status"><b>
@@ -82,8 +82,8 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="OlderEmus/Older%20Emus%2020051012%20(rc).zip"><b>Older Emus</b></a></td><td>20051012</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>12/10/2005</td></tr>
+						updated
+					</b></td><td><a href="OlderEmus/Older%20Emus%2020060821%20(rc).zip"><b>Older Emus</b></a></td><td>20060821</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>21/08/2006</td></tr>
 
 		</table>
 	
@@ -95,17 +95,17 @@
 		
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>System</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="CPS-1/CPS-1%2020060724%20(rc).zip"><b>CPS-1</b></a></td><td>20060724</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>122</td><td>24/07/2006</td></tr>
 
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="CPS-2/CPS-2%2020060724%20(rc).zip"><b>CPS-2</b></a></td><td>20060724</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>191</td><td>24/07/2006</td></tr>
+					</b></td><td><a href="CPS-2/CPS-2%2020060821%20(rc).zip"><b>CPS-2</b></a></td><td>20060821</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>192</td><td>21/08/2006</td></tr>
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="Neo-Geo/Neo-Geo%2020060724%20(rc).zip"><b>Neo-Geo</b></a></td><td>20060724</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>248</td><td>24/07/2006</td></tr>
 
 <tr><td class="status"><b>
