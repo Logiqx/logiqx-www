@@ -449,32 +449,44 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMEArtwork/">MAME Artwork 20060404</a>
+          <a href="MAMEArtwork/">MAME Artwork 20060820</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>04/04/2006</p>
+          <p>
+            <b>20/08/2006</b>
+          </p>
         </td>
         <td>
-          <p>167</p>
+          <p>
+            <b>61</b>
+          </p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="MAMESamples/">MAME Samples 20050404</a>
+          <a href="MAMESamples/">MAME Samples 20050821</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>04/04/2005</p>
+          <p>
+            <b>21/08/2006</b>
+          </p>
         </td>
         <td>
-          <p>66</p>
+          <p>
+            <b>67</b>
+          </p>
         </td>
       </tr>
 

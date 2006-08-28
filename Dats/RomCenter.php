@@ -136,13 +136,13 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Resource</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020060404%20(rc).zip"><b>MAME Artwork</b></a></td><td>20060404</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>167</td><td>04/04/2006</td></tr>
+						updated
+					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020060820%20(rc).zip"><b>MAME Artwork</b></a></td><td>20060820</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>61</td><td>20/08/2006</td></tr>
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMESamples/MAME%20Samples%2020060404%20(rc).zip"><b>MAME Samples</b></a></td><td>20050404</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>66</td><td>04/04/2005</td></tr>
+						updated
+					</b></td><td><a href="MAMESamples/MAME%20Samples%2020060821%20(rc).zip"><b>MAME Samples</b></a></td><td>20050821</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>67</td><td>21/08/2006</td></tr>
 
 		</table>
 	
