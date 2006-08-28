@@ -55,12 +55,12 @@
 
 
 <tr><td class="status"><b>
-						updated
-					</b></td><td><a href="RAINE/RAINE%20v0.43.4%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>572</td><td>28/08/2006</td></tr>
+						-
+					</b></td><td><a href="RAINE/RAINE%20v0.43.2%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.2</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>567</td><td>05/04/2006</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.3%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.3</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>23</td><td>28/08/2006</td></tr>
+					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.1%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>21</td><td>21/08/2006</td></tr>
 
 
 <tr><td class="status"><b>

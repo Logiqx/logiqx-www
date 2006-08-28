@@ -213,28 +213,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RAINE/">RAINE v0.43.4</a>
+          <a href="RAINE/">RAINE v0.43.2</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>28/08/2006</b>
-          </p>
+          <p>05/04/2006</p>
         </td>
         <td>
-          <p>
-            <b>572</b>
-          </p>
+          <p>567</p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.3</a>
+          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.1</a>
         </td>
         <td>
           <p>
@@ -243,12 +237,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>28/08/2006</b>
+            <b>21/08/2006</b>
           </p>
         </td>
         <td>
           <p>
-            <b>23</b>
+            <b>21</b>
           </p>
         </td>
       </tr>
