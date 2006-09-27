@@ -66,6 +66,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>27 September 2006</b> - 
+			
+			No change required for MAME v0.109.
+		</p>
+    <p>
       <b>28 August 2006</b> - 
 			
 			Updated to match SEGA Model 2 Emulator v0.3.

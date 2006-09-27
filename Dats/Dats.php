@@ -91,13 +91,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="FinalBurnAlpha/">FBA v0.2.95.23</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>14/05/2006</p>
+          <p>
+            <b>27/09/2006</b>
+          </p>
         </td>
         <td>
-          <p>535</p>
+          <p>
+            <b>535</b>
+          </p>
         </td>
       </tr>
 
@@ -129,7 +135,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>21/08/2006</b>
+            <b>27/09/2006</b>
           </p>
         </td>
         <td>
@@ -142,7 +148,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMEBeta/">MAME v0.108</a>
+          <a href="MAMEBeta/">MAME v0.109</a>
         </td>
         <td>
           <p>
@@ -151,12 +157,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>21/08/2006</b>
+            <b>27/09/2006</b>
           </p>
         </td>
         <td>
           <p>
-            <b>6216</b>
+            <b>6253</b>
           </p>
         </td>
       </tr>
@@ -222,7 +228,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>28/08/2006</b>
+            <b>27/09/2006</b>
           </p>
         </td>
         <td>
@@ -237,19 +243,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.3</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>28/08/2006</b>
-          </p>
+          <p>28/08/2006</p>
         </td>
         <td>
-          <p>
-            <b>23</b>
-          </p>
+          <p>23</p>
         </td>
       </tr>
 
@@ -316,19 +316,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="OlderEmus/">Older Emus 20060821</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>21/08/2006</b>
-          </p>
+          <p>21/08/2006</p>
         </td>
         <td>
-          <p>
-            <b>Thousands of</b>
-          </p>
+          <p>Thousands of</p>
         </td>
       </tr>
 
@@ -379,19 +373,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="CPS-2/">CPS-2 20060821</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>21/08/2006</b>
-          </p>
+          <p>21/08/2006</p>
         </td>
         <td>
-          <p>
-            <b>192</b>
-          </p>
+          <p>192</p>
         </td>
       </tr>
 
@@ -458,19 +446,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="MAMEArtwork/">MAME Artwork 20060820</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>20/08/2006</b>
-          </p>
+          <p>20/08/2006</p>
         </td>
         <td>
-          <p>
-            <b>61</b>
-          </p>
+          <p>61</p>
         </td>
       </tr>
 
@@ -480,19 +462,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="MAMESamples/">MAME Samples 20050821</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>21/08/2006</b>
-          </p>
+          <p>21/08/2006</p>
         </td>
         <td>
-          <p>
-            <b>67</b>
-          </p>
+          <p>67</p>
         </td>
       </tr>
 

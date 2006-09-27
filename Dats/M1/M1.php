@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="M1%20v0.7.7%20(rc).zip">M1 dat for ROMCenter</a> (92KB)</p>
+          <p>Download <a href="M1%20v0.7.7%20(rc).zip">M1 dat for ROMCenter</a> (93KB)</p>
           <p>
             <a href="M1%20v0.7.7%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>27 September 2006</b> - 
+			
+			Updated supplements for MAME v0.109.
+		</p>
     <p>
       <b>21 August 2006</b> - 
 			

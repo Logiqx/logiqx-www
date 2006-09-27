@@ -19,8 +19,8 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.95.23%20(rc).zip"><b>FBA</b></a></td><td>v0.2.95.23</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>535</td><td>14/05/2006</td></tr>
+						updated
+					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.95.23%20(rc).zip"><b>FBA</b></a></td><td>v0.2.95.23</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>535</td><td>27/09/2006</td></tr>
 
 
 <tr><td class="status"><b>
@@ -30,12 +30,12 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="M1/M1%20v0.7.7%20(rc).zip"><b>M1</b></a></td><td>v0.7.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1157</td><td>21/08/2006</td></tr>
+					</b></td><td><a href="M1/M1%20v0.7.7%20(rc).zip"><b>M1</b></a></td><td>v0.7.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1157</td><td>27/09/2006</td></tr>
 
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMEBeta/MAME%20v0.108%20(rc).zip"><b>MAME</b></a></td><td>v0.108</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6216</td><td>21/08/2006</td></tr>
+					</b></td><td><a href="MAMEBeta/MAME%20v0.109%20(rc).zip"><b>MAME</b></a></td><td>v0.109</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6253</td><td>27/09/2006</td></tr>
 
 
 
@@ -56,10 +56,10 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="RAINE/RAINE%20v0.43.4%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>572</td><td>28/08/2006</td></tr>
+					</b></td><td><a href="RAINE/RAINE%20v0.43.4%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>572</td><td>27/09/2006</td></tr>
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.3%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.3</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>23</td><td>28/08/2006</td></tr>
 
 
@@ -82,7 +82,7 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="OlderEmus/Older%20Emus%2020060821%20(rc).zip"><b>Older Emus</b></a></td><td>20060821</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>21/08/2006</td></tr>
 
 		</table>
@@ -100,7 +100,7 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="CPS-2/CPS-2%2020060821%20(rc).zip"><b>CPS-2</b></a></td><td>20060821</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>192</td><td>21/08/2006</td></tr>
 
 
@@ -136,12 +136,12 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Resource</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020060820%20(rc).zip"><b>MAME Artwork</b></a></td><td>20060820</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>61</td><td>20/08/2006</td></tr>
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="MAMESamples/MAME%20Samples%2020060821%20(rc).zip"><b>MAME Samples</b></a></td><td>20050821</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>67</td><td>21/08/2006</td></tr>
 
 		</table>
