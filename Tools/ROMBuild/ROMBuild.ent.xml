@@ -3,9 +3,9 @@
 	<img src="ROMBuild.png" width="120" height="40"/>
 
 	<name>ROMBuild</name>
-	<version>v2.7</version>
-	<status></status>
-	<date>05/10/2005</date>
+	<version>v2.8</version>
+	<status>Updated</status>
+	<date>17/10/2006</date>
 
 	<description>ROM manipulation tool that can convert modern day ROMs to older formats</description>
 
@@ -21,7 +21,7 @@
 
 	<downloads>
 		<download>
-			<file name="rbuild27.zip" size="256"/>
+			<file name="rbuild28.zip" size="106"/>
 		</download>
 	</downloads>
 
@@ -38,6 +38,15 @@
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>17 October 2006</date>
+			<version>v2.8</version>
+			<comment>
+				- Removed RAINE ROMs since they are now MAME compatible (v0.43.4+)<br/>
+	    			- Updated internal ROM names to match MAME v0.109
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>5 October 2005</date>
 			<version>v2.7</version>

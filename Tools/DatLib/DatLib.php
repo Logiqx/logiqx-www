@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.17</title>
+    <title>DatLib v2.18</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib217.zip">DatLib v2.17</a> (88KB)</p>
+          <p>Download <a href="datlib218.zip">DatLib v2.18</a> (92KB)</p>
           <p>
-            <a href="datlib217.zip">
+            <a href="datlib218.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,20 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>17 October 2006</b> - DatLib v2.18</p>
+    <p>
+			
+			
+			
+				- More intelligent DTD creation when saving in ListXML format<br/>
+				- Added support for game/display (MAME v0.107)<br/>
+				- Added support for game/input/control (MAME v0.107)<br/>
+				- Added support for emulator/build (MAME+MESS v0.101u4 upwards)<br/>
+				- Added support for driver/savestate (MAME v0.101u1 upwards)<br/>
+            			- Note: The above changes affect the tab delimited format!
+    			
+		</p>
     <p>
       <b>16 July 2006</b> - DatLib v2.17</p>
     <p>

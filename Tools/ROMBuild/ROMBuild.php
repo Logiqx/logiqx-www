@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ROMBuild v2.7</title>
+    <title>ROMBuild v2.8</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -50,9 +50,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="rbuild27.zip">ROMBuild v2.7</a> (256KB)</p>
+          <p>Download <a href="rbuild28.zip">ROMBuild v2.8</a> (106KB)</p>
           <p>
-            <a href="rbuild27.zip">
+            <a href="rbuild28.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -83,6 +83,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>17 October 2006</b> - ROMBuild v2.8</p>
+    <p>
+			
+			
+			
+				- Removed RAINE ROMs since they are now MAME compatible (v0.43.4+)<br/>
+	    			- Updated internal ROM names to match MAME v0.109
+    			
+		</p>
     <p>
       <b>5 October 2005</b> - ROMBuild v2.7</p>
     <p>

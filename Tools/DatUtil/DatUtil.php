@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.29</title>
+    <title>DatUtil v2.30</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -73,9 +73,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil229.zip">DatUtil v2.29</a> (147KB)</p>
+          <p>Download <a href="dutil230.zip">DatUtil v2.30</a> (157KB)</p>
           <p>
-            <a href="dutil229.zip">
+            <a href="dutil230.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -87,6 +87,22 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>17 October 2006</b> - DatUtil v2.30</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.18.<br/>
+				- More intelligent DTD creation when saving in ListXML format<br/>
+				- Added support for game/display (MAME v0.107)<br/>
+				- Added support for game/input/control (MAME v0.107)<br/>
+				- Added support for emulator/build (MAME+MESS v0.101u4 upwards)<br/>
+				- Added support for driver/savestate (MAME v0.101u1 upwards)<br/>
+            			- Note: The above changes affect the tab delimited format!
+            			- Added 'delimited.sql' as an example of loading dats into MySQL
+    			
+		</p>
     <p>
       <b>16 July 2006</b> - DatUtil v2.29</p>
     <p>
