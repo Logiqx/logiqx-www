@@ -2,7 +2,7 @@
 # phpBB Backup Script
 # Dump of tables for lac_xmb1
 #
-# DATE : 18-01-2006 11:05:07 GMT
+# DATE : 21-10-2006 09:15:37 GMT
 #
 #
 # TABLE: phpbb_auth_access
@@ -136,25 +136,42 @@ INSERT INTO phpbb_config (config_name, config_value) VALUES('avatar_path', 'imag
 INSERT INTO phpbb_config (config_name, config_value) VALUES('avatar_gallery_path', 'images/avatars/gallery');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('smilies_path', 'images/smiles');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('default_style', '1');
-INSERT INTO phpbb_config (config_name, config_value) VALUES('default_dateformat', 'D M d, Y g:i a');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('default_dateformat', 'r');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('board_timezone', '0');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('prune_enable', '1');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('privmsg_disable', '0');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('gzip_compress', '0');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('coppa_fax', '');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('coppa_mail', '');
-INSERT INTO phpbb_config (config_name, config_value) VALUES('record_online_users', '10');
-INSERT INTO phpbb_config (config_name, config_value) VALUES('record_online_date', '1129176021');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('record_online_users', '25');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('record_online_date', '1157474758');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('server_name', 'forum.logiqx.com');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('server_port', '80');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('script_path', '');
-INSERT INTO phpbb_config (config_name, config_value) VALUES('version', '.0.19');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('version', '.0.21');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('board_startdate', '1112905709');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('default_lang', 'english');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('allow_autologin', '1');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('max_autologin_time', '0');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('max_login_attempts', '5');
 INSERT INTO phpbb_config (config_name, config_value) VALUES('login_reset_time', '30');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('search_flood_interval', '15');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('rand_seed', '2a22c476a746ca550ab86559e9b5d4c6');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('search_min_chars', '3');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('EM_version', '0.3.0');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('EM_password', 'eb27e858d3108473c8087558dfe9d0f6');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('EM_read', 'server');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('EM_write', 'ftpb');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('EM_move', 'ftpa');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('EM_ftp_dir', 'public_html/forum');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('EM_ftp_user', 'lac');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('EM_ftp_pass', '9e0a23c21eaa155a');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('EM_ftp_host', 'localhost');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('EM_ftp_port', '21');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('EM_ftp_type', 'ext');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('EM_ftp_cache', '0');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('rss_image', '');
+INSERT INTO phpbb_config (config_name, config_value) VALUES('max_rss_topics', '15');
 #
 # TABLE: phpbb_disallow
 #
@@ -201,13 +218,13 @@ CREATE TABLE phpbb_forums(
 # Table Data for phpbb_forums
 #
 
-INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('1', '1', 'Announcements', 'News and upcoming releases from Logiqx', '0', '10', '90', '47', '429', NULL, '0', '0', '0', '3', '1', '1', '1', '3', '3', '1', '3', '3');
-INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('3', '2', 'DatUtil, MAMEDiff and ImgChk', 'DatUtil and MAMEDiff are my data file creation/conversion and comparison tools. ImgChk verifies image collections against any format datafile.', '0', '10', '108', '22', '458', NULL, '0', '0', '0', '1', '1', '1', '1', '3', '3', '1', '1', '0');
-INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('6', '2', 'ROMBuild, ROMInfo and ZIPIdent', 'Tools for ROM identification and manipulation', '0', '20', '6', '6', '339', NULL, '0', '0', '0', '1', '1', '1', '1', '3', '3', '1', '1', '0');
-INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('9', '2', 'DatLib', 'Core to all of my tools it provides data file loading, cleansing, conversion and saving routines', '0', '40', '10', '10', '444', NULL, '0', '0', '0', '1', '1', '1', '1', '3', '3', '1', '1', '0');
-INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('12', '3', 'ClrMamePro Dats', 'Questions relating to the CMPro data files at www.logiqx.com', '0', '10', '95', '17', '441', NULL, '0', '0', '0', '1', '1', '1', '1', '3', '3', '1', '1', '0');
-INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('15', '1', 'CAESAR / General', 'For discussions about CAESAR, arcade emulation and/or to tell us about releases and other news', '0', '40', '119', '45', '389', NULL, '0', '0', '0', '1', '1', '1', '1', '3', '3', '1', '1', '0');
-INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('14', '3', 'RomCenter Dats', 'Questions relating to the RomCenter data files at www.logiqx.com', '0', '30', '18', '6', '413', NULL, '0', '0', '0', '1', '1', '1', '1', '3', '3', '1', '1', '0');
+INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('1', '1', 'Announcements', 'News and upcoming releases from Logiqx', '0', '10', '138', '60', '625', NULL, '0', '0', '0', '3', '1', '1', '1', '3', '3', '1', '1', '3');
+INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('3', '2', 'DatUtil, MAMEDiff and ImgChk', 'DatUtil and MAMEDiff are my data file creation/conversion and comparison tools. ImgChk verifies image collections against any format datafile.', '0', '10', '162', '35', '632', NULL, '0', '0', '0', '1', '1', '1', '1', '3', '3', '1', '1', '0');
+INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('6', '2', 'ROMBuild, ROMInfo and ZIPIdent', 'Tools for ROM identification and manipulation', '0', '20', '12', '8', '630', NULL, '0', '0', '0', '1', '1', '1', '1', '3', '3', '1', '1', '0');
+INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('9', '2', 'DatLib', 'Core to all of my tools it provides data file loading, cleansing, conversion and saving routines', '0', '40', '13', '13', '631', NULL, '0', '0', '0', '1', '1', '1', '1', '3', '3', '1', '1', '0');
+INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('12', '3', 'ClrMamePro Dats', 'Questions relating to the CMPro data files at www.logiqx.com', '0', '10', '111', '23', '636', NULL, '0', '0', '0', '1', '1', '1', '1', '3', '3', '1', '1', '0');
+INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('15', '1', 'CAESAR / General', 'For discussions about CAESAR, arcade emulation and/or to tell us about releases and other news', '0', '40', '151', '61', '635', NULL, '0', '0', '0', '1', '1', '1', '1', '3', '3', '1', '1', '0');
+INSERT INTO phpbb_forums (forum_id, cat_id, forum_name, forum_desc, forum_status, forum_order, forum_posts, forum_topics, forum_last_post_id, prune_next, prune_enable, auth_view, auth_read, auth_post, auth_reply, auth_edit, auth_delete, auth_sticky, auth_announce, auth_vote, auth_pollcreate, auth_attachments) VALUES('14', '3', 'RomCenter Dats', 'Questions relating to the RomCenter data files at www.logiqx.com', '0', '30', '31', '10', '621', NULL, '0', '0', '0', '1', '1', '1', '1', '3', '3', '1', '1', '0');
 #
 # TABLE: phpbb_forum_prune
 #
@@ -321,12 +338,56 @@ INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, g
 INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('81', '1', '', 'Personal User', '0', '1');
 INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('82', '1', '', 'Personal User', '0', '1');
 INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('83', '1', '', 'Personal User', '0', '1');
-INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('89', '1', '', 'Personal User', '0', '1');
-INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('90', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('140', '1', '', 'Personal User', '0', '1');
 INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('91', '1', '', 'Personal User', '0', '1');
 INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('92', '1', '', 'Personal User', '0', '1');
 INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('93', '1', '', 'Personal User', '0', '1');
 INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('94', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('95', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('135', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('97', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('98', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('99', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('100', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('101', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('102', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('103', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('139', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('106', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('107', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('136', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('109', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('137', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('112', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('113', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('122', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('138', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('129', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('125', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('128', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('127', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('141', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('142', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('143', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('144', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('145', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('147', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('148', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('149', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('150', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('151', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('152', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('153', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('154', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('155', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('156', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('157', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('158', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('159', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('160', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('161', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('162', '1', '', 'Personal User', '0', '1');
+INSERT INTO phpbb_groups (group_id, group_type, group_name, group_description, group_moderator, group_single_user) VALUES('163', '1', '', 'Personal User', '0', '1');
 #
 # TABLE: phpbb_posts
 #
@@ -694,9 +755,9 @@ INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, post
 INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('348', '128', '1', '34', '1134026892', 'a66f40b0', '', '1', '1', '1', '0', NULL, '0');
 INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('349', '128', '1', '3', '1134027303', '568226ad', '', '1', '1', '1', '0', NULL, '0');
 INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('350', '140', '15', '3', '1134032882', 'c29f1fa5', '', '1', '1', '1', '0', NULL, '0');
-INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('351', '141', '15', '34', '1134108127', 'a66f40b0', '', '1', '1', '1', '0', NULL, '0');
-INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('352', '141', '15', '3', '1134116925', '568226ad', '', '1', '1', '1', '0', NULL, '0');
-INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('353', '141', '15', '34', '1134126969', 'a66f40b0', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('351', '141', '1', '34', '1134108127', 'a66f40b0', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('352', '141', '1', '3', '1134116925', '568226ad', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('353', '141', '1', '34', '1134126969', 'a66f40b0', '', '1', '1', '1', '0', NULL, '0');
 INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('354', '142', '1', '3', '1134229328', '568226ad', '', '1', '1', '1', '0', NULL, '0');
 INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('355', '140', '15', '3', '1134229441', '568226ad', '', '1', '1', '1', '0', NULL, '0');
 INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('356', '143', '1', '3', '1134507535', '56823012', '', '1', '1', '1', '0', NULL, '0');
@@ -802,6 +863,178 @@ INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, post
 INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('456', '158', '3', '49', '1137489958', '428db12c', '', '1', '1', '1', '1', NULL, '0');
 INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('457', '158', '3', '3', '1137490059', '56822d5b', '', '1', '1', '1', '0', '1137490560', '1');
 INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('458', '158', '3', '3', '1137490491', '56822d5b', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('459', '161', '3', '34', '1137710573', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('460', '161', '3', '3', '1137712554', '56822d5b', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('461', '161', '3', '34', '1137739690', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('462', '163', '12', '93', '1138189858', 'a4290b36', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('463', '163', '12', '68', '1138204451', '2677b80e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('464', '163', '12', '3', '1138219278', '56823508', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('465', '207', '3', '34', '1139119208', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('466', '207', '3', '93', '1139222530', 'a4290b36', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('467', '207', '3', '34', '1139230725', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('468', '207', '3', '34', '1139234462', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('469', '164', '1', '3', '1139239561', '56822a9b', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('470', '165', '15', '3', '1139240096', '56822a9b', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('471', '164', '1', '87', '1139242062', '3b27ffa3', '', '1', '1', '1', '0', '1139243948', '2');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('472', '164', '1', '87', '1139242822', '3b27ffa3', '', '1', '1', '1', '0', '1139243111', '1');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('473', '164', '1', '34', '1139242910', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('474', '164', '1', '3', '1139245256', '56822a9b', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('475', '164', '1', '3', '1139247520', '56822a9b', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('476', '164', '1', '87', '1139277655', 'da10373c', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('477', '166', '12', '45', '1139528647', '42f5cbeb', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('478', '167', '15', '95', '1139540236', '46695b42', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('479', '167', '15', '4', '1139572217', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('480', '166', '12', '4', '1139572441', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('481', '207', '3', '93', '1139598043', 'c8fc9efa', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('482', '207', '3', '34', '1139600026', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('483', '166', '12', '45', '1139604035', '42f5cbeb', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('484', '166', '12', '4', '1139609817', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('485', '167', '15', '95', '1140058363', '46697e60', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('486', '167', '15', '4', '1140089527', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('487', '168', '12', '49', '1140803632', '428ebee6', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('488', '169', '3', '98', '1141314541', '5127dfaa', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('489', '169', '3', '3', '1141326666', '56822a9b', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('490', '170', '1', '3', '1141513376', '56822a9b', '', '1', '1', '1', '0', '1141551706', '1');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('491', '170', '1', '34', '1141518829', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('492', '171', '15', '99', '1141536465', '1815d5c3', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('493', '170', '1', '3', '1141551590', '56822a9b', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('494', '170', '1', '34', '1141554126', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('495', '172', '14', '100', '1141589608', '3efce00e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('496', '172', '14', '34', '1141621165', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('497', '172', '14', '3', '1141648498', 'c29f1fa5', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('498', '172', '14', '100', '1141674749', '3efce00e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('499', '170', '1', '93', '1141740512', 'a4290b36', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('500', '207', '3', '34', '1143178585', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('501', '173', '15', '109', '1143410989', '18d54ba8', '', '0', '0', '0', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('502', '173', '15', '34', '1143426887', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('503', '173', '15', '109', '1143429115', '18d54ba8', '', '0', '0', '0', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('504', '173', '15', '34', '1143431395', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('505', '174', '3', '46', '1143445347', 'c06ad5a2', '', '1', '1', '1', '0', '1143457842', '2');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('506', '174', '3', '4', '1143447001', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('507', '174', '3', '46', '1143456143', '57096960', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('508', '174', '3', '3', '1143489199', '51810f84', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('509', '175', '15', '112', '1144115644', '40a36e34', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('510', '175', '15', '4', '1144134737', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('511', '176', '15', '34', '1144167693', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('512', '176', '15', '4', '1144168850', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('513', '177', '1', '3', '1144266857', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('514', '177', '1', '4', '1144269426', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('515', '177', '1', '87', '1144322011', 'da10379c', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('516', '177', '1', '3', '1144351084', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('517', '178', '15', '3', '1144518652', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('518', '179', '14', '122', '1145881802', 'cb6af2f1', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('521', '207', '3', '124', '1146111707', '46b4610b', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('520', '179', '14', '4', '1145883030', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('522', '207', '3', '34', '1146124068', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('523', '181', '12', '122', '1146305982', 'cb6af2f1', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('524', '181', '12', '4', '1146314183', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('534', '184', '1', '93', '1147051063', 'c88c0c16', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('533', '141', '1', '85', '1147046651', '56dc67dd', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('532', '184', '1', '85', '1147046323', '56dc67dd', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('529', '184', '1', '3', '1146996193', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('530', '184', '1', '34', '1146996445', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('531', '184', '1', '4', '1146996587', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('535', '184', '1', '73', '1147064794', '180245a6', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('536', '184', '1', '83', '1147073962', '528dc0fb', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('537', '184', '1', '79', '1147079444', 'c9e60e83', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('538', '184', '1', '3', '1147080000', 'c29f1fa5', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('539', '141', '1', '3', '1147092512', 'c29f1fa5', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('540', '184', '1', '94', '1147096945', '813b080a', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('541', '184', '1', '74', '1147182004', '81d71027', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('542', '185', '3', '125', '1147514286', 'd9d279f6', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('543', '185', '3', '3', '1147554977', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('544', '186', '1', '3', '1147604121', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('545', '185', '3', '125', '1147623119', 'd9d279f6', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('546', '185', '3', '4', '1147626620', '53d5305f', '', '1', '0', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('547', '187', '15', '3', '1147629722', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('548', '187', '15', '4', '1147633788', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('549', '187', '15', '3', '1147635649', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('550', '185', '3', '125', '1147673998', 'd9d279f6', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('551', '185', '3', '3', '1147679581', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('552', '185', '3', '125', '1147684817', 'd9d279f6', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('553', '188', '3', '129', '1148982236', 'c2fe812f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('554', '189', '15', '130', '1149052480', '45d13670', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('555', '188', '3', '4', '1149062084', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('556', '189', '15', '68', '1149084470', '40d7525e', '', '1', '0', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('557', '190', '15', '131', '1149995229', 'd516049e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('558', '190', '15', '4', '1150011402', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('559', '191', '15', '132', '1150217898', '5420f845', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('560', '191', '15', '4', '1150226054', '53d5305f', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('561', '192', '15', '133', '1152122602', '51a5c1f8', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('562', '192', '15', '133', '1152123648', '51a5c1f8', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('563', '192', '15', '3', '1152132237', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('564', '192', '15', '133', '1152200363', '51a5c1f8', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('565', '193', '3', '134', '1152317681', '442c2219', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('566', '193', '3', '4', '1152320174', '53d53856', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('567', '193', '3', '134', '1152326550', '442c2219', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('568', '193', '3', '3', '1152345858', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('569', '194', '14', '135', '1152356961', 'dd85543e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('570', '193', '3', '134', '1152372683', '442c2219', '', '1', '0', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('571', '193', '3', '34', '1152378810', 'a66f40b0', '', '1', '0', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('572', '193', '3', '134', '1152394877', '442c2219', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('573', '194', '14', '3', '1152396313', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('574', '193', '3', '4', '1152400593', '53d53856', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('575', '193', '3', '134', '1152402397', '442c2219', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('576', '193', '3', '34', '1152404268', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('577', '193', '3', '134', '1152421941', '442c2219', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('578', '193', '3', '34', '1152446617', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('579', '193', '3', '134', '1152467121', '442c2219', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('580', '141', '1', '3', '1152650374', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('581', '195', '1', '3', '1152650579', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('582', '196', '3', '3', '1152655692', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('583', '197', '9', '3', '1152655733', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('584', '198', '6', '3', '1152655821', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('586', '141', '1', '3', '1152689396', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('587', '194', '14', '135', '1152701218', 'dd85543e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('588', '194', '14', '3', '1152704526', 'c29f1fa5', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('589', '200', '9', '3', '1153074857', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('590', '201', '3', '3', '1153074888', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('591', '202', '3', '134', '1153448892', '442c2219', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('592', '202', '3', '3', '1153478357', 'c29f1fa5', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('593', '202', '3', '134', '1153485991', '44253c3a', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('594', '202', '3', '4', '1153509896', '53d53856', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('595', '202', '3', '3', '1153511011', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('596', '89', '6', '137', '1153623338', 'cf7068cc', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('597', '89', '6', '3', '1153643111', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('598', '89', '6', '137', '1153667938', 'cf7068cc', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('599', '89', '6', '3', '1153679452', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('600', '203', '1', '3', '1153769292', '56822b1e', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('601', '203', '1', '4', '1153772416', '53d53856', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('602', '204', '15', '139', '1154214725', '4b105552', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('603', '204', '15', '4', '1154247917', '53d53856', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('604', '205', '3', '141', '1154299830', '18d05e66', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('605', '205', '3', '4', '1154301751', '53d53856', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('606', '206', '1', '3', '1155676168', '5682315a', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('607', '207', '3', '34', '1156081786', 'ddd9d168', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('608', '205', '3', '3', '1156093820', 'd92ad625', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('609', '208', '15', '144', '1156143213', '3ed5045d', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('610', '209', '1', '3', '1156189267', 'd92ad625', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('611', '210', '1', '87', '1156694992', 'da1037c8', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('612', '210', '1', '4', '1156699727', '53d53856', '', '1', '1', '1', '0', '1156786790', '1');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('613', '210', '1', '3', '1156714288', 'd92ad625', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('614', '211', '1', '3', '1156801383', 'd92ad625', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('615', '207', '3', '93', '1156944789', 'a4290b36', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('616', '211', '1', '68', '1156944993', 'd1f2e9a9', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('617', '211', '1', '4', '1156950723', '53d53856', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('618', '211', '1', '3', '1156961879', 'd92ad625', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('619', '212', '14', '146', '1159052997', '57dfb704', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('620', '212', '14', '4', '1159058676', '53d53856', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('621', '212', '14', '146', '1159096997', '57dfb704', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('622', '213', '12', '147', '1159352437', '50efac68', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('623', '213', '12', '34', '1159355509', 'a66f40b0', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('624', '213', '12', '147', '1159357203', '50efac68', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('625', '214', '1', '3', '1159386511', 'd92ad625', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('626', '215', '3', '3', '1159429336', 'd92ad625', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('627', '216', '12', '151', '1160879905', '4364e3ac', '', '1', '1', '1', '1', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('628', '216', '12', '4', '1160903864', '53d5265a', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('629', '217', '15', '3', '1161122055', '56822b7c', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('630', '218', '6', '3', '1161122169', '56822b7c', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('631', '219', '9', '3', '1161122312', '56822b7c', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('632', '220', '3', '3', '1161122380', '56822b7c', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('633', '217', '15', '3', '1161205330', '56822b7c', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('634', '221', '15', '152', '1161205907', 'd570889c', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('635', '221', '15', '3', '1161207811', '56822b7c', '', '1', '1', '1', '0', NULL, '0');
+INSERT INTO phpbb_posts (post_id, topic_id, forum_id, poster_id, post_time, poster_ip, post_username, enable_bbcode, enable_html, enable_smilies, enable_sig, post_edit_time, post_edit_count) VALUES('636', '216', '12', '151', '1161230899', '4364e3ac', '', '1', '1', '1', '1', NULL, '0');
 #
 # TABLE: phpbb_posts_text
 #
@@ -2899,7 +3132,7 @@ INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALU
 Windows Vista also changes its MSPAINT\'s default file format from BMP to PNG.');
 INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('349', 'e448dd165c', '', 'Cool.  8)');
 INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('350', '33c0af6238', '', 'Yes, that\'s always been an issue. As you say though, DatUtil fixes those problems automatically.');
-INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('351', '90ed46af12', 'RSS?', 'Is there a plan to open RSS for this forum?');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('351', '4226dc0479', 'RSS?', 'Is there a plan to open RSS for this forum?');
 INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('352', 'dca0757f05', '', 'See how this works:
 
 http://forum.logiqx.com/rss.php
@@ -3455,6 +3688,936 @@ At the time that the PCB games were added to the Neo-Geo dat, I was not aware of
 
 Logiqx');
 INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('458', '7fe7919362', '', 'I will investigate fully before making the update and will make my decision then. I\'ve just got home after 4 weeks away and have a lot to catch up on before fiddling with the Neo-Geo dat. ;)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('459', '6198616f50', 'CRC32 error: datutil from cmdata to rcdata', 'CRC32 wrong when marked baddump.
+
+game (
+	name sf2049se
+	description &quot;San Francisco Rush 2049: Special Edition&quot;
+	year 1998
+	manufacturer &quot;Atari Games&quot;
+	rom ( name sf2049te.bin size 524288 crc [b:6198616f50]cc7c8601[/b:6198616f50] sha1 3f37dbd1b32b3ac5caa300725468e8e426f0fb83 [b:6198616f50]flags baddump[/b:6198616f50] )
+)
+
+===&gt;
+
+¼sf2049se¼San Francisco Rush 2049: Special Edition¼sf2049se¼San Francisco Rush 2049: Special Edition¼sf2049te.bin¼[b:6198616f50]338379fe[/b:6198616f50]¼524288¼¼¼
+
+---------------------------------------------------------------------
+
+game (
+	name sf2049te
+	description &quot;San Francisco Rush 2049: Tournament Edition&quot;
+	year 1998
+	manufacturer &quot;Atari Games&quot;
+	rom ( name sf2049te.bin size 524288 crc [b:6198616f50]cc7c8601[/b:6198616f50] sha1 3f37dbd1b32b3ac5caa300725468e8e426f0fb83 )
+)
+
+===&gt;
+
+¼sf2049te¼San Francisco Rush 2049: Tournament Edition¼sf2049te¼San Francisco Rush 2049: Tournament Edition¼sf2049te.bin¼[b:6198616f50]cc7c8601[/b:6198616f50]¼524288¼¼¼');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('460', 'd9a84ac19a', '', 'That\'s just how RomCenter handles bad dumps. RomCenter uses a complemented CRC to represent a bad dump. Everything used to do that a long time ago (MAME, ClrMame, etc).
+
+A complemented CRC is calculated by doing the logical \'not\' on the original CRC (i.e. change binary 0s to 1s and 1s to 0s).');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('461', '57de6c7857', '', 'Thanks, I see.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('462', '08edd945a1', 'where do you get the info to create dats?', 'hey there Logiqx, i just wanted to know where do you get the info (crc, names, parent relations, etc) to create your system dats (cps1, cps2, neogeo, etc)?
+
+tia');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('463', '2c87b3f748', '', 'This information comes from several sources:
+
+1. parent/child relations - Comes from the version of the ROM sets, as newer version are dumped these parent/child relations may change.
+2. crc - calculated from the dumped ROM
+3. Names
+  - some are taken from label on the ROM, 
+  - some are made up by the original dumper
+  - some are a combination of game name and location on the circuit board');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('464', 'a7050277b7', '', 'In addition to the details already given, when talking about the system dats in particular (CPS-1, CPS-2, Neo-Geo):
+
+- Most games are taken direct from the MAME data files (using datutil). This is an automated process that I have written.
+- Additional games that are emulated by Kawaks or Nebula (or confirmed good-dumps from reputable sources) are then added to the MAME games. I tend to keep these \'additional\' games in a seperate file and have a script that automatically builds the data files that you use after each MAME release.
+
+Naming and relationships is based on the experience that I have built up over time (standards exist but are not always documented).
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('465', 'bb341d384a', '', 'Back from winter vacation~
+And the 2-pass de-duplicating tool is done:)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('466', '052d823f68', '', 'where can we get this tool Hakkk? ;)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('467', '1e8a1289ea', '', 'let me do some modification first, then share.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('468', '87bac48bab', '', 'You may try this:
+http://www.megaupload.com/?d=EQ6FB3EE
+If old data is:
+[code:1:87bac48bab]game &#40;
+	name A
+	rom &#40;a1&#41;
+	rom &#40;a2&#41;
+&#41;
+
+game &#40;
+	name B
+	rom &#40;a1&#41;
+&#41;
+
+game &#40;
+	name C
+	rom &#40;c1&#41;
+	rom &#40;a2&#41;
+	rom &#40;c3&#41;
+&#41;
+[/code:1:87bac48bab]
+Then new data will be:
+[code:1:87bac48bab]game &#40;
+	name A
+	rom &#40;a1&#41;
+	rom &#40;a2&#41;
+&#41;
+
+game &#40;
+	name C
+	rom &#40;c1&#41;
+	rom &#40;c3&#41;
+&#41;
+[/code:1:87bac48bab]
+
+Version 0.02');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('469', '6353d6411c', 'MAME v0.104', 'I have released the data files related to MAME v0.104.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('470', '39d55273c3', 'CAESAR Update (MAME 0.104)', 'I have updated CAESAR for the latest release of MAME. 
+
+Amongst other things, it included a number of newest Neo-Geo games: 
+
+http://caesar.logiqx.com/php/emulator.php?id=mame');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('471', 'ac40c33bd2', '', 'seems like doesn\'t match the official mame 0.104
+
+I create cmpro profile using mame32fx 0.104 emulater and got 0 missing
+
+but when I use your dat the results:
+
+
+*** ROM details removed by Logiqx... to protect the innocent, lol ***
+
+
+don\'t know why?
+
+is this dat for mame 0.104 or the fix 0.104 release later? (refer to mamedev.com)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('477', '0e69bac41e', 'New NeoGeo DAT question', 'Shouldn\'t kf2k3pcb and svcpcb be included in the NeoGeo DAT? Even though they are on JAMMA PCBs, they are still NeoGeo games.....');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('478', '16dd01b0d1', 'One Question', 'How exactly are you supposed to be able to put a PSX emulator and roms and play them on one.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('479', '8c62bf2a8e', '', 'Go to [url=http://www.mameworld.net/easyemu/]EasyEmu[/url] and choose either MAME, ePSXe or ZiNc. It will tell you the steps you need to making work one of those emulators.
+
+MAME is an all-purpose arcade emulator which plays games accurately but slowly, and supports several PSX-based arcade systems. ZiNc is another arcade emulator which supports the same PSX-based systems and games than MAME, but uses your graphic card for speeding up the emulation and allows different stuff like filtering, greater resolutions, etc. Finally, ePSXe is a Sony Playstation emulator and allows emulation of the console games. Choose your option.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('480', '80a4f7f6c5', '', 'But they aren\'t [i:80a4f7f6c5]NeoGeo System[/i:80a4f7f6c5] games. They can\'t be played in a multi-slot NeoGeo System PCB. They just happen to use almost the same hardware, but nothing else. Logiqx decided to leave them out of the DAT and has said at least a couple of times that he doesn\'t want discussions about if these games should be in the DAT or not.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('481', 'c9bdef43c7', '', 'hey there Hakkk, in my limited tests it seems to work fine! thx a lot');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('482', 'c994e009a1', '', 'You\'re welcome. And if any bugs, plz let me know.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('483', '9328337fa6', 'Ooops', 'Didn\'t know this was such  a taboo topic; I thought that he had forgotten to add them into DAT, and was just trying to be helpful -- sorry :oops:');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('484', '8bbc890fa5', '', 'Not so much of a taboo, rather a symptom that this has been already been argued too many times in a too short period of time.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('485', 'd77213dbeb', '', 'What I meant is how can you play them on a playstation.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('486', 'f8045611ec', '', 'You didn\'t explain very well, certainly.
+
+There aren\'t many options because there aren\'t many emulators written for such a weak console (from the CPU standpoint). Visit the Playstation section of CAESAR: [url]http://caesar.logiqx.com/php/emulators.php?id=psx[/url]
+
+Most of them are commercial. For the rest, I guess the site or the emulator itself will have such instructions. Maybe one of them will have a CD image ready to burn so you only have to put it in the console.
+
+If you\'re looking to play MAME or similar on a Playstation, forget it. A PS doesn\'t have enough horsepower for that kind of emulation.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('487', '0c6c81d755', 'SNES Roms.dat', 'Got any of those SNES Roms.dat
+
+I got a mess of snes roms. I don\'t know which is correct or not. I need a dat to check those.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('488', 'a5580fa80a', 'gamelist.txt no clone :(', 'Helou
+
+Logiqx I have got you dutil2.27 witch the options:
+
+datutil -f gl mame.dat
+
+I have got gamelis.txt but No clone in gamelist.txt Only Main romset
+
+for explem:
+| Joe &amp; Mac Returns                |   No  |  Yes  |   No  |  Yes  | joemacr  |
+| Joe &amp; Mac Returns (set 2)        |   No  |  Yes  |   No  |  Yes  | joemacra |
+
+in the gamelist.txt only joemacr
+
+Please I have got Mamefe (frontend) but use gamelist.txt
+
+Update witch clone romset please
+
+Thanks
+
+Sorry My Englis is very bad I am spabish');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('489', '132b5eb3ba', '', 'That\'s how it supposed to work. Gamelist is not supposed to list clones. All of the following behave the same way:
+
+mame.exe -gamelist
+http://www.mameworld.net/maws/
+datutil -f gamelist mame.dat
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('490', '83c8b99fe2', 'Compile Guides', 'The latest version of MAME (v0.104u4) needs mingw-runtime-3.9 and w32api-3.6.
+
+I have therefore updated the compile guide accordingly:
+
+http://www.logiqx.com/HowTo/WinMAME.php');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('491', '8cb3211fe5', '', 'And http://www.mamedev.org/tools/ also gives two way to setup.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('492', '7ccd917846', 'SF II Bootleg roms?', 'Hi -
+
+I don\'t know if you deal with this - but here goes
+
+I own 2 different sets of roms from SF II arcade game boards(PCBs)
+neither of them work - one sets fails &amp; locks at startup and the other cycles through 2 opening screens 
+
+is there a fix for this?
+
+Thanks
+E');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('493', '102a093114', '', 'Yes, I thought that someone might bring that up. ;)
+
+I\'ll explain the main differences:
+
+Aaron\'s second method (which he calls \'the hard way\') is pretty much what I do. It\'s exactly the same compiler (GCC/MinGW) but different ports of the Unix commands relied upon by MAME\'s makefile.
+
+- Instead of using mingw32-make, mingw-selfhost, fileutils, sh-utils and diffpatch-mingw (ported Unix commands)... I just use MSYS (the \'Minimal System\' for MinGW). MSYS provides all of these commands and more in one small package (just a few MB when installed). MSYS is quicker to install than each of the individual commands and more use to me because it is like having a functional Unix shell on my PC (without the bloat of CygWin).
+
+- Also, if you ever wish to compile RAINE then you need many more of the Unix command ports and even if you could find them, the only way you\'ll get it to compile is within either MSYS (a few MB) or CygWin (10s of MBs).
+
+So by using the MSYS technique, you can compile MAME or RAINE in the same environment. I even have such an MSYS+MinGW environment on my keyring so that I can plug it into any PC and get a Unix shell, plus a C compiler.
+
+Of course, the easiest method to compile MAME is is to download Aaron\'s pre-packaged ZIP (created by him using his \'hard way\'). Anyone like me will never want someone else to have the fun of putting all of the bits together though. I like to know exactly what is in there. ;)
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('494', 'e10155af08', '', 'Thanks for the detail:)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('495', 'a7f1a0fff3', 'Problems with MAME Roms', 'I am using Mame32 v0.104 (the latest) and rom center 2.70. When I perform a rom check on my roms using your datfile for MAME 0.104 most of the roms appear green i.e. without any problems. However when I try to run these roms in MAME I get error messages secondary to missing or bad roms. I am unable to fix these problems as Rom Center seems to think that these roms are all present and correct. Any ideas?');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('472', 'd4f468f226', '', 'one more thing, the neo geo 20060206 dat have the same problem, it doesn\'t match mame 0.104
+
+wrong name: F:\\Neo Geo Roms\\kf2k3pcb.zip [wrong: kf2k3pcb] [right: ganryu]
+wrong name: F:\\Neo Geo Roms\\svcpcb.zip [wrong: svcpcb] [right: svc]
+
+also the uni-bios still not update to version 2.2:
+UNIVERSE BIOS (v1.0 to v2.1, non-MAME) [folder: uni-bios - size: 768kb]
+missing set: UNIVERSE BIOS (v1.0 to v2.1, non-MAME)
+missing rom: uni-bios.10 [size: 131072] [CRC32: 0x0ce453a0] [SHA1: 0x3b4c0cd26c176fc6b26c3a2f95143dd478f6abf9]
+missing rom: uni-bios.11 [size: 131072] [CRC32: 0x5dda0d84] [SHA1: 0x4153d533c02926a2577e49c32657214781ff29b7]
+missing rom: uni-bios.12 [size: 131072] [CRC32: 0x4fa698e9] [SHA1: 0x682e13ec1c42beaa2d04473967840c88fd52c75a]
+missing rom: uni-bios.13 [size: 131072] [CRC32: 0xb24b44a0] [SHA1: 0xeca8851d30557b97c309a0d9f4a9d20e5b14af4e]
+missing rom: uni-bios.20 [size: 131072] [CRC32: 0x0c12c2ad] [SHA1: 0x37bcd4d30f3892078b46841d895a6eff16dc921e]
+missing rom: uni-bios.rom [size: 131072] [CRC32: 0x8dabf76b] [SHA1: 0xc23732c4491d966cf0373c65c83c7a4e88f0082c]
+
+logiqx please have a check....... thanks alot');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('473', '69b830b0d3', '', 'It seems that bearpta is right. Something happened with the data :?:');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('476', '45d5240314', '', 'thanks logiqx!!!');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('474', '7a731896b1', '', 'Shit... the one time that I use a friend\'s build because there was no official one at the time (I didn\'t want to compile it myself) then look what happens.
+
+Ok, I will sort it out now.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('475', '51b974f5bb', '', 'Ok, fortunately that was not too bad:
+
+- The MAME data file was wrong but all supplements were unaffected. I have uploaded a new MAME data file.
+
+- The Neo-Geo data file is fine. The two games that you mention are PCB games and not part of the Neo-Geo driver, therefore not in the data file and hence the message from CMPro. Please, no debates from anyone about whether PCB games should be included in the Neo-Geo data file!
+
+- Thanks for notifying me about Universe BIOS v2.2. I will add it next time that I update the Neo-Geo data file. I didn\'t know that 2.2 had been released so feel free to announce such things here when they occur,  otherwise there is no guarantee that I will hear about them. ;)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('496', 'efbde28acc', '', 'RomCenter dosn\'t check sha1 code of roms but mame does. Maybe you got some crc32 fake roms. Give more information about those errors mame reported.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('497', 'cb1a9e0159', '', 'From the MAME FAQ:
+
+S09. Why does MAME report &quot;missing files&quot; even if I have the ROMs?  
+
+There are several reasons for this. They are as follows: 
+
+(1) &quot;Cloned&quot; games need their parent ROMs to run. Clones are often &quot;alternate versions&quot; such as versions of a game with a different title, in another language, &quot;bootleg&quot; versions that lack copy protection, and the like. The &quot;Parent ROMs&quot; are often the original game, and if it is multilangual, often the parent is the &quot;World&quot; or &quot;USA Version&quot; of the game. To see if a game is &quot;cloned&quot;, use the -listclones parameter. 
+
+(2) Sometimes ROMs get &quot;changed&quot; in later versions of MAME. For example, a game gets the sound emulated, in a later version, and therefore needs more ROMs to run (i.e. the sound ROMs, in this case). It is now expecting more data with the newer driver. 
+
+(3) Neo Geo and many other games need their BIOS ROMs in addition to the game ROMs. BIOS ROMs are ROMs used for the system, that are common to all games on the system (often contain boot-up code, or menu processor code). For example the Neo Geo BIOS must be named NEOGEO.ZIP. For the filenames of rest of the BIOS sets, consult MAWS (search by the resource type &quot;BIOS&quot;). Place these in your ROMS folder (Leave them zipped). 
+
+(4) A few games like the Cojag games and the Killer Instinct series need hard disk images (.CHD files) to accompany the ROMs. Place these as instructed in S07. 
+
+(5) Capcom CPS-2 games (i.e. Street Fighter Alpha series, Vampire, D&amp;D Series, 19XX, X-men COTA, etc.) currently need their decryption tables to run in MAME. These files can be separate or merged into the ROM. Decryption tables get XORed to the encrypted ROMs, allowing them to be decrypted in RAM. Decryption tables have an &quot;X&quot; and the end of the ROM file name. Currently the decryption tables are only available at CPS2shock, and you\'ll have to wait for them to release the decryption tables for any unemulated CPS-2 game before it can be added to MAME. Once the encryption is cracked for real, these files won\'t be needed.  
+
+Answer 3 is the most likely in your case but without knowing which game you are trying to run or the exact error message it is impossible to say for sure.
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('498', '10b056b5d7', 'Roms are working now!', 'Thanks for your prompt advice. I did as you suggested and downloaded several BIOS files for NEO GEO etc. All the roms which MAME said were missing were included in these bios files and now all my roms are working perfectly. Thanks again and keep up the good work Logiqx!');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('499', 'fcc483517f', '', 'thx for the update Logiqx :D');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('500', '7f3ad857f0', '', '[quote:7f3ad857f0=\"Hakkk\"]You may try this:
+http://www.megaupload.com/?d=EQ6FB3EE
+..............
+Version 0.02[/quote:7f3ad857f0]
+
+Version 0.03
+http://www.megaupload.com/?d=H3KWEDFT
+bug fixed: crash when duplicated roms are in neighbor lines.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('501', '', 'How do I download games from here?', 'Where are the zip files to download the games. Everytime I go to download them it takes me to another page. Which just gives me info on the Rom, where exaclty is the download available?');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('502', 'a2b6bdbfed', '', 'There is no game in this website. Only datafiles.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('503', '', '', 'well how do I download the data files?');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('504', '5acd3e5d88', '', 'http://www.logiqx.com/Dats/
+click the hyperlink of the datafile you want then the download page will be opened.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('505', '9784966445', 'maybe a bug?', 'hi, please check this archive:
+http://nexus3000.altervista.org/atc/archive.zip
+
+this set has 6 ROMS, divided into 2 archives.
+i mixed up the order of the lines in the romcenter file and this brings problems when i convert into CM format.
+ 
+solution? maybe alfa-sorting the RC lines before convertion.
+thanks for your tool, which i use almost daily ;)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('508', '65c73c3baa', '', 'Just so as other people can find the answer if they stumble across this thread, the original discussion was at the following URL:
+
+http://forum.logiqx.com/viewtopic.php?t=100');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('509', '6cf15ab85a', 'New to games', 'I don\'t know where I should place this post as this is my first time here.  If I am in the wrong place just boot me and I will try and find where it went.  My big reason for being here is that I am trying to get the game GORF.  I have downloaded the program for it as well as the Vortex files.  I just don\'t know where to get the &quot;ROM&quot;  I am not trying to pirate anything, I would be glad to pay for a legal ROM.  I just don\'t know how to get it.  Any help would be appreciated
+Thanks');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('506', 'b3e9d7e38a', 'Re: maybe a bug?', '[quote:b3e9d7e38a=\"xlox\"]
+this set has 6 ROMS, divided into 2 archives.
+i mixed up the order of the lines in the romcenter file and this brings problems when i convert into CM format.[/quote:b3e9d7e38a]
+
+Although RC can load correctly a dat with mixed order lines, I don\'t think it is correct to have such a malformed dat. Abusing the format, just because RC forgives it, doesn\'t mean it is good to be done so. I don\'t know if Logiqx will try to parse RC dats in the same way RC does, but IMHO it is not exactly a good idea, because it would stop encouraging people to write well formed dats. Just my 2 cents.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('507', '2ce393c72b', '', 'i partially agree if you. that\'s why i used the word &quot;maybe&quot; in title.
+in my romcenter dat i will keep the lines un-ordered because in this way i remember the latest changes. which can be a bad habit, i agree.
+
+*** [b:2ce393c72b]edit, i watched better the other threads, and it seems that the question was already posted. thanks[/b:2ce393c72b]');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('510', 'f2672ea23d', '', 'You can\'t ask for roms here, I guess you can understand why. 
+
+About obtaining a legal copy of Gorf, I don\'t think it\'s possible without buying the original PCB. IIRC it\'s not even in one of those official classic game packs like the Midway Arcade Treasures. So you\'re on your own, like everyone else.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('511', 'b5425c03b5', 'MAME 0.105 Released', 'http://mamedev.org/release.html');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('512', '8494ad473d', '', 'The front page is not dead, really. Although I spotted this in MAME/Gen instead.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('513', 'b2e3f569f1', 'MAME v0.105', 'I have released the data files related to MAME v0.105.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('514', '72816ba915', '', 'Almost two months since you last said that. I guess you enjoyed the resting :wink:');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('515', '34c9cb5731', '', 'thanks for the dats........ but seems like
+
+uni-bios 2.2 is not yet add to the neogeo 20060405 dat........');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('516', '203018954f', '', 'It seems that v2.2 is not freely available so I will respect their wishes relating to the \'terms of use\'. I\'ll just include details of the free versions so that people don\'t feel inclined to download the non-free version. ;)
+
+http://unibios.free.fr/termsofuse.html
+http://unibios.free.fr/download.html
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('517', '1d69512641', 'CAESAR Update (MAME v0.105)', 'I have updated CAESAR with the latest info from MAME.
+
+For those interested, Rave Racer (Japan-B) [rv1b] in Viva Nonno has appeared in MAME v0.105 as Rave Racer (Rev. RV1 Ver.B, Japan) [raveracj]
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('518', 'aeb52b0c38', 'can i edit list of the games in kawaks v 1.55 (games list) ?', 'can i edit list of the games in kawaks v 1.55 (games list) ?
+
+anybody can help me ?
+i download tekken3 but can play this rom...');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('521', '8655baae62', 'Both Links had expired', 'Hakkk, Where I can get the tool? 
+
+Both links had expired &quot;This file has expired due to inactivity.&quot;
+
+Regards,
+
+eratos');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('520', '2d0ee97803', '', 'The short answer is that you can\'t alter the list of the games in Kawaks.
+
+Tekken 3 is not a game which would be supported by Kawaks anyway, as Kawaks only supports CPS1/2 and NeoGeo games. Try Tekken3 with MAME or ZiNc.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('522', '00a8a56b83', '', 'try [url]http://hakkk.go.8866.org[/url]');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('523', '50bb8260d6', 'ClrMamePro Dats?', 'ClrMamePro is use for what ?
+i have created dat files then..... ?
+how can i use it ?');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('524', '2072391ff3', '', 'CMPro comes with pretty good documentation, and you have an excellent tutorial at &lt;a&gt;EasyEmu&lt;/a&gt;. I suggest you to check those sources first.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('535', '253429a6a5', 'My favorite arcade game', 'I don\'t view this forum, etc. but I [u:253429a6a5]did[/u:253429a6a5] view this forum, and I am not a spammer.  So rather than get deleted and labeled a evil spambot:
+
+My favorite arcade game is:
+Anything playable in MAME!!!!
+
+(I don\'t have a favorite)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('533', '7e647ca3d4', '', 'This one is better :
+http://www.phpbb.com/phpBB/viewtopic.php?t=349668
+ ;)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('534', '7629b8eed2', '', 'it was the right thing to do Logiqx. :)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('529', '94a1a66be5', 'IMPORTANT - Save Your Login!', 'Due to the number of logins that have been created by spambots I would like to have a bit of a tidy up. In order to avoid your login being deleted, please do the following:
+
+1) If you have not yet posted to this forum then add a reply to this post, simply naming your favorite arcade game.
+
+2) Try to ensure that you are logged in when you visit the board and then you will have new posts highlighted and I will be able to see that your account is active. Be aware that phpBB updates tend to result in people being logged off (i.e. the cookies become invalid). In future, I will post announcements when the phpBB software has been upgraded so that you know to log back in again.
+
+In about four to six weeks time I will delete logins that have no posts against them and that haven\'t been used this year.
+
+Sorry for any inconvenience. Blame the spammers.  :x 
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('532', 'ff552964af', '', 'To be more protect from that kind of attack, you must update your phpBB forum, last version is 2.0.20.
+Also try this excelent module : [url=http://sourceforge.net/project/showfiles.php?group_id=154972]CrackerTracker[/url], it will protect you very well !!');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('530', '25b82ec00a', '', 'Support.  :!:');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('531', 'ea2b660c8a', '', 'Respect.  8)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('536', 'a70daecfdd', '', 'Pon,
+
+my fav game .... 
+impossible to decide for sure...
+Uo Poko ? Sokonuke taisen... OutZone... Golden axe... afterburner...
+(shit, can\'t stop my mind now :p)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('537', 'cadc1eb312', '', 'OK, [i:cadc1eb312]amigo[/i:cadc1eb312] Logiqx.
+
+These busy days my favorite games are:
+Arcade: Pac-Man.
+ZX-Spectrum: Sacred Armor of Antiriad.
+MSX: Penguin Wars 2.
+
+Thanks.  :D');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('538', '3d611f7f7a', '', '[quote=&quot;Blubibulga&quot;]To be more protect from that kind of attack, you must update your phpBB forum, last version is 2.0.20.
+Also try this excelent module : [url=http://sourceforge.net/project/showfiles.php?group_id=154972]CrackerTracker[/url], it will protect you very well !![/quote]
+
+I\'m always on the latest version of phpBB and recently installed KittenAuth. Log out and see what happens when you try to register (instead of the standard visual confirmation that can be defeated by bots). I therefore don\'t think that spambots will be registering in the near future.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('539', 'bb83fcf74f', '', 'Thanks. I\'ll look at it later this week.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('540', 'a41fdc2113', '', 'Hmm... favorite arcade game....
+
+Here\'s a short list:
+
+The old X-men split screen
+Phoenix
+Donkey Kong
+Xenophobe');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('541', '821b5d4c45', '', 'Good system of identifying spambots! :D
+
+Well, then
+
+Bubble Bobble');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('542', '36e2aa760f', 'Which settings  to use in mamediff', 'Sorry for a newbie question, but don´t find the answer anywhere.
+My wish is - I want folder only containing roms for winkawaks.
+Unique roms, don´t bother if name is 100% correct.
+
+I use this setting in mamediff
+---------------------------------------
+mamediff -s -d3 mame105.dat winkawaks155.dat
+----------------------------------------
+And yes it generates a dat.
+If I use this dat on mame I think it should show nothing.
+But if I scan the folder mame it shows up with -
+Missing Sets: 25 of 452 
+Missing Roms: 568 of 7024
+
+I wish it will be
+Missing Sets: 452 of 452 
+Missing Roms: 7024 of 7024
+
+Are my settings wrong ?, have also tried -d1, -d2 , -d4 with same result.
+
+I have find a answer that works, let clrmame with mamedat105 loaded rebuild itselfs from a folder with full winkawaks, and remove recogniosed roms.
+But thats a waste with time and HD.
+
+Have a nice play');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('543', '82fcd62d6d', '', 'I have made a number of observations:
+
+1) The fact that your scan reports 452 sets means that you are using the full Kawaks dat rather than the supplement (which should be about 50 games).
+
+2) Your aim of \'Missing Sets: 452 of 452\' is flawed. It is possible that the supplement will contain games of the same name as games in MAME but different ROMs. Such games will not be missing as far as CMPro is concerned but that does not mean that the generated dat is bad, it means the same game names in MAME and Kawaks but different ROMs.
+
+3) You will probably find that -m (rather than -s) will reduce the number of ROMs in the supplement (since clones with identical ROMs [but not shared with the parent] will not both be listed twice).
+
+4) You should use -d4 to get closer to unique ROMs than -d1/-d2/-d3 (which are \'compatibility\' modes that produce playable ROMs).
+
+Personally I don\'t really see the point in incompatible ROM supplements (\'mamediff -d4\', or special \'unique\' dats). They aren\'t much smaller than the \'compatible\' supplements that already save a significant amount of space compared to full sets. Since non-compatible sets can\'t be played directly, they are more wasteful of disk than a supplement containing duplicated ROMs (which are playable) imho. Ok, maybe the 700MB Kawaks supplement will reduce to 500MB when made unique (I don\'t know, I have not tried) but imo that 500MB is pretty useless if not directly playable... unless you don\'t mind rebuilding full sets every time you want to play a game. ;)
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('544', '6e94205044', 'MAME v0.106', 'MAME v0.106 was released last night. I have now uploaded the required data files to logiqx.com.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('545', '83ec7fc30a', 'Thanks', 'Thanks
+
+The -m switch works much better....(hm have always thought that -s(splitted are smaller  ??)
+
+But very happy now..
+
+Now its difficult, but a future guide with a few exampel how
+mamediff works with the 4 switches -d1-d4 maybe could be fine.
+
+Exampel -s -d3 dat1 dat2 = if different sets/romname but same crc, which name in dat 
+
+And maybe GUI :-)
+
+Have a nice play');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('546', '9062415264', 'Re: Thanks', '[quote:9062415264=\"Highwayman\"]
+Now its difficult, but a future guide with a few exampel how
+mamediff works with the 4 switches -d1-d4 maybe could be fine.
+[/quote:9062415264]
+
+I think that the explanation which comes in the MameDiff documentation is good enough  8)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('547', 'dc6fec3c25', 'CAESAR Update (MAME v0.106)', 'I\'ve updated CAESAR for MAME v0.106.
+
+It shouldn\'t have been anything difficult, had I not discovered a weird bug in the code that checks for errors in my game mappings (relationships between games in different emulators).');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('548', '4a1e6d11e4', '', 'Does it affect other mappings? In other words, did you have to update all the game mappings for all the emulators against MAME\'s?');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('549', 'f8fd2d54ce', '', 'I use an automated process to change the mappings, which worked fine. There was only one game mapping that actually needed a change for MAME v0.106.
+
+After the mapping changes, I use a tool that reports potential errors in the mappings and the output should match the previous run (i.e. the last CAESAR update). However, this time it didn\'t match because the internal ROM indexes of the tool were broken. Seemed weird to suddenly happen with MAME v0.106 but in reality the bug has been there for some time and only avoided through sheer luck.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('550', '4493a8390f', 'Last experiment', 'Last experiment for getting a folder with only kawaks roms
+
+For reference I let clrmame with kawaks loaded, rebuild as much as possible from a full mame 106 set to a new folder. 
+To a second folder I manually added missing roms to make the two folders complete.
+The folder containing 24 roms = 269 meg
+
+And with mamediff
+-----------------
+mamediff -m -d3 mame106full.dat winkawaks155full.dat
+(Only -m -d3 works)
+Fill a folder with the roms from the dat
+
+Many roms now have wrong names, misplaced e.t.c
+So load clrmame again with kawaks, make sure clrmames backupfolder is empty. Tick every box and let it scan and fix
+
+Almost perfect result   27 roms 272 meg ....splendid
+
+N.B N.B N.B
+As Site Adnim says before ..this is not very good soolution, many games are now not playable, roms containing same name are in both folders. 
+You must rebuild the two folder to make a working set.
+
+But my goal was to have a folder with ONLY unique roms from kawaks. (To the archive:-)
+
+Many thanks again for all the help..
+
+Have a nice play
+
+End of experiment - eol');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('551', 'c3ec07112f', '', 'What do you mean by \'(Only -m -d3 works)\'? What happens for -m -d4? It should be the same or smaller.
+
+I\'m wondering if you\'ve encountered the same DatLib bug as I did when updating CAESAR last night. MAME v0.106 broke Datlib\'s ROM CRC index and you may be suffering from it.
+
+If you run your \'mame106full.dat\' through DatUtil and then use that in MAMEDiff, the bug won\'t affect you and will confirm if my thoughts are correct (since the DatLib bug only occurs with raw MAME output, not a previously cleansed dat).
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('552', 'ebf44a80e1', 'Typo', 'Typo from me -d4 should it be....sorry
+
+-m -d4
+
+works perfect');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('553', 'beeed772e5', '[DatUtil] Remove some game from mame game list', 'Hi,
+
+I would like create datfile with all parent game with year between 1980 and 1990.
+Is it possible to do this ? How ?
+
+Thank a lot,
+
+Best regards.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('554', 'caff6b3286', 'Help with .CHD\'s', 'Sup people, I\'m new to the whole the whole RomCenter and CLRmame stuff, but I\'m learning pretty quickly....I needed some help and hope this is in the right place,
+
+I wonder if theres a program that will let you audit your CHD roms just like RomCenter will help you audit and keep your MAME roms correct....any body know of one?  I thought I had correct .chd roms for mame .106 but it\'s not recognizing ANY of them.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('555', '0120117635', '', 'You should redo that question at the BYOAC boards, specifically the software board:
+[url]http://forum.arcadecontrols.com/index.php?board=3.0#top[/url]
+
+Someone there solved a similar thing recently. And there are a couple of game list makers out there which allow you to filter by year and stuff like that. Once you have a gamelist, you can then feed it to DatUtil, and make a dat with only those games. Consult the DatUtil documentation for that. But first, make the gamelist. I think the MaLa frontend creator also has something for that. Good luck.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('556', '472964f11e', 'Re: Help with .CHD\'s', '[quote:472964f11e=\"egg64\"]I wonder if theres a program that will let you audit your CHD roms just like RomCenter will help you audit and keep your MAME roms correct....any body know of one?  I thought I had correct .chd roms for mame .106 but it\'s not recognizing ANY of them.[/quote:472964f11e]
+
+I use [url=http://www.clrmame.com]ClearMAME Pro[/url] to audit both my ROMs and CHDs as it uses the output directly from the MAME executable.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('557', 'c6cbf03a89', 'Quest for the lost Horizontal Shooter', 'Hello there,
+
+Here\'s my problem; I used to play this game a lot, during one of my summer vacations. It was in 1991, and I was 11 years old, so I don\'t recall the name of the game... :(
+My guess is, the game was launched somewhere between 1988 and 1991...
+I\'ll tell you what I remember from the game, and if any of you match my memories with a game you know, please let me know. :)
+
+The game resembles a lot like E.D.F. Earth Defense Force, When I first saw the screenshots of E.D.F. , I even thought it was the game I was looking for, but it\'s somewhat different.
+Like E.D.F. , the game type is an Horizontal Shooter, and you flew a plane (or an helicopter, don\'t recall exactly...). I don\'t remember if the plane fired missiles or cannon rounds as the main weapon; but unlike E.D.F., you could catch some powerups that gave you bombs and other secondary weapons. These secondary weapons were limited in number, so you couldn\'t spam the entire area, once you got them.
+The map layout is as follows (as much as I can remember):
+
+1st Level - You start in a city, you destroy some planes, tanks, etc etc. And you end up fighting a super tank.
+2nd or 3rd Level - This one was in the jungle. I remeber seeing a lot of annoying red planes. I think I died a lot to them. The boss of this level was a giant plane.
+
+The rest of the levels are pretty vague in my head. I remeber that later on you fought over a sea. And you had to destroy a super-battleship. I also remember a level with a lot of bio-organic foes...
+
+Well, if anyone knows what game this is, please tell me! :)
+
+
+If no one knows what game it is, I would ask for someone to give me a list with ALL the horizontal shooters developed to date, along with their release years. I\'m asking this, because CAESAR\'s game search engine doesn\'t allow for a &quot;Game Type&quot; search.
+
+Thanks! :D 
+
+HectorSmarties');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('558', 'acc0aa4a3f', '', 'Well, CAESAR is more about the emulators, and less about adding the smallest info about the games. However, &lt;a&gt;MAWS.&lt;/a&gt; adds a lot of external game information about games, and allows you to search for games by genre or category.
+
+I\'d still repost this message at the &lt;a&gt;MameChat board&lt;/a&gt; at Mameworld.info, there\'s a lot of knowledgeable people there who play &quot;name that game&quot; constantly. If you don\'t have luck there, you can try a manual search at MAWS.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('559', 'a6937b43b3', 'Adult games for MAME', 'Hello,
+maybe somebody can write here all known adults games titles for MAME.
+I can\'t find few, which i played for real coins long ago...  :wink:');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('560', '3975785f06', '', 'You can browse [url=http://www.mameworld.net/maws/]MAWS[/url] by category, look for &quot;mature&quot; in the category name.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('561', '148439d429', 'Noob questions', 'Hi, I\'m new on the forum and have a few questions concerning playing old school games on a windows based pc. I want to play kung-fu master 
+http://caesar.logiqx.com/php/emulator_game.php?id=mame&amp;game=kungfub is the link to the game. The emulator is mame (whatever that means   :oops: ) What do i have to do to get the game installed on my pc. I\'m thinking i have to download mame first ??
+
+thnx for you patience
+
+grtz
+Ronin');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('562', '2f410f58dc', '', 'ok i managed to dl mame 32 but none of the game in the list work...');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('563', '7d0f12b6dd', '', 'I would suggest you grab yourself a beer and take some time to read the EasyEmu guide to MAME:
+
+http://www.mameworld.net/easyemu/
+
+All of your questions will be answered within it.
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('564', 'cb13c22302', '', ':lol:  thnx it works perfectly');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('565', '070ee7f9fc', 'creating differential mame archives for backup purposes', 'I\'m trying to create mame rom update archives for each version.
+
+I\'m thinking that I need to create my update.dat like this...
+
+mamediff -m -d2 listxml.079 listxml.080
+
+Is this correct? or should I be using -d4?
+
+What about -b?
+
+I want the minimum roms necessary so I can use the CLRMAME rebuilder to create a complete MAME80 set from a complete MAME79 set.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('566', '065edd06fc', '', 'You definitely want -d4. -b is of no use for your purposes, as it would (I think) add the bios as non-separated roms. I\'d say that the smallest dat for archival would be achieved with -m -d4 and no extra parameters.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('567', '7d504b0737', '', 'how about the -r switch?
+
+I know that MAME supports CRCs so, technically, it\'s not needed, but would it hurt anything to have the dat rename old roms to the new names?');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('568', '6e69ad231b', '', '-r -b and -z all add ROMs that would ordinarily not appear in the output. If you want the minimum number of ROMs in your backups, don\'t use these options. As Pi said, -m -d4 will create the smallest set.
+
+Rebuilding using the -d4 option is rather painful though (since the only way to do it is with a full rebuild). The -d1 to -d3 options allow you to rebuild just the new ROMs into an existing MAME set.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('569', 'c8c3df5dc5', 'Thank you for nice DATs!', 'dear Logix
+
+Thank you for nice DATs,every time!
+I always use Romcener\'s DATs,it\'s very useful!
+
+But I can\'t find DATs of MESS.
+
+Is there plan which support MESS DAT?
+ :D');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('570', '257bd228b1', '', '[quote:257bd228b1=\"Logiqx\"]
+Rebuilding using the -d4 option is rather painful though (since the only way to do it is with a full rebuild). The -d1 to -d3 options allow you to rebuild just the new ROMs into an existing MAME set.[/quote:257bd228b1]
+
+I\'m ok with a full rebuild.  My goal is purely archiving.  I\'ve got about 70GB of updates for every version (including u releases) from 79 to present and I just want to archive off the minimal update sets for the major versions and blow away the rest.
+
+I remember reading in one of threads here (I can\'t find it anymore) that someone created a tool that you can that run on a mamediff.dat to remove duplicate roms that might appear in multiple sets.  Is that tool made obsolete by the -d4 switch?  If not, does anyone remember what the tool is called and where to get it?');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('571', '5a2d974269', '', '[quote:5a2d974269=\"krick\"]
+......
+I remember reading in one of threads here (I can\'t find it anymore) that someone created a tool that you can that run on a mamediff.dat to remove duplicate roms that might appear in multiple sets.  Is that tool made obsolete by the -d4 switch?  If not, does anyone remember what the tool is called and where to get it?[/quote:5a2d974269]
+
+difdatsm.exe, in [url]http://hakkk.8866.org/sof/difdatsm.htm[/url]
+It is only a de-duplicated tool, but cannot make diff data between different releases of mame.
+-d4 is still needed to generate diff data. Then run difdatsm can make it smaller.
+If find any bugs, please tell me.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('572', '1fe3fc5079', '', '[quote:1fe3fc5079]If find any bugs, please tell me.[/quote:1fe3fc5079]
+
+I found a bug.
+
+I generated this diff with mamediff -m -4d using listxml files from official non-optimized mame 0.91 and 0.92...
+
+http://mame.3feetunder.com/mameworld/mamediff_091-092.zip
+
+When I try to run difdatsm on it, it gets stuck in a loop somewhere and never finishes.  I have to &quot;CTRL-C&quot; to break out of difdatsm.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('573', '265b1666c7', '', 'I don\'t use MESS myself, hence the reason why I don\'t make datafiles for it.
+
+You can create your own MESS datafile using DatUtil, or alternatively it may be possible to trick RomCenter into importing the data (using the MAME import, I have never tried).');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('574', '5c9c049681', '', 'I should mention that you might do better by doing rollbacks from current sets instead of updates from an arbitrary old version. Seems more logical and practical to me.
+
+Also, I would just rebuild the diffs and use some kind of duplicate detector to remove the repeated roms, not only between sets in a diff, but also between diffs.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('575', 'f7569fe24c', '', '[quote:f7569fe24c]I should mention that you might do better by doing rollbacks from current sets instead of updates from an arbitrary old version. Seems more logical and practical to me.
+[/quote:f7569fe24c]
+
+Oh, I know.  I just arbitrarily picked 0.79 out of my ass for my initial post because that\'s what I was messing with at the time.  Ultimately, I\'d like to put together a base set for MAME 0.36, then have a single update pack that takes me to 0.53, then one for each major version forward to the present.
+
+The whole CHD situation is another matter entirely that I think I\'ll just avoid for the moment.  lol');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('576', '11da6eec39', '', '[quote:11da6eec39]I found a bug.
+
+I generated this diff with mamediff -m -4d using listxml files from official non-optimized mame 0.91 and 0.92...
+
+http://mame.3feetunder.com/mameworld/mamediff_091-092.zip
+
+When I try to run difdatsm on it, it gets stuck in a loop somewhere and never finishes.  I have to &quot;CTRL-C&quot; to break out of difdatsm.[/quote:11da6eec39]
+
+thanks, I will see it this afternoon.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('577', '00010735ea', '', '[quote:00010735ea]
+
+thanks, I will see it this afternoon.
+
+[/quote:00010735ea]
+
+I found another dat that hangs difdatsm ...
+
+http://mame.3feetunder.com/mameworld/mamediff_074-075.zip');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('578', '477cbe597f', '', '[quote:477cbe597f]
+I found another dat that hangs difdatsm ...
+http://mame.3feetunder.com/mameworld/mamediff_074-075.zip[/quote:477cbe597f]
+Fixed. That\'s an error caused by missing a pair of {} in a series of &quot;if .. else ...&quot;  -_-
+I have done ver0.04 for further testing. Thanks.
+[url]http://hakkk.8866.org/sof/difdatsm.htm[/url]');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('579', '318f73f1a0', '', '[quote:318f73f1a0]
+
+Fixed. That\'s an error caused by missing a pair of {} in a series of &quot;if .. else ...&quot;  -_-
+
+[/quote:318f73f1a0]
+
+D\'oh!
+
+That\'s why experienced programmers *ALWAYS* use {} even when there is only one statement.  ;)  
+
+if {
+  // do something
+}
+else {
+  // do something else
+}
+
+I know that it &quot;wastes space&quot;, and when I first started programming, I always left them out too.  But after I got bitten badly a few times, I started always putting them in.  It\'s especially important in production code where other less experienced programmers will be maintaining your code.  They might insert a statement without remembering to add the now necessary braces.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('580', 'f096050c06', '', '[quote:f096050c06=\"Blubibulga\"]This one is better :
+http://www.phpbb.com/phpBB/viewtopic.php?t=349668
+ ;)[/quote:f096050c06]
+
+I have installed the above mentioned RSS module now.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('581', '776e4cca1e', 'phpBB 2.0.21', 'I have upgraded the forum to phpBB 2.0.21.
+
+Note: This upgrade has fixed the problem that has been occuring with quotes recently. 
+
+However, you will probably find that you have been logged out and will need to log back in again!');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('582', 'f0c877d1da', 'DatUtil v2.28, MAMEDiff v2.25', 'Changes:
+
+- Uses DatLib v2.16.
+- Fixed bug that messed up internal indices (affected crc matching)
+- More intelligent directory scanner (regarding samples and CHDs)
+- Removed 64MB file limit from directory scanner (reads 1MB blocks)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('583', 'f80ba1e1ee', 'DatLib v2.16', 'Changes:
+
+- Fixed bug that messed up internal indices (affected crc matching)
+- More intelligent directory scanner (regarding samples and CHDs)
+- Removed 64MB file limit from directory scanner (reads 1MB blocks)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('584', '43a8c17484', 'ROMInfo v2.7 and ZIPIdent v2.8', 'Changes:
+
+- Uses DatLib v2.16.
+- Fixed bug that messed up internal indices (affected crc matching)
+
+Note: It was highly unlikely that the bug would ever occur in these tools but I have released the fix nonetheless.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('586', '1671e3b8ec', '', 'After installing this, the dates were screwed in my news reader.
+
+I have therefore changed the date format in phpBB. The RSS output should be ok now although any cached RSS data will still contain the errors (day of the month being used as the year).');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('587', '49cb404231', '', 'Hi.
+
+I tryed making Romcenter\'s DAT of MESS.
+But I encountered one problem.
+
+Following Roms respectively have same name,
+and each roms have different CRC.
+--------------------------------
+apple2c-a2c.256(c8b979b3)
+apple2c-a2c.256(bc5a79ff)
+famicom-disksys.rom(5e607dcf)
+famicom-disksys.rom(4df24a6c)
+--------------------------------
+
+Is this phenomenon the cause of MESS itself,
+or datutil?
+(MESS\'s ver 0.106,Datutil is equiped Romcenter ver 2.71)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('588', '362ef6e14a', '', 'That will be the fault of MESS.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('589', '8f39c3be62', 'DatLib v2.17', 'Changes:
+
+- Fixed bug that caused the DatUtil -g and -r options to crash');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('590', 'e2d4359588', 'DatUtil v2.29', 'Changes:
+
+- Uses DatLib v2.17.
+- Fixed bug that caused the DatUtil -g and -r options to crash');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('591', 'e10ef7c65e', 'specifying the output filename', 'Is there a way to specify the output filename from the command line?
+
+If not, can this be added as a possible future enhancement?
+
+Truthfully, I\'d prefer if it just dumped the output to standard out (and the diagnostics to standard err or something) so that I could do something like this...
+
+
+mamediff 105.xml 106.xml &gt; 105-106.dat
+
+You could probably just add a command line switch that silences the diagnostics and redirects the output to standard out.  That way, the current behaviour wouldn\'t change.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('592', '230c925b76', '', 'I don\'t think that stdout is really appropriate because there are always two output files from MAMEDiff (the dat or out [depending on the mode of operation], plus the log). Seeing the summary is also very useful when running MAMEDiff manually.
+
+I suppose that I could add an option to specify the base name of the output files (rather than using \'mamediff\') but I\'ve not considered a need for it until now. I never use a MAMEDiff dats directly... I always feed them through DatUtil to add the CMPro header information. To me the mamediff output is therefore an intermediate file and the name has therfore been unimportant as it gets deleted after the DatUtil operation (everything done via batch scripts).
+
+I\'ll add an option to change the output filenames next time I update MAMEDiff.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('593', '8af3be8512', '', 'Adding a switch that silences the diagnostics and redirects the output to standard out would probably be the best solution...
+
+mamediff -u 105.xml 106.xml &gt; 105-106.dat');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('594', '89492604c5', '', 'If my opinion is worth anything, I\'d say that changing the basename is enough. The log is very important to me and I always examine it. Adding yet-another-one parameter which isn\'t really needed wouldn\'t do very good to MameDiff, IMHO. Sorry, Krick  :wink:');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('595', '184da41df7', '', 'There are many reasons why I would much prefer to add an option for specifying the basename over the use of stdout:
+
+1) There are 3 outputs from MAMEDiff currently and the one that I want to see already goes to stdout.
+2) All of my tools take an input file and write output files. Using stdout is inconsistent with this and would also require extensive changes to the datlib reporting.
+3) There is no need for the dat to go to stdout. There is nothing to say that \'mamediff -u [in1] [in2] &gt;[out]\' is preferable to \'mamediff -f [out] [in1] [in2]\', it is just syntax / symantics.
+4) The dat is not meant for the human eye... it is data. I would not suggest that LAME encoder (WAV-&gt;MP3) output to stdout so that I can use the \'&gt;\' syntax. Data in is converted to data out... same with MAMEDiff.
+5) The output of MAMEDiff needn\'t be piped into other processes. The recipient tools/applications of MAMEDiff dats all require physical files so stdout is not required.
+
+Krick, you will get an option so that you can control where the dat goes to but it will not be via stdout. End of disussion.
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('596', '70376429b8', 'Problems using RomBuild 2.7', 'I am using Windows XP Home with SP2 and I am having problems opening RomBuild 2.7 to enter the commad line instructions. When I double click the programme, the window closes immediately before I can do anything. Is there something wrong? Am I even supposed to enter commands this way?');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('597', 'dbbc9b2e24', '', 'You don\'t run ROMBuild by double-clicking it. You need to open a \'Command Prompt\' and then enter the ROMBuild commands into that.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('598', 'b68364c896', '', 'Thanks, Logiqx, I got the programme to work now.
+
+Just wondering, but is this the right tool to use if I want to get samsh5sp.zip (Samurai Spirits 5 Special) working for winkawaks 1.55? I suspected that the rom might be too &quot;new&quot; for the emulator, so I decided to use the tool to convert the rom into an &quot;older&quot; version for kawaks.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('599', 'b98e92a369', '', 'WinKawaks only supports specific games and no tool can make it run games that it doesn\'t want to.
+
+ROMBuild just restructures MAME ROMs into a format required by other emulators. It won\'t make them play games that they don\'t support.
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('600', 'b64dc10bbc', 'MAME v0.107', 'MAME v0.107 was released earlier today. I have now uploaded the required data files to logiqx.com.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('601', '669ae04006', '', 'That was fast...  8)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('602', '3cc3f99092', 'download ki2?', 'ok so how do i download the ki2 files then? i click it and it takes me right back to the same page all the time is this site broken or something?');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('603', '034708317b', '', 'You aren\'t supposed to download roms from here, so nothing is broken. This site doesn\'t provide roms, only information about emulators and the games they support.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('604', 'ef1ebc93b9', 'Parents, clones, and others?', 'When mamediff is loaded a file, mame\'s .107 xml for example, it reports:
+
+&quot;Loaded 6187 games (1395 parents, 2845 clones, 1947 others) and 26 resources&quot;
+
+Besides the bios roms, doesn\'t every game need to be either a parent or a clone?  What are the 1947 others?
+
+I\'m sure this is an easy question, but I couldn\'t find the answer anywhere.
+
+Greg');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('605', 'cb22d650c6', '', '&quot;Others&quot; are games which aren\'t clones, and aren\'t the parents of any clone. Take it as a &quot;parent without clones&quot;. I still call them parents anyway.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('606', '8505a3086a', 'Kawaks v1.56', 'I have uploaded data files to logiqx.com and updated CAESAR accordingly.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('607', '8190f2ad5c', '', 'Now version 0.05
+
+[url]http://hakkk.go.8866.org[/url]
+
+20 Aug 2006   v0.05
+
+    -Feature: Show ASCII progress bars in command window.
+
+    -Feature: Show cleaning progress in command window.
+
+    -Feature: Show amount of lines of data file in each step.
+
+    -Feature: Do not generate new data file if no change needed.
+
+    -Fix: Statistic error of de-duplicating progress.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('608', '5e4d9ff052', '', 'The naming of parents/clones/others was basically to be consistent with CMPro.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('609', 'af34d5d5e6', 'First Soviet Arcade in MAME 0.108!!!', 'Konek-Gorbunok [Eugene Sandulenko]
+
+hardware description (only in Russian):
+http://ru.wikipedia.org/wiki/&#1058;&#1048;&#1040;-&#1052;&#1062;-1
+
+another HLE emulator of this arcade:
+TIA-MC Emulator v0.1 by Shiru
+
+Official thread of emulation this hardware (Only in Russian):
+http://forum.romov.net/viewtopic.php?t=15127&amp;postdays=0&amp;postorder=asc&amp;start=0&amp;sid=ddc229acc856739f190afb041df3e27f 
+
+Game based on fairy tale poetry of P.P. Ershov &quot;Konek-Gorbunok&quot;
+Main Characters are small horse (Konek-gorbunok) and russian pal Ivan.
+Tsar (king) send their for zhar-pticta (phenix), for money and for tsarevna (princess). You can see that in the game.
+
+Original story (Only in Russian):
+http://www.lib.ru/LITRA/ERSHOW/konek.txt');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('610', '166f301273', 'MAME v0.108', 'All of the usual updates have been uploaded to logiqx.com');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('611', '5c31511b21', '', 'sega model 2 emulator just release a new version (ver. 0.3). I think the dat you upload (for that emulater) is not up to date........');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('612', 'cc47151f5c', '', 'The update is logged in the frontpage, and Logiqx will update the dats when he can.
+
+
+ 8)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('614', '1cf4d40ca1', 'RAINE v0.43.4 and SEGA Model 2 Emulator v0.3', 'I have released data files for RAINE v0.43.4 and SEGA Model 2 Emulator v0.3.
+
+Available from the main page at logiqx.com');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('613', '6cb1633f0b', '', 'It probably won\'t be until next week when I get to update that but I will do it as soon as I can. At first glance I can see a couple of game additions but since it is so long since the last release, I also need to check that the existing games haven\'t been changed.
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('615', '1951e3ccc6', '', 'thx Hakkk :wink:');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('616', 'd90a6d6bba', 'Re: RAINE v0.43.4 and SEGA Model 2 Emulator v0.3', '[quote:d90a6d6bba=\"Logiqx\"]I have released data files for RAINE v0.43.4 and SEGA Model 2 Emulator v0.3.
+
+Available from the main page at logiqx.com[/quote:d90a6d6bba]
+
+I get a &quot;404 page not found&quot; error when I click on either the ClrMAME Pro or RomCenter Dat links for the SEGA Model 2 Emulator.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('617', '17326d4aab', '', 'I\'ve fixed it. The links said &quot;SEGA...&quot; in uppercase, but the files were named &quot;Sega...&quot; Try it now, should work properly.
+
+OMG, Logiqx commited an error :shock: The end of the world is nigh...');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('618', 'e175ca9339', '', 'I must need a holiday. ;)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('619', '83a353fe8d', 'Parent-clone associations', 'Hi Logiqx.
+
+I\'m building a DAT for the Nintendo Game Boy Advance system in a parent-clone fashion. Some ROMs contain two or even three of previously released games, I mean, those ROMs are &quot;game packs&quot;.
+
+My intention is to show those game packs ROMs as being clones of each of the games they contain. Here\'s an example in &quot;tree format&quot; and the current entries in my DAT:
+
+[code:1:83a353fe8d]
+0228 - Columns Crown &#40;E&#41;
+   2225 - 2 Games in 1 - Columns Crown + Chu Chu Rocket! &#40;E&#41; &#40;Eng+M5&#41;
+
+0316 - Chu Chu Rocket! &#40;E&#41; &#40;M5&#41;
+   2225 - 2 Games in 1 - Columns Crown + Chu Chu Rocket! &#40;E&#41; &#40;Eng+M5&#41;
+
+
+¬0228 - Columns Crown &#40;E&#41;¬0228 - Columns Crown &#40;E&#41;¬0228 - Columns Crown &#40;E&#41;¬0228 - Columns Crown &#40;E&#41;¬0228 - Columns Crown &#40;E&#41;.gba¬330a0975¬8388608¬¬¬
+¬0228 - Columns Crown &#40;E&#41;¬0228 - Columns Crown &#40;E&#41;¬2225 - 2 Games in 1 - Columns Crown + Chu Chu Rocket! &#40;E&#41; &#40;Eng+M5&#41;¬2225 - 2 Games in 1 - Columns Crown + Chu Chu Rocket! &#40;E&#41; &#40;Eng+M5&#41;¬2225 - 2 Games in 1 - Columns Crown + Chu Chu Rocket! &#40;E&#41; &#40;Eng+M5&#41;.gba¬0beaa2f4¬16777216¬0228 - Columns Crown &#40;E&#41;¬¬
+
+¬0316 - Chu Chu Rocket! &#40;E&#41; &#40;M5&#41;¬0316 - Chu Chu Rocket! &#40;E&#41; &#40;M5&#41;¬0316 - Chu Chu Rocket! &#40;E&#41; &#40;M5&#41;¬0316 - Chu Chu Rocket! &#40;E&#41; &#40;M5&#41;¬0316 - Chu Chu Rocket! &#40;E&#41; &#40;M5&#41;.gba¬8ab607c0¬4194304¬¬¬
+¬0316 - Chu Chu Rocket! &#40;E&#41; &#40;M5&#41;¬0316 - Chu Chu Rocket! &#40;E&#41; &#40;M5&#41;¬2225 - 2 Games in 1 - Columns Crown + Chu Chu Rocket! &#40;E&#41; &#40;Eng+M5&#41;¬2225 - 2 Games in 1 - Columns Crown + Chu Chu Rocket! &#40;E&#41; &#40;Eng+M5&#41;¬2225 - 2 Games in 1 - Columns Crown + Chu Chu Rocket! &#40;E&#41; &#40;Eng+M5&#41;.gba¬0beaa2f4¬16777216¬0316 - Chu Chu Rocket! &#40;E&#41; &#40;M5&#41;¬¬
+[/code:1:83a353fe8d]
+
+The problem is: RomCenter shows the game pack in this example as being the clone of only one of the games (the first occurrence in the DAT, Columns Crown in the example), but that clone is ommited for the following parent.
+
+It seems RomCenter doesn\'t allow a game being the clone of two (or more) different parents.
+
+Could you suggest a workaround for this, if this is possible?
+
+Thanks in advance.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('620', 'e56366159f', '', 'The problem is that you\'re declaring a game twice, with the same name but different characteristics (in this case just the parent). It\'s not possible in RomCenter, ClrMamePro, or any rom manager I know about. Simply there\'s no way to have the same clone for two parents, because that means a duplicated game, and no rom manager will allow that.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('621', 'b2ac2058ef', '', 'Understood. Thank you Pi.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('622', '31fbc7a578', 'Doubt regarding MAME32', 'Hello,
+
+I have MAME32 installed in my PC, and although it is possible to use ClrMamePro for MAME, I was wondering if you are able to use it as well for MAME32 without any problem, and if so, if there is any special DAT I shall download, or just the normal MAME one.
+
+Thank you for your time and kindest regards.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('623', '7d63c68f3b', '', 'MAME32 is official GUI build of MAME.
+Game datas are same.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('624', 'd8a2071efa', '', 'Thank you very much for your support, and hope that when I reach home I am able to install everything in order to play Killer Instinct! =)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('625', '005252a8fa', 'MAME v0.109', 'Another MAME release. The usual updates are on the main page of logiqx.com.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('626', 'eed745e187', 'EMU-lab frontends', 'Someone has brought a couple of useful frontends to my attention.
+
+EMU-lab ([url]http://www.emulab.it/[/url]) supplies a data file editor called Dat Workshop and a MAMEDiff frontend called mamediff-FE.
+
+Anyone who likes GUIs may find these useful. I\'ve had a quick look but not used them to any extent.
+
+Don\'t be put off by the installers being in Italian, the actual frontends are in English.
+
+Logiqx');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('627', 'c9d442b949', 'Export Game Titles From Winkawaks...', 'Does anyone know if there is a way to export (as a text file) just the game titles from Winkawaks so I can use them as a description file for my webpage? Basically, I just need the game titles that exist in Only Available option.
+
+Thx.
+
+Frosty');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('628', '3e262ab018', '', 'First step is getting the game data. You can get the datfile from logiqx.com, or generate it yourself with WinKawaks, it\'s in one of the menus (can\'t remember and my emu HD fried recently so I can\'t check which one).
+
+Then you only need to pass it thru DatUtil (also available in logiqx.com) and convert the datfile to the &quot;gamelist&quot; format:
+datutil -o list.txt -f gamelist kawaks.dat
+
+That would be the command line IIRC, in any case check the DatUtil documentation, it isn\'t that complex. The resulting text file would contain only the set name and set description of each game, easily formattable in many ways.');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('629', 'edd8291bfa', 'CAESAR Update (MAME v0.109, RAINE v0.43.4, Sega Model 2 Emu)', 'Remarkable... after 3 months of laziness I have finally got around to updating CAESAR again!
+
+The display changes in MAME v0.107 required me to make some changes to DatLib and CAESAR but quite frankly, I couldn\'t be bothered! :roll: 
+
+Anyway, I managed to find the motivation last night and have now made the necessary changes. Some of the screenshots will be a bit screwy because I haven\'t yet updated the algorithms for determining the aspect ratio (e.g. Darius 2 which has 3 screens) but I\'ll do that in due course. ;)
+
+I have also updated CAESAR for the RAINE and Sega Model 2 Emulator releases (back in August).');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('630', '71cf37d9ee', 'ROMBuild v2.8', 'Only a couple of minor changes but I thought that I may as well release it:
+
+- Removed RAINE ROMs since they are now MAME compatible (v0.43.4+)
+- Updated internal ROM names to match MAME v0.109');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('631', '63b45d486e', 'DatLib v2.18', 'Changes:
+
+- More intelligent DTD creation when saving in ListXML format
+- Added support for game/display (MAME v0.107)
+- Added support for game/input/control (MAME v0.107)
+- Added support for emulator/build (MAME+MESS v0.101u4 upwards)
+- Added support for driver/savestate (MAME v0.101u1 upwards)
+- Note: The above changes affect the tab delimited format!');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('632', '398cbbb7ff', 'DatUtil v2.30', 'Changes:
+
+- Uses DatLib v2.18.
+- More intelligent DTD creation when saving in ListXML format
+- Added support for game/display (MAME v0.107)
+- Added support for game/input/control (MAME v0.107)
+- Added support for emulator/build (MAME+MESS v0.101u4 upwards)
+- Added support for driver/savestate (MAME v0.101u1 upwards)
+- Note: The above changes affect the tab delimited format!
+- Added \'delimited.sql\' as an example of loading dats into MySQL');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('633', '79aeb5bec2', '', 'I have now fixed the code that determines the aspect ratio for the snaps. It probably works better than before but is still prone to making a wrong decision for some multi-screen games. It is correct at least 9/10 times for multi-screen games though (where it has to guess whether the screens are arranged horizontally, vertically or only one screen has been snapped).
+
+For example:
+
+- http://caesar.logiqx.com/php/emulator_game.php?id=mame&amp;game=xmen6p
+- http://caesar.logiqx.com/php/emulator_game.php?id=mame&amp;game=warriorb
+- http://caesar.logiqx.com/php/emulator_game.php?id=mame&amp;game=dariuse
+
+Note: Hovering the mouse over an image will show the determined aspect ratio .
+
+I also made a change so that the large images are reduced in size (also mentioned by hovering the mouse cursor over the image):
+
+- http://caesar.logiqx.com/php/emulator_game.php?id=mame&amp;game=vfkids');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('634', 'c5b0779cf3', 'Raine &quot;Non MAME?&quot; error', 'I believe that there is an error in the data on your Raine page.
+&quot;Kingdom Grand Prix&quot; is not listed as &quot;Non MAME&quot; - but the Raine kgpe set is *not* the same as the MAME kingdmgp set (and both differs to the shippumd set of course), they have different regionalization and accordingly also different graphics.
+You can find some more information about this, including screenshots of the different title screens, here: [url]http://2012.frontnet.org/kgpe/[/url]
+
+Hope this helps make your great service even better! :)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('635', 'b33e3a199f', '', 'Thanks, I\'ve now made a note to deal with that (i.e. declare it as a third version).
+
+Logiqx
+
+p.s. I never did think that hacking the CRC was a good idea on Neill\'s part. ;)');
+INSERT INTO phpbb_posts_text (post_id, bbcode_uid, post_subject, post_text) VALUES('636', '69c6a0addd', '', 'Thanks man! Worked Awesome!
+
+I have a retro gaming network at: http://classicgames.servebeer.com you can see the progress so far.
+
+Whoops, my IT department seems to have just put up an issue on the page, guess their going to be needing some new hardware... 
+
+~JFrost :oops:');
 #
 # TABLE: phpbb_privmsgs
 #
@@ -3511,6 +4674,20 @@ INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privms
 INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('41', '2', 'Re: imgchk broken.', '81', '3', '1130799819', '43a82405', '1', '1', '1', '0');
 INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('44', '0', 'dat', '84', '3', '1132047832', '5068a583', '0', '0', '0', '0');
 INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('43', '2', 'Re: imgchk broken.', '3', '81', '1130800226', '5682290e', '1', '1', '1', '0');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('47', '0', 'animation on your signature', '93', '34', '1137752693', 'a4290b36', '1', '1', '1', '0');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('48', '2', 'animation on your signature', '93', '34', '1137752693', 'a4290b36', '1', '1', '1', '0');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('49', '0', 'Re: animation on your signature', '34', '93', '1137753064', 'a66f40b0', '1', '1', '1', '1');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('50', '2', 'Re: animation on your signature', '34', '93', '1137753064', 'a66f40b0', '1', '1', '1', '1');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('51', '0', 'Supporting Caesar', '97', '3', '1140610621', '510ac7f7', '1', '1', '1', '0');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('52', '2', 'Supporting Caesar', '97', '3', '1140610621', '510ac7f7', '1', '1', '1', '0');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('53', '0', 'Request profile webpage change', '103', '3', '1142831944', '456e027c', '1', '1', '1', '0');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('54', '0', 'Request to change author profile webpage', '103', '4', '1142832069', '456e027c', '1', '1', '1', '0');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('55', '2', 'Request to change author profile webpage', '103', '4', '1142832069', '456e027c', '1', '1', '1', '0');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('56', '0', 'Re: Request to change author profile webpage', '4', '103', '1142849311', '53d5305f', '1', '1', '1', '0');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('57', '2', 'Re: Request to change author profile webpage', '4', '103', '1142849311', '53d5305f', '1', '1', '1', '0');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('58', '2', 'Request profile webpage change', '103', '3', '1142831944', '456e027c', '1', '1', '1', '0');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('59', '0', 'Re: Request profile webpage change', '3', '103', '1142891343', '51810f84', '1', '1', '1', '0');
+INSERT INTO phpbb_privmsgs (privmsgs_id, privmsgs_type, privmsgs_subject, privmsgs_from_userid, privmsgs_to_userid, privmsgs_date, privmsgs_ip, privmsgs_enable_bbcode, privmsgs_enable_html, privmsgs_enable_smilies, privmsgs_attach_sig) VALUES('60', '2', 'Re: Request profile webpage change', '3', '103', '1142891343', '51810f84', '1', '1', '1', '0');
 #
 # TABLE: phpbb_privmsgs_text
 #
@@ -3781,6 +4958,214 @@ INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs
 INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('44', '', 'i need a dat for RC for the mame special 102 but thr romcenter don\'t create it');
 INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('43', 'dad0e4fedb', 'Thanks for letting me know.');
 INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('46', '2ddce56fb7', 'http://www.romcenter.com/forum/viewtopic.php?t=1383');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('47', '00d84dc376', 'hi there Hakkk, where did you get that animation on your signature? i had 2 others from the same artist a long time ago, it\'s very well animated.
+
+tia');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('48', '00d84dc376', 'hi there Hakkk, where did you get that animation on your signature? i had 2 others from the same artist a long time ago, it\'s very well animated.
+
+tia');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('49', 'b25ec6e2c8', 'Well, in fact I cannot remember that. I found it 5 years ago. Sorry:)');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('50', 'b25ec6e2c8', 'Well, in fact I cannot remember that. I found it 5 years ago. Sorry:)');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('51', '63c7b75052', 'Hi Logiqx,
+
+Gerald Siegel from Lik-Sang.com here. Since it\'s a while that we last talked, I just wanted to check up on you and  see how you are doing. As we are carry lots of exciting stuff that\'s Emulation related, like special, collectible controllers and adapters to hook up original controllers of classic systems like the Super Nintendo to PC/MAC, I wondered if you\'d be interested to work with us more in terms of our Affiliation program.
+
+For example, we have a product box banner for the Super SmartJoy Adapter, that provides a strong revenue stream for many of our sponsored sites in the ROM and Emulation field through earning commission with us. The Super SmartJoy lets you use SNES Controllers on your PC/Mac via USB. It\'s great for that perfect classic gaming feeling when playing retro titles.
+
+How does that sound? If you are interested, I\'d love to go into more detail and send you ready HTML for that mentioned small ad. Please also let me know if you have any questions about this, as I\'d love to help you out as much as possible.
+
+Could you please reply to my email-address: gerald@lik-sang.com ? Thanks much and hope to be talking to you soon again.
+
+Best regards,
+ 
+Gerald Siegel
+------------------------
+Lik-Sang.com - Alternative Gaming Community
+Pacific Game Technology (Holding) Limited');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('52', '63c7b75052', 'Hi Logiqx,
+
+Gerald Siegel from Lik-Sang.com here. Since it\'s a while that we last talked, I just wanted to check up on you and  see how you are doing. As we are carry lots of exciting stuff that\'s Emulation related, like special, collectible controllers and adapters to hook up original controllers of classic systems like the Super Nintendo to PC/MAC, I wondered if you\'d be interested to work with us more in terms of our Affiliation program.
+
+For example, we have a product box banner for the Super SmartJoy Adapter, that provides a strong revenue stream for many of our sponsored sites in the ROM and Emulation field through earning commission with us. The Super SmartJoy lets you use SNES Controllers on your PC/Mac via USB. It\'s great for that perfect classic gaming feeling when playing retro titles.
+
+How does that sound? If you are interested, I\'d love to go into more detail and send you ready HTML for that mentioned small ad. Please also let me know if you have any questions about this, as I\'d love to help you out as much as possible.
+
+Could you please reply to my email-address: gerald@lik-sang.com ? Thanks much and hope to be talking to you soon again.
+
+Best regards,
+ 
+Gerald Siegel
+------------------------
+Lik-Sang.com - Alternative Gaming Community
+Pacific Game Technology (Holding) Limited');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('53', '5fd733af8c', 'Hiya Logiqx,
+
+Could you please remove the following e-mail addresses from this page:
+
+http://caesar.logiqx.com/php/author.php?id=charles_mac_donald
+
+cgfm2@hooked.net
+cgfm2@hotmail.com
+chamacd@gmail.com
+
+I\'m getting loads of spam and noticed this was the only website that posted my Gmail address in full. 
+
+It does say at my webpage to not reprint the address without permission, so what happened? :(
+
+For contact, could you please add a link to this webpage instead:
+
+http://cgfm2.emuviews.com/contact.php
+
+I\'m also going to PM Pi just in case, but I\'m not trying to be rude and bother both of you guys. :D Sorry for any inconvenience.
+
+Thanks,
+
+-- Charles');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('54', 'c80e07ea7b', 'Hiya Pi,
+
+Could you please remove the following e-mail addresses from this page:
+
+http://caesar.logiqx.com/php/author.php?id=charles_mac_donald
+
+cgfm2@hooked.net
+cgfm2@hotmail.com
+chamacd@gmail.com
+
+I\'m getting loads of spam and noticed this was the only website that posted my Gmail address in full. 
+
+It does say at my webpage to not reprint the address without permission, so what happened? :(
+
+For contact, could you please add a link to this webpage instead:
+
+http://cgfm2.emuviews.com/contact.php
+
+I\'m also going to PM Logiqx just in case, but I\'m not trying to be rude and bother both of you guys. :D Sorry for any inconvenience.
+
+Thanks,
+
+-- Charles');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('55', 'c80e07ea7b', 'Hiya Pi,
+
+Could you please remove the following e-mail addresses from this page:
+
+http://caesar.logiqx.com/php/author.php?id=charles_mac_donald
+
+cgfm2@hooked.net
+cgfm2@hotmail.com
+chamacd@gmail.com
+
+I\'m getting loads of spam and noticed this was the only website that posted my Gmail address in full. 
+
+It does say at my webpage to not reprint the address without permission, so what happened? :(
+
+For contact, could you please add a link to this webpage instead:
+
+http://cgfm2.emuviews.com/contact.php
+
+I\'m also going to PM Logiqx just in case, but I\'m not trying to be rude and bother both of you guys. :D Sorry for any inconvenience.
+
+Thanks,
+
+-- Charles');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('56', '9be6ff7313', '[quote:9be6ff7313=\"Charles MacDonald\"]Hiya Pi,
+I\'m also going to PM Logiqx just in case, but I\'m not trying to be rude and bother both of you guys. :D Sorry for any inconvenience.
+[/quote:9be6ff7313]
+
+Not rude at all, if we made any mistake, we\'re the ones who have to be sorry. It\'s Logiqx the one who does those things, maybe he placed the addresses in the db before you placed the contact page, or maybe the did it in a hurry and didn\'t notice your instructions regarding the emails.
+
+Don\'t worry, we\'ve always changed or removed addresses at request. IIRC I also told him to place URL\'s in the db for contacts too, like for Aaron\'s contact form, but it must have slipped in his gigantic to-do list.
+
+Keep on the good work and sorry for any inconvenience.');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('57', '9be6ff7313', '[quote:9be6ff7313=\"Charles MacDonald\"]Hiya Pi,
+I\'m also going to PM Logiqx just in case, but I\'m not trying to be rude and bother both of you guys. :D Sorry for any inconvenience.
+[/quote:9be6ff7313]
+
+Not rude at all, if we made any mistake, we\'re the ones who have to be sorry. It\'s Logiqx the one who does those things, maybe he placed the addresses in the db before you placed the contact page, or maybe the did it in a hurry and didn\'t notice your instructions regarding the emails.
+
+Don\'t worry, we\'ve always changed or removed addresses at request. IIRC I also told him to place URL\'s in the db for contacts too, like for Aaron\'s contact form, but it must have slipped in his gigantic to-do list.
+
+Keep on the good work and sorry for any inconvenience.');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('58', '5fd733af8c', 'Hiya Logiqx,
+
+Could you please remove the following e-mail addresses from this page:
+
+http://caesar.logiqx.com/php/author.php?id=charles_mac_donald
+
+cgfm2@hooked.net
+cgfm2@hotmail.com
+chamacd@gmail.com
+
+I\'m getting loads of spam and noticed this was the only website that posted my Gmail address in full. 
+
+It does say at my webpage to not reprint the address without permission, so what happened? :(
+
+For contact, could you please add a link to this webpage instead:
+
+http://cgfm2.emuviews.com/contact.php
+
+I\'m also going to PM Pi just in case, but I\'m not trying to be rude and bother both of you guys. :D Sorry for any inconvenience.
+
+Thanks,
+
+-- Charles');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('59', '0afb4c24a9', 'Hi Charles,
+
+Sorry, I must have missed wherever you said not to list your e-mail address but I did attempt to shield addresses on all pages via Javascript:
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--
+write_email(&quot;chamacd&quot;, &quot;gmail.com&quot;);
+--&gt;
+&lt;/script&gt;
+&lt;br/&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--
+write_email(&quot;cgfm2&quot;, &quot;hotmail.com&quot;);
+--&gt;
+&lt;/script&gt;
+&lt;br/&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--
+write_email(&quot;cgfm2&quot;, &quot;hooked.net&quot;);
+--&gt;
+&lt;/script&gt;
+
+Obviously the spammers are either rendering javascript or interpreting the write_email lines.
+
+I remove your addresses from CAESAR and also come up with a better way of sheilding addresses. Not tonight though... I am very tired after a long day (funeral) and a four hour drive home.
+
+All the best with your emulation endeavours.
+
+Mike');
+INSERT INTO phpbb_privmsgs_text (privmsgs_text_id, privmsgs_bbcode_uid, privmsgs_text) VALUES('60', '0afb4c24a9', 'Hi Charles,
+
+Sorry, I must have missed wherever you said not to list your e-mail address but I did attempt to shield addresses on all pages via Javascript:
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--
+write_email(&quot;chamacd&quot;, &quot;gmail.com&quot;);
+--&gt;
+&lt;/script&gt;
+&lt;br/&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--
+write_email(&quot;cgfm2&quot;, &quot;hotmail.com&quot;);
+--&gt;
+&lt;/script&gt;
+&lt;br/&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--
+write_email(&quot;cgfm2&quot;, &quot;hooked.net&quot;);
+--&gt;
+&lt;/script&gt;
+
+Obviously the spammers are either rendering javascript or interpreting the write_email lines.
+
+I remove your addresses from CAESAR and also come up with a better way of sheilding addresses. Not tonight though... I am very tired after a long day (funeral) and a four hour drive home.
+
+All the best with your emulation endeavours.
+
+Mike');
 #
 # TABLE: phpbb_ranks
 #
@@ -3806,7 +5191,8 @@ DROP TABLE IF EXISTS phpbb_search_results;
 CREATE TABLE phpbb_search_results(
 	search_id int(11) unsigned NOT NULL,
 	session_id varchar(32) NOT NULL,
-	search_array text NOT NULL, 
+	search_array text NOT NULL,
+	search_time int(11) NOT NULL, 
 	PRIMARY KEY (search_id), 
 	KEY session_id (session_id)
 );
@@ -3815,7 +5201,7 @@ CREATE TABLE phpbb_search_results(
 # Table Data for phpbb_search_results
 #
 
-INSERT INTO phpbb_search_results (search_id, session_id, search_array) VALUES('286237287', '65469bc60bf634abcf8c9d6160eaebb0', 'a:7:{s:14:\"search_results\";s:333:\"8, 4, 5, 7, 13, 15, 18, 19, 26, 34, 35, 37, 41, 42, 43, 44, 47, 48, 49, 50, 51, 52, 53, 63, 64, 66, 67, 69, 70, 72, 76, 78, 79, 83, 84, 85, 86, 87, 88, 89, 90, 93, 95, 97, 98, 99, 101, 103, 105, 107, 108, 109, 114, 115, 116, 117, 120, 122, 123, 124, 129, 130, 133, 134, 135, 137, 138, 139, 142, 144, 148, 150, 152, 155, 157, 159, 160\";s:17:\"total_match_count\";i:77;s:12:\"split_search\";N;s:7:\"sort_by\";i:0;s:8:\"sort_dir\";s:4:\"DESC\";s:12:\"show_results\";s:6:\"topics\";s:12:\"return_chars\";i:200;}');
+INSERT INTO phpbb_search_results (search_id, session_id, search_array, search_time) VALUES('1174963847', 'd205071260072ca75b3c4ef5fd1ca4f0', 'a:7:{s:14:\"search_results\";s:2:\"79\";s:17:\"total_match_count\";i:1;s:12:\"split_search\";a:1:{i:0;s:9:\"framefile\";}s:7:\"sort_by\";i:0;s:8:\"sort_dir\";s:4:\"DESC\";s:12:\"show_results\";s:6:\"topics\";s:12:\"return_chars\";i:200;}', '1161374126');
 #
 # TABLE: phpbb_search_wordlist
 #
@@ -5357,7 +6743,7 @@ INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('toni
 INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('whilst', '1953', '0');
 INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('problemy', '1961', '0');
 INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('echo', '1960', '0');
-INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('phpbb', '1957', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('spammers', '4742', '0');
 INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('batch', '1959', '0');
 INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('atfer', '1962', '0');
 INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('gotting', '1963', '0');
@@ -6916,6 +8302,704 @@ INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('fidd
 INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('investigate', '3850', '0');
 INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('controversy', '3853', '0');
 INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('revisions', '3854', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('2049', '3855', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('338379fe', '3856', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('atari', '3857', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bin¼', '3858', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cc7c8601', '3859', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cmdata', '3860', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('edition¼sf2049se¼san', '3861', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('edition¼sf2049te', '3862', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('edition¼sf2049te¼san', '3863', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('francisco', '3864', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('rcdata', '3865', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('san', '3866', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('sf2049se', '3867', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('sf2049te', '3868', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tournament', '3869', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('¼524288¼¼¼', '3870', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('¼sf2049se¼san', '3871', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('¼sf2049te¼san', '3872', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('calculated', '3873', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('complemented', '3874', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('dump', '3875', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('logical', '3876', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('to', '3877', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('child', '3878', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('circuit', '3879', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('combination', '3880', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('dumper', '3881', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('label', '3882', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('confirmed', '3883', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('experience', '3884', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('gooddumps', '3885', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('reputable', '3886', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('standards', '3887', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tend', '3888', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('modification', '3889', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('02', '3890', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('a1', '3891', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('a2', '3892', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('c1', '3893', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('c3', '3894', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('104', '3895', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('amongst', '3896', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('profile', '4499', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('protect', '4500', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('refer', '4501', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('results', '4502', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('psx', '4503', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('accurately', '4504', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('allpurpose', '4505', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('epsxe', '4506', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('filtering', '4507', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('graphic', '4508', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('greater', '4509', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('psxbased', '4510', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('resolutions', '4511', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('sony', '4512', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('speeding', '4513', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('discussions', '4514', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('played', '4515', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('plz', '4516', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('taboo', '4517', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('short', '4518', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('symptom', '4519', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('too', '4520', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('burn', '4521', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('commercial', '4522', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('forget', '4523', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('horsepower', '4524', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ps', '4525', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ready', '4526', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('standpoint', '4527', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('weak', '4528', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('snes', '4529', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('dutil2', '4530', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('englis', '4531', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('explem', '4532', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('frontend', '4533', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('gamelis', '4534', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('gl', '4535', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('helou', '4536', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('joemacr', '4537', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('joemacra', '4538', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mac', '4539', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mamefe', '4540', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('spabish', '4541', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('witch', '4542', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('behave', '4543', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('w32api3', '4587', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mingwruntime3', '4586', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('104u4', '4585', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('gives', '4547', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('setup', '4548', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cycles', '4549', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ii', '4550', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('locks', '4551', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('neither', '4552', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('opening', '4553', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('screens', '4554', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('startup', '4555', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('10s', '4556', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('aarons', '4557', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bits', '4558', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bloat', '4559', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bring', '4560', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('c', '4561', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('calls', '4562', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('commands', '4563', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('compiler', '4564', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cygwin', '4565', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('diffpatchmingw', '4566', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('fileutils', '4567', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('functional', '4568', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('gcc', '4569', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('install', '4570', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('keyring', '4571', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('makefile', '4572', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mbs', '4573', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mingw32make', '4574', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mingwselfhost', '4575', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('msys', '4576', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('package', '4577', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('plug', '4578', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ported', '4579', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('prepackaged', '4580', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('relied', '4581', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('shell', '4582', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('shutils', '4583', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('technique', '4584', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('center', '4588', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('green', '4589', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('perform', '4590', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('present', '4591', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('secondary', '4592', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('dosnt', '4593', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('accompany', '4594', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('allowing', '4595', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bootup', '4596', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ganryu', '4199', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('768kb', '4198', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('0x5dda0d84', '4197', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('0x4fa698e9', '4196', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('0x0ce453a0', '4195', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('20060206', '4194', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('0xb24b44a0', '4193', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bearpta', '4191', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('happened', '4192', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cloned', '4597', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cojag', '4598', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('consult', '4599', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cota', '4600', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cracked', '4601', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('instinct', '4602', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('instructed', '4603', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('killer', '4604', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('knowing', '4605', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('lack', '4606', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('listclones', '4607', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('multilangual', '4608', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('parameter', '4609', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('processor', '4610', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('s07', '4611', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('s09', '4612', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('series', '4613', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tables', '4614', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('unemulated', '4615', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('vampire', '4616', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('xored', '4617', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('zipped', '4618', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('prompt', '4619', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('neighbor', '4620', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('everytime', '4621', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('exaclty', '4622', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('hyperlink', '4623', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('stumble', '4667', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('alfasorting', '4661', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('convertion', '4662', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('daily', '4663', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('innocent', '4498', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('emulater', '4497', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('shit', '4489', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('debates', '4490', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('fortunately', '4491', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('guarantee', '4492', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('hence', '4493', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('notifying', '4494', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('occur', '4495', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('unaffected', '4496', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('legal', '4670', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('divided', '4631', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mixed', '4632', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('boot', '4668', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('gorf', '4669', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('abusing', '4636', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cents', '4637', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('forgives', '4638', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('formed', '4639', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('malformed', '4640', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('pay', '4671', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('watched', '4651', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('unordered', '4650', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('partially', '4649', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('habit', '4648', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('agree', '4647', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('pirate', '4672', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('vortex', '4673', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('obtaining', '4674', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('packs', '4675', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('treasures', '4676', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('105', '4677', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('gen', '4678', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('enjoyed', '4680', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('resting', '4681', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('20060405', '4682', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('freely', '4683', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('nonfree', '4684', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('respect', '4685', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('wishes', '4686', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('appeared', '4687', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('japanb', '4688', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('nonno', '4689', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('racer', '4690', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('rave', '4691', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('raveracj', '4692', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('rev', '4693', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('rv1', '4694', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('rv1b', '4695', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('viva', '4696', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tekken3', '4697', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tekken', '4698', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('eratos', '4699', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('expired', '4700', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('inactivity', '4701', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tutorial', '4702', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('excelent', '4746', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('logged', '4737', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('fliers', '4706', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('logins', '4738', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('phpbb', '4739', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('reply', '4740', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('spambots', '4741', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('crackertracker', '4745', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('invalid', '4736', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('inconvenience', '4735', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('highlighted', '4734', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('four', '4733', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('deleted', '4732', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('delete', '4731', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cookies', '4730', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('become', '4729', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tidy', '4743', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('upgraded', '4744', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('spambot', '4752', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('playable', '4751', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('labeled', '4750', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('spammer', '4753', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('afterburner', '4754', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('axe', '4755', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('fav', '4756', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('golden', '4757', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('outzone', '4758', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('poko', '4759', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('sokonuke', '4760', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('taisen', '4761', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('amigo', '4762', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('antiriad', '4763', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('armor', '4764', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('msx', '4765', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('penguin', '4766', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('sacred', '4767', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('zxspectrum', '4768', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('blubibulga', '4769', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bots', '4770', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('confirmation', '4771', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('defeated', '4772', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('kittenauth', '4773', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('register', '4774', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('standard', '4775', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('visual', '4776', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('hmm', '4777', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('xenophobe', '4778', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('identifying', '4779', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('452', '4780', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('568', '4781', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('7024', '4782', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bother', '4783', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('don´t', '4784', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('itselfs', '4785', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mame105', '4786', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mamedat105', '4787', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('recogniosed', '4788', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('winkawaks155', '4789', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('500mb', '4790', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('700mb', '4791', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('closer', '4792', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('flawed', '4793', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('imo', '4794', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('incompatible', '4795', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('noncompatible', '4796', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('observations', '4797', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('reduce', '4798', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('significant', '4799', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('twice', '4800', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('wasteful', '4801', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('106', '4802', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('splitted', '4816', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('romname', '4815', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('gui', '4814', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('exampel', '4813', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('dat2', '4812', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('dat1', '4811', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('d1d4', '4810', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('switch', '4817', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('explanation', '5007', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mappings', '4824', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('weird', '4825', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('affect', '4826', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('avoided', '4827', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('indexes', '4828', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mapping', '4829', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('reality', '4830', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('seemed', '4831', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('sheer', '4832', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('suddenly', '4833', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('269', '4834', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('272', '4835', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('adnim', '4836', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('backupfolder', '4837', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('clrmames', '4838', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('eol', '4839', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('experiment', '4840', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('fill', '4841', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('goal', '4842', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mame106full', '4843', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('meg', '4844', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('misplaced', '4845', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('perfect', '4846', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('soolution', '4847', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('splendid', '4848', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('t', '4849', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tick', '4850', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('winkawaks155full', '4851', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cleansed', '4852', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('confirm', '4853', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('datlibs', '4854', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('index', '4855', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('raw', '4856', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('suffering', '4857', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('thoughts', '4858', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('recognizing', '4864', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('learning', '4863', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('chds', '4862', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('sup', '4865', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('byoac', '4866', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('creator', '4867', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('feed', '4868', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('filter', '4869', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('makers', '4870', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mala', '4871', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('redo', '4872', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('solved', '4873', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('specifically', '4874', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('pro', '5006', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('clearmame', '5005', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('1988', '4878', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('1991', '4879', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('1st', '4880', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('area', '4881', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bioorganic', '4882', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bombs', '4883', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('boss', '4884', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('caesars', '4885', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cannon', '4886', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('city', '4887', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('defense', '4888', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('destroy', '4889', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('developed', '4890', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('died', '4891', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('earth', '4892', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('engine', '4893', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('entire', '4894', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('etc', '4895', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('fighting', '4896', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('fired', '4897', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('flew', '4898', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('foes', '4899', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('fought', '4900', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('giant', '4901', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('hectorsmarties', '4902', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('helicopter', '4903', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('jungle', '4904', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('launched', '4905', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('levels', '4906', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('map', '4907', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('memories', '4908', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('missiles', '4909', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('plane', '4910', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('planes', '4911', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('powerups', '4912', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('recall', '4913', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('remeber', '4914', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('resembles', '4915', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('rounds', '4916', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('sea', '4917', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('shooters', '4918', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('spam', '4919', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('superbattleship', '4920', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tank', '4921', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tanks', '4922', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('unlike', '4923', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('vacations', '4924', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('vague', '4925', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('weapon', '4926', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('weapons', '4927', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('constantly', '4928', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('genre', '4929', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('knowledgeable', '4930', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mamechat', '4931', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('repost', '4932', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('adult', '4933', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('adults', '4934', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('somebody', '4935', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('titles', '4936', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mature', '4940', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('browse', '4939', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('concerning', '4941', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('grtz', '4942', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('kungfu', '4943', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('kungfub', '4944', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ronin', '4945', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('school', '4946', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('beer', '4947', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('grab', '4948', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('079', '4949', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('080', '4950', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('differential', '4951', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mame79', '4952', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mame80', '4953', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('achieved', '4954', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('hurt', '4955', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('backups', '4956', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ordinarily', '4957', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('painful', '4958', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('dear', '4959', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('logix', '4960', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('romceners', '4961', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('purely', '5010', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('blow', '5009', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('obsolete', '4964', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('70gb', '5008', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('deduplicated', '5011', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('difdatsm', '4970', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('4d', '4972', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('92', '4973', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ctrlc', '4974', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('finishes', '4975', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('loop', '4976', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('nonoptimized', '4977', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('stuck', '4978', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('alternatively', '4979', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('detector', '4983', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('arbitrary', '4982', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('rollbacks', '4984', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('53', '4985', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('79', '4986', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('arbitrarily', '4987', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('entirely', '4988', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('messing', '4989', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('moment', '4990', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('pack', '4991', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ultimately', '4992', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('afternoon', '4993', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('hangs', '4994', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('pair', '4995', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ver0', '4996', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bitten', '4997', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('braces', '4998', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('experienced', '4999', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('production', '5000', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('programmers', '5001', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('remembering', '5002', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('statement', '5003', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('wastes', '5004', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('28', '5012', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('64mb', '5013', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('affected', '5014', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('blocks', '5015', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('indices', '5016', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('intelligent', '5017', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('matching', '5018', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('messed', '5019', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('reads', '5020', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('highly', '5021', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('nonetheless', '5022', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cached', '5023', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('dates', '5024', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('installing', '5025', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('reader', '5026', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('screwed', '5027', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('71', '5028', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('4df24a6c', '5029', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('5e607dcf', '5030', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('apple2ca2c', '5031', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bc5a79ff', '5032', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('c8b979b3', '5033', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('equiped', '5034', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('famicomdisksys', '5035', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('messs', '5036', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('phenomenon', '5037', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('respectively', '5038', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tryed', '5039', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('105106', '5040', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('diagnostics', '5041', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('silences', '5042', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('specify', '5043', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('specifying', '5044', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('truthfully', '5045', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('header', '5046', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('intermediate', '5047', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('scripts', '5048', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('stdout', '5049', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('therfore', '5050', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('unimportant', '5051', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('yetanotherone', '5061', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('opinion', '5060', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('krick', '5059', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('examine', '5058', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('basename', '5057', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('applications', '5062', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('disussion', '5063', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('encoder', '5064', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('extensive', '5065', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('eye', '5066', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('human', '5067', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('in1', '5068', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('in2', '5069', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('inconsistent', '5070', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('lame', '5071', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mp3', '5072', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('neednt', '5073', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('outputs', '5074', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('physical', '5075', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('piped', '5076', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('preferable', '5077', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('processes', '5078', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('recipient', '5079', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('symantics', '5080', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('wav', '5081', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('closes', '5082', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('commad', '5083', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('enter', '5084', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('immediately', '5085', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('sp2', '5086', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('doubleclicking', '5087', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('samsh5sp', '5088', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('samurai', '5089', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('spirits', '5090', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('suspected', '5091', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('restructures', '5093', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('107', '5094', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ki2', '5095', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('1395', '5096', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('1947', '5097', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('2845', '5098', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('6187', '5099', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('greg', '5100', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('56', '5101', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('05', '5102', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('aug', '5103', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bars', '5104', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cleaning', '5105', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('statistic', '5106', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('consistent', '5107', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('108', '5108', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('1040', '5109', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('1048', '5110', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('1052', '5111', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('1058', '5112', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('1062', '5113', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('asc', '5114', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ershov', '5115', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('eugene', '5116', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('fairy', '5117', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('hle', '5118', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('horse', '5119', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ivan', '5120', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('konekgorbunok', '5121', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('p', '5122', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('pal', '5123', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('phenix', '5124', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('poetry', '5125', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('postdays', '5126', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('postorder', '5127', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('princess', '5128', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('russian', '5129', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('sandulenko', '5130', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('shiru', '5131', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('sid', '5132', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('soviet', '5133', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('story', '5134', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tale', '5135', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tiamc', '5136', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tsar', '5137', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('tsarevna', '5138', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('zharpticta', '5139', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('commited', '5142', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('glance', '5141', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('nigh', '5143', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('omg', '5144', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('uppercase', '5145', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('0228', '5146', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('0316', '5147', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('2225', '5148', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('associations', '5149', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('building', '5150', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('chu', '5151', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('crown', '5152', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('eng', '5153', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('m5', '5154', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('occurence', '5155', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('ommited', '5156', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('rocket', '5157', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('¬0228', '5158', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('¬0316', '5159', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('¬2225', '5160', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('¬¬', '5161', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('characteristics', '5162', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('declaring', '5163', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('understood', '5164', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('kindest', '5165', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('reach', '5166', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('109', '5167', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('attention', '5168', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('brought', '5169', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('editor', '5170', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('emulab', '5171', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('extent', '5172', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('frontends', '5173', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('guis', '5174', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('installers', '5175', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('italian', '5176', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('likes', '5177', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mamedifffe', '5178', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('supplies', '5179', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('workshop', '5180', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('export', '5181', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('frosty', '5182', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('webpage', '5183', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('formattable', '5184', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('fried', '5185', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('menus', '5186', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('thru', '5187', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('algorithms', '5188', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('bothered', '5189', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('darius', '5190', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('determining', '5191', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('display', '5192', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('frankly', '5193', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('laziness', '5194', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('motivation', '5195', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('remarkable', '5196', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('screwy', '5197', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('savestate', '5205', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('dtd', '5204', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('creation', '5203', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('101u1', '5202', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('30', '5206', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('arranged', '5207', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('cursor', '5208', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('dariuse', '5209', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('determines', '5210', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('horizontally', '5211', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('hovering', '5212', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('mouse', '5213', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('multiscreen', '5214', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('prone', '5215', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('reduced', '5216', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('snapped', '5217', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('vertically', '5218', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('vfkids', '5219', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('warriorb', '5220', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('xmen6p', '5221', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('differs', '5222', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('grand', '5223', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('kgpe', '5224', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('kingdmgp', '5225', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('kingdom', '5226', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('non', '5227', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('prix', '5228', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('regionalization', '5229', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('service', '5230', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('shippumd', '5231', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('neills', '5232', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('network', '5240', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('jfrost', '5239', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('gaming', '5238', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('department', '5237', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('retro', '5241', '0');
+INSERT INTO phpbb_search_wordlist (word_text, word_id, word_common) VALUES('whoops', '5242', '0');
 #
 # TABLE: phpbb_search_wordmatch
 #
@@ -14545,11 +16629,11 @@ INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('350',
 INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('350', '1508', '0');
 INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('350', '1274', '0');
 INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('350', '1145', '0');
-INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('351', '854', '0');
-INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('351', '2995', '0');
-INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('351', '2873', '0');
-INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('351', '3275', '0');
 INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('351', '3275', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('351', '3275', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('351', '2873', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('351', '2995', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('351', '854', '0');
 INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('352', '613', '0');
 INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('352', '23', '0');
 INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('352', '3277', '0');
@@ -17096,6 +19180,3678 @@ INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('457',
 INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('457', '3854', '0');
 INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('457', '175', '0');
 INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('457', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '1712', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3855', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3856', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '1091', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3857', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '1167', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '587', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3858', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3859', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '589', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '1745', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '695', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '1284', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3861', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3862', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3863', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '2888', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3864', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '696', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3825', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '1385', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3866', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3867', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3868', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '700', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '701', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '1822', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3869', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '1158', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '705', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3870', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3871', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3872', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3860', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '1745', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '990', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '708', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('459', '3865', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '880', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '3873', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '801', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '922', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '3874', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '589', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '781', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '3875', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '488', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '427', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '1763', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '3049', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '3876', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '940', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '223', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '435', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '3877', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '314', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('460', '180', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('461', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '150', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '332', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '423', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '298', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '3041', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '243', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '3707', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '2555', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '282', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '400', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '150', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '1437', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '332', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '423', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '589', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '674', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('462', '2022', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '190', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '3873', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '801', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '3878', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '3879', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '3880', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '2188', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '589', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '928', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '3881', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '936', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '3882', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '2312', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '98', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '457', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '400', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '635', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '223', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '2555', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '3707', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '438', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '319', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '2819', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('463', '980', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '446', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '418', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '2723', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '616', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '916', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '3672', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '2716', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '812', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '2171', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '1731', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '3883', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '2022', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '674', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '332', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '990', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '714', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '3067', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '2776', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '1382', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '1265', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '3884', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '1267', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '3885', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '2975', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '681', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '903', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '1143', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '282', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '623', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '3381', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '955', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '364', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '3886', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '2654', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '2477', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '2819', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '3887', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '243', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '980', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '2660', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '3888', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('464', '3009', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('465', '3659', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('465', '334', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('465', '3693', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('465', '983', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('465', '1924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('465', '987', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('465', '3696', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('466', '3428', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('466', '1924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('467', '137', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('467', '787', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('467', '3889', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('467', '2073', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('468', '3890', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('468', '3891', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('468', '3892', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('468', '3893', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('468', '3894', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('468', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('468', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('468', '457', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('468', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('468', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('468', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('469', '3895', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('469', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('469', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('469', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('469', '402', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('469', '102', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('469', '3895', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('469', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '3896', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '647', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '3095', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '938', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '282', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '3652', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '459', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '364', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '27', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '107', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '3895', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '647', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('470', '103', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '461', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4540', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '411', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4539', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4538', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4537', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '1773', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4536', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4535', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '3727', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4534', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4533', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4532', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4531', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4530', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '990', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '1359', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '1033', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('487', '4529', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('487', '17', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('487', '75', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('487', '4529', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('487', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('487', '2960', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('487', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('487', '422', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('487', '316', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '3009', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '4528', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '1379', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '847', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '4527', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '337', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '168', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '2212', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '1273', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '4526', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '4525', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '162', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '461', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '310', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '2489', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '2409', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '385', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '4524', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '308', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '4523', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '929', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '3794', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '203', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '133', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '198', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '3174', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '4522', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '485', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '193', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '647', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('486', '4521', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('485', '162', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('485', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('485', '2068', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('484', '4520', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('484', '4517', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('484', '4519', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('484', '4518', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('484', '1214', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('484', '3633', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('484', '616', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('483', '682', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('483', '440', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('483', '685', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('483', '178', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('483', '4517', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('483', '847', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('483', '671', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('483', '2806', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('483', '822', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('483', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('483', '842', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('482', '3071', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('482', '4516', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('482', '787', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('482', '2255', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('481', '182', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('481', '1155', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('481', '3421', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('481', '2085', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('481', '1857', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('481', '1437', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('481', '3428', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('481', '1020', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '243', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '4515', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '2569', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '282', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '3798', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '3611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '215', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '142', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '3267', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '4514', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '2424', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('480', '2061', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '396', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '182', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '180', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '244', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '2820', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '172', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '2400', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '4513', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '4512', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '3717', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '319', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '4511', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '4510', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '162', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '2998', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '460', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '280', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '4509', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '4508', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '368', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '4507', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '4506', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '203', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '133', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '3002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '3174', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '1041', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '121', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '118', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '4505', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '2860', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('479', '4504', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('478', '159', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('478', '1259', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('478', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('478', '4503', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('478', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('478', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('478', '399', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('478', '134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('478', '1162', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('477', '282', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('477', '75', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('477', '3826', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('477', '95', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('477', '2674', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('477', '3839', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('477', '282', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('477', '3824', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('477', '277', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('477', '3095', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('477', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('477', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('476', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('476', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '2085', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '4502', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '393', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '364', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '4501', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '4500', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '4499', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '2176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '608', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '2924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '2812', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '2000', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '317', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '2811', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '4498', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '709', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '4497', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '714', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '704', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '703', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '702', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '295', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '3826', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '3841', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '95', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '701', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '700', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '404', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '164', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '288', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '698', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '478', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '608', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '2924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '3824', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '477', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '4199', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '618', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '1745', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '316', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '668', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '4198', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '4194', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '2221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '689', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '3895', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '4193', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '1106', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '4197', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '4196', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '4195', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '1098', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '68', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('473', '4191', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('473', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('473', '4192', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('473', '164', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('473', '2085', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '1158', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('472', '614', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '423', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '19', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '814', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('471', '3895', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('474', '1039', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('474', '1743', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('474', '785', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('474', '604', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('474', '157', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('474', '2176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('474', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('474', '4489', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('474', '2832', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '2221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '842', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '2029', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '70', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '668', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '814', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '4490', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '1176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '1183', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '1020', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '4491', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '1372', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '4492', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '1942', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '4493', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '3095', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '1790', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '282', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '719', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '4494', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '4495', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '2633', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '2195', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '2569', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '102', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '847', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '677', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '840', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '27', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '441', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '4496', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '703', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '371', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '2656', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('475', '1158', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '2009', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '436', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '404', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '671', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4541', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '442', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '4542', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '1359', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '3727', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('488', '442', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '4543', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '2060', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '990', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '1471', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '1423', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '3727', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '845', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '1259', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('489', '182', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '1918', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '1743', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '4587', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '107', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '840', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '490', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '4586', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '938', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '2974', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '1743', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '2827', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('490', '4585', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('491', '4547', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('491', '4548', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('491', '441', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '1033', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '118', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '315', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '4549', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '1487', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '2205', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '709', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '3024', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '4550', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '4551', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '4552', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '4553', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '224', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '3839', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '4554', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '438', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '4555', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '182', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '191', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '4550', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('492', '17', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4556', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4557', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '70', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4558', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4559', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4560', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4561', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4562', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '421', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4563', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '1743', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4564', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '128', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '819', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4565', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '398', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4566', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '1002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '2803', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '3357', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '399', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '929', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '136', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4567', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '1185', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4568', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4569', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '275', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '716', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '2523', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4570', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '3277', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '1256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4571', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '411', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4572', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '3699', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4573', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '3405', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '807', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '1922', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4574', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4575', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '3447', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4576', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4577', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4578', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '1810', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4579', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '1923', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4580', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '1217', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '3619', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '1887', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '3080', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '683', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4581', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '2544', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4582', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4583', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '480', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '847', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '243', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '4584', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '178', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '247', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '2380', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '988', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('493', '614', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('494', '2276', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('494', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '3895', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '2002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '2620', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '4588', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '316', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '422', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '925', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '427', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '708', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '709', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '4589', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '410', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '3651', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '938', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '901', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '2317', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '608', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '4590', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '4591', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '1145', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '4592', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '2085', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '3804', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '1145', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('495', '17', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '316', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '1170', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '1745', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '4593', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '782', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '2092', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '111', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '936', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '1367', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('496', '700', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '3022', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4594', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '446', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '418', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4595', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1716', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2248', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '18', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '668', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '191', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4596', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1122', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '261', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '407', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2392', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4597', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2060', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1170', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4598', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2204', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4599', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2735', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '74', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4600', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '674', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '694', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4601', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2649', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2840', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '3279', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1748', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '3042', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '427', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1382', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1761', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2122', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '357', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '708', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1126', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1052', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1970', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '931', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '136', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1027', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '452', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '618', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2189', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '477', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2290', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '275', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2297', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1129', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4602', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4603', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4604', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4605', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4606', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '3650', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2811', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '3611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '216', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4607', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2681', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2707', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2632', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '608', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4608', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '610', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '434', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '490', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '478', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '282', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '635', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '223', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2555', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '333', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4610', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2123', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2344', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '291', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '952', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '364', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '790', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '699', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1273', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4612', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1065', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2477', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4613', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '438', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '319', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2153', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '239', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1028', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '847', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '173', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '243', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4614', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '840', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2722', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '440', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '2683', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4615', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1029', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '314', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4616', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '88', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1908', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '1030', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4617', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '614', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('497', '4618', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '2999', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '482', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '668', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '888', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '477', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '3095', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '681', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '608', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '478', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '160', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '4619', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '319', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '3383', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '182', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '183', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '17', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('498', '183', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('499', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('499', '1155', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('499', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('500', '3890', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('500', '1444', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('500', '2057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('500', '2270', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('500', '3474', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('500', '92', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('500', '2311', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('500', '457', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('500', '4620', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('500', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('500', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '18', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '1002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '4621', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '4622', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '4547', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '150', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '2655', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '614', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '1002', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '139', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('501', '80', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('502', '109', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('502', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('502', '1888', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('503', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('503', '1002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('503', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('503', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('504', '350', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('504', '2671', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('504', '1002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('504', '4623', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('504', '3011', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '2017', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '118', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '139', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '1158', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '4673', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '440', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '836', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '2789', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '327', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '333', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '4672', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '4671', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '4670', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '143', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '4669', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '1362', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '137', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '888', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '4668', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '71', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('509', '117', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('508', '379', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('508', '874', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('508', '4667', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('508', '649', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('508', '223', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('508', '1423', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('508', '2513', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('508', '2247', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '2057', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '1924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '294', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '404', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '1145', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '2001', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '4632', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '2311', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '78', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '4631', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '4663', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '4662', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '2736', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '316', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '1851', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '1420', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '3047', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('505', '4661', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '2221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '4636', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '2055', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '1420', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '1851', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '4637', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '2736', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '422', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '965', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '332', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '4631', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '983', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '110', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '399', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '4638', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '78', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '4639', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '148', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '2672', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '2311', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '217', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '4640', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '219', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '4632', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '2001', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '2749', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '649', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '1145', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '404', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '3007', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '847', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '253', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('506', '2057', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '2176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '4674', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '1351', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '4670', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '2554', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '308', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '4669', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '74', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '1852', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '2675', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '4651', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '314', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '4650', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '2722', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '1387', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '2085', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '809', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '712', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '4649', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '2311', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '938', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '681', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '4648', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '844', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '626', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '616', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('507', '4647', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '223', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '224', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '4675', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '2569', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '163', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '4676', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('510', '179', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('511', '4677', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('511', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('511', '102', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('512', '2055', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('512', '1047', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('512', '2005', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('512', '4678', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('512', '1256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('512', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('512', '2713', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('513', '4677', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('513', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('513', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('513', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('513', '402', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('513', '102', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('513', '4677', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('513', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('514', '1017', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('514', '441', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('514', '405', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('514', '4681', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('514', '2509', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('514', '454', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('514', '308', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('514', '4680', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('515', '2221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('515', '4682', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('515', '842', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('515', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('515', '332', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('515', '282', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('515', '2085', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('515', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('515', '702', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '2221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '18', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '714', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '1002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '1183', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '1372', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '4683', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '716', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '2650', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '717', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '4684', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '649', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '2516', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '4685', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '2085', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '2500', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '88', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('516', '4686', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '4677', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '4687', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '647', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '150', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '151', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '1130', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '4688', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '938', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '4689', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '4690', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '4691', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '4692', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '4693', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '4694', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '4695', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '107', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '1156', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '4696', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '4677', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '647', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('517', '103', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '706', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '1002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '844', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '143', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '2975', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '845', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '4697', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '706', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '844', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '139', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '2975', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('518', '845', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '2524', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '4701', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '3428', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '4700', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '4699', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '1396', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '192', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '3129', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '188', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '2022', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '2975', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '845', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '282', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '4518', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '638', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '2820', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '4698', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '4697', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('520', '396', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '2791', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '1924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '192', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '4700', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('521', '2524', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('522', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('523', '73', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('523', '819', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('523', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('523', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('523', '73', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('523', '332', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('524', '316', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('524', '814', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('524', '2188', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('524', '201', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('524', '3002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('524', '2882', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('524', '137', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('524', '1375', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('524', '1217', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('524', '2819', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('524', '1369', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('524', '4702', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '4756', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '3489', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '4755', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '4754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '206', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '135', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '118', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '1864', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '4753', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '4752', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '4751', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '1999', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '1987', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '705', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '3343', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '1379', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '314', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4744', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '4750', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '854', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '135', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '2952', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '4732', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '118', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('535', '117', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('534', '295', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('534', '164', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('534', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('533', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '4500', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '4739', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '1794', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '454', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '310', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '854', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '4746', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '4745', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '1723', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '1023', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('532', '2221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '370', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4743', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '3888', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4742', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4741', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '671', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '293', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '3394', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '1861', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '1984', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4740', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '100', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '712', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '327', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4739', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '649', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '2001', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '459', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '903', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4738', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '1999', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4737', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '2314', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4736', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4735', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4734', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '2115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4733', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '854', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '1423', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '135', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '3461', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '427', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '1396', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4732', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4731', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '819', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4730', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '190', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '3773', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '1013', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '4729', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '334', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '3732', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '1358', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '118', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '2014', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '811', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '482', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '842', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '2078', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '254', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '1162', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('529', '1818', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('530', '1443', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('531', '4685', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '4757', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '1129', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '156', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '4758', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '4759', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '2977', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '4489', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '4760', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '3007', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '173', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('536', '4761', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '4762', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '4763', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '118', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '4764', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '367', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '135', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '4765', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '1352', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '4766', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '4767', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '3641', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('537', '4768', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '2221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '1023', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '916', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '1723', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4769', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4770', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4771', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4745', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4772', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4746', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '854', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '2115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '604', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '3277', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '1256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '310', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4773', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '454', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '938', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '2314', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '1794', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4739', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4500', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '3330', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4774', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '2348', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4741', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4775', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '840', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('538', '4776', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('539', '716', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('539', '2811', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('539', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('539', '372', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '118', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '1753', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '135', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '144', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '4777', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '1777', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '845', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '1808', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '415', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '4518', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '439', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '4778', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('540', '1030', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('541', '2669', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('541', '3851', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('541', '4779', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('541', '4741', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('541', '243', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '1160', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '4780', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '4781', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '4782', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '4783', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '922', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '450', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '422', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '3398', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '4784', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '618', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '204', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '2783', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '4785', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '787', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '939', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '4786', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '4787', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '608', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '1060', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '1377', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '401', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '4788', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '2607', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '1984', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '958', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '438', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '1227', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '1428', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '351', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '2052', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '671', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '67', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '3149', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '2043', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '2155', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '4789', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '988', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '613', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '1158', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '433', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('542', '1428', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4780', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4790', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4791', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '3422', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '616', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '186', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '192', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '2060', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4792', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '814', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '816', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '967', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '588', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '2862', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '2735', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '450', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '451', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '332', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '2278', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '3042', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '3474', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '271', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4793', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '204', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '803', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '212', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '2672', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4794', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4795', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '2975', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '1474', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '98', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '219', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '830', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '156', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '608', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '3613', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '400', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4796', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '459', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4797', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '2555', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '3618', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4751', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4515', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '462', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '163', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '1217', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '329', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '3434', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '953', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4798', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '2829', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '1818', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '958', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '438', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '2637', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4799', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '405', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '3538', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '2365', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '1822', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '847', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '467', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '677', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '67', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4800', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '3149', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '1432', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '3805', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('543', '4801', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '4802', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '19', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '454', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '1909', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '102', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '232', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '371', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '4802', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('544', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '178', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '2798', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '4817', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '4816', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '3538', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '438', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '4815', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '1377', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '2805', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '2974', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '4814', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '2115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '1020', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '136', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '4813', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '3400', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '4812', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '4811', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '3398', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '4810', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '589', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '916', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '613', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('545', '177', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '4802', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '177', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '613', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '2798', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '2974', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '2115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '1020', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '136', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '5007', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '4813', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '3794', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '201', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '3400', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '4810', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('546', '2188', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '117', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '2057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '647', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '813', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '1170', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '3400', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '886', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '203', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '782', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '64', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '4824', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '955', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '2674', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '107', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '4825', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '4802', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '647', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('547', '103', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('548', '4826', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('548', '811', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('548', '203', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('548', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('548', '3699', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('548', '4824', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('548', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('548', '2684', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '4802', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '184', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '3672', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '4827', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '89', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '2057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '647', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '801', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '626', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '427', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '782', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '1020', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '3267', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '410', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '4828', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '2064', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '454', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '2436', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '4829', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '4824', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '2924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '434', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '832', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '2874', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '336', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '3381', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '4830', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '2829', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '4831', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '4832', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '4833', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '1924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '4825', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('549', '1240', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4802', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4834', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4835', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '446', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4836', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '482', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '3047', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '2646', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4837', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '192', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '2621', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '922', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4838', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '448', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '450', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '3398', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '3038', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '357', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4839', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4840', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4841', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '709', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '618', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '932', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '204', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '97', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4842', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '143', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '2975', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '454', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '787', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '217', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '939', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '279', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4843', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '1204', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4844', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4845', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '608', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '400', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '1377', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4846', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4751', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '163', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '401', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '3450', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '1984', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '958', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '2544', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '404', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '337', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4847', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4848', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '173', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4849', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4850', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '441', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '3149', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4851', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '183', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '613', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '1158', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '4840', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('550', '454', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '4802', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '4826', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '3257', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '2057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '647', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '4852', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '4853', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '422', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '589', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '3398', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '3459', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '305', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '4854', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '990', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '1868', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '604', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '4855', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '454', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '4843', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '457', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '219', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '1909', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '2326', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '832', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '2342', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '4856', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '405', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '3538', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '4857', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '4858', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '641', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '2099', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '613', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('551', '2035', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('552', '3459', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('552', '4846', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('552', '671', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('552', '2232', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('552', '613', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('552', '2232', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '1329', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '2560', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '423', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '925', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '2555', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '163', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '2791', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '705', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '990', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '206', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '845', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('553', '2607', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '799', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '178', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '4865', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '172', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '164', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '4864', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '3713', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '2789', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '1217', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '333', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '649', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '434', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '787', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '4863', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '681', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '146', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '143', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '422', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '922', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '2392', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '3710', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '2056', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '4802', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '366', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '4862', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('554', '143', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '255', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '190', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '315', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '4866', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '4599', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '2061', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '4867', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '990', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '201', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '4868', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '4869', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '137', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '4533', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '3727', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '845', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '2436', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '279', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '4870', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '4871', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '3330', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '4872', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '168', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '293', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '4873', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '480', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '4874', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '172', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '295', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '2238', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('555', '705', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '143', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '4862', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '366', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '180', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '178', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '4864', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '2789', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '5006', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '832', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '787', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '681', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '143', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '3444', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '2278', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '422', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '5005', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '4862', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '2392', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '192', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '3710', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '2056', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('556', '4802', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4878', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4879', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4880', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '3087', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2112', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '255', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1392', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '70', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4881', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '670', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4882', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4883', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4884', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4885', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4886', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '3848', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4887', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2840', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1948', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4888', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4889', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4890', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4891', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2026', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '427', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4892', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '357', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4893', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4894', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4895', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '399', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1473', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4896', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4897', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '137', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4898', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4899', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2189', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2946', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4900', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2173', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4901', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '111', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '308', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '3195', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4902', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4903', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '680', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '144', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '716', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4904', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2597', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2811', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4905', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '633', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '787', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2631', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4906', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1857', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '845', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '411', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4907', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4908', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4909', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '459', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4910', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4911', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4912', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1217', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '288', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4913', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2071', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '364', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4914', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '809', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4915', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1273', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4916', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2979', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4917', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1065', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4592', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '986', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1066', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4918', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '480', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '3436', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4919', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1251', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1232', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '624', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4920', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4921', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4922', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '178', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2683', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4923', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '314', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4925', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4926', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '4927', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1243', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2296', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1491', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '2343', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('557', '1066', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '1245', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '3034', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '2860', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '190', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '647', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '2709', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '4928', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '203', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '2063', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '4929', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '1375', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '410', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '150', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '936', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '4930', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '2436', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '4931', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '3018', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '3669', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '2681', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '649', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '4932', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '1065', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '3435', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '95', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('558', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '4934', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '2263', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '136', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '680', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '2207', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '940', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '4515', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '291', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '4935', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '4936', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '1017', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '253', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '4933', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '139', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('559', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('560', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('560', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('560', '2681', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('560', '4940', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('560', '2709', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('560', '4939', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '812', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '4941', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '1002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '136', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '137', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '854', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '4942', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '3277', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '4943', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '4944', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '93', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '1788', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '830', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '2948', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '2337', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '4945', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '4946', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '1834', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '2899', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '1907', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '1846', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('561', '1014', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('562', '2968', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('562', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('562', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('562', '845', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('562', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('562', '3319', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('562', '182', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('563', '2645', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('563', '4947', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('563', '3002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('563', '4948', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('563', '2974', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('563', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('563', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('563', '873', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('563', '1369', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('563', '2216', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('564', '317', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('564', '160', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('564', '2899', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('564', '613', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '4949', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '4950', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '1420', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '922', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '448', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '422', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '423', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '451', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '2535', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '4952', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '4953', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '458', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '1365', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '2426', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '404', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '1834', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '440', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '1420', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '1724', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '2407', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '4951', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('565', '3416', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '4954', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '842', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '3425', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '668', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '3459', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '884', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '1180', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '3799', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '2405', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '3416', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '3435', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('566', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('567', '117', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('567', '397', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('567', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('567', '4955', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('567', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('567', '400', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('567', '434', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('567', '2543', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('567', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('567', '2820', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('567', '4817', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('567', '2016', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '842', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '255', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '2620', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '2646', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '4956', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '423', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '3459', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '890', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '204', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '458', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '459', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '460', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '461', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '4957', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '832', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '4958', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '3056', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '401', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '953', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '404', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '405', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '3435', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('568', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '916', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '332', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '4959', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '4960', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '2960', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '1377', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '2873', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '4961', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '1443', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '2517', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '332', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('569', '1377', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '88', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '370', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '1924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '1387', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '4817', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '480', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '405', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '438', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '404', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '1273', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '2607', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '809', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '2013', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '953', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '401', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '1366', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '5010', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '4591', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '4958', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '461', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '460', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '1977', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '4964', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '2322', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '3447', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '807', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '2747', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '98', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '64', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '2300', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '4842', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '204', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '890', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '2717', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '819', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '919', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '5009', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '1036', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '3600', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '3047', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '2620', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '70', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '388', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '255', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('570', '5008', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '1924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '1387', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '4817', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '95', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '480', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '3538', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '438', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '2607', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '809', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '2013', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '1366', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '4964', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '434', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '2322', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '807', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '279', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '98', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '428', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '1471', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '2717', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '424', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '4970', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '5011', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '819', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '2391', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '919', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '2255', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '2620', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '70', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('571', '388', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '4972', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '2976', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '4973', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '3193', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '2057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '2255', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '4974', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '4970', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '424', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '4975', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '803', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '2290', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '2535', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '4976', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '4977', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '2176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '4978', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('572', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '4979', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '423', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '2671', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '109', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '990', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '4493', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '2809', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '1438', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '279', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '457', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '2960', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '157', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '224', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '163', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '836', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '3623', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '67', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('573', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '807', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '1790', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '3876', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '310', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '1256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '2717', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '781', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '3427', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '424', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '4983', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '1371', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '4982', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '3490', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '401', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '2607', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '3392', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '4984', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '2085', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '438', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('574', '370', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '877', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '4985', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '4986', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '4987', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '4982', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '406', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '1358', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '918', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '2392', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '1371', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '781', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '4988', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '894', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '716', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '3025', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '1256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '3876', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '317', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '2747', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '218', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '1790', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '4989', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '807', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '4990', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '4991', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '907', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '327', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '3490', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '4591', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '4984', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '2085', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '404', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '438', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '2877', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '2878', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '2655', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '247', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '4992', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '370', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('575', '799', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '4972', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '2976', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '4973', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '4993', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '3193', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '2057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '4974', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '4970', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '424', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '4975', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '803', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '2290', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '2535', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '4976', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '4977', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '2176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '4978', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('576', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('577', '4993', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('577', '256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('577', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('577', '4970', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('577', '4994', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('577', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '3808', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '4970', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '983', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '708', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '92', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '205', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '4994', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '608', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '4995', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '4613', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '654', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('578', '4996', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '842', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '916', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '3485', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '4997', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '4998', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '3808', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '1170', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '3690', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '708', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '1049', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '4999', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '136', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '137', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '92', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '1987', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '1056', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '1781', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '2663', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '807', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '608', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '1365', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '4995', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '5000', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '5001', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '3073', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '1887', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '5002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '4613', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '2365', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '1230', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '5003', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('579', '5004', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('580', '349', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('580', '3277', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('580', '831', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('580', '1794', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('580', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('580', '3275', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '4739', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '68', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '4744', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '1071', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '3330', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '2941', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '288', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '329', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '4739', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '3662', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '389', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '4737', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '2314', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '410', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '854', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '92', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '334', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '482', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('581', '68', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '2054', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '2440', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '5013', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '5014', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '5015', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '2057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '626', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '4862', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '589', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '305', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '426', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '92', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '5016', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '5017', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '2064', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '2066', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '5018', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '5019', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '5020', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '392', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '393', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '1427', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '2428', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '180', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '1686', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '5012', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '990', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('582', '433', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '2440', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '5013', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '5014', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '5015', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '2057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '626', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '4862', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '589', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '426', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '92', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '5016', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '5017', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '2064', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '2066', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '5018', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '5019', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '5020', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '392', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '393', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '1427', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '2428', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '2054', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('583', '305', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '2054', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '5014', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '2057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '626', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '589', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '305', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '709', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '92', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '5021', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '5016', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '2064', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '5018', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '5019', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '5022', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '389', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '4495', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '102', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '659', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '249', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '180', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '1916', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '2504', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '2962', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('584', '2963', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '407', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '5023', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '2055', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '2735', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '1948', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '5024', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '782', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '78', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '5025', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '1207', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '1977', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '832', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '4739', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '5026', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '3275', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '5027', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '95', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '840', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '314', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('586', '705', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '4802', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '1328', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '5029', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '5030', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '5028', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '5031', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '5032', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '5033', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '2993', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '589', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '990', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '1868', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '5034', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '5035', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '1423', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '2489', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '280', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '2960', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '5036', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '5037', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '288', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '5038', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '1876', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '5039', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('587', '1156', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('588', '3777', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('588', '2960', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('589', '2057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('589', '3808', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('589', '626', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('589', '2270', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('589', '990', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('589', '92', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('589', '461', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('589', '1914', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('589', '305', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('590', '1914', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('590', '2057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('590', '3808', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('590', '626', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('590', '2270', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('590', '305', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('590', '990', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('590', '92', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('590', '461', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('590', '180', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('590', '1688', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('590', '990', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '4677', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '5040', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '4802', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '842', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '446', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '2433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '801', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '421', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '1371', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '5041', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '928', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '2705', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '3631', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '994', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '2115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '455', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '832', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '163', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '2340', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '329', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '910', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '5042', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '5043', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '4775', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '4817', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '5045', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '299', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '443', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '994', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '832', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('591', '5044', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '842', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '916', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '779', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '918', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '1959', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '801', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '814', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '2931', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '332', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '990', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '4732', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '2932', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '2278', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '983', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '1763', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '4868', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '452', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '2290', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '5046', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '716', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '936', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '5047', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '64', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '2314', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '1204', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '2237', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '719', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '3716', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '460', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '832', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '1810', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '236', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '5048', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '986', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '5043', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '5049', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '3741', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '1258', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '840', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '5050', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '441', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '5051', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '2517', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('592', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '4677', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '5040', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '4802', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '1245', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '5041', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '832', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '329', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '910', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '5042', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '294', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '4775', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '4817', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('593', '443', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '5061', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '299', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '1847', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '1017', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '671', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '4609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '5060', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '434', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '2314', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '5059', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '1987', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '2672', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '5058', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '3794', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '920', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '5057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '117', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '916', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('594', '1245', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '842', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '616', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5062', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5057', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '626', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '818', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '486', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '2649', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '305', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '332', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5063', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5064', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '357', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5065', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5066', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '3024', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5067', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5068', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5069', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5070', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '898', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5059', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5071', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '2068', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5072', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5073', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '460', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '832', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5074', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5075', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5076', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '2340', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5077', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5078', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '952', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5079', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '1015', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '231', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '232', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5044', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5049', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '1369', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5080', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '2942', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '659', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '5081', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('595', '253', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '1916', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '117', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '350', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '5082', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '5083', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '4563', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '475', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '5084', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '5085', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '2409', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '455', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '4553', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '1145', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '2789', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '394', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '5086', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '1259', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '296', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '2386', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '1846', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '1158', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '1916', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '1145', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '394', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('596', '296', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('597', '421', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('597', '4563', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('597', '5087', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('597', '5084', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('597', '2995', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('597', '4619', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('597', '394', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('597', '166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '3125', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '2736', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '2424', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '2975', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '807', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '85', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '2789', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '164', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '5088', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '5089', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '1822', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '5090', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '5091', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '1924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '2155', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '2099', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '182', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '183', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('598', '614', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '2155', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '1924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '2820', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '1443', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '3419', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '394', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '5093', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '232', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '279', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '78', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('599', '203', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '5094', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '19', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '91', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '102', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '232', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '797', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '371', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '5094', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('600', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('601', '3263', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '334', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '89', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '350', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '1002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '5095', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '164', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '337', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '2655', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '1002', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('602', '5095', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('603', '89', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('603', '1002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('603', '203', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('603', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('603', '936', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('603', '2455', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('603', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('603', '337', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('603', '1443', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('603', '1259', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '5094', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '5096', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '5097', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '5098', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '5099', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '354', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '668', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '1359', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '2060', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '269', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '1052', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '5100', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '939', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '3699', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '904', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '2555', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '3181', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '2829', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '3183', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '173', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '443', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '2060', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '904', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('604', '3181', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('605', '188', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('605', '3426', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('605', '1359', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('605', '2060', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('605', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('605', '904', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('605', '2555', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('605', '3181', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('605', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('605', '95', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('606', '2827', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('606', '647', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('606', '19', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('606', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('606', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('606', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('606', '107', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('606', '371', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('606', '5101', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('606', '2975', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '5102', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '3059', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '186', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '3051', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '5103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '5104', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '801', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '5105', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '421', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '3693', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '708', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '2206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '709', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '428', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '2311', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '434', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '1442', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '351', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '5106', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '1154', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('607', '2386', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('608', '1896', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('608', '2060', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('608', '814', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('608', '5107', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('608', '903', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('608', '904', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('608', '3181', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '706', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5109', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5110', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5111', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5112', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5113', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '118', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '812', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '2059', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '992', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '133', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5116', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5117', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '142', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5118', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5119', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5120', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '1134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5121', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '411', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '322', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '2176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '223', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5122', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5123', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5124', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5125', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5126', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5127', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5128', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5129', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5130', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '1966', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5131', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5132', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '1251', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5135', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '874', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5136', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5137', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5138', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5108', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '118', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '137', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('609', '5133', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('610', '19', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('610', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('610', '370', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('610', '371', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('610', '2028', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('610', '5108', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('610', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('611', '106', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('611', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('611', '1948', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('611', '4497', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('611', '134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('611', '1140', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('611', '364', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('611', '1149', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('611', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('611', '1008', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('611', '1156', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '1140', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '134', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '1451', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '106', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '1149', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '102', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '683', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('612', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('612', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('612', '4737', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('612', '1373', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('612', '332', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '2676', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '407', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '316', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '2061', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '890', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '137', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '5141', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '454', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '940', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '719', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '329', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '364', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '405', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '103', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('613', '372', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '1140', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '411', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '19', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '18', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '1451', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '106', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '683', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('614', '1149', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('615', '3428', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('615', '1155', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('615', '1017', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '106', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '1865', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '1451', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '18', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '350', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '922', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '19', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '708', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '2524', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '411', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '1140', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '5006', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '683', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '102', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '1149', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '106', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '1451', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '134', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '1140', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '683', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('616', '1149', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '5142', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '357', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '708', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '77', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '92', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '64', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '2524', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '610', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '5143', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '5144', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '951', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '1149', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '959', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '115', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '5145', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('617', '182', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('618', '1188', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5146', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5147', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '706', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5148', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '2390', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '255', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '1728', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5150', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5151', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '1359', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '2060', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '2540', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '2735', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5152', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '1371', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '427', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5153', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '2738', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '1052', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '3271', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '137', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '1423', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '78', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '144', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '3810', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5154', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '219', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '3246', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5155', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5156', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '4991', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '4675', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '2555', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '947', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '3181', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '163', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '2342', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '288', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '102', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5157', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '2085', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '351', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '2052', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '1369', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '243', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '1835', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '1070', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '441', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '2799', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5158', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5160', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '5149', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('619', '947', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '255', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '261', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '5162', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '1359', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '73', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '5163', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '3474', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '311', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '830', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '2555', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '3181', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '163', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '288', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '611', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '1861', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '4800', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('620', '441', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('621', '5164', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '1162', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '2055', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '73', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '1002', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '680', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '3277', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '5165', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '901', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '2892', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '163', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '288', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '2791', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '3620', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '1822', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '2099', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '1932', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '901', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('622', '392', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('623', '1039', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('623', '2193', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('623', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('623', '4814', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('623', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('623', '901', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('623', '2176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('623', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('624', '1162', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('624', '1763', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('624', '146', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('624', '4570', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('624', '4602', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('624', '4604', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('624', '2001', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('624', '161', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('624', '5166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('624', '1443', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('625', '256', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('625', '19', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('625', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('625', '411', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('625', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('625', '364', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('625', '370', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('625', '2028', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('625', '5167', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('625', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '1849', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '70', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5168', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5169', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '919', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '2061', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5170', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5171', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '2425', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5172', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '4533', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5173', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5174', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5175', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '64', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '433', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5178', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '457', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '413', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '480', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5179', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '314', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '2517', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5180', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5171', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('626', '5173', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '70', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '18', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '1896', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '992', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '1265', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '5181', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '5182', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '460', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '2682', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '1155', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '4936', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '5183', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '2155', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '5181', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '206', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '4936', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('627', '2155', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '18', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '261', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '316', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '19', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '421', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '262', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '2735', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '2736', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '75', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '925', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '990', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '992', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '201', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '2778', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '2711', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '76', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '137', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '78', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '5184', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '5185', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '3727', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '428', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '97', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '80', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '2554', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '2975', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '455', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '845', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '5186', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '609', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '3668', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '3330', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '809', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '2755', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '404', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '1154', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '2682', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '5187', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '442', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '1370', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '2155', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('628', '2216', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '5094', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '482', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '5188', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '188', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1253', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '334', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1013', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '5189', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '647', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '626', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '128', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '5190', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '305', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '5191', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '5192', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1396', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '368', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '5193', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1186', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '716', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '454', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '5194', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '98', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '279', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '3319', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1140', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '2509', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '5195', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1365', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1909', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '290', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '683', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '2013', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '5196', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '232', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '113', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '4554', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '2979', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '5197', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1149', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '107', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '641', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '5167', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1451', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '647', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '2711', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1140', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '683', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '1149', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('629', '103', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '5167', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '1451', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '626', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '588', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '2061', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '2064', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '2924', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '457', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '945', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '400', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '683', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '364', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '393', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '16', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '17', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '405', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '178', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '107', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '2504', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('630', '394', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '305', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '1448', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '2821', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '639', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '1443', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '3373', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '5205', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '389', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '2960', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '2535', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '5017', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '898', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '78', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '5204', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '1176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '5192', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '2773', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '5203', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '818', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '626', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '1039', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '4826', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '446', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '349', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '5094', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '2958', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('631', '5202', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '5202', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '2958', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '5094', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '1448', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '349', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '446', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '4826', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '1039', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '626', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '818', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '5203', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '305', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '332', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '2773', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '5192', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '1176', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '5204', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '134', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '1052', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '78', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '898', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '5017', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '2535', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '607', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '2960', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '1209', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '389', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '5205', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '3373', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '660', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '1443', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '639', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '2821', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '180', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '5206', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('632', '990', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '1275', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5207', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '1166', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '801', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '1170', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '422', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5208', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5209', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '1292', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '2774', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5210', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '1052', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '92', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '206', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '139', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '308', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5211', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5212', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '385', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '2297', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '215', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '98', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '280', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '831', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5213', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5214', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '389', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '159', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '329', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5215', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '1221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5216', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '415', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '4554', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '351', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '701', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5217', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '1229', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '95', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5218', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5219', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5220', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '2656', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '613', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '1158', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('633', '5221', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '2827', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '3734', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '192', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '128', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '90', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '200', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '5222', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '708', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '5223', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '208', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '1024', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '3818', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '146', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '2300', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '936', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '5224', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '5225', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '5226', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '1474', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '279', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '83', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '5227', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '5228', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '2754', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '683', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '5229', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '403', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '4554', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '2979', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '5230', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '404', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '5231', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '2722', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '708', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '83', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '5227', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '2754', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('634', '683', '1');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '589', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '1487', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '853', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '427', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '210', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '148', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '64', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '23', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '98', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '5232', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '389', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '2195', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '437', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '114', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('635', '3252', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '3324', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '2680', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '5239', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '1274', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '142', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '308', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '5238', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '5237', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '2081', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '5240', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '1442', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '5241', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '2085', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '177', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '5242', '0');
+INSERT INTO phpbb_search_wordmatch (post_id, word_id, title_match) VALUES('636', '1240', '0');
 #
 # TABLE: phpbb_sessions
 #
@@ -17118,13 +22874,31 @@ CREATE TABLE phpbb_sessions(
 # Table Data for phpbb_sessions
 #
 
-INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('072ceac5ae4a650af111328e94cbfbec', '34', '1137574457', '1137581769', 'a66f40b0', '0', '1', '0');
-INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('2c1534934ff52b4eaedc034ac9b36490', '3', '1137581689', '1137582249', '56822d5b', '0', '1', '1');
-INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('9e83c6f5d03ceaaabcc77e55877a6fba', '3', '1137582152', '1137582152', '56822d5b', '0', '1', '0');
-INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('6dbc3ba4a19799d3b7eaf68dcf36a90e', '3', '1137581484', '1137581484', '56822d5b', '0', '1', '0');
-INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('f46bf18226febc8a69e18f741f7d9d3e', '-1', '1137579787', '1137579787', '53d51dda', '12', '0', '0');
-INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('30a8fd13e3719e67772298126d92abaf', '-1', '1137579420', '1137579420', '54e69e55', '0', '0', '0');
-INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('02db75c3a04b47a9fa6bee920d1a3b7f', '-1', '1137578912', '1137578912', 'c3d29fc2', '0', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('c35b5aa68838534e71058be280adfd4a', '-1', '1161421791', '1161421791', '42f9420b', '1', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('e3dcda0581ae15d6419e93ded6b76529', '-1', '1161421584', '1161421584', '42f9420b', '15', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('d1584f96ff3d399f8bb1b0e22fb9569b', '-1', '1161417942', '1161418005', 'd217733e', '6', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('3e478bc292e34fd36aa05ed58231fdc2', '-1', '1161415780', '1161415780', 'dbd43498', '0', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('d0ea229654cb553ec758362f8b190c5a', '-1', '1161414666', '1161414666', '42f9420b', '15', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('ea4746c7c18ef557a823ad8ed16cce40', '-1', '1161414504', '1161414504', '42f9420b', '12', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('e118b5540ed4c7c43d8f6e4b7a545c10', '-1', '1161421211', '1161421211', 'cf2cc275', '0', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('9be2f9960a8f8cf550af10f39f08b585', '3', '1161422100', '1161422100', '56822b7c', '0', '1', '1');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('715db08d457819f6613c2645b17f1da8', '-1', '1161420955', '1161420955', 'ddae9843', '15', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('23e872a95ab4717565b0343e75fefe15', '-1', '1161420297', '1161420297', '42f9420b', '-4', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('f12a033bd9365de5bc8d600ee0a59f4a', '-1', '1161419935', '1161419935', '56822b7c', '0', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('04bd8c629d2960aa1dcc3dc619fd2035', '-1', '1161419645', '1161419645', '40f25832', '15', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('dfa3f98cb1315e23e2146643fa99f907', '-1', '1161419291', '1161419291', 'a5f64a5e', '-4', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('9b6889ebf52b316559f56af4c4a01cd8', '-1', '1161419073', '1161419073', '42f9420b', '15', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('5e7b6b17d6380f4fe588257cb5cf23b3', '-1', '1161418923', '1161418923', '42f9420b', '0', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('5ee59d834219004c5e2974446f2090df', '-1', '1161414489', '1161414489', '42f9420b', '1', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('7eaa9c86860077c64d3318c12fd5bb40', '-1', '1161414469', '1161414469', '42f9420b', '0', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('ffb04f1014870eab47c7e4e1e531b7a4', '-1', '1161414452', '1161414452', '42f9420b', '15', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('be576d5441d798b9588f83d620d34fe4', '-1', '1161414432', '1161414432', '42f9420b', '1', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('8b40f8e07f15e8b16b40af2f3cccf586', '-1', '1161414414', '1161414414', '42f9420b', '1', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('861e3929a3423bd06322a9ecb1642a93', '3', '1161418902', '1161418902', '56822b7c', '0', '1', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('44e82d39988732b320d83f0c76e5bb54', '-1', '1161418780', '1161418780', '40f25832', '12', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('ee0d805af67f9ee382db8c83b3ced5df', '-1', '1161418765', '1161418765', '42f9420b', '0', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('7c9211f927c03236d402de164749cca6', '-1', '1161418733', '1161418733', '42f9420b', '0', '0', '0');
+INSERT INTO phpbb_sessions (session_id, session_user_id, session_start, session_time, session_ip, session_page, session_logged_in, session_admin) VALUES('4e25cd6f07bd793f30c48bb69444e016', '-1', '1161418494', '1161418494', '56807809', '15', '0', '0');
 #
 # TABLE: phpbb_smilies
 #
@@ -17312,158 +23086,215 @@ CREATE TABLE phpbb_topics(
 # Table Data for phpbb_topics
 #
 
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('8', '14', 'Do not ask where to find ROMs. No ROM Requests!', '3', '1112999523', '1448', '0', '1', '0', '1', '8', '8', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('4', '15', 'Do not ask where to find ROMs. No ROM Requests!', '3', '1112912141', '1411', '0', '1', '0', '1', '4', '4', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('5', '12', 'Do not ask where to find ROMs. No ROM Requests!', '3', '1112912200', '1359', '0', '1', '0', '1', '5', '5', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('10', '15', 'Pacifi 3D new version...', '4', '1113250486', '1957', '2', '0', '0', '0', '11', '17', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('7', '1', 'New Forums', '3', '1112912388', '1392', '0', '0', '0', '0', '7', '7', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('11', '14', 'Chasing dat file for MAME v0.84', '9', '1113262181', '1966', '1', '0', '0', '1', '12', '13', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('12', '15', 'It\'s getting dangerous', '4', '1113408729', '2336', '2', '0', '0', '0', '14', '22', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('13', '1', 'Pacifi3D v0.3', '3', '1113420068', '1472', '0', '0', '0', '0', '16', '16', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('14', '15', 'Help me with this compelling idea!', '14', '1113514182', '2297', '2', '0', '0', '0', '18', '20', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('15', '9', 'Core for a rom manager?', '4', '1114001881', '1130', '0', '0', '0', '0', '23', '23', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('16', '15', 'As a moderator, I check these boards several times a day...', '4', '1114267323', '3323', '6', '0', '0', '0', '24', '36', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('17', '12', 'Is there a place to find old MAME DATs?', '20', '1114635760', '2589', '3', '0', '0', '1', '27', '30', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('18', '15', 'MAME 0.96', '4', '1115146949', '1410', '0', '0', '0', '0', '31', '31', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('19', '1', 'MAME v0.96', '3', '1115497456', '1306', '0', '0', '0', '0', '32', '32', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('20', '6', 'So does ROMBuild do Zinc anymore?', '25', '1116171568', '1414', '1', '0', '0', '0', '37', '38', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('21', '3', 'MameDiff Question', '26', '1116369124', '1780', '2', '0', '0', '0', '39', '41', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('22', '15', 'Double Dragon(Neo Geo)', '29', '1117002358', '2723', '5', '0', '0', '0', '42', '47', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('23', '3', 'mamediff tab delim layout', '31', '1117223179', '2323', '4', '0', '0', '1', '48', '52', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('24', '15', 'mx27l1000.u14 file', '32', '1117809249', '2300', '2', '0', '0', '0', '53', '55', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('25', '1', 'MAME v0.97', '3', '1118093293', '1205', '1', '0', '0', '0', '56', '57', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('26', '15', 'Hello, is anybody there?', '4', '1118511919', '1131', '0', '0', '0', '0', '58', '58', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('27', '12', 'An sha1 mistake about uni-bios in NeoGeo data for cm?', '34', '1118580023', '3222', '8', '0', '0', '0', '59', '94', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('28', '15', 'Well, at least there\'s something positive...', '4', '1119453086', '1542', '2', '0', '0', '0', '67', '69', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('29', '15', 'Confusion about ROM updates', '41', '1120140689', '1833', '3', '0', '0', '0', '70', '73', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('31', '1', 'MAME 0.98', '4', '1121117395', '1343', '2', '0', '0', '0', '74', '76', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('32', '12', 'Looks like you forgot the CPS2 dats.....', '45', '1121474606', '1117', '1', '0', '0', '0', '77', '80', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('33', '3', 'datutil truncates descriptions?', '46', '1121593900', '1772', '4', '0', '0', '0', '78', '83', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('34', '15', 'X-Men Vs. Street Fighter (USA 961023)', '34', '1122001000', '921', '0', '0', '0', '0', '84', '84', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('35', '15', 'i\'m a newbie pls help', '47', '1122277699', '879', '0', '0', '0', '0', '85', '85', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('36', '12', 'DAT Errors or Impossible to find roms?', '48', '1122680833', '2270', '10', '0', '0', '0', '86', '154', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('37', '1', 'CAESAR gone PHP!', '3', '1122718139', '1009', '0', '0', '0', '0', '87', '87', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('38', '15', 'CAESAR gone PHP!', '3', '1122718186', '1461', '4', '0', '0', '1', '88', '97', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('39', '15', 'CAESAR Updates', '3', '1122838669', '1502', '4', '0', '0', '0', '96', '113', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('40', '12', 'Tickle Rebound Edition is fixs.', '49', '1122967936', '1811', '7', '0', '0', '0', '98', '111', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('41', '15', 'JEmu2 online', '4', '1123089979', '758', '0', '0', '0', '0', '101', '101', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('42', '1', 'MAME v0.99', '3', '1123492506', '720', '0', '0', '0', '0', '102', '102', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('43', '15', 'Uhmmmm....', '4', '1123845823', '689', '0', '0', '0', '0', '103', '103', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('44', '1', 'New Look', '3', '1124405718', '585', '0', '0', '0', '0', '104', '104', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('45', '14', 'dat download', '51', '1124827102', '1168', '3', '0', '0', '0', '114', '121', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('46', '12', 'M1 0.7.5 is out. But I try to make a dat and it won\'t do it.', '49', '1124830420', '1244', '6', '0', '0', '0', '115', '128', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('47', '9', 'DatLib v2.6', '3', '1125519456', '498', '0', '0', '0', '0', '122', '122', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('48', '3', 'DatUtil v2.18 and MAMEDiff v2.17', '3', '1125519583', '503', '0', '0', '0', '0', '123', '123', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('49', '1', 'RAINE v0.43.0', '3', '1125519686', '501', '0', '0', '0', '0', '125', '125', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('50', '1', 'M1 v0.7.6', '3', '1125519715', '494', '0', '0', '0', '0', '126', '126', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('51', '1', 'M1 v0.7.7', '3', '1125757588', '470', '0', '0', '0', '0', '129', '129', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('52', '1', 'Compile Guides', '3', '1125757644', '475', '0', '0', '0', '0', '130', '130', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('53', '15', 'M1 v0.7.7, RAINE 0.43.0, MinGW + Libraries', '3', '1125757843', '493', '0', '0', '0', '0', '131', '131', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('54', '15', 'Daphne v0.99.7pre5', '49', '1125890667', '743', '3', '0', '0', '0', '132', '137', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('55', '15', 'Raine 0.43.1 : Haze\'s games !', '49', '1125967923', '713', '2', '0', '0', '0', '138', '144', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('58', '12', 'How can I make a cmpro dat for Daphne?', '49', '1126336394', '844', '5', '0', '0', '0', '145', '213', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('59', '15', 'Nebula 2.25 is out.', '49', '1126385205', '871', '4', '0', '0', '0', '147', '184', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('60', '15', 'Mame32 0.100/Mame 0.100/MAME32FX 0.100 is release.', '49', '1126731670', '975', '7', '0', '0', '0', '155', '177', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('61', '14', 'Nebula 2.25 dat', '60', '1126799992', '766', '3', '0', '0', '0', '157', '183', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('62', '15', 'Namco History Vol 4', '62', '1126894057', '480', '1', '0', '0', '0', '163', '164', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('63', '1', 'MAME v0.100', '3', '1126964102', '359', '0', '0', '0', '0', '167', '167', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('64', '1', 'RAINE v0.43.1', '3', '1126964118', '350', '0', '0', '0', '0', '168', '168', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('65', '1', 'Nebula v2.25', '3', '1126964133', '411', '1', '0', '0', '0', '169', '182', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('66', '1', 'CPS-1 20050917', '3', '1126964154', '356', '0', '0', '0', '0', '170', '170', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('67', '1', 'CPS-2 20050916', '3', '1126964169', '372', '0', '0', '0', '0', '171', '171', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('68', '1', 'DatLib v2.7, DatUtil v2.19 and MAMEDiff v2.18', '3', '1126964228', '530', '3', '0', '0', '0', '172', '179', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('69', '9', 'DatLib v2.7', '3', '1126964268', '369', '0', '0', '0', '0', '173', '173', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('70', '3', 'DatUtil v2.19 and MAMEDiff v2.18', '3', '1126964296', '367', '0', '0', '0', '0', '174', '174', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('71', '1', 'CAESAR updates (MAME 0.100, RAINE 0.43.1, Nebula 2.25 +more)', '3', '1127073741', '406', '1', '0', '0', '0', '185', '187', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('72', '15', 'CAESAR updates', '3', '1127073794', '390', '0', '0', '0', '0', '186', '186', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('73', '12', 'SHA-1 values for roms in clrmamepro dats', '63', '1127078389', '659', '3', '0', '0', '0', '188', '194', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('74', '15', 'Street Fighter III 3rd Strike: Fight for the Future', '64', '1127086360', '576', '2', '0', '0', '0', '189', '191', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('75', '1', 'ClrMamePro WWW Update', '3', '1127430753', '844', '4', '0', '0', '1', '195', '202', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('76', '12', 'ClrMamePro v3.80 - WWW update', '3', '1127431128', '428', '0', '0', '0', '1', '196', '196', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('77', '12', 'JAS-SYS1 b1.2', '66', '1127468293', '411', '1', '0', '0', '0', '200', '201', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('78', '1', 'RAINE v0.43.2', '3', '1127686209', '273', '0', '0', '0', '0', '203', '203', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('79', '15', 'Offical DAPHNE v0.99.7 (Sep 24th, 2005) release!!!', '49', '1127763595', '322', '0', '0', '0', '0', '204', '204', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('80', '15', 'KI hd restoring from image, help please', '67', '1128011569', '410', '2', '0', '0', '0', '205', '207', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('81', '12', 'Nebula 2.25 Dat', '69', '1128125391', '449', '3', '0', '0', '0', '208', '216', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('82', '1', 'Daphne v0.99.7', '3', '1128159806', '327', '2', '0', '0', '0', '211', '217', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('83', '1', 'CAESAR Updates (Daphne and a few MAME/MultiPac ports)', '3', '1128370354', '207', '0', '0', '0', '0', '218', '218', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('84', '1', 'CAESAR Update (JEmu2 1.6.1)', '3', '1128442925', '236', '0', '0', '0', '0', '219', '219', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('85', '1', 'CAESAR Improvements (Minor)', '3', '1128462744', '209', '0', '0', '0', '0', '220', '220', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('86', '1', 'DatLib v2.8, DatUtil v2.20, MAMEDiff v2.19', '3', '1128546492', '202', '0', '0', '0', '0', '221', '221', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('87', '9', 'DatLib v2.8', '3', '1128546516', '215', '0', '0', '0', '0', '222', '222', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('88', '3', 'DatUtil v2.20 and MAMEDiff v2.19', '3', '1128546536', '236', '0', '0', '0', '0', '223', '223', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('89', '6', 'ROMBuild v2.7', '3', '1128546586', '262', '0', '0', '0', '0', '224', '224', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('90', '1', 'ROMBuild v2.7', '3', '1128546608', '217', '0', '0', '0', '0', '225', '225', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('91', '1', 'MAME v0.101', '3', '1128931165', '510', '7', '0', '0', '0', '226', '242', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('92', '12', 'Warnings when loading MAME 0.101 dat', '71', '1128977707', '443', '4', '0', '0', '0', '230', '239', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('93', '1', 'CAESAR update (MAME v0.101)', '3', '1128984479', '187', '0', '0', '0', '0', '235', '235', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('94', '1', 'CAESAR Improvements (History and MAMEInfo)', '3', '1128984753', '244', '2', '0', '0', '0', '236', '243', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('95', '15', 'CAESAR (History and MAMEInfo)', '3', '1128984830', '191', '0', '0', '0', '0', '237', '237', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('96', '1', 'CAESAR Enhancement - Emulator/Author/Contributor Search', '3', '1129065303', '265', '3', '0', '0', '0', '244', '291', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('97', '15', 'CAESAR Enhancement - Emulator/Author/Contributor Search', '3', '1129065352', '182', '0', '0', '0', '0', '245', '245', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('98', '1', 'CAESAR Improvements', '3', '1129152642', '179', '0', '0', '0', '0', '247', '247', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('99', '15', 'CAESAR Changes made tonight...', '3', '1129152699', '171', '0', '0', '0', '0', '248', '248', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('100', '3', 'Suggestion/Request for datutil', '73', '1129538134', '384', '9', '0', '0', '0', '249', '271', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('101', '1', 'Forum moved to http://forum.logiqx.com/', '3', '1129993498', '82', '0', '0', '0', '0', '252', '252', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('102', '1', 'CAESAR image updates (flyers and snaps)', '3', '1129994350', '171', '3', '0', '0', '0', '253', '295', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('103', '15', 'New flyers and MAME snapshots', '3', '1129994404', '92', '0', '0', '0', '0', '254', '254', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('104', '3', '&quot;Unrecognised Escape Seq&quot; Problem with Subdirs', '77', '1130050397', '148', '3', '0', '0', '0', '255', '258', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('105', '1', 'CAESAR updates (JEmu2 and PotatoMulti)', '3', '1130089610', '78', '0', '0', '0', '0', '259', '259', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('106', '15', 'JEmu2 v1.7 and PotatoMulti', '3', '1130089659', '164', '3', '0', '0', '0', '260', '296', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('107', '3', 'DatUtil v2.21 and MAMEDiff v2.20', '3', '1130536401', '96', '0', '0', '0', '0', '262', '262', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('108', '9', 'DatLib v2.9', '3', '1130536437', '93', '0', '0', '0', '0', '263', '263', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('109', '1', 'DatLib v2.9, DatUtil v2.21 and MAMEDiff v2.20', '3', '1130536570', '80', '0', '0', '0', '0', '264', '264', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('110', '3', 'DU behavior', '79', '1130612170', '323', '7', '0', '0', '0', '272', '310', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('111', '15', 'JEmu2 v1.8', '3', '1130712606', '97', '1', '0', '0', '0', '274', '281', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('112', '3', 'mamediff not working with new mame 0101u4', '80', '1130714089', '127', '1', '0', '0', '0', '275', '276', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('113', '15', 'Lmao at the pumpkins', '4', '1130768667', '90', '1', '0', '0', '0', '280', '300', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('114', '3', 'DatUtil v2.21, MAMEDiff v2.20 and ImgChk v2.6', '3', '1130798826', '105', '0', '0', '0', '0', '282', '282', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('115', '6', 'ROMInfo v2.4 and ZIPIdent v2.5', '3', '1130798873', '118', '0', '0', '0', '0', '283', '283', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('116', '9', 'DatLib v2.10', '3', '1130798900', '121', '0', '0', '0', '0', '284', '284', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('117', '1', 'Tool updates for MAME/MESS v0.101u4', '3', '1130798990', '80', '0', '0', '0', '0', '285', '285', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('118', '15', 'I dont Know... how to read (WinKawaks usage)', '82', '1130931799', '121', '2', '1', '0', '0', '287', '297', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('119', '15', 'winKawaks 1.54', '82', '1130998331', '144', '3', '1', '0', '0', '298', '302', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('120', '15', 'System16 update', '4', '1131038385', '73', '0', '0', '0', '0', '303', '303', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('121', '3', 'Question', '79', '1131228255', '119', '1', '0', '0', '0', '305', '309', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('122', '1', 'Logiqx.com is back!', '3', '1131667079', '111', '0', '0', '0', '0', '306', '306', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('123', '3', 'DatLib v2.11 and DatUtil v2.23', '3', '1131896978', '91', '0', '0', '0', '0', '307', '307', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('124', '1', 'DatLib v2.11 and DatUtil v2.23', '3', '1131897032', '93', '0', '0', '0', '0', '308', '308', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('125', '12', 'Is there going to be a update on Neo-Geo dat?', '49', '1132709389', '195', '3', '0', '0', '0', '311', '323', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('126', '12', '0.102 ?', '85', '1133015814', '157', '4', '0', '0', '0', '314', '322', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('127', '15', 'CAESAR Updates', '3', '1133112874', '99', '2', '0', '0', '0', '316', '325', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('128', '1', 'MAME v0.102', '3', '1133113126', '122', '3', '0', '0', '0', '317', '349', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('129', '15', 'Various Updates', '3', '1133219023', '48', '0', '0', '0', '0', '324', '324', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('130', '15', 'Taito Legends', '3', '1133305170', '60', '0', '0', '0', '0', '326', '326', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('131', '15', 'Kawaks v1.55 released!!!', '49', '1133570348', '109', '1', '0', '0', '0', '327', '357', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('132', '3', 'datutil - a couple of problems from RC to CM', '46', '1133701114', '228', '6', '0', '0', '0', '328', '342', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('133', '3', 'DatUtil v2.24, MAMEDiff v2.22', '3', '1133825231', '66', '0', '0', '0', '0', '331', '331', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('134', '9', 'DatLib v2.12', '3', '1133825304', '65', '0', '0', '0', '0', '332', '332', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('135', '6', 'ROMInfo v2.5 and ZIPIdent v2.6', '3', '1133825344', '64', '0', '0', '0', '0', '333', '333', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('136', '1', 'Tool Releases', '3', '1133825437', '70', '1', '0', '0', '0', '334', '341', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('137', '3', 'DatUtil v2.25, MAMEDiff v2.23', '3', '1133908263', '71', '0', '0', '0', '0', '338', '338', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('138', '6', 'ROMInfo v2.6 and ZIPIdent v2.7', '3', '1133908318', '76', '0', '0', '0', '0', '339', '339', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('139', '9', 'DatLib v2.13', '3', '1133908357', '67', '0', '0', '0', '0', '340', '340', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('140', '15', 'Kawaks v1.55 data files', '16', '1133942642', '157', '6', '0', '0', '0', '343', '355', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('141', '15', 'RSS?', '34', '1134108127', '75', '2', '0', '0', '0', '351', '353', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('142', '1', 'Kawaks v1.55', '3', '1134229328', '64', '0', '0', '0', '0', '354', '354', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('143', '1', 'Neo-Geo 20051212', '3', '1134507535', '147', '4', '0', '0', '0', '356', '362', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('144', '15', 'Neo-Geo stuff in CAESAR', '3', '1134507802', '62', '0', '0', '0', '0', '358', '358', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('145', '1', 'Busted up pretty bad!', '3', '1135190077', '116', '2', '0', '0', '0', '363', '365', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('146', '1', 'MAME v0.103', '3', '1136384900', '86', '4', '0', '0', '0', '366', '390', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('147', '3', 'merging dats', '93', '1136565309', '235', '19', '0', '0', '0', '370', '393', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('148', '15', 'CAESAR Update (MAME 0.103)', '3', '1136673560', '32', '0', '0', '0', '0', '389', '389', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('149', '3', 'MAMEDiff v2.24', '3', '1136819732', '139', '9', '0', '0', '0', '391', '421', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('150', '1', 'MAMEDiff v2.24', '3', '1136819771', '29', '0', '0', '0', '0', '392', '392', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('151', '12', 'Future MAME data files', '3', '1136843594', '217', '6', '0', '0', '1', '394', '401', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('152', '14', 'Future MAME data files', '3', '1136843700', '46', '0', '1', '0', '1', '395', '395', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('153', '14', 'Kawaks 1.55 split-merged supplement question', '94', '1136929000', '103', '5', '0', '0', '0', '402', '413', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('154', '12', 'Creating supplements for FBA, Kawaks, etc', '93', '1137066446', '105', '14', '0', '0', '0', '407', '441', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('155', '9', 'DatLib v2.14', '3', '1137086540', '26', '0', '0', '0', '0', '427', '427', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('156', '3', 'DatUtil v2.26', '3', '1137086596', '77', '4', '0', '0', '0', '428', '447', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('157', '1', 'DatLib v2.14 and DatUtil v2.26', '3', '1137086762', '25', '0', '0', '0', '0', '429', '429', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('158', '3', 'KOF2003 in MAME v0.103u2', '13', '1137091996', '155', '17', '0', '0', '0', '430', '458', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('159', '9', 'DatLib v2.15', '3', '1137158890', '21', '0', '0', '0', '0', '444', '444', '0');
-INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('160', '3', 'DatUtil v2.27', '3', '1137158944', '23', '0', '0', '0', '0', '445', '445', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('8', '14', 'Do not ask where to find ROMs. No ROM Requests!', '3', '1112999523', '1902', '0', '1', '0', '1', '8', '8', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('4', '15', 'Do not ask where to find ROMs. No ROM Requests!', '3', '1112912141', '1695', '0', '1', '0', '1', '4', '4', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('5', '12', 'Do not ask where to find ROMs. No ROM Requests!', '3', '1112912200', '1639', '0', '1', '0', '1', '5', '5', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('10', '15', 'Pacifi 3D new version...', '4', '1113250486', '2253', '2', '0', '0', '0', '11', '17', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('7', '1', 'New Forums', '3', '1112912388', '1524', '0', '0', '0', '0', '7', '7', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('11', '14', 'Chasing dat file for MAME v0.84', '9', '1113262181', '2574', '1', '0', '0', '1', '12', '13', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('12', '15', 'It\'s getting dangerous', '4', '1113408729', '2662', '2', '0', '0', '0', '14', '22', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('13', '1', 'Pacifi3D v0.3', '3', '1113420068', '1652', '0', '0', '0', '0', '16', '16', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('14', '15', 'Help me with this compelling idea!', '14', '1113514182', '2607', '2', '0', '0', '0', '18', '20', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('15', '9', 'Core for a rom manager?', '4', '1114001881', '1488', '0', '0', '0', '0', '23', '23', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('16', '15', 'As a moderator, I check these boards several times a day...', '4', '1114267323', '3936', '6', '0', '0', '0', '24', '36', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('17', '12', 'Is there a place to find old MAME DATs?', '20', '1114635760', '3190', '3', '0', '0', '1', '27', '30', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('18', '15', 'MAME 0.96', '4', '1115146949', '1631', '0', '0', '0', '0', '31', '31', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('19', '1', 'MAME v0.96', '3', '1115497456', '1516', '0', '0', '0', '0', '32', '32', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('20', '6', 'So does ROMBuild do Zinc anymore?', '25', '1116171568', '1884', '1', '0', '0', '0', '37', '38', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('21', '3', 'MameDiff Question', '26', '1116369124', '2132', '2', '0', '0', '0', '39', '41', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('22', '15', 'Double Dragon(Neo Geo)', '29', '1117002358', '3387', '5', '0', '0', '0', '42', '47', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('23', '3', 'mamediff tab delim layout', '31', '1117223179', '2844', '4', '0', '0', '1', '48', '52', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('24', '15', 'mx27l1000.u14 file', '32', '1117809249', '3002', '2', '0', '0', '0', '53', '55', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('25', '1', 'MAME v0.97', '3', '1118093293', '1487', '1', '0', '0', '0', '56', '57', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('26', '15', 'Hello, is anybody there?', '4', '1118511919', '1367', '0', '0', '0', '0', '58', '58', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('27', '12', 'An sha1 mistake about uni-bios in NeoGeo data for cm?', '34', '1118580023', '4460', '8', '0', '0', '0', '59', '94', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('28', '15', 'Well, at least there\'s something positive...', '4', '1119453086', '1887', '2', '0', '0', '0', '67', '69', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('29', '15', 'Confusion about ROM updates', '41', '1120140689', '2600', '3', '0', '0', '0', '70', '73', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('31', '1', 'MAME 0.98', '4', '1121117395', '1717', '2', '0', '0', '0', '74', '76', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('32', '12', 'Looks like you forgot the CPS2 dats.....', '45', '1121474606', '1510', '1', '0', '0', '0', '77', '80', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('33', '3', 'datutil truncates descriptions?', '46', '1121593900', '2331', '4', '0', '0', '0', '78', '83', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('34', '15', 'X-Men Vs. Street Fighter (USA 961023)', '34', '1122001000', '1248', '0', '0', '0', '0', '84', '84', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('35', '15', 'i\'m a newbie pls help', '47', '1122277699', '1213', '0', '0', '0', '0', '85', '85', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('36', '12', 'DAT Errors or Impossible to find roms?', '48', '1122680833', '3768', '10', '0', '0', '0', '86', '154', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('37', '1', 'CAESAR gone PHP!', '3', '1122718139', '1295', '0', '0', '0', '0', '87', '87', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('38', '15', 'CAESAR gone PHP!', '3', '1122718186', '2126', '4', '0', '0', '1', '88', '97', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('39', '15', 'CAESAR Updates', '3', '1122838669', '2180', '4', '0', '0', '0', '96', '113', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('40', '12', 'Tickle Rebound Edition is fixs.', '49', '1122967936', '2843', '7', '0', '0', '0', '98', '111', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('41', '15', 'JEmu2 online', '4', '1123089979', '1062', '0', '0', '0', '0', '101', '101', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('42', '1', 'MAME v0.99', '3', '1123492506', '950', '0', '0', '0', '0', '102', '102', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('43', '15', 'Uhmmmm....', '4', '1123845823', '988', '0', '0', '0', '0', '103', '103', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('44', '1', 'New Look', '3', '1124405718', '812', '0', '0', '0', '0', '104', '104', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('45', '14', 'dat download', '51', '1124827102', '2035', '3', '0', '0', '0', '114', '121', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('46', '12', 'M1 0.7.5 is out. But I try to make a dat and it won\'t do it.', '49', '1124830420', '1951', '6', '0', '0', '0', '115', '128', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('47', '9', 'DatLib v2.6', '3', '1125519456', '865', '0', '0', '0', '0', '122', '122', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('48', '3', 'DatUtil v2.18 and MAMEDiff v2.17', '3', '1125519583', '704', '0', '0', '0', '0', '123', '123', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('49', '1', 'RAINE v0.43.0', '3', '1125519686', '741', '0', '0', '0', '0', '125', '125', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('50', '1', 'M1 v0.7.6', '3', '1125519715', '739', '0', '0', '0', '0', '126', '126', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('51', '1', 'M1 v0.7.7', '3', '1125757588', '705', '0', '0', '0', '0', '129', '129', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('52', '1', 'Compile Guides', '3', '1125757644', '700', '0', '0', '0', '0', '130', '130', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('53', '15', 'M1 v0.7.7, RAINE 0.43.0, MinGW + Libraries', '3', '1125757843', '795', '0', '0', '0', '0', '131', '131', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('54', '15', 'Daphne v0.99.7pre5', '49', '1125890667', '1261', '3', '0', '0', '0', '132', '137', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('55', '15', 'Raine 0.43.1 : Haze\'s games !', '49', '1125967923', '1135', '2', '0', '0', '0', '138', '144', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('58', '12', 'How can I make a cmpro dat for Daphne?', '49', '1126336394', '1448', '5', '0', '0', '0', '145', '213', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('59', '15', 'Nebula 2.25 is out.', '49', '1126385205', '1475', '4', '0', '0', '0', '147', '184', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('60', '15', 'Mame32 0.100/Mame 0.100/MAME32FX 0.100 is release.', '49', '1126731670', '1856', '7', '0', '0', '0', '155', '177', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('61', '14', 'Nebula 2.25 dat', '60', '1126799992', '1434', '3', '0', '0', '0', '157', '183', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('62', '15', 'Namco History Vol 4', '62', '1126894057', '831', '1', '0', '0', '0', '163', '164', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('63', '1', 'MAME v0.100', '3', '1126964102', '584', '0', '0', '0', '0', '167', '167', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('64', '1', 'RAINE v0.43.1', '3', '1126964118', '573', '0', '0', '0', '0', '168', '168', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('65', '1', 'Nebula v2.25', '3', '1126964133', '721', '1', '0', '0', '0', '169', '182', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('66', '1', 'CPS-1 20050917', '3', '1126964154', '567', '0', '0', '0', '0', '170', '170', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('67', '1', 'CPS-2 20050916', '3', '1126964169', '596', '0', '0', '0', '0', '171', '171', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('68', '1', 'DatLib v2.7, DatUtil v2.19 and MAMEDiff v2.18', '3', '1126964228', '962', '3', '0', '0', '0', '172', '179', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('69', '9', 'DatLib v2.7', '3', '1126964268', '716', '0', '0', '0', '0', '173', '173', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('70', '3', 'DatUtil v2.19 and MAMEDiff v2.18', '3', '1126964296', '593', '0', '0', '0', '0', '174', '174', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('71', '1', 'CAESAR updates (MAME 0.100, RAINE 0.43.1, Nebula 2.25 +more)', '3', '1127073741', '683', '1', '0', '0', '0', '185', '187', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('72', '15', 'CAESAR updates', '3', '1127073794', '687', '0', '0', '0', '0', '186', '186', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('73', '12', 'SHA-1 values for roms in clrmamepro dats', '63', '1127078389', '1111', '3', '0', '0', '0', '188', '194', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('74', '15', 'Street Fighter III 3rd Strike: Fight for the Future', '64', '1127086360', '2248', '2', '0', '0', '0', '189', '191', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('75', '1', 'ClrMamePro WWW Update', '3', '1127430753', '1551', '4', '0', '0', '1', '195', '202', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('76', '12', 'ClrMamePro v3.80 - WWW update', '3', '1127431128', '780', '0', '0', '0', '1', '196', '196', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('77', '12', 'JAS-SYS1 b1.2', '66', '1127468293', '735', '1', '0', '0', '0', '200', '201', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('78', '1', 'RAINE v0.43.2', '3', '1127686209', '498', '0', '0', '0', '0', '203', '203', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('79', '15', 'Offical DAPHNE v0.99.7 (Sep 24th, 2005) release!!!', '49', '1127763595', '743', '0', '0', '0', '0', '204', '204', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('80', '15', 'KI hd restoring from image, help please', '67', '1128011569', '861', '2', '0', '0', '0', '205', '207', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('81', '12', 'Nebula 2.25 Dat', '69', '1128125391', '1080', '3', '0', '0', '0', '208', '216', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('82', '1', 'Daphne v0.99.7', '3', '1128159806', '775', '2', '0', '0', '0', '211', '217', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('83', '1', 'CAESAR Updates (Daphne and a few MAME/MultiPac ports)', '3', '1128370354', '472', '0', '0', '0', '0', '218', '218', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('84', '1', 'CAESAR Update (JEmu2 1.6.1)', '3', '1128442925', '485', '0', '0', '0', '0', '219', '219', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('85', '1', 'CAESAR Improvements (Minor)', '3', '1128462744', '456', '0', '0', '0', '0', '220', '220', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('86', '1', 'DatLib v2.8, DatUtil v2.20, MAMEDiff v2.19', '3', '1128546492', '447', '0', '0', '0', '0', '221', '221', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('87', '9', 'DatLib v2.8', '3', '1128546516', '572', '0', '0', '0', '0', '222', '222', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('88', '3', 'DatUtil v2.20 and MAMEDiff v2.19', '3', '1128546536', '477', '0', '0', '0', '0', '223', '223', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('89', '6', 'ROMBuild v2.7', '3', '1128546586', '1617', '4', '0', '0', '0', '224', '599', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('90', '1', 'ROMBuild v2.7', '3', '1128546608', '476', '0', '0', '0', '0', '225', '225', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('91', '1', 'MAME v0.101', '3', '1128931165', '1259', '7', '0', '0', '0', '226', '242', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('92', '12', 'Warnings when loading MAME 0.101 dat', '71', '1128977707', '1033', '4', '0', '0', '0', '230', '239', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('93', '1', 'CAESAR update (MAME v0.101)', '3', '1128984479', '469', '0', '0', '0', '0', '235', '235', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('94', '1', 'CAESAR Improvements (History and MAMEInfo)', '3', '1128984753', '605', '2', '0', '0', '0', '236', '243', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('95', '15', 'CAESAR (History and MAMEInfo)', '3', '1128984830', '472', '0', '0', '0', '0', '237', '237', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('96', '1', 'CAESAR Enhancement - Emulator/Author/Contributor Search', '3', '1129065303', '696', '3', '0', '0', '0', '244', '291', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('97', '15', 'CAESAR Enhancement - Emulator/Author/Contributor Search', '3', '1129065352', '472', '0', '0', '0', '0', '245', '245', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('98', '1', 'CAESAR Improvements', '3', '1129152642', '447', '0', '0', '0', '0', '247', '247', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('99', '15', 'CAESAR Changes made tonight...', '3', '1129152699', '449', '0', '0', '0', '0', '248', '248', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('100', '3', 'Suggestion/Request for datutil', '73', '1129538134', '1565', '9', '0', '0', '0', '249', '271', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('101', '1', 'Forum moved to http://forum.logiqx.com/', '3', '1129993498', '297', '0', '0', '0', '0', '252', '252', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('102', '1', 'CAESAR image updates (flyers and snaps)', '3', '1129994350', '783', '3', '0', '0', '0', '253', '295', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('103', '15', 'New flyers and MAME snapshots', '3', '1129994404', '526', '0', '0', '0', '0', '254', '254', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('104', '3', '&quot;Unrecognised Escape Seq&quot; Problem with Subdirs', '77', '1130050397', '596', '3', '0', '0', '0', '255', '258', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('105', '1', 'CAESAR updates (JEmu2 and PotatoMulti)', '3', '1130089610', '351', '0', '0', '0', '0', '259', '259', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('106', '15', 'JEmu2 v1.7 and PotatoMulti', '3', '1130089659', '627', '3', '0', '0', '0', '260', '296', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('107', '3', 'DatUtil v2.21 and MAMEDiff v2.20', '3', '1130536401', '409', '0', '0', '0', '0', '262', '262', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('108', '9', 'DatLib v2.9', '3', '1130536437', '506', '0', '0', '0', '0', '263', '263', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('109', '1', 'DatLib v2.9, DatUtil v2.21 and MAMEDiff v2.20', '3', '1130536570', '350', '0', '0', '0', '0', '264', '264', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('110', '3', 'DU behavior', '79', '1130612170', '1188', '7', '0', '0', '0', '272', '310', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('111', '15', 'JEmu2 v1.8', '3', '1130712606', '450', '1', '0', '0', '0', '274', '281', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('112', '3', 'mamediff not working with new mame 0101u4', '80', '1130714089', '464', '1', '0', '0', '0', '275', '276', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('113', '15', 'Lmao at the pumpkins', '4', '1130768667', '391', '1', '0', '0', '0', '280', '300', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('114', '3', 'DatUtil v2.21, MAMEDiff v2.20 and ImgChk v2.6', '3', '1130798826', '371', '0', '0', '0', '0', '282', '282', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('115', '6', 'ROMInfo v2.4 and ZIPIdent v2.5', '3', '1130798873', '567', '0', '0', '0', '0', '283', '283', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('116', '9', 'DatLib v2.10', '3', '1130798900', '551', '0', '0', '0', '0', '284', '284', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('117', '1', 'Tool updates for MAME/MESS v0.101u4', '3', '1130798990', '363', '0', '0', '0', '0', '285', '285', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('118', '15', 'I dont Know... how to read (WinKawaks usage)', '82', '1130931799', '585', '2', '1', '0', '0', '287', '297', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('119', '15', 'winKawaks 1.54', '82', '1130998331', '705', '3', '1', '0', '0', '298', '302', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('120', '15', 'System16 update', '4', '1131038385', '344', '0', '0', '0', '0', '303', '303', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('121', '3', 'Question', '79', '1131228255', '420', '1', '0', '0', '0', '305', '309', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('122', '1', 'Logiqx.com is back!', '3', '1131667079', '378', '0', '0', '0', '0', '306', '306', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('123', '3', 'DatLib v2.11 and DatUtil v2.23', '3', '1131896978', '315', '0', '0', '0', '0', '307', '307', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('124', '1', 'DatLib v2.11 and DatUtil v2.23', '3', '1131897032', '347', '0', '0', '0', '0', '308', '308', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('125', '12', 'Is there going to be a update on Neo-Geo dat?', '49', '1132709389', '765', '3', '0', '0', '0', '311', '323', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('126', '12', '0.102 ?', '85', '1133015814', '745', '4', '0', '0', '0', '314', '322', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('127', '15', 'CAESAR Updates', '3', '1133112874', '476', '2', '0', '0', '0', '316', '325', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('128', '1', 'MAME v0.102', '3', '1133113126', '586', '3', '0', '0', '0', '317', '349', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('129', '15', 'Various Updates', '3', '1133219023', '360', '0', '0', '0', '0', '324', '324', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('130', '15', 'Taito Legends', '3', '1133305170', '353', '0', '0', '0', '0', '326', '326', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('131', '15', 'Kawaks v1.55 released!!!', '49', '1133570348', '564', '1', '0', '0', '0', '327', '357', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('132', '3', 'datutil - a couple of problems from RC to CM', '46', '1133701114', '966', '6', '0', '0', '0', '328', '342', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('133', '3', 'DatUtil v2.24, MAMEDiff v2.22', '3', '1133825231', '301', '0', '0', '0', '0', '331', '331', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('134', '9', 'DatLib v2.12', '3', '1133825304', '486', '0', '0', '0', '0', '332', '332', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('135', '6', 'ROMInfo v2.5 and ZIPIdent v2.6', '3', '1133825344', '484', '0', '0', '0', '0', '333', '333', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('136', '1', 'Tool Releases', '3', '1133825437', '365', '1', '0', '0', '0', '334', '341', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('137', '3', 'DatUtil v2.25, MAMEDiff v2.23', '3', '1133908263', '311', '0', '0', '0', '0', '338', '338', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('138', '6', 'ROMInfo v2.6 and ZIPIdent v2.7', '3', '1133908318', '623', '0', '0', '0', '0', '339', '339', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('139', '9', 'DatLib v2.13', '3', '1133908357', '481', '0', '0', '0', '0', '340', '340', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('140', '15', 'Kawaks v1.55 data files', '16', '1133942642', '980', '6', '0', '0', '0', '343', '355', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('141', '1', 'RSS?', '34', '1134108127', '890', '6', '0', '0', '1', '351', '586', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('142', '1', 'Kawaks v1.55', '3', '1134229328', '342', '0', '0', '0', '0', '354', '354', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('143', '1', 'Neo-Geo 20051212', '3', '1134507535', '763', '4', '0', '0', '0', '356', '362', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('144', '15', 'Neo-Geo stuff in CAESAR', '3', '1134507802', '398', '0', '0', '0', '0', '358', '358', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('145', '1', 'Busted up pretty bad!', '3', '1135190077', '478', '2', '0', '0', '0', '363', '365', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('146', '1', 'MAME v0.103', '3', '1136384900', '610', '4', '0', '0', '0', '366', '390', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('147', '3', 'merging dats', '93', '1136565309', '2820', '19', '0', '0', '0', '370', '393', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('148', '15', 'CAESAR Update (MAME 0.103)', '3', '1136673560', '339', '0', '0', '0', '0', '389', '389', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('149', '3', 'MAMEDiff v2.24', '3', '1136819732', '2756', '9', '0', '0', '0', '391', '421', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('150', '1', 'MAMEDiff v2.24', '3', '1136819771', '310', '0', '0', '0', '0', '392', '392', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('151', '12', 'Future MAME data files', '3', '1136843594', '1637', '6', '0', '0', '1', '394', '401', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('152', '14', 'Future MAME data files', '3', '1136843700', '624', '0', '1', '0', '1', '395', '395', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('153', '14', 'Kawaks 1.55 split-merged supplement question', '94', '1136929000', '1305', '5', '0', '0', '0', '402', '413', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('154', '12', 'Creating supplements for FBA, Kawaks, etc', '93', '1137066446', '2109', '14', '0', '0', '0', '407', '441', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('155', '9', 'DatLib v2.14', '3', '1137086540', '430', '0', '0', '0', '0', '427', '427', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('156', '3', 'DatUtil v2.26', '3', '1137086596', '707', '4', '0', '0', '0', '428', '447', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('157', '1', 'DatLib v2.14 and DatUtil v2.26', '3', '1137086762', '276', '0', '0', '0', '0', '429', '429', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('158', '3', 'KOF2003 in MAME v0.103u2', '13', '1137091996', '2916', '17', '0', '0', '0', '430', '458', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('159', '9', 'DatLib v2.15', '3', '1137158890', '518', '0', '0', '0', '0', '444', '444', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('160', '3', 'DatUtil v2.27', '3', '1137158944', '333', '0', '0', '0', '0', '445', '445', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('161', '3', 'CRC32 error: datutil from cmdata to rcdata', '34', '1137710573', '646', '2', '0', '0', '0', '459', '461', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('162', '15', 'RSS?', '34', '1134108127', '77', '2', '2', '0', '0', '351', '353', '141');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('163', '12', 'where do you get the info to create dats?', '93', '1138189858', '523', '2', '0', '0', '0', '462', '464', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('164', '1', 'MAME v0.104', '3', '1139239561', '1231', '6', '0', '0', '0', '469', '476', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('165', '15', 'CAESAR Update (MAME 0.104)', '3', '1139240096', '336', '0', '0', '0', '0', '470', '470', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('166', '12', 'New NeoGeo DAT question', '45', '1139528647', '710', '3', '0', '0', '0', '477', '484', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('167', '15', 'One Question', '95', '1139540236', '595', '3', '0', '0', '0', '478', '486', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('168', '12', 'SNES Roms.dat', '49', '1140803632', '663', '0', '0', '0', '0', '487', '487', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('169', '3', 'gamelist.txt no clone :(', '98', '1141314541', '325', '1', '0', '0', '0', '488', '489', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('170', '1', 'Compile Guides', '3', '1141513376', '541', '4', '0', '0', '1', '490', '499', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('171', '15', 'SF II Bootleg roms?', '99', '1141536465', '331', '0', '0', '0', '0', '492', '492', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('172', '14', 'Problems with MAME Roms', '100', '1141589608', '1408', '3', '0', '0', '0', '495', '498', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('173', '15', 'How do I download games from here?', '109', '1143410989', '618', '3', '0', '0', '0', '501', '504', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('174', '3', 'maybe a bug?', '46', '1143445347', '408', '3', '0', '0', '0', '505', '508', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('175', '15', 'New to games', '112', '1144115644', '294', '1', '0', '0', '0', '509', '510', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('176', '15', 'MAME 0.105 Released', '34', '1144167693', '295', '1', '0', '0', '0', '511', '512', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('177', '1', 'MAME v0.105', '3', '1144266857', '515', '3', '0', '0', '0', '513', '516', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('178', '15', 'CAESAR Update (MAME v0.105)', '3', '1144518652', '288', '0', '0', '0', '0', '517', '517', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('179', '14', 'can i edit list of the games in kawaks v 1.55 (games list) ?', '122', '1145881802', '535', '1', '0', '0', '0', '518', '520', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('181', '12', 'ClrMamePro Dats?', '122', '1146305982', '914', '1', '0', '0', '0', '523', '524', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('186', '1', 'MAME v0.106', '3', '1147604121', '245', '0', '0', '0', '0', '544', '544', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('185', '3', 'Which settings  to use in mamediff', '125', '1147514286', '534', '6', '0', '0', '0', '542', '552', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('184', '1', 'IMPORTANT - Save Your Login!', '3', '1146996193', '832', '10', '0', '0', '2', '529', '541', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('187', '15', 'CAESAR Update (MAME v0.106)', '3', '1147629722', '377', '2', '0', '0', '0', '547', '549', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('188', '3', '[DatUtil] Remove some game from mame game list', '129', '1148982236', '310', '1', '0', '0', '0', '553', '555', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('189', '15', 'Help with .CHD\'s', '130', '1149052480', '335', '1', '0', '0', '0', '554', '556', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('190', '15', 'Quest for the lost Horizontal Shooter', '131', '1149995229', '263', '1', '0', '0', '0', '557', '558', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('191', '15', 'Adult games for MAME', '132', '1150217898', '847', '1', '0', '0', '0', '559', '560', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('192', '15', 'Noob questions', '133', '1152122602', '338', '3', '0', '0', '0', '561', '564', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('193', '3', 'creating differential mame archives for backup purposes', '134', '1152317681', '755', '12', '0', '0', '0', '565', '579', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('194', '14', 'Thank you for nice DATs!', '135', '1152356961', '1077', '3', '0', '0', '0', '569', '588', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('195', '1', 'phpBB 2.0.21', '3', '1152650579', '143', '0', '0', '0', '2', '581', '581', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('196', '3', 'DatUtil v2.28, MAMEDiff v2.25', '3', '1152655692', '149', '0', '0', '0', '0', '582', '582', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('197', '9', 'DatLib v2.16', '3', '1152655733', '318', '0', '0', '0', '0', '583', '583', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('198', '6', 'ROMInfo v2.7 and ZIPIdent v2.8', '3', '1152655821', '307', '0', '0', '0', '0', '584', '584', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('200', '9', 'DatLib v2.17', '3', '1153074857', '727', '0', '0', '0', '0', '589', '589', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('201', '3', 'DatUtil v2.29', '3', '1153074888', '144', '0', '0', '0', '0', '590', '590', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('202', '3', 'specifying the output filename', '134', '1153448892', '268', '4', '0', '0', '0', '591', '595', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('203', '1', 'MAME v0.107', '3', '1153769292', '232', '1', '0', '0', '0', '600', '601', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('204', '15', 'download ki2?', '139', '1154214725', '309', '1', '0', '0', '0', '602', '603', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('205', '3', 'Parents, clones, and others?', '141', '1154299830', '687', '2', '0', '0', '0', '604', '608', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('206', '1', 'Kawaks v1.56', '3', '1155676168', '152', '0', '0', '0', '0', '606', '606', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('207', '3', '2-pass de-duplicating tool (by Hakkk)', '34', '1156093726', '344', '10', '0', '0', '0', '465', '615', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('208', '15', 'First Soviet Arcade in MAME 0.108!!!', '144', '1156143213', '460', '0', '0', '0', '0', '609', '609', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('209', '1', 'MAME v0.108', '3', '1156189267', '184', '0', '0', '0', '0', '610', '610', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('210', '1', 'Sega Model 2 Emulator', '87', '1156702866', '264', '2', '0', '0', '0', '611', '613', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('211', '1', 'RAINE v0.43.4 and SEGA Model 2 Emulator v0.3', '3', '1156801383', '303', '3', '0', '0', '0', '614', '618', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('212', '14', 'Parent-clone associations', '146', '1159052997', '63', '2', '0', '0', '0', '619', '621', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('213', '12', 'Doubt regarding MAME32', '147', '1159352437', '85', '2', '0', '0', '0', '622', '624', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('214', '1', 'MAME v0.109', '3', '1159386511', '37', '0', '0', '0', '0', '625', '625', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('215', '3', 'EMU-lab frontends', '3', '1159429336', '41', '0', '0', '0', '1', '626', '626', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('216', '12', 'Export Game Titles From Winkawaks...', '151', '1160879905', '30', '2', '0', '0', '0', '627', '636', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('217', '15', 'CAESAR Update (MAME v0.109, RAINE v0.43.4, Sega Model 2 Emu)', '3', '1161122055', '31', '1', '0', '0', '0', '629', '633', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('218', '6', 'ROMBuild v2.8', '3', '1161122169', '17', '0', '0', '0', '0', '630', '630', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('219', '9', 'DatLib v2.18', '3', '1161122312', '14', '0', '0', '0', '0', '631', '631', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('220', '3', 'DatUtil v2.30', '3', '1161122380', '14', '0', '0', '0', '0', '632', '632', '0');
+INSERT INTO phpbb_topics (topic_id, forum_id, topic_title, topic_poster, topic_time, topic_views, topic_replies, topic_status, topic_vote, topic_type, topic_first_post_id, topic_last_post_id, topic_moved_id) VALUES('221', '15', 'Raine &quot;Non MAME?&quot; error', '152', '1161207634', '15', '1', '0', '0', '0', '634', '635', '0');
 #
 # TABLE: phpbb_topics_watch
 #
@@ -17640,6 +23471,53 @@ INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('158', 
 INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('158', '49', '0');
 INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('159', '3', '0');
 INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('160', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('161', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('163', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('164', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('165', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('167', '95', '1');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('169', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('170', '3', '1');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('172', '100', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('172', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('174', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('177', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('178', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('185', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('184', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('186', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('187', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('188', '129', '1');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('192', '133', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('192', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('193', '134', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('193', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('194', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('189', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('195', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('196', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('197', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('198', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('200', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('201', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('202', '134', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('202', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('203', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('204', '139', '1');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('206', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('205', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('209', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('210', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('211', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('214', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('215', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('216', '151', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('217', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('218', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('219', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('220', '3', '0');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('221', '152', '1');
+INSERT INTO phpbb_topics_watch (topic_id, user_id, notify_status) VALUES('221', '3', '0');
 #
 # TABLE: phpbb_user_group
 #
@@ -17738,12 +23616,56 @@ INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('80', '80'
 INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('81', '81', '0');
 INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('82', '82', '0');
 INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('83', '83', '0');
-INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('89', '89', '0');
-INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('90', '90', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('141', '131', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('140', '130', '0');
 INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('91', '91', '0');
 INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('92', '92', '0');
 INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('93', '93', '0');
 INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('94', '94', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('95', '95', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('135', '125', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('97', '97', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('98', '98', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('99', '99', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('100', '100', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('101', '101', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('102', '102', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('103', '103', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('139', '129', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('122', '117', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('106', '106', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('107', '107', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('136', '126', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('109', '109', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('137', '127', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('138', '128', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('112', '112', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('113', '113', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('129', '124', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('125', '120', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('128', '123', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('127', '122', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('142', '132', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('143', '133', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('144', '134', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('145', '135', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('147', '136', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('148', '137', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('149', '138', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('150', '139', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('151', '140', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('152', '141', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('153', '142', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('154', '143', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('155', '144', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('156', '145', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('157', '146', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('158', '147', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('159', '148', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('160', '149', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('161', '150', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('162', '151', '0');
+INSERT INTO phpbb_user_group (group_id, user_id, user_pending) VALUES('163', '152', '0');
 #
 # TABLE: phpbb_users
 #
@@ -17805,9 +23727,9 @@ CREATE TABLE phpbb_users(
 #
 
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('-1', '0', 'Anonymous', '', '0', '0', '0', '1112905709', '0', '0', '0.00', NULL, '', '', '0', '0', '0', NULL, '0', '0', '1', '1', '1', '1', '0', '1', '0', '1', '0', NULL, '', '0', '', '', '', '', '', NULL, '', '', '', '', '', '', '', '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('5', '1', 'Mevi', 'a432bc26395ec23529123b31ca61a691', '1122833317', '0', '1122833164', '1113173373', '0', '1', '2.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '0', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'mevi@emu-france.com', '12769980', '', 'Belgium', '', '', '', '', '', 'Occasionaly, team member @ www.emu-france.com', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('3', '1', 'Logiqx', '6ae9c403a01c8f1c0272ac7d22360aa7', '1137582249', '0', '1137581672', '1112908224', '1', '203', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1132615035', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1258829969425c0c9050924.gif', '1', 'logiqxaguard-forum@yahoo.co.uk', '', 'http://www.logiqx.com/', 'UK', '', '', '', '', '', '', '', '', '', '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('4', '1', 'Pi', 'ca1db3e360bc3852de148b42d846d647', '1137577838', '0', '1137576921', '1112908902', '1', '83', '1.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1129878492', NULL, '0', '1', '1', '1', '1', '1', '1', '0', '0', '1', '0', '1', '766615507425c29963835a.png', '1', 'pi@logiqx.com', '', 'http://caesar.logiqx.com', 'Jupiter', '', '', '', '', '', 'Female handkerchief, slayer of absolute truths', 'Stuff', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('5', '1', 'Mevi', 'a432bc26395ec23529123b31ca61a691', '1152649494', '-7', '1122833317', '1113173373', '0', '1', '2.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '0', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'mevi@emu-france.com', '12769980', '', 'Belgium', '', '', '', '', '', 'Occasionaly, team member @ www.emu-france.com', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('3', '1', 'Logiqx', '6ae9c403a01c8f1c0272ac7d22360aa7', '1161422092', '0', '1161418902', '1112908224', '1', '256', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1142891435', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1258829969425c0c9050924.gif', '1', 'forums@logiqx.com', '', 'http://www.logiqx.com/', 'UK', '', '', '', '', '', '', '', '', '', '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('4', '1', 'Pi', 'ca1db3e360bc3852de148b42d846d647', '1161398621', '0', '1161378959', '1112908902', '1', '109', '1.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1146812888', NULL, '0', '1', '1', '1', '1', '1', '1', '0', '0', '1', '0', '1', '766615507425c29963835a.png', '1', 'pi@logiqx.com', '', 'http://caesar.logiqx.com', 'Jupiter', '', '', '', '', '', 'Female handkerchief, slayer of absolute truths', 'Stuff', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('6', '1', 'Iron Man', '9101e965c72791d2693ea7e2a957e5ab', '0', '0', '0', '1113248646', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'jan@in03.de', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('7', '1', 'cutebutwrong', '874a00325d20a88b0ee08f727a90b1c0', '1124258700', '0', '1123446625', '1113250363', '0', '3', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '0', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'cutebutwrong@gmail.com', '', 'http://www.mameworld.net/maws/', 'N. London', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('8', '1', 'krawler', 'ee7a0f70ece130b7d3ce3a0fb2b0a3c2', '1118044695', '0', '1113257662', '1113257625', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '0', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'rolft@attglobal.net', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
@@ -17815,7 +23737,7 @@ INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_ses
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('10', '1', 'Bedfford', '7a7b48971d44b1c95484bfe56c137487', '1123873762', '0', '1113930794', '1113346285', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'bedfford@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('11', '1', 'greatxerox', 'cbbcc9303fcd3481c52e2fd8579f59d1', '1125218879', '0', '1125218879', '1113398082', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'greatxerox@yahoo.fr', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('12', '0', 'ShadowKing', '1e8ec5930a88992e802cd1bae6c059cf', '0', '0', '0', '1113446791', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'logiqx@mattlowe.com', '', '', '', 'Matt', '070bb63905', '', '', '', '', '', 'bd33b24f75e5bbf', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('13', '1', 'Ad_Enuff', 'f266ecb028df56c036b58178312b9798', '1137493196', '3', '1137489012', '1113472503', '0', '4', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'Ad_Enuff@hotmail.com', '', '', 'London, UK', '', '', '', '', '', 'Forensic Scientist', 'Arcade &amp; Console Emulation, Airsoft, Digital Home Cinema, Film Collecting', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('13', '1', 'Ad_Enuff', 'f266ecb028df56c036b58178312b9798', '1152269430', '0', '1148026277', '1113472503', '0', '4', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'Ad_Enuff@hotmail.com', '', '', 'London, UK', '', '', '', '', '', 'Forensic Scientist', 'Arcade &amp; Console Emulation, Airsoft, Digital Home Cinema, Film Collecting', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('14', '1', 'dpful', '765ae843192a0f1b071f4446ee4c5fa3', '1121872854', '1', '1120142054', '1113513334', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'dpful@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('15', '1', 'coldlipzz', 'a5d6217806b1bf2ade22f219897690f7', '1113583199', '0', '1113583199', '1113582893', '0', '0', '1.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'coldlipzz@yahoo.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('16', '1', 'DubaiShark', '28e44776632f325e803cd40780628fd5', '1133980297', '-9', '1133942642', '1113857862', '0', '3', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'dubaishark@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
@@ -17827,7 +23749,7 @@ INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_ses
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('22', '1', 'zankuro', '391a03db2b51ae91be825bd04970498f', '1115815054', '-2', '1115814478', '1115814395', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'confusius@fastmail.fm', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('23', '1', 'Stiletto', '57224c621c10156bd067024baa037050', '1124609567', '-9', '1124598455', '1115891002', '0', '3', '-5.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '0', '0', '1', '0', '0', '', '0', 'stiletto@fastmail.fm', '', 'http://research.mame.net', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('24', '0', 'deixxervaisul', '6f0839e1ae98abe8aa9c198058b914ad', '0', '0', '0', '1116098832', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '1', '0', '0', '0', '0', '1', '1', '1', '0', '0', '0', '0', '', '0', 'deixxervaisul@flashcubicle.com', '', '', 'United Kingdom', '', '', '', '', '', 'King of the Web', '', 'd6c4fb60919669a', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('25', '1', 'snakemeat', '72059ef5b9c318bfe1ea88c08a6288cd', '1116172116', '6', '1116171410', '1116171359', '0', '1', '-8.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'snakemeat@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('25', '1', 'snakemeat', '72059ef5b9c318bfe1ea88c08a6288cd', '1157739025', '1', '1116172116', '1116171359', '0', '1', '-8.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'snakemeat@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('26', '1', 'JerryBlade', '01cc4957a6ee18eb4d69188af85c5e08', '1116467407', '-9', '1116371870', '1116368421', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1116368514', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'jerry@lavishzone.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('27', '0', 'tao7even', '25d55ad283aa400af464c76d713c07ad', '0', '0', '0', '1116543993', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'tao7even@hotmail.com', '', '', '', '', '', '', '', '', '', '', '4d7bcbb2f4b2048', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('28', '1', 'superlilly', 'a1ab11a8212b75d55c52a1b2973fc783', '1116600653', '-2', '1116600575', '1116600510', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '0', '0', '0', '0', '1', '1', '1', '0', '0', '0', '0', '', '0', 'superlilly@excite.it', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
@@ -17836,7 +23758,7 @@ INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_ses
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('31', '1', 'sirpoonga', 'eb9442450a28582c736ce428cf2aa29e', '1118088578', '0', '1117547002', '1117222925', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'kevin.jonas@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('32', '1', 'roikenzy', '5f2a6f361ed570482183068d8604b7b3', '1117861539', '15', '1117811162', '1117809041', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '1', '1', '1', '1', '1', '1', '1', '0', '0', '1', '1', '0', '', '0', 'roikenzy99@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('33', '1', 'Wonko', 'ce04e97ae0909b6d10bc6ec25cb6b80b', '1117974111', '0', '1117974111', '1117974044', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'thesane2k@gmx.net', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('34', '1', 'Hakkk', 'cae223b09425658f6c2c584ff3eec826', '1137581769', '0', '1137573996', '1118579339', '0', '27', '8.00', '1', 'english', 'Y-m-d D H:i', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', 'http://www.ppxbbs.com/images/avatars/17.gif', '2', 'mike_woo214@hotmail.com', '', '', 'Beijing, P.R.China', '[img:c4fafdb4e5]http://album.classme.com/75432_9.GIF[/img:c4fafdb4e5]', 'c4fafdb4e5', '', '', 'mike_woo214@hotmail.com', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('34', '1', 'Hakkk', 'cae223b09425658f6c2c584ff3eec826', '1160502987', '0', '1160297551', '1118579339', '0', '48', '8.00', '1', 'english', 'Y-m-d D H:i', '0', '0', '1137752735', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', 'http://www.ppxclub.com/forum/images/avatars/17.gif', '2', 'mike_woo214@hotmail.com', '', '', 'Beijing, P.R.China', '[img:5c69247a02]http://album.classme.com/75432_9.GIF[/img:5c69247a02]', '5c69247a02', '', '', 'mike_woo214@hotmail.com', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('35', '0', 'joedirt00009', 'f46ef81f2464441ba58aeecbf654ee41', '0', '0', '0', '1118590920', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'joedirt00009@juno.com', '', '', '', '', '', '', '', '', '', '', '585a8b8080d0d82', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('36', '1', 'Jr_0079', 'f46ef81f2464441ba58aeecbf654ee41', '1118591223', '0', '1118591223', '1118591098', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'Jr_0079@juno.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('37', '1', 'amcordeiro', '018b6a4998cacef2e31b319a6421d5f2', '1118951868', '-10', '1118935868', '1118866958', '0', '0', '-3.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1118951616', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'amcordeiro@yahoo.com.br', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
@@ -17847,11 +23769,11 @@ INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_ses
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('42', '0', 'anonymous2', 'd8d3a01ba7e5d44394b6f0a8533f4647', '0', '0', '0', '1120234276', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '0', '1', '1', '0', '1', '1', '1', '0', '1', '0', '0', '', '0', 'anonymous@yahoo.com', '', '', '', '', '', '', '', '', '', '', 'e5dee46b478c88a', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('43', '0', 'pepeuchi', 'e10adc3949ba59abbe56e057f20f883e', '0', '0', '0', '1120445577', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'pepeuchi@yahoo.com.ar', '', '', '', '', '', '', '', '', '', '', '480bce2075048fb', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('44', '0', 'gyikk', 'caf2fc039a5702964c3fe533c563e931', '0', '0', '0', '1121170611', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '0', '0', '0', '0', '1', '1', '1', '0', '1', '0', '0', '', '0', 'tcr@freemail.hu', '', '', '', '', '', '', '', '', '', '', '0ced78088f1e1e3', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('45', '1', 'babelfish', '96b68fad56863d99c26d7cae853714c5', '1121477167', '12', '1121474065', '1121474007', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'babelfish@mytrashmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('46', '1', 'xlox', '7d75f1598aa52058cd8b6c99d196a8eb', '1136489418', '3', '1134030982', '1121593726', '0', '6', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'mascia_r@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('45', '1', 'babelfish', '96b68fad56863d99c26d7cae853714c5', '1139604138', '0', '1139528635', '1121474007', '0', '3', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'babelfish@mytrashmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('46', '1', 'xlox', '7d75f1598aa52058cd8b6c99d196a8eb', '1143457798', '3', '1143445332', '1121593726', '0', '8', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'mascia_r@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('47', '1', 'AJDSTMK', '25d55ad283aa400af464c76d713c07ad', '1122390177', '0', '1122277760', '1122276847', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'alessandrodimas@lycos.de', '', '', 'Vienna', '', '', '', '', '', 'Student', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('48', '1', 'Pentium', '2fc01ec765ec0cb3dcc559126de20b30', '1126799967', '0', '1126734109', '1122680371', '0', '5', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'tidusa@caramail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('49', '1', 'KingHanco', '6c872fd7b05f29d4fb89a055a49f4ec4', '1137495616', '3', '1137490193', '1122967475', '0', '33', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1128311497', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'coonstation@sbcglobal.net', '', '', '', 'KingHanco: The Great', 'ba2fbaeca1', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('49', '1', 'KingHanco', '6c872fd7b05f29d4fb89a055a49f4ec4', '1145974062', '0', '1145918626', '1122967475', '0', '34', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1128311497', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'coonstation@sbcglobal.net', '', '', '', 'KingHanco: The Great', 'ba2fbaeca1', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('50', '0', 'Finlay', '65aba82ac5db373aeb287e476e100430', '0', '0', '0', '1123686984', '0', '0', '2.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'merlingoodall@msn.co.uk', '', '', '', '', '', '', '', '', '', '', '2c6c906c72c6cd9', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('51', '1', 'darko', 'b2ba5c559ee003029eeba161f8e36586', '1124827240', '1', '1124826729', '1124826655', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'thedark22@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('52', '0', 'strettoasino', '5fa4bdc21e94b0e772f77fd5126d3e9f', '0', '0', '0', '1125083914', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'st0we24@yahoo.com', '', '', 'nevarca', '', '', '', '', '', '', '', '9c7308e3933e577', NULL, '0', '0');
@@ -17870,30 +23792,74 @@ INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_ses
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('64', '1', 'Patriarka', '87445a96eeeb501f1af90daa0acb5cc8', '1127086682', '0', '1127085721', '1127084364', '0', '1', '0.00', '1', 'english', '09-17-2005', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'Ronny3082@hotmail.com', '', 'http://neoarcap.tk/', 'San Fco. de Macoris', '\"Tu destino esta en mis manos\"
 (Patriarka) Ronny3082@hotmail.com', 'c1ba7fdaee', '', 'Ronny3082@yahoo.com', 'Ronny30825@hotmail.com', 'Employed', 'N/A', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('88', '0', 'SNK_Lives', '8043c38f8df0e1a6a3d6858dad97b6a9', '0', '0', '0', '1135284647', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'syokuosawa@hotmail.com', '', '', '', '', '', '', '', '', '', '', '95452a438d26a15dbe7', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('89', '0', 'Jack28', 'f94fcccc1220b8162cc1aa0ac9f50968', '0', '0', '0', '1135290412', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '1', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'fowl88@my-yep.com', '', 'http://playing-online-casinos-top-rated.pkak.com', '', '[url=http://tournament-online-poker-easy.s1h.net]online poker list[/url] [url=http://www.online-casinos-707.net]online casino[/url]', '7e18087de1', '', '', '', '', '', '3fb40799d955c4dc4d7', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('124', '1', 'eratos2000', '709ddc8ab5b8558cf6f4b1b01686460e', '1146112421', '0', '1146112336', '1146111394', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'eratos2000@gmail.com', '', '', '', '', '', 'HelloSaint', 'eratos2000', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('130', '1', 'egg64', '8a56257ea05c74018291954fc56fc448', '1149094404', '0', '1149083599', '1149052233', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'egg64@sbcglobal.net', '', '', '', 'Noob....plain and simple', '902f47d04b', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('67', '1', 'konsta', '4f59064c07d628f1192f5c443f52b303', '1128014010', '15', '1128011501', '1128011436', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'konstantin_neo@yahoo.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('68', '1', 'zxycba', 'd8d3a01ba7e5d44394b6f0a8533f4647', '1128090375', '-9', '1128090247', '1128090185', '0', '1', '6.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '0', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'zxycba@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('68', '1', 'zxycba', 'd8d3a01ba7e5d44394b6f0a8533f4647', '1156945056', '3', '1149084531', '1128090185', '0', '4', '6.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '0', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'zxycba@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('69', '1', 'PandMonium', 'dd6c9d9fe430c6b0ca842ae136106d91', '1128251616', '12', '1128219154', '1128124477', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'pandmonium@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('85', '1', 'Blubibulga', '55d7b75bd0634a7e0e179ea851b78fcf', '1136409784', '0', '1136210997', '1133015622', '0', '2', '1.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'blubibulga@hotmail.com', '', '', 'France', 'Blub ... BlUb !!!', '098ad41cf9', '', '', '', '', 'MMORPG', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('71', '1', 'Kineox', '0945fc9611f55fd0e183fb8b044f1afe', '1129019637', '-9', '1128977707', '1128976633', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'pierreriteau@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('87', '1', 'bearpta', '79c2e5bc8930318cbc26c693d0c8e86c', '1135257362', '-9', '1134993613', '1134974747', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'bearpta@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('73', '1', 'donnyj', '42aefbae01d2dfd981f7da7d823d689e', '1129620081', '3', '1129538134', '1129538019', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'donnyjasperson@yahoo.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('74', '1', 'emuLOAD', 'f8cbe5a99675fff11ed4d83fc16e2071', '1129568276', '0', '1129568276', '1129568090', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'AndreaSassanelli@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('85', '1', 'Blubibulga', '55d7b75bd0634a7e0e179ea851b78fcf', '1156181209', '0', '1154871425', '1133015622', '0', '4', '1.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', 'http://air.massons.net/images/avatars/gallery/Divers/citrouille.gif', '2', 'blubibulga@hotmail.com', '', '', 'France', 'Blub ... BlUb !!!', 'd5535825a8', '', '', '', '', 'MMORPG', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('71', '1', 'Kineox', '0945fc9611f55fd0e183fb8b044f1afe', '1147084765', '0', '1129019637', '1128976633', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'pierreriteau@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('87', '1', 'bearpta', '79c2e5bc8930318cbc26c693d0c8e86c', '1156694992', '-9', '1144659311', '1134974747', '0', '7', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'bearpta@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('73', '1', 'donnyj', '42aefbae01d2dfd981f7da7d823d689e', '1147066400', '-9', '1129620081', '1129538019', '0', '3', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'donnyjasperson@yahoo.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('74', '1', 'emuLOAD', 'f8cbe5a99675fff11ed4d83fc16e2071', '1147182849', '1', '1129568276', '1129568090', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'AndreaSassanelli@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('75', '1', 'audiohominis', 'f55b10d56f8a1ab1bf60bcc68967a9f1', '1129858523', '-10', '1129805590', '1129801817', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1129858285', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'audiohominis@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('86', '0', 'chongsun', '2e260500688e85aa8eb53361ac92c3b7', '0', '0', '0', '1134137667', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'chongsunhk@yahoo.com.hk', '', '', '', '', '', '', '', '', '', '', '2a3be3ee985ee4fb48d', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('77', '1', 'ADDiCT', 'ca3b7e212e88ff08e61b857c91a0b3dd', '1130104777', '3', '1130091786', '1130048936', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'sascha_@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('78', '0', 'tjjtjj', '1c63129ae9db9c60c3e8aa94d3e00495', '0', '0', '0', '1130402708', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'tjjas@sohu.com', '', '', '', '', '', '', '', '', '', '', 'b574a052be2469d', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('79', '1', 'jugaor', 'cb7cef06f8d8e1bea57f0225eb46a1f2', '1133921690', '0', '1133254005', '1130574649', '0', '9', '-5.00', '1', 'english', 'D d M Y, g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'guianet@lycos.com', '', '', 'Lima, Perú', 'jugaor
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('79', '1', 'jugaor', 'cb7cef06f8d8e1bea57f0225eb46a1f2', '1147679969', '0', '1147297858', '1130574649', '0', '10', '-5.00', '1', 'english', 'D d M Y, g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'guianet@lycos.com', '', '', 'Lima, Perú', 'jugaor
 -The guy with a terrible English  :?', 'f867d4e46b', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('80', '1', 'leezer', '0854d8dda4a25bf1f049f11511018fd5', '1130714083', '-9', '1130713762', '1130713491', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'leezer@leezer.karoo.co.uk', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('81', '1', 'john iv', '70c9ef9385a86371abe50909c8684571', '1130800300', '-10', '1130796014', '1130795534', '0', '0', '-8.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1130799721', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'mame32qa@hotmail.com', '', 'http://www.classicgaming.com/mame32qa', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('82', '1', 'AntonJade', '79ef3edb4377c0a21fcb36cf9da685dc', '1131085425', '-9', '1131021598', '1130931504', '0', '4', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'ajtnunez@yahoo.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('83', '1', 'simpleuser', '22071cbad7dbb5d086984fb1d58958b3', '1131017859', '0', '1130948085', '1130938813', '0', '5', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', 'http://crashtest.retrogames.com/old/Pic/avatar.gif', '2', 'simplelogin@gmx.net', '', '', '', 'Ange/CT', '4ab0241ef2', '', '', '', '', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('90', '0', 'plane75', 'ef5283e579f0055f2317eed38b398956', '0', '0', '0', '1135290492', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '1', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'map48@my-yep.com', '', 'http://playing-online-casinos-top-rated.pkak.com', '', '[url=http://tournament-online-poker-easy.s1h.net]online poker list[/url] [url=http://www.online-casinos-707.net]online casino[/url]', 'b7b1c88ea4', '', '', '', '', '', '615d4f9e603a15766b6', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('83', '1', 'simpleuser', '22071cbad7dbb5d086984fb1d58958b3', '1147073962', '-9', '1131017859', '1130938813', '0', '6', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', 'http://crashtest.retrogames.com/old/Pic/avatar.gif', '2', 'simplelogin@gmx.net', '', '', '', 'Ange/CT', '4ab0241ef2', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('131', '1', 'HectorSmarties', '4f59064c07d628f1192f5c443f52b303', '1150137281', '15', '1150039655', '1149994771', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'tjno@rnl.ist.utl.pt', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('117', '1', 'Sukacek', '6a0302031dceb90725f4b484322f5287', '1145309631', '3', '1145298986', '1145298933', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'sukacek@centrum.cz', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('91', '0', 'CbYeR', '9a4e7ab2fbc789ec1995f3a208e0536a', '0', '0', '0', '1136285572', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'marcosoto20@hotmail.com', '', '', '', '', '', '', '', '', '', '', 'a73f19b6ee60f1e2df0', NULL, '0', '0');
 INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('92', '1', 'ThiagoUere', '404d5945acbca4820587c74468068879', '0', '0', '0', '1136465470', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'ueretrca@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('93', '1', 'ssjkakaroto', '449a36b6689d841d7d27f31b4b7cc73a', '1137457384', '0', '1137180147', '1136564084', '0', '16', '-3.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'ssjkakaroto@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
-INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('94', '1', 'Heimidal', '72c15df29d937838fe20189921e9c697', '1137002849', '-9', '1136999454', '1136928322', '0', '3', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'douglas.sheffler@vanderbilt.edu', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('93', '1', 'ssjkakaroto', '449a36b6689d841d7d27f31b4b7cc73a', '1157675212', '0', '1156945261', '1136564084', '0', '22', '-3.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1137752145', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'ssjkakaroto@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('94', '1', 'Heimidal', '72c15df29d937838fe20189921e9c697', '1147096945', '-9', '1137002849', '1136928322', '0', '4', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'douglas.sheffler@vanderbilt.edu', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('95', '1', 'khastings', 'b2c6de510d584484d74c9aa9f8fa9f04', '1140058348', '0', '1139540560', '1139540082', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'khastings2007@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('132', '1', 'Yak', 'a1d123a63936abbee87823e2f1affa9b', '1150217898', '-9', '1150217686', '1150217636', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'noo@email.lt', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('125', '1', 'Highwayman', '25cfc154a368118fd812d5aa2522fd65', '1147901926', '3', '1147684816', '1147512169', '0', '4', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'subcommand@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('97', '1', 'leafblower', '2697622a32d265aba8dad28cf98de383', '1140610621', '-10', '1140610490', '1140610399', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'gerald@lik-sang.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('98', '1', 'kiriki', '49d6b105bfdb6b1990d653defe1b5025', '1141314534', '-9', '1141314254', '1141314205', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'kiriki40@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('99', '1', 'ego812', 'b3380ac2ab5dbf1ed81e18163db6a9d8', '1141945124', '0', '1141536465', '1141536218', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'ego81@excite.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('100', '1', 'tomheaps', '6e9534b9013e0a938c52cfef7d87f086', '1141674748', '-9', '1141589608', '1141589282', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'thomas_heaps@excite.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('101', '1', 'markito75', '1b4543f0bacad537da30517cd15dbb22', '1141995004', '15', '1141994918', '1141994889', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'markito@markito.it', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('102', '1', 'ap705', '431d15c008a960d5059e72c3a4313144', '1142639467', '3', '1142639373', '1142639323', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'antonpanagiotopoulos@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('103', '1', 'Charles MacDonald', '1ba218452ab11dc1fd602e56edaf1f7c', '1143408003', '0', '1142905227', '1142831556', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1142894962', NULL, '0', '1', '1', '1', '1', '1', '1', '0', '0', '1', '1', '0', '', '0', 'chamacd@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('127', '0', 'amb7247', '4c8f15419e7a6ba50457bcec6a9f6dc7', '0', '0', '0', '1148345659', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'amb7247@gmail.com', '', '', '', '', '', 'FSUTribe21', '', '', '', '', '141b410b4e2b68dc05a', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('106', '0', 'gato5254', '2dccd1ab3e03990aea77359831c85ca2', '0', '0', '0', '1142905658', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'gato5254@yahoo.com', '', '', '', '', '', '', '', '', '', '', 'c7562bcec04af1c933b', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('107', '1', 'pkeffect', '3ec1f4a46efc56809c4555dc1217f13a', '1143225730', '14', '1143225507', '1143225396', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'pkeffect@yahoo.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('126', '1', 'gonpab', '96e79218965eb72c92a549dd5a330112', '0', '0', '0', '1148061417', '0', '0', '-3.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'gonpabgold@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('109', '1', 'Redskulled', '3f8da8d150df71f64db5f8e96438c567', '1149979976', '0', '1143429105', '1143410913', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '0', '0', '0', '0', '1', '1', '1', '0', '0', '0', '0', '', '0', 'demetejj@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('128', '0', 'Despoilah', 'b36d331451a61eb2d76860e00c347396', '0', '0', '0', '1148751140', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'despoilah@gmail.com', '', '', '', '', '', '', '', '', '', '', 'cf5c0a3e8a021dabdfb', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('129', '1', 'chtom', 'e1c565c5b1da2a3b81712427d06f5b34', '1148982351', '9', '1148982097', '1148982074', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'chtom@club-internet.fr', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('120', '1', 'Alcatraz', '0bbd7a0e1131c7ec1952950ae2b17bda', '1145815657', '0', '1145815074', '1145814937', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'vielimir@yahoo.com.br', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('112', '1', 'koto57', 'e5fb0cda12f90dc4341247ddab54d1da', '1144117556', '15', '1144115255', '1144115179', '0', '1', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'koto57@pacbell.net', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('113', '1', 'WRaiTH', '39045456b54cc7be69448241085d2ee4', '1144205464', '-1', '1144204448', '1144204168', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'marc_singh@comcast.net', '', '', '', '', '', '', '', '', 'HomeDirect', 'Smowboarding, driving fast, horror movies, hang out with family/friends', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('123', '1', 'Kaos_Net', '7ec69eab927c12cdc53bea19c63649a0', '1145966439', '6', '1145966304', '1145966202', '0', '0', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'kaos_net_2000@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('122', '1', 'adi', 'a356446b79ecda0ad10c339db195262e', '1146654100', '-2', '1146305982', '1145881198', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'xmen5225@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('133', '1', 'Ronin', '1671c6ae4eedf7fe0197935aecbbb400', '1152206833', '-9', '1152200337', '1152122360', '0', '3', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'icc_ronin@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('134', '1', 'krick', '0421008445828ceb46f496700a5fa65e', '1156366082', '3', '1153699673', '1152316889', '0', '9', '-5.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '0', '', '0', 'krick@3feetunder.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('135', '1', 'opaopa', 'dcddb75469b4b4875094e14561e573d8', '1152701218', '-9', '1152357071', '1152356324', '0', '2', '0.00', '1', 'english', 'D M d, Y g:i a', '0', '0', '1152356440', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'opa8000@yahoo.co.jp', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('138', '1', 'sottavi', '3da371d6e50c886f22d026c08a334f9a', '1154806638', '-2', '1153839037', '1153838276', '0', '0', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'at_my_pc@yahoo.co.uk', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('136', '1', 'mames', 'ca9fb94397e0b096ab669456c3900a59', '1153065910', '3', '1153065698', '1153065645', '0', '0', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'doug.d@tpg.com.au', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('137', '1', 'antaresprime', '02728755a0a553507c71d69b2d6ebb71', '1153667938', '-9', '1153623329', '1153623106', '0', '2', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '0', '0', '1', '1', '0', '', '0', 'antaresprime@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('139', '1', 'drumduder', 'e864d301f94d76ed6dc7c7bac141907b', '1154288748', '0', '1154214758', '1154214541', '0', '1', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '0', '1', '1', '1', '1', '1', '1', '1', '0', '0', '0', '', '0', 'drumz132@yahoo.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('140', '1', 'Powerpuff_Boy', '5f4dcc3b5aa765d61d8327deb882cf99', '0', '0', '0', '1154290671', '0', '0', '1.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'powerpuff.boy@wanadoo.fr', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('141', '1', 'ghall426', '2a0f7d95f43109a8d2adf6ccd91a4248', '1154299830', '-9', '1154299264', '1154299192', '0', '1', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'ghall1@neb.rr.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('142', '1', 'JLBuFFon', '41e0e5ac2850873bf4b16f872b7e5bb0', '1159662977', '0', '1159317440', '1154620254', '0', '0', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'fischergreat@gmail.com', '', '', '', '', '', '', '', 'San Diego', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('143', '1', 'kimjensen', '77bde942f63125d6748c07df2e3be88c', '1156119867', '1', '1156117838', '1156117797', '0', '0', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'kimkonradjensen@get2net.dk', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('144', '1', 'sovmax', '1cc6045d5c7507edc2e5579091a6d470', '1156143213', '-9', '1156142440', '1156142084', '0', '1', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'domomax@yandex.ru', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('146', '1', 'kazumi213', '99e5f64528d375c46b06071017b77e47', '1159097071', '-1', '1159053567', '1159050945', '0', '2', '1.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'kazumi213@hotmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('145', '0', 'NY152', '835f955f9ebee82771387e7aae838261', '0', '0', '0', '1156953276', '0', '0', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'LaPaTaTeSiTe@hotmail.com', '', '', '', '', '', '', '', 'LaPaTaTeSiTe@hotmail.com', '', '', '8a39d8b5e9d90bc421e', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('151', '1', 'Frostydasnowman', '8ff8d9781158d5609c37c09582b270ef', '1161230930', '-9', '1160880377', '1160879689', '0', '2', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', 'bgjwholesale@erols.com', '', 'http://classicgames.servebeer.com', 'Planet Earth', 'Where did I put that Nuke again?', '51fbb4d47b', '', '', '', '...Earthling...', 'Knowing what else exists...', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('147', '1', 'Kainan', '54af55c832a6586bee3bc3023a693351', '1159364624', '0', '1159352331', '1159352041', '0', '2', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'sendohkun@free.fr', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('148', '1', 'justin888', 'ebc7bec45602e207c07e9319d8fdcc68', '0', '0', '0', '1159910529', '0', '0', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'justin888555@yahoo.com', '', '', 'ph', 'gaming is fun and it made me develop my mental acuity to deal with reality situations.', 'e95b7919d2', '', 'justin888555', '', 'computer serviceman', 'games arcade and network games', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('149', '1', 'machocao@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '1160162428', '-4', '1160076515', '1160076453', '0', '0', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'machocao@gmail.com', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('150', '1', 'pete1964', '6df3e39b764e34bc2ea4e48823cab395', '1160637351', '0', '1160637053', '1160385072', '0', '0', '0.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '', '0', 'xxx@bangerads.com', '', 'http://buycialis.dollarwinners.com/Buy-cialis-generic.html', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
+INSERT INTO phpbb_users (user_id, user_active, username, user_password, user_session_time, user_session_page, user_lastvisit, user_regdate, user_level, user_posts, user_timezone, user_style, user_lang, user_dateformat, user_new_privmsg, user_unread_privmsg, user_last_privmsg, user_emailtime, user_viewemail, user_attachsig, user_allowhtml, user_allowbbcode, user_allowsmile, user_allowavatar, user_allow_pm, user_allow_viewonline, user_notify, user_notify_pm, user_popup_pm, user_rank, user_avatar, user_avatar_type, user_email, user_icq, user_website, user_from, user_sig, user_sig_bbcode_uid, user_aim, user_yim, user_msnm, user_occ, user_interests, user_actkey, user_newpasswd, user_login_tries, user_last_login_try) VALUES('152', '1', '2012', '020494b6787f58fabaae42bf544ca4c4', '1161205907', '-9', '1161205463', '1161205375', '0', '1', '1.00', '1', 'english', 'r', '0', '0', '0', NULL, '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '', '0', '2012@frontnet.org', '', '', '', '', '', '', '', '', '', '', '', NULL, '0', '0');
 #
 # TABLE: phpbb_vote_desc
 #
@@ -17956,8 +23922,7 @@ CREATE TABLE phpbb_confirm(
 # Table Data for phpbb_confirm
 #
 
-INSERT INTO phpbb_confirm (confirm_id, session_id, code) VALUES('7f996eaa22c6b68111fb9d942de63349', '74e06d1ec8dd287d5df0eb20f59c0e12', 'ZDSKFM');
-INSERT INTO phpbb_confirm (confirm_id, session_id, code) VALUES('4187313f9d8de887997529d86bb3e35f', 'e0cdaa9ba1263398f02cfc2d6fd68b63', 'BHIETV');
+INSERT INTO phpbb_confirm (confirm_id, session_id, code) VALUES('1f0985b90aa442d410d10247a04d7b8f', 'dfa3f98cb1315e23e2146643fa99f907', '110111');
 #
 # TABLE: phpbb_sessions_keys
 #
@@ -17975,37 +23940,21 @@ CREATE TABLE phpbb_sessions_keys(
 # Table Data for phpbb_sessions_keys
 #
 
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('171bfaabe4f4b9851497bc40ab421b97', '3', '568226ad', '1131435790');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('37e2400d96dcfadc3a3e0e58d099fcde', '79', 'c9f04b30', '1130746430');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('39d2557bd4c6bf4b28284e76d621b286', '4', '53d5305f', '1133991052');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('983608c4e176d5a0dcb49fe072d23092', '81', '43a82405', '1130799721');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('0db018a5e83aebb4c8d6d39148211369', '83', '52e38eac', '1131017859');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('6840fe797c737b23c31fb80adf95b218', '3', '56822d5b', '1137517258');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('8e74d3684ee083ab21f22ad25ae0d67f', '79', 'c9e68af1', '1131340073');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('84a9a9910eb1e3c17ef39607e81a5819', '3', '568226ad', '1131697971');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('29c454f6278e4125e9c545c223e2b454', '3', '568226ad', '1131809075');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('d0bddf6777d771060f0fbb0cce0ce604', '3', '568226ad', '1131948581');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('0c88355d15772225104cabe50b8d513d', '3', '56822d5b', '1137582152');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('b9b3fdfcb245572db49d8b75e9b7e7b7', '79', 'c9f028ee', '1133253816');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('cac10c3bf0ed2f380e363ac6a64dd860', '49', '445883fb', '1132779651');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('e4702a6d03d648a19c5eac444269dc7c', '85', '56c0e208', '1133134296');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('507a7243772e15f0550aa6ba0cef069d', '49', '41427e5c', '1133159820');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('8c127781b5340ea132579482b8b258ae', '49', '428996ed', '1133857245');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('6a0fe066e7a91771d055fd181a9019ab', '46', '5702685c', '1136489418');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('d1633eb349366df7d059dd06da1ec5f2', '79', 'c9f0d53e', '1133921690');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('0f6db11e5ef88e77f4d79692db09c8d4', '34', 'a66f40b0', '1134917414');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('a2164c2aca750c989e9f36dac635e073', '49', '4143643c', '1134043959');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('068fb63c900d413282584b293536a17e', '4', '53d5305f', '1134554549');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('71980778dd76521b4afd7683ce24d0d7', '4', '53d5305f', '1135041901');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('04d7deb2a2827290716705e1a9b16bad', '49', '428c3c39', '1135065375');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('6c47bf80a9043203609cd12b12b5761f', '34', 'a66f40b0', '1137574457');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('3988fd58d151cb7387d09def52c4048f', '3', '586a73ba', '1135953316');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('8b9fc7234de73af2641b811721bd11f8', '4', '53d5305f', '1135779443');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('9cc67d1568ac5008f7ffd3fe7bcd02f4', '4', '53d5305f', '1137577838');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('9de947db00b9be6d9f42e0d6ce7d32f1', '85', '56c0a347', '1136409784');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('6f10d573ed16a49894a4b8f6db99655a', '49', '4144cef8', '1136240182');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('dcdb41f3c7b54049f8f57b8ed9c1e7fb', '93', 'a4290b36', '1137179540');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('537b6183c9f787bff80ead7eec1d7241', '93', 'c8b5583f', '1137457384');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('eddcd80241c8073264607a368b057c30', '49', '41458dab', '1137183320');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('cf7ade6a470eacd737806a9b438a2247', '13', '514f47b2', '1137493196');
-INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('4649c0e41bea83ae7bd1646a6fe27347', '49', '428db12c', '1137495616');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('0c682265b526c9fb30eb6a3a5f67aad8', '3', '56822b7c', '1161422100');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('fecf8998103a5f427123db5a7c338c01', '4', '53d53856', '1153557645');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('92e8cbbdf3831cace1c6cc5009451261', '3', 'c29f1fa5', '1161256627');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('96ae3fbed4246485b76dac1845d824be', '134', '442c2219', '1156365255');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('d32cd1b03e7996357030fe3011227ba3', '134', '44253c3a', '1153485643');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('5c83d51f87ad4176ea5edb221a6b075b', '4', '53d53856', '1154209768');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('4303650b29083b39783bd7e3265cf70e', '4', '53d53856', '1157616930');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('8d7592631803b0bfecd1ea83f7ee4d9a', '139', '4b105552', '1154214680');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('2e56021534ba80175ed3b3654385f748', '85', '56dc5e20', '1156181209');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('7dbf3996fb623f47ebd79a35d1c44aa1', '34', 'ddd9d168', '1156081701');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('98c96bf3cb3d6162720fdc7cb4840774', '143', '534803c2', '1156117838');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('2eafc6975d84d946a7ea8981245710b0', '93', 'a4290b36', '1156944755');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('9a57cd9a8553cb750fa1a8c55bcdcc36', '4', '53d53856', '1158762154');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('d1899d626c002a4486284c2477e571d9', '93', 'c8a30fb8', '1157675212');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('77bd32415a2a6e08d2c88445f34c6804', '4', '53d5265a', '1159744266');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('1be22681cf774ade040a764a5186b4d8', '34', 'a66f40b0', '1160298394');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('25b5f5838bdb67e3490a5aaeae0b44b4', '4', '53d5265a', '1161398621');
+INSERT INTO phpbb_sessions_keys (key_id, user_id, last_ip, last_login) VALUES('336345da2c632800f991b8905844654d', '149', '457ba1f5', '1160162428');
