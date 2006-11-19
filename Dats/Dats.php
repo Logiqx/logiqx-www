@@ -97,7 +97,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>27/09/2006</b>
+            <b>19/11/2006</b>
           </p>
         </td>
         <td>
@@ -129,26 +129,20 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="M1/">M1 v0.7.7</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>27/09/2006</b>
-          </p>
+          <p>27/09/2006</p>
         </td>
         <td>
-          <p>
-            <b>1157</b>
-          </p>
+          <p>1157</p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="MAMEBeta/">MAME v0.109</a>
+          <a href="MAMEBeta/">MAME v0.110</a>
         </td>
         <td>
           <p>
@@ -157,12 +151,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>27/09/2006</b>
+            <b>19/11/2006</b>
           </p>
         </td>
         <td>
           <p>
-            <b>6253</b>
+            <b>6283</b>
           </p>
         </td>
       </tr>
@@ -228,7 +222,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>27/09/2006</b>
+            <b>19/11/2006</b>
           </p>
         </td>
         <td>
@@ -443,32 +437,44 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMEArtwork/">MAME Artwork 20060820</a>
+          <a href="MAMEArtwork/">MAME Artwork 20061112</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>20/08/2006</p>
+          <p>
+            <b>19/11/2006</b>
+          </p>
         </td>
         <td>
-          <p>61</p>
+          <p>
+            <b>205</b>
+          </p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="MAMESamples/">MAME Samples 20050821</a>
+          <a href="MAMESamples/">MAME Samples 20061107</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>21/08/2006</p>
+          <p>
+            <b>19/11/2006</b>
+          </p>
         </td>
         <td>
-          <p>67</p>
+          <p>
+            <b>68</b>
+          </p>
         </td>
       </tr>
 

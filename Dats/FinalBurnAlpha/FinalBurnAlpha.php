@@ -42,7 +42,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="FBA%20v0.2.95.23%20(cm).zip">FBA dat for CMPro</a> (204KB)</p>
+          <p>Download <a href="FBA%20v0.2.95.23%20(cm).zip">FBA dat for CMPro</a> (205KB)</p>
           <p>
             <a href="FBA%20v0.2.95.23%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -50,7 +50,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="FBA%20v0.2.95.23%20(rc).zip">FBA dat for ROMCenter</a> (108KB)</p>
+          <p>Download <a href="FBA%20v0.2.95.23%20(rc).zip">FBA dat for ROMCenter</a> (109KB)</p>
           <p>
             <a href="FBA%20v0.2.95.23%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -63,6 +63,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>19 November 2006</b> - 
+			
+			Updated supplements for MAME v0.110.
+		</p>
     <p>
       <b>27 September 2006</b> - 
 			
