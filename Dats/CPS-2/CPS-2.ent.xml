@@ -6,7 +6,7 @@
 	<suitability/>
 	<status>Updated</status>
 	<date>11/12/2006</date>
-	<games>193</games>
+	<games>192</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Note: Not all of these games are emulated yet</p>
@@ -14,11 +14,11 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="CPS-2%2020061211%20(cm).zip" size="65"/>
+			<file name="CPS-2%2020061211%20(cm).zip" size="63"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020061211%20(rc).zip" size="37"/>
+			<file name="CPS-2%2020061211%20(rc).zip" size="36"/>
 		</dat>
 	</dats>
 	<revisions>

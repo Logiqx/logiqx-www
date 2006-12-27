@@ -30,7 +30,7 @@
 	<p>
       <img src="CPS-2.png" width="80" height="40" alt="CPS-2.png"/>
     </p>
-	<p>193 games for CPS-2 20061211</p>
+	<p>192 games for CPS-2 20061211</p>
 	
 	
 	
@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="CPS-2%2020061211%20(cm).zip">CPS-2 dat for CMPro</a> (65KB)</p>
+          <p>Download <a href="CPS-2%2020061211%20(cm).zip">CPS-2 dat for CMPro</a> (63KB)</p>
           <p>
             <a href="CPS-2%2020061211%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="CPS-2%2020061211%20(rc).zip">CPS-2 dat for ROMCenter</a> (37KB)</p>
+          <p>Download <a href="CPS-2%2020061211%20(rc).zip">CPS-2 dat for ROMCenter</a> (36KB)</p>
           <p>
             <a href="CPS-2%2020061211%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>

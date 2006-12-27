@@ -101,7 +101,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="CPS-2/CPS-2%2020061211%20(rc).zip"><b>CPS-2</b></a></td><td>20061211</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>193</td><td>11/12/2006</td></tr>
+					</b></td><td><a href="CPS-2/CPS-2%2020061211%20(rc).zip"><b>CPS-2</b></a></td><td>20061211</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>192</td><td>11/12/2006</td></tr>
 
 
 <tr><td class="status"><b>
