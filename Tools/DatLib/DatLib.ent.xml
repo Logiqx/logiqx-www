@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.18</version>
+	<version>v2.19</version>
 	<status>Updated</status>
-	<date>17/10/2006</date>
+	<date>30/12/2006</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,20 @@
 
 	<downloads>
 		<download>
-			<file name="datlib218.zip" size="92"/>
+			<file name="datlib219.zip" size="93"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>30 December 2006</date>
+			<version>v2.19</version>
+			<comment>
+				- Internal change that only affects MAMEDiff (see note below)<br/>
+				- Improved -dX modes (understands merging despite differing names)
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>17 October 2006</date>
 			<version>v2.18</version>

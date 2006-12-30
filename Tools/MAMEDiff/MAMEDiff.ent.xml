@@ -3,9 +3,9 @@
 	<img src="MAMEDiff.png" width="123" height="40"/>
 
 	<name>MAMEDiff</name>
-	<version>v2.25</version>
-	<status></status>
-	<date>11/07/2006</date>
+	<version>v2.26</version>
+	<status>Updated</status>
+	<date>30/12/2006</date>
 
 	<description>Data file comparison tool</description>
 
@@ -15,11 +15,24 @@
 
 	<downloads>
 		<download>
-			<file name="mdiff225.zip" size="167"/>
+			<file name="mdiff226.zip" size="198"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>30 December 2006</date>
+			<version>v2.26</version>
+			<comment>
+				- Uses DatLib v2.19.<br/>
+				- Improved -dX modes (understands merging despite differing names) <br/>
+				- Added CPS-2 to descriptions when producing disk supplements<br/>
+				- Added sourcefile information to output datafile<br/>
+				- Fixed sample functionality in the standard comparison modes.<br/>
+              			i.e. Running MAMEDiff without options or in verbose mode (-v).
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>11 July 2006</date>
 			<version>v2.25</version>

@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.18</title>
+    <title>DatLib v2.19</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib218.zip">DatLib v2.18</a> (92KB)</p>
+          <p>Download <a href="datlib219.zip">DatLib v2.19</a> (93KB)</p>
           <p>
-            <a href="datlib218.zip">
+            <a href="datlib219.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>30 December 2006</b> - DatLib v2.19</p>
+    <p>
+			
+			
+			
+				- Internal change that only affects MAMEDiff (see note below)<br/>
+				- Improved -dX modes (understands merging despite differing names)
+    			
+		</p>
     <p>
       <b>17 October 2006</b> - DatLib v2.18</p>
     <p>

@@ -50,7 +50,7 @@
 
 			<tr>
         <td>
-          <a href="DatLib/">DatLib v2.18</a>
+          <a href="DatLib/">DatLib v2.19</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
@@ -60,7 +60,7 @@
         </td>
         <td>
           <p>
-            <strong>17/10/2006</strong>
+            <strong>30/12/2006</strong>
           </p>
         </td>
       </tr>
@@ -71,14 +71,10 @@
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>17/10/2006</strong>
-          </p>
+          <p>17/10/2006</p>
         </td>
       </tr>
 
@@ -97,14 +93,18 @@
 
 			<tr>
         <td>
-          <a href="MAMEDiff/">MAMEDiff v2.25</a>
+          <a href="MAMEDiff/">MAMEDiff v2.26</a>
         </td>
         <td>Data file comparison tool</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>11/07/2006</p>
+          <p>
+            <strong>30/12/2006</strong>
+          </p>
         </td>
       </tr>
 
@@ -114,14 +114,10 @@
         </td>
         <td>ROM manipulation tool that can convert modern day ROMs to older formats</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>17/10/2006</strong>
-          </p>
+          <p>17/10/2006</p>
         </td>
       </tr>
 

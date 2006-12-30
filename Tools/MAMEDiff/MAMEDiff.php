@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAMEDiff v2.25</title>
+    <title>MAMEDiff v2.26</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="mdiff225.zip">MAMEDiff v2.25</a> (167KB)</p>
+          <p>Download <a href="mdiff226.zip">MAMEDiff v2.26</a> (198KB)</p>
           <p>
-            <a href="mdiff225.zip">
+            <a href="mdiff226.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,20 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>30 December 2006</b> - MAMEDiff v2.26</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.19.<br/>
+				- Improved -dX modes (understands merging despite differing names) <br/>
+				- Added CPS-2 to descriptions when producing disk supplements<br/>
+				- Added sourcefile information to output datafile<br/>
+				- Fixed sample functionality in the standard comparison modes.<br/>
+              			i.e. Running MAMEDiff without options or in verbose mode (-v).
+    			
+		</p>
     <p>
       <b>11 July 2006</b> - MAMEDiff v2.25</p>
     <p>
