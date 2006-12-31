@@ -19,13 +19,13 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.95.23%20(rc).zip"><b>FBA</b></a></td><td>v0.2.95.23</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>535</td><td>11/12/2006</td></tr>
 
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="WinKawaks/WinKawaks%20v1.56%20(rc).zip"><b>Kawaks</b></a></td><td>v1.56</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>489</td><td>11/12/2006</td></tr>
+					</b></td><td><a href="WinKawaks/WinKawaks%20v1.57%20(rc).zip"><b>Kawaks</b></a></td><td>v1.57</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>491</td><td>31/12/2006</td></tr>
 
 
 <tr><td class="status"><b>
@@ -34,13 +34,13 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="MAMEBeta/MAME%20v0.111%20(rc).zip"><b>MAME</b></a></td><td>v0.111</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6344</td><td>11/12/2006</td></tr>
 
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="Nebula/Nebula%20v2.25%20(rc).zip"><b>Nebula</b></a></td><td>v2.25</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>469</td><td>11/12/2006</td></tr>
 
 
@@ -55,7 +55,7 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="RAINE/RAINE%20v0.43.4%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>572</td><td>11/12/2006</td></tr>
 
 <tr><td class="status"><b>
@@ -100,7 +100,7 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="CPS-2/CPS-2%2020061211%20(rc).zip"><b>CPS-2</b></a></td><td>20061211</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>192</td><td>11/12/2006</td></tr>
 
 
