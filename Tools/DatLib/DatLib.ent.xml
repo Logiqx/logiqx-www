@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.19</version>
+	<version>v2.20</version>
 	<status>Updated</status>
-	<date>30/12/2006</date>
+	<date>01/01/2007</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,20 @@
 
 	<downloads>
 		<download>
-			<file name="datlib219.zip" size="93"/>
+			<file name="datlib220.zip" size="94"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>1 January 2007</date>
+			<version>v2.20</version>
+			<comment>
+				- Added 'prune' feature for removing roms, disk and/or samples<br/>
+            			- Added 'incorporate' feature to assist in combining datafiles
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>30 December 2006</date>
 			<version>v2.19</version>

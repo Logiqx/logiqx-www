@@ -1,0 +1,11 @@
+  <h1>1 January 2007</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Happy New Year!</p>
+        <p>I have released <a href="Tools/">DatLib v2.20 and DatUtil v2.31</a> with a couple of nice new features.</p>
+      </td>
+    </tr>
+  </table>
+

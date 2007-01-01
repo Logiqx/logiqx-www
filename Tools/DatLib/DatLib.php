@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.19</title>
+    <title>DatLib v2.20</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib219.zip">DatLib v2.19</a> (93KB)</p>
+          <p>Download <a href="datlib220.zip">DatLib v2.20</a> (94KB)</p>
           <p>
-            <a href="datlib219.zip">
+            <a href="datlib220.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>1 January 2007</b> - DatLib v2.20</p>
+    <p>
+			
+			
+			
+				- Added 'prune' feature for removing roms, disk and/or samples<br/>
+            			- Added 'incorporate' feature to assist in combining datafiles
+    			
+		</p>
     <p>
       <b>30 December 2006</b> - DatLib v2.19</p>
     <p>
