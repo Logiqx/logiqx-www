@@ -15,4 +15,9 @@ e:\tools\cmpro\cmpro /xml www.logiqx.com/Dats H:\Logiqx\WWW\Dats\Systems.txt H:\
 zip Systems.zip Systems.xml
 rm Systems.xml
 
+ECHO Generating MAMESuperSet.xml...
+e:\tools\cmpro\cmpro /xml www.logiqx.com/Dats H:\Logiqx\WWW\Dats\MAMESuperSet.txt H:\Logiqx\WWW\Dats\MAMESuperSet.xml
+zip MAMESuperSet.zip MAMESuperSet.xml
+rm MAMESuperSet.xml
+
 PAUSE
