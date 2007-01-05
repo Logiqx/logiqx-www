@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY Tickle SYSTEM "Tickle.ent.xml">
-]>
-
-<emulator_page>
-	&Tickle;
-</emulator_page>
