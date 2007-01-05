@@ -1,4 +1,3 @@
-H:\Logiqx\WWW\Dats\CrystalSystemEmulator;CrystalSystemEmulator
 H:\Logiqx\WWW\Dats\Daphne;Daphne
 H:\Logiqx\WWW\Dats\FinalBurnAlpha;FinalBurnAlpha
 H:\Logiqx\WWW\Dats\M1;M1
@@ -6,10 +5,8 @@ H:\Logiqx\WWW\Dats\MAMEBeta;MAMEBeta
 H:\Logiqx\WWW\Dats\MAMEChanges;MAMEChanges
 H:\Logiqx\WWW\Dats\Nebula;Nebula
 H:\Logiqx\WWW\Dats\NebulaJukebox;NebulaJukebox
-H:\Logiqx\WWW\Dats\Pacifi3D;Pacifi3D
 H:\Logiqx\WWW\Dats\RAINE;RAINE
 H:\Logiqx\WWW\Dats\RadikalBikersEmulator;RadikalBikersEmulator
 H:\Logiqx\WWW\Dats\SEGAModel2Emulator;SEGAModel2Emulator
-H:\Logiqx\WWW\Dats\Tickle;Tickle
 H:\Logiqx\WWW\Dats\WinKawaks;WinKawaks
 H:\Logiqx\WWW\Dats\Zinc;Zinc

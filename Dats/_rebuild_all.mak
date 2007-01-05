@@ -7,13 +7,10 @@ ROMCENTER_INF=RomCenter.inf
 FILELIST=Files.lst
 
 EMULATORS= \
-	CrystalSystemEmulator/CrystalSystemEmulator.php \
 	Daphne/Daphne.php \
 	FinalBurnAlpha/FinalBurnAlpha.php \
 	MAMEBeta/MAMEBeta.php \
-	Pacifi3D/Pacifi3D.php \
 	RAINE/RAINE.php \
-	Tickle/Tickle.php \
 	WinKawaks/WinKawaks.php \
 	Zinc/Zinc.php \
 	OlderEmus/OlderEmus.php \
@@ -24,7 +21,6 @@ EMULATORS= \
 	CPS-1/CPS-1.php \
 	CPS-2/CPS-2.php \
 	Neo-Geo/Neo-Geo.php \
-	ZN/ZN.php \
 	MPU/MPU.php \
 	MAMEArtwork/MAMEArtwork.php \
 	MAMESamples/MAMESamples.php \

@@ -10,11 +10,6 @@
 
 <tr><td class="status"><b>
 						-
-					</b></td><td><a href="CrystalSystemEmulator/Crystal%20System%20Emulator%20v1.1%20(rc).zip"><b>Crystal System Emulator</b></a></td><td>v1.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>2</td><td>31/12/2004</td></tr>
-
-
-<tr><td class="status"><b>
-						-
 					</b></td><td><a href="Daphne/Daphne%20v0.99.7%20(rc).zip"><b>Daphne</b></a></td><td>v0.99.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>61</td><td>03/10/2005</td></tr>
 
 
@@ -51,21 +46,11 @@
 
 <tr><td class="status"><b>
 						-
-					</b></td><td><a href="Pacifi3D/Pacifi3D%20v0.3%20(rc).zip"><b>Pacifi3D</b></a></td><td>v0.3</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>11</td><td>13/04/2005</td></tr>
-
-
-<tr><td class="status"><b>
-						-
 					</b></td><td><a href="RAINE/RAINE%20v0.43.4%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>572</td><td>11/12/2006</td></tr>
 
 <tr><td class="status"><b>
 						-
 					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.3%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.3</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>23</td><td>28/08/2006</td></tr>
-
-
-<tr><td class="status"><b>
-						-
-					</b></td><td><a href="Tickle/Tickle%20Rebound%20Edition%20(rc).zip"><b>Tickle</b></a></td><td>"Rebound" Edition</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>28</td><td>31/07/2005</td></tr>
 
 <tr><td class="status"><b>
 						-
@@ -107,10 +92,6 @@
 <tr><td class="status"><b>
 						-
 					</b></td><td><a href="Neo-Geo/Neo-Geo%2020060724%20(rc).zip"><b>Neo-Geo</b></a></td><td>20060724</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>248</td><td>24/07/2006</td></tr>
-
-<tr><td class="status"><b>
-						-
-					</b></td><td><a href="ZN/ZN%2020060514%20(rc).zip"><b>ZN</b></a></td><td>20060514</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>29</td><td>14/05/2006</td></tr>
 
 		</table>
 	

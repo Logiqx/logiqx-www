@@ -57,21 +57,6 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="CrystalSystemEmulator/">Crystal System Emulator v1.1</a> (suitable for v1.2)</td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>31/12/2004</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-      </tr>
-
-			
-<tr>
-        <td>
           <a href="Daphne/">Daphne v0.99.7</a>
         </td>
         <td>
@@ -191,22 +176,6 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="Pacifi3D/">Pacifi3D v0.3</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>13/04/2005</p>
-        </td>
-        <td>
-          <p>11</p>
-        </td>
-      </tr>
-
-			
-<tr>
-        <td>
           <a href="RAINE/">RAINE v0.43.4</a>
         </td>
         <td>
@@ -232,22 +201,6 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>23</p>
-        </td>
-      </tr>
-
-			
-<tr>
-        <td>
-          <a href="Tickle/">Tickle "Rebound" Edition</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>31/07/2005</p>
-        </td>
-        <td>
-          <p>28</p>
         </td>
       </tr>
 
@@ -378,21 +331,6 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>248</p>
-        </td>
-      </tr>
-
-			<tr>
-        <td>
-          <a href="ZN/">ZN 20060514</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>14/05/2006</p>
-        </td>
-        <td>
-          <p>29</p>
         </td>
       </tr>
 

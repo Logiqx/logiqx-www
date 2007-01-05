@@ -1,22 +1,18 @@
 <?xml version="1.0"?>
 <!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <!DOCTYPE contents_page SYSTEM "dtd/dats.dtd" [
-	<!ENTITY CrystalSystemEmulator SYSTEM "CrystalSystemEmulator/CrystalSystemEmulator.ent.xml">
 	<!ENTITY Daphne SYSTEM "Daphne/Daphne.ent.xml">
 	<!ENTITY FinalBurnAlpha SYSTEM "FinalBurnAlpha/FinalBurnAlpha.ent.xml">
 	<!ENTITY MAMEBeta SYSTEM "MAMEBeta/MAMEBeta.ent.xml">
 	<!ENTITY Nebula SYSTEM "Nebula/Nebula.ent.xml">
 	<!ENTITY SEGAModel2Emulator SYSTEM "SEGAModel2Emulator/SEGAModel2Emulator.ent.xml">
-	<!ENTITY Pacifi3D SYSTEM "Pacifi3D/Pacifi3D.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
-	<!ENTITY Tickle SYSTEM "Tickle/Tickle.ent.xml">
 	<!ENTITY Kawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
 	<!ENTITY Zinc SYSTEM "Zinc/Zinc.ent.xml">
 	<!ENTITY OlderEmus SYSTEM "OlderEmus/OlderEmus.ent.xml">
 	<!ENTITY CPS1 SYSTEM "CPS-1/CPS-1.ent.xml">
 	<!ENTITY CPS2 SYSTEM "CPS-2/CPS-2.ent.xml">
 	<!ENTITY NeoGeo SYSTEM "Neo-Geo/Neo-Geo.ent.xml">
-	<!ENTITY ZN SYSTEM "ZN/ZN.ent.xml">
 	<!ENTITY M1 SYSTEM "M1/M1.ent.xml">
 	<!ENTITY NebulaJukebox SYSTEM "NebulaJukebox/NebulaJukebox.ent.xml">
 	<!ENTITY MAMEArtwork SYSTEM "MAMEArtwork/MAMEArtwork.ent.xml">
@@ -30,7 +26,6 @@
 			<p>Emulators that are up to a year old, still active or likely to receive further updates.<br/>These data files correspond to the <a href="http://caesar.logiqx.com/php/emulators.php?id=recent">recent emulators</a> listed at CAESAR.</p>
 		</comment>
 		<emulators>
-			&CrystalSystemEmulator;
 			&Daphne;
 			&FinalBurnAlpha;
 			&Kawaks;
@@ -39,10 +34,8 @@
 			&MAMEChanges;
 			&Nebula;
 			&NebulaJukebox;
-			&Pacifi3D;
 			&RAINE;
 			&SEGAModel2Emulator;
-			&Tickle;
 			&Zinc;
 		</emulators>
 	</section>
@@ -66,7 +59,6 @@
 			&CPS1;
 			&CPS2;
 			&NeoGeo;
-			&ZN;
 		</emulators>
 	</section>
 	<section>
