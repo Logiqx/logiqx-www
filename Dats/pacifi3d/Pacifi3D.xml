@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-<!ENTITY Pacifi3D SYSTEM "Pacifi3D.ent.xml">
-]>
-
-<emulator_page>
-	&Pacifi3D;
-</emulator_page>
