@@ -2,10 +2,10 @@
 <emulator id="OlderEmus">
 	<img src="OlderEmus.png" width="140" height="40"/>
 	<name>Older Emus</name>
-	<version>20060821</version>
+	<version>20070105</version>
 	<suitability/>
-	<status></status>
-	<date>21/08/2006</date>
+	<status>Updated</status>
+	<date>05/01/2007</date>
 	<games>Thousands of</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Older%20Emus%2020060821%20(cm).zip" size="1181"/>
+			<file name="Older%20Emus%2020070105%20(cm).zip" size="1185"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Older%20Emus%2020060821%20(rc).zip" size="500"/>
+			<file name="Older%20Emus%2020070105%20(rc).zip" size="500"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 January 2007</date>
+			<comment>Added Crystal System Emulator v1.1, Pacifi3D v0.3, Tickle Rebound Edition.</comment>
+		</revision>
 		<revision>
 			<date>21 August 2006</date>
 			<comment>NeoJukeBox v2.7 - Updated the newer Neo-Geo games to match MAME v0.104<br/>Viva Nonno v22.0.3 - Added missing SHA-1 information (taken from MAME v0.105)<br/>Nebula Model 2 v0.9b - Updated supplement to match MAME v0.108</comment>

@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Nebula%20Jukebox%20v2.9%20(cm).zip" size="47"/>
+			<file name="Nebula%20Jukebox%20v2.9%20(cm).zip" size="37"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Nebula%20Jukebox%20v2.9%20(rc).zip" size="24"/>
+			<file name="Nebula%20Jukebox%20v2.9%20(rc).zip" size="17"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 January 2007</date>
+			<comment>Removed MAME supplements.</comment>
+		</revision>
 		<revision>
 			<date>11 December 2006</date>
 			<comment>No change required for MAME v0.111.</comment>

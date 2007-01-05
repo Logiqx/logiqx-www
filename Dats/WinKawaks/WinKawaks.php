@@ -30,7 +30,7 @@
 	<p>
       <img src="WinKawaks.png" width="141" height="40" alt="WinKawaks.png"/>
     </p>
-	<p>491 games for Kawaks v1.57</p>
+	<p>498 games for Kawaks v1.57</p>
 	
 	
 	
@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="WinKawaks%20v1.57%20(cm).zip">Kawaks dat for CMPro</a> (205KB)</p>
+          <p>Download <a href="WinKawaks%20v1.57%20(cm).zip">Kawaks dat for CMPro</a> (163KB)</p>
           <p>
             <a href="WinKawaks%20v1.57%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="WinKawaks%20v1.57%20(rc).zip">Kawaks dat for ROMCenter</a> (101KB)</p>
+          <p>Download <a href="WinKawaks%20v1.57%20(rc).zip">Kawaks dat for ROMCenter</a> (76KB)</p>
           <p>
             <a href="WinKawaks%20v1.57%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 January 2007</b> - 
+			
+			Removed MAME supplements and added dummy parents.
+		</p>
     <p>
       <b>31 December 2006</b> - 
 			

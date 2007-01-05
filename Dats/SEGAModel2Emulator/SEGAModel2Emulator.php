@@ -44,7 +44,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.3%20(cm).zip">SEGA Model 2 Emulator dat for CMPro</a> (29KB)</p>
+          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.3%20(cm).zip">SEGA Model 2 Emulator dat for CMPro</a> (15KB)</p>
           <p>
             <a href="SEGA%20Model%202%20Emulator%20v0.3%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -52,7 +52,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.3%20(rc).zip">SEGA Model 2 Emulator dat for ROMCenter</a> (15KB)</p>
+          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.3%20(rc).zip">SEGA Model 2 Emulator dat for ROMCenter</a> (6KB)</p>
           <p>
             <a href="SEGA%20Model%202%20Emulator%20v0.3%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -65,6 +65,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 January 2007</b> - 
+			
+			Removed MAME supplements.
+		</p>
     <p>
       <b>11 December 2006</b> - 
 			

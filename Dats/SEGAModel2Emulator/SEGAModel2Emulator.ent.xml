@@ -13,14 +13,18 @@
 	<dats>
 		<dat>
                         &CMPro;
-			<file name="SEGA%20Model%202%20Emulator%20v0.3%20(cm).zip" size="29"/>
+			<file name="SEGA%20Model%202%20Emulator%20v0.3%20(cm).zip" size="15"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-			<file name="SEGA%20Model%202%20Emulator%20v0.3%20(rc).zip" size="15"/>
+			<file name="SEGA%20Model%202%20Emulator%20v0.3%20(rc).zip" size="6"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 January 2007</date>
+			<comment>Removed MAME supplements.</comment>
+		</revision>
 		<revision>
 			<date>11 December 2006</date>
 			<comment>No change required for MAME v0.111.</comment>

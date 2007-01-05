@@ -98,12 +98,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>31/12/2006</b>
+            <b>05/01/2007</b>
           </p>
         </td>
         <td>
           <p>
-            <b>491</b>
+            <b>498</b>
           </p>
         </td>
       </tr>
@@ -248,16 +248,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="OlderEmus/">Older Emus 20060821</a>
+          <a href="OlderEmus/">Older Emus 20070105</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>21/08/2006</p>
+          <p>
+            <b>05/01/2007</b>
+          </p>
         </td>
         <td>
-          <p>Thousands of</p>
+          <p>
+            <b>Thousands of</b>
+          </p>
         </td>
       </tr>
 
@@ -305,32 +311,44 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="CPS-2/">CPS-2 20061211</a>
+          <a href="CPS-2/">CPS-2 20070105</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>11/12/2006</p>
+          <p>
+            <b>05/01/2007</b>
+          </p>
         </td>
         <td>
-          <p>192</p>
+          <p>
+            <b>193</b>
+          </p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="Neo-Geo/">Neo-Geo 20060724</a>
+          <a href="Neo-Geo/">Neo-Geo 20070105</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>24/07/2006</p>
+          <p>
+            <b>05/01/2007</b>
+          </p>
         </td>
         <td>
-          <p>248</p>
+          <p>
+            <b>258</b>
+          </p>
         </td>
       </tr>
 

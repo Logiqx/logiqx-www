@@ -46,7 +46,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="CPS-1%2020060724%20(cm).zip">CPS-1 dat for CMPro</a> (48KB)</p>
+          <p>Download <a href="CPS-1%2020060724%20(cm).zip">CPS-1 dat for CMPro</a> (38KB)</p>
           <p>
             <a href="CPS-1%2020060724%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -54,7 +54,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="CPS-1%2020060724%20(rc).zip">CPS-1 dat for ROMCenter</a> (26KB)</p>
+          <p>Download <a href="CPS-1%2020060724%20(rc).zip">CPS-1 dat for ROMCenter</a> (20KB)</p>
           <p>
             <a href="CPS-1%2020060724%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -68,6 +68,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 January 2007</b> - 
+			
+			Removed MAME supplements.
+		</p>
     <p>
       <b>11 December 2006</b> - 
 			

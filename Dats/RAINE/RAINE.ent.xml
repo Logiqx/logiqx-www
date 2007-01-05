@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="RAINE%20v0.43.4%20(cm).zip" size="259"/>
+			<file name="RAINE%20v0.43.4%20(cm).zip" size="222"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="RAINE%20v0.43.4%20(rc).zip" size="103"/>
+			<file name="RAINE%20v0.43.4%20(rc).zip" size="83"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 January 2007</date>
+			<comment>Removed MAME supplements.</comment>
+		</revision>
 		<revision>
 			<date>11 December 2006</date>
 			<comment>Updated supplements for MAME v0.111.</comment>

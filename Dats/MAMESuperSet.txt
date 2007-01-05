@@ -1,0 +1,5 @@
+H:\Logiqx\WWW\Dats\MAMESuperSet;MAMESuperSet
+H:\Logiqx\WWW\Dats\MAMESuperSetEmusM;MAMESuperSetEmusM
+H:\Logiqx\WWW\Dats\MAMESuperSetEmusS;MAMESuperSetEmusS
+H:\Logiqx\WWW\Dats\MAMESuperSetSuppM;MAMESuperSetSuppM
+H:\Logiqx\WWW\Dats\MAMESuperSetSuppS;MAMESuperSetSuppS

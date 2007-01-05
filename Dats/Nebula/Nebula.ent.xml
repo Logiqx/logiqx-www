@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
                         &CMPro;
-			<file name="Nebula%20v2.25%20(cm).zip" size="191"/>
+			<file name="Nebula%20v2.25%20(cm).zip" size="149"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-                        <file name="Nebula%20v2.25%20(rc).zip" size="95"/>
+                        <file name="Nebula%20v2.25%20(rc).zip" size="71"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 January 2007</date>
+			<comment>Removed MAME supplements.</comment>
+		</revision>
 		<revision>
 			<date>11 December 2006</date>
 			<comment>Updated supplements for MAME v0.111.</comment>

@@ -11,14 +11,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="FBA%20v0.2.95.23%20(cm).zip" size="207"/>
+			<file name="FBA%20v0.2.95.23%20(cm).zip" size="182"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="FBA%20v0.2.95.23%20(rc).zip" size="110"/>
+			<file name="FBA%20v0.2.95.23%20(rc).zip" size="90"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 January 2007</date>
+			<comment>Removed MAME supplements.</comment>
+		</revision>
 		<revision>
 			<date>11 December 2006</date>
 			<comment>Updated supplements for MAME v0.111.</comment>

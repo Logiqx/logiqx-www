@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="M1%20v0.7.7%20(cm).zip" size="200"/>
+			<file name="M1%20v0.7.7%20(cm).zip" size="143"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="M1%20v0.7.7%20(rc).zip" size="93"/>
+			<file name="M1%20v0.7.7%20(rc).zip" size="59"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 January 2007</date>
+			<comment>Removed MAME supplements.</comment>
+		</revision>
 		<revision>
 			<date>11 December 2006</date>
 			<comment>No change required for MAME v0.111.</comment>

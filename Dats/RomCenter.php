@@ -20,7 +20,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="WinKawaks/WinKawaks%20v1.57%20(rc).zip"><b>Kawaks</b></a></td><td>v1.57</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>491</td><td>31/12/2006</td></tr>
+					</b></td><td><a href="WinKawaks/WinKawaks%20v1.57%20(rc).zip"><b>Kawaks</b></a></td><td>v1.57</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>498</td><td>05/01/2007</td></tr>
 
 
 <tr><td class="status"><b>
@@ -67,8 +67,8 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="OlderEmus/Older%20Emus%2020060821%20(rc).zip"><b>Older Emus</b></a></td><td>20060821</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>21/08/2006</td></tr>
+						updated
+					</b></td><td><a href="OlderEmus/Older%20Emus%2020070105%20(rc).zip"><b>Older Emus</b></a></td><td>20070105</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>05/01/2007</td></tr>
 
 		</table>
 	
@@ -85,13 +85,13 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="CPS-2/CPS-2%2020061211%20(rc).zip"><b>CPS-2</b></a></td><td>20061211</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>192</td><td>11/12/2006</td></tr>
+						updated
+					</b></td><td><a href="CPS-2/CPS-2%2020070105%20(rc).zip"><b>CPS-2</b></a></td><td>20070105</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>193</td><td>05/01/2007</td></tr>
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="Neo-Geo/Neo-Geo%2020060724%20(rc).zip"><b>Neo-Geo</b></a></td><td>20060724</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>248</td><td>24/07/2006</td></tr>
+						updated
+					</b></td><td><a href="Neo-Geo/Neo-Geo%2020070105%20(rc).zip"><b>Neo-Geo</b></a></td><td>20070105</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>258</td><td>05/01/2007</td></tr>
 
 		</table>
 	

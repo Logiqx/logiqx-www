@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Nebula%20v2.25%20(cm).zip">Nebula dat for CMPro</a> (191KB)</p>
+          <p>Download <a href="Nebula%20v2.25%20(cm).zip">Nebula dat for CMPro</a> (149KB)</p>
           <p>
             <a href="Nebula%20v2.25%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="Nebula%20v2.25%20(rc).zip">Nebula dat for ROMCenter</a> (95KB)</p>
+          <p>Download <a href="Nebula%20v2.25%20(rc).zip">Nebula dat for ROMCenter</a> (71KB)</p>
           <p>
             <a href="Nebula%20v2.25%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 January 2007</b> - 
+			
+			Removed MAME supplements.
+		</p>
     <p>
       <b>11 December 2006</b> - 
 			
