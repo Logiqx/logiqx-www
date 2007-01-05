@@ -99,19 +99,6 @@
 		
 		
 		
-			<p><b>Slightly Arcade Related (Fruit Machines/Pinball)</b></p>
-		
-		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>System</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
-<tr><td class="status"><b>
-						-
-					</b></td><td><a href="MPU/MPU%203-4%20v6.5%20-%2020010808%20-%20RC.zip"><b>MPU</b></a></td><td>20010808</td><td><a href="mailto:firewave@breaken.de"><b>Firewave</b></a></td><td>5</td><td>08/08/2001</td></tr>
-
-		</table>
-	
-	
-		
-		
-		
 			<p><b>Resource Files</b></p>
 		
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Resource</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>

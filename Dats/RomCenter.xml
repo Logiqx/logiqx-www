@@ -63,16 +63,6 @@
 		</emulators>
 	</section>
 	<section>
-		<img src="Systems.png" width="104" height="40"/>
-		<type>System</type>
-		<comment>
-			<p><b>Slightly Arcade Related (Fruit Machines/Pinball)</b></p>
-		</comment>
-		<emulators>
-&MPU;
-		</emulators>
-	</section>
-	<section>
 		<img src="ResourceFiles.png" width="177" height="40"/>
 		<type>Resource</type>
 		<comment>
