@@ -44,7 +44,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.111%20(cm).zip">MAME SuperSet dat for CMPro</a> (2145KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.111%20(cm).zip">MAME SuperSet dat for CMPro</a> (2147KB)</p>
           <p>
             <a href="MAME%20SuperSet%20v0.111%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -52,7 +52,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.111%20(rc).zip">MAME SuperSet dat for ROMCenter</a> (928KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.111%20(rc).zip">MAME SuperSet dat for ROMCenter</a> (930KB)</p>
           <p>
             <a href="MAME%20SuperSet%20v0.111%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
