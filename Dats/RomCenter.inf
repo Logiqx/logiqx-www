@@ -16,6 +16,25 @@ email=support@romcenter.com
 			
 		
 		
+new;MAME SuperSet;v0.111;6390;Logiqx;http://www.logiqx.com;;06/01/2007;http://www.logiqx.com/Dats/MAMESuperSet/MAME%20SuperSet%20v0.111%20(rc).zip
+
+new;MAME SuperSet (Fully-merged MAME Supplement);v0.111;Non-MAME;Logiqx;http://www.logiqx.com;;06/01/2007;http://www.logiqx.com/Dats/MAMESuperSetSuppM/MAME%20SuperSet%20v0.111%20(Fully-merged%20MAME%20Supplement)%20(rc).zip
+
+new;MAME SuperSet (Split-merged MAME Supplement);v0.111;Non-MAME;Logiqx;http://www.logiqx.com;;06/01/2007;http://www.logiqx.com/Dats/MAMESuperSetSuppS/MAME%20SuperSet%20v0.111%20(Split-merged%20MAME%20Supplement)%20(rc).zip
+
+new;Various Emulators (Fully-merged SuperSet Supplements);v0.111;Non-MAME;Logiqx;http://www.logiqx.com;;06/01/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.111%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
+
+new;Various Emulators (Split-merged SuperSet Supplements);v0.111;Non-MAME;Logiqx;http://www.logiqx.com;;06/01/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.111%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
+
+		
+	
+	
+		
+		
+		
+			
+		
+		
 
 ;Daphne;v0.99.7;61;Logiqx;http://www.logiqx.com;;03/10/2005;http://www.logiqx.com/Dats/Daphne/Daphne%20v0.99.7%20(rc).zip
 

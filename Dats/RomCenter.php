@@ -4,6 +4,35 @@
 		
 		
 		
+			<p>MAME and various systems (CPS-1, CPS-2 and Neo-Geo) combined into one.<br/>Makes 'supplements' for emulators such as Nebula and Kawaks smaller and more efficient.</p>
+		
+		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
+<tr><td class="status"><b>
+						new
+					</b></td><td><a href="MAMESuperSet/MAME%20SuperSet%20v0.111%20(rc).zip"><b>MAME SuperSet</b></a></td><td>v0.111</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6390</td><td>06/01/2007</td></tr>
+
+<tr><td class="status"><b>
+						new
+					</b></td><td><a href="MAMESuperSetSuppM/MAME%20SuperSet%20v0.111%20(Fully-merged%20MAME%20Supplement)%20(rc).zip"><b>MAME SuperSet (Fully-merged MAME Supplement)</b></a></td><td>v0.111</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>06/01/2007</td></tr>
+
+<tr><td class="status"><b>
+						new
+					</b></td><td><a href="MAMESuperSetSuppS/MAME%20SuperSet%20v0.111%20(Split-merged%20MAME%20Supplement)%20(rc).zip"><b>MAME SuperSet (Split-merged MAME Supplement)</b></a></td><td>v0.111</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>06/01/2007</td></tr>
+
+<tr><td class="status"><b>
+						new
+					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.111%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.111</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>06/01/2007</td></tr>
+
+<tr><td class="status"><b>
+						new
+					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.111%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.111</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>06/01/2007</td></tr>
+
+		</table>
+	
+	
+		
+		
+		
 			<p><b>Emulators that are up to a year old, still active or likely to receive further updates.<br/>These data files correspond to the <a href="http://caesar.logiqx.com/php/emulators.php?id=recent">recent emulators</a> listed at CAESAR.</b></p>
 		
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>

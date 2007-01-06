@@ -32,6 +32,137 @@
 and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they work correctly for both managers and are suitable for CAESAR. I will take no credit for your dats but I would like to check them over before they are released (rather than submit changes after they are public).</p>
 	<hr/>
     <p>
+      <img src="MAMESuperSet.png" width="198" height="40" alt="MAMESuperSet.png"/>
+    </p>
+		
+		
+		
+			<p>MAME and various systems (CPS-1, CPS-2 and Neo-Geo) combined into one.<br/>Makes 'supplements' for emulators such as Nebula and Kawaks smaller and more efficient.</p>
+		
+		<table class="news">
+      <colgroup span="1"/>
+      <colgroup span="1" width="110"/>
+      <colgroup span="1" width="110"/>
+      <colgroup span="1" width="110"/>
+      <tr>
+        <th>Emulator</th>
+        <th/>
+        <th>
+          <p>Dat Updated</p>
+        </th>
+        <th>
+          <p>Games</p>
+        </th>
+      </tr>
+			<tr>
+        <td>
+          <a href="MAMESuperSet/">MAME SuperSet v0.111</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/New.png" width="53" height="14" alt="New"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>06/01/2007</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>6390</b>
+          </p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
+          <a href="MAMESuperSetSuppM/">MAME SuperSet (Fully-merged MAME Supplement) v0.111</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/New.png" width="53" height="14" alt="New"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>06/01/2007</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>Non-MAME</b>
+          </p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
+          <a href="MAMESuperSetSuppS/">MAME SuperSet (Split-merged MAME Supplement) v0.111</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/New.png" width="53" height="14" alt="New"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>06/01/2007</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>Non-MAME</b>
+          </p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
+          <a href="MAMESuperSetEmusM/">Various Emulators (Fully-merged SuperSet Supplements) v0.111</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/New.png" width="53" height="14" alt="New"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>06/01/2007</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>Non-MAME</b>
+          </p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
+          <a href="MAMESuperSetEmusS/">Various Emulators (Split-merged SuperSet Supplements) v0.111</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/New.png" width="53" height="14" alt="New"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>06/01/2007</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>Non-MAME</b>
+          </p>
+        </td>
+      </tr>
+
+		</table>
+	
+	<hr/>
+    <p>
       <img src="RecentEmus.png" width="158" height="40" alt="RecentEmus.png"/>
     </p>
 		

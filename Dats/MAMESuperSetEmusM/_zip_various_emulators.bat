@@ -1,0 +1,26 @@
+@ECHO OFF
+
+REM --- Move to CMPro directory
+
+cd "%LOGIQX%\Dats\SuperSet.merged"
+
+REM --- Set the version number using the makefile
+
+sed "s/^MAME_/SET &/" "%LOGIQX%\Dats\Recent\Multi\MAME\MAME.vers.mak" >"MAME.vers.bat"
+CALL "MAME.vers.bat"
+DEL "MAME.vers.bat"
+
+REM --- Generate CMPro ZIP
+
+zip "Various Emulators %MAME_VER_CURRENT% (Fully-merged SuperSet Supplements) (cm).zip" "*SuperSet Supplement*"
+mv "Various Emulators %MAME_VER_CURRENT% (Fully-merged SuperSet Supplements) (cm).zip" "%LOGIQX%/WWW/Dats/MAMESuperSetEmusM"
+
+REM --- Move to RomCenter directory
+
+cd "%LOGIQX%\Dats_RC\SuperSet.merged"
+
+REM --- Generate RomCenter ZIP
+
+zip "Various Emulators %MAME_VER_CURRENT% (Fully-merged SuperSet Supplements) (rc).zip" "*SuperSet Supplement*"
+mv "Various Emulators %MAME_VER_CURRENT% (Fully-merged SuperSet Supplements) (rc).zip" "%LOGIQX%/WWW/Dats/MAMESuperSetEmusM"
+

@@ -4,6 +4,11 @@
 	<!ENTITY Daphne SYSTEM "Daphne/Daphne.ent.xml">
 	<!ENTITY FinalBurnAlpha SYSTEM "FinalBurnAlpha/FinalBurnAlpha.ent.xml">
 	<!ENTITY MAMEBeta SYSTEM "MAMEBeta/MAMEBeta.ent.xml">
+	<!ENTITY MAMESuperSet SYSTEM "MAMESuperSet/MAMESuperSet.ent.xml">
+	<!ENTITY MAMESuperSetSuppM SYSTEM "MAMESuperSetSuppM/MAMESuperSetSuppM.ent.xml">
+	<!ENTITY MAMESuperSetSuppS SYSTEM "MAMESuperSetSuppS/MAMESuperSetSuppS.ent.xml">
+	<!ENTITY MAMESuperSetEmusM SYSTEM "MAMESuperSetEmusM/MAMESuperSetEmusM.ent.xml">
+	<!ENTITY MAMESuperSetEmusS SYSTEM "MAMESuperSetEmusS/MAMESuperSetEmusS.ent.xml">
 	<!ENTITY Nebula SYSTEM "Nebula/Nebula.ent.xml">
 	<!ENTITY SEGAModel2Emulator SYSTEM "SEGAModel2Emulator/SEGAModel2Emulator.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
@@ -20,6 +25,20 @@
 	<!ENTITY MAMESamples SYSTEM "MAMESamples/MAMESamples.ent.xml">
 ]>
 <contents_page>
+	<section>
+		<img src="MAMESuperSet.png" width="198" height="40"/>
+		<type>Emulator</type>
+		<comment>
+			<p>MAME and various systems (CPS-1, CPS-2 and Neo-Geo) combined into one.<br/>Makes 'supplements' for emulators such as Nebula and Kawaks smaller and more efficient.</p>
+		</comment>
+		<emulators>
+&MAMESuperSet;
+&MAMESuperSetSuppM;
+&MAMESuperSetSuppS;
+&MAMESuperSetEmusM;
+&MAMESuperSetEmusS;
+		</emulators>
+	</section>
 	<section>
 		<img src="RecentEmus.png" width="158" height="40"/>
 		<type>Emulator</type>

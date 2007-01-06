@@ -10,6 +10,11 @@ EMULATORS= \
 	Daphne/Daphne.php \
 	FinalBurnAlpha/FinalBurnAlpha.php \
 	MAMEBeta/MAMEBeta.php \
+	MAMESuperSet/MAMESuperSet.php \
+	MAMESuperSetSuppM/MAMESuperSetSuppM.php \
+	MAMESuperSetSuppS/MAMESuperSetSuppS.php \
+	MAMESuperSetEmusM/MAMESuperSetEmusM.php \
+	MAMESuperSetEmusS/MAMESuperSetEmusS.php \
 	RAINE/RAINE.php \
 	WinKawaks/WinKawaks.php \
 	Zinc/Zinc.php \
@@ -21,7 +26,6 @@ EMULATORS= \
 	CPS-1/CPS-1.php \
 	CPS-2/CPS-2.php \
 	Neo-Geo/Neo-Geo.php \
-	MPU/MPU.php \
 	MAMEArtwork/MAMEArtwork.php \
 	MAMESamples/MAMESamples.php \
 
