@@ -8,23 +8,23 @@
 		
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 <tr><td class="status"><b>
-						new
+						-
 					</b></td><td><a href="MAMESuperSet/MAME%20SuperSet%20v0.111%20(rc).zip"><b>MAME SuperSet</b></a></td><td>v0.111</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6390</td><td>06/01/2007</td></tr>
 
 <tr><td class="status"><b>
-						new
+						-
 					</b></td><td><a href="MAMESuperSetSuppM/MAME%20SuperSet%20v0.111%20(Fully-merged%20MAME%20Supplement)%20(rc).zip"><b>MAME SuperSet (Fully-merged MAME Supplement)</b></a></td><td>v0.111</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>06/01/2007</td></tr>
 
 <tr><td class="status"><b>
-						new
+						-
 					</b></td><td><a href="MAMESuperSetSuppS/MAME%20SuperSet%20v0.111%20(Split-merged%20MAME%20Supplement)%20(rc).zip"><b>MAME SuperSet (Split-merged MAME Supplement)</b></a></td><td>v0.111</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>06/01/2007</td></tr>
 
 <tr><td class="status"><b>
-						new
+						-
 					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.111%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.111</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>06/01/2007</td></tr>
 
 <tr><td class="status"><b>
-						new
+						-
 					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.111%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.111</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>06/01/2007</td></tr>
 
 		</table>
@@ -48,7 +48,7 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="WinKawaks/WinKawaks%20v1.57%20(rc).zip"><b>Kawaks</b></a></td><td>v1.57</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>498</td><td>05/01/2007</td></tr>
 
 
@@ -74,8 +74,8 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="RAINE/RAINE%20v0.43.4%20(rc).zip"><b>RAINE</b></a></td><td>v0.43.4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>572</td><td>11/12/2006</td></tr>
+						updated
+					</b></td><td><a href="RAINE/RAINE%20v0.50.2%20(rc).zip"><b>RAINE</b></a></td><td>v0.50.2</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>567</td><td>29/01/2007</td></tr>
 
 <tr><td class="status"><b>
 						-
@@ -96,7 +96,7 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="OlderEmus/Older%20Emus%2020070105%20(rc).zip"><b>Older Emus</b></a></td><td>20070105</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>05/01/2007</td></tr>
 
 		</table>
@@ -114,12 +114,12 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="CPS-2/CPS-2%2020070105%20(rc).zip"><b>CPS-2</b></a></td><td>20070105</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>193</td><td>05/01/2007</td></tr>
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="Neo-Geo/Neo-Geo%2020070105%20(rc).zip"><b>Neo-Geo</b></a></td><td>20070105</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>258</td><td>05/01/2007</td></tr>
 
 		</table>
