@@ -56,76 +56,106 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
       </tr>
 			<tr>
         <td>
-          <a href="MAMESuperSet/">MAME SuperSet v0.111</a>
+          <a href="MAMESuperSet/">MAME SuperSet v0.112</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>06/01/2007</p>
+          <p>
+            <b>08/02/2007</b>
+          </p>
         </td>
         <td>
-          <p>6390</p>
-        </td>
-      </tr>
-
-			<tr>
-        <td>
-          <a href="MAMESuperSetSuppM/">MAME SuperSet (Fully-merged MAME Supplement) v0.111</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>06/01/2007</p>
-        </td>
-        <td>
-          <p>Non-MAME</p>
+          <p>
+            <b>6480</b>
+          </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="MAMESuperSetSuppS/">MAME SuperSet (Split-merged MAME Supplement) v0.111</a>
+          <a href="MAMESuperSetSuppM/">MAME SuperSet (Fully-merged MAME Supplement) v0.112</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>06/01/2007</p>
+          <p>
+            <b>08/02/2007</b>
+          </p>
         </td>
         <td>
-          <p>Non-MAME</p>
-        </td>
-      </tr>
-
-			<tr>
-        <td>
-          <a href="MAMESuperSetEmusM/">Various Emulators (Fully-merged SuperSet Supplements) v0.111</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>06/01/2007</p>
-        </td>
-        <td>
-          <p>Non-MAME</p>
+          <p>
+            <b>Non-MAME</b>
+          </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="MAMESuperSetEmusS/">Various Emulators (Split-merged SuperSet Supplements) v0.111</a>
+          <a href="MAMESuperSetSuppS/">MAME SuperSet (Split-merged MAME Supplement) v0.112</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>06/01/2007</p>
+          <p>
+            <b>08/02/2007</b>
+          </p>
         </td>
         <td>
-          <p>Non-MAME</p>
+          <p>
+            <b>Non-MAME</b>
+          </p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
+          <a href="MAMESuperSetEmusM/">Various Emulators (Fully-merged SuperSet Supplements) v0.112</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>08/02/2007</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>Non-MAME</b>
+          </p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
+          <a href="MAMESuperSetEmusS/">Various Emulators (Split-merged SuperSet Supplements) v0.112</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>08/02/2007</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>Non-MAME</b>
+          </p>
         </td>
       </tr>
 
@@ -206,32 +236,44 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="M1/">M1 v0.7.7</a>
+          <a href="M1/">M1 v0.7.7u2</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>27/09/2006</p>
+          <p>
+            <b>08/02/2007</b>
+          </p>
         </td>
         <td>
-          <p>1157</p>
+          <p>
+            <b>1208</b>
+          </p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="MAMEBeta/">MAME v0.111</a>
+          <a href="MAMEBeta/">MAME v0.112</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>11/12/2006</p>
+          <p>
+            <b>08/02/2007</b>
+          </p>
         </td>
         <td>
-          <p>6344</p>
+          <p>
+            <b>6437</b>
+          </p>
         </td>
       </tr>
 
@@ -406,16 +448,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="CPS-2/">CPS-2 20070105</a>
+          <a href="CPS-2/">CPS-2 20070206</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>05/01/2007</p>
+          <p>
+            <b>08/02/2007</b>
+          </p>
         </td>
         <td>
-          <p>193</p>
+          <p>
+            <b>195</b>
+          </p>
         </td>
       </tr>
 

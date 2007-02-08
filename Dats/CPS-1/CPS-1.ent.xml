@@ -25,6 +25,10 @@
 
 	<revisions>
 		<revision>
+			<date>8 February 2007</date>
+			<comment>No change required for MAME v0.112.</comment>
+		</revision>
+		<revision>
 			<date>5 January 2007</date>
 			<comment>Removed MAME supplements.</comment>
 		</revision>

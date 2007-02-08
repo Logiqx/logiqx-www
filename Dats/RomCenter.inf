@@ -16,15 +16,15 @@ email=support@romcenter.com
 			
 		
 		
-;MAME SuperSet;v0.111;6390;Logiqx;http://www.logiqx.com;;06/01/2007;http://www.logiqx.com/Dats/MAMESuperSet/MAME%20SuperSet%20v0.111%20(rc).zip
+updated;MAME SuperSet;v0.112;6480;Logiqx;http://www.logiqx.com;;08/02/2007;http://www.logiqx.com/Dats/MAMESuperSet/MAME%20SuperSet%20v0.112%20(rc).zip
 
-;MAME SuperSet (Fully-merged MAME Supplement);v0.111;Non-MAME;Logiqx;http://www.logiqx.com;;06/01/2007;http://www.logiqx.com/Dats/MAMESuperSetSuppM/MAME%20SuperSet%20v0.111%20(Fully-merged%20MAME%20Supplement)%20(rc).zip
+updated;MAME SuperSet (Fully-merged MAME Supplement);v0.112;Non-MAME;Logiqx;http://www.logiqx.com;;08/02/2007;http://www.logiqx.com/Dats/MAMESuperSetSuppM/MAME%20SuperSet%20v0.112%20(Fully-merged%20MAME%20Supplement)%20(rc).zip
 
-;MAME SuperSet (Split-merged MAME Supplement);v0.111;Non-MAME;Logiqx;http://www.logiqx.com;;06/01/2007;http://www.logiqx.com/Dats/MAMESuperSetSuppS/MAME%20SuperSet%20v0.111%20(Split-merged%20MAME%20Supplement)%20(rc).zip
+updated;MAME SuperSet (Split-merged MAME Supplement);v0.112;Non-MAME;Logiqx;http://www.logiqx.com;;08/02/2007;http://www.logiqx.com/Dats/MAMESuperSetSuppS/MAME%20SuperSet%20v0.112%20(Split-merged%20MAME%20Supplement)%20(rc).zip
 
-;Various Emulators (Fully-merged SuperSet Supplements);v0.111;Non-MAME;Logiqx;http://www.logiqx.com;;06/01/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.111%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
+updated;Various Emulators (Fully-merged SuperSet Supplements);v0.112;Non-MAME;Logiqx;http://www.logiqx.com;;08/02/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.112%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
 
-;Various Emulators (Split-merged SuperSet Supplements);v0.111;Non-MAME;Logiqx;http://www.logiqx.com;;06/01/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.111%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
+updated;Various Emulators (Split-merged SuperSet Supplements);v0.112;Non-MAME;Logiqx;http://www.logiqx.com;;08/02/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.112%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
 
 		
 	
@@ -45,10 +45,10 @@ email=support@romcenter.com
 ;Kawaks;v1.57;498;Logiqx;http://www.logiqx.com;;05/01/2007;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.57%20(rc).zip
 
 
-;M1;v0.7.7;1157;Logiqx;http://www.logiqx.com;;27/09/2006;http://www.logiqx.com/Dats/M1/M1%20v0.7.7%20(rc).zip
+updated;M1;v0.7.7u2;1208;Logiqx;http://www.logiqx.com;;08/02/2007;http://www.logiqx.com/Dats/M1/M1%20v0.7.7u2%20(rc).zip
 
 
-;MAME;v0.111;6344;Logiqx;http://www.logiqx.com;;11/12/2006;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.111%20(rc).zip
+updated;MAME;v0.112;6437;Logiqx;http://www.logiqx.com;;08/02/2007;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.112%20(rc).zip
 
 
 
@@ -88,7 +88,7 @@ updated;RAINE;v0.50.2;567;Logiqx;http://www.logiqx.com;;29/01/2007;http://www.lo
 ;CPS-1;20060724;122;Logiqx;http://www.logiqx.com;;24/07/2006;http://www.logiqx.com/Dats/CPS-1/CPS-1%2020060724%20(rc).zip
 
 
-;CPS-2;20070105;193;Logiqx;http://www.logiqx.com;;05/01/2007;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020070105%20(rc).zip
+updated;CPS-2;20070206;195;Logiqx;http://www.logiqx.com;;08/02/2007;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020070206%20(rc).zip
 
 
 ;Neo-Geo;20070105;258;Logiqx;http://www.logiqx.com;;05/01/2007;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020070105%20(rc).zip

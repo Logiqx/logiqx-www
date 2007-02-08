@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>8 February 2007</b> - 
+			
+			No change required for MAME v0.112.
+		</p>
+    <p>
       <b>5 January 2007</b> - 
 			
 			Removed MAME supplements and added some decrypted games (plus PCB games).
