@@ -1,6 +1,6 @@
 # Do not allow directory browsing
 
-Options All -Indexes
+Options All -Indexes +ExecCGI
 
 # Custom error documents
 
@@ -8,6 +8,7 @@ ErrorDocument 400 /error.php?code=400
 ErrorDocument 401 /error.php?code=401
 ErrorDocument 403 /error.php?code=403
 ErrorDocument 404 /error.php?code=404
+ErrorDocument 500 /error.php?code=500
 
 # Switch rewrite engine on
 
@@ -53,6 +54,3 @@ RewriteRule ^News/News([0-9]+)\.s?html?$ /?page=$1 [R=301,L]
 RewriteRule ^(.+)\.s?html?$ /$1.php [R=301,L]
 RewriteRule ^(.+)\.gif$ /$1.png [R=301,L]
 
-# Tee's latest routine!
-
-RewriteRule ^routine.zip$ /Salsa/routine3.zip [R=301,L]
