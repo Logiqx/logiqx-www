@@ -39,7 +39,7 @@
 					break;
 				case 403:
 					echo INDENT . '<h1>Error 403 - Forbidden</h1>' . LF . LF;
-					echo INDENT . '<p>Directory browsing id forbidden on this server!</p>' . LF;
+					echo INDENT . '<p>Directory browsing is forbidden on this server!</p>' . LF;
 					break;
 				case 404:
 					echo INDENT . '<h1>Error 404 - Not Found</h1>' . LF . LF;
