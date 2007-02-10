@@ -46,6 +46,10 @@
 					echo INDENT . '<p>The page that you have requested cannot be found.</p>' . LF;
 					echo INDENT . '<p>Maybe it has been moved or renamed... try browsing for it using the menu on the left hand side of this page.</p>' . LF;
 					break;
+				case 500:
+					echo INDENT . '<h1>Error 500 - Internal Server Error</h1>' . LF . LF;
+					echo INDENT . '<p>The server appears unable to render the requested page!</p>' . LF;
+					break;
 			}
 		?>
 		<?php
