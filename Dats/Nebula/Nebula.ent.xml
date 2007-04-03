@@ -2,11 +2,11 @@
 <emulator id="Nebula">
 	<img src="Nebula.png" width="85" height="40"/>
 	<name>Nebula</name>
-	<version>v2.25</version>
+	<version>v2.25b</version>
 	<suitability/>
-	<status></status>
-	<date>11/12/2006</date>
-	<games>469</games>
+	<status>Updated</status>
+	<date>03/04/2007</date>
+	<games>475</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Nebula emulates Capcom CPS-1, CPS-2 and Neo-Geo games.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
                         &CMPro;
-			<file name="Nebula%20v2.25%20(cm).zip" size="149"/>
+			<file name="Nebula%20v2.25b%20(cm).zip" size="151"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-                        <file name="Nebula%20v2.25%20(rc).zip" size="71"/>
+                        <file name="Nebula%20v2.25b%20(rc).zip" size="72"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>3 April 2007</date>
+			<comment>Uploaded dats for Nebula v2.25b.</comment>
+		</revision>
 		<revision>
 			<date>5 January 2007</date>
 			<comment>Removed MAME supplements.</comment>

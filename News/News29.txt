@@ -1,0 +1,10 @@
+  <h1>3 April 2007</h1>
+
+  <table class="news">
+    <tr>
+      <td>
+        <p>Back from holiday... I have updated the data files for <a href="Dats/">MAME v0.114, Nebula v2.25b and Neo-Geo 20070403</a>.</p>
+        <p>p.s. a couple of days ago marked the 7 year anniversary of Logiqx.com!!!</p>
+      </td>
+    </tr>
+  </table>
