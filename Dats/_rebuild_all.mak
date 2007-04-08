@@ -20,7 +20,6 @@ EMULATORS= \
 	Zinc/Zinc.php \
 	OlderEmus/OlderEmus.php \
 	M1/M1.php \
-	NebulaJukebox/NebulaJukebox.php \
 	Nebula/Nebula.php \
 	SEGAModel2Emulator/SEGAModel2Emulator.php \
 	CPS-1/CPS-1.php \

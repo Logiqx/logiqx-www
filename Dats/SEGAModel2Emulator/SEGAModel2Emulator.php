@@ -66,6 +66,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>8 April 2007 (again)</b> - 
+			
+			Updated cloneof for doab, dynmcopb and pltkidsb.
+		</p>
+    <p>
       <b>8 April 2007</b> - 
 			
 			Updated to match SEGA Model 2 Emulator v0.4.

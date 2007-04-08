@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Older Emus 20070105</title>
+    <title>Older Emus 20070408</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="OlderEmus.png" width="140" height="40" alt="OlderEmus.png"/>
     </p>
-	<p>Thousands of games for Older Emus 20070105</p>
+	<p>Thousands of games for Older Emus 20070408</p>
 	
 	
 	
@@ -46,17 +46,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Older%20Emus%2020070105%20(cm).zip">Older Emus dat for CMPro</a> (1185KB)</p>
+          <p>Download <a href="Older%20Emus%2020070408%20(cm).zip">Older Emus dat for CMPro</a> (1222KB)</p>
           <p>
-            <a href="Older%20Emus%2020070105%20(cm).zip">
+            <a href="Older%20Emus%2020070408%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Older%20Emus%2020070105%20(rc).zip">Older Emus dat for ROMCenter</a> (500KB)</p>
+          <p>Download <a href="Older%20Emus%2020070408%20(rc).zip">Older Emus dat for ROMCenter</a> (517KB)</p>
           <p>
-            <a href="Older%20Emus%2020070105%20(rc).zip">
+            <a href="Older%20Emus%2020070408%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>8 April 2007</b> - 
+			
+			Added Nebula Jukebox v2.9.
+		</p>
     <p>
       <b>5 January 2007</b> - 
 			

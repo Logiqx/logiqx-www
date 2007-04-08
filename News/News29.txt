@@ -5,6 +5,7 @@
       <td>
         <p>Released data files for <a href="Dats/">FBA v0.2.96.68, RAINE v0.50.3 and Sega Model 2 Emulator v0.4</a>.</p>
         <p>The one for Sega Model 2 Emulator v0.4 should be regarded as preliminary (it needs merging to be determined and tested).</p>
+        <p>UPDATE: I have finalised the Sega Model 2 datafile now.</p>
       </td>
     </tr>
   </table>

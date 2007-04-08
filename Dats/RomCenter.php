@@ -69,11 +69,6 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="NebulaJukebox/Nebula%20Jukebox%20v2.9%20(rc).zip"><b>Nebula Jukebox</b></a></td><td>v2.9</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>249</td><td>24/07/2006</td></tr>
-
-
-<tr><td class="status"><b>
 						updated
 					</b></td><td><a href="RAINE/RAINE%20v0.50.3%20(rc).zip"><b>RAINE</b></a></td><td>v0.50.3</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>572</td><td>08/04/2007</td></tr>
 
@@ -96,8 +91,8 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="OlderEmus/Older%20Emus%2020070105%20(rc).zip"><b>Older Emus</b></a></td><td>20070105</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>05/01/2007</td></tr>
+						updated
+					</b></td><td><a href="OlderEmus/Older%20Emus%2020070408%20(rc).zip"><b>Older Emus</b></a></td><td>20070408</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>08/04/2007</td></tr>
 
 		</table>
 	

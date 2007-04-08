@@ -22,6 +22,10 @@
 	</dats>
 	<revisions>
 		<revision>
+			<date>8 April 2007 (again)</date>
+			<comment>Updated cloneof for doab, dynmcopb and pltkidsb.</comment>
+		</revision>
+		<revision>
 			<date>8 April 2007</date>
 			<comment>Updated to match SEGA Model 2 Emulator v0.4.</comment>
 		</revision>

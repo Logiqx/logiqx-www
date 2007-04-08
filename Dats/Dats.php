@@ -303,22 +303,6 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="NebulaJukebox/">Nebula Jukebox v2.9</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>24/07/2006</p>
-        </td>
-        <td>
-          <p>249</p>
-        </td>
-      </tr>
-
-			
-<tr>
-        <td>
           <a href="RAINE/">RAINE v0.50.3</a>
         </td>
         <td>
@@ -403,16 +387,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="OlderEmus/">Older Emus 20070105</a>
+          <a href="OlderEmus/">Older Emus 20070408</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>05/01/2007</p>
+          <p>
+            <b>08/04/2007</b>
+          </p>
         </td>
         <td>
-          <p>Thousands of</p>
+          <p>
+            <b>Thousands of</b>
+          </p>
         </td>
       </tr>
 

@@ -19,7 +19,6 @@
 	<!ENTITY CPS2 SYSTEM "CPS-2/CPS-2.ent.xml">
 	<!ENTITY NeoGeo SYSTEM "Neo-Geo/Neo-Geo.ent.xml">
 	<!ENTITY M1 SYSTEM "M1/M1.ent.xml">
-	<!ENTITY NebulaJukebox SYSTEM "NebulaJukebox/NebulaJukebox.ent.xml">
 	<!ENTITY MAMEArtwork SYSTEM "MAMEArtwork/MAMEArtwork.ent.xml">
 	<!ENTITY MAMESamples SYSTEM "MAMESamples/MAMESamples.ent.xml">
 ]>
@@ -52,7 +51,6 @@
 			&MAMEBeta;
 			&MAMEChanges;
 			&Nebula;
-			&NebulaJukebox;
 			&RAINE;
 			&SEGAModel2Emulator;
 			&Zinc;
