@@ -204,16 +204,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="FinalBurnAlpha/">FBA v0.2.95.23</a>
+          <a href="FinalBurnAlpha/">FBA v0.2.96.68</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>11/12/2006</p>
+          <p>
+            <b>08/04/2007</b>
+          </p>
         </td>
         <td>
-          <p>535</p>
+          <p>
+            <b>766</b>
+          </p>
         </td>
       </tr>
 
@@ -313,31 +319,43 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RAINE/">RAINE v0.50.2</a>
+          <a href="RAINE/">RAINE v0.50.3</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>29/01/2007</p>
+          <p>
+            <b>08/04/2007</b>
+          </p>
         </td>
         <td>
-          <p>567</p>
+          <p>
+            <b>572</b>
+          </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.3</a>
+          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.4</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>28/08/2006</p>
+          <p>
+            <b>08/04/2007</b>
+          </p>
         </td>
         <td>
-          <p>23</p>
+          <p>
+            <b>37</b>
+          </p>
         </td>
       </tr>
 

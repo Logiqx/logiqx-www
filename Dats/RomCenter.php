@@ -43,8 +43,8 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.95.23%20(rc).zip"><b>FBA</b></a></td><td>v0.2.95.23</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>535</td><td>11/12/2006</td></tr>
+						updated
+					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.68%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.68</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>766</td><td>08/04/2007</td></tr>
 
 
 <tr><td class="status"><b>
@@ -74,12 +74,12 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="RAINE/RAINE%20v0.50.2%20(rc).zip"><b>RAINE</b></a></td><td>v0.50.2</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>567</td><td>29/01/2007</td></tr>
+						updated
+					</b></td><td><a href="RAINE/RAINE%20v0.50.3%20(rc).zip"><b>RAINE</b></a></td><td>v0.50.3</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>572</td><td>08/04/2007</td></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.3%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.3</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>23</td><td>28/08/2006</td></tr>
+						updated
+					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.4%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>37</td><td>08/04/2007</td></tr>
 
 <tr><td class="status"><b>
 						-
