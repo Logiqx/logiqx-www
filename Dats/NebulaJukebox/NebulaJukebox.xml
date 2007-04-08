@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 
 <!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY MAMETitles SYSTEM "MAMETitles.ent.xml">
+	<!ENTITY NebulaJukebox SYSTEM "NebulaJukebox.ent.xml">
 ]>
 
 <emulator_page>
-	&MAMETitles;
+	&NebulaJukebox;
 </emulator_page>
