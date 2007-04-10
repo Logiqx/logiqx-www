@@ -30,7 +30,7 @@
 	<p>
       <img src="FinalBurnAlpha.png" width="195" height="40" alt="FinalBurnAlpha.png"/>
     </p>
-	<p>766 games for FBA v0.2.96.68</p>
+	<p>766 games for FBA v0.2.96.68<br/>(suitable for v0.2.96.70)</p>
 	
 	
 	

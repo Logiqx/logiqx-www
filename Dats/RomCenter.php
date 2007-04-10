@@ -74,7 +74,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.4%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>37</td><td>08/04/2007</td></tr>
+					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.4%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>37</td><td>10/04/2007</td></tr>
 
 <tr><td class="status"><b>
 						-
@@ -128,13 +128,13 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Resource</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020061112%20(rc).zip"><b>MAME Artwork</b></a></td><td>20061112</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>205</td><td>19/11/2006</td></tr>
+						updated
+					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020070409%20(rc).zip"><b>MAME Artwork</b></a></td><td>20070409</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>293</td><td>10/04/2007</td></tr>
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMESamples/MAME%20Samples%2020061107%20(rc).zip"><b>MAME Samples</b></a></td><td>20061107</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>68</td><td>19/11/2006</td></tr>
+						updated
+					</b></td><td><a href="MAMESamples/MAME%20Samples%2020070402%20(rc).zip"><b>MAME Samples</b></a></td><td>20070402</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>72</td><td>10/04/2007</td></tr>
 
 		</table>
 	

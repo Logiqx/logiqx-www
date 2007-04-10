@@ -66,6 +66,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>10 April 2007</b> - 
+			
+			Upload on 8 April did not include the new RomCenter data file!
+		</p>
+    <p>
       <b>8 April 2007 (again)</b> - 
 			
 			Updated cloneof for doab, dynmcopb and pltkidsb.

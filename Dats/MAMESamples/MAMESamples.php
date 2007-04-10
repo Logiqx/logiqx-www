@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAME Samples 20061107</title>
+    <title>MAME Samples 20070402</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="MAMESamples.png" width="188" height="40" alt="MAMESamples.png"/>
     </p>
-	<p>68 games for MAME Samples 20061107</p>
+	<p>72 games for MAME Samples 20070402</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20Samples%2020061107%20(cm).zip">MAME Samples dat for CMPro</a> (28KB)</p>
+          <p>Download <a href="MAME%20Samples%2020070402%20(cm).zip">MAME Samples dat for CMPro</a> (27KB)</p>
           <p>
-            <a href="MAME%20Samples%2020061107%20(cm).zip">
+            <a href="MAME%20Samples%2020070402%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20Samples%2020061107%20(rc).zip">MAME Samples dat for ROMCenter</a> (11KB)</p>
+          <p>Download <a href="MAME%20Samples%2020070402%20(rc).zip">MAME Samples dat for ROMCenter</a> (11KB)</p>
           <p>
-            <a href="MAME%20Samples%2020061107%20(rc).zip">
+            <a href="MAME%20Samples%2020070402%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>10 April 2007</b> - 
+			
+			Uploaded Roman's latest update (for MAME v0.114).
+		</p>
     <p>
       <b>19 November 2006</b> - 
 			

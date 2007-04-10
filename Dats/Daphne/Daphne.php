@@ -30,7 +30,7 @@
 	<p>
       <img src="Daphne.png" width="94" height="40" alt="Daphne.png"/>
     </p>
-	<p>61 games for Daphne v0.99.7</p>
+	<p>61 games for Daphne v0.99.7<br/>(suitable for 1.0 beta?)</p>
 	
 	
 	

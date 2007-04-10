@@ -188,8 +188,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="Daphne/">Daphne v0.99.7</a>
-        </td>
+          <a href="Daphne/">Daphne v0.99.7</a> (suitable for 1.0 beta?)</td>
         <td>
           <p/>
         </td>
@@ -204,8 +203,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="FinalBurnAlpha/">FBA v0.2.96.68</a>
-        </td>
+          <a href="FinalBurnAlpha/">FBA v0.2.96.68</a> (suitable for v0.2.96.70)</td>
         <td>
           <p>
             <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
@@ -333,7 +331,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>08/04/2007</b>
+            <b>10/04/2007</b>
           </p>
         </td>
         <td>
@@ -514,32 +512,44 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMEArtwork/">MAME Artwork 20061112</a>
+          <a href="MAMEArtwork/">MAME Artwork 20070409</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>19/11/2006</p>
+          <p>
+            <b>10/04/2007</b>
+          </p>
         </td>
         <td>
-          <p>205</p>
+          <p>
+            <b>293</b>
+          </p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="MAMESamples/">MAME Samples 20061107</a>
+          <a href="MAMESamples/">MAME Samples 20070402</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>19/11/2006</p>
+          <p>
+            <b>10/04/2007</b>
+          </p>
         </td>
         <td>
-          <p>68</p>
+          <p>
+            <b>72</b>
+          </p>
         </td>
       </tr>
 

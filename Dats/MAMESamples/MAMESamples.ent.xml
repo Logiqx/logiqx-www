@@ -2,11 +2,11 @@
 <emulator id="MAMESamples">
 	<img src="MAMESamples.png" width="188" height="40"/>
 	<name>MAME Samples</name>
-	<version>20061107</version>
+	<version>20070402</version>
 	<suitability/>
-	<status></status>
-	<date>19/11/2006</date>
-	<games>68</games>
+	<status>Updated</status>
+	<date>10/04/2007</date>
+	<games>72</games>
 	<author href="http://www.clrmame.com/">Roman Scherzer</author>
 	<comment>
 		<p>Created and maintained by Roman Scherzer (<a href="http://www.clrmame.com/" target="_blank">http://www.clrmame.com/</a>).<br/>Some samples do not exist yet so you must use <a href="dummy.zip">dummy</a> samples.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Samples%2020061107%20(cm).zip" size="28"/>
+			<file name="MAME%20Samples%2020070402%20(cm).zip" size="27"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Samples%2020061107%20(rc).zip" size="11"/>
+			<file name="MAME%20Samples%2020070402%20(rc).zip" size="11"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>10 April 2007</date>
+			<comment>Uploaded Roman's latest update (for MAME v0.114).</comment>
+		</revision>
 		<revision>
 			<date>19 November 2006</date>
 			<comment>Uploaded Roman's latest update (for MAME v0.110).</comment>
