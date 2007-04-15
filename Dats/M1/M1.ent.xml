@@ -2,11 +2,11 @@
 <emulator id="M1">
 	<img src="M1.png" width="35" height="40"/>
 	<name>M1</name>
-	<version>v0.7.7u2</version>
+	<version>v0.7.7u4</version>
 	<suitability></suitability>
-	<status></status>
-	<date>08/02/2007</date>
-	<games>1208</games>
+	<status>Updated</status>
+	<date>15/04/2007</date>
+	<games>1312</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Arcade machine sound player.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="M1%20v0.7.7u2%20(cm).zip" size="159"/>
+			<file name="M1%20v0.7.7u4%20(cm).zip" size="191"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="M1%20v0.7.7u2%20(rc).zip" size="64"/>
+			<file name="M1%20v0.7.7u4%20(rc).zip" size="73"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>15 April 2007</date>
+			<comment>Updated for M1 v0.7.7u4.</comment>
+		</revision>
 		<revision>
 			<date>8 February 2007</date>
 			<comment>Updated for M1 v0.7.7u2.</comment>

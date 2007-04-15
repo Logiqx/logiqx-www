@@ -128,7 +128,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>08/04/2007</b>
+            <b>15/04/2007</b>
           </p>
         </td>
         <td>
@@ -149,7 +149,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>08/04/2007</b>
+            <b>15/04/2007</b>
           </p>
         </td>
         <td>
@@ -203,7 +203,8 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="FinalBurnAlpha/">FBA v0.2.96.68</a> (suitable for v0.2.96.70)</td>
+          <a href="FinalBurnAlpha/">FBA v0.2.96.71</a>
+        </td>
         <td>
           <p>
             <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
@@ -211,12 +212,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>08/04/2007</b>
+            <b>15/04/2007</b>
           </p>
         </td>
         <td>
           <p>
-            <b>766</b>
+            <b>780</b>
           </p>
         </td>
       </tr>
@@ -240,16 +241,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="M1/">M1 v0.7.7u2</a>
+          <a href="M1/">M1 v0.7.7u4</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>08/02/2007</p>
+          <p>
+            <b>15/04/2007</b>
+          </p>
         </td>
         <td>
-          <p>1208</p>
+          <p>
+            <b>1312</b>
+          </p>
         </td>
       </tr>
 

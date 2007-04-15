@@ -21,11 +21,11 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.114%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.114</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>08/04/2007</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.114%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.114</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>15/04/2007</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.114%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.114</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>08/04/2007</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.114%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.114</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>15/04/2007</td></tr>
 
 		</table>
 	
@@ -44,7 +44,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.68%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.68</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>766</td><td>08/04/2007</td></tr>
+					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.71%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.71</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>780</td><td>15/04/2007</td></tr>
 
 
 <tr><td class="status"><b>
@@ -53,8 +53,8 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="M1/M1%20v0.7.7u2%20(rc).zip"><b>M1</b></a></td><td>v0.7.7u2</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1208</td><td>08/02/2007</td></tr>
+						updated
+					</b></td><td><a href="M1/M1%20v0.7.7u4%20(rc).zip"><b>M1</b></a></td><td>v0.7.7u4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1312</td><td>15/04/2007</td></tr>
 
 
 <tr><td class="status"><b>
