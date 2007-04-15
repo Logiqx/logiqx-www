@@ -20,7 +20,7 @@ RESULT=$?
 echo
 echo Error code=$RESULT
 
-find . -type d -exec chmod o-w {} \;
+find . -type d -exec chmod g-w,o-w {} \;
 
 echo
 date
