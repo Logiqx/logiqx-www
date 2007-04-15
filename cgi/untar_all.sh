@@ -1,11 +1,14 @@
 #!/usr/bin/env sh
 
 WWW=/home2/lac/www
-UPLOAD=$WWW/upload
 
-cd $WWW
+if [[ $PWD != $WWW ]]
+then
+	echo "Wrong working directory (must be in $WWW)"
+	exit 1
+fi
 
-tar -x -v -b20 -f${UPLOAD}/all.tar.gz -z --no-same-permissions
+tar -x -v -fupload/all.tar.gz -z --no-same-permissions
 
 RESULT=$?
 
