@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
-HOME=/home2/lac/www
+WWW=/home2/lac/www
 
-UPLOAD=$HOME/upload
+UPLOAD=$WWW/upload
 
-cd $HOME
+cd $WWW
 
 echo "Content-type: text/html"
 echo
@@ -13,13 +13,16 @@ echo "<html><body><pre>"
 date
 echo
 
-tar -x -v -b20 -f${UPLOAD}/all.tar.gz -z
+tar -x -v -b20 -f${UPLOAD}/all.tar.gz -z --no-same-permissions
 
 RESULT=$?
 
 echo
 echo Error code=$RESULT
 
+find . -type d -exec chmod o-w {} \;
+
 echo
 date
 echo "</pre></body></head>"
+

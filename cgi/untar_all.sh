@@ -1,13 +1,14 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
-HOME=/home2/lac/www
-UPLOAD=$HOME/upload
+WWW=/home2/lac/www
+UPLOAD=$WWW/upload
 
-cd $HOME
+cd $WWW
 
-tar -x -v -b20 -f${UPLOAD}/all.tar.gz -z
+tar -x -v -b20 -f${UPLOAD}/all.tar.gz -z --no-same-permissions
 
 RESULT=$?
 
 echo
 echo Error code=$RESULT
+
