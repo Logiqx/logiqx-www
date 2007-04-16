@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="M1%20v0.7.7u4%20(cm).zip">M1 dat for CMPro</a> (191KB)</p>
+          <p>Download <a href="M1%20v0.7.7u4%20(cm).zip">M1 dat for CMPro</a> (171KB)</p>
           <p>
             <a href="M1%20v0.7.7u4%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="M1%20v0.7.7u4%20(rc).zip">M1 dat for ROMCenter</a> (73KB)</p>
+          <p>Download <a href="M1%20v0.7.7u4%20(rc).zip">M1 dat for ROMCenter</a> (69KB)</p>
           <p>
             <a href="M1%20v0.7.7u4%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>

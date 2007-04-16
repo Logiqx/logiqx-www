@@ -42,7 +42,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="FBA%20v0.2.96.71%20(cm).zip">FBA dat for CMPro</a> (312KB)</p>
+          <p>Download <a href="FBA%20v0.2.96.71%20(cm).zip">FBA dat for CMPro</a> (274KB)</p>
           <p>
             <a href="FBA%20v0.2.96.71%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -50,7 +50,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="FBA%20v0.2.96.71%20(rc).zip">FBA dat for ROMCenter</a> (154KB)</p>
+          <p>Download <a href="FBA%20v0.2.96.71%20(rc).zip">FBA dat for ROMCenter</a> (144KB)</p>
           <p>
             <a href="FBA%20v0.2.96.71%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
