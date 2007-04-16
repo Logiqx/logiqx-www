@@ -1,11 +1,11 @@
 @ECHO OFF
 
 IF NOT EXIST %LOGIQX%\WWW\Upload MKDIR %LOGIQX%\WWW\Upload
-IF NOT EXIST %LOGIQX%\WWW\Upload\all.tar.gz GOTO MAKE_TAR
+IF NOT EXIST %LOGIQX%\WWW\Upload\all.zip GOTO MAKE_ZIP
 
-DEL %LOGIQX%\WWW\Upload\all.tar.gz /S /Q >nul
+DEL %LOGIQX%\WWW\Upload\all.zip /S /Q >nul
 
-:MAKE_TAR
+:MAKE_ZIP
 
 ECHO Copying updates to the WWW_update directory....
 
@@ -16,11 +16,11 @@ XCOPY * %LOGIQX%\WWW_update /M /S /I /Y
 IF NOT EXIST %LOGIQX%\WWW_update MKDIR %LOGIQX%\WWW_update
 
 ECHO.
-ECHO Creating %LOGIQX%\WWW\Upload\all.tar.gz...
+ECHO Creating %LOGIQX%\WWW\Upload\all.zip...
 
 cd %LOGIQX%\WWW_update
 ECHO.
-tar cvfz ../WWW/Upload/all.tar.gz *
+zip -r -9 ../WWW/Upload/all.zip *
 
 ECHO.
 ECHO All done!

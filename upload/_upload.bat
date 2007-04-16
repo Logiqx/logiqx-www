@@ -3,9 +3,9 @@
 ECHO Uploading to %LOGIQX_LOGIN%@%LOGIQX_FTP%...
 ECHO.
 
-pscp all.tar.gz %LOGIQX_LOGIN%@%LOGIQX_FTP%:www/upload/all.tar.gz
+pscp all.zip %LOGIQX_LOGIN%@%LOGIQX_FTP%:www/upload/all.zip
 
-rm -f all.tar.gz
+rm -f all.zip
 
 ECHO.
 PAUSE
