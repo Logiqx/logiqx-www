@@ -128,7 +128,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>15/04/2007</b>
+            <b>20/04/2007</b>
           </p>
         </td>
         <td>
@@ -149,7 +149,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>15/04/2007</b>
+            <b>20/04/2007</b>
           </p>
         </td>
         <td>
@@ -225,16 +225,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="WinKawaks/">Kawaks v1.57</a>
+          <a href="WinKawaks/">Kawaks v1.58</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>05/01/2007</p>
+          <p>
+            <b>20/04/2007</b>
+          </p>
         </td>
         <td>
-          <p>498</p>
+          <p>
+            <b>560</b>
+          </p>
         </td>
       </tr>
 

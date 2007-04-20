@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.114%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro</a> (67KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.114%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro</a> (66KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.114%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.114%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter</a> (41KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.114%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter</a> (40KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.114%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>20 April 2007</b> - 
+			
+			Update for Kawaks v1.58.
+		</p>
     <p>
       <b>15 April 2007</b> - 
 			
