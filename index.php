@@ -40,64 +40,19 @@
 					<p><img src="News/News.png" width="69" height="40" alt="News" /></p>
 
 					<?php
-						if (isset($_GET['page']) && $_GET['page']!='')
-							include ('News/News' . $_GET['page'] . '.txt');
-						else
-							include ('News/News29.txt');
+						$template = "Logiqx";
+						include("cutenews/show_news.php");
+						//include("cutenews/show_archives.php");
+
+						echo '<p><a title="RSS Feed" href="cutenews/rss.php">';
+						echo '<img src="cutenews/skins/images/rss_icon.gif" alt="rss" />';
+						echo '</a></p>';
 					?>
 
 					<hr />
 
 					<p>
-						<a href="?page=28">January to March 2007</a>
-					</p>
-
-					<p>
-						<a href="?page=27">October to December 2006</a> -
-						<a href="?page=26">July to September 2006</a> -
-						<a href="?page=25">April to June 2006</a> -
-						<a href="?page=24">January to March 2006</a>
-					</p>
-
-					<p>
-						<a href="?page=23">October to December 2005</a> -
-						<a href="?page=22">July to September 2005</a> -
-						<a href="?page=21">April to June 2005</a> -
-						<a href="?page=20">January to March 2005</a>
-					</p>
-
-					<p>
-						<a href="?page=19">October to December 2004</a> -
-						<a href="?page=18">July to September 2004</a> -
-						<a href="?page=17">April to June 2004</a> -
-						<a href="?page=16">January to March 2004</a>
-					</p>
-
-					<p>
-						<a href="?page=15">October to December 2003</a> -
-						<a href="?page=14">July to September 2003</a> -
-						<a href="?page=13">April to June 2003</a> -
-						<a href="?page=12">January to March 2003</a>
-					</p>
-
-					<p>
-						<a href="?page=11">October to December 2002</a> -
-						<a href="?page=10">July to September 2002</a> -
-						<a href="?page=09">April to June 2002</a> -
-						<a href="?page=08">January to March 2002</a>
-					</p>
-
-					<p>
-						<a href="?page=07">October to December 2001</a> -
-						<a href="?page=06">July to September 2001</a> -
-						<a href="?page=05">April to June 2001</a> -
-						<a href="?page=04">January to March 2001</a>
-					</p>
-
-					<p>
-						<a href="?page=03">October to December 2000</a> -
-						<a href="?page=02">July to September 2000</a> -
-						<a href="?page=01">April to June 2000</a>
+						<a href="news.php">Old News</a>
 					</p>
 
 		<?php
