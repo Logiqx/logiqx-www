@@ -1,11 +1,11 @@
 <emulator id="SEGAModel2Emulator">
 	<img src="SEGAModel2Emulator.png" width="290" height="40"/>
 	<name>SEGA Model 2 Emulator</name>
-	<version>v0.4</version>
+	<version>v0.5</version>
 	<suitability/>
-	<status></status>
-	<date>10/04/2007</date>
-	<games>37</games>
+	<status>Updated</status>
+	<date>27/05/2007</date>
+	<games>38</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Emulates Sega Model 2A/2B/2C CRX games.</p>
@@ -13,14 +13,18 @@
 	<dats>
 		<dat>
                         &CMPro;
-			<file name="SEGA%20Model%202%20Emulator%20v0.4%20(cm).zip" size="23"/>
+			<file name="SEGA%20Model%202%20Emulator%20v0.5%20(cm).zip" size="24"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-			<file name="SEGA%20Model%202%20Emulator%20v0.4%20(rc).zip" size="10"/>
+			<file name="SEGA%20Model%202%20Emulator%20v0.5%20(rc).zip" size="10"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>27 May 2007</date>
+			<comment>Updated to match SEGA Model 2 Emulator v0.5 (added motoraid).</comment>
+		</revision>
 		<revision>
 			<date>10 April 2007</date>
 			<comment>Upload on 8 April did not include the new RomCenter data file!</comment>
