@@ -2,26 +2,30 @@
 <emulator id="MAMEArtwork">
 	<img src="MAMEArtwork.png" width="176" height="40"/>
 	<name>MAME Artwork</name>
-	<version>20070409</version>
+	<version>20070527</version>
 	<suitability/>
-	<status></status>
-	<date>10/04/2007</date>
-	<games>293</games>
-	<author href="http://www.clrmame.com/">Roman Scherzer</author>
+	<status>Updated</status>
+	<date>31/05/2007</date>
+	<games>344</games>
+	<author href="http://www.mameworld.net/mrdo/">Mr. Do</author>
 	<comment>
-		<p>Created and maintained by Roman Scherzer (<a href="http://www.clrmame.com/" target="_blank">http://www.clrmame.com/</a>).</p>
+		<p>Created and maintained by Mr. Do (<a href="http://www.mameworld.net/mrdo/" target="_blank">http://www.mameworld.net/mrdo/</a>).</p>
 	</comment>
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Artwork%2020070409%20(cm).zip" size="37"/>
+			<file name="MAME%20Artwork%2020070527%20(cm).zip" size="44"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Artwork%2020070409%20(rc).zip" size="16"/>
+			<file name="MAME%20Artwork%2020070527%20(rc).zip" size="19"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>31 May 2007</date>
+			<comment>Uploaded Mr. Do's latest update (20070527).</comment>
+		</revision>
 		<revision>
 			<date>9 April 2007</date>
 			<comment>Uploaded Mr. Do's latest update (20070409).</comment>
