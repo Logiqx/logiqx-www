@@ -1,10 +1,10 @@
 <emulator id="SEGAModel2Emulator">
 	<img src="SEGAModel2Emulator.png" width="290" height="40"/>
 	<name>SEGA Model 2 Emulator</name>
-	<version>v0.5</version>
-	<suitability>v0.5a</suitability>
+	<version>v0.5a</version>
+	<suitability></suitability>
 	<status>Updated</status>
-	<date>27/05/2007</date>
+	<date>01/06/2007</date>
 	<games>38</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -13,14 +13,18 @@
 	<dats>
 		<dat>
                         &CMPro;
-			<file name="SEGA%20Model%202%20Emulator%20v0.5%20(cm).zip" size="24"/>
+			<file name="SEGA%20Model%202%20Emulator%20v0.5a%20(cm).zip" size="24"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-			<file name="SEGA%20Model%202%20Emulator%20v0.5%20(rc).zip" size="10"/>
+			<file name="SEGA%20Model%202%20Emulator%20v0.5a%20(rc).zip" size="10"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>1 June 2007</date>
+			<comment>Fixed wrongly named game (dyndeka -> dyndeka2).</comment>
+		</revision>
 		<revision>
 			<date>27 May 2007</date>
 			<comment>Updated to match SEGA Model 2 Emulator v0.5 (added motoraid).</comment>

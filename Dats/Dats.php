@@ -305,7 +305,8 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.5</a> (suitable for v0.5a)</td>
+          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.5a</a>
+        </td>
         <td>
           <p>
             <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
@@ -313,7 +314,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>27/05/2007</b>
+            <b>01/06/2007</b>
           </p>
         </td>
         <td>

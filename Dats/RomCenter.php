@@ -74,7 +74,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.5%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.5</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>38</td><td>27/05/2007</td></tr>
+					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.5a%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.5a</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>38</td><td>01/06/2007</td></tr>
 
 <tr><td class="status"><b>
 						-
