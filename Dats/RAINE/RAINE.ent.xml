@@ -4,8 +4,8 @@
 	<name>RAINE</name>
 	<version>v0.50.4</version>
 	<suitability/>
-	<status></status>
-	<date>02/05/2007</date>
+	<status>Updated</status>
+	<date>11/06/2007</date>
 	<games>578</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>11 June 2007</date>
+			<comment>Added SHA-1 information for dkongex.</comment>
+		</revision>
 		<revision>
 			<date>2 May 2007</date>
 			<comment>Updated to match RAINE v0.50.4.</comment>

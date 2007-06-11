@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>11 June 2007</b> - 
+			
+			Added SHA-1 information for dkongex.
+		</p>
+    <p>
       <b>2 May 2007</b> - 
 			
 			Updated to match RAINE v0.50.4.

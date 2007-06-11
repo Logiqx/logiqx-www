@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Various Emulators (Split-merged SuperSet Supplements) v0.115</title>
+    <title>Various Emulators (Split-merged SuperSet Supplements) v0.116</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="../VariousEmulators.png" width="219" height="40" alt="../VariousEmulators.png"/>
     </p>
-	<p>Non-MAME games for Various Emulators (Split-merged SuperSet Supplements) v0.115</p>
+	<p>Non-MAME games for Various Emulators (Split-merged SuperSet Supplements) v0.116</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.115%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro</a> (68KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.116%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro</a> (68KB)</p>
           <p>
-            <a href="Various%20Emulators%20v0.115%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">
+            <a href="Various%20Emulators%20v0.116%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.115%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter</a> (41KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.116%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter</a> (41KB)</p>
           <p>
-            <a href="Various%20Emulators%20v0.115%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">
+            <a href="Various%20Emulators%20v0.116%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>11 June 2007</b> - 
+			
+			Uploaded dats for MAME v0.116.
+		</p>
     <p>
       <b>6 May 2007</b> - 
 			
