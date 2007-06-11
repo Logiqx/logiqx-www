@@ -17,7 +17,7 @@ RewriteEngine On
 # Prevent hot-linking (protect images and ZIPs)
 
 RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http://www.logiqx.com [NC]
+RewriteCond %{HTTP_REFERER} !^http://.*\.logiqx\.com [NC]
 RewriteCond %{HTTP_REFERER} !^http://logiqx/ [NC]
 RewriteRule ^.+\.(jpe?g|gif|png|zip)$ - [F,NC]
 
