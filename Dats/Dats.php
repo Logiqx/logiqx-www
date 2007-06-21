@@ -185,6 +185,27 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <p>Games</p>
         </th>
       </tr>
+			<tr>
+        <td>
+          <a href="CPS3Emulator/">Capcom System 3 Emulator v0.0</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/New.png" width="53" height="14" alt="New"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>21/06/2007</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>6</b>
+          </p>
+        </td>
+      </tr>
+
 			
 <tr>
         <td>

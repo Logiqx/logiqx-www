@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <!DOCTYPE contents_page SYSTEM "dtd/dats.dtd" [
+	<!ENTITY CPS3Emulator SYSTEM "CPS3Emulator/CPS3Emulator.ent.xml">
 	<!ENTITY Daphne SYSTEM "Daphne/Daphne.ent.xml">
 	<!ENTITY FinalBurnAlpha SYSTEM "FinalBurnAlpha/FinalBurnAlpha.ent.xml">
 	<!ENTITY MAMEBeta SYSTEM "MAMEBeta/MAMEBeta.ent.xml">
@@ -44,6 +45,7 @@
 			<p>Emulators that are up to a year old, still active or likely to receive further updates.<br/>These data files correspond to the <a href="http://caesar.logiqx.com/php/emulators.php?id=recent">recent emulators</a> listed at CAESAR.</p>
 		</comment>
 		<emulators>
+			&CPS3Emulator;
 			&Daphne;
 			&FinalBurnAlpha;
 			&Kawaks;

@@ -36,6 +36,10 @@
 			<p><b>Emulators that are up to a year old, still active or likely to receive further updates.<br/>These data files correspond to the <a href="http://caesar.logiqx.com/php/emulators.php?id=recent">recent emulators</a> listed at CAESAR.</b></p>
 		
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
+<tr><td class="status"><b>
+						new
+					</b></td><td><a href="CPS3Emulator/Capcom%20System%203%20Emulator%20v0.0%20(rc).zip"><b>Capcom System 3 Emulator</b></a></td><td>v0.0</td><td><a href="http://various.ru/"><b>neoforma</b></a></td><td>6</td><td>21/06/2007</td></tr>
+
 
 <tr><td class="status"><b>
 						-
