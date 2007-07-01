@@ -1,29 +1,37 @@
 <emulator id="CPS3Emulator">
 	<img src="CPS3Emulator.png" width="331" height="40"/>
-	<name>Capcom System 3 Emulator</name>
-	<version>v0.0</version>
+	<name>Capcom Play System 3 Emulator</name>
+	<version>v0.2 (Test Version 3)</version>
 	<suitability/>
-	<status>New</status>
-	<date>21/06/2007</date>
-	<games>6</games>
+	<status>Updated</status>
+	<date>01/07/2007</date>
+	<games>8</games>
 	<author href="http://various.ru/">neoforma</author>
 	<comment>
-		<p>Capcom System 3 Emulator.</p>
+		<p>Capcom Play System 3 Emulator.</p>
 	</comment>
 	<dats>
 		<dat>
                         &CMPro;
-			<file name="Capcom%20System%203%20Emulator%20v0.0%20(cm).zip" size="3"/>
+			<file name="Capcom%20Play%20System%203%20Emulator%20v0.2%20(cm).zip" size="3"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-                        <file name="Capcom%20System%203%20Emulator%20v0.0%20(rc).zip" size="2"/>
+                        <file name="Capcom%20Play%20System%203%20Emulator%20v0.2%20(rc).zip" size="2"/>
 		</dat>
 	</dats>
 	<revisions>
 		<revision>
+			<date>1 July 2007</date>
+			<comment>Renamed data files to match the emulator (now that it includes the word "Play").</comment>
+		</revision>
+		<revision>
+			<date>23 June 2007</date>
+			<comment>Uploaded data files for the Capcom System 3 Emulator v0.1.</comment>
+		</revision>
+		<revision>
 			<date>21 June 2007</date>
-			<comment>Uploaded data files for the Cpacom System 3 Emulator v0.0.</comment>
+			<comment>Uploaded data files for the Capcom System 3 Emulator v0.0.</comment>
 		</revision>
 	</revisions>
 </emulator>

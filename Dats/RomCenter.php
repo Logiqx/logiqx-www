@@ -37,8 +37,8 @@
 		
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 <tr><td class="status"><b>
-						new
-					</b></td><td><a href="CPS3Emulator/Capcom%20System%203%20Emulator%20v0.0%20(rc).zip"><b>Capcom System 3 Emulator</b></a></td><td>v0.0</td><td><a href="http://various.ru/"><b>neoforma</b></a></td><td>6</td><td>21/06/2007</td></tr>
+						updated
+					</b></td><td><a href="CPS3Emulator/Capcom%20Play%20System%203%20Emulator%20v0.2%20(rc).zip"><b>Capcom Play System 3 Emulator</b></a></td><td>v0.2 (Test Version 3)</td><td><a href="http://various.ru/"><b>neoforma</b></a></td><td>8</td><td>01/07/2007</td></tr>
 
 
 <tr><td class="status"><b>
@@ -133,12 +133,12 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020070527%20(rc).zip"><b>MAME Artwork</b></a></td><td>20070527</td><td><a href="http://www.mameworld.net/mrdo/"><b>Mr. Do</b></a></td><td>344</td><td>31/05/2007</td></tr>
+					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020070624%20(rc).zip"><b>MAME Artwork</b></a></td><td>20070624</td><td><a href="http://www.mameworld.net/mrdo/"><b>Mr. Do</b></a></td><td>369</td><td>01/07/2007</td></tr>
 
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESamples/MAME%20Samples%2020070506%20(rc).zip"><b>MAME Samples</b></a></td><td>20070506</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>88</td><td>31/05/2007</td></tr>
+					</b></td><td><a href="MAMESamples/MAME%20Samples%2020070611%20(rc).zip"><b>MAME Samples</b></a></td><td>20070611</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>87</td><td>01/07/2007</td></tr>
 
 		</table>
 	

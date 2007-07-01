@@ -187,21 +187,21 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
       </tr>
 			<tr>
         <td>
-          <a href="CPS3Emulator/">Capcom System 3 Emulator v0.0</a>
+          <a href="CPS3Emulator/">Capcom Play System 3 Emulator v0.2 (Test Version 3)</a>
         </td>
         <td>
           <p>
-            <img src="../Resources/New.png" width="53" height="14" alt="New"/>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
           </p>
         </td>
         <td>
           <p>
-            <b>21/06/2007</b>
+            <b>01/07/2007</b>
           </p>
         </td>
         <td>
           <p>
-            <b>6</b>
+            <b>8</b>
           </p>
         </td>
       </tr>
@@ -516,7 +516,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMEArtwork/">MAME Artwork 20070527</a>
+          <a href="MAMEArtwork/">MAME Artwork 20070624</a>
         </td>
         <td>
           <p>
@@ -525,12 +525,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>31/05/2007</b>
+            <b>01/07/2007</b>
           </p>
         </td>
         <td>
           <p>
-            <b>344</b>
+            <b>369</b>
           </p>
         </td>
       </tr>
@@ -538,7 +538,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMESamples/">MAME Samples 20070506</a>
+          <a href="MAMESamples/">MAME Samples 20070611</a>
         </td>
         <td>
           <p>
@@ -547,12 +547,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>31/05/2007</b>
+            <b>01/07/2007</b>
           </p>
         </td>
         <td>
           <p>
-            <b>88</b>
+            <b>87</b>
           </p>
         </td>
       </tr>
