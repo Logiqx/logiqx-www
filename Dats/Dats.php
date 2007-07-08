@@ -311,16 +311,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RAINE/">RAINE v0.50.4</a>
+          <a href="RAINE/">RAINE v0.50.5</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>11/06/2007</p>
+          <p>
+            <b>08/07/2007</b>
+          </p>
         </td>
         <td>
-          <p>578</p>
+          <p>
+            <b>577</b>
+          </p>
         </td>
       </tr>
 

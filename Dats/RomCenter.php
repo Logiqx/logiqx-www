@@ -73,8 +73,8 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="RAINE/RAINE%20v0.50.4%20(rc).zip"><b>RAINE</b></a></td><td>v0.50.4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>578</td><td>11/06/2007</td></tr>
+						updated
+					</b></td><td><a href="RAINE/RAINE%20v0.50.5%20(rc).zip"><b>RAINE</b></a></td><td>v0.50.5</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>577</td><td>08/07/2007</td></tr>
 
 <tr><td class="status"><b>
 						-
