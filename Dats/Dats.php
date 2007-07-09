@@ -187,7 +187,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
       </tr>
 			<tr>
         <td>
-          <a href="CPS3Emulator/">Capcom Play System 3 Emulator v0.2 (Test Version 3)</a>
+          <a href="CPS3Emulator/">Capcom Play System 3 Emulator v1.0</a>
         </td>
         <td>
           <p>
@@ -196,12 +196,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>01/07/2007</b>
+            <b>09/07/2007</b>
           </p>
         </td>
         <td>
           <p>
-            <b>8</b>
+            <b>16</b>
           </p>
         </td>
       </tr>

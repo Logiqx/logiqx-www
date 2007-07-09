@@ -38,7 +38,7 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="CPS3Emulator/Capcom%20Play%20System%203%20Emulator%20v0.2%20(rc).zip"><b>Capcom Play System 3 Emulator</b></a></td><td>v0.2 (Test Version 3)</td><td><a href="http://various.ru/"><b>neoforma</b></a></td><td>8</td><td>01/07/2007</td></tr>
+					</b></td><td><a href="CPS3Emulator/Capcom%20Play%20System%203%20Emulator%20v1.0%20(rc).zip"><b>Capcom Play System 3 Emulator</b></a></td><td>v1.0</td><td><a href="http://various.ru/"><b>neoforma</b></a></td><td>16</td><td>09/07/2007</td></tr>
 
 
 <tr><td class="status"><b>
