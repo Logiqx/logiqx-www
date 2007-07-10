@@ -4,7 +4,7 @@
 	<version>v1.0</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>09/07/2007</date>
+	<date>10/07/2007</date>
 	<games>16</games>
 	<author href="http://various.ru/">neoforma</author>
 	<comment>
@@ -21,6 +21,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>10 July 2007</date>
+			<comment>There was a typo in the previous release - now fixed.</comment>
+		</revision>
 		<revision>
 			<date>9 July 2007</date>
 			<comment>Uploaded data files for the Capcom Play System 3 Emulator v1.0.</comment>

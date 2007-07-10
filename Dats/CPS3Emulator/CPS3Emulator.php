@@ -66,6 +66,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>10 July 2007</b> - 
+			
+			There was a typo in the previous release - now fixed.
+		</p>
+    <p>
       <b>9 July 2007</b> - 
 			
 			Uploaded data files for the Capcom Play System 3 Emulator v1.0.
