@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAME Artwork 20070624</title>
+    <title>MAME Artwork 20070708</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="MAMEArtwork.png" width="176" height="40" alt="MAMEArtwork.png"/>
     </p>
-	<p>369 games for MAME Artwork 20070624</p>
+	<p>380 games for MAME Artwork 20070708</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20Artwork%2020070624%20(cm).zip">MAME Artwork dat for CMPro</a> (47KB)</p>
+          <p>Download <a href="MAME%20Artwork%2020070708%20(cm).zip">MAME Artwork dat for CMPro</a> (48KB)</p>
           <p>
-            <a href="MAME%20Artwork%2020070624%20(cm).zip">
+            <a href="MAME%20Artwork%2020070708%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20Artwork%2020070624%20(rc).zip">MAME Artwork dat for ROMCenter</a> (21KB)</p>
+          <p>Download <a href="MAME%20Artwork%2020070708%20(rc).zip">MAME Artwork dat for ROMCenter</a> (21KB)</p>
           <p>
-            <a href="MAME%20Artwork%2020070624%20(rc).zip">
+            <a href="MAME%20Artwork%2020070708%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>22 July 2007</b> - 
+			
+			Uploaded Mr. Do's latest update (20070708).
+		</p>
     <p>
       <b>1 July 2007</b> - 
 			

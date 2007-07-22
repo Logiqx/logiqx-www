@@ -1,6 +1,5 @@
 
-	
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <script language="php">
@@ -9,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAME Samples 20070611</title>
+    <title>MAME Samples 20070710</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +29,7 @@
 	<p>
       <img src="MAMESamples.png" width="188" height="40" alt="MAMESamples.png"/>
     </p>
-	<p>87 games for MAME Samples 20070611</p>
+	<p>87 games for MAME Samples 20070710</p>
 	
 	
 	
@@ -45,17 +44,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20Samples%2020070611%20(cm).zip">MAME Samples dat for CMPro</a> (27KB)</p>
+          <p>Download <a href="MAME%20Samples%2020070710%20(cm).zip">MAME Samples dat for CMPro</a> (27KB)</p>
           <p>
-            <a href="MAME%20Samples%2020070611%20(cm).zip">
+            <a href="MAME%20Samples%2020070710%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20Samples%2020070611%20(rc).zip">MAME Samples dat for ROMCenter</a> (12KB)</p>
+          <p>Download <a href="MAME%20Samples%2020070710%20(rc).zip">MAME Samples dat for ROMCenter</a> (12KB)</p>
           <p>
-            <a href="MAME%20Samples%2020070611%20(rc).zip">
+            <a href="MAME%20Samples%2020070710%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +65,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>22 July 2007</b> - 
+			
+			Uploaded Roman's latest update (for MAME v0.117).
+		</p>
     <p>
       <b>1 July 2007</b> - 
 			

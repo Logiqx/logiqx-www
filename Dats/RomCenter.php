@@ -119,7 +119,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="Neo-Geo/Neo-Geo%2020070710%20(rc).zip"><b>Neo-Geo</b></a></td><td>20070710</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>260</td><td>10/07/2007</td></tr>
+					</b></td><td><a href="Neo-Geo/Neo-Geo%2020070722%20(rc).zip"><b>Neo-Geo</b></a></td><td>20070722</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>260</td><td>22/07/2007</td></tr>
 
 		</table>
 	
@@ -133,12 +133,11 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020070624%20(rc).zip"><b>MAME Artwork</b></a></td><td>20070624</td><td><a href="http://www.mameworld.net/mrdo/"><b>Mr. Do</b></a></td><td>369</td><td>01/07/2007</td></tr>
-
+					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020070708%20(rc).zip"><b>MAME Artwork</b></a></td><td>20070708</td><td><a href="http://www.mameworld.net/mrdo/"><b>Mr. Do</b></a></td><td>380</td><td>22/07/2007</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESamples/MAME%20Samples%2020070611%20(rc).zip"><b>MAME Samples</b></a></td><td>20070611</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>87</td><td>01/07/2007</td></tr>
+					</b></td><td><a href="MAMESamples/MAME%20Samples%2020070710%20(rc).zip"><b>MAME Samples</b></a></td><td>20070710</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>87</td><td>22/07/2007</td></tr>
 
 		</table>
 	

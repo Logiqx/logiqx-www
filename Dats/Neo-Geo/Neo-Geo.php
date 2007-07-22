@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Neo-Geo 20070710</title>
+    <title>Neo-Geo 20070722</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="Neo-Geo.png" width="108" height="40" alt="Neo-Geo.png"/>
     </p>
-	<p>260 games for Neo-Geo 20070710</p>
+	<p>260 games for Neo-Geo 20070722</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Neo-Geo%2020070710%20(cm).zip">Neo-Geo dat for CMPro</a> (88KB)</p>
+          <p>Download <a href="Neo-Geo%2020070722%20(cm).zip">Neo-Geo dat for CMPro</a> (88KB)</p>
           <p>
-            <a href="Neo-Geo%2020070710%20(cm).zip">
+            <a href="Neo-Geo%2020070722%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Neo-Geo%2020070710%20(rc).zip">Neo-Geo dat for ROMCenter</a> (53KB)</p>
+          <p>Download <a href="Neo-Geo%2020070722%20(rc).zip">Neo-Geo dat for ROMCenter</a> (53KB)</p>
           <p>
-            <a href="Neo-Geo%2020070710%20(rc).zip">
+            <a href="Neo-Geo%2020070722%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>22 July 2007</b> - 
+			
+			Updated sound ROMs (mslug4nd, rotnd and svcnd) to match MAME v0.117.
+		</p>
+    <p>
+      <b>10 July 2007</b> - 
+			
+			Updated to match MAME v0.117.
+		</p>
     <p>
       <b>11 June 2007</b> - 
 			
