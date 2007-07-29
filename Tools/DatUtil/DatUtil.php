@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.31</title>
+    <title>DatUtil v2.32</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -73,9 +73,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil231.zip">DatUtil v2.31</a> (179KB)</p>
+          <p>Download <a href="dutil232.zip">DatUtil v2.32</a> (179KB)</p>
           <p>
-            <a href="dutil231.zip">
+            <a href="dutil232.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -87,6 +87,20 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>29 July 2007</b> - DatUtil v2.32</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.21.<br/>
+				- Empty attributes are now ignored (e.g. sha1="")<br/>
+				- Removed cloneof, romof and sampleof fixes from datutil -i<br/>
+            			- DatUtil -i, -I and -p now default the output format to CMPro
+				(in addition to -g, -G and -r which already behave like that)<br/>
+				- Added support for the isbios="yes" of MAME v0.117u2 onwards.<br/>
+    			
+		</p>
     <p>
       <b>1 January 2007</b> - DatUtil v2.31</p>
     <p>
