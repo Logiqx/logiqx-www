@@ -1,10 +1,10 @@
 <emulator id="MAMESuperSetEmusS">
 	<img src="../VariousEmulators.png" width="219" height="40"/>
 	<name>Various Emulators (Split-merged SuperSet Supplements)</name>
-	<version>v0.117</version>
+	<version>v0.118</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>10/07/2007</date>
+	<date>18/08/2007</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Various%20Emulators%20v0.117%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip" size="73"/>
+			<file name="Various%20Emulators%20v0.118%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip" size="74"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Various%20Emulators%20v0.117%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="44"/>
+			<file name="Various%20Emulators%20v0.118%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="45"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>18 August 2007</date>
+			<comment>Uploaded dats for MAME v0.118.</comment>
+		</revision>
 		<revision>
 			<date>10 July 2007</date>
 			<comment>Uploaded dats for MAME v0.117 (including the CPS3 Emulator).</comment>
