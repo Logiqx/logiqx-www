@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ROMBuild v2.8</title>
+    <title>ROMBuild v2.9</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -50,9 +50,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="rbuild28.zip">ROMBuild v2.8</a> (106KB)</p>
+          <p>Download <a href="rbuild29.zip">ROMBuild v2.9</a> (109KB)</p>
           <p>
-            <a href="rbuild28.zip">
+            <a href="rbuild29.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -83,6 +83,20 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>9 September 2007</b> - ROMBuild v2.9</p>
+    <p>
+			
+			
+			
+				Updated ROM names for R-Type (Japan prototype) to match MAME v0.112<br/>
+      <br/>
+				Updates after MAME v0.118:<br/>
+				- Removed some old fixes for rtypejp (no longer required).<br/>
+				- Added rtypeus and rtypejp fixes for JunoFirst, M72 and RAGE.<br/>
+				- Now incorporates MAME ROM renames for salamand and altbeas4.
+    			
+		</p>
     <p>
       <b>17 October 2006</b> - ROMBuild v2.8</p>
     <p>
