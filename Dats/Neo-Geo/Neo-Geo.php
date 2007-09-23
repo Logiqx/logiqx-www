@@ -67,6 +67,16 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>23 September 2007</b> - 
+			
+			No change required for MAME v0.119.
+		</p>
+    <p>
+      <b>18 August 2007</b> - 
+			
+			No change required for MAME v0.118.
+		</p>
+    <p>
       <b>22 July 2007</b> - 
 			
 			Updated sound ROMs (mslug4nd, rotnd and svcnd) to match MAME v0.117.

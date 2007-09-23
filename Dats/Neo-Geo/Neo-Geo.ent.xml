@@ -23,6 +23,14 @@
 	</dats>
 	<revisions>
 		<revision>
+			<date>23 September 2007</date>
+			<comment>No change required for MAME v0.119.</comment>
+		</revision>
+		<revision>
+			<date>18 August 2007</date>
+			<comment>No change required for MAME v0.118.</comment>
+		</revision>
+		<revision>
 			<date>22 July 2007</date>
 			<comment>Updated sound ROMs (mslug4nd, rotnd and svcnd) to match MAME v0.117.</comment>
 		</revision>
