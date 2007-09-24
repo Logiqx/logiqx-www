@@ -133,11 +133,11 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020070812%20(rc).zip"><b>MAME Artwork</b></a></td><td>20070812</td><td><a href="http://www.mameworld.net/mrdo/"><b>Mr. Do</b></a></td><td>483</td><td>18/08/2007</td></tr>
+					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020070916%20(rc).zip"><b>MAME Artwork</b></a></td><td>20070916</td><td><a href="http://www.mameworld.net/mrdo/"><b>Mr. Do</b></a></td><td>505</td><td>24/09/2007</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESamples/MAME%20Samples%2020070806%20(rc).zip"><b>MAME Samples</b></a></td><td>20070806</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>87</td><td>18/08/2007</td></tr>
+					</b></td><td><a href="MAMESamples/MAME%20Samples%2020070916%20(rc).zip"><b>MAME Samples</b></a></td><td>20070916</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>87</td><td>24/09/2007</td></tr>
 
 		</table>
 	

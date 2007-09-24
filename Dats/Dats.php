@@ -504,7 +504,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMEArtwork/">MAME Artwork 20070812</a>
+          <a href="MAMEArtwork/">MAME Artwork 20070916</a>
         </td>
         <td>
           <p>
@@ -513,19 +513,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>18/08/2007</b>
+            <b>24/09/2007</b>
           </p>
         </td>
         <td>
           <p>
-            <b>483</b>
+            <b>505</b>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="MAMESamples/">MAME Samples 20070806</a>
+          <a href="MAMESamples/">MAME Samples 20070916</a>
         </td>
         <td>
           <p>
@@ -534,7 +534,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>18/08/2007</b>
+            <b>24/09/2007</b>
           </p>
         </td>
         <td>
