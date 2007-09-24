@@ -66,6 +66,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>24 September 2007</b> - 
+			
+			XORs did not reflect game renames in MAME v0.119 (dimahoo/sfa3/xmcota clones). Now fixed.
+		</p>
+    <p>
       <b>23 September 2007</b> - 
 			
 			Uploaded dats for MAME v0.119.

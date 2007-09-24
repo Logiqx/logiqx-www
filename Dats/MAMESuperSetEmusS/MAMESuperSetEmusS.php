@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.119%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro</a> (79KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.119%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro</a> (80KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.119%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>24 September 2007</b> - 
+			
+			XORs did not reflect game renames in MAME v0.119 (dimahoo/sfa3/xmcota clones). Now fixed.
+		</p>
     <p>
       <b>23 September 2007</b> - 
 			
