@@ -1,10 +1,10 @@
 <emulator id="MAMESuperSetSuppS">
 	<img src="../MAMESuperSet.png" width="198" height="40"/>
 	<name>MAME SuperSet (Split-merged MAME Supplement)</name>
-	<version>v0.119</version>
+	<version>v0.120</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>24/09/2007</date>
+	<date>16/10/2007</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -13,14 +13,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20SuperSet%20v0.119%20(Split-merged%20MAME%20Supplement)%20(cm).zip" size="33"/>
+			<file name="MAME%20SuperSet%20v0.120%20(Split-merged%20MAME%20Supplement)%20(cm).zip" size="33"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20SuperSet%20v0.119%20(Split-merged%20MAME%20Supplement)%20(rc).zip" size="20"/>
+			<file name="MAME%20SuperSet%20v0.120%20(Split-merged%20MAME%20Supplement)%20(rc).zip" size="20"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>16 October 2007</date>
+			<comment>Uploaded dats for MAME v0.120.</comment>
+		</revision>
 		<revision>
 			<date>24 September 2007</date>
 			<comment>XORs did not reflect game renames in MAME v0.119 (dimahoo/sfa3/xmcota clones). Now fixed.</comment>
