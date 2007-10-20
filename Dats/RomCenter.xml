@@ -10,6 +10,7 @@
 	<!ENTITY MAMESuperSetSuppS SYSTEM "MAMESuperSetSuppS/MAMESuperSetSuppS.ent.xml">
 	<!ENTITY MAMESuperSetEmusM SYSTEM "MAMESuperSetEmusM/MAMESuperSetEmusM.ent.xml">
 	<!ENTITY MAMESuperSetEmusS SYSTEM "MAMESuperSetEmusS/MAMESuperSetEmusS.ent.xml">
+	<!ENTITY Mjolnir SYSTEM "Mjolnir/Mjolnir.ent.xml">
 	<!ENTITY Nebula SYSTEM "Nebula/Nebula.ent.xml">
 	<!ENTITY SEGAModel2Emulator SYSTEM "SEGAModel2Emulator/SEGAModel2Emulator.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
@@ -53,6 +54,7 @@
 &M1;
 &MAMEBeta;
 &MAMEChanges;
+&Mjolnir;
 &Nebula;
 &RAINE;
 &SEGAModel2Emulator;

@@ -289,6 +289,28 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
+          <a href="Mjolnir/">Mjolnir v0.3.1</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/New.png" width="53" height="14" alt="New"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>20/10/2007</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>27</b>
+          </p>
+        </td>
+      </tr>
+
+			
+<tr>
+        <td>
           <a href="Nebula/">Nebula v2.25b</a>
         </td>
         <td>

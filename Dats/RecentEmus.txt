@@ -3,6 +3,7 @@ H:\Logiqx\WWW\Dats\FinalBurnAlpha;FinalBurnAlpha
 H:\Logiqx\WWW\Dats\M1;M1
 H:\Logiqx\WWW\Dats\MAMEBeta;MAMEBeta
 H:\Logiqx\WWW\Dats\MAMEChanges;MAMEChanges
+H:\Logiqx\WWW\Dats\Mjolnir;Mjolnir
 H:\Logiqx\WWW\Dats\Nebula;Nebula
 H:\Logiqx\WWW\Dats\NebulaJukebox;NebulaJukebox
 H:\Logiqx\WWW\Dats\RAINE;RAINE

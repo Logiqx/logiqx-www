@@ -68,6 +68,11 @@
 
 
 <tr><td class="status"><b>
+						new
+					</b></td><td><a href="Mjolnir/Mjolnir%20v0.3.1%20(rc).zip"><b>Mjolnir</b></a></td><td>v0.3.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>27</td><td>20/10/2007</td></tr>
+
+
+<tr><td class="status"><b>
 						-
 					</b></td><td><a href="Nebula/Nebula%20v2.25b%20(rc).zip"><b>Nebula</b></a></td><td>v2.25b</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>475</td><td>03/04/2007</td></tr>
 
