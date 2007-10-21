@@ -76,14 +76,18 @@
 
 			<tr>
         <td>
-          <a href="ImgChk/">ImgChk v2.6</a>
+          <a href="ImgChk/">ImgChk v2.7</a>
         </td>
         <td>ImgChk verifies image collections against any format datafile</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>31/10/2005</p>
+          <p>
+            <strong>31/10/2005</strong>
+          </p>
         </td>
       </tr>
 
@@ -106,14 +110,10 @@
         </td>
         <td>ROM manipulation tool that can convert modern day ROMs to older formats</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>09/09/2007</strong>
-          </p>
+          <p>09/09/2007</p>
         </td>
       </tr>
 

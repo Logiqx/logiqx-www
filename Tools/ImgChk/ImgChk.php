@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ImgChk v2.6</title>
+    <title>ImgChk v2.7</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="imgchk26.zip">ImgChk v2.6</a> (281KB)</p>
+          <p>Download <a href="imgchk27.zip">ImgChk v2.7</a> (167KB)</p>
           <p>
-            <a href="imgchk26.zip">
+            <a href="imgchk27.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,17 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>21 October 2007</b> - ImgChk v2.7</p>
+    <p>
+			
+			
+			
+				- Added 'AllowNonWorking' property for J.Hardy IV (default is 1).<br/>
+				- Uses DatLib v2.21.<br/>
+				- Added support for the isbios="yes" of MAME v0.117u2 onwards.<br/>
+    			
+		</p>
     <p>
       <b>31 October 2005</b> - ImgChk v2.6</p>
     <p>

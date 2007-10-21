@@ -3,8 +3,8 @@
 	<img src="ImgChk.png" width="93" height="40"/>
 
 	<name>ImgChk</name>
-	<version>v2.6</version>
-	<status></status>
+	<version>v2.7</version>
+	<status>Updated</status>
 	<date>31/10/2005</date>
 
 	<description>ImgChk verifies image collections against any format datafile</description>
@@ -15,11 +15,21 @@
 
 	<downloads>
 		<download>
-			<file name="imgchk26.zip" size="281"/>
+			<file name="imgchk27.zip" size="167"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>21 October 2007</date>
+			<version>v2.7</version>
+			<comment>
+				- Added 'AllowNonWorking' property for J.Hardy IV (default is 1).<br/>
+				- Uses DatLib v2.21.<br/>
+				- Added support for the isbios="yes" of MAME v0.117u2 onwards.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>31 October 2005</date>
 			<version>v2.6</version>
