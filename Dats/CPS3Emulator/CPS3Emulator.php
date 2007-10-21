@@ -29,7 +29,7 @@
 	<p>
       <img src="CPS3Emulator.png" width="331" height="40" alt="CPS3Emulator.png"/>
     </p>
-	<p>16 games for Capcom Play System 3 Emulator v1.0</p>
+	<p>16 games for Capcom Play System 3 Emulator v1.0<br/>(suitable for v1.0a)</p>
 	
 	
 	

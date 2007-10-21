@@ -187,8 +187,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
       </tr>
 			<tr>
         <td>
-          <a href="CPS3Emulator/">Capcom Play System 3 Emulator v1.0</a>
-        </td>
+          <a href="CPS3Emulator/">Capcom Play System 3 Emulator v1.0</a> (suitable for v1.0a)</td>
         <td>
           <p/>
         </td>
