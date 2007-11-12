@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ImgChk v2.7</title>
+    <title>ImgChk v2.8</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="imgchk27.zip">ImgChk v2.7</a> (167KB)</p>
+          <p>Download <a href="imgchk28.zip">ImgChk v2.8</a> (167KB)</p>
           <p>
-            <a href="imgchk27.zip">
+            <a href="imgchk28.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,15 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>12 November 2007</b> - ImgChk v2.8</p>
+    <p>
+			
+			
+			
+				- Enhanced 'AllowNonWorking' behavior when AllowClones=0<br/>
+    			
+		</p>
     <p>
       <b>21 October 2007</b> - ImgChk v2.7</p>
     <p>

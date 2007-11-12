@@ -76,7 +76,7 @@
 
 			<tr>
         <td>
-          <a href="ImgChk/">ImgChk v2.7</a>
+          <a href="ImgChk/">ImgChk v2.8</a>
         </td>
         <td>ImgChk verifies image collections against any format datafile</td>
         <td>
@@ -86,7 +86,7 @@
         </td>
         <td>
           <p>
-            <strong>31/10/2005</strong>
+            <strong>12/11/2007</strong>
           </p>
         </td>
       </tr>
