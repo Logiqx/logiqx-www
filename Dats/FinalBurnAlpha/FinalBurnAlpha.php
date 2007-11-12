@@ -1,6 +1,5 @@
 
-	
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <script language="php">
@@ -9,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>FBA v0.2.96.71</title>
+    <title>FBA v0.2.96.72</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +29,7 @@
 	<p>
       <img src="FinalBurnAlpha.png" width="195" height="40" alt="FinalBurnAlpha.png"/>
     </p>
-	<p>780 games for FBA v0.2.96.71</p>
+	<p>871 games for FBA v0.2.96.72</p>
 	
 	
 	
@@ -42,17 +41,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="FBA%20v0.2.96.71%20(cm).zip">FBA dat for CMPro</a> (274KB)</p>
+          <p>Download <a href="FBA%20v0.2.96.72%20(cm).zip">FBA dat for CMPro</a> (311KB)</p>
           <p>
-            <a href="FBA%20v0.2.96.71%20(cm).zip">
+            <a href="FBA%20v0.2.96.72%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="FBA%20v0.2.96.71%20(rc).zip">FBA dat for ROMCenter</a> (144KB)</p>
+          <p>Download <a href="FBA%20v0.2.96.72%20(rc).zip">FBA dat for ROMCenter</a> (161KB)</p>
           <p>
-            <a href="FBA%20v0.2.96.71%20(rc).zip">
+            <a href="FBA%20v0.2.96.72%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -63,6 +62,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>12 November 2007</b> - 
+			
+			Updated for FBA v0.2.96.72.
+		</p>
     <p>
       <b>15 April 2007</b> - 
 			

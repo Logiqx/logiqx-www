@@ -1,24 +1,27 @@
-<!-- edited with STYLEVISION v2004 rel. 3 U (http://www.xmlspy.com) by nobody (nowhere) -->
 <emulator id="FinalBurnAlpha">
 	<img src="FinalBurnAlpha.png" width="195" height="40"/>
 	<name>FBA</name>
-	<version>v0.2.96.71</version>
+	<version>v0.2.96.72</version>
 	<suitability></suitability>
-	<status></status>
-	<date>15/04/2007</date>
-	<games>780</games>
+	<status>Updated</status>
+	<date>12/11/2007</date>
+	<games>871</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="FBA%20v0.2.96.71%20(cm).zip" size="274"/>
+			<file name="FBA%20v0.2.96.72%20(cm).zip" size="311"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="FBA%20v0.2.96.71%20(rc).zip" size="144"/>
+			<file name="FBA%20v0.2.96.72%20(rc).zip" size="161"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>12 November 2007</date>
+			<comment>Updated for FBA v0.2.96.72.</comment>
+		</revision>
 		<revision>
 			<date>15 April 2007</date>
 			<comment>Updated for FBA v0.2.96.71.</comment>

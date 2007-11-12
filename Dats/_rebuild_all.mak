@@ -16,6 +16,7 @@ EMULATORS= \
 	MAMESuperSetSuppS/MAMESuperSetSuppS.php \
 	MAMESuperSetEmusM/MAMESuperSetEmusM.php \
 	MAMESuperSetEmusS/MAMESuperSetEmusS.php \
+	OldSpark/OldSpark.php \
 	RAINE/RAINE.php \
 	WinKawaks/WinKawaks.php \
 	Zinc/Zinc.php \

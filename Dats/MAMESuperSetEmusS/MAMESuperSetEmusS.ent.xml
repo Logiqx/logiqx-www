@@ -4,7 +4,7 @@
 	<version>v0.120</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>16/10/2007</date>
+	<date>12/11/2007</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Various%20Emulators%20v0.120%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip" size="90"/>
+			<file name="Various%20Emulators%20v0.120%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip" size="89"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Various%20Emulators%20v0.120%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="55"/>
+			<file name="Various%20Emulators%20v0.120%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="54"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>12 November 2007</date>
+			<comment>Updated for FBA v0.2.96.72.</comment>
+		</revision>
 		<revision>
 			<date>16 October 2007</date>
 			<comment>Uploaded dats for MAME v0.120.</comment>

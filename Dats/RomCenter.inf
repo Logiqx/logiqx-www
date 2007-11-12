@@ -22,9 +22,9 @@ updated;MAME SuperSet (Fully-merged MAME Supplement);v0.120;Non-MAME;Logiqx;http
 
 updated;MAME SuperSet (Split-merged MAME Supplement);v0.120;Non-MAME;Logiqx;http://www.logiqx.com;;16/10/2007;http://www.logiqx.com/Dats/MAMESuperSetSuppS/MAME%20SuperSet%20v0.120%20(Split-merged%20MAME%20Supplement)%20(rc).zip
 
-updated;Various Emulators (Fully-merged SuperSet Supplements);v0.120;Non-MAME;Logiqx;http://www.logiqx.com;;16/10/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.120%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
+updated;Various Emulators (Fully-merged SuperSet Supplements);v0.120;Non-MAME;Logiqx;http://www.logiqx.com;;12/11/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.120%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
 
-updated;Various Emulators (Split-merged SuperSet Supplements);v0.120;Non-MAME;Logiqx;http://www.logiqx.com;;16/10/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.120%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
+updated;Various Emulators (Split-merged SuperSet Supplements);v0.120;Non-MAME;Logiqx;http://www.logiqx.com;;12/11/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.120%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
 
 		
 	
@@ -40,8 +40,7 @@ updated;Various Emulators (Split-merged SuperSet Supplements);v0.120;Non-MAME;Lo
 
 ;Daphne;v0.99.7;61;Logiqx;http://www.logiqx.com;;03/10/2005;http://www.logiqx.com/Dats/Daphne/Daphne%20v0.99.7%20(rc).zip
 
-
-;FBA;v0.2.96.71;780;Logiqx;http://www.logiqx.com;;15/04/2007;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.96.71%20(rc).zip
+updated;FBA;v0.2.96.72;871;Logiqx;http://www.logiqx.com;;12/11/2007;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.96.72%20(rc).zip
 
 
 ;Kawaks;v1.58;560;Logiqx;http://www.logiqx.com;;20/04/2007;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.58%20(rc).zip
@@ -58,6 +57,9 @@ new;Mjolnir;v0.3.1;27;Logiqx;http://www.logiqx.com;;20/10/2007;http://www.logiqx
 
 
 ;Nebula;v2.25b;475;Logiqx;http://www.logiqx.com;;03/04/2007;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.25b%20(rc).zip
+
+
+new;OldSpark C++;20071006;16;Logiqx;http://www.logiqx.com;;12/11/2007;http://www.logiqx.com/Dats/OldSpark/OldSpark%20C++%2020071006%20(rc).zip
 
 
 ;RAINE;v0.50.5;577;Logiqx;http://www.logiqx.com;;08/07/2007;http://www.logiqx.com/Dats/RAINE/RAINE%20v0.50.5%20(rc).zip
@@ -105,9 +107,9 @@ updated;Neo-Geo;20071015;263;Logiqx;http://www.logiqx.com;;16/10/2007;http://www
 		
 		
 
-updated;MAME Artwork;20070916;505;Mr. Do;http://www.mameworld.net/mrdo/;;24/09/2007;http://www.logiqx.com/Dats/MAMEArtwork/MAME%20Artwork%2020070916%20(rc).zip
+updated;MAME Artwork;20071017;530;Mr. Do;http://www.mameworld.net/mrdo/;;12/11/2007;http://www.logiqx.com/Dats/MAMEArtwork/MAME%20Artwork%2020071017%20(rc).zip
 
-updated;MAME Samples;20070916;87;Roman Scherzer;http://www.clrmame.com/;;24/09/2007;http://www.logiqx.com/Dats/MAMESamples/MAME%20Samples%2020070916%20(rc).zip
+updated;MAME Samples;20071017;59;Roman Scherzer;http://www.clrmame.com/;;12/11/2007;http://www.logiqx.com/Dats/MAMESamples/MAME%20Samples%2020071017%20(rc).zip
 
 		
 	

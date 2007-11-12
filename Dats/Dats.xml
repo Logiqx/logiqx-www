@@ -13,6 +13,7 @@
 	<!ENTITY Mjolnir SYSTEM "Mjolnir/Mjolnir.ent.xml">
 	<!ENTITY Nebula SYSTEM "Nebula/Nebula.ent.xml">
 	<!ENTITY SEGAModel2Emulator SYSTEM "SEGAModel2Emulator/SEGAModel2Emulator.ent.xml">
+	<!ENTITY OldSpark SYSTEM "OldSpark/OldSpark.ent.xml">
 	<!ENTITY RAINE SYSTEM "RAINE/RAINE.ent.xml">
 	<!ENTITY Kawaks SYSTEM "WinKawaks/WinKawaks.ent.xml">
 	<!ENTITY Zinc SYSTEM "Zinc/Zinc.ent.xml">
@@ -55,6 +56,7 @@
 			&MAMEChanges;
 			&Mjolnir;
 			&Nebula;
+			&OldSpark;
 			&RAINE;
 			&SEGAModel2Emulator;
 			&Zinc;

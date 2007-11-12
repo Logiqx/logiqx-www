@@ -21,11 +21,11 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.120%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.120</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>16/10/2007</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.120%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.120</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>12/11/2007</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.120%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.120</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>16/10/2007</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.120%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.120</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>12/11/2007</td></tr>
 
 		</table>
 	
@@ -45,10 +45,9 @@
 						-
 					</b></td><td><a href="Daphne/Daphne%20v0.99.7%20(rc).zip"><b>Daphne</b></a></td><td>v0.99.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>61</td><td>03/10/2005</td></tr>
 
-
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.71%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.71</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>780</td><td>15/04/2007</td></tr>
+						updated
+					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.72%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.72</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>871</td><td>12/11/2007</td></tr>
 
 
 <tr><td class="status"><b>
@@ -75,6 +74,11 @@
 <tr><td class="status"><b>
 						-
 					</b></td><td><a href="Nebula/Nebula%20v2.25b%20(rc).zip"><b>Nebula</b></a></td><td>v2.25b</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>475</td><td>03/04/2007</td></tr>
+
+
+<tr><td class="status"><b>
+						new
+					</b></td><td><a href="OldSpark/OldSpark%20C++%2020071006%20(rc).zip"><b>OldSpark C++</b></a></td><td>20071006</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>16</td><td>12/11/2007</td></tr>
 
 
 <tr><td class="status"><b>
@@ -138,11 +142,11 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020070916%20(rc).zip"><b>MAME Artwork</b></a></td><td>20070916</td><td><a href="http://www.mameworld.net/mrdo/"><b>Mr. Do</b></a></td><td>505</td><td>24/09/2007</td></tr>
+					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020071017%20(rc).zip"><b>MAME Artwork</b></a></td><td>20071017</td><td><a href="http://www.mameworld.net/mrdo/"><b>Mr. Do</b></a></td><td>530</td><td>12/11/2007</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESamples/MAME%20Samples%2020070916%20(rc).zip"><b>MAME Samples</b></a></td><td>20070916</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>87</td><td>24/09/2007</td></tr>
+					</b></td><td><a href="MAMESamples/MAME%20Samples%2020071017%20(rc).zip"><b>MAME Samples</b></a></td><td>20071017</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>59</td><td>12/11/2007</td></tr>
 
 		</table>
 	

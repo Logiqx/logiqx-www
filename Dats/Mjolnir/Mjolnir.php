@@ -30,7 +30,7 @@
 	<p>
       <img src="Mjolnir.png" width="80" height="40" alt="Mjolnir.png"/>
     </p>
-	<p>27 games for Mjolnir v0.3.1</p>
+	<p>27 games for Mjolnir v0.3.1<br/>(suitable for v0.4)</p>
 	
 	
 	

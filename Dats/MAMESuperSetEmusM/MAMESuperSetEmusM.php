@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.120%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro</a> (85KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.120%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro</a> (84KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.120%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>12 November 2007</b> - 
+			
+			Updated for FBA v0.2.96.72.
+		</p>
     <p>
       <b>16 October 2007</b> - 
 			
