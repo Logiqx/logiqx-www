@@ -16,15 +16,15 @@ email=support@romcenter.com
 			
 		
 		
-updated;MAME SuperSet;v0.120;6866;Logiqx;http://www.logiqx.com;;16/10/2007;http://www.logiqx.com/Dats/MAMESuperSet/MAME%20SuperSet%20v0.120%20(rc).zip
+updated;MAME SuperSet;v0.121;6908;Logiqx;http://www.logiqx.com;;22/11/2007;http://www.logiqx.com/Dats/MAMESuperSet/MAME%20SuperSet%20v0.121%20(rc).zip
 
-updated;MAME SuperSet (Fully-merged MAME Supplement);v0.120;Non-MAME;Logiqx;http://www.logiqx.com;;16/10/2007;http://www.logiqx.com/Dats/MAMESuperSetSuppM/MAME%20SuperSet%20v0.120%20(Fully-merged%20MAME%20Supplement)%20(rc).zip
+updated;MAME SuperSet (Fully-merged MAME Supplement);v0.121;Non-MAME;Logiqx;http://www.logiqx.com;;22/11/2007;http://www.logiqx.com/Dats/MAMESuperSetSuppM/MAME%20SuperSet%20v0.121%20(Fully-merged%20MAME%20Supplement)%20(rc).zip
 
-updated;MAME SuperSet (Split-merged MAME Supplement);v0.120;Non-MAME;Logiqx;http://www.logiqx.com;;16/10/2007;http://www.logiqx.com/Dats/MAMESuperSetSuppS/MAME%20SuperSet%20v0.120%20(Split-merged%20MAME%20Supplement)%20(rc).zip
+updated;MAME SuperSet (Split-merged MAME Supplement);v0.121;Non-MAME;Logiqx;http://www.logiqx.com;;22/11/2007;http://www.logiqx.com/Dats/MAMESuperSetSuppS/MAME%20SuperSet%20v0.121%20(Split-merged%20MAME%20Supplement)%20(rc).zip
 
-updated;Various Emulators (Fully-merged SuperSet Supplements);v0.120;Non-MAME;Logiqx;http://www.logiqx.com;;12/11/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.120%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
+updated;Various Emulators (Fully-merged SuperSet Supplements);v0.121;Non-MAME;Logiqx;http://www.logiqx.com;;22/11/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.121%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
 
-updated;Various Emulators (Split-merged SuperSet Supplements);v0.120;Non-MAME;Logiqx;http://www.logiqx.com;;12/11/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.120%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
+updated;Various Emulators (Split-merged SuperSet Supplements);v0.121;Non-MAME;Logiqx;http://www.logiqx.com;;22/11/2007;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.121%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
 
 		
 	
@@ -49,7 +49,7 @@ updated;FBA;v0.2.96.72;871;Logiqx;http://www.logiqx.com;;12/11/2007;http://www.l
 ;M1;v0.7.7u4;1312;Logiqx;http://www.logiqx.com;;15/04/2007;http://www.logiqx.com/Dats/M1/M1%20v0.7.7u4%20(rc).zip
 
 
-updated;MAME;v0.120;6823;Logiqx;http://www.logiqx.com;;16/10/2007;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.120%20(rc).zip
+updated;MAME;v0.121;6865;Logiqx;http://www.logiqx.com;;22/11/2007;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.121%20(rc).zip
 
 
 
@@ -92,10 +92,10 @@ new;OldSpark C++;20071006;16;Logiqx;http://www.logiqx.com;;12/11/2007;http://www
 ;CPS-1;20070922;123;Logiqx;http://www.logiqx.com;;23/09/2007;http://www.logiqx.com/Dats/CPS-1/CPS-1%2020070922%20(rc).zip
 
 
-;CPS-2;20070924;201;Logiqx;http://www.logiqx.com;;24/09/2007;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020070924%20(rc).zip
+updated;CPS-2;20071119;201;Logiqx;http://www.logiqx.com;;22/11/2007;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020071119%20(rc).zip
 
 
-updated;Neo-Geo;20071015;263;Logiqx;http://www.logiqx.com;;16/10/2007;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020071015%20(rc).zip
+;Neo-Geo;20071015;263;Logiqx;http://www.logiqx.com;;16/10/2007;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020071015%20(rc).zip
 
 		
 	
@@ -107,9 +107,9 @@ updated;Neo-Geo;20071015;263;Logiqx;http://www.logiqx.com;;16/10/2007;http://www
 		
 		
 
-updated;MAME Artwork;20071017;530;Mr. Do;http://www.mameworld.net/mrdo/;;12/11/2007;http://www.logiqx.com/Dats/MAMEArtwork/MAME%20Artwork%2020071017%20(rc).zip
+updated;MAME Artwork;20071107;531;Mr. Do;http://www.mameworld.net/mrdo/;;22/11/2007;http://www.logiqx.com/Dats/MAMEArtwork/MAME%20Artwork%2020071107%20(rc).zip
 
-updated;MAME Samples;20071017;59;Roman Scherzer;http://www.clrmame.com/;;12/11/2007;http://www.logiqx.com/Dats/MAMESamples/MAME%20Samples%2020071017%20(rc).zip
+;MAME Samples;20071017;59;Roman Scherzer;http://www.clrmame.com/;;12/11/2007;http://www.logiqx.com/Dats/MAMESamples/MAME%20Samples%2020071017%20(rc).zip
 
 		
 	

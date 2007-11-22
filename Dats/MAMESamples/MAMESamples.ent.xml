@@ -3,7 +3,7 @@
 	<name>MAME Samples</name>
 	<version>20071017</version>
 	<suitability/>
-	<status>Updated</status>
+	<status></status>
 	<date>12/11/2007</date>
 	<games>59</games>
 	<author href="http://www.clrmame.com/">Roman Scherzer</author>
@@ -21,6 +21,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>22 November 2007</date>
+			<comment>No change required for MAME v0.121.</comment>
+		</revision>
 		<revision>
 			<date>12 November 2007</date>
 			<comment>Uploaded Roman's latest update (for MAME v0.120).</comment>
