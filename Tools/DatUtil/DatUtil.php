@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.32</title>
+    <title>DatUtil v2.33</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -73,9 +73,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil232.zip">DatUtil v2.32</a> (179KB)</p>
+          <p>Download <a href="dutil233.zip">DatUtil v2.33</a> (183KB)</p>
           <p>
-            <a href="dutil232.zip">
+            <a href="dutil233.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -87,6 +87,21 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>26 November 2007</b> - DatUtil v2.33</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.22.<br/>
+				- Fixed crash when loading full MESS XML (0.105 upwards).<br/>
+				- MESS: Support for new device attributes (type, tag and mandatory).<br/>
+				- MESS: Support for machine "RAM options".<br/>
+				- MAME + MESS: Support for new emulator "debug" attribute.<br/>
+				- MAME + MESS: Changed "refresh" attributes from float to double.<br/>
+				- MAME + MESS: Added driver "savestate" warnings.<br/>
+    			
+		</p>
     <p>
       <b>29 July 2007</b> - DatUtil v2.32</p>
     <p>

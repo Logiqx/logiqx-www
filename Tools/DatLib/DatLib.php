@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.21</title>
+    <title>DatLib v2.22</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib221.zip">DatLib v2.21</a> (94KB)</p>
+          <p>Download <a href="datlib222.zip">DatLib v2.22</a> (95KB)</p>
           <p>
-            <a href="datlib221.zip">
+            <a href="datlib222.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,20 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>26 November 2007</b> - DatLib v2.22</p>
+    <p>
+			
+			
+			
+				- Fixed crash when loading full MESS XML (0.105 upwards).<br/>
+				- MESS: Support for new device attributes (type, tag and mandatory).<br/>
+				- MESS: Support for machine "RAM options".<br/>
+				- MAME + MESS: Support for new emulator "debug" attribute.<br/>
+				- MAME + MESS: Changed "refresh" attributes from float to double.<br/>
+				- MAME + MESS: Added driver "savestate" warnings.<br/>
+    			
+		</p>
     <p>
       <b>29 July 2007</b> - DatLib v2.21</p>
     <p>

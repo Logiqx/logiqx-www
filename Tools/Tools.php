@@ -50,33 +50,41 @@
 
 			<tr>
         <td>
-          <a href="DatLib/">DatLib v2.21</a>
+          <a href="DatLib/">DatLib v2.22</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>29/07/2007</p>
+          <p>
+            <strong>26/11/2007</strong>
+          </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="DatUtil/">DatUtil v2.32</a>
+          <a href="DatUtil/">DatUtil v2.33</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>29/07/2007</p>
+          <p>
+            <strong>26/11/2007</strong>
+          </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="ImgChk/">ImgChk v2.8</a>
+          <a href="ImgChk/">ImgChk v2.9</a>
         </td>
         <td>ImgChk verifies image collections against any format datafile</td>
         <td>
@@ -86,7 +94,7 @@
         </td>
         <td>
           <p>
-            <strong>12/11/2007</strong>
+            <strong>26/11/2007</strong>
           </p>
         </td>
       </tr>
@@ -134,14 +142,18 @@
 
 			<tr>
         <td>
-          <a href="ZIPIdent/">ZIPIdent v2.8</a>
+          <a href="ZIPIdent/">ZIPIdent v2.9</a>
         </td>
         <td>Game identification tool (for groups of ROMs)</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>11/07/2006</p>
+          <p>
+            <strong>26/11/2007</strong>
+          </p>
         </td>
       </tr>
 

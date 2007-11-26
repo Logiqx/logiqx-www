@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.21</version>
-	<status></status>
-	<date>29/07/2007</date>
+	<version>v2.22</version>
+	<status>Updated</status>
+	<date>26/11/2007</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,24 @@
 
 	<downloads>
 		<download>
-			<file name="datlib221.zip" size="94"/>
+			<file name="datlib222.zip" size="95"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>26 November 2007</date>
+			<version>v2.22</version>
+			<comment>
+				- Fixed crash when loading full MESS XML (0.105 upwards).<br/>
+				- MESS: Support for new device attributes (type, tag and mandatory).<br/>
+				- MESS: Support for machine "RAM options".<br/>
+				- MAME + MESS: Support for new emulator "debug" attribute.<br/>
+				- MAME + MESS: Changed "refresh" attributes from float to double.<br/>
+				- MAME + MESS: Added driver "savestate" warnings.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>29 July 2007</date>
 			<version>v2.21</version>

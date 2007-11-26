@@ -3,9 +3,9 @@
 	<img src="ImgChk.png" width="93" height="40"/>
 
 	<name>ImgChk</name>
-	<version>v2.8</version>
+	<version>v2.9</version>
 	<status>Updated</status>
-	<date>12/11/2007</date>
+	<date>26/11/2007</date>
 
 	<description>ImgChk verifies image collections against any format datafile</description>
 
@@ -15,11 +15,20 @@
 
 	<downloads>
 		<download>
-			<file name="imgchk28.zip" size="167"/>
+			<file name="imgchk29.zip" size="172"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>26 November 2007</date>
+			<version>v2.9</version>
+			<comment>
+				- Uses DatLib v2.22.<br/>
+				- Fixed crash when loading full MESS XML (0.105 upwards).<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>12 November 2007</date>
 			<version>v2.8</version>

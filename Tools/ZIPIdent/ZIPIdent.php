@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ZIPIdent v2.8</title>
+    <title>ZIPIdent v2.9</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -49,9 +49,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="zident28.zip">ZIPIdent v2.8</a> (145KB)</p>
+          <p>Download <a href="zident29.zip">ZIPIdent v2.9</a> (180KB)</p>
           <p>
-            <a href="zident28.zip">
+            <a href="zident29.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -63,6 +63,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>26 November 2007</b> - ZIPIdent v2.9</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.22.<br/>
+				- Fixed crash when loading full MESS XML (0.105 upwards).<br/>
+    			
+		</p>
     <p>
       <b>11 July 2006</b> - ZIPIdent v2.8</p>
     <p>
