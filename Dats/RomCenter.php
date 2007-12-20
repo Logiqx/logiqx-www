@@ -4,28 +4,33 @@
 		
 		
 		
-			<p>MAME and various systems (CPS-1, CPS-2 and Neo-Geo) combined into one.<br/>Makes 'supplements' for emulators such as Nebula and Kawaks smaller and more efficient.</p>
+			<p><b>MAME and various systems (CPS-1, CPS-2 and Neo-Geo) combined into one.<br/>Makes 'supplements' for emulators such as Nebula and Kawaks smaller and more efficient.</b></p>
 		
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
-<tr><td class="status"><b>
-						updated
-					</b></td><td><a href="MAMESuperSet/MAME%20SuperSet%20v0.121%20(rc).zip"><b>MAME SuperSet</b></a></td><td>v0.121</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6908</td><td>22/11/2007</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetSuppM/MAME%20SuperSet%20v0.121%20(Fully-merged%20MAME%20Supplement)%20(rc).zip"><b>MAME SuperSet (Fully-merged MAME Supplement)</b></a></td><td>v0.121</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>22/11/2007</td></tr>
+					</b></td><td><a href="MAMEBeta/MAME%20v0.122%20(rc).zip"><b>MAME</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6893</td><td>20/12/2007</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetSuppS/MAME%20SuperSet%20v0.121%20(Split-merged%20MAME%20Supplement)%20(rc).zip"><b>MAME SuperSet (Split-merged MAME Supplement)</b></a></td><td>v0.121</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>22/11/2007</td></tr>
+					</b></td><td><a href="MAMESuperSet/MAME%20SuperSet%20v0.122%20(rc).zip"><b>MAME SuperSet</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6936</td><td>20/12/2007</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.121%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.121</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>22/11/2007</td></tr>
+					</b></td><td><a href="MAMESuperSetSuppM/MAME%20SuperSet%20v0.122%20(Fully-merged%20MAME%20Supplement)%20(rc).zip"><b>MAME SuperSet (Fully-merged MAME Supplement)</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>20/12/2007</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.121%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.121</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>22/11/2007</td></tr>
+					</b></td><td><a href="MAMESuperSetSuppS/MAME%20SuperSet%20v0.122%20(Split-merged%20MAME%20Supplement)%20(rc).zip"><b>MAME SuperSet (Split-merged MAME Supplement)</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>20/12/2007</td></tr>
+
+<tr><td class="status"><b>
+						updated
+					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>20/12/2007</td></tr>
+
+<tr><td class="status"><b>
+						updated
+					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.122%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>20/12/2007</td></tr>
 
 		</table>
 	
@@ -46,7 +51,7 @@
 					</b></td><td><a href="Daphne/Daphne%20v0.99.7%20(rc).zip"><b>Daphne</b></a></td><td>v0.99.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>61</td><td>03/10/2005</td></tr>
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.72%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.72</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>871</td><td>12/11/2007</td></tr>
 
 
@@ -61,13 +66,7 @@
 
 
 <tr><td class="status"><b>
-						updated
-					</b></td><td><a href="MAMEBeta/MAME%20v0.121%20(rc).zip"><b>MAME</b></a></td><td>v0.121</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>6865</td><td>22/11/2007</td></tr>
-
-
-
-<tr><td class="status"><b>
-						new
+						-
 					</b></td><td><a href="Mjolnir/Mjolnir%20v0.3.1%20(rc).zip"><b>Mjolnir</b></a></td><td>v0.3.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>27</td><td>20/10/2007</td></tr>
 
 
@@ -77,7 +76,7 @@
 
 
 <tr><td class="status"><b>
-						new
+						-
 					</b></td><td><a href="OldSpark/OldSpark%20C++%2020071006%20(rc).zip"><b>OldSpark C++</b></a></td><td>20071006</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>16</td><td>12/11/2007</td></tr>
 
 
@@ -122,13 +121,13 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="CPS-2/CPS-2%2020071119%20(rc).zip"><b>CPS-2</b></a></td><td>20071119</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>201</td><td>22/11/2007</td></tr>
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="Neo-Geo/Neo-Geo%2020071015%20(rc).zip"><b>Neo-Geo</b></a></td><td>20071015</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>263</td><td>16/10/2007</td></tr>
+						updated
+					</b></td><td><a href="Neo-Geo/Neo-Geo%2020071220%20(rc).zip"><b>Neo-Geo</b></a></td><td>20071220</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>264</td><td>20/12/2007</td></tr>
 
 		</table>
 	
@@ -142,11 +141,11 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020071107%20(rc).zip"><b>MAME Artwork</b></a></td><td>20071107</td><td><a href="http://www.mameworld.net/mrdo/"><b>Mr. Do</b></a></td><td>531</td><td>22/11/2007</td></tr>
+					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020071216%20(rc).zip"><b>MAME Artwork</b></a></td><td>20071216</td><td><a href="http://www.mameworld.net/mrdo/"><b>Mr. Do</b></a></td><td>535</td><td>20/12/2007</td></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMESamples/MAME%20Samples%2020071017%20(rc).zip"><b>MAME Samples</b></a></td><td>20071017</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>59</td><td>12/11/2007</td></tr>
+						updated
+					</b></td><td><a href="MAMESamples/MAME%20Samples%2020071219%20(rc).zip"><b>MAME Samples</b></a></td><td>20071219</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>60</td><td>20/12/2007</td></tr>
 
 		</table>
 	

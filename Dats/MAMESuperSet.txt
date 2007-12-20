@@ -1,3 +1,4 @@
+H:\Logiqx\WWW\Dats\MAMEBeta;MAMEBeta
 H:\Logiqx\WWW\Dats\MAMESuperSet;MAMESuperSet
 H:\Logiqx\WWW\Dats\MAMESuperSetEmusM;MAMESuperSetEmusM
 H:\Logiqx\WWW\Dats\MAMESuperSetEmusS;MAMESuperSetEmusS

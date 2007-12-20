@@ -33,6 +33,7 @@
 			<p>MAME and various systems (CPS-1, CPS-2 and Neo-Geo) combined into one.<br/>Makes 'supplements' for emulators such as Nebula and Kawaks smaller and more efficient.</p>
 		</comment>
 		<emulators>
+			&MAMEBeta;
 			&MAMESuperSet;
 			&MAMESuperSetSuppM;
 			&MAMESuperSetSuppS;
@@ -52,8 +53,6 @@
 			&FinalBurnAlpha;
 			&Kawaks;
 			&M1;
-			&MAMEBeta;
-			&MAMEChanges;
 			&Mjolnir;
 			&Nebula;
 			&OldSpark;

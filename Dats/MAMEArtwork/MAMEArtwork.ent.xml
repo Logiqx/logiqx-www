@@ -2,11 +2,11 @@
 <emulator id="MAMEArtwork">
 	<img src="MAMEArtwork.png" width="176" height="40"/>
 	<name>MAME Artwork</name>
-	<version>20071107</version>
+	<version>20071216</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>22/11/2007</date>
-	<games>531</games>
+	<date>20/12/2007</date>
+	<games>535</games>
 	<author href="http://www.mameworld.net/mrdo/">Mr. Do</author>
 	<comment>
 		<p>Created and maintained by Mr. Do (<a href="http://www.mameworld.net/mrdo/" target="_blank">http://www.mameworld.net/mrdo/</a>).</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20Artwork%2020071107%20(cm).zip" size="65"/>
+			<file name="MAME%20Artwork%2020071216%20(cm).zip" size="66"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20Artwork%2020071107%20(rc).zip" size="29"/>
+			<file name="MAME%20Artwork%2020071216%20(rc).zip" size="30"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>20 December 2007</date>
+			<comment>Uploaded Mr. Do's latest update (20071216).</comment>
+		</revision>
 		<revision>
 			<date>22 November 2007</date>
 			<comment>Uploaded Mr. Do's latest update (20071107).</comment>
