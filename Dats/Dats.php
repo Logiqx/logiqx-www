@@ -150,7 +150,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>20/12/2007</b>
+            <b>29/12/2007</b>
           </p>
         </td>
         <td>
@@ -171,7 +171,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>20/12/2007</b>
+            <b>29/12/2007</b>
           </p>
         </td>
         <td>
@@ -270,16 +270,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="M1/">M1 v0.7.7u4</a>
+          <a href="M1/">M1 v0.7.8a3</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>15/04/2007</p>
+          <p>
+            <b>29/12/2007</b>
+          </p>
         </td>
         <td>
-          <p>1312</p>
+          <p>
+            <b>1400</b>
+          </p>
         </td>
       </tr>
 
@@ -333,8 +339,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RAINE/">RAINE v0.50.5</a>
-        </td>
+          <a href="RAINE/">RAINE v0.50.5</a> (suitable for v0.50.6)</td>
         <td>
           <p/>
         </td>

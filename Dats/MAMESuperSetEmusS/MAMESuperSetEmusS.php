@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>29 December 2007</b> - 
+			
+			Updated for M1 v0.7.8a3.
+		</p>
+    <p>
       <b>20 December 2007</b> - 
 			
 			Uploaded dats for MAME v0.122.

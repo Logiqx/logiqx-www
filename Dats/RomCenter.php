@@ -26,11 +26,11 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>20/12/2007</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>29/12/2007</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.122%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>20/12/2007</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.122%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>29/12/2007</td></tr>
 
 		</table>
 	
@@ -61,8 +61,8 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="M1/M1%20v0.7.7u4%20(rc).zip"><b>M1</b></a></td><td>v0.7.7u4</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1312</td><td>15/04/2007</td></tr>
+						updated
+					</b></td><td><a href="M1/M1%20v0.7.8a3%20(rc).zip"><b>M1</b></a></td><td>v0.7.8a3</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1400</td><td>29/12/2007</td></tr>
 
 
 <tr><td class="status"><b>
