@@ -1,0 +1,47 @@
+<h1>29 December 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded data files for the latest M1 release (0.7.8a3).<br /><br />n.b. I failed to notice a number of releases since 0.7.7u4.</p></td>
+  </tr>
+</table><h1>20 December 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded all of the necessary data file updates for MAME v0.122.<br /><br />You can find them under the usual section.</p></td>
+  </tr>
+</table><h1>26 November 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released a new version of DatLib (v2.22) and updated some of my tools accordingly; DatUtil v2.33, ImgChk v2.9 and ZipIdent v2.9.</p></td>
+  </tr>
+</table><h1>22 November 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>Updated data files for MAME v0.121 - all in the usual place!</p></td>
+  </tr>
+</table><h1>12 November 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded a selection of new data files:<br /><br />- FBA v0.2.96.72<br />- OldSpark C++ 20071006 (thanks to neoforma)<br />- MAME Samples and Artwork 20071017</p></td>
+  </tr>
+</table><h1>12 November 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released another update to ImgChk (v2.8). Get it from the "Tools" section.<br /><br />Hopefully this will be the last update to it for a little while. ;)</p></td>
+  </tr>
+</table><h1>21 October 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have release <a href="http://www.logiqx.com/Tools/ImgChk/">ImgChk v2.7</a>.</p></td>
+  </tr>
+</table><h1>20 October 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded a data file for Stroff's Mjolnir v0.3.1.<br /><br />Sorry for the delay... it's been a busy time recently!</p></td>
+  </tr>
+</table><h1>16 October 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded the required data files for MAME v0.120.<br /><br />A lot of the supplements are somewhat larger due to the recent Neo-Geo changes.</p></td>
+  </tr>
+</table>
+

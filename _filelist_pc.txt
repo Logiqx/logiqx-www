@@ -65,13 +65,13 @@ DatFAQs/CVS	Root	26
 Dats	_rebuild_all.bat	55
 Dats	_rebuild_all.mak	1645
 Dats	_rebuild_xml.bat	833
-Dats	Dats.php	12732
+Dats	Dats.php	12595
 Dats	Dats.png	1033
-Dats	Dats.xml	3421
+Dats	Dats.xml	3403
 Dats	EmulatorSupplements.png	3532
 Dats	MAMESuperSet.png	3261
-Dats	MAMESuperSet.txt	270
-Dats	MAMESuperSet.zip	965
+Dats	MAMESuperSet.txt	308
+Dats	MAMESuperSet.zip	991
 Dats	OlderEmus.laptop.txt	44
 Dats	OlderEmus.png	1948
 Dats	OlderEmus.txt	40
@@ -79,12 +79,12 @@ Dats	OlderEmus.zip	4427
 Dats	RecentEmus.laptop.txt	546
 Dats	RecentEmus.png	2121
 Dats	RecentEmus.txt	534
-Dats	RecentEmus.zip	824
+Dats	RecentEmus.zip	822
 Dats	ResourceFiles.png	1885
 Dats	RomCenter.css	906
 Dats	RomCenter.inf	3910
-Dats	RomCenter.php	8501
-Dats	RomCenter.xml	3347
+Dats	RomCenter.php	8509
+Dats	RomCenter.xml	3339
 Dats	Systems.laptop.txt	112
 Dats	Systems.png	1413
 Dats	Systems.txt	100
@@ -98,8 +98,8 @@ Dats/CPS-1	_cvs_purge_add.bat	48
 Dats/CPS-1	_zip_cps1.bat	623
 Dats/CPS-1	CPS-1 20070922 (cm).zip	38893
 Dats/CPS-1	CPS-1 20070922 (rc).zip	19767
-Dats/CPS-1	CPS-1.ent.xml	8169
-Dats/CPS-1	CPS-1.php	7906
+Dats/CPS-1	CPS-1.ent.xml	8287
+Dats/CPS-1	CPS-1.php	7997
 Dats/CPS-1	CPS-1.png	1149
 Dats/CPS-1	CPS-1.xml	167
 Dats/CPS-1/CVS	Entries	407
@@ -109,8 +109,8 @@ Dats/CPS-2	_cvs_purge_add.bat	48
 Dats/CPS-2	_zip_cps2.bat	623
 Dats/CPS-2	CPS-2 20071119 (cm).zip	61175
 Dats/CPS-2	CPS-2 20071119 (rc).zip	33952
-Dats/CPS-2	CPS-2.ent.xml	18965
-Dats/CPS-2	CPS-2.php	17038
+Dats/CPS-2	CPS-2.ent.xml	19076
+Dats/CPS-2	CPS-2.php	17129
 Dats/CPS-2	CPS-2.png	1268
 Dats/CPS-2	CPS-2.xml	167
 Dats/CPS-2/CVS	Entries	407
@@ -149,7 +149,7 @@ Dats/FinalBurnAlpha	_cvs_purge_add.bat	48
 Dats/FinalBurnAlpha	_zip_fba.bat	608
 Dats/FinalBurnAlpha	FBA v0.2.96.72 (cm).zip	317738
 Dats/FinalBurnAlpha	FBA v0.2.96.72 (rc).zip	164434
-Dats/FinalBurnAlpha	FinalBurnAlpha.ent.xml	7670
+Dats/FinalBurnAlpha	FinalBurnAlpha.ent.xml	7663
 Dats/FinalBurnAlpha	FinalBurnAlpha.php	7483
 Dats/FinalBurnAlpha	FinalBurnAlpha.png	2202
 Dats/FinalBurnAlpha	FinalBurnAlpha.xml	196
@@ -158,10 +158,10 @@ Dats/FinalBurnAlpha/CVS	Repository	43
 Dats/FinalBurnAlpha/CVS	Root	26
 Dats/M1	_cvs_purge_add.bat	48
 Dats/M1	_zip_m1.bat	566
-Dats/M1	M1 v0.7.7u4 (cm).zip	174230
-Dats/M1	M1 v0.7.7u4 (rc).zip	70354
-Dats/M1	M1.ent.xml	8323
-Dats/M1	M1.php	7914
+Dats/M1	M1 v0.7.8a3 (cm).zip	193391
+Dats/M1	M1 v0.7.8a3 (rc).zip	81339
+Dats/M1	M1.ent.xml	8476
+Dats/M1	M1.php	8033
 Dats/M1	M1.png	691
 Dats/M1	M1.xml	160
 Dats/M1/CVS	Entries	387
@@ -169,10 +169,10 @@ Dats/M1/CVS	Repository	31
 Dats/M1/CVS	Root	26
 Dats/MAMEArtwork	_cvs_purge_add.bat	48
 Dats/MAMEArtwork	_zip_mame_artwork.bat	772
-Dats/MAMEArtwork	MAME Artwork 20071107 (cm).zip	66190
-Dats/MAMEArtwork	MAME Artwork 20071107 (rc).zip	29549
-Dats/MAMEArtwork	MAMEArtwork.ent.xml	6587
-Dats/MAMEArtwork	MAMEArtwork.php	6645
+Dats/MAMEArtwork	MAME Artwork 20071216 (cm).zip	66603
+Dats/MAMEArtwork	MAME Artwork 20071216 (rc).zip	29727
+Dats/MAMEArtwork	MAMEArtwork.ent.xml	6713
+Dats/MAMEArtwork	MAMEArtwork.php	6744
 Dats/MAMEArtwork	MAMEArtwork.png	2351
 Dats/MAMEArtwork	MAMEArtwork.xml	187
 Dats/MAMEArtwork/CVS	Entries	453
@@ -180,11 +180,11 @@ Dats/MAMEArtwork/CVS	Repository	40
 Dats/MAMEArtwork/CVS	Root	26
 Dats/MAMEBeta	_cvs_purge_add.bat	48
 Dats/MAMEBeta	_zip_mame_beta.bat	661
-Dats/MAMEBeta	MAME v0.121 (cm).zip	2291355
-Dats/MAMEBeta	MAME v0.121 (rc).zip	995728
+Dats/MAMEBeta	MAME v0.122 (cm).zip	2299558
+Dats/MAMEBeta	MAME v0.122 (rc).zip	1000336
 Dats/MAMEBeta	MAME.png	1395
-Dats/MAMEBeta	MAMEBeta.ent.xml	11348
-Dats/MAMEBeta	MAMEBeta.php	10270
+Dats/MAMEBeta	MAMEBeta.ent.xml	11461
+Dats/MAMEBeta	MAMEBeta.php	10356
 Dats/MAMEBeta	MAMEBeta.xml	178
 Dats/MAMEBeta	MAMEBetaHistory.php	1703
 Dats/MAMEBeta/CVS	Entries	467
@@ -193,10 +193,10 @@ Dats/MAMEBeta/CVS	Root	26
 Dats/MAMESamples	_cvs_purge_add.bat	80
 Dats/MAMESamples	_zip_mame_samples.bat	765
 Dats/MAMESamples	dummy.zip	482
-Dats/MAMESamples	MAME Samples 20071017 (cm).zip	26619
-Dats/MAMESamples	MAME Samples 20071017 (rc).zip	10616
-Dats/MAMESamples	MAMESamples.ent.xml	6924
-Dats/MAMESamples	MAMESamples.php	7052
+Dats/MAMESamples	MAME Samples 20071219 (cm).zip	26674
+Dats/MAMESamples	MAME Samples 20071219 (rc).zip	10671
+Dats/MAMESamples	MAMESamples.ent.xml	7063
+Dats/MAMESamples	MAMESamples.php	7157
 Dats/MAMESamples	MAMESamples.png	2522
 Dats/MAMESamples	MAMESamples.xml	187
 Dats/MAMESamples/CVS	Entries	503
@@ -204,50 +204,50 @@ Dats/MAMESamples/CVS	Repository	40
 Dats/MAMESamples/CVS	Root	26
 Dats/MAMESuperSet	_cvs_purge_add.bat	48
 Dats/MAMESuperSet	_zip_mame_superset.bat	822
-Dats/MAMESuperSet	MAME SuperSet v0.121 (cm).zip	2321023
-Dats/MAMESuperSet	MAME SuperSet v0.121 (rc).zip	1010442
-Dats/MAMESuperSet	MAMESuperSet.ent.xml	2024
-Dats/MAMESuperSet	MAMESuperSet.php	3199
+Dats/MAMESuperSet	MAME SuperSet v0.122 (cm).zip	2328298
+Dats/MAMESuperSet	MAME SuperSet v0.122 (rc).zip	1015125
+Dats/MAMESuperSet	MAMESuperSet.ent.xml	2137
+Dats/MAMESuperSet	MAMESuperSet.php	3285
 Dats/MAMESuperSet	MAMESuperSet.xml	190
 Dats/MAMESuperSet/CVS	Entries	399
 Dats/MAMESuperSet/CVS	Repository	41
 Dats/MAMESuperSet/CVS	Root	26
 Dats/MAMESuperSetEmusM	_cvs_purge_add.bat	48
 Dats/MAMESuperSetEmusM	_zip_various_emulators.bat	898
-Dats/MAMESuperSetEmusM	MAMESuperSetEmusM.ent.xml	2923
-Dats/MAMESuperSetEmusM	MAMESuperSetEmusM.php	4174
+Dats/MAMESuperSetEmusM	MAMESuperSetEmusM.ent.xml	3143
+Dats/MAMESuperSetEmusM	MAMESuperSetEmusM.php	4340
 Dats/MAMESuperSetEmusM	MAMESuperSetEmusM.xml	205
-Dats/MAMESuperSetEmusM	Various Emulators v0.121 (Fully-merged SuperSet Supplements) (cm).zip	85005
-Dats/MAMESuperSetEmusM	Various Emulators v0.121 (Fully-merged SuperSet Supplements) (rc).zip	52246
+Dats/MAMESuperSetEmusM	Various Emulators v0.122 (Fully-merged SuperSet Supplements) (cm).zip	89406
+Dats/MAMESuperSetEmusM	Various Emulators v0.122 (Fully-merged SuperSet Supplements) (rc).zip	54845
 Dats/MAMESuperSetEmusM/CVS	Entries	498
 Dats/MAMESuperSetEmusM/CVS	Repository	46
 Dats/MAMESuperSetEmusM/CVS	Root	26
 Dats/MAMESuperSetEmusS	_cvs_purge_add.bat	48
 Dats/MAMESuperSetEmusS	_zip_various_emulators.bat	948
-Dats/MAMESuperSetEmusS	MAMESuperSetEmusS.ent.xml	2923
-Dats/MAMESuperSetEmusS	MAMESuperSetEmusS.php	4174
+Dats/MAMESuperSetEmusS	MAMESuperSetEmusS.ent.xml	3143
+Dats/MAMESuperSetEmusS	MAMESuperSetEmusS.php	4340
 Dats/MAMESuperSetEmusS	MAMESuperSetEmusS.xml	204
-Dats/MAMESuperSetEmusS	Various Emulators v0.121 (Split-merged SuperSet Supplements) (cm).zip	90834
-Dats/MAMESuperSetEmusS	Various Emulators v0.121 (Split-merged SuperSet Supplements) (rc).zip	54912
+Dats/MAMESuperSetEmusS	Various Emulators v0.122 (Split-merged SuperSet Supplements) (cm).zip	93399
+Dats/MAMESuperSetEmusS	Various Emulators v0.122 (Split-merged SuperSet Supplements) (rc).zip	56434
 Dats/MAMESuperSetEmusS/CVS	Entries	498
 Dats/MAMESuperSetEmusS/CVS	Repository	46
 Dats/MAMESuperSetEmusS/CVS	Root	26
 Dats/MAMESuperSetSuppM	_cvs_purge_add.bat	48
 Dats/MAMESuperSetSuppM	_zip_mame_superset.bat	988
-Dats/MAMESuperSetSuppM	MAME SuperSet v0.121 (Fully-merged MAME Supplement) (cm).zip	33247
-Dats/MAMESuperSetSuppM	MAME SuperSet v0.121 (Fully-merged MAME Supplement) (rc).zip	18994
-Dats/MAMESuperSetSuppM	MAMESuperSetSuppM.ent.xml	2120
-Dats/MAMESuperSetSuppM	MAMESuperSetSuppM.php	3457
+Dats/MAMESuperSetSuppM	MAME SuperSet v0.122 (Fully-merged MAME Supplement) (cm).zip	33236
+Dats/MAMESuperSetSuppM	MAME SuperSet v0.122 (Fully-merged MAME Supplement) (rc).zip	18990
+Dats/MAMESuperSetSuppM	MAMESuperSetSuppM.ent.xml	2233
+Dats/MAMESuperSetSuppM	MAMESuperSetSuppM.php	3543
 Dats/MAMESuperSetSuppM	MAMESuperSetSuppM.xml	205
 Dats/MAMESuperSetSuppM/CVS	Entries	476
 Dats/MAMESuperSetSuppM/CVS	Repository	46
 Dats/MAMESuperSetSuppM/CVS	Root	26
 Dats/MAMESuperSetSuppS	_cvs_purge_add.bat	48
 Dats/MAMESuperSetSuppS	_zip_mame_superset.bat	974
-Dats/MAMESuperSetSuppS	MAME SuperSet v0.121 (Split-merged MAME Supplement) (cm).zip	33531
-Dats/MAMESuperSetSuppS	MAME SuperSet v0.121 (Split-merged MAME Supplement) (rc).zip	19672
-Dats/MAMESuperSetSuppS	MAMESuperSetSuppS.ent.xml	2120
-Dats/MAMESuperSetSuppS	MAMESuperSetSuppS.php	3457
+Dats/MAMESuperSetSuppS	MAME SuperSet v0.122 (Split-merged MAME Supplement) (cm).zip	33530
+Dats/MAMESuperSetSuppS	MAME SuperSet v0.122 (Split-merged MAME Supplement) (rc).zip	19670
+Dats/MAMESuperSetSuppS	MAMESuperSetSuppS.ent.xml	2233
+Dats/MAMESuperSetSuppS	MAMESuperSetSuppS.php	3543
 Dats/MAMESuperSetSuppS	MAMESuperSetSuppS.xml	205
 Dats/MAMESuperSetSuppS/CVS	Entries	476
 Dats/MAMESuperSetSuppS/CVS	Repository	46
@@ -256,7 +256,7 @@ Dats/Mjolnir	_cvs_purge_add.bat	48
 Dats/Mjolnir	_zip_mjolnir.bat	666
 Dats/Mjolnir	Mjolnir v0.3.1 (cm).zip	20242
 Dats/Mjolnir	Mjolnir v0.3.1 (rc).zip	7898
-Dats/Mjolnir	Mjolnir.ent.xml	869
+Dats/Mjolnir	Mjolnir.ent.xml	866
 Dats/Mjolnir	Mjolnir.php	2161
 Dats/Mjolnir	Mjolnir.png	1867
 Dats/Mjolnir	Mjolnir.xml	175
@@ -276,10 +276,10 @@ Dats/Nebula/CVS	Repository	35
 Dats/Nebula/CVS	Root	26
 Dats/Neo-Geo	_cvs_purge_add.bat	48
 Dats/Neo-Geo	_zip_neogeo.bat	663
-Dats/Neo-Geo	Neo-Geo 20071015 (cm).zip	90518
-Dats/Neo-Geo	Neo-Geo 20071015 (rc).zip	53920
-Dats/Neo-Geo	Neo-Geo.ent.xml	11473
-Dats/Neo-Geo	Neo-Geo.php	10616
+Dats/Neo-Geo	Neo-Geo 20071220 (cm).zip	90558
+Dats/Neo-Geo	Neo-Geo 20071220 (rc).zip	54058
+Dats/Neo-Geo	Neo-Geo.ent.xml	11592
+Dats/Neo-Geo	Neo-Geo.php	10701
 Dats/Neo-Geo	Neo-Geo.png	1501
 Dats/Neo-Geo	Neo-Geo.xml	173
 Dats/Neo-Geo/CVS	Entries	421
@@ -302,7 +302,7 @@ Dats/OldSpark	_cvs_purge_add.bat	48
 Dats/OldSpark	_zip_oldspark.bat	758
 Dats/OldSpark	OldSpark C++ 20071006 (cm).zip	5747
 Dats/OldSpark	OldSpark C++ 20071006 (rc).zip	2340
-Dats/OldSpark	OldSpark.ent.xml	910
+Dats/OldSpark	OldSpark.ent.xml	907
 Dats/OldSpark	OldSpark.php	2217
 Dats/OldSpark	OldSpark.png	2777
 Dats/OldSpark	OldSpark.xml	178
@@ -313,8 +313,8 @@ Dats/RAINE	_cvs_purge_add.bat	48
 Dats/RAINE	_zip_raine.bat	626
 Dats/RAINE	RAINE v0.50.5 (cm).zip	227997
 Dats/RAINE	RAINE v0.50.5 (rc).zip	84611
-Dats/RAINE	RAINE.ent.xml	11091
-Dats/RAINE	RAINE.php	10167
+Dats/RAINE	RAINE.ent.xml	11111
+Dats/RAINE	RAINE.php	10194
 Dats/RAINE	RAINE.png	1339
 Dats/RAINE	RAINE.xml	169
 Dats/RAINE/CVS	Entries	406
@@ -565,7 +565,7 @@ team/wisdom/zip/CVS	Repository	39
 team/wisdom/zip/CVS	Root	26
 Tools	_rebuild_all.bat	55
 Tools	_rebuild_all.mak	775
-Tools	Tools.php	3433
+Tools	Tools.php	3859
 Tools	Tools.png	859
 Tools	Tools.xml	899
 Tools/AVI2CDVC	AVI2CDVC.ent.xml	1014
@@ -579,11 +579,11 @@ Tools/AVI2CDVC/CVS	Root	26
 Tools/CVS	Entries	392
 Tools/CVS	Repository	29
 Tools/CVS	Root	26
-Tools/DatLib	DatLib.ent.xml	13922
-Tools/DatLib	DatLib.php	13886
+Tools/DatLib	DatLib.ent.xml	14448
+Tools/DatLib	DatLib.php	14377
 Tools/DatLib	DatLib.png	1150
 Tools/DatLib	DatLib.xml	173
-Tools/DatLib	datlib221.zip	95554
+Tools/DatLib	datlib222.zip	97188
 Tools/DatLib/CVS	dlib10.zip,t	0
 Tools/DatLib/CVS	dlib19.zip,t	0
 Tools/DatLib/CVS	Entries	238
@@ -591,11 +591,11 @@ Tools/DatLib/CVS	Repository	36
 Tools/DatLib/CVS	Root	26
 Tools/DatUtil	CMProRC.png	11264
 Tools/DatUtil	Compatibility.xml	954
-Tools/DatUtil	DatUtil.ent.xml	30366
-Tools/DatUtil	DatUtil.php	29305
+Tools/DatUtil	DatUtil.ent.xml	30922
+Tools/DatUtil	DatUtil.php	29827
 Tools/DatUtil	DatUtil.png	1379
 Tools/DatUtil	DatUtil.xml	176
-Tools/DatUtil	dutil232.zip	182386
+Tools/DatUtil	dutil233.zip	187133
 Tools/DatUtil/CVS	Entries	340
 Tools/DatUtil/CVS	Repository	37
 Tools/DatUtil/CVS	Root	26
@@ -603,12 +603,12 @@ Tools/DTD	tools.dtd	1180
 Tools/DTD/CVS	Entries	46
 Tools/DTD/CVS	Repository	33
 Tools/DTD/CVS	Root	26
-Tools/ImgChk	ImgChk.ent.xml	3414
-Tools/ImgChk	ImgChk.php	4147
+Tools/ImgChk	ImgChk.ent.xml	3630
+Tools/ImgChk	ImgChk.php	4335
 Tools/ImgChk	ImgChk.png	1327
 Tools/ImgChk	ImgChk.xml	173
-Tools/ImgChk	imgchk28.zip	170762
-Tools/ImgChk/CVS	Entries	235
+Tools/ImgChk	imgchk29.zip	175377
+Tools/ImgChk/CVS	Entries	236
 Tools/ImgChk/CVS	Repository	36
 Tools/ImgChk/CVS	Root	26
 Tools/MAMEDiff	MAMEDiff.ent.xml	18991
@@ -652,9 +652,9 @@ Tools/ZIPFind	ZIPFind.xml	176
 Tools/ZIPFind/CVS	Entries	238
 Tools/ZIPFind/CVS	Repository	37
 Tools/ZIPFind/CVS	Root	26
-Tools/ZIPIdent	zident28.zip	148166
-Tools/ZIPIdent	ZIPIdent.ent.xml	4381
-Tools/ZIPIdent	ZIPIdent.php	5105
+Tools/ZIPIdent	zident29.zip	183739
+Tools/ZIPIdent	ZIPIdent.ent.xml	4604
+Tools/ZIPIdent	ZIPIdent.php	5295
 Tools/ZIPIdent	ZIPIdent.png	1244
 Tools/ZIPIdent	ZIPIdent.xml	179
 Tools/ZIPIdent/CVS	Entries	245

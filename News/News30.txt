@@ -1,0 +1,52 @@
+<h1>24 September 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded a revised CPS-2 data file and all SuperSet related data files.<br /><br />The new data files address CPS-2 XORs being in the wrong games (some games were renamed in MAME v0.119).<br /><br />I have also uploaded data files for MAME Artwork and Samples.</p></td>
+  </tr>
+</table><h1>23 September 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded all necessary data files for MAME v0.119 to logiqx.com (except samples and artwork which I still need to deal with).</p></td>
+  </tr>
+</table><h1>09 September 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>After almost a year, ROMBuild has been updated again.<br /><br />You can find it in the tools section!</p></td>
+  </tr>
+</table><h1>18 August 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have posted all of the necessary updates for MAME v0.118.<br /><br />I was away when the release occurred and my first week back at work has been busy!</p></td>
+  </tr>
+</table><h1>29 July 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I've release <a href="Tools">DatLib v2.21 and DatUtil v2.32</a> to cope with how MAME now specifies resources in its XML output (MAME v0.117u2).</p></td>
+  </tr>
+</table><h1>22 July 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded some new <a href="Dats/">data files</a> to the site:<br /><br />1) Neo-Geo update missed some MAME v0.117 sound changes<br />2) The Artwork and Samples for MAME v0.117</p></td>
+  </tr>
+</table><h1>10 July 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded <a href="Dats">data files</a> for MAME v0.117.<br /><br />The Neo-Geo data file has also been updated and a number of the superset supplements have also been affected.<br /><br />Finally, I have uploaded an update to the CPS-3 emulator datafile because it contained a minor typo.</p></td>
+  </tr>
+</table><h1>09 July 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded data files for ElSemi's "final" release of his CPS3 Emulator.<br /><br />These were created by neoforma and contain the CHDs for those who want to see the machine setup procedure.</p></td>
+  </tr>
+</table><h1>08 July 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded the <a href="Dats">data files</a> for RAINE v0.50.5.<br /><br />It only contains some ROM removals (a game that is now supported through dipswitches instead).</p></td>
+  </tr>
+</table><h1>01 July 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>A few <a href="Dats">data file</a> uploads today:<br /><br />1) I have renamed the CPS3 Emulator data file (now includes the word "Play")<br />2) MAME Samples (for MAME v0.116)<br />3) MAME Artwork (latest scans)</p></td>
+  </tr>
+</table>
+

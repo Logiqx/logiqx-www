@@ -1,3 +1,50 @@
+<h1>23 June 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>ElSemi has released an update to his CPS-3 emulator.<br /><br />I have uploaded an updated <a href="Dats">data file</a> for it - courtesy of neoforma (again).</p></td>
+  </tr>
+</table><h1>21 June 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>ElSemi has released a new emulator that supports CPS-3 games.<br /><br />I have uploaded a <a href="Dats">data file</a> for it - courtesy of neoforma.</p></td>
+  </tr>
+</table><h1>11 June 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released <a href="Dats/">data files</a> for MAME v0.116, including an update to the CPS-2 datafile.<br /><br />In addition to this, I have also updated the RAINE data file to include the SHA-1 information for dkongex.</p></td>
+  </tr>
+</table><h1>01 June 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded an updated data file for SEGA Model 2 Emulator v0.5a because the original contained an error (dyndeka instead of dyndeka2).</p></td>
+  </tr>
+</table><h1>31 May 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded the latest data files for MAME artwork and samples.<br /><br />Better late than never!</p></td>
+  </tr>
+</table><h1>27 May 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released data files for the latest version of ElSemi's <a href="Dats">SEGA Model 2 Emulator</a> (v0.5).</p></td>
+  </tr>
+</table><h1>06 May 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released the <a href="Dats">data files</a> related to todays release - MAME v0.115.</p></td>
+  </tr>
+</table><h1>02 May 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded data files for yesterdays release of <a href="Dats">RAINE v0.50.4</a>.</p></td>
+  </tr>
+</table><h1>26 April 2007</h1>
+<table class="news">
+  <tr>
+    <td><p>I have decided to start using CuteNews at Logiqx.com so there is now an RSS Feed.<br /><br />The URL for the RSS feed can be obtained from the icon below.</p></td>
+  </tr>
+</table>
+
   <h1>20 April 2007</h1>
 
   <table class="news">
