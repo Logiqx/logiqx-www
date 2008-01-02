@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro</a> (88KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro</a> (90KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for ROMCenter</a> (54KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for ROMCenter</a> (52KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>2 January 2008</b> - 
+			
+			Updated for M1 v0.7.8a5 and Kawaks v1.59.
+		</p>
     <p>
       <b>29 December 2007</b> - 
 			

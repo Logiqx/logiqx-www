@@ -44,7 +44,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.122%20(Split-merged%20MAME%20Supplement)%20(cm).zip">MAME SuperSet (Split-merged MAME Supplement) dat for CMPro</a> (33KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.122%20(Split-merged%20MAME%20Supplement)%20(cm).zip">MAME SuperSet (Split-merged MAME Supplement) dat for CMPro</a> (34KB)</p>
           <p>
             <a href="MAME%20SuperSet%20v0.122%20(Split-merged%20MAME%20Supplement)%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -65,6 +65,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>2 January 2008</b> - 
+			
+			Added mslug5h, rbff1a, kof2003h from Kawaks v1.59.
+		</p>
     <p>
       <b>20 December 2007</b> - 
 			

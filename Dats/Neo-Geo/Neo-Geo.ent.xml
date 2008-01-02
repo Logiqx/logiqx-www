@@ -2,11 +2,11 @@
 <emulator id="Neo-Geo">
 	<img src="Neo-Geo.png" width="108" height="40"/>
 	<name>Neo-Geo</name>
-	<version>20071220</version>
+	<version>20080101</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>20/12/2007</date>
-	<games>264</games>
+	<date>02/01/2008</date>
+	<games>267</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>SNK Neo-Geo</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Neo-Geo%2020071220%20(cm).zip" size="89"/>
+			<file name="Neo-Geo%2020080101%20(cm).zip" size="91"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Neo-Geo%2020071220%20(rc).zip" size="53"/>
+			<file name="Neo-Geo%2020080101%20(rc).zip" size="54"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>2 January 2008</date>
+			<comment>Added mslug5h, rbff1a, kof2003h from Kawaks v1.59.</comment>
+		</revision>
 		<revision>
 			<date>20 December 2007</date>
 			<comment>Updated to match MAME v0.122.</comment>

@@ -4,7 +4,7 @@
 	<version>v0.122</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>20/12/2007</date>
+	<date>02/01/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -13,7 +13,7 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20SuperSet%20v0.122%20(Split-merged%20MAME%20Supplement)%20(cm).zip" size="33"/>
+			<file name="MAME%20SuperSet%20v0.122%20(Split-merged%20MAME%20Supplement)%20(cm).zip" size="34"/>
 		</dat>
 		<dat>
 			&ROMCenter;
@@ -21,6 +21,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>2 January 2008</date>
+			<comment>Added mslug5h, rbff1a, kof2003h from Kawaks v1.59.</comment>
+		</revision>
 		<revision>
 			<date>20 December 2007</date>
 			<comment>Uploaded dats for MAME v0.122.</comment>

@@ -29,7 +29,7 @@
 	<p>
       <img src="../MAMESuperSet.png" width="198" height="40" alt="../MAMESuperSet.png"/>
     </p>
-	<p>6936 games for MAME SuperSet v0.122</p>
+	<p>6939 games for MAME SuperSet v0.122</p>
 	
 	
 	
@@ -44,7 +44,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.122%20(cm).zip">MAME SuperSet dat for CMPro</a> (2274KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.122%20(cm).zip">MAME SuperSet dat for CMPro</a> (2276KB)</p>
           <p>
             <a href="MAME%20SuperSet%20v0.122%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -52,7 +52,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.122%20(rc).zip">MAME SuperSet dat for ROMCenter</a> (992KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.122%20(rc).zip">MAME SuperSet dat for ROMCenter</a> (993KB)</p>
           <p>
             <a href="MAME%20SuperSet%20v0.122%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -65,6 +65,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>2 January 2008</b> - 
+			
+			Added mslug5h, rbff1a, kof2003h from Kawaks v1.59.
+		</p>
     <p>
       <b>20 December 2007</b> - 
 			

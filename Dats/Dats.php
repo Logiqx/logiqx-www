@@ -87,12 +87,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>20/12/2007</b>
+            <b>02/01/2008</b>
           </p>
         </td>
         <td>
           <p>
-            <b>6936</b>
+            <b>6939</b>
           </p>
         </td>
       </tr>
@@ -108,7 +108,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>20/12/2007</b>
+            <b>02/01/2008</b>
           </p>
         </td>
         <td>
@@ -129,7 +129,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>20/12/2007</b>
+            <b>02/01/2008</b>
           </p>
         </td>
         <td>
@@ -150,7 +150,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>29/12/2007</b>
+            <b>02/01/2008</b>
           </p>
         </td>
         <td>
@@ -171,7 +171,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>29/12/2007</b>
+            <b>02/01/2008</b>
           </p>
         </td>
         <td>
@@ -254,23 +254,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="WinKawaks/">Kawaks v1.58</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>20/04/2007</p>
-        </td>
-        <td>
-          <p>560</p>
-        </td>
-      </tr>
-
-			
-<tr>
-        <td>
-          <a href="M1/">M1 v0.7.8a3</a>
+          <a href="WinKawaks/">Kawaks v1.59</a>
         </td>
         <td>
           <p>
@@ -279,12 +263,34 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>29/12/2007</b>
+            <b>02/01/2008</b>
           </p>
         </td>
         <td>
           <p>
-            <b>1400</b>
+            <b>576</b>
+          </p>
+        </td>
+      </tr>
+
+			
+<tr>
+        <td>
+          <a href="M1/">M1 v0.7.8a5</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>02/01/2008</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>1427</b>
           </p>
         </td>
       </tr>
@@ -483,7 +489,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="Neo-Geo/">Neo-Geo 20071220</a>
+          <a href="Neo-Geo/">Neo-Geo 20080101</a>
         </td>
         <td>
           <p>
@@ -492,12 +498,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>20/12/2007</b>
+            <b>02/01/2008</b>
           </p>
         </td>
         <td>
           <p>
-            <b>264</b>
+            <b>267</b>
           </p>
         </td>
       </tr>

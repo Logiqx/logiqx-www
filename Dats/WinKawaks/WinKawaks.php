@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Kawaks v1.58</title>
+    <title>Kawaks v1.59</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="WinKawaks.png" width="141" height="40" alt="WinKawaks.png"/>
     </p>
-	<p>560 games for Kawaks v1.58</p>
+	<p>576 games for Kawaks v1.59</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="WinKawaks%20v1.58%20(cm).zip">Kawaks dat for CMPro</a> (155KB)</p>
+          <p>Download <a href="WinKawaks%20v1.59%20(cm).zip">Kawaks dat for CMPro</a> (158KB)</p>
           <p>
-            <a href="WinKawaks%20v1.58%20(cm).zip">
+            <a href="WinKawaks%20v1.59%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="WinKawaks%20v1.58%20(rc).zip">Kawaks dat for ROMCenter</a> (77KB)</p>
+          <p>Download <a href="WinKawaks%20v1.59%20(rc).zip">Kawaks dat for ROMCenter</a> (79KB)</p>
           <p>
-            <a href="WinKawaks%20v1.58%20(rc).zip">
+            <a href="WinKawaks%20v1.59%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>2 January 2008</b> - 
+			
+			Updated for Kawaks v1.59.
+		</p>
     <p>
       <b>20 April 2007</b> - 
 			
