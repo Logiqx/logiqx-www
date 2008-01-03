@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>3 January 2008</b> - 
+			
+			Updated for SEGA Model 2 Emulator v0.6.
+		</p>
+    <p>
       <b>2 January 2008</b> - 
 			
 			Updated for M1 v0.7.8a5 and Kawaks v1.59.

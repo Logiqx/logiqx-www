@@ -150,7 +150,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>02/01/2008</b>
+            <b>03/01/2008</b>
           </p>
         </td>
         <td>
@@ -171,7 +171,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>02/01/2008</b>
+            <b>03/01/2008</b>
           </p>
         </td>
         <td>
@@ -359,16 +359,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.5a</a>
+          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.6</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>01/06/2007</p>
+          <p>
+            <b>03/01/2008</b>
+          </p>
         </td>
         <td>
-          <p>38</p>
+          <p>
+            <b>41</b>
+          </p>
         </td>
       </tr>
 

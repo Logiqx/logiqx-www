@@ -26,11 +26,11 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>02/01/2008</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>03/01/2008</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.122%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>02/01/2008</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.122%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.122</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>03/01/2008</td></tr>
 
 		</table>
 	
@@ -85,8 +85,8 @@
 					</b></td><td><a href="RAINE/RAINE%20v0.50.5%20(rc).zip"><b>RAINE</b></a></td><td>v0.50.5</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>577</td><td>08/07/2007</td></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.5a%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.5a</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>38</td><td>01/06/2007</td></tr>
+						updated
+					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.6%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.6</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>41</td><td>03/01/2008</td></tr>
 
 <tr><td class="status"><b>
 						-

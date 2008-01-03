@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>SEGA Model 2 Emulator v0.5a</title>
+    <title>SEGA Model 2 Emulator v0.6</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="SEGAModel2Emulator.png" width="290" height="40" alt="SEGAModel2Emulator.png"/>
     </p>
-	<p>38 games for SEGA Model 2 Emulator v0.5a</p>
+	<p>41 games for SEGA Model 2 Emulator v0.6</p>
 	
 	
 	
@@ -44,17 +44,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.5a%20(cm).zip">SEGA Model 2 Emulator dat for CMPro</a> (24KB)</p>
+          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.6%20(cm).zip">SEGA Model 2 Emulator dat for CMPro</a> (25KB)</p>
           <p>
-            <a href="SEGA%20Model%202%20Emulator%20v0.5a%20(cm).zip">
+            <a href="SEGA%20Model%202%20Emulator%20v0.6%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.5a%20(rc).zip">SEGA Model 2 Emulator dat for ROMCenter</a> (10KB)</p>
+          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.6%20(rc).zip">SEGA Model 2 Emulator dat for ROMCenter</a> (11KB)</p>
           <p>
-            <a href="SEGA%20Model%202%20Emulator%20v0.5a%20(rc).zip">
+            <a href="SEGA%20Model%202%20Emulator%20v0.6%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>3 January 2008</b> - 
+			
+			Updated to match SEGA Model 2 Emulator v0.6 (added dyndek2b, manxtt, dynmcopc).
+		</p>
     <p>
       <b>1 June 2007</b> - 
 			

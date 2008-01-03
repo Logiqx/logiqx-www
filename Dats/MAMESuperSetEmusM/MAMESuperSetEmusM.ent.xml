@@ -4,7 +4,7 @@
 	<version>v0.122</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>02/01/2008</date>
+	<date>03/01/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,7 +14,7 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip" size="90"/>
+			<file name="Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip" size="85"/>
 		</dat>
 		<dat>
 			&ROMCenter;
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>3 January 2008</date>
+			<comment>Updated for SEGA Model 2 Emulator v0.6.</comment>
+		</revision>
 		<revision>
 			<date>2 January 2008</date>
 			<comment>Updated for M1 v0.7.8a5 and Kawaks v1.59.</comment>
