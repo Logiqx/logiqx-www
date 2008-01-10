@@ -7,6 +7,7 @@ ROMCENTER_INF=RomCenter.inf
 FILELIST=Files.lst
 
 EMULATORS= \
+	AAE/AAE.php \
 	CPS3Emulator/CPS3Emulator.php \
 	Daphne/Daphne.php \
 	FinalBurnAlpha/FinalBurnAlpha.php \

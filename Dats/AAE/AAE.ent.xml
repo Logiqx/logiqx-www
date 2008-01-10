@@ -1,0 +1,29 @@
+<emulator id="AAE">
+	<img src="AAE.png" width="374" height="40"/>
+	<name>AAE (Another Arcade Emulator)</name>
+	<version>Beta 1 Update 5</version>
+	<suitability></suitability>
+	<status>New</status>
+	<date>10/01/2008</date>
+	<games>49</games>
+	<author href="http://various.ru/">neoforma</author>
+	<comment>
+		<p>AAE is a primarily vector based arcade system emulator/simulator.</p>
+	</comment>
+	<dats>
+		<dat>
+                        &CMPro;
+			<file name="AAE%20Beta%201%20Update%205%20(cm).zip" size="15"/>
+		</dat>
+		<dat>
+                        &ROMCenter;
+			<file name="AAE%20Beta%201%20Update%205%20(rc).zip" size="6"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>10 January 2008</date>
+			<comment>Uploaded data files for the AAE Beta 1.</comment>
+		</revision>
+	</revisions>
+</emulator>
