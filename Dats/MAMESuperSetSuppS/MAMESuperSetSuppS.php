@@ -38,6 +38,7 @@
 	
 	
 		<p>Use in addition to a perfect split-merged set for MAME.</p>
+		<p>Previous dats are <a href="MAMESuperSetSuppSHistory.php">still online</a>.</p>
 	
 	<table>
       <colgroup span="1" width="50%"/>

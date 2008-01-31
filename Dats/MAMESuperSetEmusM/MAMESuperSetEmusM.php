@@ -39,6 +39,7 @@
 	
 		<p>Includes CPS3 Emulator, FBA, M1, Nebula Jukebox, Nebula Model 2, Nebula, RAINE, SEGA Model 2 Emulator and WinKawaks.</p>
 		<p>Use in addition to a perfect fully-merged MAME SuperSet.</p>
+		<p>Previous dats are <a href="MAMESuperSetEmusMHistory.php">still online</a>.</p>
 	
 	<table>
       <colgroup span="1" width="50%"/>

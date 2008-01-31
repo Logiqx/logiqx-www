@@ -38,6 +38,7 @@
 	
 	
 		<p>MAME and various systems (CPS-1, CPS-2 and Neo-Geo) combined into one.</p>
+		<p>Previous dats are <a href="MAMESuperSetHistory.php">still online</a>.</p>
 	
 	<table>
       <colgroup span="1" width="50%"/>
