@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/tools.dtd" [
-	<!ENTITY DatUtil SYSTEM "DatUtil.ent.xml">
-]>
-
-<emulator_page>
-	&DatUtil;
-</emulator_page>

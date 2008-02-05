@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/tools.dtd" [
-	<!ENTITY ROMInfo SYSTEM "ROMInfo.ent.xml">
-]>
-
-<emulator_page>
-	&ROMInfo;
-</emulator_page>
