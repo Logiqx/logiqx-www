@@ -1,6 +1,6 @@
-H:\Logiqx\WWW\Dats\MAMEBeta;MAMEBeta
-H:\Logiqx\WWW\Dats\MAMESuperSet;MAMESuperSet
-H:\Logiqx\WWW\Dats\MAMESuperSetEmusM;MAMESuperSetEmusM
-H:\Logiqx\WWW\Dats\MAMESuperSetEmusS;MAMESuperSetEmusS
-H:\Logiqx\WWW\Dats\MAMESuperSetSuppM;MAMESuperSetSuppM
-H:\Logiqx\WWW\Dats\MAMESuperSetSuppS;MAMESuperSetSuppS
+E:\Logiqx\WWW\Dats\MAMEBeta;MAMEBeta
+E:\Logiqx\WWW\Dats\MAMESuperSet;MAMESuperSet
+E:\Logiqx\WWW\Dats\MAMESuperSetEmusM;MAMESuperSetEmusM
+E:\Logiqx\WWW\Dats\MAMESuperSetEmusS;MAMESuperSetEmusS
+E:\Logiqx\WWW\Dats\MAMESuperSetSuppM;MAMESuperSetSuppM
+E:\Logiqx\WWW\Dats\MAMESuperSetSuppS;MAMESuperSetSuppS
