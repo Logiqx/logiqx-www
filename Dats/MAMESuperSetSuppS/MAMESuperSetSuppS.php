@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAME SuperSet (Split-merged MAME Supplement) v0.122</title>
+    <title>MAME SuperSet (Split-merged MAME Supplement) v0.123</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="../MAMESuperSet.png" width="198" height="40" alt="../MAMESuperSet.png"/>
     </p>
-	<p>Non-MAME games for MAME SuperSet (Split-merged MAME Supplement) v0.122</p>
+	<p>Non-MAME games for MAME SuperSet (Split-merged MAME Supplement) v0.123</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.122%20(Split-merged%20MAME%20Supplement)%20(cm).zip">MAME SuperSet (Split-merged MAME Supplement) dat for CMPro</a> (34KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.123%20(Split-merged%20MAME%20Supplement)%20(cm).zip">MAME SuperSet (Split-merged MAME Supplement) dat for CMPro</a> (34KB)</p>
           <p>
-            <a href="MAME%20SuperSet%20v0.122%20(Split-merged%20MAME%20Supplement)%20(cm).zip">
+            <a href="MAME%20SuperSet%20v0.123%20(Split-merged%20MAME%20Supplement)%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.122%20(Split-merged%20MAME%20Supplement)%20(rc).zip">MAME SuperSet (Split-merged MAME Supplement) dat for ROMCenter</a> (20KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.123%20(Split-merged%20MAME%20Supplement)%20(rc).zip">MAME SuperSet (Split-merged MAME Supplement) dat for ROMCenter</a> (20KB)</p>
           <p>
-            <a href="MAME%20SuperSet%20v0.122%20(Split-merged%20MAME%20Supplement)%20(rc).zip">
+            <a href="MAME%20SuperSet%20v0.123%20(Split-merged%20MAME%20Supplement)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 February 2008</b> - 
+			
+			Uploaded dats for MAME v0.123.
+		</p>
     <p>
       <b>2 January 2008</b> - 
 			

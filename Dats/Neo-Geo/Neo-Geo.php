@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>5 February 2008</b> - 
+			
+			No change required for MAME v0.123.
+		</p>
+    <p>
       <b>2 January 2008</b> - 
 			
 			Added mslug5h, rbff1a, kof2003h from Kawaks v1.59.

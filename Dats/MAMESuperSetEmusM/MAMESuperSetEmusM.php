@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Various Emulators (Fully-merged SuperSet Supplements) v0.122</title>
+    <title>Various Emulators (Fully-merged SuperSet Supplements) v0.123</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="../VariousEmulators.png" width="219" height="40" alt="../VariousEmulators.png"/>
     </p>
-	<p>Non-MAME games for Various Emulators (Fully-merged SuperSet Supplements) v0.122</p>
+	<p>Non-MAME games for Various Emulators (Fully-merged SuperSet Supplements) v0.123</p>
 	
 	
 	
@@ -46,17 +46,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro</a> (85KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.123%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro</a> (87KB)</p>
           <p>
-            <a href="Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip">
+            <a href="Various%20Emulators%20v0.123%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for ROMCenter</a> (52KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.123%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for ROMCenter</a> (53KB)</p>
           <p>
-            <a href="Various%20Emulators%20v0.122%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">
+            <a href="Various%20Emulators%20v0.123%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 February 2008</b> - 
+			
+			Uploaded dats for MAME v0.123.
+		</p>
     <p>
       <b>3 January 2008</b> - 
 			
