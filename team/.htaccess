@@ -1,5 +1,5 @@
 AuthType Basic
 AuthName "Team"
 AuthUserFile /home2/lac/.htpasswds/team/passwd
-require user logiqx pi
+require user logiqx pi neoforma
 
