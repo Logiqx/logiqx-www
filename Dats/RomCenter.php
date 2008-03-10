@@ -26,11 +26,11 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.123%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.123</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>05/02/2008</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.123%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.123</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>10/03/2008</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.123%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.123</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>05/02/2008</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.123%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.123</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>10/03/2008</td></tr>
 
 		</table>
 	
@@ -46,8 +46,8 @@
 					</b></td><td><a href="AAE/AAE%20Beta%201%20Update%205%20(rc).zip"><b>AAE (Another Arcade Emulator)</b></a></td><td>Beta 1 Update 5</td><td><a href="http://various.ru/"><b>neoforma</b></a></td><td>49</td><td>10/01/2008</td></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="CPS3Emulator/Capcom%20Play%20System%203%20Emulator%20v1.0%20(rc).zip"><b>Capcom Play System 3 Emulator</b></a></td><td>v1.0</td><td><a href="http://various.ru/"><b>neoforma</b></a></td><td>16</td><td>10/07/2007</td></tr>
+						updated
+					</b></td><td><a href="CPS3Emulator/Capcom%20Play%20System%203%20Emulator%20v1.0a%20(rc).zip"><b>Capcom Play System 3 Emulator</b></a></td><td>v1.0a</td><td><a href="http://various.ru/"><b>neoforma</b></a></td><td>16</td><td>10/03/2008</td></tr>
 
 
 <tr><td class="status"><b>
@@ -55,8 +55,8 @@
 					</b></td><td><a href="Daphne/Daphne%20v0.99.7%20(rc).zip"><b>Daphne</b></a></td><td>v0.99.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>61</td><td>03/10/2005</td></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.72%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.72</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>871</td><td>12/11/2007</td></tr>
+						updated
+					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.74%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.74</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1048</td><td>10/03/2008</td></tr>
 
 
 <tr><td class="status"><b>
@@ -65,8 +65,8 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="M1/M1%20v0.7.8a5%20(rc).zip"><b>M1</b></a></td><td>v0.7.8a5</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1427</td><td>02/01/2008</td></tr>
+						updated
+					</b></td><td><a href="M1/M1%20v0.7.8a6%20(rc).zip"><b>M1</b></a></td><td>v0.7.8a6</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1454</td><td>10/03/2008</td></tr>
 
 
 <tr><td class="status"><b>
@@ -85,8 +85,8 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="RAINE/RAINE%20v0.50.5%20(rc).zip"><b>RAINE</b></a></td><td>v0.50.5</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>577</td><td>08/07/2007</td></tr>
+						updated
+					</b></td><td><a href="RAINE/RAINE%20v0.50.8%20(rc).zip"><b>RAINE</b></a></td><td>v0.50.8</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>577</td><td>10/03/2008</td></tr>
 
 <tr><td class="status"><b>
 						-

@@ -150,7 +150,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>05/02/2008</b>
+            <b>10/03/2008</b>
           </p>
         </td>
         <td>
@@ -171,7 +171,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>05/02/2008</b>
+            <b>10/03/2008</b>
           </p>
         </td>
         <td>
@@ -224,15 +224,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="CPS3Emulator/">Capcom Play System 3 Emulator v1.0</a> (suitable for v1.0a)</td>
-        <td>
-          <p/>
+          <a href="CPS3Emulator/">Capcom Play System 3 Emulator v1.0a</a>
         </td>
         <td>
-          <p>10/07/2007</p>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>16</p>
+          <p>
+            <b>10/03/2008</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>16</b>
+          </p>
         </td>
       </tr>
 
@@ -253,16 +260,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="FinalBurnAlpha/">FBA v0.2.96.72</a>
+          <a href="FinalBurnAlpha/">FBA v0.2.96.74</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>12/11/2007</p>
+          <p>
+            <b>10/03/2008</b>
+          </p>
         </td>
         <td>
-          <p>871</p>
+          <p>
+            <b>1048</b>
+          </p>
         </td>
       </tr>
 
@@ -285,16 +298,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="M1/">M1 v0.7.8a5</a>
+          <a href="M1/">M1 v0.7.8a6</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>02/01/2008</p>
+          <p>
+            <b>10/03/2008</b>
+          </p>
         </td>
         <td>
-          <p>1427</p>
+          <p>
+            <b>1454</b>
+          </p>
         </td>
       </tr>
 
@@ -348,15 +367,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RAINE/">RAINE v0.50.5</a> (suitable for v0.50.6)</td>
-        <td>
-          <p/>
+          <a href="RAINE/">RAINE v0.50.8</a>
         </td>
         <td>
-          <p>08/07/2007</p>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>577</p>
+          <p>
+            <b>10/03/2008</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>577</b>
+          </p>
         </td>
       </tr>
 

@@ -46,7 +46,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.123%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro</a> (88KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.123%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro</a> (83KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.123%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -54,7 +54,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.123%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter</a> (53KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.123%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter</a> (51KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.123%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>10 March 2008</b> - 
+			
+			Uploaded dats for M1 v0.7.8a6 and RAINE v0.50.8.
+		</p>
     <p>
       <b>5 February 2008</b> - 
 			

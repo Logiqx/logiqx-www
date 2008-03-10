@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Capcom Play System 3 Emulator v1.0</title>
+    <title>Capcom Play System 3 Emulator v1.0a</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="CPS3Emulator.png" width="331" height="40" alt="CPS3Emulator.png"/>
     </p>
-	<p>16 games for Capcom Play System 3 Emulator v1.0<br/>(suitable for v1.0a)</p>
+	<p>16 games for Capcom Play System 3 Emulator v1.0a</p>
 	
 	
 	
@@ -44,17 +44,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Capcom%20Play%20System%203%20Emulator%20v1.0%20(cm).zip">Capcom Play System 3 Emulator dat for CMPro</a> (3KB)</p>
+          <p>Download <a href="Capcom%20Play%20System%203%20Emulator%20v1.0a%20(cm).zip">Capcom Play System 3 Emulator dat for CMPro</a> (3KB)</p>
           <p>
-            <a href="Capcom%20Play%20System%203%20Emulator%20v1.0%20(cm).zip">
+            <a href="Capcom%20Play%20System%203%20Emulator%20v1.0a%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Capcom%20Play%20System%203%20Emulator%20v1.0%20(rc).zip">Capcom Play System 3 Emulator dat for ROMCenter</a> (2KB)</p>
+          <p>Download <a href="Capcom%20Play%20System%203%20Emulator%20v1.0a%20(rc).zip">Capcom Play System 3 Emulator dat for ROMCenter</a> (2KB)</p>
           <p>
-            <a href="Capcom%20Play%20System%203%20Emulator%20v1.0%20(rc).zip">
+            <a href="Capcom%20Play%20System%203%20Emulator%20v1.0a%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>10 March 2008</b> - 
+			
+			Just updated the header information and emulator version (1.0a).
+		</p>
     <p>
       <b>10 July 2007</b> - 
 			
