@@ -50,7 +50,7 @@
 
 			<tr>
         <td>
-          <a href="DatLib/">DatLib v2.22</a>
+          <a href="DatLib/">DatLib v2.23</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
@@ -60,14 +60,14 @@
         </td>
         <td>
           <p>
-            <strong>26/11/2007</strong>
+            <strong>17/03/2008</strong>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="DatUtil/">DatUtil v2.33</a>
+          <a href="DatUtil/">DatUtil v2.34</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
@@ -77,7 +77,7 @@
         </td>
         <td>
           <p>
-            <strong>26/11/2007</strong>
+            <strong>17/03/2008</strong>
           </p>
         </td>
       </tr>
@@ -88,14 +88,10 @@
         </td>
         <td>ImgChk verifies image collections against any format datafile</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>26/11/2007</strong>
-          </p>
+          <p>26/11/2007</p>
         </td>
       </tr>
 
@@ -146,14 +142,10 @@
         </td>
         <td>Game identification tool (for groups of ROMs)</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>26/11/2007</strong>
-          </p>
+          <p>26/11/2007</p>
         </td>
       </tr>
 

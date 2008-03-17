@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.33</title>
+    <title>DatUtil v2.34</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -47,6 +47,7 @@
 			- MAME ListInfo (ClrMamePro, MAME, MESS, RAINE, Shark)<br/>
 			- RomCenter 2.50<br/>
 			- MAME ListXML (MAME and MESS)<br/>
+			- Generic XML<br/>
 			- Tab Delimited<br/>
 			<br/>
 			<b>Load only:</b>
@@ -73,9 +74,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil233.zip">DatUtil v2.33</a> (183KB)</p>
+          <p>Download <a href="dutil234.zip">DatUtil v2.34</a> (188KB)</p>
           <p>
-            <a href="dutil233.zip">
+            <a href="dutil234.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -87,6 +88,20 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>17 March 2008</b> - DatUtil v2.23</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.23.<br/>
+				- Added date, email, homepage, url, comment, forcenodump to CMPro.<br/>
+				- Added category to RomCenter header (for completeness).<br/>
+				- Added the Generic XML format.<br/>
+				- Note: CMPro, RomCenter and XML headers all contain the same info.<br/>
+            			- Added -T, -E, -H, -U, -O and -N (options for header information).
+    			
+		</p>
     <p>
       <b>26 November 2007</b> - DatUtil v2.33</p>
     <p>

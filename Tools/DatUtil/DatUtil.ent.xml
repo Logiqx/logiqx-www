@@ -3,9 +3,9 @@
 	<img src="DatUtil.png" width="81" height="40"/>
 
 	<name>DatUtil</name>
-	<version>v2.33</version>
+	<version>v2.34</version>
 	<status>Updated</status>
-	<date>26/11/2007</date>
+	<date>17/03/2008</date>
 
 	<description>Data file creation/conversion tool</description>
 
@@ -18,6 +18,7 @@
 			- MAME ListInfo (ClrMamePro, MAME, MESS, RAINE, Shark)<br />
 			- RomCenter 2.50<br />
 			- MAME ListXML (MAME and MESS)<br />
+			- Generic XML<br />
 			- Tab Delimited<br />
 			<br />
 			<b>Load only:</b><br />
@@ -41,11 +42,24 @@
 
 	<downloads>
 		<download>
-			<file name="dutil233.zip" size="183"/>
+			<file name="dutil234.zip" size="188"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>17 March 2008</date>
+			<version>v2.23</version>
+			<comment>
+				- Uses DatLib v2.23.<br/>
+				- Added date, email, homepage, url, comment, forcenodump to CMPro.<br/>
+				- Added category to RomCenter header (for completeness).<br/>
+				- Added the Generic XML format.<br/>
+				- Note: CMPro, RomCenter and XML headers all contain the same info.<br/>
+            			- Added -T, -E, -H, -U, -O and -N (options for header information).
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>26 November 2007</date>
 			<version>v2.33</version>

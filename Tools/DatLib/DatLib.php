@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.22</title>
+    <title>DatLib v2.23</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib222.zip">DatLib v2.22</a> (95KB)</p>
+          <p>Download <a href="datlib223.zip">DatLib v2.23</a> (96KB)</p>
           <p>
-            <a href="datlib222.zip">
+            <a href="datlib223.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,19 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>17 March 2008</b> - DatLib v2.23</p>
+    <p>
+			
+			
+			
+				- Simplified the internal handling of CMPro and RomCenter headers.<br/>
+				- Added date, email, homepage, url, comment, forcenodump to CMPro.<br/>
+				- Added category to RomCenter header (for completeness).<br/>
+				- Added the Generic XML format.<br/>
+				- Note: CMPro, RomCenter and XML headers all contain the same info.<br/>
+    			
+		</p>
     <p>
       <b>26 November 2007</b> - DatLib v2.22</p>
     <p>
