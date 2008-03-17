@@ -212,13 +212,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="AAE/">AAE (Another Arcade Emulator) Beta 1 Update 5</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>10/01/2008</p>
+          <p>
+            <b>17/03/2008</b>
+          </p>
         </td>
         <td>
-          <p>49</p>
+          <p>
+            <b>49</b>
+          </p>
         </td>
       </tr>
 
@@ -367,8 +373,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RAINE/">RAINE v0.50.8</a>
-        </td>
+          <a href="RAINE/">RAINE v0.50.8</a> (suitable for v0.50.11)</td>
         <td>
           <p>
             <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>

@@ -42,8 +42,8 @@
 		
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="AAE/AAE%20Beta%201%20Update%205%20(rc).zip"><b>AAE (Another Arcade Emulator)</b></a></td><td>Beta 1 Update 5</td><td><a href="http://various.ru/"><b>neoforma</b></a></td><td>49</td><td>10/01/2008</td></tr>
+						updated
+					</b></td><td><a href="AAE/AAE%20Beta%201%20Update%205%20(rc).zip"><b>AAE (Another Arcade Emulator)</b></a></td><td>Beta 1 Update 5</td><td><a href="http://various.ru/"><b>neoforma</b></a></td><td>49</td><td>17/03/2008</td></tr>
 
 <tr><td class="status"><b>
 						updated

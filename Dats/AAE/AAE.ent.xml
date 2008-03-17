@@ -3,8 +3,8 @@
 	<name>AAE (Another Arcade Emulator)</name>
 	<version>Beta 1 Update 5</version>
 	<suitability></suitability>
-	<status></status>
-	<date>10/01/2008</date>
+	<status>Updated</status>
+	<date>17/03/2008</date>
 	<games>49</games>
 	<author href="http://various.ru/">neoforma</author>
 	<comment>
@@ -21,6 +21,11 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>17 March 2008</date>
+			<comment>Added "forcenodump" to CMPro data file.</comment>
+		</revision>
+
 		<revision>
 			<date>10 January 2008</date>
 			<comment>Uploaded data files for the AAE Beta 1.</comment>
