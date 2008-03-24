@@ -25,7 +25,7 @@
 			<!ATTLIST romcenter lockrommode (y|n) "n">
 			<!ATTLIST romcenter lockbiosmode (y|n) "n">
 			<!ATTLIST romcenter locksamplemode (y|n) "n">
-	<!ELEMENT game (comment*, description, year?, manufacturer, rom*, disk*, sample*, archive*)>
+	<!ELEMENT game (comment*, description, year?, manufacturer, biosset*, rom*, disk*, sample*, archive*)>
 		<!ATTLIST game name CDATA #REQUIRED>
 		<!ATTLIST game name CDATA #REQUIRED>
 		<!ATTLIST game sourcefile CDATA #IMPLIED>
@@ -36,6 +36,10 @@
 		<!ATTLIST game board CDATA #IMPLIED>
 		<!ELEMENT year (#PCDATA)>
 		<!ELEMENT manufacturer (#PCDATA)>
+		<!ELEMENT biosset EMPTY>
+			<!ATTLIST biosset name CDATA #REQUIRED>
+			<!ATTLIST biosset description CDATA #REQUIRED>
+			<!ATTLIST biosset default (yes|no) "no">
 		<!ELEMENT rom EMPTY>
 			<!ATTLIST rom name CDATA #REQUIRED>
 			<!ATTLIST rom size CDATA #REQUIRED>
