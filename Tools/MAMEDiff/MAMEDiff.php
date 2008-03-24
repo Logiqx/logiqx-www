@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAMEDiff v2.26</title>
+    <title>MAMEDiff v2.27</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="mdiff226.zip">MAMEDiff v2.26</a> (198KB)</p>
+          <p>Download <a href="mdiff227.zip">MAMEDiff v2.27</a> (208KB)</p>
           <p>
-            <a href="mdiff226.zip">
+            <a href="mdiff227.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,17 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>24 March 2008</b> - MAMEDiff v2.27</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.24.<br/>
+				- Fixed crash (allzip had spurious carriage returns in kyukaidk).<br/>
+    		                - DatLib 2.23 also added the Generic XML format.
+			
+		</p>
     <p>
       <b>30 December 2006</b> - MAMEDiff v2.26</p>
     <p>

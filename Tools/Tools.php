@@ -50,7 +50,7 @@
 
 			<tr>
         <td>
-          <a href="DatLib/">DatLib v2.23</a>
+          <a href="DatLib/">DatLib v2.24</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
@@ -60,14 +60,14 @@
         </td>
         <td>
           <p>
-            <strong>17/03/2008</strong>
+            <strong>24/03/2008</strong>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="DatUtil/">DatUtil v2.34</a>
+          <a href="DatUtil/">DatUtil v2.35</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
@@ -77,34 +77,42 @@
         </td>
         <td>
           <p>
-            <strong>17/03/2008</strong>
+            <strong>24/03/2008</strong>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="ImgChk/">ImgChk v2.9</a>
+          <a href="ImgChk/">ImgChk v2.10</a>
         </td>
         <td>ImgChk verifies image collections against any format datafile</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>26/11/2007</p>
+          <p>
+            <strong>24/03/2008</strong>
+          </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="MAMEDiff/">MAMEDiff v2.26</a>
+          <a href="MAMEDiff/">MAMEDiff v2.27</a>
         </td>
         <td>Data file comparison tool</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>30/12/2006</p>
+          <p>
+            <strong>24/03/2008</strong>
+          </p>
         </td>
       </tr>
 
@@ -123,29 +131,52 @@
 
 			<tr>
         <td>
-          <a href="ROMInfo/">ROMInfo v2.7</a>
+          <a href="ROMInfo/">ROMInfo v2.8</a>
         </td>
         <td>ROM identification tool (for individual ROMs)</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>11/07/2005</p>
+          <p>
+            <strong>24/03/2008</strong>
+          </p>
         </td>
       </tr>
 
-			
+			<tr>
+        <td>
+          <a href="ZIPFind/">ZIPFind v2.4</a>
+        </td>
+        <td>ZIP location tool for use with FTP servers</td>
+        <td>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <strong>24/03/2008</strong>
+          </p>
+        </td>
+      </tr>
 
 			<tr>
         <td>
-          <a href="ZIPIdent/">ZIPIdent v2.9</a>
+          <a href="ZIPIdent/">ZIPIdent v2.10</a>
         </td>
         <td>Game identification tool (for groups of ROMs)</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>26/11/2007</p>
+          <p>
+            <strong>24/03/2008</strong>
+          </p>
         </td>
       </tr>
 

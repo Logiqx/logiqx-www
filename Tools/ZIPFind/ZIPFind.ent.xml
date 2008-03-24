@@ -1,11 +1,13 @@
-<tool id="ZIPFind" hidden="yes">
+<tool id="ZIPFind">
 	<img src="../../Resources/Logiqx.png" width="327" height="68"/>
 	<img src="ZIPFind.png" width="95" height="40"/>
 
 	<name>ZIPFind</name>
-	<version>v2.3</version>
-	<status></status>
-	<date>31/10/2005</date>
+	<version>v2.4</version>
+	<status>Updated</status>
+	<date>24/03/2008</date>
+
+	<description>ZIP location tool for use with FTP servers</description>
 
 	<comment>
 		<p>ZIPFind is a useful little tool that helps you to find ZIPs that you want from a friends FTP server (or whatever).</p>
@@ -13,11 +15,25 @@
 
 	<downloads>
 		<download>
-			<file name="zfind23.zip" size="284"/>
+			<file name="zfind24.zip" size="179"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>24 March 2008</date>
+			<version>v2.4</version>
+			<comment>
+				- Uses DatLib v2.24.<br/>
+				- Fixed crash (allzip had spurious carriage returns in kyukaidk).<br/>
+				- DatLib v2.11 to 2.23 also contained some relevant changes:<br/>
+				- Added the Generic XML format.<br/>
+				- Fixed bug that messed up internal indices (affected crc matching)<br/>
+				- File identification is now done by loading just the first 4KB.<br/>
+				- Fixed a rare crash (if the longest line in the dat was the last).<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>31 October 2005</date>
 			<version>v2.3</version>

@@ -3,9 +3,9 @@
 	<img src="ZIPIdent.png" width="104" height="40"/>
 
 	<name>ZIPIdent</name>
-	<version>v2.9</version>
-	<status></status>
-	<date>26/11/2007</date>
+	<version>v2.10</version>
+	<status>Updated</status>
+	<date>24/03/2008</date>
 
 	<description>Game identification tool (for groups of ROMs)</description>
 
@@ -20,11 +20,21 @@
 
 	<downloads>
 		<download>
-			<file name="zident29.zip" size="180"/>
+			<file name="zident210.zip" size="184"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>24 March 2008</date>
+			<version>v2.10</version>
+			<comment>
+				- Uses DatLib v2.24.<br/>
+				- Fixed crash (allzip had spurious carriage returns in kyukaidk).<br/>
+    		                - DatLib 2.23 also added the Generic XML format.
+			</comment>
+		</revision>
+
 		<revision>
 			<date>26 November 2007</date>
 			<version>v2.9</version>

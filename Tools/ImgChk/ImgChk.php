@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ImgChk v2.9</title>
+    <title>ImgChk v2.10</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="imgchk29.zip">ImgChk v2.9</a> (172KB)</p>
+          <p>Download <a href="imgchk210.zip">ImgChk v2.10</a> (176KB)</p>
           <p>
-            <a href="imgchk29.zip">
+            <a href="imgchk210.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,17 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>24 March 2008</b> - ImgChk v2.10</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.24.<br/>
+				- Fixed crash (allzip had spurious carriage returns in kyukaidk).<br/>
+    		                - DatLib 2.23 also added the Generic XML format.
+			
+		</p>
     <p>
       <b>26 November 2007</b> - ImgChk v2.9</p>
     <p>

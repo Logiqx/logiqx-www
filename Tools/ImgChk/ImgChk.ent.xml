@@ -3,9 +3,9 @@
 	<img src="ImgChk.png" width="93" height="40"/>
 
 	<name>ImgChk</name>
-	<version>v2.9</version>
-	<status></status>
-	<date>26/11/2007</date>
+	<version>v2.10</version>
+	<status>Updated</status>
+	<date>24/03/2008</date>
 
 	<description>ImgChk verifies image collections against any format datafile</description>
 
@@ -15,11 +15,21 @@
 
 	<downloads>
 		<download>
-			<file name="imgchk29.zip" size="172"/>
+			<file name="imgchk210.zip" size="176"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>24 March 2008</date>
+			<version>v2.10</version>
+			<comment>
+				- Uses DatLib v2.24.<br/>
+				- Fixed crash (allzip had spurious carriage returns in kyukaidk).<br/>
+    		                - DatLib 2.23 also added the Generic XML format.
+			</comment>
+		</revision>
+
 		<revision>
 			<date>26 November 2007</date>
 			<version>v2.9</version>

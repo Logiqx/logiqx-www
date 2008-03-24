@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.23</title>
+    <title>DatLib v2.24</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib223.zip">DatLib v2.23</a> (96KB)</p>
+          <p>Download <a href="datlib224.zip">DatLib v2.24</a> (97KB)</p>
           <p>
-            <a href="datlib223.zip">
+            <a href="datlib224.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,15 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>24 March 2008</b> - DatLib v2.24</p>
+    <p>
+			
+			
+			
+            			- Fixed crash (allzip had spurious carriage returns in kyukaidk).
+  			
+		</p>
     <p>
       <b>17 March 2008</b> - DatLib v2.23</p>
     <p>

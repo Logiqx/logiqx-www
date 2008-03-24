@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.23</version>
+	<version>v2.24</version>
 	<status>Updated</status>
-	<date>17/03/2008</date>
+	<date>24/03/2008</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,19 @@
 
 	<downloads>
 		<download>
-			<file name="datlib223.zip" size="96"/>
+			<file name="datlib224.zip" size="97"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>24 March 2008</date>
+			<version>v2.24</version>
+			<comment>
+            			- Fixed crash (allzip had spurious carriage returns in kyukaidk).
+  			</comment>
+		</revision>
+
 		<revision>
 			<date>17 March 2008</date>
 			<version>v2.23</version>

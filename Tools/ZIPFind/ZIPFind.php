@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ZIPFind v2.3</title>
+    <title>ZIPFind v2.4</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -36,15 +36,17 @@
 	
 
 	
+
+	
 		<p>ZIPFind is a useful little tool that helps you to find ZIPs that you want from a friends FTP server (or whatever).</p>
 	
 
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="zfind23.zip">ZIPFind v2.3</a> (284KB)</p>
+          <p>Download <a href="zfind24.zip">ZIPFind v2.4</a> (179KB)</p>
           <p>
-            <a href="zfind23.zip">
+            <a href="zfind24.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -56,6 +58,21 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>24 March 2008</b> - ZIPFind v2.4</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.24.<br/>
+				- Fixed crash (allzip had spurious carriage returns in kyukaidk).<br/>
+				- DatLib v2.11 to 2.23 also contained some relevant changes:<br/>
+				- Added the Generic XML format.<br/>
+				- Fixed bug that messed up internal indices (affected crc matching)<br/>
+				- File identification is now done by loading just the first 4KB.<br/>
+				- Fixed a rare crash (if the longest line in the dat was the last).<br/>
+    			
+		</p>
     <p>
       <b>31 October 2005</b> - ZIPFind v2.3</p>
     <p>
