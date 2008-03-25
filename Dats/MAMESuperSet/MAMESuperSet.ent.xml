@@ -1,11 +1,11 @@
 <emulator id="MAMESuperSet">
 	<img src="../MAMESuperSet.png" width="198" height="40"/>
 	<name>MAME SuperSet</name>
-	<version>v0.123</version>
+	<version>v0.124b</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>05/02/2008</date>
-	<games>6971</games>
+	<date>25/03/2008</date>
+	<games>7040</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>MAME and various systems (CPS-1, CPS-2 and Neo-Geo) combined into one.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="MAME%20SuperSet%20v0.123%20(cm).zip" size="2282"/>
+			<file name="MAME%20SuperSet%20v0.124b%20(cm).zip" size="2296"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20SuperSet%20v0.123%20(rc).zip" size="996"/>
+			<file name="MAME%20SuperSet%20v0.124b%20(rc).zip" size="1003"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>25 March 2008</date>
+			<comment>Uploaded dats for MAME v0.124b.</comment>
+		</revision>
 		<revision>
 			<date>5 February 2008</date>
 			<comment>Uploaded dats for MAME v0.123.</comment>

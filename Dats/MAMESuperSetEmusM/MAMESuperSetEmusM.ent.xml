@@ -1,10 +1,10 @@
 <emulator id="MAMESuperSetEmusM">
 	<img src="../VariousEmulators.png" width="219" height="40"/>
 	<name>Various Emulators (Fully-merged SuperSet Supplements)</name>
-	<version>v0.123</version>
+	<version>v0.124b</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>10/03/2008</date>
+	<date>25/03/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&CMPro;
-			<file name="Various%20Emulators%20v0.123%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip" size="86"/>
+			<file name="Various%20Emulators%20v0.124b%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip" size="86"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Various%20Emulators%20v0.123%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip" size="53"/>
+			<file name="Various%20Emulators%20v0.124b%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip" size="52"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>25 March 2008</date>
+			<comment>Uploaded dats for MAME v0.124b.</comment>
+		</revision>
 		<revision>
 			<date>10 March 2008</date>
 			<comment>Uploaded dats for M1 v0.7.8a6 and RAINE v0.50.8.</comment>
