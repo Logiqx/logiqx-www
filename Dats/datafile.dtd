@@ -34,6 +34,7 @@
 		<!ATTLIST game romof CDATA #IMPLIED>
 		<!ATTLIST game sampleof CDATA #IMPLIED>
 		<!ATTLIST game board CDATA #IMPLIED>
+		<!ATTLIST game rebuildto CDATA #IMPLIED>
 		<!ELEMENT year (#PCDATA)>
 		<!ELEMENT manufacturer (#PCDATA)>
 		<!ELEMENT biosset EMPTY>
@@ -48,6 +49,7 @@
 			<!ATTLIST rom md5 CDATA #IMPLIED>
 			<!ATTLIST rom merge CDATA #IMPLIED>
 			<!ATTLIST rom status (baddump|nodump|good) "good">
+			<!ATTLIST rom date CDATA #IMPLIED>
 		<!ELEMENT disk EMPTY>
 			<!ATTLIST disk name CDATA #REQUIRED>
 			<!ATTLIST disk sha1 CDATA #IMPLIED>
