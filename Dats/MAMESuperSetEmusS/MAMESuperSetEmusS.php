@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Various Emulators (Split-merged SuperSet Supplements) v0.124b</title>
+    <title>Various Emulators (Split-merged SuperSet Supplements) v0.124a</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="../VariousEmulators.png" width="219" height="40" alt="../VariousEmulators.png"/>
     </p>
-	<p>Non-MAME games for Various Emulators (Split-merged SuperSet Supplements) v0.124b</p>
+	<p>Non-MAME games for Various Emulators (Split-merged SuperSet Supplements) v0.124a</p>
 	
 	
 	
@@ -46,17 +46,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.124b%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro</a> (85KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.124a%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro</a> (85KB)</p>
           <p>
-            <a href="Various%20Emulators%20v0.124b%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">
+            <a href="Various%20Emulators%20v0.124a%20(Split-merged%20SuperSet%20Supplements)%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.124b%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter</a> (52KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.124a%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter</a> (52KB)</p>
           <p>
-            <a href="Various%20Emulators%20v0.124b%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">
+            <a href="Various%20Emulators%20v0.124a%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -68,14 +68,19 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>26 March 2008</b> - 
+			
+			Renamed data files to MAME v0.124a. Added FBA v0.2.96.76.
+		</p>
+    <p>
       <b>25 March 2008</b> - 
 			
-			Uploaded dats for MAME v0.124b.
+			Uploaded dats for MAME v0.124b and FBA v0.2.96.75.
 		</p>
     <p>
       <b>10 March 2008</b> - 
 			
-			Uploaded dats for M1 v0.7.8a6 and RAINE v0.50.8.
+			Uploaded dats for FBA v0.2.96.74, M1 v0.7.8a6 and RAINE v0.50.8.
 		</p>
     <p>
       <b>5 February 2008</b> - 

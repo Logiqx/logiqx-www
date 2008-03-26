@@ -71,7 +71,7 @@
     <p>
       <b>25 March 2008</b> - 
 			
-			No change required for MAME v0.124b. Updated header information though.
+			No change required for MAME v0.124a. Updated header information though.
 		</p>
     <p>
       <b>5 February 2008</b> - 

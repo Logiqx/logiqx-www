@@ -69,7 +69,7 @@
     <p>
       <b>25 March 2008</b> - 
 			
-			Updated to match MAME v0.124b.
+			Updated to match MAME v0.124a.
 		</p>
     <p>
       <b>5 February 2008</b> - 

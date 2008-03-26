@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAME SuperSet (Fully-merged MAME Supplement) v0.124b</title>
+    <title>MAME SuperSet (Fully-merged MAME Supplement) v0.124a</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="../MAMESuperSet.png" width="198" height="40" alt="../MAMESuperSet.png"/>
     </p>
-	<p>Non-MAME games for MAME SuperSet (Fully-merged MAME Supplement) v0.124b</p>
+	<p>Non-MAME games for MAME SuperSet (Fully-merged MAME Supplement) v0.124a</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.124b%20(Fully-merged%20MAME%20Supplement)%20(cm).zip">MAME SuperSet (Fully-merged MAME Supplement) dat for CMPro</a> (34KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.124a%20(Fully-merged%20MAME%20Supplement)%20(cm).zip">MAME SuperSet (Fully-merged MAME Supplement) dat for CMPro</a> (34KB)</p>
           <p>
-            <a href="MAME%20SuperSet%20v0.124b%20(Fully-merged%20MAME%20Supplement)%20(cm).zip">
+            <a href="MAME%20SuperSet%20v0.124a%20(Fully-merged%20MAME%20Supplement)%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.124b%20(Fully-merged%20MAME%20Supplement)%20(rc).zip">MAME SuperSet (Fully-merged MAME Supplement) dat for ROMCenter</a> (19KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.124a%20(Fully-merged%20MAME%20Supplement)%20(rc).zip">MAME SuperSet (Fully-merged MAME Supplement) dat for ROMCenter</a> (19KB)</p>
           <p>
-            <a href="MAME%20SuperSet%20v0.124b%20(Fully-merged%20MAME%20Supplement)%20(rc).zip">
+            <a href="MAME%20SuperSet%20v0.124a%20(Fully-merged%20MAME%20Supplement)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>26 March 2008</b> - 
+			
+			Renamed data files to MAME v0.124a.
+		</p>
     <p>
       <b>25 March 2008</b> - 
 			
