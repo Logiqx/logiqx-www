@@ -66,6 +66,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>1 April 2008</b> - 
+			
+			Added full header information. The rest of the content is unchanged though!
+		</p>
+    <p>
       <b>3 January 2008</b> - 
 			
 			Updated to match SEGA Model 2 Emulator v0.6 (added dyndek2b, manxtt, dynmcopc).

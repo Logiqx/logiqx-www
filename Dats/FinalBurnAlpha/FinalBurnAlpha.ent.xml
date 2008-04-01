@@ -4,7 +4,7 @@
 	<version>v0.2.96.76</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>26/03/2008</date>
+	<date>01/04/2008</date>
 	<games>1129</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
@@ -18,6 +18,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>1 April 2008</date>
+			<comment>Changed forcezipping to forcepacking. The rest of the content is unchanged though!</comment>
+		</revision>
 		<revision>
 			<date>26 March 2008</date>
 			<comment>Updated for FBA v0.2.96.76.</comment>

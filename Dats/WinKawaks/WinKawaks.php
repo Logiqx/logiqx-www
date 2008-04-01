@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="WinKawaks%20v1.59%20(cm).zip">Kawaks dat for CMPro</a> (158KB)</p>
+          <p>Download <a href="WinKawaks%20v1.59%20(cm).zip">Kawaks dat for CMPro</a> (159KB)</p>
           <p>
             <a href="WinKawaks%20v1.59%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>1 April 2008</b> - 
+			
+			Added full header information. The rest of the content is unchanged though!
+		</p>
     <p>
       <b>2 January 2008</b> - 
 			

@@ -42,7 +42,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Daphne%20v0.99.7%20(cm).zip">Daphne dat for CMPro</a> (11KB)</p>
+          <p>Download <a href="Daphne%20v0.99.7%20(cm).zip">Daphne dat for CMPro</a> (12KB)</p>
           <p>
             <a href="Daphne%20v0.99.7%20(cm).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -63,6 +63,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>1 April 2008</b> - 
+			
+			Added full header information. The rest of the content is unchanged though!
+		</p>
     <p>
       <b>3 October 2005</b> - 
 			

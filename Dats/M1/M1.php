@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>1 April 2008</b> - 
+			
+			Added full header information, including forcenodump.
+		</p>
+    <p>
       <b>10 March 2008</b> - 
 			
 			Updated for M1 v0.7.8a6.

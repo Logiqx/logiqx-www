@@ -16,15 +16,15 @@
 			<!ATTLIST clrmamepro header CDATA #IMPLIED>
 			<!ATTLIST clrmamepro forcemerging (none|split|full) "split">
 			<!ATTLIST clrmamepro forcenodump (obsolete|required|ignore) "obsolete">
-			<!ATTLIST clrmamepro forcezipping (zip|unzip) "zip">
+			<!ATTLIST clrmamepro forcepacking (zip|unzip) "zip">
 		<!ELEMENT romcenter EMPTY>
 			<!ATTLIST romcenter plugin CDATA #IMPLIED>
-			<!ATTLIST romcenter forcedrommode (m|s|n) "s">
-			<!ATTLIST romcenter forcedbiosmode (m|s|n) "s">
-			<!ATTLIST romcenter forcedsamplemode (m|s|n) "s">
-			<!ATTLIST romcenter lockrommode (y|n) "n">
-			<!ATTLIST romcenter lockbiosmode (y|n) "n">
-			<!ATTLIST romcenter locksamplemode (y|n) "n">
+			<!ATTLIST romcenter rommode (merged|split|unmerged) "split">
+			<!ATTLIST romcenter biosmode (merged|split|unmerged) "split">
+			<!ATTLIST romcenter samplemode (merged|unmerged) "merged">
+			<!ATTLIST romcenter lockrommode (yes|no) "no">
+			<!ATTLIST romcenter lockbiosmode (yes|no) "no">
+			<!ATTLIST romcenter locksamplemode (yes|no) "no">
 	<!ELEMENT game (comment*, description, year?, manufacturer, biosset*, rom*, disk*, sample*, archive*)>
 		<!ATTLIST game name CDATA #REQUIRED>
 		<!ATTLIST game name CDATA #REQUIRED>

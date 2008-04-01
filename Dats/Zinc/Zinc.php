@@ -68,6 +68,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>1 April 2008</b> - 
+			
+			Added full header information. The rest of the content is unchanged though!
+		</p>
+    <p>
       <b>31 July 2005</b> - 
 			
 			Corrected a couple of SHA1 errors made in the last update.

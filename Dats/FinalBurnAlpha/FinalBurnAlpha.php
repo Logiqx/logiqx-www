@@ -63,6 +63,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>1 April 2008</b> - 
+			
+			Changed forcezipping to forcepacking. The rest of the content is unchanged though!
+		</p>
+    <p>
       <b>26 March 2008</b> - 
 			
 			Updated for FBA v0.2.96.76.

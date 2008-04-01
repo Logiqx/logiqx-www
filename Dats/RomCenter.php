@@ -51,37 +51,37 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="Daphne/Daphne%20v0.99.7%20(rc).zip"><b>Daphne</b></a></td><td>v0.99.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>61</td><td>03/10/2005</td></tr>
+						updated
+					</b></td><td><a href="Daphne/Daphne%20v0.99.7%20(rc).zip"><b>Daphne</b></a></td><td>v0.99.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>61</td><td>01/04/2008</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.76%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.76</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1129</td><td>26/03/2008</td></tr>
-
-
-<tr><td class="status"><b>
-						-
-					</b></td><td><a href="WinKawaks/WinKawaks%20v1.59%20(rc).zip"><b>Kawaks</b></a></td><td>v1.59</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>576</td><td>02/01/2008</td></tr>
+					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.76%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.76</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1129</td><td>01/04/2008</td></tr>
 
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="M1/M1%20v0.7.8a6%20(rc).zip"><b>M1</b></a></td><td>v0.7.8a6</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1454</td><td>10/03/2008</td></tr>
+					</b></td><td><a href="WinKawaks/WinKawaks%20v1.59%20(rc).zip"><b>Kawaks</b></a></td><td>v1.59</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>576</td><td>01/04/2008</td></tr>
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="Mjolnir/Mjolnir%20v0.3.1%20(rc).zip"><b>Mjolnir</b></a></td><td>v0.3.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>27</td><td>20/10/2007</td></tr>
+						updated
+					</b></td><td><a href="M1/M1%20v0.7.8a6%20(rc).zip"><b>M1</b></a></td><td>v0.7.8a6</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1454</td><td>01/04/2008</td></tr>
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="Nebula/Nebula%20v2.25b%20(rc).zip"><b>Nebula</b></a></td><td>v2.25b</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>475</td><td>03/04/2007</td></tr>
+						updated
+					</b></td><td><a href="Mjolnir/Mjolnir%20v0.3.1%20(rc).zip"><b>Mjolnir</b></a></td><td>v0.3.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>27</td><td>01/04/2008</td></tr>
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="OldSpark/OldSpark%20C++%2020071006%20(rc).zip"><b>OldSpark C++</b></a></td><td>20071006</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>16</td><td>12/11/2007</td></tr>
+						updated
+					</b></td><td><a href="Nebula/Nebula%20v2.25b%20(rc).zip"><b>Nebula</b></a></td><td>v2.25b</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>475</td><td>01/04/2008</td></tr>
+
+
+<tr><td class="status"><b>
+						updated
+					</b></td><td><a href="OldSpark/OldSpark%20C++%2020071006%20(rc).zip"><b>OldSpark C++</b></a></td><td>20071006</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>16</td><td>01/04/2008</td></tr>
 
 
 <tr><td class="status"><b>
@@ -89,12 +89,12 @@
 					</b></td><td><a href="RAINE/RAINE%20v0.50.8%20(rc).zip"><b>RAINE</b></a></td><td>v0.50.8</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>577</td><td>10/03/2008</td></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.6%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.6</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>41</td><td>03/01/2008</td></tr>
+						updated
+					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.6%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.6</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>41</td><td>01/04/2008</td></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="Zinc/ZiNc%20v1.1%20(rc).zip"><b>ZiNc</b></a></td><td>v1.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>71</td><td>31/07/2005</td></tr>
+						updated
+					</b></td><td><a href="Zinc/ZiNc%20v1.1%20(rc).zip"><b>ZiNc</b></a></td><td>v1.1</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>71</td><td>01/04/2008</td></tr>
 
 		</table>
 	
@@ -107,8 +107,8 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="OlderEmus/Older%20Emus%2020070408%20(rc).zip"><b>Older Emus</b></a></td><td>20070408</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>08/04/2007</td></tr>
+						updated
+					</b></td><td><a href="OlderEmus/Older%20Emus%2020080401%20(rc).zip"><b>Older Emus</b></a></td><td>20080401</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>01/04/2008</td></tr>
 
 		</table>
 	

@@ -3,8 +3,8 @@
 	<name>SEGA Model 2 Emulator</name>
 	<version>v0.6</version>
 	<suitability></suitability>
-	<status></status>
-	<date>03/01/2008</date>
+	<status>Updated</status>
+	<date>01/04/2008</date>
 	<games>41</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -21,6 +21,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>1 April 2008</date>
+			<comment>Added full header information. The rest of the content is unchanged though!</comment>
+		</revision>
 		<revision>
 			<date>3 January 2008</date>
 			<comment>Updated to match SEGA Model 2 Emulator v0.6 (added dyndek2b, manxtt, dynmcopc).</comment>

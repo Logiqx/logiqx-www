@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>1 April 2008</b> - 
+			
+			Added full header information. The rest of the content is unchanged though!
+		</p>
+    <p>
       <b>12 November 2007</b> - 
 			
 			Uploaded dats for OldSpark C++ 20071006.

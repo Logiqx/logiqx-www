@@ -254,13 +254,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         <td>
           <a href="Daphne/">Daphne v0.99.7</a> (suitable for 1.0 beta)</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>03/10/2005</p>
+          <p>
+            <b>01/04/2008</b>
+          </p>
         </td>
         <td>
-          <p>61</p>
+          <p>
+            <b>61</b>
+          </p>
         </td>
       </tr>
 
@@ -275,7 +281,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>26/03/2008</b>
+            <b>01/04/2008</b>
           </p>
         </td>
         <td>
@@ -291,13 +297,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="WinKawaks/">Kawaks v1.59</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>02/01/2008</p>
+          <p>
+            <b>01/04/2008</b>
+          </p>
         </td>
         <td>
-          <p>576</p>
+          <p>
+            <b>576</b>
+          </p>
         </td>
       </tr>
 
@@ -313,7 +325,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>10/03/2008</b>
+            <b>01/04/2008</b>
           </p>
         </td>
         <td>
@@ -328,13 +340,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         <td>
           <a href="Mjolnir/">Mjolnir v0.3.1</a> (suitable for v0.4)</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>20/10/2007</p>
+          <p>
+            <b>01/04/2008</b>
+          </p>
         </td>
         <td>
-          <p>27</p>
+          <p>
+            <b>27</b>
+          </p>
         </td>
       </tr>
 
@@ -344,13 +362,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="Nebula/">Nebula v2.25b</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>03/04/2007</p>
+          <p>
+            <b>01/04/2008</b>
+          </p>
         </td>
         <td>
-          <p>475</p>
+          <p>
+            <b>475</b>
+          </p>
         </td>
       </tr>
 
@@ -360,13 +384,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="OldSpark/">OldSpark C++ 20071006</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>12/11/2007</p>
+          <p>
+            <b>01/04/2008</b>
+          </p>
         </td>
         <td>
-          <p>16</p>
+          <p>
+            <b>16</b>
+          </p>
         </td>
       </tr>
 
@@ -396,13 +426,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.6</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>03/01/2008</p>
+          <p>
+            <b>01/04/2008</b>
+          </p>
         </td>
         <td>
-          <p>41</p>
+          <p>
+            <b>41</b>
+          </p>
         </td>
       </tr>
 
@@ -411,13 +447,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="Zinc/">ZiNc v1.1</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>31/07/2005</p>
+          <p>
+            <b>01/04/2008</b>
+          </p>
         </td>
         <td>
-          <p>71</p>
+          <p>
+            <b>71</b>
+          </p>
         </td>
       </tr>
 
@@ -450,16 +492,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="OlderEmus/">Older Emus 20070408</a>
+          <a href="OlderEmus/">Older Emus 20080401</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>08/04/2007</p>
+          <p>
+            <b>01/04/2008</b>
+          </p>
         </td>
         <td>
-          <p>Thousands of</p>
+          <p>
+            <b>Thousands of</b>
+          </p>
         </td>
       </tr>
 
