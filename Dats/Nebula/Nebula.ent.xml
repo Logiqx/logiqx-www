@@ -24,7 +24,7 @@
 	<revisions>
 		<revision>
 			<date>1 April 2008</date>
-			<comment>Added full header information, including forcenodump.</comment>
+			<comment>Added full header information, including forcenodump. Changed forcezipping to forcepacking.</comment>
 		</revision>
 		<revision>
 			<date>3 April 2007</date>

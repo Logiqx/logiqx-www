@@ -69,7 +69,7 @@
     <p>
       <b>1 April 2008</b> - 
 			
-			Added full header information, including forcenodump.
+			Added full header information, including forcenodump. Changed forcezipping to forcepacking.
 		</p>
     <p>
       <b>3 April 2007</b> - 
