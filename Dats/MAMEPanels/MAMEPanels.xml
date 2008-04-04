@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nobody (nowhere) -->
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY MAMEPanels SYSTEM "MAMEPanels.ent.xml">
-]>
-<emulator_page>
-	&MAMEPanels;
-</emulator_page>
