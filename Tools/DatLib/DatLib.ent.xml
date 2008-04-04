@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.24</version>
+	<version>v2.25</version>
 	<status>Updated</status>
-	<date>24/03/2008</date>
+	<date>04/04/2008</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,31 @@
 
 	<downloads>
 		<download>
-			<file name="datlib224.zip" size="97"/>
+			<file name="datlib225.zip" size="102"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>4 April 2008</date>
+			<version>v2.25</version>
+			<comment>
+				- Added automatic date population (based on the version number).<br/>
+				- Renamed forcezipping to forcepacking (CMPro).<br/>
+				- Renamed forcedrommode to rommode (RomCenter 3).<br/>
+				- Renamed forcedbiosmode to biosmode (RomCenter 3).<br/>
+				- Renamed forcedsamplemode to samplemode (RomCenter 3).<br/>
+				- Changed from m/s/n to merged/split/unmerged (RomCenter 3).<br/>
+				- Changed from y/n to yes/no (RomCenter 3).<br/>
+				- Added internal flags for all header items (fixes, warnings, etc).<br/>
+				- Added fix summary for header items (appears in datutil.log).<br/>
+				- Added warnings for invalid header items (appear in datutil.log).<br/>
+				- Added notices for lost header items (appear in datutil.log).<br/>
+				- Added the DTD for ROM Management Datafiles (revision 1.1).<br/>
+				- Documented the limitations of the XML parser in readme.txt.<br/>
+  			</comment>
+		</revision>
+
 		<revision>
 			<date>24 March 2008</date>
 			<version>v2.24</version>

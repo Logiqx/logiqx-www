@@ -3,9 +3,9 @@
 	<img src="DatUtil.png" width="81" height="40"/>
 
 	<name>DatUtil</name>
-	<version>v2.35</version>
+	<version>v2.36</version>
 	<status>Updated</status>
-	<date>24/03/2008</date>
+	<date>04/04/2008</date>
 
 	<description>Data file creation/conversion tool</description>
 
@@ -42,11 +42,30 @@
 
 	<downloads>
 		<download>
-			<file name="dutil235.zip" size="188"/>
+			<file name="dutil236.zip" size="192"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>24 March 2008</date>
+			<version>v2.36</version>
+			<comment>
+				- Uses DatLib v2.25.<br/>
+				- Added automatic date population (based on the version number).<br/>
+				- Renamed forcezipping to forcepacking (CMPro).<br/>
+				- Renamed forcedrommode to rommode (RomCenter 3).<br/>
+				- Renamed forcedbiosmode to biosmode (RomCenter 3).<br/>
+				- Renamed forcedsamplemode to samplemode (RomCenter 3).<br/>
+				- Changed from m/s/n to merged/split/unmerged (RomCenter 3).<br/>
+				- Changed from y/n to yes/no (RomCenter 3).<br/>
+				- Added fix summary for header items (appears in datutil.log).<br/>
+				- Added warnings for invalid header items (appear in datutil.log).<br/>
+				- Added notices for lost header items (appear in datutil.log).<br/>
+				- Changed -Z to -P (although -Z also works as before).<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>24 March 2008</date>
 			<version>v2.35</version>

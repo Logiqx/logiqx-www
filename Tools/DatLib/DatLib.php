@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.24</title>
+    <title>DatLib v2.25</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib224.zip">DatLib v2.24</a> (97KB)</p>
+          <p>Download <a href="datlib225.zip">DatLib v2.25</a> (102KB)</p>
           <p>
-            <a href="datlib224.zip">
+            <a href="datlib225.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,27 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>4 April 2008</b> - DatLib v2.25</p>
+    <p>
+			
+			
+			
+				- Added automatic date population (based on the version number).<br/>
+				- Renamed forcezipping to forcepacking (CMPro).<br/>
+				- Renamed forcedrommode to rommode (RomCenter 3).<br/>
+				- Renamed forcedbiosmode to biosmode (RomCenter 3).<br/>
+				- Renamed forcedsamplemode to samplemode (RomCenter 3).<br/>
+				- Changed from m/s/n to merged/split/unmerged (RomCenter 3).<br/>
+				- Changed from y/n to yes/no (RomCenter 3).<br/>
+				- Added internal flags for all header items (fixes, warnings, etc).<br/>
+				- Added fix summary for header items (appears in datutil.log).<br/>
+				- Added warnings for invalid header items (appear in datutil.log).<br/>
+				- Added notices for lost header items (appear in datutil.log).<br/>
+				- Added the DTD for ROM Management Datafiles (revision 1.1).<br/>
+				- Documented the limitations of the XML parser in readme.txt.<br/>
+  			
+		</p>
     <p>
       <b>24 March 2008</b> - DatLib v2.24</p>
     <p>

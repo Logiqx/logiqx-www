@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.35</title>
+    <title>DatUtil v2.36</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -74,9 +74,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil235.zip">DatUtil v2.35</a> (188KB)</p>
+          <p>Download <a href="dutil236.zip">DatUtil v2.36</a> (192KB)</p>
           <p>
-            <a href="dutil235.zip">
+            <a href="dutil236.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -88,6 +88,26 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>24 March 2008</b> - DatUtil v2.36</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.25.<br/>
+				- Added automatic date population (based on the version number).<br/>
+				- Renamed forcezipping to forcepacking (CMPro).<br/>
+				- Renamed forcedrommode to rommode (RomCenter 3).<br/>
+				- Renamed forcedbiosmode to biosmode (RomCenter 3).<br/>
+				- Renamed forcedsamplemode to samplemode (RomCenter 3).<br/>
+				- Changed from m/s/n to merged/split/unmerged (RomCenter 3).<br/>
+				- Changed from y/n to yes/no (RomCenter 3).<br/>
+				- Added fix summary for header items (appears in datutil.log).<br/>
+				- Added warnings for invalid header items (appear in datutil.log).<br/>
+				- Added notices for lost header items (appear in datutil.log).<br/>
+				- Changed -Z to -P (although -Z also works as before).<br/>
+    			
+		</p>
     <p>
       <b>24 March 2008</b> - DatUtil v2.35</p>
     <p>
