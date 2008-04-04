@@ -110,14 +110,18 @@
 
 			<tr>
         <td>
-          <a href="ROMBuild/">ROMBuild v2.9</a>
+          <a href="ROMBuild/">ROMBuild v2.10</a>
         </td>
         <td>ROM manipulation tool that can convert modern day ROMs to older formats</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>09/09/2007</p>
+          <p>
+            <strong>04/04/2008</strong>
+          </p>
         </td>
       </tr>
 
