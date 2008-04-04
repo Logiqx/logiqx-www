@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ROMBuild v2.9</title>
+    <title>ROMBuild v2.10</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -50,9 +50,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="rbuild29.zip">ROMBuild v2.9</a> (109KB)</p>
+          <p>Download <a href="rbuild210.zip">ROMBuild v2.10</a> (106KB)</p>
           <p>
-            <a href="rbuild29.zip">
+            <a href="rbuild210.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -83,6 +83,20 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>4 April 2008</b> - ROMBuild v2.10</p>
+    <p>
+			
+			
+			
+				Updated details for World Heroes (NeoRAGEx) to match MAME v0.120.<br/>
+				Removed some superspy and kikikai ROMs not needed with MAME v0.122.<br/>
+				Removed llander/034597.01 since it was never a real dump!<br/>
+				Renamed desterugu ROMs to match MAME v0.124a (needed by Sideway).<br/>
+				Removed Grytra ROMs (since they match MAME v0.124a).<br/>
+				Emus no longer listed: Vectro Dream 2.3, EMU 2.3, Grytra v1.0.<br/>
+    			
+		</p>
     <p>
       <b>9 September 2007</b> - ROMBuild v2.9</p>
     <p>
