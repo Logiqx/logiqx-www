@@ -135,22 +135,4 @@
 
 		</table>
 	
-	
-		
-		
-		
-			<p><b>Resource Files</b></p>
-		
-		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Resource</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
-
-<tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMEArtwork/MAME%20Artwork%2020071216%20(rc).zip"><b>MAME Artwork</b></a></td><td>20071216</td><td><a href="http://www.mameworld.net/mrdo/"><b>Mr. Do</b></a></td><td>535</td><td>20/12/2007</td></tr>
-
-<tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMESamples/MAME%20Samples%2020071219%20(rc).zip"><b>MAME Samples</b></a></td><td>20071219</td><td><a href="http://www.clrmame.com/"><b>Roman Scherzer</b></a></td><td>60</td><td>20/12/2007</td></tr>
-
-		</table>
-	
 </body></html>

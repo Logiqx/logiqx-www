@@ -604,63 +604,6 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 		</table>
 	
-	<hr/>
-    <p>
-      <img src="ResourceFiles.png" width="177" height="40" alt="ResourceFiles.png"/>
-    </p>
-		
-		
-		
-			<p>Additional resources that enhance the emulation of games.</p>
-		
-		<table class="news">
-      <colgroup span="1"/>
-      <colgroup span="1" width="110"/>
-      <colgroup span="1" width="110"/>
-      <colgroup span="1" width="110"/>
-      <tr>
-        <th>Resource</th>
-        <th/>
-        <th>
-          <p>Dat Updated</p>
-        </th>
-        <th>
-          <p>Games</p>
-        </th>
-      </tr>
-			
-<tr>
-        <td>
-          <a href="MAMEArtwork/">MAME Artwork 20071216</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>20/12/2007</p>
-        </td>
-        <td>
-          <p>535</p>
-        </td>
-      </tr>
-
-			<tr>
-        <td>
-          <a href="MAMESamples/">MAME Samples 20071219</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>20/12/2007</p>
-        </td>
-        <td>
-          <p>60</p>
-        </td>
-      </tr>
-
-		</table>
-	
 <script language="php">
 					// Standard page footer (counter)
 

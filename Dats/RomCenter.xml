@@ -24,8 +24,6 @@
 	<!ENTITY NeoGeo SYSTEM "Neo-Geo/Neo-Geo.ent.xml">
 	<!ENTITY MPU SYSTEM "MPU/MPU.ent.xml">
 	<!ENTITY M1 SYSTEM "M1/M1.ent.xml">
-	<!ENTITY MAMEArtwork SYSTEM "MAMEArtwork/MAMEArtwork.ent.xml">
-	<!ENTITY MAMESamples SYSTEM "MAMESamples/MAMESamples.ent.xml">
 ]>
 <contents_page>
 	<section>
@@ -84,17 +82,6 @@
 &CPS1;
 &CPS2;
 &NeoGeo;
-		</emulators>
-	</section>
-	<section>
-		<img src="ResourceFiles.png" width="177" height="40"/>
-		<type>Resource</type>
-		<comment>
-			<p><b>Resource Files</b></p>
-		</comment>
-		<emulators>
-&MAMEArtwork;
-&MAMESamples;
 		</emulators>
 	</section>
 </contents_page>

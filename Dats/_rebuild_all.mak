@@ -29,8 +29,6 @@ EMULATORS= \
 	CPS-1/CPS-1.php \
 	CPS-2/CPS-2.php \
 	Neo-Geo/Neo-Geo.php \
-	MAMEArtwork/MAMEArtwork.php \
-	MAMESamples/MAMESamples.php \
 
 all: $(CONTENTS) $(ROMCENTER) $(ROMCENTER_INF) $(FILELIST) $(EMULATORS)
 
