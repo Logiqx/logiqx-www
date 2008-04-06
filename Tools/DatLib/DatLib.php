@@ -66,7 +66,7 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <b>6 April 2008</b> - DatLib v2.37</p>
+      <b>6 April 2008</b> - DatLib v2.26</p>
     <p>
 			
 			

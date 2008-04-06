@@ -29,7 +29,7 @@
 	<revisions>
 		<revision>
 			<date>6 April 2008</date>
-			<version>v2.37</version>
+			<version>v2.26</version>
 			<comment>
 				- Minor tweaks to the DTD (header and manufacturer now optional).<br/>
 				- Fixed empty header being written to Generic XML datafiles.<br/>
