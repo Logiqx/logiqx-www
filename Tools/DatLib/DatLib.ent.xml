@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.25</version>
+	<version>v2.26</version>
 	<status>Updated</status>
-	<date>04/04/2008</date>
+	<date>06/04/2008</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,21 @@
 
 	<downloads>
 		<download>
-			<file name="datlib225.zip" size="102"/>
+			<file name="datlib226.zip" size="102"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>6 April 2008</date>
+			<version>v2.37</version>
+			<comment>
+				- Minor tweaks to the DTD (header and manufacturer now optional).<br/>
+				- Fixed empty header being written to Generic XML datafiles.<br/>
+				- Fixed conversion of MESS XML to Generic XML (machines -> games).<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>4 April 2008</date>
 			<version>v2.25</version>

@@ -3,9 +3,9 @@
 	<img src="DatUtil.png" width="81" height="40"/>
 
 	<name>DatUtil</name>
-	<version>v2.36</version>
+	<version>v2.37</version>
 	<status>Updated</status>
-	<date>04/04/2008</date>
+	<date>06/04/2008</date>
 
 	<description>Data file creation/conversion tool</description>
 
@@ -42,13 +42,24 @@
 
 	<downloads>
 		<download>
-			<file name="dutil236.zip" size="192"/>
+			<file name="dutil237.zip" size="192"/>
 		</download>
 	</downloads>
 
 	<revisions>
 		<revision>
-			<date>24 March 2008</date>
+			<date>6 April 2008</date>
+			<version>v2.37</version>
+			<comment>
+				- Uses DatLib v2.26.<br/>
+				- Minor tweaks to the DTD (header and manufacturer now optional).<br/>
+				- Fixed empty header being written to Generic XML datafiles.<br/>
+				- Fixed conversion of MESS XML to Generic XML (machines -> games).<br/>
+    			</comment>
+		</revision>
+
+		<revision>
+			<date>4 April 2008</date>
 			<version>v2.36</version>
 			<comment>
 				- Uses DatLib v2.25.<br/>

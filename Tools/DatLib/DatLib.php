@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.25</title>
+    <title>DatLib v2.26</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib225.zip">DatLib v2.25</a> (102KB)</p>
+          <p>Download <a href="datlib226.zip">DatLib v2.26</a> (102KB)</p>
           <p>
-            <a href="datlib225.zip">
+            <a href="datlib226.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,17 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>6 April 2008</b> - DatLib v2.37</p>
+    <p>
+			
+			
+			
+				- Minor tweaks to the DTD (header and manufacturer now optional).<br/>
+				- Fixed empty header being written to Generic XML datafiles.<br/>
+				- Fixed conversion of MESS XML to Generic XML (machines -> games).<br/>
+    			
+		</p>
     <p>
       <b>4 April 2008</b> - DatLib v2.25</p>
     <p>
