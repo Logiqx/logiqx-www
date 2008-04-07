@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/tools.dtd" [
-	<!ENTITY ZIPIdent SYSTEM "ZIPIdent.ent.xml">
-]>
-
-<emulator_page>
-	&ZIPIdent;
-</emulator_page>
