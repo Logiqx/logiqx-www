@@ -26,11 +26,11 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.124a%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.124a</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>26/03/2008</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.124a%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.124a</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>07/04/2008</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.124a%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.124a</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>26/03/2008</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.124a%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.124a</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>07/04/2008</td></tr>
 
 		</table>
 	
@@ -56,7 +56,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.76%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.76</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1129</td><td>01/04/2008</td></tr>
+					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.77%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.77</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1156</td><td>07/04/2008</td></tr>
 
 
 <tr><td class="status"><b>

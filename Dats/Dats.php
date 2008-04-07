@@ -150,7 +150,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>26/03/2008</b>
+            <b>07/04/2008</b>
           </p>
         </td>
         <td>
@@ -171,7 +171,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>26/03/2008</b>
+            <b>07/04/2008</b>
           </p>
         </td>
         <td>
@@ -272,7 +272,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="FinalBurnAlpha/">FBA v0.2.96.76</a>
+          <a href="FinalBurnAlpha/">FBA v0.2.96.77</a>
         </td>
         <td>
           <p>
@@ -281,12 +281,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>01/04/2008</b>
+            <b>07/04/2008</b>
           </p>
         </td>
         <td>
           <p>
-            <b>1129</b>
+            <b>1156</b>
           </p>
         </td>
       </tr>
@@ -403,7 +403,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RAINE/">RAINE v0.50.8</a> (suitable for v0.50.11)</td>
+          <a href="RAINE/">RAINE v0.50.8</a> (suitable for v0.50.12)</td>
         <td>
           <p>
             <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>

@@ -30,7 +30,7 @@
 	<p>
       <img src="RAINE.png" width="82" height="40" alt="RAINE.png"/>
     </p>
-	<p>577 games for RAINE v0.50.8<br/>(suitable for v0.50.11)</p>
+	<p>577 games for RAINE v0.50.8<br/>(suitable for v0.50.12)</p>
 	
 	
 	
