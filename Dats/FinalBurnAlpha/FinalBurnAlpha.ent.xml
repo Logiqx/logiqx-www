@@ -1,23 +1,27 @@
 <emulator id="FinalBurnAlpha">
 	<img src="FinalBurnAlpha.png" width="195" height="40"/>
 	<name>FBA</name>
-	<version>v0.2.96.77</version>
+	<version>v0.2.96.79</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>07/04/2008</date>
-	<games>1156</games>
+	<date>13/04/2008</date>
+	<games>1165</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
 		<dat>
-			&CMPro;
-			<file name="FBA%20v0.2.96.77%20(cm).zip" size="417"/>
+			&Generic;
+			<file name="FBA%20v0.2.96.79%20(xml).zip" size="422"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="FBA%20v0.2.96.77%20(rc).zip" size="205"/>
+			<file name="FBA%20v0.2.96.79%20(rc).zip" size="206"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>13 April 2008</date>
+			<comment>Updated for FBA v0.2.96.79. Now using Generic XML for CMPro + RC3.</comment>
+		</revision>
 		<revision>
 			<date>7 April 2008</date>
 			<comment>Updated for FBA v0.2.96.77.</comment>

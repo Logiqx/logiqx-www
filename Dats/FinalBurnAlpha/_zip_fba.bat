@@ -12,8 +12,8 @@ DEL "FBA.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "FBA %FBA_VER% (cm).zip" "FBA %FBA_VER%*"
-mv "FBA %FBA_VER% (cm).zip" "%LOGIQX%/WWW/Dats/FinalBurnAlpha/."
+zip "FBA %FBA_VER% (xml).zip" "FBA %FBA_VER%*"
+mv "FBA %FBA_VER% (xml).zip" "%LOGIQX%/WWW/Dats/FinalBurnAlpha/."
 
 REM --- Move to RomCenter directory
 

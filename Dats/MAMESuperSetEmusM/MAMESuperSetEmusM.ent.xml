@@ -4,7 +4,7 @@
 	<version>v0.124a</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>07/04/2008</date>
+	<date>13/04/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,15 +14,19 @@
 	</comment>
 	<dats>
 		<dat>
-			&CMPro;
-			<file name="Various%20Emulators%20v0.124a%20(Fully-merged%20SuperSet%20Supplements)%20(cm).zip" size="87"/>
+			&Generic;
+			<file name="Various%20Emulators%20v0.124a%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip" size="89"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Various%20Emulators%20v0.124a%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip" size="54"/>
+			<file name="Various%20Emulators%20v0.124a%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip" size="56"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>13 April 2008</date>
+			<comment>Updated for FBA v0.2.96.79. Now using Generic XML for CMPro + RC3.</comment>
+		</revision>
 		<revision>
 			<date>7 April 2008</date>
 			<comment>Updated for FBA v0.2.96.77.</comment>

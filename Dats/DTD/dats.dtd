@@ -36,5 +36,6 @@
 <!ELEMENT revisions (revision+)>
 <!ELEMENT revision (date, comment)>
 
+<!ENTITY Generic "<dat_type path='Generic_Dats'>CMPro + RC3</dat_type>">
 <!ENTITY CMPro "<dat_type path='CMP_Dats'>CMPro</dat_type>">
-<!ENTITY ROMCenter "<dat_type path='RC_Dats'>ROMCenter</dat_type>">
+<!ENTITY ROMCenter "<dat_type path='RC_Dats'>ROMCenter 2</dat_type>">
