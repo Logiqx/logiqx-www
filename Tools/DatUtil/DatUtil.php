@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.37</title>
+    <title>DatUtil v2.38</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -74,9 +74,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil237.zip">DatUtil v2.37</a> (192KB)</p>
+          <p>Download <a href="dutil238.zip">DatUtil v2.38</a> (199KB)</p>
           <p>
-            <a href="dutil237.zip">
+            <a href="dutil238.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -88,6 +88,22 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>16 April 2008</b> - DatUtil v2.38</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.27.<br/>
+				- Fixed generation of url within CMPro datafiles (needs quotes).<br/>
+				- Added support for release information (mainly for console ROMs).<br/>
+				- Added release support to list+generic xml, listinfo, delimited.<br/>
+				- Added the &lt;release> element to the ROM Management Datafile DTD.<br/>
+				- Added support for Game Launcher and GameEx Map Files (untested).<br/>
+				- Added support for substring selections (within descriptions).<br/>
+				- Added the -S option for selections based on game descriptions.<br/>
+    			
+		</p>
     <p>
       <b>6 April 2008</b> - DatUtil v2.37</p>
     <p>

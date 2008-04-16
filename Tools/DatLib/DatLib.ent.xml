@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.26</version>
+	<version>v2.27</version>
 	<status>Updated</status>
-	<date>06/04/2008</date>
+	<date>16/04/2008</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,24 @@
 
 	<downloads>
 		<download>
-			<file name="datlib226.zip" size="102"/>
+			<file name="datlib227.zip" size="104"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>16 April 2008</date>
+			<version>v2.27</version>
+			<comment>
+				- Fixed generation of url within CMPro datafiles (needs quotes).<br/>
+				- Added support for release information (mainly for console ROMs).<br/>
+				- Added release support to list+generic xml, listinfo, delimited.<br/>
+				- Added the &lt;release&gt; element to the ROM Management Datafile DTD.<br/>
+				- Added support for Game Launcher and GameEx Map Files (untested).<br/>
+				- Added support for substring selections (within descriptions).<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>6 April 2008</date>
 			<version>v2.26</version>

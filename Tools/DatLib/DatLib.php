@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.26</title>
+    <title>DatLib v2.27</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib226.zip">DatLib v2.26</a> (102KB)</p>
+          <p>Download <a href="datlib227.zip">DatLib v2.27</a> (104KB)</p>
           <p>
-            <a href="datlib226.zip">
+            <a href="datlib227.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,20 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>16 April 2008</b> - DatLib v2.27</p>
+    <p>
+			
+			
+			
+				- Fixed generation of url within CMPro datafiles (needs quotes).<br/>
+				- Added support for release information (mainly for console ROMs).<br/>
+				- Added release support to list+generic xml, listinfo, delimited.<br/>
+				- Added the &lt;release> element to the ROM Management Datafile DTD.<br/>
+				- Added support for Game Launcher and GameEx Map Files (untested).<br/>
+				- Added support for substring selections (within descriptions).<br/>
+    			
+		</p>
     <p>
       <b>6 April 2008</b> - DatLib v2.26</p>
     <p>
