@@ -1,6 +1,6 @@
 @ECHO OFF
 
-CALL cvspurge
+REM CALL cvspurge
 CALL cvsadd
 
 PAUSE
