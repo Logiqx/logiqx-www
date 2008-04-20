@@ -12,8 +12,8 @@ DEL "AAE.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "AAE %AAE_VER% (cm).zip" "AAE %AAE_VER%*"
-mv "AAE %AAE_VER% (cm).zip" "%LOGIQX%/WWW/Dats/AAE/."
+zip "AAE %AAE_VER% (xml).zip" "AAE %AAE_VER%*"
+mv "AAE %AAE_VER% (xml).zip" "%LOGIQX%/WWW/Dats/AAE/."
 
 REM --- Move to RomCenter directory
 
