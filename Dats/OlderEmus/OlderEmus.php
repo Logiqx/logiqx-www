@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Older Emus 20080401</title>
+    <title>Older Emus 20080420</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="OlderEmus.png" width="140" height="40" alt="OlderEmus.png"/>
     </p>
-	<p>Thousands of games for Older Emus 20080401</p>
+	<p>Thousands of games for Older Emus 20080420</p>
 	
 	
 	
@@ -46,17 +46,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Older%20Emus%2020080401%20(cm).zip">Older Emus dat for CMPro</a> (1237KB)</p>
+          <p>Download <a href="Older%20Emus%2020080420%20(xml).zip">Older Emus dat for CMPro + RC3</a> (1267KB)</p>
           <p>
-            <a href="Older%20Emus%2020080401%20(cm).zip">
+            <a href="Older%20Emus%2020080420%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Older%20Emus%2020080401%20(rc).zip">Older Emus dat for ROMCenter 2</a> (529KB)</p>
+          <p>Download <a href="Older%20Emus%2020080420%20(rc).zip">Older Emus dat for ROMCenter 2</a> (529KB)</p>
           <p>
-            <a href="Older%20Emus%2020080401%20(rc).zip">
+            <a href="Older%20Emus%2020080420%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>20 April 2008</b> - 
+			
+			Now using Generic XML for CMPro + RC3.
+		</p>
     <p>
       <b>1 April 2008</b> - 
 			

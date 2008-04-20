@@ -12,8 +12,8 @@ DEL "OlderEmus.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "Older Emus %OLDEREMUS_VER% (cm).zip" Multi/* Single/* Sound/* Notes.html
-mv "Older Emus %OLDEREMUS_VER% (cm).zip" "%LOGIQX%/WWW/Dats/OlderEmus/."
+zip "Older Emus %OLDEREMUS_VER% (xml).zip" Multi/* Single/* Sound/* Notes.html
+mv "Older Emus %OLDEREMUS_VER% (xml).zip" "%LOGIQX%/WWW/Dats/OlderEmus/."
 
 REM --- Move to RomCenter directory
 

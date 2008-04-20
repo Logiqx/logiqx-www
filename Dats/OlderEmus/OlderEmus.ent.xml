@@ -2,10 +2,10 @@
 <emulator id="OlderEmus">
 	<img src="OlderEmus.png" width="140" height="40"/>
 	<name>Older Emus</name>
-	<version>20080401</version>
+	<version>20080420</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>01/04/2008</date>
+	<date>20/04/2008</date>
 	<games>Thousands of</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,15 +14,19 @@
 	</comment>
 	<dats>
 		<dat>
-			&CMPro;
-			<file name="Older%20Emus%2020080401%20(cm).zip" size="1237"/>
+			&Generic;
+			<file name="Older%20Emus%2020080420%20(xml).zip" size="1267"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Older%20Emus%2020080401%20(rc).zip" size="529"/>
+			<file name="Older%20Emus%2020080420%20(rc).zip" size="529"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>20 April 2008</date>
+			<comment>Now using Generic XML for CMPro + RC3.</comment>
+		</revision>
 		<revision>
 			<date>1 April 2008</date>
 			<comment>Added Hornet r060215. Added XORs for avspa (Calice v0.6.6). Added color prom information for sheriff (Laser v0.20a).<br/>Added forcenodump to various data files, changed forcezipping to forcepacking and added full headers.</comment>

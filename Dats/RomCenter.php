@@ -108,7 +108,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="OlderEmus/Older%20Emus%2020080401%20(rc).zip"><b>Older Emus</b></a></td><td>20080401</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>01/04/2008</td></tr>
+					</b></td><td><a href="OlderEmus/Older%20Emus%2020080420%20(rc).zip"><b>Older Emus</b></a></td><td>20080420</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Thousands of</td><td>20/04/2008</td></tr>
 
 		</table>
 	
@@ -121,17 +121,17 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>System</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="CPS-1/CPS-1%2020080325%20(rc).zip"><b>CPS-1</b></a></td><td>20080325</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>123</td><td>25/03/2008</td></tr>
+					</b></td><td><a href="CPS-1/CPS-1%2020080325%20(rc).zip"><b>CPS-1</b></a></td><td>20080325</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>123</td><td>20/04/2008</td></tr>
 
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="CPS-2/CPS-2%2020080325%20(rc).zip"><b>CPS-2</b></a></td><td>20080325</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>202</td><td>25/03/2008</td></tr>
+					</b></td><td><a href="CPS-2/CPS-2%2020080325%20(rc).zip"><b>CPS-2</b></a></td><td>20080325</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>202</td><td>20/04/2008</td></tr>
 
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="Neo-Geo/Neo-Geo%2020080325%20(rc).zip"><b>Neo-Geo</b></a></td><td>20080325</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>267</td><td>25/03/2008</td></tr>
+					</b></td><td><a href="Neo-Geo/Neo-Geo%2020080325%20(rc).zip"><b>Neo-Geo</b></a></td><td>20080325</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>267</td><td>20/04/2008</td></tr>
 
 		</table>
 	
