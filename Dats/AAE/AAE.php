@@ -44,15 +44,15 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="AAE%20Beta%201%20Update%205%20(cm).zip">AAE (Another Arcade Emulator) dat for CMPro</a> (15KB)</p>
+          <p>Download <a href="AAE%20Beta%201%20Update%205%20(xml).zip">AAE (Another Arcade Emulator) dat for CMPro + RC3</a> (15KB)</p>
           <p>
-            <a href="AAE%20Beta%201%20Update%205%20(cm).zip">
+            <a href="AAE%20Beta%201%20Update%205%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="AAE%20Beta%201%20Update%205%20(rc).zip">AAE (Another Arcade Emulator) dat for ROMCenter</a> (6KB)</p>
+          <p>Download <a href="AAE%20Beta%201%20Update%205%20(rc).zip">AAE (Another Arcade Emulator) dat for ROMCenter 2</a> (6KB)</p>
           <p>
             <a href="AAE%20Beta%201%20Update%205%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -65,6 +65,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>20 April 2008</b> - 
+			
+			Now using Generic XML for CMPro + RC3.
+		</p>
     <p>
       <b>17 March 2008</b> - 
 			

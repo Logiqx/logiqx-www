@@ -12,8 +12,8 @@ DEL "WinKawaks.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "WinKawaks %WINKAWAKS_VER% (cm).zip" "WinKawaks %WINKAWAKS_VER%*"
-mv "WinKawaks %WINKAWAKS_VER% (cm).zip" "%LOGIQX%/WWW/Dats/WinKawaks/."
+zip "WinKawaks %WINKAWAKS_VER% (xml).zip" "WinKawaks %WINKAWAKS_VER%*"
+mv "WinKawaks %WINKAWAKS_VER% (xml).zip" "%LOGIQX%/WWW/Dats/WinKawaks/."
 
 REM --- Move to RomCenter directory
 

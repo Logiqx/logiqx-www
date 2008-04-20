@@ -45,15 +45,15 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="RAINE%20v0.50.8%20(cm).zip">RAINE dat for CMPro</a> (223KB)</p>
+          <p>Download <a href="RAINE%20v0.50.8%20(xml).zip">RAINE dat for CMPro + RC3</a> (222KB)</p>
           <p>
-            <a href="RAINE%20v0.50.8%20(cm).zip">
+            <a href="RAINE%20v0.50.8%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="RAINE%20v0.50.8%20(rc).zip">RAINE dat for ROMCenter</a> (83KB)</p>
+          <p>Download <a href="RAINE%20v0.50.8%20(rc).zip">RAINE dat for ROMCenter 2</a> (83KB)</p>
           <p>
             <a href="RAINE%20v0.50.8%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>20 April 2008</b> - 
+			
+			Now using Generic XML for CMPro + RC3.
+		</p>
     <p>
       <b>10 March 2008</b> - 
 			

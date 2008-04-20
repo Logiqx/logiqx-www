@@ -12,8 +12,8 @@ DEL "OldSpark C++.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "OldSpark C++ %OLDSPARK_C++_VER% (cm).zip" "OldSpark C++ %OLDSPARK_C++_VER%*"
-mv "OldSpark C++ %OLDSPARK_C++_VER% (cm).zip" "%LOGIQX%/WWW/Dats/OldSpark/."
+zip "OldSpark C++ %OLDSPARK_C++_VER% (xml).zip" "OldSpark C++ %OLDSPARK_C++_VER%*"
+mv "OldSpark C++ %OLDSPARK_C++_VER% (xml).zip" "%LOGIQX%/WWW/Dats/OldSpark/."
 
 REM --- Move to RomCenter directory
 

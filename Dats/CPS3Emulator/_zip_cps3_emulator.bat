@@ -12,8 +12,8 @@ DEL "Capcom Play System 3 Emulator.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "Capcom Play System 3 Emulator %CPS3_EMULATOR_VER% (cm).zip" "Capcom Play System 3 Emulator %CPS3_EMULATOR_VER%*"
-mv "Capcom Play System 3 Emulator %CPS3_EMULATOR_VER% (cm).zip" "%LOGIQX%/WWW/Dats/CPS3Emulator/."
+zip "Capcom Play System 3 Emulator %CPS3_EMULATOR_VER% (xml).zip" "Capcom Play System 3 Emulator %CPS3_EMULATOR_VER%*"
+mv "Capcom Play System 3 Emulator %CPS3_EMULATOR_VER% (xml).zip" "%LOGIQX%/WWW/Dats/CPS3Emulator/."
 
 REM --- Move to RomCenter directory
 

@@ -12,8 +12,8 @@ DEL "Nebula.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "Nebula %NEBULA_VER% (cm).zip" "Nebula %NEBULA_VER%*"
-mv "Nebula %NEBULA_VER% (cm).zip" "%LOGIQX%/WWW/Dats/Nebula/."
+zip "Nebula %NEBULA_VER% (xml).zip" "Nebula %NEBULA_VER%*"
+mv "Nebula %NEBULA_VER% (xml).zip" "%LOGIQX%/WWW/Dats/Nebula/."
 
 REM --- Move to RomCenter directory
 

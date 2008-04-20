@@ -4,7 +4,7 @@
 	<version>v1.0a</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>10/03/2008</date>
+	<date>20/04/2008</date>
 	<games>16</games>
 	<author href="http://various.ru/">neoforma</author>
 	<comment>
@@ -12,8 +12,8 @@
 	</comment>
 	<dats>
 		<dat>
-                        &CMPro;
-			<file name="Capcom%20Play%20System%203%20Emulator%20v1.0a%20(cm).zip" size="3"/>
+                        &Generic;
+			<file name="Capcom%20Play%20System%203%20Emulator%20v1.0a%20(xml).zip" size="4"/>
 		</dat>
 		<dat>
                         &ROMCenter;
@@ -21,6 +21,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>20 April 2008</date>
+			<comment>Now using Generic XML for CMPro + RC3.</comment>
+		</revision>
 		<revision>
 			<date>10 March 2008</date>
 			<comment>Just updated the header information and emulator version (1.0a).</comment>

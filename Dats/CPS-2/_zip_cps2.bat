@@ -12,8 +12,8 @@ DEL "CPS-2.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "CPS-2 %CPS2_VER% (cm).zip" "CPS-2 %CPS2_VER%*"
-mv "CPS-2 %CPS2_VER% (cm).zip" "%LOGIQX%/WWW/Dats/CPS-2/."
+zip "CPS-2 %CPS2_VER% (xml).zip" "CPS-2 %CPS2_VER%*"
+mv "CPS-2 %CPS2_VER% (xml).zip" "%LOGIQX%/WWW/Dats/CPS-2/."
 
 REM --- Move to RomCenter directory
 

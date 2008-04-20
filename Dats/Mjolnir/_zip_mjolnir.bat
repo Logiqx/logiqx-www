@@ -12,8 +12,8 @@ DEL "Mjolnir.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "Mjolnir %MJOLNIR_VER% (cm).zip" "Mjolnir %MJOLNIR_VER%*"
-mv "Mjolnir %MJOLNIR_VER% (cm).zip" "%LOGIQX%/WWW/Dats/Mjolnir/."
+zip "Mjolnir %MJOLNIR_VER% (xml).zip" "Mjolnir %MJOLNIR_VER%*"
+mv "Mjolnir %MJOLNIR_VER% (xml).zip" "%LOGIQX%/WWW/Dats/Mjolnir/."
 
 REM --- Move to RomCenter directory
 

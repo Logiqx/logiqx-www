@@ -54,7 +54,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="CPS-1%2020080325%20(rc).zip">CPS-1 dat for ROMCenter</a> (20KB)</p>
+          <p>Download <a href="CPS-1%2020080325%20(rc).zip">CPS-1 dat for ROMCenter 2</a> (20KB)</p>
           <p>
             <a href="CPS-1%2020080325%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>

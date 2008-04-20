@@ -12,8 +12,8 @@ DEL "Neo-Geo.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "Neo-Geo %NEOGEO_VER% (cm).zip" "Neo-Geo %NEOGEO_VER%*"
-mv "Neo-Geo %NEOGEO_VER% (cm).zip" "%LOGIQX%/WWW/Dats/Neo-Geo/."
+zip "Neo-Geo %NEOGEO_VER% (xml).zip" "Neo-Geo %NEOGEO_VER%*"
+mv "Neo-Geo %NEOGEO_VER% (xml).zip" "%LOGIQX%/WWW/Dats/Neo-Geo/."
 
 REM --- Move to RomCenter directory
 

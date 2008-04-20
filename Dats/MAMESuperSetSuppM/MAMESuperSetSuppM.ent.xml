@@ -4,7 +4,7 @@
 	<version>v0.124a</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>26/03/2008</date>
+	<date>20/04/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -13,8 +13,8 @@
 	</comment>
 	<dats>
 		<dat>
-			&CMPro;
-			<file name="MAME%20SuperSet%20v0.124a%20(Fully-merged%20MAME%20Supplement)%20(cm).zip" size="34"/>
+			&Generic;
+			<file name="MAME%20SuperSet%20v0.124a%20(Fully-merged%20MAME%20Supplement)%20(xml).zip" size="34"/>
 		</dat>
 		<dat>
 			&ROMCenter;
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>20 April 2008</date>
+			<comment>Now using Generic XML for CMPro + RC3.</comment>
+		</revision>
 		<revision>
 			<date>26 March 2008</date>
 			<comment>Renamed data files to MAME v0.124a.</comment>

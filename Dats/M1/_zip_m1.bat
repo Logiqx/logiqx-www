@@ -12,8 +12,8 @@ DEL "M1.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "M1 %M1_VER% (cm).zip" "M1 %M1_VER%*"
-mv "M1 %M1_VER% (cm).zip" "%LOGIQX%/WWW/Dats/M1/."
+zip "M1 %M1_VER% (xml).zip" "M1 %M1_VER%*"
+mv "M1 %M1_VER% (xml).zip" "%LOGIQX%/WWW/Dats/M1/."
 
 REM --- Move to RomCenter directory
 

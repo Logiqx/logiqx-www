@@ -5,7 +5,7 @@
 	<version>v2.25b</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>01/04/2008</date>
+	<date>20/04/2008</date>
 	<games>475</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -13,8 +13,8 @@
 	</comment>
 	<dats>
 		<dat>
-                        &CMPro;
-			<file name="Nebula%20v2.25b%20(cm).zip" size="151"/>
+                        &Generic;
+			<file name="Nebula%20v2.25b%20(xml).zip" size="151"/>
 		</dat>
 		<dat>
                         &ROMCenter;
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>20 April 2008</date>
+			<comment>Now using Generic XML for CMPro + RC3.</comment>
+		</revision>
 		<revision>
 			<date>1 April 2008</date>
 			<comment>Added full header information, including forcenodump. Changed forcezipping to forcepacking.</comment>

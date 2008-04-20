@@ -4,7 +4,7 @@
 	<version>v0.6</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>01/04/2008</date>
+	<date>20/04/2008</date>
 	<games>41</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -12,8 +12,8 @@
 	</comment>
 	<dats>
 		<dat>
-                        &CMPro;
-			<file name="SEGA%20Model%202%20Emulator%20v0.6%20(cm).zip" size="25"/>
+                        &Generic;
+			<file name="SEGA%20Model%202%20Emulator%20v0.6%20(xml).zip" size="25"/>
 		</dat>
 		<dat>
                         &ROMCenter;
@@ -21,6 +21,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>20 April 2008</date>
+			<comment>Now using Generic XML for CMPro + RC3.</comment>
+		</revision>
 		<revision>
 			<date>1 April 2008</date>
 			<comment>Added full header information. The rest of the content is unchanged though!</comment>

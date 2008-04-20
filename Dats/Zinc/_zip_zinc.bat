@@ -12,8 +12,8 @@ DEL "ZiNc.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "ZiNc %ZINC_VER% (cm).zip" "ZiNc %ZINC_VER%*"
-mv "ZiNc %ZINC_VER% (cm).zip" "%LOGIQX%/WWW/Dats/ZiNc/."
+zip "ZiNc %ZINC_VER% (xml).zip" "ZiNc %ZINC_VER%*"
+mv "ZiNc %ZINC_VER% (xml).zip" "%LOGIQX%/WWW/Dats/ZiNc/."
 
 REM --- Move to RomCenter directory
 

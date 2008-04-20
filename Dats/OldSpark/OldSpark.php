@@ -45,15 +45,15 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="OldSpark%20C++%2020071006%20(cm).zip">OldSpark C++ dat for CMPro</a> (6KB)</p>
+          <p>Download <a href="OldSpark%20C++%2020071006%20(xml).zip">OldSpark C++ dat for CMPro + RC3</a> (6KB)</p>
           <p>
-            <a href="OldSpark%20C++%2020071006%20(cm).zip">
+            <a href="OldSpark%20C++%2020071006%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="OldSpark%20C++%2020071006%20(rc).zip">OldSpark C++ dat for ROMCenter</a> (3KB)</p>
+          <p>Download <a href="OldSpark%20C++%2020071006%20(rc).zip">OldSpark C++ dat for ROMCenter 2</a> (3KB)</p>
           <p>
             <a href="OldSpark%20C++%2020071006%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>20 April 2008</b> - 
+			
+			Now using Generic XML for CMPro + RC3.
+		</p>
     <p>
       <b>1 April 2008</b> - 
 			

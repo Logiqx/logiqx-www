@@ -4,7 +4,7 @@
 	<version>Beta 1 Update 5</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>17/03/2008</date>
+	<date>20/04/2008</date>
 	<games>49</games>
 	<author href="http://various.ru/">neoforma</author>
 	<comment>
@@ -12,8 +12,8 @@
 	</comment>
 	<dats>
 		<dat>
-                        &CMPro;
-			<file name="AAE%20Beta%201%20Update%205%20(cm).zip" size="15"/>
+                        &Generic;
+			<file name="AAE%20Beta%201%20Update%205%20(xml).zip" size="15"/>
 		</dat>
 		<dat>
                         &ROMCenter;
@@ -22,10 +22,13 @@
 	</dats>
 	<revisions>
 		<revision>
+			<date>20 April 2008</date>
+			<comment>Now using Generic XML for CMPro + RC3.</comment>
+		</revision>
+		<revision>
 			<date>17 March 2008</date>
 			<comment>Added "forcenodump" to CMPro data file.</comment>
 		</revision>
-
 		<revision>
 			<date>10 January 2008</date>
 			<comment>Uploaded data files for the AAE Beta 1.</comment>

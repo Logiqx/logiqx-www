@@ -46,15 +46,15 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20v0.124a%20(cm).zip">MAME dat for CMPro</a> (2266KB)</p>
+          <p>Download <a href="MAME%20v0.124a%20(xml).zip">MAME dat for CMPro + RC3</a> (2268KB)</p>
           <p>
-            <a href="MAME%20v0.124a%20(cm).zip">
+            <a href="MAME%20v0.124a%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20v0.124a%20(rc).zip">MAME dat for ROMCenter</a> (989KB)</p>
+          <p>Download <a href="MAME%20v0.124a%20(rc).zip">MAME dat for ROMCenter 2</a> (989KB)</p>
           <p>
             <a href="MAME%20v0.124a%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>20 April 2008</b> - 
+			
+			Now using Generic XML for CMPro + RC3.
+		</p>
     <p>
       <b>26 March 2008</b> - 
 			

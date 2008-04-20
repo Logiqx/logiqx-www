@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="Neo-Geo%2020080325%20(rc).zip">Neo-Geo dat for ROMCenter</a> (54KB)</p>
+          <p>Download <a href="Neo-Geo%2020080325%20(rc).zip">Neo-Geo dat for ROMCenter 2</a> (54KB)</p>
           <p>
             <a href="Neo-Geo%2020080325%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>

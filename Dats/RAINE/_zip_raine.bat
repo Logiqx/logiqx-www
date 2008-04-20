@@ -12,8 +12,8 @@ DEL "RAINE.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "RAINE %RAINE_VER% (cm).zip" "RAINE %RAINE_VER%*"
-mv "RAINE %RAINE_VER% (cm).zip" "%LOGIQX%/WWW/Dats/RAINE/."
+zip "RAINE %RAINE_VER% (xml).zip" "RAINE %RAINE_VER%*"
+mv "RAINE %RAINE_VER% (xml).zip" "%LOGIQX%/WWW/Dats/RAINE/."
 
 REM --- Move to RomCenter directory
 

@@ -12,8 +12,8 @@ DEL "Daphne.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "Daphne %DAPHNE_VER% (cm).zip" "Daphne %DAPHNE_VER%*"
-mv "Daphne %DAPHNE_VER% (cm).zip" "%LOGIQX%/WWW/Dats/Daphne/."
+zip "Daphne %DAPHNE_VER% (xml).zip" "Daphne %DAPHNE_VER%*"
+mv "Daphne %DAPHNE_VER% (xml).zip" "%LOGIQX%/WWW/Dats/Daphne/."
 
 REM --- Move to RomCenter directory
 

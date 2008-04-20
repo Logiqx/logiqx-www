@@ -12,8 +12,8 @@ DEL "SEGA Model 2 Emulator.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "SEGA Model 2 Emulator %SEGA_MODEL_2_VER% (cm).zip" "SEGA Model 2 Emulator %SEGA_MODEL_2_VER%*"
-mv "SEGA Model 2 Emulator %SEGA_MODEL_2_VER% (cm).zip" "%LOGIQX%/WWW/Dats/SEGAModel2Emulator/."
+zip "SEGA Model 2 Emulator %SEGA_MODEL_2_VER% (xml).zip" "SEGA Model 2 Emulator %SEGA_MODEL_2_VER%*"
+mv "SEGA Model 2 Emulator %SEGA_MODEL_2_VER% (xml).zip" "%LOGIQX%/WWW/Dats/SEGAModel2Emulator/."
 
 REM --- Move to RomCenter directory
 
