@@ -1,5 +1,7 @@
 @ECHO OFF
 
+CALL _filelist.py
+
 IF NOT EXIST %LOGIQX%\WWW\Upload MKDIR %LOGIQX%\WWW\Upload
 IF NOT EXIST %LOGIQX%\WWW\Upload\all.zip GOTO MAKE_ZIP
 
