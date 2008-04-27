@@ -5,7 +5,7 @@
 .	news.php	3731
 .	robots.txt	0
 .	_archive_bit_clear.bat	133
-.	_filelist.py	1338
+.	_filelist.py	1340
 .	_filelist_compare.py	2330
 .	_prepare_upload.bat	603
 .\backup\cron	crontab.txt	167
@@ -405,11 +405,6 @@
 .\News\CVS	Entries	1559
 .\News\CVS	Repository	27
 .\News\CVS	Root	25
-.\pi	.htaccess	511
-.\pi	robots.txt	0
-.\pi\CVS	Entries	90
-.\pi\CVS	Repository	25
-.\pi\CVS	Root	25
 .\Resources	bg-logiqx.css	1581
 .\Resources	bg-pumpkin.css	1654
 .\Resources	bg-pumpkin.png	6289
@@ -597,8 +592,3 @@
 .\Video\DVD Decrypter Settings\CVS	Repository	51
 .\Video\DVD Decrypter Settings\CVS	Root	25
 .\Video\DVD Decrypter Settings\CVS	Root.tmp	0
-.\waagle	.htaccess	535
-.\waagle	robots.txt	0
-.\waagle\CVS	Entries	90
-.\waagle\CVS	Repository	29
-.\waagle\CVS	Root	25

@@ -19,9 +19,9 @@ ignoreDirs = \
 	# Subdomains
 	'./caesar',
 	'./forum',
-	'./mikegws'
+	'./mikegws',
 	'./pi',
-	'./rss'
+	'./rss',
 	'./waagle'
 ]
 
