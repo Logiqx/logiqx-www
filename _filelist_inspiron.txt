@@ -2,7 +2,7 @@
 .	error.php	2183
 .	favicon.ico	894
 .	index.php	1834
-.	news.php	3731
+.	news.php	3845
 .	robots.txt	0
 .	_archive_bit_clear.bat	133
 .	_filelist.py	1340
@@ -54,13 +54,13 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3302
-.\Dats	Dats.php	13772
+.\Dats	Dats.php	10675
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3053
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	992
+.\Dats	MAMESuperSet.zip	997
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
@@ -68,11 +68,11 @@
 .\Dats	RecentEmus.laptop.txt	546
 .\Dats	RecentEmus.png	2121
 .\Dats	RecentEmus.txt	534
-.\Dats	RecentEmus.zip	795
+.\Dats	RecentEmus.zip	796
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.inf	3833
-.\Dats	RomCenter.php	8131
+.\Dats	RomCenter.inf	3700
+.\Dats	RomCenter.php	8017
 .\Dats	RomCenter.xml	3028
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
@@ -84,7 +84,7 @@
 .\Dats	_rebuild_xml.bat	853
 .\Dats\AAE	AAE Beta 1 Update 5 (rc).zip	5653
 .\Dats\AAE	AAE Beta 1 Update 5 (xml).zip	15311
-.\Dats\AAE	AAE.ent.xml	1048
+.\Dats\AAE	AAE.ent.xml	1041
 .\Dats\AAE	AAE.php	2479
 .\Dats\AAE	AAE.png	4810
 .\Dats\AAE	AAE.xml	162
@@ -95,7 +95,7 @@
 .\Dats\AAE\CVS	Root	25
 .\Dats\CPS-1	CPS-1 20080325 (rc).zip	19818
 .\Dats\CPS-1	CPS-1 20080325 (xml).zip	39127
-.\Dats\CPS-1	CPS-1.ent.xml	8683
+.\Dats\CPS-1	CPS-1.ent.xml	8676
 .\Dats\CPS-1	CPS-1.php	8312
 .\Dats\CPS-1	CPS-1.png	1149
 .\Dats\CPS-1	CPS-1.xml	167
@@ -106,7 +106,7 @@
 .\Dats\CPS-1\CVS	Root	25
 .\Dats\CPS-2	CPS-2 20080325 (rc).zip	34029
 .\Dats\CPS-2	CPS-2 20080325 (xml).zip	61993
-.\Dats\CPS-2	CPS-2.ent.xml	19431
+.\Dats\CPS-2	CPS-2.ent.xml	19424
 .\Dats\CPS-2	CPS-2.php	17403
 .\Dats\CPS-2	CPS-2.png	1268
 .\Dats\CPS-2	CPS-2.xml	167
@@ -117,7 +117,7 @@
 .\Dats\CPS-2\CVS	Root	25
 .\Dats\CPS3Emulator	Capcom Play System 3 Emulator v1.0a (rc).zip	1458
 .\Dats\CPS3Emulator	Capcom Play System 3 Emulator v1.0a (xml).zip	3118
-.\Dats\CPS3Emulator	CPS3Emulator.ent.xml	1696
+.\Dats\CPS3Emulator	CPS3Emulator.ent.xml	1689
 .\Dats\CPS3Emulator	CPS3Emulator.php	3024
 .\Dats\CPS3Emulator	CPS3Emulator.png	4422
 .\Dats\CPS3Emulator	CPS3Emulator.xml	189
@@ -131,7 +131,7 @@
 .\Dats\CVS	Root	25
 .\Dats\Daphne	Daphne v0.99.7 (rc).zip	4549
 .\Dats\Daphne	Daphne v0.99.7 (xml).zip	11575
-.\Dats\Daphne	Daphne.ent.xml	2559
+.\Dats\Daphne	Daphne.ent.xml	2552
 .\Dats\Daphne	Daphne.php	3645
 .\Dats\Daphne	Daphne.png	1239
 .\Dats\Daphne	Daphne.xml	172
@@ -144,10 +144,10 @@
 .\Dats\DTD\CVS	Entries	45
 .\Dats\DTD\CVS	Repository	31
 .\Dats\DTD\CVS	Root	25
-.\Dats\FinalBurnAlpha	FBA v0.2.96.80 (rc).zip	212376
-.\Dats\FinalBurnAlpha	FBA v0.2.96.80 (xml).zip	436957
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	8515
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	8146
+.\Dats\FinalBurnAlpha	FBA v0.2.96.81 (rc).zip	216378
+.\Dats\FinalBurnAlpha	FBA v0.2.96.81 (xml).zip	445733
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	8619
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	8223
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.png	2202
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
@@ -157,7 +157,7 @@
 .\Dats\FinalBurnAlpha\CVS	Root	25
 .\Dats\M1	M1 v0.7.8a6 (rc).zip	84447
 .\Dats\M1	M1 v0.7.8a6 (xml).zip	203466
-.\Dats\M1	M1.ent.xml	8938
+.\Dats\M1	M1.ent.xml	8931
 .\Dats\M1	M1.php	8394
 .\Dats\M1	M1.png	691
 .\Dats\M1	M1.xml	160
@@ -168,7 +168,7 @@
 .\Dats\M1\CVS	Root	25
 .\Dats\Mjolnir	Mjolnir v0.3.1 (rc).zip	7891
 .\Dats\Mjolnir	Mjolnir v0.3.1 (xml).zip	20066
-.\Dats\Mjolnir	Mjolnir.ent.xml	1148
+.\Dats\Mjolnir	Mjolnir.ent.xml	1141
 .\Dats\Mjolnir	Mjolnir.php	2389
 .\Dats\Mjolnir	Mjolnir.png	1867
 .\Dats\Mjolnir	Mjolnir.xml	175
@@ -179,7 +179,7 @@
 .\Dats\Mjolnir\CVS	Root	25
 .\Dats\Nebula	Nebula v2.25b (rc).zip	73360
 .\Dats\Nebula	Nebula v2.25b (xml).zip	153802
-.\Dats\Nebula	Nebula.ent.xml	14833
+.\Dats\Nebula	Nebula.ent.xml	14826
 .\Dats\Nebula	Nebula.php	13173
 .\Dats\Nebula	Nebula.png	1219
 .\Dats\Nebula	Nebula.xml	172
@@ -190,7 +190,7 @@
 .\Dats\Nebula\CVS	Root	25
 .\Dats\Neo-Geo	Neo-Geo 20080325 (rc).zip	54863
 .\Dats\Neo-Geo	Neo-Geo 20080325 (xml).zip	92250
-.\Dats\Neo-Geo	Neo-Geo.ent.xml	12112
+.\Dats\Neo-Geo	Neo-Geo.ent.xml	12105
 .\Dats\Neo-Geo	Neo-Geo.php	11120
 .\Dats\Neo-Geo	Neo-Geo.png	1501
 .\Dats\Neo-Geo	Neo-Geo.xml	173
@@ -202,7 +202,7 @@
 .\Dats\OlderEmus	CMZIPContents.php	1129
 .\Dats\OlderEmus	Older Emus 20080420 (rc).zip	541018
 .\Dats\OlderEmus	Older Emus 20080420 (xml).zip	1297004
-.\Dats\OlderEmus	OlderEmus.ent.xml	7925
+.\Dats\OlderEmus	OlderEmus.ent.xml	7918
 .\Dats\OlderEmus	OlderEmus.php	8255
 .\Dats\OlderEmus	OlderEmus.png	1948
 .\Dats\OlderEmus	OlderEmus.xml	181
@@ -214,7 +214,7 @@
 .\Dats\OlderEmus\CVS	Root	25
 .\Dats\OldSpark	OldSpark C++ 20071006 (rc).zip	2404
 .\Dats\OldSpark	OldSpark C++ 20071006 (xml).zip	6056
-.\Dats\OldSpark	OldSpark.ent.xml	1189
+.\Dats\OldSpark	OldSpark.ent.xml	1182
 .\Dats\OldSpark	OldSpark.php	2445
 .\Dats\OldSpark	OldSpark.png	2777
 .\Dats\OldSpark	OldSpark.xml	178
@@ -225,7 +225,7 @@
 .\Dats\OldSpark\CVS	Root	25
 .\Dats\RAINE	RAINE v0.50.8 (rc).zip	84620
 .\Dats\RAINE	RAINE v0.50.8 (xml).zip	226837
-.\Dats\RAINE	RAINE.ent.xml	11387
+.\Dats\RAINE	RAINE.ent.xml	11380
 .\Dats\RAINE	RAINE.php	10416
 .\Dats\RAINE	RAINE.png	1339
 .\Dats\RAINE	RAINE.xml	169
@@ -236,7 +236,7 @@
 .\Dats\RAINE\CVS	Root	25
 .\Dats\SEGAModel2Emulator	SEGA Model 2 Emulator v0.6 (rc).zip	10458
 .\Dats\SEGAModel2Emulator	SEGA Model 2 Emulator v0.6 (xml).zip	25427
-.\Dats\SEGAModel2Emulator	SEGAModel2Emulator.ent.xml	4917
+.\Dats\SEGAModel2Emulator	SEGAModel2Emulator.ent.xml	4910
 .\Dats\SEGAModel2Emulator	SEGAModel2Emulator.php	5462
 .\Dats\SEGAModel2Emulator	SEGAModel2Emulator.png	3339
 .\Dats\SEGAModel2Emulator	SEGAModel2Emulator.xml	208
@@ -247,7 +247,7 @@
 .\Dats\SEGAModel2Emulator\CVS	Root	25
 .\Dats\WinKawaks	WinKawaks v1.59 (rc).zip	80664
 .\Dats\WinKawaks	WinKawaks v1.59 (xml).zip	162183
-.\Dats\WinKawaks	WinKawaks.ent.xml	10767
+.\Dats\WinKawaks	WinKawaks.ent.xml	10760
 .\Dats\WinKawaks	WinKawaks.php	9956
 .\Dats\WinKawaks	WinKawaks.png	1885
 .\Dats\WinKawaks	WinKawaks.xml	181
@@ -267,7 +267,7 @@
 .\Dats\XSL\CVS	Root	25
 .\Dats\Zinc	ZiNc v1.1 (rc).zip	8403
 .\Dats\Zinc	ZiNc v1.1 (xml).zip	18505
-.\Dats\Zinc	Zinc.ent.xml	2068
+.\Dats\Zinc	Zinc.ent.xml	2061
 .\Dats\Zinc	Zinc.php	3198
 .\Dats\Zinc	Zinc.png	761
 .\Dats\Zinc	Zinc.xml	166

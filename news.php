@@ -40,8 +40,15 @@
 					<p><img src="News/News.png" width="69" height="40" alt="News" /></p>
 
 					<?php
-						if (isset($_GET['page']) && $_GET['page']!='')
-							include ('News/News' . $_GET['page'] . '.txt');
+						// Include previous news page, if it exists
+						if (isset($_GET['page']))
+						{
+							$txt = 'News/News' . $_GET['page'] . '.txt';
+							if (is_readable($txt))
+							{
+								include ($txt);
+							}
+						}
 					?>
 
 					<hr />
