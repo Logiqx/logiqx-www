@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.27</title>
+    <title>DatLib v2.28</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib227.zip">DatLib v2.27</a> (104KB)</p>
+          <p>Download <a href="datlib228.zip">DatLib v2.28</a> (105KB)</p>
           <p>
-            <a href="datlib227.zip">
+            <a href="datlib228.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,17 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 May 2008</b> - DatLib v2.28</p>
+    <p>
+			
+			
+			
+				- Fixed parsing of listinfo comments.<br/>
+				- MAMEDiff -z option is inferred from 'forcenodump' (if present).<br/>
+				- Fixed de-duplication of "nodump" ROMs and disks for MAMEDiff.<br/>
+    			
+		</p>
     <p>
       <b>16 April 2008</b> - DatLib v2.27</p>
     <p>

@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.27</version>
+	<version>v2.28</version>
 	<status>Updated</status>
-	<date>16/04/2008</date>
+	<date>05/05/2008</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,21 @@
 
 	<downloads>
 		<download>
-			<file name="datlib227.zip" size="104"/>
+			<file name="datlib228.zip" size="105"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>5 May 2008</date>
+			<version>v2.28</version>
+			<comment>
+				- Fixed parsing of listinfo comments.<br/>
+				- MAMEDiff -z option is inferred from 'forcenodump' (if present).<br/>
+				- Fixed de-duplication of "nodump" ROMs and disks for MAMEDiff.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>16 April 2008</date>
 			<version>v2.27</version>

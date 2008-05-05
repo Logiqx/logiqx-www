@@ -3,9 +3,9 @@
 	<img src="MAMEDiff.png" width="123" height="40"/>
 
 	<name>MAMEDiff</name>
-	<version>v2.27</version>
-	<status></status>
-	<date>24/03/2008</date>
+	<version>v2.28</version>
+	<status>Updated</status>
+	<date>05/05/2008</date>
 
 	<description>Data file comparison tool</description>
 
@@ -15,11 +15,22 @@
 
 	<downloads>
 		<download>
-			<file name="mdiff227.zip" size="208"/>
+			<file name="mdiff228.zip" size="218"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>5 May 2008</date>
+			<version>v2.28</version>
+			<comment>
+				- Uses DatLib v2.28.<br/>
+				- Fixed parsing of listinfo comments.<br/>
+				- MAMEDiff -z option is inferred from 'forcenodump' (if present).<br/>
+				- Fixed de-duplication of "nodump" ROMs and disks for MAMEDiff.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>24 March 2008</date>
 			<version>v2.27</version>
