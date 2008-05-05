@@ -2,11 +2,11 @@
 <emulator id="MAMEBeta">
 	<img src="MAME.png" width="80" height="40"/>
 	<name>MAME</name>
-	<version>v0.124a</version>
+	<version>v0.125</version>
 	<suitability/>
-	<status></status>
-	<date>20/04/2008</date>
-	<games>6996</games>
+	<status>Updated</status>
+	<date>05/05/2008</date>
+	<games>7041</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Both dats were generated using DatUtil.</p>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="MAME%20v0.124a%20(xml).zip" size="2268"/>
+			<file name="MAME%20v0.125%20(xml).zip" size="2285"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20v0.124a%20(rc).zip" size="989"/>
+			<file name="MAME%20v0.125%20(rc).zip" size="996"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 May 2008</date>
+			<comment>Uploaded dats for MAME v0.125.</comment>
+		</revision>
 		<revision>
 			<date>20 April 2008</date>
 			<comment>Now using Generic XML for CMPro + RC3.</comment>

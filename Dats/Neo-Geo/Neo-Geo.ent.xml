@@ -2,11 +2,11 @@
 <emulator id="Neo-Geo">
 	<img src="Neo-Geo.png" width="108" height="40"/>
 	<name>Neo-Geo</name>
-	<version>20080325</version>
+	<version>20080505</version>
 	<suitability/>
-	<status></status>
-	<date>20/04/2008</date>
-	<games>267</games>
+	<status>Updated</status>
+	<date>05/05/2008</date>
+	<games>268</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>SNK Neo-Geo</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="Neo-Geo%2020080325%20(xml).zip" size="91"/>
+			<file name="Neo-Geo%2020080505%20(xml).zip" size="90"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Neo-Geo%2020080325%20(rc).zip" size="54"/>
+			<file name="Neo-Geo%2020080505%20(rc).zip" size="54"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 May 2008</date>
+			<comment>Updated to match MAME v0.125.</comment>
+		</revision>
 		<revision>
 			<date>20 April 2008</date>
 			<comment>Now using Generic XML for CMPro + RC3.</comment>

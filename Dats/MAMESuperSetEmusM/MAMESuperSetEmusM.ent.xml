@@ -1,10 +1,10 @@
 <emulator id="MAMESuperSetEmusM">
 	<img src="../VariousEmulators.png" width="219" height="40"/>
 	<name>Various Emulators (Fully-merged SuperSet Supplements)</name>
-	<version>v0.124a</version>
+	<version>v0.125</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>03/05/2008</date>
+	<date>05/05/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="Various%20Emulators%20v0.124a%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip" size="92"/>
+			<file name="Various%20Emulators%20v0.125%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip" size="94"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Various%20Emulators%20v0.124a%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip" size="55"/>
+			<file name="Various%20Emulators%20v0.125%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip" size="57"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>5 May 2008</date>
+			<comment>Uploaded dats for MAME v0.125.</comment>
+		</revision>
 		<revision>
 			<date>3 May 2008</date>
 			<comment>Updated for FBA v0.2.96.81.</comment>

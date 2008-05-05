@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>5 May 2008</b> - 
+			
+			Changed forcenodump to "required" for the NV files.
+		</p>
+    <p>
       <b>20 April 2008</b> - 
 			
 			Now using Generic XML for CMPro + RC3.

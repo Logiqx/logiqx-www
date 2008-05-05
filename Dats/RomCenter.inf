@@ -17,17 +17,17 @@ email=support@romcenter.com
 		
 		
 
-;MAME;v0.124a;6996;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.124a%20(rc).zip
+updated;MAME;v0.125;7041;Logiqx;http://www.logiqx.com;;05/05/2008;http://www.logiqx.com/Dats/MAMEBeta/MAME%20v0.125%20(rc).zip
 
-;MAME SuperSet;v0.124a;7040;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/MAMESuperSet/MAME%20SuperSet%20v0.124a%20(rc).zip
+updated;MAME SuperSet;v0.125;7085;Logiqx;http://www.logiqx.com;;05/05/2008;http://www.logiqx.com/Dats/MAMESuperSet/MAME%20SuperSet%20v0.125%20(rc).zip
 
-;MAME SuperSet (Fully-merged MAME Supplement);v0.124a;Non-MAME;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/MAMESuperSetSuppM/MAME%20SuperSet%20v0.124a%20(Fully-merged%20MAME%20Supplement)%20(rc).zip
+updated;MAME SuperSet (Fully-merged MAME Supplement);v0.125;Non-MAME;Logiqx;http://www.logiqx.com;;05/05/2008;http://www.logiqx.com/Dats/MAMESuperSetSuppM/MAME%20SuperSet%20v0.125%20(Fully-merged%20MAME%20Supplement)%20(rc).zip
 
-;MAME SuperSet (Split-merged MAME Supplement);v0.124a;Non-MAME;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/MAMESuperSetSuppS/MAME%20SuperSet%20v0.124a%20(Split-merged%20MAME%20Supplement)%20(rc).zip
+updated;MAME SuperSet (Split-merged MAME Supplement);v0.125;Non-MAME;Logiqx;http://www.logiqx.com;;05/05/2008;http://www.logiqx.com/Dats/MAMESuperSetSuppS/MAME%20SuperSet%20v0.125%20(Split-merged%20MAME%20Supplement)%20(rc).zip
 
-updated;Various Emulators (Fully-merged SuperSet Supplements);v0.124a;Non-MAME;Logiqx;http://www.logiqx.com;;03/05/2008;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.124a%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
+updated;Various Emulators (Fully-merged SuperSet Supplements);v0.125;Non-MAME;Logiqx;http://www.logiqx.com;;05/05/2008;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.125%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
 
-updated;Various Emulators (Split-merged SuperSet Supplements);v0.124a;Non-MAME;Logiqx;http://www.logiqx.com;;03/05/2008;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.124a%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
+updated;Various Emulators (Split-merged SuperSet Supplements);v0.125;Non-MAME;Logiqx;http://www.logiqx.com;;05/05/2008;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
 
 		
 	
@@ -51,13 +51,13 @@ updated;FBA;v0.2.96.81;1206;Logiqx;http://www.logiqx.com;;03/05/2008;http://www.
 ;Kawaks;v1.59;576;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.59%20(rc).zip
 
 
-;M1;v0.7.8a6;1454;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/M1/M1%20v0.7.8a6%20(rc).zip
+updated;M1;v0.7.8a6;1454;Logiqx;http://www.logiqx.com;;05/05/2008;http://www.logiqx.com/Dats/M1/M1%20v0.7.8a6%20(rc).zip
 
 
 ;Mjolnir;v0.3.1;27;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/Mjolnir/Mjolnir%20v0.3.1%20(rc).zip
 
 
-;Nebula;v2.25b;475;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.25b%20(rc).zip
+updated;Nebula;v2.25b;475;Logiqx;http://www.logiqx.com;;05/05/2008;http://www.logiqx.com/Dats/Nebula/Nebula%20v2.25b%20(rc).zip
 
 
 ;OldSpark C++;20071006;16;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/OldSpark/OldSpark%20C++%2020071006%20(rc).zip
@@ -90,13 +90,13 @@ updated;FBA;v0.2.96.81;1206;Logiqx;http://www.logiqx.com;;03/05/2008;http://www.
 			
 		
 		
-;CPS-1;20080325;123;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/CPS-1/CPS-1%2020080325%20(rc).zip
+updated;CPS-1;20080505;126;Logiqx;http://www.logiqx.com;;05/05/2008;http://www.logiqx.com/Dats/CPS-1/CPS-1%2020080505%20(rc).zip
 
 
-;CPS-2;20080325;202;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020080325%20(rc).zip
+updated;CPS-2;20080505;203;Logiqx;http://www.logiqx.com;;05/05/2008;http://www.logiqx.com/Dats/CPS-2/CPS-2%2020080505%20(rc).zip
 
 
-;Neo-Geo;20080325;267;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020080325%20(rc).zip
+updated;Neo-Geo;20080505;268;Logiqx;http://www.logiqx.com;;05/05/2008;http://www.logiqx.com/Dats/Neo-Geo/Neo-Geo%2020080505%20(rc).zip
 
 		
 	

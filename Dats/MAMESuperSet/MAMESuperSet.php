@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAME SuperSet v0.124a</title>
+    <title>MAME SuperSet v0.125</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="../MAMESuperSet.png" width="198" height="40" alt="../MAMESuperSet.png"/>
     </p>
-	<p>7040 games for MAME SuperSet v0.124a</p>
+	<p>7085 games for MAME SuperSet v0.125</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.124a%20(xml).zip">MAME SuperSet dat for CMPro + RC3</a> (2297KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.125%20(xml).zip">MAME SuperSet dat for CMPro + RC3</a> (2315KB)</p>
           <p>
-            <a href="MAME%20SuperSet%20v0.124a%20(xml).zip">
+            <a href="MAME%20SuperSet%20v0.125%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.124a%20(rc).zip">MAME SuperSet dat for ROMCenter 2</a> (1003KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.125%20(rc).zip">MAME SuperSet dat for ROMCenter 2</a> (1011KB)</p>
           <p>
-            <a href="MAME%20SuperSet%20v0.124a%20(rc).zip">
+            <a href="MAME%20SuperSet%20v0.125%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 May 2008</b> - 
+			
+			Uploaded dats for MAME v0.125.
+		</p>
     <p>
       <b>20 April 2008</b> - 
 			

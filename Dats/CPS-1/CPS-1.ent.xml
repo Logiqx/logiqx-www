@@ -1,11 +1,11 @@
 <emulator id="CPS-1">
 	<img src="CPS-1.png" width="77" height="40"/>
 	<name>CPS-1</name>
-	<version>20080325</version>
+	<version>20080505</version>
 	<suitability/>
-	<status></status>
-	<date>20/04/2008</date>
-	<games>123</games>
+	<status>Updated</status>
+	<date>05/05/2008</date>
+	<games>126</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 
 	<comment>
@@ -15,15 +15,19 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="CPS-1%2020080325%20(xml).zip" size="39"/>
+			<file name="CPS-1%2020080505%20(xml).zip" size="46"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-1%2020080325%20(rc).zip" size="20"/>
+			<file name="CPS-1%2020080505%20(rc).zip" size="22"/>
 		</dat>
 	</dats>
 
 	<revisions>
+		<revision>
+			<date>5 May 2008</date>
+			<comment>Updated to match MAME v0.125.</comment>
+		</revision>
 		<revision>
 			<date>20 April 2008</date>
 			<comment>Now using Generic XML for CMPro + RC3.</comment>
