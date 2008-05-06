@@ -65,9 +65,9 @@
 			
 			
 				- Uses DatLib v2.28.<br/>
-				- Fixed parsing of listinfo comments.<br/>
 				- MAMEDiff -z option is inferred from 'forcenodump' (if present).<br/>
 				- Fixed de-duplication of "nodump" ROMs and disks for MAMEDiff.<br/>
+				- Log file now shows the MAMEDiff version as well as the options.<br/>
     			
 		</p>
     <p>
