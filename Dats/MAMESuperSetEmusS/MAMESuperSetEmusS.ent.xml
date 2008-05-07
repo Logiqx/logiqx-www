@@ -4,7 +4,7 @@
 	<version>v0.125</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>05/05/2008</date>
+	<date>07/05/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip" size="96"/>
+			<file name="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip" size="97"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="57"/>
+			<file name="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="58"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>7 May 2008</date>
+			<comment>Fixed supplements for FBA so they now work with the emulator!</comment>
+		</revision>
 		<revision>
 			<date>5 May 2008</date>
 			<comment>Uploaded dats for MAME v0.125.</comment>
