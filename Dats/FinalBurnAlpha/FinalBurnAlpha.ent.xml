@@ -1,23 +1,27 @@
 <emulator id="FinalBurnAlpha">
 	<img src="FinalBurnAlpha.png" width="195" height="40"/>
 	<name>FBA</name>
-	<version>v0.2.96.81</version>
+	<version>v0.2.96.82</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>03/05/2008</date>
-	<games>1206</games>
+	<date>08/05/2008</date>
+	<games>1225</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
 		<dat>
 			&Generic;
-			<file name="FBA%20v0.2.96.81%20(xml).zip" size="436"/>
+			<file name="FBA%20v0.2.96.82%20(xml).zip" size="449"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="FBA%20v0.2.96.81%20(rc).zip" size="212"/>
+			<file name="FBA%20v0.2.96.82%20(rc).zip" size="217"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>8 May 2008</date>
+			<comment>Updated for FBA v0.2.96.82.</comment>
+		</revision>
 		<revision>
 			<date>3 May 2008</date>
 			<comment>Updated for FBA v0.2.96.81.</comment>

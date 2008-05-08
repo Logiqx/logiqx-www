@@ -4,7 +4,7 @@
 	<version>v0.125</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>07/05/2008</date>
+	<date>08/05/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -23,6 +23,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>8 May 2008</date>
+			<comment>Updated for FBA v0.2.96.82.</comment>
+		</revision>
 		<revision>
 			<date>7 May 2008</date>
 			<comment>Fixed supplements for FBA so they now work with the emulator!</comment>

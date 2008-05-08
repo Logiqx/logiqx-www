@@ -68,6 +68,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>8 May 2008</b> - 
+			
+			Updated for FBA v0.2.96.82.
+		</p>
+    <p>
       <b>7 May 2008</b> - 
 			
 			Fixed supplements for FBA so they now work with the emulator!

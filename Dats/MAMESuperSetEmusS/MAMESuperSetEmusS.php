@@ -46,7 +46,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro + RC3</a> (97KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro + RC3</a> (95KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -54,7 +54,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter 2</a> (58KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter 2</a> (57KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>8 May 2008</b> - 
+			
+			Updated for FBA v0.2.96.82.
+		</p>
     <p>
       <b>7 May 2008</b> - 
 			

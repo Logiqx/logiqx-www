@@ -150,7 +150,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>07/05/2008</b>
+            <b>08/05/2008</b>
           </p>
         </td>
         <td>
@@ -171,7 +171,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>07/05/2008</b>
+            <b>08/05/2008</b>
           </p>
         </td>
         <td>
@@ -254,7 +254,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="FinalBurnAlpha/">FBA v0.2.96.81</a>
+          <a href="FinalBurnAlpha/">FBA v0.2.96.82</a>
         </td>
         <td>
           <p>
@@ -263,12 +263,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>03/05/2008</b>
+            <b>08/05/2008</b>
           </p>
         </td>
         <td>
           <p>
-            <b>1206</b>
+            <b>1225</b>
           </p>
         </td>
       </tr>
