@@ -7,7 +7,12 @@ import os, platform
 ignoreDirs = \
 [
 	# Non-synchronised directories
+	'./forum',
+	'./rss',
 	'./team/download',
+	# Subdomains that are under separate control
+	'./caesar',
+	'./mikegws'
 	# Data files that need to be kept
 	'./Dats/MAMEBeta',
 	'./Dats/MAMESuperSet',
@@ -15,13 +20,6 @@ ignoreDirs = \
 	'./Dats/MAMESuperSetEmusS',
 	'./Dats/MAMESuperSetSuppM',
 	'./Dats/MAMESuperSetSuppS',
-	# Subdomains
-	'./caesar',
-	'./forum',
-	'./mikegws',
-	'./pi',
-	'./rss',
-	'./waagle'
 ]
 
 # Use the machine name (node) as part of the filename
