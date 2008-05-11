@@ -93,7 +93,7 @@
 
 			<tr>
         <td>
-          <a href="MAMEDiff/">MAMEDiff v2.28</a>
+          <a href="MAMEDiff/">MAMEDiff v2.29</a>
         </td>
         <td>Data file comparison tool</td>
         <td>
@@ -103,7 +103,7 @@
         </td>
         <td>
           <p>
-            <strong>05/05/2008</strong>
+            <strong>11/05/2008</strong>
           </p>
         </td>
       </tr>

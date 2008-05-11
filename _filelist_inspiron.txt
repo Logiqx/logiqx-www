@@ -58,7 +58,7 @@
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	994
+.\Dats	MAMESuperSet.zip	995
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
@@ -66,7 +66,7 @@
 .\Dats	RecentEmus.laptop.txt	546
 .\Dats	RecentEmus.png	2121
 .\Dats	RecentEmus.txt	534
-.\Dats	RecentEmus.zip	788
+.\Dats	RecentEmus.zip	790
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
 .\Dats	RomCenter.inf	3751
@@ -142,10 +142,10 @@
 .\Dats\DTD\CVS	Entries	45
 .\Dats\DTD\CVS	Repository	31
 .\Dats\DTD\CVS	Root	25
-.\Dats\FinalBurnAlpha	FBA v0.2.96.81 (rc).zip	216378
-.\Dats\FinalBurnAlpha	FBA v0.2.96.81 (xml).zip	445733
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	8619
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	8223
+.\Dats\FinalBurnAlpha	FBA v0.2.96.82 (rc).zip	221212
+.\Dats\FinalBurnAlpha	FBA v0.2.96.82 (xml).zip	458783
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	8723
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	8300
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.png	2202
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
@@ -515,13 +515,14 @@
 .\Tools\ImgChk\CVS	Entries	238
 .\Tools\ImgChk\CVS	Repository	35
 .\Tools\ImgChk\CVS	Root	25
-.\Tools\MAMEDiff	MAMEDiff.ent.xml	19654
-.\Tools\MAMEDiff	MAMEDiff.php	19154
+.\Tools\MAMEDiff	MAMEDiff.ent.xml	19840
+.\Tools\MAMEDiff	MAMEDiff.php	19314
 .\Tools\MAMEDiff	MAMEDiff.png	2002
 .\Tools\MAMEDiff	MAMEDiff.xml	179
 .\Tools\MAMEDiff	MAMEMAME.png	8243
-.\Tools\MAMEDiff	mdiff228.zip	222386
-.\Tools\MAMEDiff\CVS	Entries	294
+.\Tools\MAMEDiff	mdiff229.zip	222732
+.\Tools\MAMEDiff\CVS	Entries	338
+.\Tools\MAMEDiff\CVS	mdiff229.zip,t	0
 .\Tools\MAMEDiff\CVS	Repository	37
 .\Tools\MAMEDiff\CVS	Root	25
 .\Tools\ROMBuild	rbmame80.zip	52512

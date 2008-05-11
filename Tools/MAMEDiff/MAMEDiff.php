@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAMEDiff v2.28</title>
+    <title>MAMEDiff v2.29</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="mdiff228.zip">MAMEDiff v2.28</a> (218KB)</p>
+          <p>Download <a href="mdiff229.zip">MAMEDiff v2.29</a> (218KB)</p>
           <p>
-            <a href="mdiff228.zip">
+            <a href="mdiff229.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,15 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 May 2008</b> - MAMEDiff v2.29</p>
+    <p>
+			
+			
+			
+				- Added the -x option for Final Burn and FBA. Use it with -d1.<br/>
+    			
+		</p>
     <p>
       <b>5 May 2008</b> - MAMEDiff v2.28</p>
     <p>

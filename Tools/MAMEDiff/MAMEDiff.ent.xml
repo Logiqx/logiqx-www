@@ -3,9 +3,9 @@
 	<img src="MAMEDiff.png" width="123" height="40"/>
 
 	<name>MAMEDiff</name>
-	<version>v2.28</version>
+	<version>v2.29</version>
 	<status>Updated</status>
-	<date>05/05/2008</date>
+	<date>11/05/2008</date>
 
 	<description>Data file comparison tool</description>
 
@@ -15,11 +15,19 @@
 
 	<downloads>
 		<download>
-			<file name="mdiff228.zip" size="218"/>
+			<file name="mdiff229.zip" size="218"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>5 May 2008</date>
+			<version>v2.29</version>
+			<comment>
+				- Added the -x option for Final Burn and FBA. Use it with -d1.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>5 May 2008</date>
 			<version>v2.28</version>
