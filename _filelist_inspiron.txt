@@ -25,7 +25,7 @@
 .\cgi-bin\CVS	Entries	96
 .\cgi-bin\CVS	Repository	26
 .\cgi-bin\CVS	Root	25
-.\CVS	Entries	762
+.\CVS	Entries	778
 .\CVS	Repository	22
 .\CVS	Root	25
 .\DatFAQs	CMPro.php	11736
@@ -521,8 +521,7 @@
 .\Tools\MAMEDiff	MAMEDiff.xml	179
 .\Tools\MAMEDiff	MAMEMAME.png	8243
 .\Tools\MAMEDiff	mdiff229.zip	222732
-.\Tools\MAMEDiff\CVS	Entries	338
-.\Tools\MAMEDiff\CVS	mdiff229.zip,t	0
+.\Tools\MAMEDiff\CVS	Entries	294
 .\Tools\MAMEDiff\CVS	Repository	37
 .\Tools\MAMEDiff\CVS	Root	25
 .\Tools\ROMBuild	rbmame80.zip	52512
