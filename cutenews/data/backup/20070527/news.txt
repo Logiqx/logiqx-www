@@ -1,0 +1,4 @@
+1180285179|logiqx|SEGA Model 2 Emulator v0.5|I have released data files for the latest version of ElSemi's <a href="Dats">SEGA Model 2 Emulator</a> (v0.5).|||1||
+1178476125|logiqx|MAME v0.115|I have released the <a href="Dats">data files</a> related to todays release - MAME v0.115.|||1||
+1178134315|logiqx|RAINE v0.50.4|I have uploaded data files for yesterdays release of <a href="Dats">RAINE v0.50.4</a>.|||1||
+1177614691|logiqx|CuteNews|I have decided to start using CuteNews at Logiqx.com so there is now an RSS Feed.<br /><br />The URL for the RSS feed can be obtained from the icon below.|||1|||

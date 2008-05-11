@@ -1,0 +1,8 @@
+# Do not allow directory browsing
+
+Options All -Indexes +ExecCGI
+
+# Switch rewrite engine on
+
+RewriteEngine Off
+
