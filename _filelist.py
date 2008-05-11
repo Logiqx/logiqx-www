@@ -7,7 +7,6 @@ import os, platform
 ignoreDirs = \
 [
 	# Non-synchronised directories
-	'./cutenews',
 	'./team/download',
 	# Data files that need to be kept
 	'./Dats/MAMEBeta',
