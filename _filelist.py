@@ -12,7 +12,7 @@ ignoreDirs = \
 	'./team/download',
 	# Subdomains that are under separate control
 	'./caesar',
-	'./mikegws'
+	'./mikegws',
 	# Data files that need to be kept
 	'./Dats/MAMEBeta',
 	'./Dats/MAMESuperSet',

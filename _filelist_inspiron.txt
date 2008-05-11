@@ -5,7 +5,7 @@
 .	news.php	3845
 .	robots.txt	0
 .	_archive_bit_clear.bat	133
-.	_filelist.py	1335
+.	_filelist.py	1336
 .	_filelist_compare.py	2373
 .	_prepare_upload.bat	603
 .\backup\cron	crontab.txt	167
@@ -349,18 +349,6 @@
 .\Dats\M1\CVS	Entries	388
 .\Dats\M1\CVS	Repository	30
 .\Dats\M1\CVS	Root	25
-.\Dats\MAMEBeta	MAME v0.125 (rc).zip	1019342
-.\Dats\MAMEBeta	MAME v0.125 (xml).zip	2339690
-.\Dats\MAMEBeta	MAME.png	1395
-.\Dats\MAMEBeta	MAMEBeta.ent.xml	12027
-.\Dats\MAMEBeta	MAMEBeta.php	10794
-.\Dats\MAMEBeta	MAMEBeta.xml	178
-.\Dats\MAMEBeta	MAMEBetaHistory.php	1703
-.\Dats\MAMEBeta	_cvs_purge_add.bat	48
-.\Dats\MAMEBeta	_zip_mame_beta.bat	663
-.\Dats\MAMEBeta\CVS	Entries	468
-.\Dats\MAMEBeta\CVS	Repository	36
-.\Dats\MAMEBeta\CVS	Root	25
 .\Dats\Mjolnir	Mjolnir v0.3.1 (rc).zip	7891
 .\Dats\Mjolnir	Mjolnir v0.3.1 (xml).zip	20066
 .\Dats\Mjolnir	Mjolnir.ent.xml	1141
