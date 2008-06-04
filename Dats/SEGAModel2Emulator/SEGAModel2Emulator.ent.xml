@@ -1,11 +1,11 @@
 <emulator id="SEGAModel2Emulator">
 	<img src="SEGAModel2Emulator.png" width="290" height="40"/>
 	<name>SEGA Model 2 Emulator</name>
-	<version>v0.6</version>
+	<version>v0.7</version>
 	<suitability></suitability>
-	<status></status>
-	<date>20/04/2008</date>
-	<games>41</games>
+	<status>Updated</status>
+	<date>04/06/2008</date>
+	<games>42</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Emulates Sega Model 2A/2B/2C CRX games.</p>
@@ -13,14 +13,18 @@
 	<dats>
 		<dat>
                         &Generic;
-			<file name="SEGA%20Model%202%20Emulator%20v0.6%20(xml).zip" size="25"/>
+			<file name="SEGA%20Model%202%20Emulator%20v0.7%20(xml).zip" size="26"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-			<file name="SEGA%20Model%202%20Emulator%20v0.6%20(rc).zip" size="11"/>
+			<file name="SEGA%20Model%202%20Emulator%20v0.7%20(rc).zip" size="11"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>4 June 2008</date>
+			<comment>Updated to match SEGA Model 2 Emulator v0.7 (added model2 and waverunn).</comment>
+		</revision>
 		<revision>
 			<date>20 April 2008</date>
 			<comment>Now using Generic XML for CMPro + RC3.</comment>

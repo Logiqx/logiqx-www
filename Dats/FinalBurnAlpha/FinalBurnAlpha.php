@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>FBA v0.2.96.82</title>
+    <title>FBA v0.2.96.83</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="FinalBurnAlpha.png" width="195" height="40" alt="FinalBurnAlpha.png"/>
     </p>
-	<p>1225 games for FBA v0.2.96.82</p>
+	<p>1265 games for FBA v0.2.96.83</p>
 	
 	
 	
@@ -41,17 +41,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="FBA%20v0.2.96.82%20(xml).zip">FBA dat for CMPro + RC3</a> (449KB)</p>
+          <p>Download <a href="FBA%20v0.2.96.83%20(xml).zip">FBA dat for CMPro + RC3</a> (462KB)</p>
           <p>
-            <a href="FBA%20v0.2.96.82%20(xml).zip">
+            <a href="FBA%20v0.2.96.83%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="FBA%20v0.2.96.82%20(rc).zip">FBA dat for ROMCenter 2</a> (217KB)</p>
+          <p>Download <a href="FBA%20v0.2.96.83%20(rc).zip">FBA dat for ROMCenter 2</a> (222KB)</p>
           <p>
-            <a href="FBA%20v0.2.96.82%20(rc).zip">
+            <a href="FBA%20v0.2.96.83%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -62,6 +62,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>4 June 2008</b> - 
+			
+			Updated for FBA v0.2.96.83.
+		</p>
     <p>
       <b>8 May 2008</b> - 
 			
