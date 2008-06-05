@@ -44,7 +44,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.7%20(xml).zip">SEGA Model 2 Emulator dat for CMPro + RC3</a> (26KB)</p>
+          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.7%20(xml).zip">SEGA Model 2 Emulator dat for CMPro + RC3</a> (27KB)</p>
           <p>
             <a href="SEGA%20Model%202%20Emulator%20v0.7%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -52,7 +52,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.7%20(rc).zip">SEGA Model 2 Emulator dat for ROMCenter 2</a> (11KB)</p>
+          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.7%20(rc).zip">SEGA Model 2 Emulator dat for ROMCenter 2</a> (12KB)</p>
           <p>
             <a href="SEGA%20Model%202%20Emulator%20v0.7%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -65,6 +65,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>5 June 2008</b> - 
+			
+			Added ROMs that were missing from the release yesterday.
+		</p>
     <p>
       <b>4 June 2008</b> - 
 			

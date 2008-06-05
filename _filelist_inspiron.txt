@@ -237,13 +237,13 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3302
-.\Dats	Dats.php	12136
+.\Dats	Dats.php	10981
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3053
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	995
+.\Dats	MAMESuperSet.zip	1003
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
@@ -251,11 +251,11 @@
 .\Dats	RecentEmus.laptop.txt	546
 .\Dats	RecentEmus.png	2121
 .\Dats	RecentEmus.txt	534
-.\Dats	RecentEmus.zip	790
+.\Dats	RecentEmus.zip	791
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.inf	3751
-.\Dats	RomCenter.php	8059
+.\Dats	RomCenter.inf	3704
+.\Dats	RomCenter.php	8019
 .\Dats	RomCenter.xml	3028
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
@@ -278,7 +278,7 @@
 .\Dats\AAE\CVS	Root	25
 .\Dats\CPS-1	CPS-1 20080505 (rc).zip	22417
 .\Dats\CPS-1	CPS-1 20080505 (xml).zip	46667
-.\Dats\CPS-1	CPS-1.ent.xml	8789
+.\Dats\CPS-1	CPS-1.ent.xml	8782
 .\Dats\CPS-1	CPS-1.php	8391
 .\Dats\CPS-1	CPS-1.png	1149
 .\Dats\CPS-1	CPS-1.xml	167
@@ -289,7 +289,7 @@
 .\Dats\CPS-1\CVS	Root	25
 .\Dats\CPS-2	CPS-2 20080505 (rc).zip	34153
 .\Dats\CPS-2	CPS-2 20080505 (xml).zip	62156
-.\Dats\CPS-2	CPS-2.ent.xml	19537
+.\Dats\CPS-2	CPS-2.ent.xml	19530
 .\Dats\CPS-2	CPS-2.php	17482
 .\Dats\CPS-2	CPS-2.png	1268
 .\Dats\CPS-2	CPS-2.xml	167
@@ -327,10 +327,10 @@
 .\Dats\DTD\CVS	Entries	45
 .\Dats\DTD\CVS	Repository	31
 .\Dats\DTD\CVS	Root	25
-.\Dats\FinalBurnAlpha	FBA v0.2.96.82 (rc).zip	221212
-.\Dats\FinalBurnAlpha	FBA v0.2.96.82 (xml).zip	458783
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	8723
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	8300
+.\Dats\FinalBurnAlpha	FBA v0.2.96.83 (rc).zip	227216
+.\Dats\FinalBurnAlpha	FBA v0.2.96.83 (xml).zip	472177
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	8828
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	8378
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.png	2202
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
@@ -340,7 +340,7 @@
 .\Dats\FinalBurnAlpha\CVS	Root	25
 .\Dats\M1	M1 v0.7.8a6 (rc).zip	84446
 .\Dats\M1	M1 v0.7.8a6 (xml).zip	203470
-.\Dats\M1	M1.ent.xml	9066
+.\Dats\M1	M1.ent.xml	9059
 .\Dats\M1	M1.php	8495
 .\Dats\M1	M1.png	691
 .\Dats\M1	M1.xml	160
@@ -362,7 +362,7 @@
 .\Dats\Mjolnir\CVS	Root	25
 .\Dats\Nebula	Nebula v2.25b (rc).zip	73358
 .\Dats\Nebula	Nebula v2.25b (xml).zip	153774
-.\Dats\Nebula	Nebula.ent.xml	14981
+.\Dats\Nebula	Nebula.ent.xml	14974
 .\Dats\Nebula	Nebula.php	13294
 .\Dats\Nebula	Nebula.png	1219
 .\Dats\Nebula	Nebula.xml	172
@@ -373,7 +373,7 @@
 .\Dats\Nebula\CVS	Root	25
 .\Dats\Neo-Geo	Neo-Geo 20080505 (rc).zip	55020
 .\Dats\Neo-Geo	Neo-Geo 20080505 (xml).zip	91941
-.\Dats\Neo-Geo	Neo-Geo.ent.xml	12218
+.\Dats\Neo-Geo	Neo-Geo.ent.xml	12211
 .\Dats\Neo-Geo	Neo-Geo.php	11199
 .\Dats\Neo-Geo	Neo-Geo.png	1501
 .\Dats\Neo-Geo	Neo-Geo.xml	173
@@ -406,21 +406,21 @@
 .\Dats\OldSpark\CVS	Entries	432
 .\Dats\OldSpark\CVS	Repository	36
 .\Dats\OldSpark\CVS	Root	25
-.\Dats\RAINE	RAINE v0.50.8 (rc).zip	84620
-.\Dats\RAINE	RAINE v0.50.8 (xml).zip	226837
-.\Dats\RAINE	RAINE.ent.xml	11380
-.\Dats\RAINE	RAINE.php	10416
+.\Dats\RAINE	RAINE v0.50.13 (rc).zip	84722
+.\Dats\RAINE	RAINE v0.50.13 (xml).zip	227007
+.\Dats\RAINE	RAINE.ent.xml	11492
+.\Dats\RAINE	RAINE.php	10477
 .\Dats\RAINE	RAINE.png	1339
 .\Dats\RAINE	RAINE.xml	169
 .\Dats\RAINE	_cvs_purge_add.bat	48
 .\Dats\RAINE	_zip_raine.bat	628
-.\Dats\RAINE\CVS	Entries	407
+.\Dats\RAINE\CVS	Entries	409
 .\Dats\RAINE\CVS	Repository	33
 .\Dats\RAINE\CVS	Root	25
-.\Dats\SEGAModel2Emulator	SEGA Model 2 Emulator v0.6 (rc).zip	10458
-.\Dats\SEGAModel2Emulator	SEGA Model 2 Emulator v0.6 (xml).zip	25427
-.\Dats\SEGAModel2Emulator	SEGAModel2Emulator.ent.xml	4910
-.\Dats\SEGAModel2Emulator	SEGAModel2Emulator.php	5462
+.\Dats\SEGAModel2Emulator	SEGA Model 2 Emulator v0.7 (rc).zip	11485
+.\Dats\SEGAModel2Emulator	SEGA Model 2 Emulator v0.7 (xml).zip	26905
+.\Dats\SEGAModel2Emulator	SEGAModel2Emulator.ent.xml	5201
+.\Dats\SEGAModel2Emulator	SEGAModel2Emulator.php	5692
 .\Dats\SEGAModel2Emulator	SEGAModel2Emulator.png	3339
 .\Dats\SEGAModel2Emulator	SEGAModel2Emulator.xml	208
 .\Dats\SEGAModel2Emulator	_cvs_purge_add.bat	48

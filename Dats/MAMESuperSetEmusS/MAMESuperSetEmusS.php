@@ -68,6 +68,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>5 June 2008</b> - 
+			
+			Added ROMs that were missing from SEGA Model 2 Emulator yesterday.
+		</p>
+    <p>
       <b>4 June 2008</b> - 
 			
 			Updated for FBA v0.2.96.83, RAINE v0.50.13 and SEGA Model 2 Emulator v0.7.
