@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.29</title>
+    <title>DatUtil v2.39</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -74,7 +74,7 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil239.zip">DatUtil v2.29</a> (199KB)</p>
+          <p>Download <a href="dutil239.zip">DatUtil v2.39</a> (199KB)</p>
           <p>
             <a href="dutil239.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>

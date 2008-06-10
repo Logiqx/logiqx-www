@@ -67,7 +67,7 @@
 
 			<tr>
         <td>
-          <a href="DatUtil/">DatUtil v2.29</a>
+          <a href="DatUtil/">DatUtil v2.39</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
