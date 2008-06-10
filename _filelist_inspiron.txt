@@ -243,7 +243,7 @@
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	1003
+.\Dats	MAMESuperSet.zip	999
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
@@ -251,7 +251,7 @@
 .\Dats	RecentEmus.laptop.txt	546
 .\Dats	RecentEmus.png	2121
 .\Dats	RecentEmus.txt	534
-.\Dats	RecentEmus.zip	791
+.\Dats	RecentEmus.zip	790
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
 .\Dats	RomCenter.inf	3704
@@ -820,11 +820,11 @@
 .\Tools\CVS	Entries	392
 .\Tools\CVS	Repository	28
 .\Tools\CVS	Root	25
-.\Tools\DatLib	DatLib.ent.xml	17307
-.\Tools\DatLib	DatLib.php	17065
+.\Tools\DatLib	DatLib.ent.xml	17477
+.\Tools\DatLib	DatLib.php	17207
 .\Tools\DatLib	DatLib.png	1150
 .\Tools\DatLib	DatLib.xml	173
-.\Tools\DatLib	datlib228.zip	106718
+.\Tools\DatLib	datlib229.zip	106813
 .\Tools\DatLib\CVS	dlib10.zip,t	0
 .\Tools\DatLib\CVS	dlib19.zip,t	0
 .\Tools\DatLib\CVS	Entries	238
@@ -832,11 +832,11 @@
 .\Tools\DatLib\CVS	Root	25
 .\Tools\DatUtil	CMProRC.png	11264
 .\Tools\DatUtil	Compatibility.xml	954
-.\Tools\DatUtil	DatUtil.ent.xml	33568
-.\Tools\DatUtil	DatUtil.php	32341
+.\Tools\DatUtil	DatUtil.ent.xml	33822
+.\Tools\DatUtil	DatUtil.php	32561
 .\Tools\DatUtil	DatUtil.png	1379
 .\Tools\DatUtil	DatUtil.xml	176
-.\Tools\DatUtil	dutil238.zip	202822
+.\Tools\DatUtil	dutil239.zip	203331
 .\Tools\DatUtil\CVS	Entries	340
 .\Tools\DatUtil\CVS	Repository	36
 .\Tools\DatUtil\CVS	Root	25
@@ -852,7 +852,7 @@
 .\Tools\ImgChk\CVS	Entries	238
 .\Tools\ImgChk\CVS	Repository	35
 .\Tools\ImgChk\CVS	Root	25
-.\Tools\MAMEDiff	MAMEDiff.ent.xml	19840
+.\Tools\MAMEDiff	MAMEDiff.ent.xml	19833
 .\Tools\MAMEDiff	MAMEDiff.php	19314
 .\Tools\MAMEDiff	MAMEDiff.png	2002
 .\Tools\MAMEDiff	MAMEDiff.xml	179
