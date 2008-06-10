@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.28</version>
+	<version>v2.29</version>
 	<status>Updated</status>
-	<date>05/05/2008</date>
+	<date>10/06/2008</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,19 @@
 
 	<downloads>
 		<download>
-			<file name="datlib228.zip" size="105"/>
+			<file name="datlib229.zip" size="105"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>10 June 2008</date>
+			<version>v2.29</version>
+			<comment>
+				- Added warning when forcenodump is missing.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>5 May 2008</date>
 			<version>v2.28</version>
