@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.38</title>
+    <title>DatUtil v2.29</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -74,9 +74,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil238.zip">DatUtil v2.38</a> (199KB)</p>
+          <p>Download <a href="dutil239.zip">DatUtil v2.29</a> (199KB)</p>
           <p>
-            <a href="dutil238.zip">
+            <a href="dutil239.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -88,6 +88,17 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>10 June 2008</b> - DatUtil v2.39</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.29.<br/>
+				- Fixed parsing of listinfo comments.<br/>
+				- Added warning when forcenodump is missing.<br/>
+    			
+		</p>
     <p>
       <b>16 April 2008</b> - DatUtil v2.38</p>
     <p>
