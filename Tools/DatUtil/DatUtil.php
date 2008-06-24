@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.39</title>
+    <title>DatUtil v2.40</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -74,9 +74,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil239.zip">DatUtil v2.39</a> (199KB)</p>
+          <p>Download <a href="dutil240.zip">DatUtil v2.40</a> (200KB)</p>
           <p>
-            <a href="dutil239.zip">
+            <a href="dutil240.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -88,6 +88,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>24 June 2008</b> - DatUtil v2.40</p>
+    <p>
+			
+			
+			
+				 - Uses DatLib v2.30.<br/>
+				 - Added XML entity support to generic XML headers (when saving).<br/>
+    			
+		</p>
     <p>
       <b>10 June 2008</b> - DatUtil v2.39</p>
     <p>
@@ -426,7 +436,7 @@
 				- Can identify listinfo files even if they only contain resources. <br/>
 				- The 'remove clones' option will retain the original dat format. <br/>
 				- Fixed a crash caused by empty selection files (the '@' syntax). <br/>
-				- Saving a RomCenter datafile will now report an error if the '' <br/>
+				- Saving a RomCenter datafile will now report an error if the delimiter <br/>
 				symbol is used in the game or ROM details (i.e. the dat is bad). <br/>
 				- Changed the error messages that are given when files are missing. <br/>
 				- Changed the command line help a little bit (explanation of -!). <br/>

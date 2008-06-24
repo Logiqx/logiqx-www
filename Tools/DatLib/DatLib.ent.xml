@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.29</version>
+	<version>v2.30</version>
 	<status>Updated</status>
-	<date>10/06/2008</date>
+	<date>24/06/2008</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,19 @@
 
 	<downloads>
 		<download>
-			<file name="datlib229.zip" size="105"/>
+			<file name="datlib230.zip" size="105"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>24 June 2008</date>
+			<version>v2.30</version>
+			<comment>
+				 - Added XML entity support to generic XML headers (when saving).<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>10 June 2008</date>
 			<version>v2.29</version>

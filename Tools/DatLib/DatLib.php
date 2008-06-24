@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.29</title>
+    <title>DatLib v2.30</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib229.zip">DatLib v2.29</a> (105KB)</p>
+          <p>Download <a href="datlib230.zip">DatLib v2.30</a> (105KB)</p>
           <p>
-            <a href="datlib229.zip">
+            <a href="datlib230.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,15 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>24 June 2008</b> - DatLib v2.30</p>
+    <p>
+			
+			
+			
+				 - Added XML entity support to generic XML headers (when saving).<br/>
+    			
+		</p>
     <p>
       <b>10 June 2008</b> - DatLib v2.29</p>
     <p>
