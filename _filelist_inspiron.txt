@@ -44,7 +44,7 @@
 .\cutenews\data	auto_archive.db.php	0
 .\cutenews\data	cat.num.php	1
 .\cutenews\data	category.db.php	16
-.\cutenews\data	comments.txt	168
+.\cutenews\data	comments.txt	210
 .\cutenews\data	config.php	1324
 .\cutenews\data	Default.tpl	2184
 .\cutenews\data	flood.db.php	0
@@ -52,7 +52,7 @@
 .\cutenews\data	index.html	117
 .\cutenews\data	ipban.db.php	0
 .\cutenews\data	Logiqx.tpl	1653
-.\cutenews\data	news.txt	2517
+.\cutenews\data	news.txt	3170
 .\cutenews\data	postponed_news.txt	0
 .\cutenews\data	rss.tpl	564
 .\cutenews\data	rss_config.php	186
@@ -820,11 +820,11 @@
 .\Tools\CVS	Entries	392
 .\Tools\CVS	Repository	28
 .\Tools\CVS	Root	25
-.\Tools\DatLib	DatLib.ent.xml	17477
-.\Tools\DatLib	DatLib.php	17207
+.\Tools\DatLib	DatLib.ent.xml	17668
+.\Tools\DatLib	DatLib.php	17370
 .\Tools\DatLib	DatLib.png	1150
 .\Tools\DatLib	DatLib.xml	173
-.\Tools\DatLib	datlib229.zip	106813
+.\Tools\DatLib	datlib230.zip	106701
 .\Tools\DatLib\CVS	dlib10.zip,t	0
 .\Tools\DatLib\CVS	dlib19.zip,t	0
 .\Tools\DatLib\CVS	Entries	238
@@ -832,11 +832,11 @@
 .\Tools\DatLib\CVS	Root	25
 .\Tools\DatUtil	CMProRC.png	11264
 .\Tools\DatUtil	Compatibility.xml	954
-.\Tools\DatUtil	DatUtil.ent.xml	33822
-.\Tools\DatUtil	DatUtil.php	32561
+.\Tools\DatUtil	DatUtil.ent.xml	34046
+.\Tools\DatUtil	DatUtil.php	32763
 .\Tools\DatUtil	DatUtil.png	1379
 .\Tools\DatUtil	DatUtil.xml	176
-.\Tools\DatUtil	dutil239.zip	203331
+.\Tools\DatUtil	dutil240.zip	204538
 .\Tools\DatUtil\CVS	Entries	340
 .\Tools\DatUtil\CVS	Repository	36
 .\Tools\DatUtil\CVS	Root	25
@@ -901,6 +901,7 @@
 .\Tools\ZIPIdent\CVS	Entries	246
 .\Tools\ZIPIdent\CVS	Repository	37
 .\Tools\ZIPIdent\CVS	Root	25
+.\upload	all.zip	354927
 .\upload	_upload.bat	166
 .\upload\CVS	Entries	48
 .\upload\CVS	Repository	29

@@ -352,8 +352,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.7</a>
-        </td>
+          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.7</a> (suitable for v0.7a)</td>
         <td>
           <p>
             <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>

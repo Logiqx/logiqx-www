@@ -29,7 +29,7 @@
 	<p>
       <img src="SEGAModel2Emulator.png" width="290" height="40" alt="SEGAModel2Emulator.png"/>
     </p>
-	<p>42 games for SEGA Model 2 Emulator v0.7</p>
+	<p>42 games for SEGA Model 2 Emulator v0.7<br/>(suitable for v0.7a)</p>
 	
 	
 	
