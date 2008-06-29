@@ -3,9 +3,9 @@
 	<img src="DatUtil.png" width="81" height="40"/>
 
 	<name>DatUtil</name>
-	<version>v2.40</version>
+	<version>v2.41</version>
 	<status>Updated</status>
-	<date>24/06/2008</date>
+	<date>29/06/2008</date>
 
 	<description>Data file creation/conversion tool</description>
 
@@ -42,11 +42,20 @@
 
 	<downloads>
 		<download>
-			<file name="dutil240.zip" size="200"/>
+			<file name="dutil241.zip" size="201"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>29 June 2008</date>
+			<version>v2.41</version>
+			<comment>
+				 - Uses DatLib v2.31.<br/>
+				 - Added support for &amp;apos; in the XML formats.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>24 June 2008</date>
 			<version>v2.40</version>
