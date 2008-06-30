@@ -335,9 +335,7 @@
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
 .\Dats\FinalBurnAlpha	_zip_fba.bat	610
-.\Dats\FinalBurnAlpha\CVS	Entries	553
-.\Dats\FinalBurnAlpha\CVS	FBA v0.2.96.85 (rc).zip,t	0
-.\Dats\FinalBurnAlpha\CVS	FBA v0.2.96.85 (xml).zip,t	0
+.\Dats\FinalBurnAlpha\CVS	Entries	443
 .\Dats\FinalBurnAlpha\CVS	Repository	42
 .\Dats\FinalBurnAlpha\CVS	Root	25
 .\Dats\M1	M1 v0.7.8a6 (rc).zip	84446
@@ -416,9 +414,7 @@
 .\Dats\RAINE	RAINE.xml	169
 .\Dats\RAINE	_cvs_purge_add.bat	48
 .\Dats\RAINE	_zip_raine.bat	628
-.\Dats\RAINE\CVS	Entries	519
-.\Dats\RAINE\CVS	RAINE v0.50.14 (rc).zip,t	0
-.\Dats\RAINE\CVS	RAINE v0.50.14 (xml).zip,t	0
+.\Dats\RAINE\CVS	Entries	409
 .\Dats\RAINE\CVS	Repository	33
 .\Dats\RAINE\CVS	Root	25
 .\Dats\SEGAModel2Emulator	SEGA Model 2 Emulator v0.7 (rc).zip	11485

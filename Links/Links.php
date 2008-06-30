@@ -47,7 +47,18 @@
 					</table>
 
 					<p></p>
+					<p>If you would like a frontend / GUI for DatUtil and MAMEDiff:</p>
 
+					<table class="links">
+					  <tr>
+					    <td><a href="http://www.emulab.it"><img src="emulab_small.jpg" width="110" height="60" alt="EMUlab Scan" /></a></td>
+					  </tr>
+					  <tr>
+					    <td>Dat Workshop Pro by Simone.</td>
+					  </tr>
+					</table>
+
+					<p></p>
 					<p>There are some alternative ROM management tools that you might
 					also like to try...</p>
 
