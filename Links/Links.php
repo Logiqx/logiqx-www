@@ -51,7 +51,7 @@
 
 					<table class="links">
 					  <tr>
-					    <td><a href="http://www.emulab.it"><img src="emulab_small.jpg" width="110" height="60" alt="EMUlab Scan" /></a></td>
+					    <td><a href="http://www.emulab.it"><img src="emulab_small.jpg" width="110" height="60" alt="EMUlab" /></a></td>
 					  </tr>
 					  <tr>
 					    <td>Dat Workshop Pro by Simone.</td>
