@@ -4,7 +4,7 @@
 	<version>v0.125</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>05/06/2008</date>
+	<date>30/06/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip" size="97"/>
+			<file name="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip" size="105"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="58"/>
+			<file name="Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="61"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>30 June 2008</date>
+			<comment>Updated for FBA v0.2.96.85 and RAINE v0.50.14.</comment>
+		</revision>
 		<revision>
 			<date>5 June 2008</date>
 			<comment>Added ROMs that were missing from SEGA Model 2 Emulator yesterday.</comment>

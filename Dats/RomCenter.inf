@@ -25,9 +25,9 @@ email=support@romcenter.com
 
 ;MAME SuperSet (Split-merged MAME Supplement);v0.125;Non-MAME;Logiqx;http://www.logiqx.com;;05/05/2008;http://www.logiqx.com/Dats/MAMESuperSetSuppS/MAME%20SuperSet%20v0.125%20(Split-merged%20MAME%20Supplement)%20(rc).zip
 
-updated;Various Emulators (Fully-merged SuperSet Supplements);v0.125;Non-MAME;Logiqx;http://www.logiqx.com;;05/06/2008;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.125%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
+updated;Various Emulators (Fully-merged SuperSet Supplements);v0.125;Non-MAME;Logiqx;http://www.logiqx.com;;30/06/2008;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.125%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
 
-updated;Various Emulators (Split-merged SuperSet Supplements);v0.125;Non-MAME;Logiqx;http://www.logiqx.com;;05/06/2008;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
+updated;Various Emulators (Split-merged SuperSet Supplements);v0.125;Non-MAME;Logiqx;http://www.logiqx.com;;30/06/2008;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
 
 		
 	
@@ -45,7 +45,7 @@ updated;Various Emulators (Split-merged SuperSet Supplements);v0.125;Non-MAME;Lo
 
 ;Daphne;v0.99.7;61;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/Daphne/Daphne%20v0.99.7%20(rc).zip
 
-updated;FBA;v0.2.96.83;1265;Logiqx;http://www.logiqx.com;;04/06/2008;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.96.83%20(rc).zip
+updated;FBA;v0.2.96.85;1306;Logiqx;http://www.logiqx.com;;30/06/2008;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.96.85%20(rc).zip
 
 
 ;Kawaks;v1.59;576;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.59%20(rc).zip
@@ -63,9 +63,9 @@ updated;FBA;v0.2.96.83;1265;Logiqx;http://www.logiqx.com;;04/06/2008;http://www.
 ;OldSpark C++;20071006;16;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/OldSpark/OldSpark%20C++%2020071006%20(rc).zip
 
 
-updated;RAINE;v0.50.13;577;Logiqx;http://www.logiqx.com;;04/06/2008;http://www.logiqx.com/Dats/RAINE/RAINE%20v0.50.13%20(rc).zip
+updated;RAINE;v0.50.14;578;Logiqx;http://www.logiqx.com;;30/06/2008;http://www.logiqx.com/Dats/RAINE/RAINE%20v0.50.14%20(rc).zip
 
-updated;SEGA Model 2 Emulator;v0.7;42;Logiqx;http://www.logiqx.com;;05/06/2008;http://www.logiqx.com/Dats/SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.7%20(rc).zip
+;SEGA Model 2 Emulator;v0.7;42;Logiqx;http://www.logiqx.com;;05/06/2008;http://www.logiqx.com/Dats/SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.7%20(rc).zip
 
 ;ZiNc;v1.1;71;Logiqx;http://www.logiqx.com;;20/04/2008;http://www.logiqx.com/Dats/Zinc/ZiNc%20v1.1%20(rc).zip
 

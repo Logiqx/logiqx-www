@@ -126,7 +126,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>05/06/2008</b>
+            <b>30/06/2008</b>
           </p>
         </td>
         <td>
@@ -147,7 +147,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>05/06/2008</b>
+            <b>30/06/2008</b>
           </p>
         </td>
         <td>
@@ -230,7 +230,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="FinalBurnAlpha/">FBA v0.2.96.83</a>
+          <a href="FinalBurnAlpha/">FBA v0.2.96.85</a>
         </td>
         <td>
           <p>
@@ -239,12 +239,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>04/06/2008</b>
+            <b>30/06/2008</b>
           </p>
         </td>
         <td>
           <p>
-            <b>1265</b>
+            <b>1306</b>
           </p>
         </td>
       </tr>
@@ -331,7 +331,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RAINE/">RAINE v0.50.13</a>
+          <a href="RAINE/">RAINE v0.50.14</a>
         </td>
         <td>
           <p>
@@ -340,33 +340,27 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>04/06/2008</b>
+            <b>30/06/2008</b>
           </p>
         </td>
         <td>
           <p>
-            <b>577</b>
+            <b>578</b>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.7</a> (suitable for v0.7a)</td>
+          <a href="SEGAModel2Emulator/">SEGA Model 2 Emulator v0.7</a> (suitable for v0.8a)</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>05/06/2008</b>
-          </p>
+          <p>05/06/2008</p>
         </td>
         <td>
-          <p>
-            <b>42</b>
-          </p>
+          <p>42</p>
         </td>
       </tr>
 

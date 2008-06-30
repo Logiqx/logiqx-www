@@ -26,11 +26,11 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.125%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.125</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>05/06/2008</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.125%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.125</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>30/06/2008</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.125</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>05/06/2008</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.125%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.125</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>30/06/2008</td></tr>
 
 		</table>
 	
@@ -56,7 +56,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.83%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.83</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1265</td><td>04/06/2008</td></tr>
+					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.85%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.85</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1306</td><td>30/06/2008</td></tr>
 
 
 <tr><td class="status"><b>
@@ -86,10 +86,10 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="RAINE/RAINE%20v0.50.13%20(rc).zip"><b>RAINE</b></a></td><td>v0.50.13</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>577</td><td>04/06/2008</td></tr>
+					</b></td><td><a href="RAINE/RAINE%20v0.50.14%20(rc).zip"><b>RAINE</b></a></td><td>v0.50.14</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>578</td><td>30/06/2008</td></tr>
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.7%20(rc).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.7</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>42</td><td>05/06/2008</td></tr>
 
 <tr><td class="status"><b>
