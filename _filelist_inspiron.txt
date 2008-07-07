@@ -2,7 +2,7 @@
 .	error.php	2183
 .	favicon.ico	894
 .	index.php	1834
-.	news.php	3845
+.	news.php	3903
 .	robots.txt	0
 .	_archive_bit_clear.bat	133
 .	_filelist.py	1336
@@ -44,7 +44,7 @@
 .\cutenews\data	auto_archive.db.php	0
 .\cutenews\data	cat.num.php	1
 .\cutenews\data	category.db.php	16
-.\cutenews\data	comments.txt	210
+.\cutenews\data	comments.txt	0
 .\cutenews\data	config.php	1324
 .\cutenews\data	Default.tpl	2184
 .\cutenews\data	flood.db.php	0
@@ -52,7 +52,7 @@
 .\cutenews\data	index.html	117
 .\cutenews\data	ipban.db.php	0
 .\cutenews\data	Logiqx.tpl	1653
-.\cutenews\data	news.txt	3170
+.\cutenews\data	news.txt	0
 .\cutenews\data	postponed_news.txt	0
 .\cutenews\data	rss.tpl	564
 .\cutenews\data	rss_config.php	186
@@ -62,6 +62,8 @@
 .\cutenews\data\archives	1199211494.news.arch	5421
 .\cutenews\data\archives	1207085101.comments.arch	140
 .\cutenews\data\archives	1207085101.news.arch	1647
+.\cutenews\data\archives	1215466172.comments.arch	252
+.\cutenews\data\archives	1215466172.news.arch	3598
 .\cutenews\data\archives	index.htm	117
 .\cutenews\data\archives\CVS	Entries	270
 .\cutenews\data\archives\CVS	Repository	28
@@ -237,13 +239,13 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3302
-.\Dats	Dats.php	10830
+.\Dats	Dats.php	11971
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3053
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	1008
+.\Dats	MAMESuperSet.zip	987
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
@@ -251,16 +253,16 @@
 .\Dats	RecentEmus.laptop.txt	546
 .\Dats	RecentEmus.png	2121
 .\Dats	RecentEmus.txt	534
-.\Dats	RecentEmus.zip	790
+.\Dats	RecentEmus.zip	796
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.inf	3697
-.\Dats	RomCenter.php	8013
+.\Dats	RomCenter.inf	3746
+.\Dats	RomCenter.php	8055
 .\Dats	RomCenter.xml	3028
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
 .\Dats	Systems.txt	100
-.\Dats	Systems.zip	504
+.\Dats	Systems.zip	503
 .\Dats	VariousEmulators.png	3158
 .\Dats	_rebuild_all.bat	55
 .\Dats	_rebuild_all.mak	1597
@@ -276,26 +278,30 @@
 .\Dats\AAE\CVS	Entries	403
 .\Dats\AAE\CVS	Repository	31
 .\Dats\AAE\CVS	Root	25
-.\Dats\CPS-1	CPS-1 20080505 (rc).zip	22417
-.\Dats\CPS-1	CPS-1 20080505 (xml).zip	46667
-.\Dats\CPS-1	CPS-1.ent.xml	8782
-.\Dats\CPS-1	CPS-1.php	8391
+.\Dats\CPS-1	CPS-1 20080707 (rc).zip	23750
+.\Dats\CPS-1	CPS-1 20080707 (xml).zip	50018
+.\Dats\CPS-1	CPS-1.ent.xml	8896
+.\Dats\CPS-1	CPS-1.php	8471
 .\Dats\CPS-1	CPS-1.png	1149
 .\Dats\CPS-1	CPS-1.xml	167
 .\Dats\CPS-1	_cvs_purge_add.bat	48
 .\Dats\CPS-1	_zip_cps1.bat	625
-.\Dats\CPS-1\CVS	Entries	408
+.\Dats\CPS-1\CVS	CPS-1 20080707 (rc).zip,t	0
+.\Dats\CPS-1\CVS	CPS-1 20080707 (xml).zip,t	0
+.\Dats\CPS-1\CVS	Entries	518
 .\Dats\CPS-1\CVS	Repository	33
 .\Dats\CPS-1\CVS	Root	25
-.\Dats\CPS-2	CPS-2 20080505 (rc).zip	34153
-.\Dats\CPS-2	CPS-2 20080505 (xml).zip	62156
-.\Dats\CPS-2	CPS-2.ent.xml	19530
-.\Dats\CPS-2	CPS-2.php	17482
+.\Dats\CPS-2	CPS-2 20080707 (rc).zip	34312
+.\Dats\CPS-2	CPS-2 20080707 (xml).zip	62348
+.\Dats\CPS-2	CPS-2.ent.xml	19644
+.\Dats\CPS-2	CPS-2.php	17562
 .\Dats\CPS-2	CPS-2.png	1268
 .\Dats\CPS-2	CPS-2.xml	167
 .\Dats\CPS-2	_cvs_purge_add.bat	48
 .\Dats\CPS-2	_zip_cps2.bat	625
-.\Dats\CPS-2\CVS	Entries	408
+.\Dats\CPS-2\CVS	CPS-2 20080707 (rc).zip,t	0
+.\Dats\CPS-2\CVS	CPS-2 20080707 (xml).zip,t	0
+.\Dats\CPS-2\CVS	Entries	518
 .\Dats\CPS-2\CVS	Repository	33
 .\Dats\CPS-2\CVS	Root	25
 .\Dats\CPS3Emulator	Capcom Play System 3 Emulator v1.0a (rc).zip	1458
@@ -371,15 +377,17 @@
 .\Dats\Nebula\CVS	Entries	412
 .\Dats\Nebula\CVS	Repository	34
 .\Dats\Nebula\CVS	Root	25
-.\Dats\Neo-Geo	Neo-Geo 20080505 (rc).zip	55020
-.\Dats\Neo-Geo	Neo-Geo 20080505 (xml).zip	91941
-.\Dats\Neo-Geo	Neo-Geo.ent.xml	12211
-.\Dats\Neo-Geo	Neo-Geo.php	11199
+.\Dats\Neo-Geo	Neo-Geo 20080707 (rc).zip	55110
+.\Dats\Neo-Geo	Neo-Geo 20080707 (xml).zip	92092
+.\Dats\Neo-Geo	Neo-Geo.ent.xml	12325
+.\Dats\Neo-Geo	Neo-Geo.php	11279
 .\Dats\Neo-Geo	Neo-Geo.png	1501
 .\Dats\Neo-Geo	Neo-Geo.xml	173
 .\Dats\Neo-Geo	_cvs_purge_add.bat	48
 .\Dats\Neo-Geo	_zip_neogeo.bat	665
-.\Dats\Neo-Geo\CVS	Entries	422
+.\Dats\Neo-Geo\CVS	Entries	540
+.\Dats\Neo-Geo\CVS	Neo-Geo 20080707 (rc).zip,t	0
+.\Dats\Neo-Geo\CVS	Neo-Geo 20080707 (xml).zip,t	0
 .\Dats\Neo-Geo\CVS	Repository	35
 .\Dats\Neo-Geo\CVS	Root	25
 .\Dats\OlderEmus	CMZIPContents.php	1129
@@ -508,7 +516,7 @@
 .\Links	advance-logo.png	5781
 .\Links	CMPro.png	5151
 .\Links	emulab_small.jpg	4447
-.\Links	Links.php	3320
+.\Links	Links.php	3315
 .\Links	Links.png	1073
 .\Links	mamemerge.png	1155
 .\Links	mamory.png	775
@@ -585,6 +593,7 @@
 .\News	News30.txt	2798
 .\News	News31.txt	1990
 .\News	News32.txt	2130
+.\News	News33.txt	4358
 .\News	Shredder.png	3449
 .\News\CVS	Entries	1559
 .\News\CVS	Repository	27

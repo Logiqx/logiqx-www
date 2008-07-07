@@ -1,0 +1,92 @@
+<h1>30 June 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded data files for FBA v0.2.96.85 and RAINE v0.50.14.</p></td>
+  </tr>
+</table><h1>29 June 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded a couple of minor updates:<br /><br />DatLib v2.31 and DatUtil v2.41</p></td>
+  </tr>
+</table><h1>24 June 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded a small update to my tools that need to generate XML headers: DatLib v2.30 and DatUtil v2.40</p></td>
+  </tr>
+</table><h1>10 June 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released DatUtil v2.39 and DatLib v2.29.<br /><br />As always, they are available for download from the tools page.</p></td>
+  </tr>
+</table><h1>05 June 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I was in too much of a hurry yesterday and missed some ROMs out.<br /><br />Improved datafiles for the SEGA Model 2 Emulator have been uploaded but I still don't have time to test every game!<br /><br />Please report any issues in the forum...</p></td>
+  </tr>
+</table><h1>04 June 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded data files for FBA v0.2.96.83, RAINE v0.50.13 and SEGA Model 2 Emulator v0.7.</p></td>
+  </tr>
+</table><h1>11 May 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded MAMEDiff v2.29.<br /><br />It includes an additional option (-x) for generating supplements where the emulator does not support partial ZIPs, such as FBA.<br /><br />n.b. It is only applicable when using the -d1 mode.</p></td>
+  </tr>
+</table><h1>08 May 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded datafiles for FBA v0.2.96.82.</p></td>
+  </tr>
+</table><h1>07 May 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I noticed that the FBA supplements weren't working properly with the emulator itself.<br />Although FBA supports multiple ROM paths, it doesn't support partial ZIPs (where all of the ROMs are available but are located in more than one ZIP).<br /><br />I've therefore changed the FBA supplements so that complete ZIPs are generated and everthing works fine now.<br />Just make sure that the supplement ROMs are in the first ROM path and MAME / SuperSet ROMs are in subsequent paths.</p></td>
+  </tr>
+</table><h1>05 May 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded datafiles for MAME v0.125.<br /><br />I have also made minor changes to the Nebula and M1 datafiles (changed the "forcenodump" options).</p></td>
+  </tr>
+</table><h1>03 May 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded data files for FBA v0.2.96.81.<br /></p></td>
+  </tr>
+</table><h1>20 April 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have re-uploaded all of my recent emulator datafiles in the new Generic XML format, including the MAME Superset datafiles.<br /><br />These should all work fine in the latest versions of CMPro (3.113) and RomCenter 3 (3.00 release candidate 1).<br /><br />Update: I have also uploaded XML datafiles for the Older Emus and Systems.</p></td>
+  </tr>
+</table><h1>19 April 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded datafiles for FBA v0.2.96.80.</p></td>
+  </tr>
+</table><h1>13 April 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded datafiles for FBA v0.2.96.79.<br /><br />In place of the usual CMPro datafile, I've used the new Generic XML format (supported by CMPro and RomCenter 3).</p></td>
+  </tr>
+</table><h1>07 April 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded data files for FBA v0.2.96.77.</p></td>
+  </tr>
+</table><h1>06 April 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released DatLib v2.26 and DatUtil v2.37.<br /><br />They can be found in the usual locations!</p></td>
+  </tr>
+</table><h1>04 April 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I've built some new features into DatLib and released a new version DatUtil that makes use of them:<br /><br />DatLib v2.25 and DatUtil v2.36<br /><br />In addition to this, I've also released ROMBuild v2.10.</p></td>
+  </tr>
+</table><h1>01 April 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>No, it's not an April Fools Day joke...<br /><br />I really have updated all of my data files to include full headers!</p></td>
+  </tr>
+</table>
+

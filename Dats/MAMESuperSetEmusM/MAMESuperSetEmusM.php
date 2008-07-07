@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Various Emulators (Fully-merged SuperSet Supplements) v0.125</title>
+    <title>Various Emulators (Fully-merged SuperSet Supplements) v0.126</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="../VariousEmulators.png" width="219" height="40" alt="../VariousEmulators.png"/>
     </p>
-	<p>Non-MAME games for Various Emulators (Fully-merged SuperSet Supplements) v0.125</p>
+	<p>Non-MAME games for Various Emulators (Fully-merged SuperSet Supplements) v0.126</p>
 	
 	
 	
@@ -46,17 +46,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.125%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro + RC3</a> (108KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro + RC3</a> (100KB)</p>
           <p>
-            <a href="Various%20Emulators%20v0.125%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">
+            <a href="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.125%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for ROMCenter 2</a> (62KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for ROMCenter 2</a> (60KB)</p>
           <p>
-            <a href="Various%20Emulators%20v0.125%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">
+            <a href="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>7 July 2008</b> - 
+			
+			Uploaded dats for MAME v0.126.
+		</p>
     <p>
       <b>30 June 2008</b> - 
 			
