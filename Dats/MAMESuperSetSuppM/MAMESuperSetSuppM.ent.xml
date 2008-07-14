@@ -4,7 +4,7 @@
 	<version>v0.126</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>07/07/2008</date>
+	<date>14/07/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="MAME%20SuperSet%20v0.126%20(Fully-merged%20MAME%20Supplement)%20(xml).zip" size="34"/>
+			<file name="MAME%20SuperSet%20v0.126%20(Fully-merged%20MAME%20Supplement)%20(xml).zip" size="35"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20SuperSet%20v0.126%20(Fully-merged%20MAME%20Supplement)%20(rc).zip" size="19"/>
+			<file name="MAME%20SuperSet%20v0.126%20(Fully-merged%20MAME%20Supplement)%20(rc).zip" size="20"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>14 July 2008</date>
+			<comment>Added csclubjr from FBA v0.2.96.85.</comment>
+		</revision>
 		<revision>
 			<date>7 July 2008</date>
 			<comment>Uploaded dats for MAME v0.126.</comment>

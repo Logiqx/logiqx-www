@@ -4,7 +4,7 @@
 	<version>v0.126</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>07/07/2008</date>
+	<date>14/07/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip" size="100"/>
+			<file name="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip" size="94"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip" size="60"/>
+			<file name="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip" size="53"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>14 July 2008</date>
+			<comment>Updated to match the latest SuperSet. Fixed supplements for M1 so they now work with the emulator!</comment>
+		</revision>
 		<revision>
 			<date>7 July 2008</date>
 			<comment>Uploaded dats for MAME v0.126.</comment>

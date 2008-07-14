@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.126%20(Fully-merged%20MAME%20Supplement)%20(xml).zip">MAME SuperSet (Fully-merged MAME Supplement) dat for CMPro + RC3</a> (34KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.126%20(Fully-merged%20MAME%20Supplement)%20(xml).zip">MAME SuperSet (Fully-merged MAME Supplement) dat for CMPro + RC3</a> (35KB)</p>
           <p>
             <a href="MAME%20SuperSet%20v0.126%20(Fully-merged%20MAME%20Supplement)%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.126%20(Fully-merged%20MAME%20Supplement)%20(rc).zip">MAME SuperSet (Fully-merged MAME Supplement) dat for ROMCenter 2</a> (19KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.126%20(Fully-merged%20MAME%20Supplement)%20(rc).zip">MAME SuperSet (Fully-merged MAME Supplement) dat for ROMCenter 2</a> (20KB)</p>
           <p>
             <a href="MAME%20SuperSet%20v0.126%20(Fully-merged%20MAME%20Supplement)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>14 July 2008</b> - 
+			
+			Added csclubjr from FBA v0.2.96.85.
+		</p>
     <p>
       <b>7 July 2008</b> - 
 			

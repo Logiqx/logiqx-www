@@ -46,7 +46,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro + RC3</a> (100KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro + RC3</a> (94KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -54,7 +54,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for ROMCenter 2</a> (60KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for ROMCenter 2</a> (53KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.126%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>14 July 2008</b> - 
+			
+			Updated to match the latest SuperSet. Fixed supplements for M1 so they now work with the emulator!
+		</p>
     <p>
       <b>7 July 2008</b> - 
 			

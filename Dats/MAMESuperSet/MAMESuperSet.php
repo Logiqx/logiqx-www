@@ -29,7 +29,7 @@
 	<p>
       <img src="../MAMESuperSet.png" width="198" height="40" alt="../MAMESuperSet.png"/>
     </p>
-	<p>7189 games for MAME SuperSet v0.126</p>
+	<p>7190 games for MAME SuperSet v0.126</p>
 	
 	
 	
@@ -45,7 +45,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.126%20(xml).zip">MAME SuperSet dat for CMPro + RC3</a> (2344KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.126%20(xml).zip">MAME SuperSet dat for CMPro + RC3</a> (2345KB)</p>
           <p>
             <a href="MAME%20SuperSet%20v0.126%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -53,7 +53,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.126%20(rc).zip">MAME SuperSet dat for ROMCenter 2</a> (1025KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.126%20(rc).zip">MAME SuperSet dat for ROMCenter 2</a> (1026KB)</p>
           <p>
             <a href="MAME%20SuperSet%20v0.126%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>14 July 2008</b> - 
+			
+			Added csclubjr from FBA v0.2.96.85.
+		</p>
     <p>
       <b>7 July 2008</b> - 
 			

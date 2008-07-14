@@ -4,8 +4,8 @@
 	<version>v0.126</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>07/07/2008</date>
-	<games>7189</games>
+	<date>14/07/2008</date>
+	<games>7190</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>MAME and various systems (CPS-1, CPS-2 and Neo-Geo) combined into one.</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="MAME%20SuperSet%20v0.126%20(xml).zip" size="2344"/>
+			<file name="MAME%20SuperSet%20v0.126%20(xml).zip" size="2345"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="MAME%20SuperSet%20v0.126%20(rc).zip" size="1025"/>
+			<file name="MAME%20SuperSet%20v0.126%20(rc).zip" size="1026"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>14 July 2008</date>
+			<comment>Added csclubjr from FBA v0.2.96.85.</comment>
+		</revision>
 		<revision>
 			<date>7 July 2008</date>
 			<comment>Uploaded dats for MAME v0.126.</comment>
