@@ -1,4 +1,5 @@
 E:\Logiqx\WWW\Dats\Daphne;Daphne
+E:\Logiqx\WWW\Dats\Demul;Demul
 E:\Logiqx\WWW\Dats\FinalBurnAlpha;FinalBurnAlpha
 E:\Logiqx\WWW\Dats\M1;M1
 E:\Logiqx\WWW\Dats\MAMEBeta;MAMEBeta

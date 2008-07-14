@@ -1,0 +1,30 @@
+<!-- edited with STYLEVISION v2004 rel. 3 U (http://www.xmlspy.com) by nobody (nowhere) -->
+<emulator id="Demul">
+	<img src="Demul.png" width="77" height="40"/>
+	<name>Demul</name>
+	<version>v0.4.3</version>
+	<suitability/>
+	<status>New</status>
+	<date>14/07/2008</date>
+	<games>27</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+	<comment>
+		<p>Demul emulates Sega's NAOMI (New Arcade Operation Machine Idea) GD-ROM hardware.</p>
+	</comment>
+	<dats>
+		<dat>
+			&Generic;
+			<file name="Demul%20v0.4.3%20(xml).zip" size="6"/>
+		</dat>
+		<dat>
+			&ROMCenter;
+			<file name="Demul%20v0.4.3%20(rc).zip" size="6"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>14 July 2008</date>
+			<comment>Uploaded datafiles for Demul v0.4.3.</comment>
+		</revision>
+	</revisions>
+</emulator>

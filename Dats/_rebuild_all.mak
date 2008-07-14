@@ -10,6 +10,7 @@ EMULATORS= \
 	AAE/AAE.php \
 	CPS3Emulator/CPS3Emulator.php \
 	Daphne/Daphne.php \
+	Demul/Demul.php \
 	FinalBurnAlpha/FinalBurnAlpha.php \
 	MAMEBeta/MAMEBeta.php \
 	MAMESuperSet/MAMESuperSet.php \
