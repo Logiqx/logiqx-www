@@ -2,11 +2,11 @@
 <emulator id="CPS-2">
 	<img src="CPS-2.png" width="80" height="40"/>
 	<name>CPS-2</name>
-	<version>20080707</version>
+	<version>20080714</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>07/07/2008</date>
-	<games>204</games>
+	<date>14/07/2008</date>
+	<games>205</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Still includes XOR details for emulators that need them</p>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="CPS-2%2020080707%20(xml).zip" size="61"/>
+			<file name="CPS-2%2020080714%20(xml).zip" size="63"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="CPS-2%2020080707%20(rc).zip" size="34"/>
+			<file name="CPS-2%2020080714%20(rc).zip" size="34"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>14 July 2008</date>
+			<comment>Added csclubjr from FBA v0.2.96.85.</comment>
+		</revision>
 		<revision>
 			<date>7 July 2008</date>
 			<comment>Updated to match MAME v0.126.</comment>
