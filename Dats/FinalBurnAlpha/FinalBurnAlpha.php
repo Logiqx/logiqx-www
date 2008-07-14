@@ -63,6 +63,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>14 July 2008</b> - 
+			
+			Added missing SHA-1 information for csclubj.
+		</p>
+    <p>
       <b>30 June 2008</b> - 
 			
 			Updated for FBA v0.2.96.85.
