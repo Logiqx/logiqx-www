@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>15 July 2008</b> - 
+			
+			Renamed a couple of ROMs in tnzsb - to work around a bug in RAINE v0.50.14.
+		</p>
+    <p>
       <b>30 June 2008</b> - 
 			
 			Updated to match RAINE v0.50.14.

@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>15 July 2008</b> - 
+			
+			Shortened mslug4 and kof2001 ROM names to 20 characters (for Nebula audit to work).
+		</p>
+    <p>
       <b>5 May 2008</b> - 
 			
 			Changed forcenodump to "required" for the internal scan to look better.

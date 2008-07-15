@@ -4,8 +4,8 @@
 	<name>Older Emus</name>
 	<version>20080420</version>
 	<suitability/>
-	<status></status>
-	<date>20/04/2008</date>
+	<status>Updated</status>
+	<date>15/07/2008</date>
 	<games>Thousands of</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -23,6 +23,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>15 July 2008</date>
+			<comment>Added "forcepacking" to a couple of the XML data files.</comment>
+		</revision>
 		<revision>
 			<date>20 April 2008</date>
 			<comment>Now using Generic XML for CMPro + RC3.</comment>

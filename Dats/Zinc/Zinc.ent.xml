@@ -3,8 +3,8 @@
 	<name>ZiNc</name>
 	<version>v1.1</version>
 	<suitability></suitability>
-	<status></status>
-	<date>20/04/2008</date>
+	<status>Updated</status>
+	<date>15/07/2008</date>
 	<games>71</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 
@@ -23,6 +23,10 @@
 	</dats>
 
 	<revisions>
+		<revision>
+			<date>15 July 2008</date>
+			<comment>Added "forcepacking" to the XML data file.</comment>
+		</revision>
 		<revision>
 			<date>20 April 2008</date>
 			<comment>Now using Generic XML for CMPro + RC3.</comment>

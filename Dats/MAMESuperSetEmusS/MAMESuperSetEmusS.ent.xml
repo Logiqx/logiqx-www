@@ -4,7 +4,7 @@
 	<version>v0.126</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>14/07/2008</date>
+	<date>15/07/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="Various%20Emulators%20v0.126%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip" size="99"/>
+			<file name="Various%20Emulators%20v0.126%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip" size="103"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Various%20Emulators%20v0.126%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="56"/>
+			<file name="Various%20Emulators%20v0.126%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="59"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>15 July 2008</date>
+			<comment>Added "forcepacking" to the FBA, M1, Nebula, Nebula Jukebox, Nebula Model 2 and WinKawaks data files.<br/>Improvements to the RAINE and Nebula supplements so that the audit within the emulator is clean.<br/>Added notes to the archive (Excel spreadsheet and text file).</comment>
+		</revision>
 		<revision>
 			<date>14 July 2008</date>
 			<comment>Updated to match the latest SuperSet. Fixed supplements for M1 so they now work with the emulator!</comment>

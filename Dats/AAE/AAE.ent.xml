@@ -3,8 +3,8 @@
 	<name>AAE (Another Arcade Emulator)</name>
 	<version>Beta 1 Update 5</version>
 	<suitability></suitability>
-	<status></status>
-	<date>20/04/2008</date>
+	<status>Updated</status>
+	<date>15/07/2008</date>
 	<games>49</games>
 	<author href="http://various.ru/">neoforma</author>
 	<comment>
@@ -21,6 +21,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>15 July 2008</date>
+			<comment>Added "forcepacking" to the XML data file.</comment>
+		</revision>
 		<revision>
 			<date>20 April 2008</date>
 			<comment>Now using Generic XML for CMPro + RC3.</comment>

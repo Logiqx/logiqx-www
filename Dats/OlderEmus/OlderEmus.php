@@ -68,6 +68,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>15 July 2008</b> - 
+			
+			Added "forcepacking" to a couple of the XML data files.
+		</p>
+    <p>
       <b>20 April 2008</b> - 
 			
 			Now using Generic XML for CMPro + RC3.

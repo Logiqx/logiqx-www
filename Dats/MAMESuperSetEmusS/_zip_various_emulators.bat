@@ -12,7 +12,7 @@ DEL "MAME.vers.bat"
 
 REM --- Generate CMPro ZIP
 
-zip "Various Emulators %MAME_VER_CURRENT% (Split-merged SuperSet Supplements) (xml).zip" "*SuperSet Supplement*.dat" "*SuperSet Supplement*.log"
+zip "Various Emulators %MAME_VER_CURRENT% (Split-merged SuperSet Supplements) (xml).zip" "*SuperSet Supplement*.dat" "*SuperSet Supplement*.log" "Logiqx - Supplement Notes.*"
 mv "Various Emulators %MAME_VER_CURRENT% (Split-merged SuperSet Supplements) (xml).zip" "%LOGIQX%/WWW/Dats/MAMESuperSetEmusS"
 
 REM --- Move to RomCenter directory
@@ -21,6 +21,6 @@ cd "%LOGIQX%\Dats_RC\SuperSet"
 
 REM --- Generate RomCenter ZIP
 
-zip "Various Emulators %MAME_VER_CURRENT% (Split-merged SuperSet Supplements) (rc).zip" "*SuperSet Supplement*.dat" "*SuperSet Supplement*.log"
+zip "Various Emulators %MAME_VER_CURRENT% (Split-merged SuperSet Supplements) (rc).zip" "*SuperSet Supplement*.dat" "*SuperSet Supplement*.log" "Logiqx - Supplement Notes.*"
 mv "Various Emulators %MAME_VER_CURRENT% (Split-merged SuperSet Supplements) (rc).zip" "%LOGIQX%/WWW/Dats/MAMESuperSetEmusS"
 
