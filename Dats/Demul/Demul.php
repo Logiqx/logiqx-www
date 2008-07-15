@@ -38,7 +38,7 @@
 	
 	
 	
-		<p>Demul emulates Sega's NAOMI (New Arcade Operation Machine Idea) GD-ROM hardware.</p>
+		<p>Demul emulates Sega's NAOMI (New Arcade Operation Machine Idea) hardware.</p>
 	
 	<table>
       <colgroup span="1" width="50%"/>
