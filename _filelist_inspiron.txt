@@ -44,7 +44,7 @@
 .\cutenews\data	auto_archive.db.php	0
 .\cutenews\data	cat.num.php	1
 .\cutenews\data	category.db.php	16
-.\cutenews\data	comments.txt	0
+.\cutenews\data	comments.txt	28
 .\cutenews\data	config.php	1324
 .\cutenews\data	Default.tpl	2184
 .\cutenews\data	flood.db.php	0
@@ -52,7 +52,7 @@
 .\cutenews\data	index.html	117
 .\cutenews\data	ipban.db.php	0
 .\cutenews\data	Logiqx.tpl	1653
-.\cutenews\data	news.txt	0
+.\cutenews\data	news.txt	270
 .\cutenews\data	postponed_news.txt	0
 .\cutenews\data	rss.tpl	564
 .\cutenews\data	rss_config.php	186
@@ -239,7 +239,7 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3302
-.\Dats	Dats.php	12363
+.\Dats	Dats.php	13504
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3112
 .\Dats	EmulatorSupplements.png	3532
@@ -256,8 +256,8 @@
 .\Dats	RecentEmus.zip	823
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.inf	3868
-.\Dats	RomCenter.php	8284
+.\Dats	RomCenter.inf	3917
+.\Dats	RomCenter.php	8326
 .\Dats	RomCenter.xml	3084
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
@@ -268,9 +268,9 @@
 .\Dats	_rebuild_all.mak	1617
 .\Dats	_rebuild_xml.bat	853
 .\Dats\AAE	AAE Beta 1 Update 5 (rc).zip	5653
-.\Dats\AAE	AAE Beta 1 Update 5 (xml).zip	15311
-.\Dats\AAE	AAE.ent.xml	1041
-.\Dats\AAE	AAE.php	2479
+.\Dats\AAE	AAE Beta 1 Update 5 (xml).zip	15324
+.\Dats\AAE	AAE.ent.xml	1169
+.\Dats\AAE	AAE.php	2573
 .\Dats\AAE	AAE.png	4810
 .\Dats\AAE	AAE.xml	162
 .\Dats\AAE	_cvs_purge_add.bat	50
@@ -327,8 +327,8 @@
 .\Dats\Daphne\CVS	Root	25
 .\Dats\Demul	Demul v0.4.3 (rc).zip	5144
 .\Dats\Demul	Demul v0.4.3 (xml).zip	5938
-.\Dats\Demul	Demul.ent.xml	797
-.\Dats\Demul	Demul.php	2142
+.\Dats\Demul	Demul.ent.xml	790
+.\Dats\Demul	Demul.php	2135
 .\Dats\Demul	Demul.png	727
 .\Dats\Demul	Demul.xml	169
 .\Dats\Demul	_cvs_purge_add.bat	48
@@ -351,10 +351,10 @@
 .\Dats\FinalBurnAlpha\CVS	Entries	443
 .\Dats\FinalBurnAlpha\CVS	Repository	42
 .\Dats\FinalBurnAlpha\CVS	Root	25
-.\Dats\M1	M1 v0.7.8a6 (rc).zip	84446
-.\Dats\M1	M1 v0.7.8a6 (xml).zip	203470
-.\Dats\M1	M1.ent.xml	9059
-.\Dats\M1	M1.php	8495
+.\Dats\M1	M1 v0.7.8a6 (rc).zip	84447
+.\Dats\M1	M1 v0.7.8a6 (xml).zip	203473
+.\Dats\M1	M1.ent.xml	9187
+.\Dats\M1	M1.php	8589
 .\Dats\M1	M1.png	691
 .\Dats\M1	M1.xml	160
 .\Dats\M1	_cvs_purge_add.bat	48
@@ -373,10 +373,10 @@
 .\Dats\Mjolnir\CVS	Entries	413
 .\Dats\Mjolnir\CVS	Repository	35
 .\Dats\Mjolnir\CVS	Root	25
-.\Dats\Nebula	Nebula v2.25b (rc).zip	73358
-.\Dats\Nebula	Nebula v2.25b (xml).zip	153774
-.\Dats\Nebula	Nebula.ent.xml	14974
-.\Dats\Nebula	Nebula.php	13294
+.\Dats\Nebula	Nebula v2.25b (rc).zip	73350
+.\Dats\Nebula	Nebula v2.25b (xml).zip	153762
+.\Dats\Nebula	Nebula.ent.xml	15143
+.\Dats\Nebula	Nebula.php	13429
 .\Dats\Nebula	Nebula.png	1219
 .\Dats\Nebula	Nebula.xml	172
 .\Dats\Nebula	_cvs_purge_add.bat	48
@@ -396,10 +396,10 @@
 .\Dats\Neo-Geo\CVS	Repository	35
 .\Dats\Neo-Geo\CVS	Root	25
 .\Dats\OlderEmus	CMZIPContents.php	1129
-.\Dats\OlderEmus	Older Emus 20080420 (rc).zip	541018
-.\Dats\OlderEmus	Older Emus 20080420 (xml).zip	1297004
-.\Dats\OlderEmus	OlderEmus.ent.xml	7918
-.\Dats\OlderEmus	OlderEmus.php	8255
+.\Dats\OlderEmus	Older Emus 20080420 (rc).zip	541055
+.\Dats\OlderEmus	Older Emus 20080420 (xml).zip	1297094
+.\Dats\OlderEmus	OlderEmus.ent.xml	8059
+.\Dats\OlderEmus	OlderEmus.php	8362
 .\Dats\OlderEmus	OlderEmus.png	1948
 .\Dats\OlderEmus	OlderEmus.xml	181
 .\Dats\OlderEmus	RCZIPContents.php	1133
@@ -409,9 +409,9 @@
 .\Dats\OlderEmus\CVS	Repository	37
 .\Dats\OlderEmus\CVS	Root	25
 .\Dats\OldSpark	OldSpark C++ 20071006 (rc).zip	2404
-.\Dats\OldSpark	OldSpark C++ 20071006 (xml).zip	6056
-.\Dats\OldSpark	OldSpark.ent.xml	1182
-.\Dats\OldSpark	OldSpark.php	2445
+.\Dats\OldSpark	OldSpark C++ 20071006 (xml).zip	6065
+.\Dats\OldSpark	OldSpark.ent.xml	1310
+.\Dats\OldSpark	OldSpark.php	2539
 .\Dats\OldSpark	OldSpark.png	2777
 .\Dats\OldSpark	OldSpark.xml	178
 .\Dats\OldSpark	_cvs_purge_add.bat	48
@@ -420,9 +420,9 @@
 .\Dats\OldSpark\CVS	Repository	36
 .\Dats\OldSpark\CVS	Root	25
 .\Dats\RAINE	RAINE v0.50.14 (rc).zip	84827
-.\Dats\RAINE	RAINE v0.50.14 (xml).zip	227339
-.\Dats\RAINE	RAINE.ent.xml	11603
-.\Dats\RAINE	RAINE.php	10561
+.\Dats\RAINE	RAINE v0.50.14 (xml).zip	227338
+.\Dats\RAINE	RAINE.ent.xml	11757
+.\Dats\RAINE	RAINE.php	10688
 .\Dats\RAINE	RAINE.png	1339
 .\Dats\RAINE	RAINE.xml	169
 .\Dats\RAINE	_cvs_purge_add.bat	48
@@ -442,9 +442,9 @@
 .\Dats\SEGAModel2Emulator\CVS	Repository	46
 .\Dats\SEGAModel2Emulator\CVS	Root	25
 .\Dats\WinKawaks	WinKawaks v1.59 (rc).zip	80664
-.\Dats\WinKawaks	WinKawaks v1.59 (xml).zip	162183
-.\Dats\WinKawaks	WinKawaks.ent.xml	10760
-.\Dats\WinKawaks	WinKawaks.php	9956
+.\Dats\WinKawaks	WinKawaks v1.59 (xml).zip	162215
+.\Dats\WinKawaks	WinKawaks.ent.xml	10888
+.\Dats\WinKawaks	WinKawaks.php	10050
 .\Dats\WinKawaks	WinKawaks.png	1885
 .\Dats\WinKawaks	WinKawaks.xml	181
 .\Dats\WinKawaks	_cvs_purge_add.bat	48
@@ -462,9 +462,9 @@
 .\Dats\XSL\CVS	Repository	31
 .\Dats\XSL\CVS	Root	25
 .\Dats\Zinc	ZiNc v1.1 (rc).zip	8403
-.\Dats\Zinc	ZiNc v1.1 (xml).zip	18505
-.\Dats\Zinc	Zinc.ent.xml	2061
-.\Dats\Zinc	Zinc.php	3198
+.\Dats\Zinc	ZiNc v1.1 (xml).zip	18532
+.\Dats\Zinc	Zinc.ent.xml	2189
+.\Dats\Zinc	Zinc.php	3292
 .\Dats\Zinc	Zinc.png	761
 .\Dats\Zinc	Zinc.xml	166
 .\Dats\Zinc	_cvs_purge_add.bat	48
