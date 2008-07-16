@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.41</title>
+    <title>DatUtil v2.42</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -74,7 +74,7 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil241.zip">DatUtil v2.41</a> (201KB)</p>
+          <p>Download <a href="dutil241.zip">DatUtil v2.42</a> (201KB)</p>
           <p>
             <a href="dutil241.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -88,6 +88,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>16 July 2008</b> - DatUtil v2.42</p>
+    <p>
+			
+			
+			
+				 - Uses DatLib v2.32.<br/>
+				 - Improved datutil -i to search for ROMs by CRC as well as name.<br/>
+    			
+		</p>
     <p>
       <b>29 June 2008</b> - DatUtil v2.41</p>
     <p>

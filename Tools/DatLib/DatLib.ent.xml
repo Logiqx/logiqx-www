@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.31</version>
+	<version>v2.32</version>
 	<status>Updated</status>
-	<date>29/06/2008</date>
+	<date>16/07/2008</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,19 @@
 
 	<downloads>
 		<download>
-			<file name="datlib231.zip" size="105"/>
+			<file name="datlib232.zip" size="105"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>16 July 2008</date>
+			<version>v2.32</version>
+			<comment>
+				 - Improved datutil -i to search for ROMs by CRC as well as name.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>29 June 2008</date>
 			<version>v2.31</version>
