@@ -87,7 +87,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>14/07/2008</b>
+            <b>16/07/2008</b>
           </p>
         </td>
         <td>
@@ -108,7 +108,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>14/07/2008</b>
+            <b>16/07/2008</b>
           </p>
         </td>
         <td>
@@ -129,7 +129,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>14/07/2008</b>
+            <b>16/07/2008</b>
           </p>
         </td>
         <td>
@@ -150,7 +150,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>15/07/2008</b>
+            <b>16/07/2008</b>
           </p>
         </td>
         <td>
@@ -171,7 +171,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>15/07/2008</b>
+            <b>16/07/2008</b>
           </p>
         </td>
         <td>
@@ -282,7 +282,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="FinalBurnAlpha/">FBA v0.2.96.85</a>
+          <a href="FinalBurnAlpha/">FBA v0.2.96.86</a>
         </td>
         <td>
           <p>
@@ -291,12 +291,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>14/07/2008</b>
+            <b>16/07/2008</b>
           </p>
         </td>
         <td>
           <p>
-            <b>1306</b>
+            <b>1377</b>
           </p>
         </td>
       </tr>
@@ -581,7 +581,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="Neo-Geo/">Neo-Geo 20080707</a>
+          <a href="Neo-Geo/">Neo-Geo 20080716</a>
         </td>
         <td>
           <p>
@@ -590,7 +590,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>07/07/2008</b>
+            <b>16/07/2008</b>
           </p>
         </td>
         <td>

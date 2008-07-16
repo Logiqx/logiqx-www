@@ -1,23 +1,27 @@
 <emulator id="FinalBurnAlpha">
 	<img src="FinalBurnAlpha.png" width="195" height="40"/>
 	<name>FBA</name>
-	<version>v0.2.96.85</version>
+	<version>v0.2.96.86</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>14/07/2008</date>
-	<games>1306</games>
+	<date>16/07/2008</date>
+	<games>1377</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
 		<dat>
 			&Generic;
-			<file name="FBA%20v0.2.96.85%20(xml).zip" size="481"/>
+			<file name="FBA%20v0.2.96.86%20(xml).zip" size="498"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="FBA%20v0.2.96.85%20(rc).zip" size="230"/>
+			<file name="FBA%20v0.2.96.86%20(rc).zip" size="244"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>16 July 2008</date>
+			<comment>Updated for FBA v0.2.96.86.</comment>
+		</revision>
 		<revision>
 			<date>14 July 2008</date>
 			<comment>Added missing SHA-1 information for csclubj.</comment>

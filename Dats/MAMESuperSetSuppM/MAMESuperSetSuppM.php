@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>16 July 2008</b> - 
+			
+			Added Universe BIOS v2.3.
+		</p>
+    <p>
       <b>14 July 2008</b> - 
 			
 			Added csclubjr from FBA v0.2.96.85.

@@ -245,7 +245,7 @@
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	993
+.\Dats	MAMESuperSet.zip	997
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
@@ -253,7 +253,7 @@
 .\Dats	RecentEmus.laptop.txt	546
 .\Dats	RecentEmus.png	2121
 .\Dats	RecentEmus.txt	566
-.\Dats	RecentEmus.zip	823
+.\Dats	RecentEmus.zip	819
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
 .\Dats	RomCenter.inf	3917
