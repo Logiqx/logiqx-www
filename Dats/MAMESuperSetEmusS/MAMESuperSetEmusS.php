@@ -68,6 +68,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>29 July 2008</b> - 
+			
+			Updated for FBA v0.2.96.89.
+		</p>
+    <p>
       <b>28 July 2008</b> - 
 			
 			Updated for FBA v0.2.96.88.
