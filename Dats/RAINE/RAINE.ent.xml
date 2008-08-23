@@ -2,10 +2,10 @@
 <emulator id="RAINE">
 	<img src="RAINE.png" width="82" height="40"/>
 	<name>RAINE</name>
-	<version>v0.50.14</version>
+	<version>v0.50.15</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>15/07/2008</date>
+	<date>23/08/2008</date>
 	<games>578</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,14 +14,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="RAINE%20v0.50.14%20(xml).zip" size="223"/>
+			<file name="RAINE%20v0.50.15%20(xml).zip" size="222"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="RAINE%20v0.50.14%20(rc).zip" size="83"/>
+			<file name="RAINE%20v0.50.15%20(rc).zip" size="83"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>23 August 2008</date>
+			<comment>Updated to match RAINE v0.50.15.</comment>
+		</revision>
 		<revision>
 			<date>15 July 2008</date>
 			<comment>Renamed a couple of ROMs in tnzsb - to work around a bug in RAINE v0.50.14.</comment>

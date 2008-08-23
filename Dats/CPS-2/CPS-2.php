@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>23 August 2008</b> - 
+			
+			No change required for MAME v0.127.
+		</p>
+    <p>
       <b>14 July 2008</b> - 
 			
 			Added csclubjr from FBA v0.2.96.85.

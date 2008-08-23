@@ -74,9 +74,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil241.zip">DatUtil v2.42</a> (201KB)</p>
+          <p>Download <a href="dutil242.zip">DatUtil v2.42</a> (201KB)</p>
           <p>
-            <a href="dutil241.zip">
+            <a href="dutil242.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>

@@ -4,7 +4,7 @@
 	<name>CPS-2</name>
 	<version>20080714</version>
 	<suitability/>
-	<status>Updated</status>
+	<status></status>
 	<date>14/07/2008</date>
 	<games>205</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
@@ -22,6 +22,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>23 August 2008</date>
+			<comment>No change required for MAME v0.127.</comment>
+		</revision>
 		<revision>
 			<date>14 July 2008</date>
 			<comment>Added csclubjr from FBA v0.2.96.85.</comment>

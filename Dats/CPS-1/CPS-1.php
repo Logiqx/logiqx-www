@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>CPS-1 20080707</title>
+    <title>CPS-1 20080823</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="CPS-1.png" width="77" height="40" alt="CPS-1.png"/>
     </p>
-	<p>134 games for CPS-1 20080707</p>
+	<p>135 games for CPS-1 20080823</p>
 	
 	
 	
@@ -46,17 +46,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="CPS-1%2020080707%20(xml).zip">CPS-1 dat for CMPro + RC3</a> (49KB)</p>
+          <p>Download <a href="CPS-1%2020080823%20(xml).zip">CPS-1 dat for CMPro + RC3</a> (53KB)</p>
           <p>
-            <a href="CPS-1%2020080707%20(xml).zip">
+            <a href="CPS-1%2020080823%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="CPS-1%2020080707%20(rc).zip">CPS-1 dat for ROMCenter 2</a> (24KB)</p>
+          <p>Download <a href="CPS-1%2020080823%20(rc).zip">CPS-1 dat for ROMCenter 2</a> (28KB)</p>
           <p>
-            <a href="CPS-1%2020080707%20(rc).zip">
+            <a href="CPS-1%2020080823%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -68,6 +68,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>23 August 2008</b> - 
+			
+			Updated to match MAME v0.127.
+		</p>
     <p>
       <b>7 July 2008</b> - 
 			

@@ -1,10 +1,10 @@
 <emulator id="MAMESuperSetEmusS">
 	<img src="../VariousEmulators.png" width="219" height="40"/>
 	<name>Various Emulators (Split-merged SuperSet Supplements)</name>
-	<version>v0.126</version>
+	<version>v0.127</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>29/07/2008</date>
+	<date>23/08/2008</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,14 +15,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="Various%20Emulators%20v0.126%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip" size="113"/>
+			<file name="Various%20Emulators%20v0.127%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip" size="120"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Various%20Emulators%20v0.126%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="64"/>
+			<file name="Various%20Emulators%20v0.127%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="67"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>23 August 2008</date>
+			<comment>Uploaded dats for MAME v0.127. RAINE supplements include kgpe now!</comment>
+		</revision>
 		<revision>
 			<date>29 July 2008</date>
 			<comment>Updated for FBA v0.2.96.89.</comment>
