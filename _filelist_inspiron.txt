@@ -239,13 +239,13 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3302
-.\Dats	Dats.php	13504
+.\Dats	Dats.php	11882
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3112
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	1001
+.\Dats	MAMESuperSet.zip	996
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
@@ -253,23 +253,23 @@
 .\Dats	RecentEmus.laptop.txt	546
 .\Dats	RecentEmus.png	2121
 .\Dats	RecentEmus.txt	566
-.\Dats	RecentEmus.zip	836
+.\Dats	RecentEmus.zip	826
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.inf	3917
-.\Dats	RomCenter.php	8326
+.\Dats	RomCenter.inf	3851
+.\Dats	RomCenter.php	8270
 .\Dats	RomCenter.xml	3084
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
 .\Dats	Systems.txt	100
-.\Dats	Systems.zip	519
+.\Dats	Systems.zip	521
 .\Dats	VariousEmulators.png	3158
 .\Dats	_rebuild_all.bat	55
 .\Dats	_rebuild_all.mak	1617
 .\Dats	_rebuild_xml.bat	853
 .\Dats\AAE	AAE Beta 1 Update 5 (rc).zip	5653
 .\Dats\AAE	AAE Beta 1 Update 5 (xml).zip	15324
-.\Dats\AAE	AAE.ent.xml	1169
+.\Dats\AAE	AAE.ent.xml	1162
 .\Dats\AAE	AAE.php	2573
 .\Dats\AAE	AAE.png	4810
 .\Dats\AAE	AAE.xml	162
@@ -278,21 +278,21 @@
 .\Dats\AAE\CVS	Entries	403
 .\Dats\AAE\CVS	Repository	31
 .\Dats\AAE\CVS	Root	25
-.\Dats\CPS-1	CPS-1 20080707 (rc).zip	23750
-.\Dats\CPS-1	CPS-1 20080707 (xml).zip	50018
-.\Dats\CPS-1	CPS-1.ent.xml	8896
-.\Dats\CPS-1	CPS-1.php	8471
+.\Dats\CPS-1	CPS-1 20080823 (rc).zip	28244
+.\Dats\CPS-1	CPS-1 20080823 (xml).zip	53962
+.\Dats\CPS-1	CPS-1.ent.xml	9006
+.\Dats\CPS-1	CPS-1.php	8554
 .\Dats\CPS-1	CPS-1.png	1149
 .\Dats\CPS-1	CPS-1.xml	167
-.\Dats\CPS-1	_cvs_purge_add.bat	48
+.\Dats\CPS-1	_cvs_purge_add.bat	50
 .\Dats\CPS-1	_zip_cps1.bat	625
 .\Dats\CPS-1\CVS	Entries	408
 .\Dats\CPS-1\CVS	Repository	33
 .\Dats\CPS-1\CVS	Root	25
 .\Dats\CPS-2	CPS-2 20080714 (rc).zip	34682
 .\Dats\CPS-2	CPS-2 20080714 (xml).zip	63507
-.\Dats\CPS-2	CPS-2.ent.xml	19758
-.\Dats\CPS-2	CPS-2.php	17649
+.\Dats\CPS-2	CPS-2.ent.xml	19867
+.\Dats\CPS-2	CPS-2.php	17738
 .\Dats\CPS-2	CPS-2.png	1268
 .\Dats\CPS-2	CPS-2.xml	167
 .\Dats\CPS-2	_cvs_purge_add.bat	48
@@ -327,7 +327,7 @@
 .\Dats\Daphne\CVS	Root	25
 .\Dats\Demul	Demul v0.4.3 (rc).zip	5144
 .\Dats\Demul	Demul v0.4.3 (xml).zip	5938
-.\Dats\Demul	Demul.ent.xml	790
+.\Dats\Demul	Demul.ent.xml	787
 .\Dats\Demul	Demul.php	2135
 .\Dats\Demul	Demul.png	727
 .\Dats\Demul	Demul.xml	169
@@ -340,20 +340,22 @@
 .\Dats\DTD\CVS	Entries	45
 .\Dats\DTD\CVS	Repository	31
 .\Dats\DTD\CVS	Root	25
-.\Dats\FinalBurnAlpha	FBA v0.2.96.89 (rc).zip	251335
-.\Dats\FinalBurnAlpha	FBA v0.2.96.89 (xml).zip	513681
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	9375
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	8790
+.\Dats\FinalBurnAlpha	FBA v0.2.96.94 (rc).zip	269612
+.\Dats\FinalBurnAlpha	FBA v0.2.96.94 (xml).zip	550101
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	9591
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	8952
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.png	2202
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
 .\Dats\FinalBurnAlpha	_zip_fba.bat	610
-.\Dats\FinalBurnAlpha\CVS	Entries	443
+.\Dats\FinalBurnAlpha\CVS	Entries	553
+.\Dats\FinalBurnAlpha\CVS	FBA v0.2.96.94 (rc).zip,t	0
+.\Dats\FinalBurnAlpha\CVS	FBA v0.2.96.94 (xml).zip,t	0
 .\Dats\FinalBurnAlpha\CVS	Repository	42
 .\Dats\FinalBurnAlpha\CVS	Root	25
 .\Dats\M1	M1 v0.7.8a6 (rc).zip	84447
 .\Dats\M1	M1 v0.7.8a6 (xml).zip	203473
-.\Dats\M1	M1.ent.xml	9187
+.\Dats\M1	M1.ent.xml	9180
 .\Dats\M1	M1.php	8589
 .\Dats\M1	M1.png	691
 .\Dats\M1	M1.xml	160
@@ -375,7 +377,7 @@
 .\Dats\Mjolnir\CVS	Root	25
 .\Dats\Nebula	Nebula v2.25b (rc).zip	73350
 .\Dats\Nebula	Nebula v2.25b (xml).zip	153762
-.\Dats\Nebula	Nebula.ent.xml	15143
+.\Dats\Nebula	Nebula.ent.xml	15136
 .\Dats\Nebula	Nebula.php	13429
 .\Dats\Nebula	Nebula.png	1219
 .\Dats\Nebula	Nebula.xml	172
@@ -386,8 +388,8 @@
 .\Dats\Nebula\CVS	Root	25
 .\Dats\Neo-Geo	Neo-Geo 20080716 (rc).zip	55129
 .\Dats\Neo-Geo	Neo-Geo 20080716 (xml).zip	92157
-.\Dats\Neo-Geo	Neo-Geo.ent.xml	12429
-.\Dats\Neo-Geo	Neo-Geo.php	11356
+.\Dats\Neo-Geo	Neo-Geo.ent.xml	12538
+.\Dats\Neo-Geo	Neo-Geo.php	11445
 .\Dats\Neo-Geo	Neo-Geo.png	1501
 .\Dats\Neo-Geo	Neo-Geo.xml	173
 .\Dats\Neo-Geo	_cvs_purge_add.bat	48
@@ -398,7 +400,7 @@
 .\Dats\OlderEmus	CMZIPContents.php	1129
 .\Dats\OlderEmus	Older Emus 20080420 (rc).zip	541055
 .\Dats\OlderEmus	Older Emus 20080420 (xml).zip	1297094
-.\Dats\OlderEmus	OlderEmus.ent.xml	8059
+.\Dats\OlderEmus	OlderEmus.ent.xml	8052
 .\Dats\OlderEmus	OlderEmus.php	8362
 .\Dats\OlderEmus	OlderEmus.png	1948
 .\Dats\OlderEmus	OlderEmus.xml	181
@@ -410,7 +412,7 @@
 .\Dats\OlderEmus\CVS	Root	25
 .\Dats\OldSpark	OldSpark C++ 20071006 (rc).zip	2404
 .\Dats\OldSpark	OldSpark C++ 20071006 (xml).zip	6065
-.\Dats\OldSpark	OldSpark.ent.xml	1310
+.\Dats\OldSpark	OldSpark.ent.xml	1303
 .\Dats\OldSpark	OldSpark.php	2539
 .\Dats\OldSpark	OldSpark.png	2777
 .\Dats\OldSpark	OldSpark.xml	178
@@ -419,10 +421,10 @@
 .\Dats\OldSpark\CVS	Entries	432
 .\Dats\OldSpark\CVS	Repository	36
 .\Dats\OldSpark\CVS	Root	25
-.\Dats\RAINE	RAINE v0.50.14 (rc).zip	84827
-.\Dats\RAINE	RAINE v0.50.14 (xml).zip	227338
-.\Dats\RAINE	RAINE.ent.xml	11757
-.\Dats\RAINE	RAINE.php	10688
+.\Dats\RAINE	RAINE v0.50.15 (rc).zip	84835
+.\Dats\RAINE	RAINE v0.50.15 (xml).zip	227326
+.\Dats\RAINE	RAINE.ent.xml	11870
+.\Dats\RAINE	RAINE.php	10774
 .\Dats\RAINE	RAINE.png	1339
 .\Dats\RAINE	RAINE.xml	169
 .\Dats\RAINE	_cvs_purge_add.bat	48
@@ -443,7 +445,7 @@
 .\Dats\SEGAModel2Emulator\CVS	Root	25
 .\Dats\WinKawaks	WinKawaks v1.59 (rc).zip	80664
 .\Dats\WinKawaks	WinKawaks v1.59 (xml).zip	162215
-.\Dats\WinKawaks	WinKawaks.ent.xml	10888
+.\Dats\WinKawaks	WinKawaks.ent.xml	10881
 .\Dats\WinKawaks	WinKawaks.php	10050
 .\Dats\WinKawaks	WinKawaks.png	1885
 .\Dats\WinKawaks	WinKawaks.xml	181
@@ -463,7 +465,7 @@
 .\Dats\XSL\CVS	Root	25
 .\Dats\Zinc	ZiNc v1.1 (rc).zip	8403
 .\Dats\Zinc	ZiNc v1.1 (xml).zip	18532
-.\Dats\Zinc	Zinc.ent.xml	2189
+.\Dats\Zinc	Zinc.ent.xml	2182
 .\Dats\Zinc	Zinc.php	3292
 .\Dats\Zinc	Zinc.png	761
 .\Dats\Zinc	Zinc.xml	166
