@@ -239,7 +239,7 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3302
-.\Dats	Dats.php	11882
+.\Dats	Dats.php	11897
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3112
 .\Dats	EmulatorSupplements.png	3532
@@ -340,17 +340,17 @@
 .\Dats\DTD\CVS	Entries	45
 .\Dats\DTD\CVS	Repository	31
 .\Dats\DTD\CVS	Root	25
-.\Dats\FinalBurnAlpha	FBA v0.2.96.94 (rc).zip	269612
-.\Dats\FinalBurnAlpha	FBA v0.2.96.94 (xml).zip	550101
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	9591
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	8952
+.\Dats\FinalBurnAlpha	FBA v0.2.96.95 (rc).zip	289731
+.\Dats\FinalBurnAlpha	FBA v0.2.96.95 (xml).zip	629564
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	9701
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	9035
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.png	2202
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
 .\Dats\FinalBurnAlpha	_zip_fba.bat	610
 .\Dats\FinalBurnAlpha\CVS	Entries	553
-.\Dats\FinalBurnAlpha\CVS	FBA v0.2.96.94 (rc).zip,t	0
-.\Dats\FinalBurnAlpha\CVS	FBA v0.2.96.94 (xml).zip,t	0
+.\Dats\FinalBurnAlpha\CVS	FBA v0.2.96.95 (rc).zip,t	0
+.\Dats\FinalBurnAlpha\CVS	FBA v0.2.96.95 (xml).zip,t	0
 .\Dats\FinalBurnAlpha\CVS	Repository	42
 .\Dats\FinalBurnAlpha\CVS	Root	25
 .\Dats\M1	M1 v0.7.8a6 (rc).zip	84447
@@ -423,8 +423,8 @@
 .\Dats\OldSpark\CVS	Root	25
 .\Dats\RAINE	RAINE v0.50.15 (rc).zip	84835
 .\Dats\RAINE	RAINE v0.50.15 (xml).zip	227326
-.\Dats\RAINE	RAINE.ent.xml	11870
-.\Dats\RAINE	RAINE.php	10774
+.\Dats\RAINE	RAINE.ent.xml	11878
+.\Dats\RAINE	RAINE.php	10802
 .\Dats\RAINE	RAINE.png	1339
 .\Dats\RAINE	RAINE.xml	169
 .\Dats\RAINE	_cvs_purge_add.bat	48
