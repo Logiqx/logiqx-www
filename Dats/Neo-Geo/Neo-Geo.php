@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Neo-Geo 20080716</title>
+    <title>Neo-Geo 20081019</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="Neo-Geo.png" width="108" height="40" alt="Neo-Geo.png"/>
     </p>
-	<p>268 games for Neo-Geo 20080716</p>
+	<p>268 games for Neo-Geo 20081019</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Neo-Geo%2020080716%20(xml).zip">Neo-Geo dat for CMPro + RC3</a> (90KB)</p>
+          <p>Download <a href="Neo-Geo%2020081018%20(xml).zip">Neo-Geo dat for CMPro + RC3</a> (90KB)</p>
           <p>
-            <a href="Neo-Geo%2020080716%20(xml).zip">
+            <a href="Neo-Geo%2020081018%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="Neo-Geo%2020080716%20(rc).zip">Neo-Geo dat for ROMCenter 2</a> (54KB)</p>
+          <p>Download <a href="Neo-Geo%2020081018%20(rc).zip">Neo-Geo dat for ROMCenter 2</a> (54KB)</p>
           <p>
-            <a href="Neo-Geo%2020080716%20(rc).zip">
+            <a href="Neo-Geo%2020081018%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>19 October 2008</b> - 
+			
+			Updated to match MAME v0.128.
+		</p>
     <p>
       <b>23 August 2008</b> - 
 			

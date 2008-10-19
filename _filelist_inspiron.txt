@@ -311,7 +311,7 @@
 .\Dats\CPS3Emulator\CVS	Entries	481
 .\Dats\CPS3Emulator\CVS	Repository	40
 .\Dats\CPS3Emulator\CVS	Root	25
-.\Dats\CVS	Entries	1877
+.\Dats\CVS	Entries	1878
 .\Dats\CVS	Repository	27
 .\Dats\CVS	Root	25
 .\Dats\Daphne	Daphne v0.99.7 (rc).zip	4549
@@ -348,9 +348,7 @@
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
 .\Dats\FinalBurnAlpha	_zip_fba.bat	610
-.\Dats\FinalBurnAlpha\CVS	Entries	553
-.\Dats\FinalBurnAlpha\CVS	FBA v0.2.96.95 (rc).zip,t	0
-.\Dats\FinalBurnAlpha\CVS	FBA v0.2.96.95 (xml).zip,t	0
+.\Dats\FinalBurnAlpha\CVS	Entries	443
 .\Dats\FinalBurnAlpha\CVS	Repository	42
 .\Dats\FinalBurnAlpha\CVS	Root	25
 .\Dats\M1	M1 v0.7.8a6 (rc).zip	84447
@@ -918,6 +916,7 @@
 .\Tools\ZIPIdent\CVS	Entries	246
 .\Tools\ZIPIdent\CVS	Repository	37
 .\Tools\ZIPIdent\CVS	Root	25
+.\upload	all.zip	1382833
 .\upload	_upload.bat	166
 .\upload\CVS	Entries	48
 .\upload\CVS	Repository	29
