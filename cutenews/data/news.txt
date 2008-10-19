@@ -1,2 +1,1 @@
-1216064350|logiqx|Demul v0.4.3 and SuperSet update|I have uploaded datafiles for Demul v0.4.3 (NAOMI games) and made a couple of changes to the SuperSet datafiles.|||1||
-1215467534|logiqx|MAME v0.126|MAME v0.126 has been released. I have posted the usual updates.|||1||
+1224412779|logiqx|MAME v0.128 and FBA v0.2.96.99|I have uploaded data files for MAME v0.128 and FBA v0.2.96.99|||1||
