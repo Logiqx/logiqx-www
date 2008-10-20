@@ -209,16 +209,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
       </tr>
 			<tr>
         <td>
-          <a href="AAE/">AAE (Another Arcade Emulator) Beta 1 Update 5</a>
+          <a href="AAE/">AAE (Another Arcade Emulator) Alpha Build 87</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>15/07/2008</p>
+          <p>
+            <b>20/10/2008</b>
+          </p>
         </td>
         <td>
-          <p>49</p>
+          <p>
+            <b>62</b>
+          </p>
         </td>
       </tr>
 

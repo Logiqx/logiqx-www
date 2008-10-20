@@ -1,26 +1,30 @@
 <emulator id="AAE">
 	<img src="AAE.png" width="374" height="40"/>
 	<name>AAE (Another Arcade Emulator)</name>
-	<version>Beta 1 Update 5</version>
+	<version>Alpha Build 87</version>
 	<suitability></suitability>
-	<status></status>
-	<date>15/07/2008</date>
-	<games>49</games>
-	<author href="http://various.ru/">neoforma</author>
+	<status>Updated</status>
+	<date>20/10/2008</date>
+	<games>62</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>AAE is a primarily vector based arcade system emulator/simulator.</p>
 	</comment>
 	<dats>
 		<dat>
                         &Generic;
-			<file name="AAE%20Beta%201%20Update%205%20(xml).zip" size="15"/>
+			<file name="AAE%20Alpha%20Build%2087%20(xml).zip" size="18"/>
 		</dat>
 		<dat>
                         &ROMCenter;
-			<file name="AAE%20Beta%201%20Update%205%20(rc).zip" size="6"/>
+			<file name="AAE%20Alpha%20Build%2087%20(rc).zip" size="7"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>20 October 2008</date>
+			<comment>Uploaded data files for the AAE Alpha Build 87.</comment>
+		</revision>
 		<revision>
 			<date>15 July 2008</date>
 			<comment>Added "forcepacking" to the XML data file.</comment>

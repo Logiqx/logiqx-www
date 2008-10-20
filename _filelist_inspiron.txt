@@ -44,7 +44,7 @@
 .\cutenews\data	auto_archive.db.php	0
 .\cutenews\data	cat.num.php	1
 .\cutenews\data	category.db.php	16
-.\cutenews\data	comments.txt	28
+.\cutenews\data	comments.txt	14
 .\cutenews\data	config.php	1324
 .\cutenews\data	Default.tpl	2184
 .\cutenews\data	flood.db.php	0
@@ -52,7 +52,7 @@
 .\cutenews\data	index.html	117
 .\cutenews\data	ipban.db.php	0
 .\cutenews\data	Logiqx.tpl	1653
-.\cutenews\data	news.txt	270
+.\cutenews\data	news.txt	117
 .\cutenews\data	postponed_news.txt	0
 .\cutenews\data	rss.tpl	564
 .\cutenews\data	rss_config.php	186
@@ -64,8 +64,10 @@
 .\cutenews\data\archives	1207085101.news.arch	1647
 .\cutenews\data\archives	1215466172.comments.arch	252
 .\cutenews\data\archives	1215466172.news.arch	3598
+.\cutenews\data\archives	1224412308.comments.arch	126
+.\cutenews\data\archives	1224412308.news.arch	1419
 .\cutenews\data\archives	index.htm	117
-.\cutenews\data\archives\CVS	Entries	382
+.\cutenews\data\archives\CVS	Entries	494
 .\cutenews\data\archives\CVS	Repository	28
 .\cutenews\data\archives\CVS	Root	26
 .\cutenews\data\backup	index.html	117
@@ -917,7 +919,6 @@
 .\Tools\ZIPIdent\CVS	Entries	246
 .\Tools\ZIPIdent\CVS	Repository	37
 .\Tools\ZIPIdent\CVS	Root	25
-.\upload	all.zip	8711900
 .\upload	_upload.bat	166
 .\upload\CVS	Entries	48
 .\upload\CVS	Repository	29
@@ -943,7 +944,7 @@
 .\Video\DVD Decrypter Settings\CVS	Repository	51
 .\Video\DVD Decrypter Settings\CVS	Root	25
 .\Video\DVD Decrypter Settings\CVS	Root.tmp	0
-.\waagle	.ftpquota	6
+.\waagle	.ftpquota	7
 .\waagle	.htaccess	535
 .\waagle	index.php	19
 .\waagle	robots.txt	0

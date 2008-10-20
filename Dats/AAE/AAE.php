@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>AAE (Another Arcade Emulator) Beta 1 Update 5</title>
+    <title>AAE (Another Arcade Emulator) Alpha Build 87</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="AAE.png" width="374" height="40" alt="AAE.png"/>
     </p>
-	<p>49 games for AAE (Another Arcade Emulator) Beta 1 Update 5</p>
+	<p>62 games for AAE (Another Arcade Emulator) Alpha Build 87</p>
 	
 	
 	
@@ -44,17 +44,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="AAE%20Beta%201%20Update%205%20(xml).zip">AAE (Another Arcade Emulator) dat for CMPro + RC3</a> (15KB)</p>
+          <p>Download <a href="AAE%20Alpha%20Build%2087%20(xml).zip">AAE (Another Arcade Emulator) dat for CMPro + RC3</a> (18KB)</p>
           <p>
-            <a href="AAE%20Beta%201%20Update%205%20(xml).zip">
+            <a href="AAE%20Alpha%20Build%2087%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="AAE%20Beta%201%20Update%205%20(rc).zip">AAE (Another Arcade Emulator) dat for ROMCenter 2</a> (6KB)</p>
+          <p>Download <a href="AAE%20Alpha%20Build%2087%20(rc).zip">AAE (Another Arcade Emulator) dat for ROMCenter 2</a> (7KB)</p>
           <p>
-            <a href="AAE%20Beta%201%20Update%205%20(rc).zip">
+            <a href="AAE%20Alpha%20Build%2087%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>20 October 2008</b> - 
+			
+			Uploaded data files for the AAE Alpha Build 87.
+		</p>
     <p>
       <b>15 July 2008</b> - 
 			

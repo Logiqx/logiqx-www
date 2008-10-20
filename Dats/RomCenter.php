@@ -42,8 +42,8 @@
 		
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="AAE/AAE%20Beta%201%20Update%205%20(rc).zip"><b>AAE (Another Arcade Emulator)</b></a></td><td>Beta 1 Update 5</td><td><a href="http://various.ru/"><b>neoforma</b></a></td><td>49</td><td>15/07/2008</td></tr>
+						updated
+					</b></td><td><a href="AAE/AAE%20Alpha%20Build%2087%20(rc).zip"><b>AAE (Another Arcade Emulator)</b></a></td><td>Alpha Build 87</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>62</td><td>20/10/2008</td></tr>
 
 <tr><td class="status"><b>
 						-
