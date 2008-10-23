@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ROMBuild v2.10</title>
+    <title>ROMBuild v2.11</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -50,9 +50,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="rbuild210.zip">ROMBuild v2.10</a> (106KB)</p>
+          <p>Download <a href="rbuild211.zip">ROMBuild v2.11</a> (105KB)</p>
           <p>
-            <a href="rbuild210.zip">
+            <a href="rbuild211.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -83,6 +83,19 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>23 October 2008</b> - ROMBuild v2.11</p>
+    <p>
+			
+			
+			
+				Changes related to MAME v0.128:<br/>
+				kof95->kof95h, samsho3->samsho3h, tigerh2->tigerhb2, msvc->msvcr1.<br/>
+				Internal ROM renames for sengokh and wh1h.<br/>
+				Added knowledge of old v2 sound ROM from sonicwi2 (various emus).<br/>
+				Re-introduced some alpham2 and andodun ROMs for NeoRAGEx.<br/>
+    			
+		</p>
     <p>
       <b>4 April 2008</b> - ROMBuild v2.10</p>
     <p>

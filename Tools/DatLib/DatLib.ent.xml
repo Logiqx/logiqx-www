@@ -4,7 +4,7 @@
 
 	<name>DatLib</name>
 	<version>v2.32</version>
-	<status>Updated</status>
+	<status></status>
 	<date>16/07/2008</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
