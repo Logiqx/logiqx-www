@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.32</version>
-	<status></status>
-	<date>16/07/2008</date>
+	<version>v2.33</version>
+	<status>Updated</status>
+	<date>28/10/2008</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,25 @@
 
 	<downloads>
 		<download>
-			<file name="datlib232.zip" size="105"/>
+			<file name="datlib233.zip" size="107"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>28 October 2008</date>
+			<version>v2.33</version>
+			<comment>
+				- Added SHA1 / MD5 information for Neil Corlett's KGPE hack.<br/>
+				- Added load / support for AAE RomList.<br/>
+				- datutil -k now allows MD5 and SHA1 at the same time.<br/>
+				- datutil -n will NOT determine file types (everything = roms).<br/>
+				- Changed the directory scanner to process zero byte files / roms.<br/>
+				- Support for a new rom / disk status of 'verified'<br/>
+				- Added save support for the Hyperspin Database format.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>16 July 2008</date>
 			<version>v2.32</version>

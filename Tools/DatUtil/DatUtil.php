@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.42</title>
+    <title>DatUtil v2.43</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -49,6 +49,7 @@
 			- MAME ListXML (MAME and MESS)<br/>
 			- Generic XML<br/>
 			- Tab Delimited<br/>
+			- AAE RomList<br/>
 			<br/>
 			<b>Load only:</b>
       <br/>
@@ -67,16 +68,18 @@
 			<br/>
 			- MAME GameList<br/>
 			- Title List (for listing game titles - used by CPS-2 readme and RAINE docs)<br/>
-			- RomCenter Sublist
+			- RomCenter Sublist<br/>
+			- Game Launcher / GameEx Map File<br/>
+			- Hyperspin Database<br/>
 		</p>
 	
 
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil242.zip">DatUtil v2.42</a> (201KB)</p>
+          <p>Download <a href="dutil243.zip">DatUtil v2.43</a> (204KB)</p>
           <p>
-            <a href="dutil242.zip">
+            <a href="dutil243.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -88,6 +91,22 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>28 October 2008</b> - DatUtil v2.43</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.33.<br/>
+				- Added SHA1 / MD5 information for Neil Corlett's KGPE hack.<br/>
+				- Added load / support for AAE RomList.<br/>
+				- datutil -k now allows MD5 and SHA1 at the same time.<br/>
+				- datutil -n will NOT determine file types (everything = roms).<br/>
+				- Changed the directory scanner to process zero byte files / roms.<br/>
+				- Support for a new rom / disk status of 'verified'<br/>
+				- Added save support for the Hyperspin Database format.<br/>
+    			
+		</p>
     <p>
       <b>16 July 2008</b> - DatUtil v2.42</p>
     <p>

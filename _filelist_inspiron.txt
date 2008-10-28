@@ -241,7 +241,7 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3302
-.\Dats	Dats.php	12060
+.\Dats	Dats.php	12222
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3112
 .\Dats	EmulatorSupplements.png	3532
@@ -258,8 +258,8 @@
 .\Dats	RecentEmus.zip	827
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.inf	3858
-.\Dats	RomCenter.php	8276
+.\Dats	RomCenter.inf	3862
+.\Dats	RomCenter.php	8279
 .\Dats	RomCenter.xml	3084
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
@@ -269,15 +269,15 @@
 .\Dats	_rebuild_all.bat	55
 .\Dats	_rebuild_all.mak	1617
 .\Dats	_rebuild_xml.bat	853
-.\Dats\AAE	AAE Beta 1 Update 5 (rc).zip	5653
-.\Dats\AAE	AAE Beta 1 Update 5 (xml).zip	15324
-.\Dats\AAE	AAE.ent.xml	1162
-.\Dats\AAE	AAE.php	2573
+.\Dats\AAE	AAE Alpha Build 87 (rc).zip	6758
+.\Dats\AAE	AAE Alpha Build 87 (xml).zip	17600
+.\Dats\AAE	AAE.ent.xml	1292
+.\Dats\AAE	AAE.php	2661
 .\Dats\AAE	AAE.png	4810
 .\Dats\AAE	AAE.xml	162
 .\Dats\AAE	_cvs_purge_add.bat	50
 .\Dats\AAE	_zip_aae.bat	596
-.\Dats\AAE\CVS	Entries	403
+.\Dats\AAE\CVS	Entries	401
 .\Dats\AAE\CVS	Repository	31
 .\Dats\AAE\CVS	Root	25
 .\Dats\CPS-1	CPS-1 20081018 (rc).zip	28506
@@ -822,7 +822,7 @@
 .\team\wisdom\zip\CVS	Entries	425
 .\team\wisdom\zip\CVS	Repository	38
 .\team\wisdom\zip\CVS	Root	25
-.\Tools	Tools.php	3824
+.\Tools	Tools.php	3682
 .\Tools	Tools.png	859
 .\Tools	Tools.xml	899
 .\Tools	_rebuild_all.bat	55
@@ -838,7 +838,7 @@
 .\Tools\CVS	Entries	392
 .\Tools\CVS	Repository	28
 .\Tools\CVS	Root	25
-.\Tools\DatLib	DatLib.ent.xml	18036
+.\Tools\DatLib	DatLib.ent.xml	18029
 .\Tools\DatLib	DatLib.php	17682
 .\Tools\DatLib	DatLib.png	1150
 .\Tools\DatLib	DatLib.xml	173
@@ -850,7 +850,7 @@
 .\Tools\DatLib\CVS	Root	25
 .\Tools\DatUtil	CMProRC.png	11264
 .\Tools\DatUtil	Compatibility.xml	954
-.\Tools\DatUtil	DatUtil.ent.xml	34476
+.\Tools\DatUtil	DatUtil.ent.xml	34469
 .\Tools\DatUtil	DatUtil.php	33139
 .\Tools\DatUtil	DatUtil.png	1379
 .\Tools\DatUtil	DatUtil.xml	176
@@ -880,9 +880,9 @@
 .\Tools\MAMEDiff\CVS	Repository	37
 .\Tools\MAMEDiff\CVS	Root	25
 .\Tools\ROMBuild	rbmame80.zip	52512
-.\Tools\ROMBuild	rbuild210.zip	108239
-.\Tools\ROMBuild	ROMBuild.ent.xml	10081
-.\Tools\ROMBuild	ROMBuild.php	10462
+.\Tools\ROMBuild	rbuild211.zip	107442
+.\Tools\ROMBuild	ROMBuild.ent.xml	10518
+.\Tools\ROMBuild	ROMBuild.php	10866
 .\Tools\ROMBuild	ROMBuild.png	1890
 .\Tools\ROMBuild	ROMBuild.xml	179
 .\Tools\ROMBuild\CVS	Entries	295

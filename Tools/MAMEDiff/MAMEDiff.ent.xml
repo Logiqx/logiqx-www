@@ -3,9 +3,9 @@
 	<img src="MAMEDiff.png" width="123" height="40"/>
 
 	<name>MAMEDiff</name>
-	<version>v2.29</version>
-	<status></status>
-	<date>11/05/2008</date>
+	<version>v2.30</version>
+	<status>Updated</status>
+	<date>28/10/2008</date>
 
 	<description>Data file comparison tool</description>
 
@@ -15,11 +15,21 @@
 
 	<downloads>
 		<download>
-			<file name="mdiff229.zip" size="218"/>
+			<file name="mdiff230.zip" size="223"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>28 October 2008</date>
+			<version>v2.30</version>
+			<comment>
+				- Uses DatLib v2.33.<br/>
+				- Added support for AAE RomList.<br/>
+				- Changed the directory scanner to process zero byte files / roms.<br/>
+  			</comment>
+		</revision>
+
 		<revision>
 			<date>5 May 2008</date>
 			<version>v2.29</version>

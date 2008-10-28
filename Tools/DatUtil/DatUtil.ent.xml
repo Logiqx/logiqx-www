@@ -3,9 +3,9 @@
 	<img src="DatUtil.png" width="81" height="40"/>
 
 	<name>DatUtil</name>
-	<version>v2.42</version>
-	<status></status>
-	<date>16/07/2008</date>
+	<version>v2.43</version>
+	<status>Updated</status>
+	<date>28/10/2008</date>
 
 	<description>Data file creation/conversion tool</description>
 
@@ -20,6 +20,7 @@
 			- MAME ListXML (MAME and MESS)<br />
 			- Generic XML<br />
 			- Tab Delimited<br />
+			- AAE RomList<br />
 			<br />
 			<b>Load only:</b><br />
 			<br />
@@ -36,17 +37,34 @@
 			<br />
 			- MAME GameList<br />
 			- Title List (for listing game titles - used by CPS-2 readme and RAINE docs)<br />
-			- RomCenter Sublist
+			- RomCenter Sublist<br />
+			- Game Launcher / GameEx Map File<br />
+			- Hyperspin Database<br />
 		</p>
 	</comment>
 
 	<downloads>
 		<download>
-			<file name="dutil242.zip" size="201"/>
+			<file name="dutil243.zip" size="204"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>28 October 2008</date>
+			<version>v2.43</version>
+			<comment>
+				- Uses DatLib v2.33.<br/>
+				- Added SHA1 / MD5 information for Neil Corlett's KGPE hack.<br/>
+				- Added load / support for AAE RomList.<br/>
+				- datutil -k now allows MD5 and SHA1 at the same time.<br/>
+				- datutil -n will NOT determine file types (everything = roms).<br/>
+				- Changed the directory scanner to process zero byte files / roms.<br/>
+				- Support for a new rom / disk status of 'verified'<br/>
+				- Added save support for the Hyperspin Database format.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>16 July 2008</date>
 			<version>v2.42</version>

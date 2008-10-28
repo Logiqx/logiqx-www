@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.32</title>
+    <title>DatLib v2.33</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib232.zip">DatLib v2.32</a> (105KB)</p>
+          <p>Download <a href="datlib233.zip">DatLib v2.33</a> (107KB)</p>
           <p>
-            <a href="datlib232.zip">
+            <a href="datlib233.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,21 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>28 October 2008</b> - DatLib v2.33</p>
+    <p>
+			
+			
+			
+				- Added SHA1 / MD5 information for Neil Corlett's KGPE hack.<br/>
+				- Added load / support for AAE RomList.<br/>
+				- datutil -k now allows MD5 and SHA1 at the same time.<br/>
+				- datutil -n will NOT determine file types (everything = roms).<br/>
+				- Changed the directory scanner to process zero byte files / roms.<br/>
+				- Support for a new rom / disk status of 'verified'<br/>
+				- Added save support for the Hyperspin Database format.<br/>
+    			
+		</p>
     <p>
       <b>16 July 2008</b> - DatLib v2.32</p>
     <p>
