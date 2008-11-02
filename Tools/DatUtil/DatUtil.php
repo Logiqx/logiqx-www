@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.43</title>
+    <title>DatUtil v2.44</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -77,9 +77,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil243.zip">DatUtil v2.43</a> (204KB)</p>
+          <p>Download <a href="dutil244.zip">DatUtil v2.44</a> (204KB)</p>
           <p>
-            <a href="dutil243.zip">
+            <a href="dutil244.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -91,6 +91,17 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>2 November 2008</b> - DatUtil v2.44</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.34.<br/>
+				- Changed the order of MD5 and SHA1 in listinfo and XML datafiles.<br/>
+				- Removed the ambiguous "-f xml" option. Use listxml or genericxml.<br/>
+    			
+		</p>
     <p>
       <b>28 October 2008</b> - DatUtil v2.43</p>
     <p>
