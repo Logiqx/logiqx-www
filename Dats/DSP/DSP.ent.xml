@@ -1,0 +1,29 @@
+<emulator id="DSP">
+	<img src="DSP.png" width="57" height="40"/>
+	<name>DSP</name>
+	<version>v0.9</version>
+	<suitability></suitability>
+	<status>New</status>
+	<date>03/11/2008</date>
+	<games>35</games>
+	<author href="http://www.logiqx.com">Logiqx</author>
+	<comment>
+		<p>DSP emulates 8-bit coomputers, consoles and arcade.</p>
+	</comment>
+	<dats>
+		<dat>
+                        &Generic;
+			<file name="DSP%20v0.9%20(xml).zip" size="18"/>
+		</dat>
+		<dat>
+                        &ROMCenter;
+			<file name="DSP%20v0.9%20(rc).zip" size="7"/>
+		</dat>
+	</dats>
+	<revisions>
+		<revision>
+			<date>3 November 2008</date>
+			<comment>Uploaded data files for the DSP v0.9.</comment>
+		</revision>
+	</revisions>
+</emulator>

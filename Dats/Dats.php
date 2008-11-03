@@ -276,6 +276,27 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
+          <a href="DSP/">DSP v0.9</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/New.png" width="53" height="14" alt="New"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>03/11/2008</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>35</b>
+          </p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
           <a href="FinalBurnAlpha/">FBA v0.2.96.99</a>
         </td>
         <td>

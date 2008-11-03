@@ -11,6 +11,7 @@ EMULATORS= \
 	CPS3Emulator/CPS3Emulator.php \
 	Daphne/Daphne.php \
 	Demul/Demul.php \
+	DSP/DSP.php \
 	FinalBurnAlpha/FinalBurnAlpha.php \
 	MAMEBeta/MAMEBeta.php \
 	MAMESuperSet/MAMESuperSet.php \

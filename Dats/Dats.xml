@@ -5,6 +5,7 @@
 	<!ENTITY CPS3Emulator SYSTEM "CPS3Emulator/CPS3Emulator.ent.xml">
 	<!ENTITY Daphne SYSTEM "Daphne/Daphne.ent.xml">
 	<!ENTITY Demul SYSTEM "Demul/Demul.ent.xml">
+	<!ENTITY DSP SYSTEM "DSP/DSP.ent.xml">
 	<!ENTITY FinalBurnAlpha SYSTEM "FinalBurnAlpha/FinalBurnAlpha.ent.xml">
 	<!ENTITY MAMEBeta SYSTEM "MAMEBeta/MAMEBeta.ent.xml">
 	<!ENTITY MAMESuperSet SYSTEM "MAMESuperSet/MAMESuperSet.ent.xml">
@@ -52,6 +53,7 @@
 			&CPS3Emulator;
 			&Daphne;
 			&Demul;
+			&DSP;
 			&FinalBurnAlpha;
 			&Kawaks;
 			&M1;

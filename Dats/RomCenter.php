@@ -60,6 +60,10 @@
 					</b></td><td><a href="Demul/Demul%20v0.4.3%20(rc).zip"><b>Demul</b></a></td><td>v0.4.3</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>27</td><td>14/07/2008</td></tr>
 
 <tr><td class="status"><b>
+						new
+					</b></td><td><a href="DSP/DSP%20v0.9%20(rc).zip"><b>DSP</b></a></td><td>v0.9</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>35</td><td>03/11/2008</td></tr>
+
+<tr><td class="status"><b>
 						updated
 					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.96.99%20(rc).zip"><b>FBA</b></a></td><td>v0.2.96.99</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1535</td><td>19/10/2008</td></tr>
 

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
+<!ENTITY DSP SYSTEM "DSP.ent.xml">
+]>
+
+<emulator_page>
+	&DSP;
+</emulator_page>
