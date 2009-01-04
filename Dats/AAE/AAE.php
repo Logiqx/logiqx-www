@@ -29,7 +29,7 @@
 	<p>
       <img src="AAE.png" width="374" height="40" alt="AAE.png"/>
     </p>
-	<p>62 games for AAE (Another Arcade Emulator) Alpha Build 87</p>
+	<p>62 games for AAE (Another Arcade Emulator) Alpha Build 87<br/>(suitable for update 1)</p>
 	
 	
 	

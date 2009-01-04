@@ -209,8 +209,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
       </tr>
 			<tr>
         <td>
-          <a href="AAE/">AAE (Another Arcade Emulator) Alpha Build 87</a>
-        </td>
+          <a href="AAE/">AAE (Another Arcade Emulator) Alpha Build 87</a> (suitable for update 1)</td>
         <td>
           <p>
             <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
