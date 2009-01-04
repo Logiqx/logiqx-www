@@ -1,0 +1,32 @@
+<h1>03 November 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded datafiles for DSP v0.9</p></td>
+  </tr>
+</table><h1>02 November 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released DatLib v2.34 and DatUtil v2.44 - only minor updates.</p></td>
+  </tr>
+</table><h1>28 October 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released updates for 3 of my tools:<br /><br />DatLib v2.33, DatUtil v2.43 and MAMEDiff 2.30</p></td>
+  </tr>
+</table><h1>23 October 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released ROMBuild v2.11 which contains some updates relating to MAME v0.128.</p></td>
+  </tr>
+</table><h1>20 October 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded data files for AAE (Another Arcade Emulator) Alpha Build 87.</p></td>
+  </tr>
+</table><h1>19 October 2008</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded data files for MAME v0.128 and FBA v0.2.96.99</p></td>
+  </tr>
+</table>
+

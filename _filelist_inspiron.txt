@@ -240,10 +240,10 @@
 .\DatFAQs\CVS	Entries	999
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
-.\Dats	datafile.dtd	3302
-.\Dats	Dats.php	12222
+.\Dats	datafile.dtd	3320
+.\Dats	Dats.php	12622
 .\Dats	Dats.png	1033
-.\Dats	Dats.xml	3112
+.\Dats	Dats.xml	3163
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
@@ -254,25 +254,25 @@
 .\Dats	OlderEmus.zip	4431
 .\Dats	RecentEmus.laptop.txt	546
 .\Dats	RecentEmus.png	2121
-.\Dats	RecentEmus.txt	566
-.\Dats	RecentEmus.zip	827
+.\Dats	RecentEmus.txt	550
+.\Dats	RecentEmus.zip	998
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.inf	3862
-.\Dats	RomCenter.php	8279
-.\Dats	RomCenter.xml	3084
+.\Dats	RomCenter.inf	3973
+.\Dats	RomCenter.php	8497
+.\Dats	RomCenter.xml	3132
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
 .\Dats	Systems.txt	100
 .\Dats	Systems.zip	503
 .\Dats	VariousEmulators.png	3158
 .\Dats	_rebuild_all.bat	55
-.\Dats	_rebuild_all.mak	1617
+.\Dats	_rebuild_all.mak	1633
 .\Dats	_rebuild_xml.bat	853
 .\Dats\AAE	AAE Alpha Build 87 (rc).zip	6758
 .\Dats\AAE	AAE Alpha Build 87 (xml).zip	17600
-.\Dats\AAE	AAE.ent.xml	1292
-.\Dats\AAE	AAE.php	2661
+.\Dats\AAE	AAE.ent.xml	1300
+.\Dats\AAE	AAE.php	2689
 .\Dats\AAE	AAE.png	4810
 .\Dats\AAE	AAE.xml	162
 .\Dats\AAE	_cvs_purge_add.bat	50
@@ -313,7 +313,7 @@
 .\Dats\CPS3Emulator\CVS	Entries	481
 .\Dats\CPS3Emulator\CVS	Repository	40
 .\Dats\CPS3Emulator\CVS	Root	25
-.\Dats\CVS	Entries	1878
+.\Dats\CVS	Entries	1889
 .\Dats\CVS	Repository	27
 .\Dats\CVS	Root	25
 .\Dats\Daphne	Daphne v0.99.7 (rc).zip	4549
@@ -338,6 +338,17 @@
 .\Dats\Demul\CVS	Entries	399
 .\Dats\Demul\CVS	Repository	16
 .\Dats\Demul\CVS	Root	26
+.\Dats\DSP	DSP v0.9 (rc).zip	6275
+.\Dats\DSP	DSP v0.9 (xml).zip	18121
+.\Dats\DSP	DSP.ent.xml	720
+.\Dats\DSP	DSP.php	2085
+.\Dats\DSP	DSP.png	1527
+.\Dats\DSP	DSP.xml	162
+.\Dats\DSP	_cvs_purge_add.bat	50
+.\Dats\DSP	_zip_dsp.bat	596
+.\Dats\DSP\CVS	Entries	381
+.\Dats\DSP\CVS	Repository	14
+.\Dats\DSP\CVS	Root	26
 .\Dats\DTD	dats.dtd	1414
 .\Dats\DTD\CVS	Entries	45
 .\Dats\DTD\CVS	Repository	31
@@ -822,7 +833,7 @@
 .\team\wisdom\zip\CVS	Entries	425
 .\team\wisdom\zip\CVS	Repository	38
 .\team\wisdom\zip\CVS	Root	25
-.\Tools	Tools.php	3682
+.\Tools	Tools.php	4108
 .\Tools	Tools.png	859
 .\Tools	Tools.xml	899
 .\Tools	_rebuild_all.bat	55
@@ -838,11 +849,11 @@
 .\Tools\CVS	Entries	392
 .\Tools\CVS	Repository	28
 .\Tools\CVS	Root	25
-.\Tools\DatLib	DatLib.ent.xml	18029
-.\Tools\DatLib	DatLib.php	17682
+.\Tools\DatLib	DatLib.ent.xml	18885
+.\Tools\DatLib	DatLib.php	18475
 .\Tools\DatLib	DatLib.png	1150
 .\Tools\DatLib	DatLib.xml	173
-.\Tools\DatLib	datlib232.zip	106790
+.\Tools\DatLib	datlib234.zip	109078
 .\Tools\DatLib\CVS	dlib10.zip,t	0
 .\Tools\DatLib\CVS	dlib19.zip,t	0
 .\Tools\DatLib\CVS	Entries	238
@@ -850,11 +861,11 @@
 .\Tools\DatLib\CVS	Root	25
 .\Tools\DatUtil	CMProRC.png	11264
 .\Tools\DatUtil	Compatibility.xml	954
-.\Tools\DatUtil	DatUtil.ent.xml	34469
-.\Tools\DatUtil	DatUtil.php	33139
+.\Tools\DatUtil	DatUtil.ent.xml	35487
+.\Tools\DatUtil	DatUtil.php	34092
 .\Tools\DatUtil	DatUtil.png	1379
 .\Tools\DatUtil	DatUtil.xml	176
-.\Tools\DatUtil	dutil242.zip	205574
+.\Tools\DatUtil	dutil244.zip	207984
 .\Tools\DatUtil\CVS	Entries	340
 .\Tools\DatUtil\CVS	Repository	36
 .\Tools\DatUtil\CVS	Root	25
@@ -870,12 +881,12 @@
 .\Tools\ImgChk\CVS	Entries	238
 .\Tools\ImgChk\CVS	Repository	35
 .\Tools\ImgChk\CVS	Root	25
-.\Tools\MAMEDiff	MAMEDiff.ent.xml	19833
-.\Tools\MAMEDiff	MAMEDiff.php	19314
+.\Tools\MAMEDiff	MAMEDiff.ent.xml	20105
+.\Tools\MAMEDiff	MAMEDiff.php	19553
 .\Tools\MAMEDiff	MAMEDiff.png	2002
 .\Tools\MAMEDiff	MAMEDiff.xml	179
 .\Tools\MAMEDiff	MAMEMAME.png	8243
-.\Tools\MAMEDiff	mdiff229.zip	222732
+.\Tools\MAMEDiff	mdiff230.zip	227425
 .\Tools\MAMEDiff\CVS	Entries	294
 .\Tools\MAMEDiff\CVS	Repository	37
 .\Tools\MAMEDiff\CVS	Root	25
