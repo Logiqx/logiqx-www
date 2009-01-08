@@ -54,14 +54,10 @@
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>02/11/2008</strong>
-          </p>
+          <p>02/11/2008</p>
         </td>
       </tr>
 
@@ -71,14 +67,10 @@
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>02/11/2008</strong>
-          </p>
+          <p>02/11/2008</p>
         </td>
       </tr>
 
@@ -101,20 +93,16 @@
         </td>
         <td>Data file comparison tool</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>28/10/2008</strong>
-          </p>
+          <p>28/10/2008</p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="ROMBuild/">ROMBuild v2.11</a>
+          <a href="ROMBuild/">ROMBuild v2.12</a>
         </td>
         <td>ROM manipulation tool that can convert modern day ROMs to older formats</td>
         <td>
@@ -124,7 +112,7 @@
         </td>
         <td>
           <p>
-            <strong>13/10/2008</strong>
+            <strong>08/01/2009</strong>
           </p>
         </td>
       </tr>

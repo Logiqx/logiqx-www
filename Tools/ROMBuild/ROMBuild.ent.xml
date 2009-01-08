@@ -3,9 +3,9 @@
 	<img src="ROMBuild.png" width="120" height="40"/>
 
 	<name>ROMBuild</name>
-	<version>v2.11</version>
+	<version>v2.12</version>
 	<status>Updated</status>
-	<date>13/10/2008</date>
+	<date>08/01/2009</date>
 
 	<description>ROM manipulation tool that can convert modern day ROMs to older formats</description>
 
@@ -21,7 +21,7 @@
 
 	<downloads>
 		<download>
-			<file name="rbuild211.zip" size="105"/>
+			<file name="rbuild212.zip" size="106"/>
 		</download>
 	</downloads>
 
@@ -38,6 +38,16 @@
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>8 January 2009</date>
+			<version>v2.12</version>
+			<comment>
+				Changes related to MAME v0.129:<br/>
+				Added support for breakrev (c5+c6), gururin (m1), mahretsu (m1+s1).<br/>
+				Updated a few existing definitions to account for MAME ROM renames.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>23 October 2008</date>
 			<version>v2.11</version>

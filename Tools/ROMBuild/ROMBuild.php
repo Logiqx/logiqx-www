@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ROMBuild v2.11</title>
+    <title>ROMBuild v2.12</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -50,9 +50,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="rbuild211.zip">ROMBuild v2.11</a> (105KB)</p>
+          <p>Download <a href="rbuild212.zip">ROMBuild v2.12</a> (106KB)</p>
           <p>
-            <a href="rbuild211.zip">
+            <a href="rbuild212.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -83,6 +83,17 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>8 January 2009</b> - ROMBuild v2.12</p>
+    <p>
+			
+			
+			
+				Changes related to MAME v0.129:<br/>
+				Added support for breakrev (c5+c6), gururin (m1), mahretsu (m1+s1).<br/>
+				Updated a few existing definitions to account for MAME ROM renames.<br/>
+    			
+		</p>
     <p>
       <b>23 October 2008</b> - ROMBuild v2.11</p>
     <p>

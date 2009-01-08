@@ -246,13 +246,13 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3320
-.\Dats	Dats.php	12622
+.\Dats	Dats.php	12467
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3163
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	1001
+.\Dats	MAMESuperSet.zip	987
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
@@ -263,32 +263,32 @@
 .\Dats	RecentEmus.zip	998
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.inf	3973
-.\Dats	RomCenter.php	8497
+.\Dats	RomCenter.inf	3970
+.\Dats	RomCenter.php	8495
 .\Dats	RomCenter.xml	3132
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
 .\Dats	Systems.txt	100
-.\Dats	Systems.zip	503
+.\Dats	Systems.zip	506
 .\Dats	VariousEmulators.png	3158
 .\Dats	_rebuild_all.bat	55
 .\Dats	_rebuild_all.mak	1633
 .\Dats	_rebuild_xml.bat	853
 .\Dats\AAE	AAE Alpha Build 87 (rc).zip	6758
 .\Dats\AAE	AAE Alpha Build 87 (xml).zip	17600
-.\Dats\AAE	AAE.ent.xml	1300
+.\Dats\AAE	AAE.ent.xml	1293
 .\Dats\AAE	AAE.php	2689
 .\Dats\AAE	AAE.png	4810
 .\Dats\AAE	AAE.xml	162
 .\Dats\AAE	_cvs_purge_add.bat	50
 .\Dats\AAE	_zip_aae.bat	596
-.\Dats\AAE\CVS	Entries	401
+.\Dats\AAE\CVS	Entries	402
 .\Dats\AAE\CVS	Repository	31
 .\Dats\AAE\CVS	Root	25
-.\Dats\CPS-1	CPS-1 20081018 (rc).zip	28506
-.\Dats\CPS-1	CPS-1 20081018 (xml).zip	54673
-.\Dats\CPS-1	CPS-1.ent.xml	9117
-.\Dats\CPS-1	CPS-1.php	8638
+.\Dats\CPS-1	CPS-1 20090105 (rc).zip	28423
+.\Dats\CPS-1	CPS-1 20090105 (xml).zip	54371
+.\Dats\CPS-1	CPS-1.ent.xml	9227
+.\Dats\CPS-1	CPS-1.php	8721
 .\Dats\CPS-1	CPS-1.png	1149
 .\Dats\CPS-1	CPS-1.xml	167
 .\Dats\CPS-1	_cvs_purge_add.bat	50
@@ -296,10 +296,10 @@
 .\Dats\CPS-1\CVS	Entries	408
 .\Dats\CPS-1\CVS	Repository	33
 .\Dats\CPS-1\CVS	Root	25
-.\Dats\CPS-2	CPS-2 20081018 (rc).zip	35226
-.\Dats\CPS-2	CPS-2 20081018 (xml).zip	64777
-.\Dats\CPS-2	CPS-2.ent.xml	19985
-.\Dats\CPS-2	CPS-2.php	17822
+.\Dats\CPS-2	CPS-2 20090105 (rc).zip	42190
+.\Dats\CPS-2	CPS-2 20090105 (xml).zip	81798
+.\Dats\CPS-2	CPS-2.ent.xml	20095
+.\Dats\CPS-2	CPS-2.php	17905
 .\Dats\CPS-2	CPS-2.png	1268
 .\Dats\CPS-2	CPS-2.xml	167
 .\Dats\CPS-2	_cvs_purge_add.bat	48
@@ -345,7 +345,7 @@
 .\Dats\Demul\CVS	Root	26
 .\Dats\DSP	DSP v0.9 (rc).zip	6275
 .\Dats\DSP	DSP v0.9 (xml).zip	18121
-.\Dats\DSP	DSP.ent.xml	720
+.\Dats\DSP	DSP.ent.xml	717
 .\Dats\DSP	DSP.php	2085
 .\Dats\DSP	DSP.png	1527
 .\Dats\DSP	DSP.xml	162
@@ -358,10 +358,10 @@
 .\Dats\DTD\CVS	Entries	45
 .\Dats\DTD\CVS	Repository	31
 .\Dats\DTD\CVS	Root	25
-.\Dats\FinalBurnAlpha	FBA v0.2.96.99 (rc).zip	282849
-.\Dats\FinalBurnAlpha	FBA v0.2.96.99 (xml).zip	579968
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	9810
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	9117
+.\Dats\FinalBurnAlpha	FBA v0.2.97.01 (rc).zip	285357
+.\Dats\FinalBurnAlpha	FBA v0.2.97.01 (xml).zip	586010
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	9918
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	9198
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.png	2202
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
@@ -402,10 +402,10 @@
 .\Dats\Nebula\CVS	Entries	412
 .\Dats\Nebula\CVS	Repository	34
 .\Dats\Nebula\CVS	Root	25
-.\Dats\Neo-Geo	Neo-Geo 20081018 (rc).zip	54527
-.\Dats\Neo-Geo	Neo-Geo 20081018 (xml).zip	91543
-.\Dats\Neo-Geo	Neo-Geo.ent.xml	12656
-.\Dats\Neo-Geo	Neo-Geo.php	11529
+.\Dats\Neo-Geo	Neo-Geo 20090105 (rc).zip	67341
+.\Dats\Neo-Geo	Neo-Geo 20090105 (xml).zip	95513
+.\Dats\Neo-Geo	Neo-Geo.ent.xml	12766
+.\Dats\Neo-Geo	Neo-Geo.php	11612
 .\Dats\Neo-Geo	Neo-Geo.png	1501
 .\Dats\Neo-Geo	Neo-Geo.xml	173
 .\Dats\Neo-Geo	_cvs_purge_add.bat	48
@@ -459,10 +459,10 @@
 .\Dats\SEGAModel2Emulator\CVS	Entries	488
 .\Dats\SEGAModel2Emulator\CVS	Repository	46
 .\Dats\SEGAModel2Emulator\CVS	Root	25
-.\Dats\WinKawaks	WinKawaks v1.59 (rc).zip	80664
-.\Dats\WinKawaks	WinKawaks v1.59 (xml).zip	162215
-.\Dats\WinKawaks	WinKawaks.ent.xml	10881
-.\Dats\WinKawaks	WinKawaks.php	10050
+.\Dats\WinKawaks	WinKawaks v1.60 (rc).zip	84735
+.\Dats\WinKawaks	WinKawaks v1.60 (xml).zip	172884
+.\Dats\WinKawaks	WinKawaks.ent.xml	10994
+.\Dats\WinKawaks	WinKawaks.php	10129
 .\Dats\WinKawaks	WinKawaks.png	1885
 .\Dats\WinKawaks	WinKawaks.xml	181
 .\Dats\WinKawaks	_cvs_purge_add.bat	48
