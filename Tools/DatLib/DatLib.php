@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatLib v2.34</title>
+    <title>DatLib v2.35</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -51,9 +51,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="datlib234.zip">DatLib v2.34</a> (107KB)</p>
+          <p>Download <a href="datlib235.zip">DatLib v2.35</a> (107KB)</p>
           <p>
-            <a href="datlib234.zip">
+            <a href="datlib235.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -65,6 +65,15 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>9 January 2009</b> - DatLib v2.35</p>
+    <p>
+			
+			
+			
+				- Fixed warning messages for ROM size conflicts (Kawaks v1.60).<br/>
+    			
+		</p>
     <p>
       <b>2 November 2008</b> - DatLib v2.34</p>
     <p>

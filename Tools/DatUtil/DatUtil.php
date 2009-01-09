@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>DatUtil v2.44</title>
+    <title>DatUtil v2.45</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -77,9 +77,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="dutil244.zip">DatUtil v2.44</a> (204KB)</p>
+          <p>Download <a href="dutil245.zip">DatUtil v2.45</a> (204KB)</p>
           <p>
-            <a href="dutil244.zip">
+            <a href="dutil245.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -91,6 +91,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>9 January 2009</b> - DatUtil v2.45</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.35.<br/>
+				- Fixed warning messages for ROM size conflicts (Kawaks v1.60).<br/>
+    			
+		</p>
     <p>
       <b>2 November 2008</b> - DatUtil v2.44</p>
     <p>
