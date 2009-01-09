@@ -70,7 +70,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="WinKawaks/WinKawaks%20v1.60%20(rc).zip"><b>Kawaks</b></a></td><td>v1.60</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>590</td><td>07/01/2007</td></tr>
+					</b></td><td><a href="WinKawaks/WinKawaks%20v1.60%20(rc).zip"><b>Kawaks</b></a></td><td>v1.60</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>590</td><td>09/01/2007</td></tr>
 
 
 <tr><td class="status"><b>

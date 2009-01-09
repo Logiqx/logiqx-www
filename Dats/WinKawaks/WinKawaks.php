@@ -67,6 +67,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>9 January 2009</b> - 
+			
+			Fixed ROM size of 000-lo.lo.
+		</p>
+    <p>
       <b>7 January 2009</b> - 
 			
 			Updated for Kawaks v1.60.
