@@ -1,23 +1,27 @@
 <emulator id="FinalBurnAlpha">
 	<img src="FinalBurnAlpha.png" width="195" height="40"/>
 	<name>FBA</name>
-	<version>v0.2.97.01</version>
+	<version>v0.2.97.02</version>
 	<suitability></suitability>
-	<status></status>
-	<date>07/01/2009</date>
-	<games>1552</games>
+	<status>Updated</status>
+	<date>03/02/2009</date>
+	<games>1751</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
 		<dat>
 			&Generic;
-			<file name="FBA%20v0.2.97.01%20(xml).zip" size="573"/>
+			<file name="FBA%20v0.2.97.02%20(xml).zip" size="638"/>
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="FBA%20v0.2.97.01%20(rc).zip" size="279"/>
+			<file name="FBA%20v0.2.97.02%20(rc).zip" size="304"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>3 February 2009</date>
+			<comment>Updated for FBA v0.2.97.02 but missing SHA-1 data for some Phoenix games.</comment>
+		</revision>
 		<revision>
 			<date>7 January 2009</date>
 			<comment>Updated for FBA v0.2.97.01.</comment>

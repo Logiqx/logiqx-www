@@ -120,13 +120,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="MAMESuperSetEmusM/">Various Emulators (Fully-merged SuperSet Supplements) v0.129</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>07/01/2009</p>
+          <p>
+            <b>03/02/2009</b>
+          </p>
         </td>
         <td>
-          <p>Non-MAME</p>
+          <p>
+            <b>Non-MAME</b>
+          </p>
         </td>
       </tr>
 
@@ -135,13 +141,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="MAMESuperSetEmusS/">Various Emulators (Split-merged SuperSet Supplements) v0.129</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>07/01/2009</p>
+          <p>
+            <b>03/02/2009</b>
+          </p>
         </td>
         <td>
-          <p>Non-MAME</p>
+          <p>
+            <b>Non-MAME</b>
+          </p>
         </td>
       </tr>
 
@@ -248,16 +260,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="FinalBurnAlpha/">FBA v0.2.97.01</a>
+          <a href="FinalBurnAlpha/">FBA v0.2.97.02</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>07/01/2009</p>
+          <p>
+            <b>03/02/2009</b>
+          </p>
         </td>
         <td>
-          <p>1552</p>
+          <p>
+            <b>1751</b>
+          </p>
         </td>
       </tr>
 
@@ -343,15 +361,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="RAINE/">RAINE v0.50.15</a> (suitable for v0.50.17)</td>
-        <td>
-          <p/>
+          <a href="RAINE/">RAINE v0.51.0</a>
         </td>
         <td>
-          <p>23/08/2008</p>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>578</p>
+          <p>
+            <b>03/02/2009</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>781</b>
+          </p>
         </td>
       </tr>
 

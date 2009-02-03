@@ -37,7 +37,7 @@
 	
 	
 	
-		<p>Emulates Sega Model 2A/2B/2C CRX games.</p>
+		<p>Emulates Sega Model 2/2A/2B/2C CRX games.</p>
 	
 	<table>
       <colgroup span="1" width="50%"/>

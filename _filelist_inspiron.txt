@@ -456,11 +456,9 @@
 .\Dats\SEGAModel2Emulator	SEGAModel2Emulator.xml	208
 .\Dats\SEGAModel2Emulator	_cvs_purge_add.bat	48
 .\Dats\SEGAModel2Emulator	_zip_sega_model_2.bat	879
-.\Dats\SEGAModel2Emulator\CVS	Entries	646
+.\Dats\SEGAModel2Emulator\CVS	Entries	488
 .\Dats\SEGAModel2Emulator\CVS	Repository	46
 .\Dats\SEGAModel2Emulator\CVS	Root	25
-.\Dats\SEGAModel2Emulator\CVS	SEGA Model 2 Emulator v0.9 (rc).zip,t	0
-.\Dats\SEGAModel2Emulator\CVS	SEGA Model 2 Emulator v0.9 (xml).zip,t	0
 .\Dats\WinKawaks	WinKawaks v1.60 (rc).zip	84733
 .\Dats\WinKawaks	WinKawaks v1.60 (xml).zip	172878
 .\Dats\WinKawaks	WinKawaks.ent.xml	11096
@@ -938,6 +936,7 @@
 .\Tools\ZIPIdent\CVS	Entries	246
 .\Tools\ZIPIdent\CVS	Repository	37
 .\Tools\ZIPIdent\CVS	Root	25
+.\upload	all.zip	117031
 .\upload	_upload.bat	166
 .\upload\CVS	Entries	48
 .\upload\CVS	Repository	29

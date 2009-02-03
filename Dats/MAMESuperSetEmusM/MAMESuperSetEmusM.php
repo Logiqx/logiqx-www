@@ -46,7 +46,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.129%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro + RC3</a> (116KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.129%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro + RC3</a> (114KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.129%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -54,7 +54,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.129%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for ROMCenter 2</a> (63KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.129%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for ROMCenter 2</a> (62KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.129%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>3 February 2009</b> - 
+			
+			Updated for SEGA Model 2 Emulator v0.9, RAINE v0.51.0 and FBA v0.2.97.02.
+		</p>
     <p>
       <b>7 January 2009</b> - 
 			

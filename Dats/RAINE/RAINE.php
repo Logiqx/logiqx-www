@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>RAINE v0.50.15</title>
+    <title>RAINE v0.51.0</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="RAINE.png" width="82" height="40" alt="RAINE.png"/>
     </p>
-	<p>578 games for RAINE v0.50.15<br/>(suitable for v0.50.17)</p>
+	<p>781 games for RAINE v0.51.0</p>
 	
 	
 	
@@ -45,17 +45,17 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="RAINE%20v0.50.15%20(xml).zip">RAINE dat for CMPro + RC3</a> (222KB)</p>
+          <p>Download <a href="RAINE%20v0.51.0%20(xml).zip">RAINE dat for CMPro + RC3</a> (269KB)</p>
           <p>
-            <a href="RAINE%20v0.50.15%20(xml).zip">
+            <a href="RAINE%20v0.51.0%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
         </td>
 		<td>
-          <p>Download <a href="RAINE%20v0.50.15%20(rc).zip">RAINE dat for ROMCenter 2</a> (83KB)</p>
+          <p>Download <a href="RAINE%20v0.51.0%20(rc).zip">RAINE dat for ROMCenter 2</a> (112KB)</p>
           <p>
-            <a href="RAINE%20v0.50.15%20(rc).zip">
+            <a href="RAINE%20v0.51.0%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -66,6 +66,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>3 February 2009</b> - 
+			
+			Updated to match RAINE v0.51.0.
+		</p>
     <p>
       <b>23 August 2008</b> - 
 			

@@ -25,9 +25,9 @@ email=support@romcenter.com
 
 ;MAME SuperSet (Split-merged MAME Supplement);v0.129;Non-MAME;Logiqx;http://www.logiqx.com;;07/01/2009;http://www.logiqx.com/Dats/MAMESuperSetSuppS/MAME%20SuperSet%20v0.129%20(Split-merged%20MAME%20Supplement)%20(rc).zip
 
-;Various Emulators (Fully-merged SuperSet Supplements);v0.129;Non-MAME;Logiqx;http://www.logiqx.com;;07/01/2009;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.129%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
+updated;Various Emulators (Fully-merged SuperSet Supplements);v0.129;Non-MAME;Logiqx;http://www.logiqx.com;;03/02/2009;http://www.logiqx.com/Dats/MAMESuperSetEmusM/Various%20Emulators%20v0.129%20(Fully-merged%20SuperSet%20Supplements)%20(rc).zip
 
-;Various Emulators (Split-merged SuperSet Supplements);v0.129;Non-MAME;Logiqx;http://www.logiqx.com;;07/01/2009;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.129%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
+updated;Various Emulators (Split-merged SuperSet Supplements);v0.129;Non-MAME;Logiqx;http://www.logiqx.com;;03/02/2009;http://www.logiqx.com/Dats/MAMESuperSetEmusS/Various%20Emulators%20v0.129%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip
 
 		
 	
@@ -50,7 +50,7 @@ email=support@romcenter.com
 
 ;DSP;v0.9;35;Logiqx;http://www.logiqx.com;;03/11/2008;http://www.logiqx.com/Dats/DSP/DSP%20v0.9%20(rc).zip
 
-;FBA;v0.2.97.01;1552;Logiqx;http://www.logiqx.com;;07/01/2009;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.97.01%20(rc).zip
+updated;FBA;v0.2.97.02;1751;Logiqx;http://www.logiqx.com;;03/02/2009;http://www.logiqx.com/Dats/FinalBurnAlpha/FBA%20v0.2.97.02%20(rc).zip
 
 
 ;Kawaks;v1.60;590;Logiqx;http://www.logiqx.com;;09/01/2007;http://www.logiqx.com/Dats/WinKawaks/WinKawaks%20v1.60%20(rc).zip
@@ -68,7 +68,7 @@ email=support@romcenter.com
 ;OldSpark C++;20071006;16;Logiqx;http://www.logiqx.com;;15/07/2008;http://www.logiqx.com/Dats/OldSpark/OldSpark%20C++%2020071006%20(rc).zip
 
 
-;RAINE;v0.50.15;578;Logiqx;http://www.logiqx.com;;23/08/2008;http://www.logiqx.com/Dats/RAINE/RAINE%20v0.50.15%20(rc).zip
+updated;RAINE;v0.51.0;781;Logiqx;http://www.logiqx.com;;03/02/2009;http://www.logiqx.com/Dats/RAINE/RAINE%20v0.51.0%20(rc).zip
 
 updated;SEGA Model 2 Emulator;v0.9;53;Logiqx;http://www.logiqx.com;;02/02/2009;http://www.logiqx.com/Dats/SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.9%20(rc).zip
 
