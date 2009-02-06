@@ -68,6 +68,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>6 February 2009</b> - 
+			
+			Updated SEGA Model 2 Emulator v0.9 supplement.
+		</p>
+    <p>
       <b>3 February 2009</b> - 
 			
 			Updated for SEGA Model 2 Emulator v0.9, RAINE v0.51.0 and FBA v0.2.97.02.

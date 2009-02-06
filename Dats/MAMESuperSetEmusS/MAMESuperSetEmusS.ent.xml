@@ -4,7 +4,7 @@
 	<version>v0.129</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>03/02/2009</date>
+	<date>06/02/2009</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -19,10 +19,14 @@
 		</dat>
 		<dat>
 			&ROMCenter;
-			<file name="Various%20Emulators%20v0.129%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="63"/>
+			<file name="Various%20Emulators%20v0.129%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip" size="62"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>6 February 2009</date>
+			<comment>Updated SEGA Model 2 Emulator v0.9 supplement.</comment>
+		</revision>
 		<revision>
 			<date>3 February 2009</date>
 			<comment>Updated for SEGA Model 2 Emulator v0.9, RAINE v0.51.0 and FBA v0.2.97.02.</comment>

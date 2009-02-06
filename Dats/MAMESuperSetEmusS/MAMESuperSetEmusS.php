@@ -54,7 +54,7 @@
           </p>
         </td>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.129%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter 2</a> (63KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.129%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter 2</a> (62KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.129%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -67,6 +67,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>6 February 2009</b> - 
+			
+			Updated SEGA Model 2 Emulator v0.9 supplement.
+		</p>
     <p>
       <b>3 February 2009</b> - 
 			

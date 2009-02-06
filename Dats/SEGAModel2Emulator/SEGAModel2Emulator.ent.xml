@@ -4,7 +4,7 @@
 	<version>v0.9</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>02/02/2009</date>
+	<date>06/02/2009</date>
 	<games>53</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -21,6 +21,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>6 February 2009</date>
+			<comment>Added missing some SHA-1 information and made better use of model2.zip.</comment>
+		</revision>
 		<revision>
 			<date>2 February 2009</date>
 			<comment>Updated to match Sega Model 2 Emulator v0.9 but missing some SHA-1 information.</comment>

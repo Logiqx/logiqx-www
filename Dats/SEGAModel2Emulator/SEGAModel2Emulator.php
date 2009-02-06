@@ -66,6 +66,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>6 February 2009</b> - 
+			
+			Added missing some SHA-1 information and made better use of model2.zip.
+		</p>
+    <p>
       <b>2 February 2009</b> - 
 			
 			Updated to match Sega Model 2 Emulator v0.9 but missing some SHA-1 information.

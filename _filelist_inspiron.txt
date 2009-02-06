@@ -246,13 +246,13 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3320
-.\Dats	Dats.php	10825
+.\Dats	Dats.php	11461
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3163
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	987
+.\Dats	MAMESuperSet.zip	1010
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
@@ -260,11 +260,11 @@
 .\Dats	RecentEmus.laptop.txt	546
 .\Dats	RecentEmus.png	2121
 .\Dats	RecentEmus.txt	550
-.\Dats	RecentEmus.zip	1002
+.\Dats	RecentEmus.zip	1013
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.inf	3900
-.\Dats	RomCenter.php	8435
+.\Dats	RomCenter.inf	3926
+.\Dats	RomCenter.php	8457
 .\Dats	RomCenter.xml	3132
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
@@ -358,10 +358,10 @@
 .\Dats\DTD\CVS	Entries	45
 .\Dats\DTD\CVS	Repository	31
 .\Dats\DTD\CVS	Root	25
-.\Dats\FinalBurnAlpha	FBA v0.2.97.01 (rc).zip	285357
-.\Dats\FinalBurnAlpha	FBA v0.2.97.01 (xml).zip	586010
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	9911
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	9198
+.\Dats\FinalBurnAlpha	FBA v0.2.97.02 (rc).zip	311177
+.\Dats\FinalBurnAlpha	FBA v0.2.97.02 (xml).zip	653086
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	10073
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	9326
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.png	2202
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
@@ -437,21 +437,21 @@
 .\Dats\OldSpark\CVS	Entries	432
 .\Dats\OldSpark\CVS	Repository	36
 .\Dats\OldSpark\CVS	Root	25
-.\Dats\RAINE	RAINE v0.50.15 (rc).zip	84835
-.\Dats\RAINE	RAINE v0.50.15 (xml).zip	227326
-.\Dats\RAINE	RAINE.ent.xml	11871
-.\Dats\RAINE	RAINE.php	10802
+.\Dats\RAINE	RAINE v0.51.0 (rc).zip	113904
+.\Dats\RAINE	RAINE v0.51.0 (xml).zip	275329
+.\Dats\RAINE	RAINE.ent.xml	11981
+.\Dats\RAINE	RAINE.php	10855
 .\Dats\RAINE	RAINE.png	1339
 .\Dats\RAINE	RAINE.xml	169
 .\Dats\RAINE	_cvs_purge_add.bat	48
 .\Dats\RAINE	_zip_raine.bat	628
-.\Dats\RAINE\CVS	Entries	409
+.\Dats\RAINE\CVS	Entries	407
 .\Dats\RAINE\CVS	Repository	33
 .\Dats\RAINE\CVS	Root	25
-.\Dats\SEGAModel2Emulator	SEGA Model 2 Emulator v0.9 (rc).zip	13885
-.\Dats\SEGAModel2Emulator	SEGA Model 2 Emulator v0.9 (xml).zip	29473
-.\Dats\SEGAModel2Emulator	SEGAModel2Emulator.ent.xml	5362
-.\Dats\SEGAModel2Emulator	SEGAModel2Emulator.php	5826
+.\Dats\SEGAModel2Emulator	SEGA Model 2 Emulator v0.9 (rc).zip	14125
+.\Dats\SEGAModel2Emulator	SEGA Model 2 Emulator v0.9 (xml).zip	29559
+.\Dats\SEGAModel2Emulator	SEGAModel2Emulator.ent.xml	5517
+.\Dats\SEGAModel2Emulator	SEGAModel2Emulator.php	5954
 .\Dats\SEGAModel2Emulator	SEGAModel2Emulator.png	3339
 .\Dats\SEGAModel2Emulator	SEGAModel2Emulator.xml	208
 .\Dats\SEGAModel2Emulator	_cvs_purge_add.bat	48
@@ -936,7 +936,6 @@
 .\Tools\ZIPIdent\CVS	Entries	246
 .\Tools\ZIPIdent\CVS	Repository	37
 .\Tools\ZIPIdent\CVS	Root	25
-.\upload	all.zip	117031
 .\upload	_upload.bat	166
 .\upload\CVS	Entries	48
 .\upload\CVS	Repository	29
