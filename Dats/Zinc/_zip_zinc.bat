@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "ZiNc %ZINC_VER% (xml).zip" "ZiNc %ZINC_VER%*"
 mv "ZiNc %ZINC_VER% (xml).zip" "%LOGIQX%/WWW/Dats/ZiNc/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Multi"
-
-REM --- Generate RomCenter ZIP
-
-zip "ZiNc %ZINC_VER% (rc).zip" "ZiNc %ZINC_VER%*"
-mv "ZiNc %ZINC_VER% (rc).zip" "%LOGIQX%/WWW/Dats/ZiNc/."

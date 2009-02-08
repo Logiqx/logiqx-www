@@ -15,10 +15,6 @@
                         &Generic;
 			<file name="SEGA%20Model%202%20Emulator%20v0.9%20(xml).zip" size="29"/>
 		</dat>
-		<dat>
-                        &ROMCenter;
-			<file name="SEGA%20Model%202%20Emulator%20v0.9%20(rc).zip" size="14"/>
-		</dat>
 	</dats>
 	<revisions>
 		<revision>

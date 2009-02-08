@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "CPS-1 %CPS1_VER% (xml).zip" "CPS-1 %CPS1_VER%*"
 mv "CPS-1 %CPS1_VER% (xml).zip" "%LOGIQX%/WWW/Dats/CPS-1/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Systems"
-
-REM --- Generate RomCenter ZIP
-
-zip "CPS-1 %CPS1_VER% (rc).zip" "CPS-1 %CPS1_VER%*"
-mv "CPS-1 %CPS1_VER% (rc).zip" "%LOGIQX%/WWW/Dats/CPS-1/."

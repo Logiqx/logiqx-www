@@ -53,14 +53,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="CPS-1%2020090105%20(rc).zip">CPS-1 dat for ROMCenter 2</a> (28KB)</p>
-          <p>
-            <a href="CPS-1%2020090105%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 

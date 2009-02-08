@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "OldSpark C++ %OLDSPARK_C++_VER% (xml).zip" "OldSpark C++ %OLDSPARK_C++_VER%*"
 mv "OldSpark C++ %OLDSPARK_C++_VER% (xml).zip" "%LOGIQX%/WWW/Dats/OldSpark/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Multi"
-
-REM --- Generate RomCenter ZIP
-
-zip "OldSpark C++ %OLDSPARK_C++_VER% (rc).zip" "OldSpark C++ %OLDSPARK_C++_VER%*"
-mv "OldSpark C++ %OLDSPARK_C++_VER% (rc).zip" "%LOGIQX%/WWW/Dats/OldSpark/."

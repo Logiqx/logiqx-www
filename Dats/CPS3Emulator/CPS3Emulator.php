@@ -51,14 +51,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="Capcom%20Play%20System%203%20Emulator%20v1.0a%20(rc).zip">Capcom Play System 3 Emulator dat for ROMCenter 2</a> (2KB)</p>
-          <p>
-            <a href="Capcom%20Play%20System%203%20Emulator%20v1.0a%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

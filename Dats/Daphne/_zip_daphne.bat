@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "Daphne %DAPHNE_VER% (xml).zip" "Daphne %DAPHNE_VER%*"
 mv "Daphne %DAPHNE_VER% (xml).zip" "%LOGIQX%/WWW/Dats/Daphne/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Multi"
-
-REM --- Generate RomCenter ZIP
-
-zip "Daphne %DAPHNE_VER% (rc).zip" "Daphne %DAPHNE_VER%*"
-mv "Daphne %DAPHNE_VER% (rc).zip" "%LOGIQX%/WWW/Dats/Daphne/."

@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "Nebula %NEBULA_VER% (xml).zip" "Nebula %NEBULA_VER%*"
 mv "Nebula %NEBULA_VER% (xml).zip" "%LOGIQX%/WWW/Dats/Nebula/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Multi"
-
-REM --- Generate RomCenter ZIP
-
-zip "Nebula %NEBULA_VER% (rc).zip" "Nebula %NEBULA_VER%*"
-mv "Nebula %NEBULA_VER% (rc).zip" "%LOGIQX%/WWW/Dats/Nebula/."

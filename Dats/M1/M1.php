@@ -52,14 +52,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="M1%20v0.7.8a6%20(rc).zip">M1 dat for ROMCenter 2</a> (83KB)</p>
-          <p>
-            <a href="M1%20v0.7.8a6%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

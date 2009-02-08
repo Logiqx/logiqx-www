@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "Older Emus %OLDEREMUS_VER% (xml).zip" Multi/* Single/* Sound/* Notes.html
 mv "Older Emus %OLDEREMUS_VER% (xml).zip" "%LOGIQX%/WWW/Dats/OlderEmus/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Old"
-
-REM --- Generate RomCenter ZIP
-
-zip "Older Emus %OLDEREMUS_VER% (rc).zip" Multi/* Single/* Sound/* Notes.html
-mv "Older Emus %OLDEREMUS_VER% (rc).zip" "%LOGIQX%/WWW/Dats/OlderEmus/."

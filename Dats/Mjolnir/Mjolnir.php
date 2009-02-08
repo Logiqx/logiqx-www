@@ -52,14 +52,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="Mjolnir%20v0.3.1%20(rc).zip">Mjolnir dat for ROMCenter 2</a> (8KB)</p>
-          <p>
-            <a href="Mjolnir%20v0.3.1%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

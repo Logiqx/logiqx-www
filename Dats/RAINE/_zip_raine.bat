@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "RAINE %RAINE_VER% (xml).zip" "RAINE %RAINE_VER%*"
 mv "RAINE %RAINE_VER% (xml).zip" "%LOGIQX%/WWW/Dats/RAINE/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Multi"
-
-REM --- Generate RomCenter ZIP
-
-zip "RAINE %RAINE_VER% (rc).zip" "RAINE %RAINE_VER%*"
-mv "RAINE %RAINE_VER% (rc).zip" "%LOGIQX%/WWW/Dats/RAINE/."

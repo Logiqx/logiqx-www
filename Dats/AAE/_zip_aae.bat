@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "AAE %AAE_VER% (xml).zip" "AAE %AAE_VER%*"
 mv "AAE %AAE_VER% (xml).zip" "%LOGIQX%/WWW/Dats/AAE/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Multi"
-
-REM --- Generate RomCenter ZIP
-
-zip "AAE %AAE_VER% (rc).zip" "AAE %AAE_VER%*"
-mv "AAE %AAE_VER% (rc).zip" "%LOGIQX%/WWW/Dats/AAE/."

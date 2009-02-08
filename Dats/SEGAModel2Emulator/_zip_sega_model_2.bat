@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "SEGA Model 2 Emulator %SEGA_MODEL_2_VER% (xml).zip" "SEGA Model 2 Emulator %SEGA_MODEL_2_VER%*"
 mv "SEGA Model 2 Emulator %SEGA_MODEL_2_VER% (xml).zip" "%LOGIQX%/WWW/Dats/SEGAModel2Emulator/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Multi"
-
-REM --- Generate RomCenter ZIP
-
-zip "SEGA Model 2 Emulator %SEGA_MODEL_2_VER% (rc).zip" "SEGA Model 2 Emulator %SEGA_MODEL_2_VER%*"
-mv "SEGA Model 2 Emulator %SEGA_MODEL_2_VER% (rc).zip" "%LOGIQX%/WWW/Dats/SEGAModel2Emulator/."

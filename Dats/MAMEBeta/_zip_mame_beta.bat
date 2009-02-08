@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "MAME %MAME_VER_CURRENT% (xml).zip" "MAME %MAME_VER_CURRENT%.dat"
 mv "MAME %MAME_VER_CURRENT% (xml).zip" "%LOGIQX%/WWW/Dats/MAMEBeta"
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Multi"
-
-REM --- Generate RomCenter ZIP
-
-zip "MAME %MAME_VER_CURRENT% (rc).zip" "MAME %MAME_VER_CURRENT%.dat"
-mv "MAME %MAME_VER_CURRENT% (rc).zip" "%LOGIQX%/WWW/Dats/MAMEBeta"

@@ -52,14 +52,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="RAINE%20v0.51.0%20(rc).zip">RAINE dat for ROMCenter 2</a> (112KB)</p>
-          <p>
-            <a href="RAINE%20v0.51.0%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

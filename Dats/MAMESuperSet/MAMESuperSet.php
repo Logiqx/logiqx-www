@@ -52,14 +52,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.129%20(rc).zip">MAME SuperSet dat for ROMCenter 2</a> (1080KB)</p>
-          <p>
-            <a href="MAME%20SuperSet%20v0.129%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

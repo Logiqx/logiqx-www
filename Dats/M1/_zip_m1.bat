@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "M1 %M1_VER% (xml).zip" "M1 %M1_VER%*"
 mv "M1 %M1_VER% (xml).zip" "%LOGIQX%/WWW/Dats/M1/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Sound"
-
-REM --- Generate RomCenter ZIP
-
-zip "M1 %M1_VER% (rc).zip" "M1 %M1_VER%*"
-mv "M1 %M1_VER% (rc).zip" "%LOGIQX%/WWW/Dats/M1/."

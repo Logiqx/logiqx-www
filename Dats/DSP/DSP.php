@@ -51,14 +51,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="DSP%20v0.9%20(rc).zip">DSP dat for ROMCenter 2</a> (7KB)</p>
-          <p>
-            <a href="DSP%20v0.9%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

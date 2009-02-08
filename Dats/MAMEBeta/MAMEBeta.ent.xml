@@ -17,10 +17,6 @@
 			&Generic;
 			<file name="MAME%20v0.129%20(xml).zip" size="2402"/>
 		</dat>
-		<dat>
-			&ROMCenter;
-			<file name="MAME%20v0.129%20(rc).zip" size="1066"/>
-		</dat>
 	</dats>
 	<revisions>
 		<revision>

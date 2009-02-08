@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "FBA %FBA_VER% (xml).zip" "FBA %FBA_VER%*"
 mv "FBA %FBA_VER% (xml).zip" "%LOGIQX%/WWW/Dats/FinalBurnAlpha/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Multi"
-
-REM --- Generate RomCenter ZIP
-
-zip "FBA %FBA_VER% (rc).zip" "FBA %FBA_VER%*"
-mv "FBA %FBA_VER% (rc).zip" "%LOGIQX%/WWW/Dats/FinalBurnAlpha/."

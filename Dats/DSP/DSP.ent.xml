@@ -15,10 +15,6 @@
                         &Generic;
 			<file name="DSP%20v0.9%20(xml).zip" size="18"/>
 		</dat>
-		<dat>
-                        &ROMCenter;
-			<file name="DSP%20v0.9%20(rc).zip" size="7"/>
-		</dat>
 	</dats>
 	<revisions>
 		<revision>

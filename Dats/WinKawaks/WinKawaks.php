@@ -52,14 +52,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="WinKawaks%20v1.60%20(rc).zip">Kawaks dat for ROMCenter 2</a> (83KB)</p>
-          <p>
-            <a href="WinKawaks%20v1.60%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

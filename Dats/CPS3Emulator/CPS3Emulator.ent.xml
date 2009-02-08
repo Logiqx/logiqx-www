@@ -15,10 +15,6 @@
                         &Generic;
 			<file name="Capcom%20Play%20System%203%20Emulator%20v1.0a%20(xml).zip" size="4"/>
 		</dat>
-		<dat>
-                        &ROMCenter;
-                        <file name="Capcom%20Play%20System%203%20Emulator%20v1.0a%20(rc).zip" size="2"/>
-		</dat>
 	</dats>
 	<revisions>
 		<revision>

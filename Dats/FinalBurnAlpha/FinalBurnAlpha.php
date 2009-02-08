@@ -48,14 +48,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="FBA%20v0.2.97.02%20(rc).zip">FBA dat for ROMCenter 2</a> (304KB)</p>
-          <p>
-            <a href="FBA%20v0.2.97.02%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

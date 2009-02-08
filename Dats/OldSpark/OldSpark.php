@@ -52,14 +52,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="OldSpark%20C++%2020071006%20(rc).zip">OldSpark C++ dat for ROMCenter 2</a> (3KB)</p>
-          <p>
-            <a href="OldSpark%20C++%2020071006%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

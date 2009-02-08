@@ -49,14 +49,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="Daphne%20v0.99.7%20(rc).zip">Daphne dat for ROMCenter 2</a> (5KB)</p>
-          <p>
-            <a href="Daphne%20v0.99.7%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

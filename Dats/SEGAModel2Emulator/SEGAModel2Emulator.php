@@ -51,14 +51,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="SEGA%20Model%202%20Emulator%20v0.9%20(rc).zip">SEGA Model 2 Emulator dat for ROMCenter 2</a> (14KB)</p>
-          <p>
-            <a href="SEGA%20Model%202%20Emulator%20v0.9%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

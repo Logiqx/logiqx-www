@@ -51,14 +51,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="AAE%20Alpha%20Build%2087%20(rc).zip">AAE (Another Arcade Emulator) dat for ROMCenter 2</a> (7KB)</p>
-          <p>
-            <a href="AAE%20Alpha%20Build%2087%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

@@ -52,14 +52,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="Demul%20v0.4.3%20(rc).zip">Demul dat for ROMCenter 2</a> (6KB)</p>
-          <p>
-            <a href="Demul%20v0.4.3%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

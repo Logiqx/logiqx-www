@@ -45,7 +45,7 @@
 			</b></td>
 
       			<td><a>
-				<xsl:attribute name="href"><xsl:value-of select="@id"/>/<xsl:value-of select="dats/dat[2]/file/@name"/></xsl:attribute>
+				<xsl:attribute name="href"><xsl:value-of select="@id"/>/<xsl:value-of select="dats/dat/file/@name"/></xsl:attribute>
 				<b><xsl:value-of select="name"/></b>
 			</a></td>
 

@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "Neo-Geo %NEOGEO_VER% (xml).zip" "Neo-Geo %NEOGEO_VER%*"
 mv "Neo-Geo %NEOGEO_VER% (xml).zip" "%LOGIQX%/WWW/Dats/Neo-Geo/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Systems"
-
-REM --- Generate RomCenter ZIP
-
-zip "Neo-Geo %NEOGEO_VER% (rc).zip" "Neo-Geo %NEOGEO_VER%*"
-mv "Neo-Geo %NEOGEO_VER% (rc).zip" "%LOGIQX%/WWW/Dats/Neo-Geo/."

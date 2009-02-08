@@ -53,14 +53,6 @@
             </a>
           </p>
         </td>
-		<td>
-          <p>Download <a href="Various%20Emulators%20v0.129%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">Various Emulators (Split-merged SuperSet Supplements) dat for ROMCenter 2</a> (62KB)</p>
-          <p>
-            <a href="Various%20Emulators%20v0.129%20(Split-merged%20SuperSet%20Supplements)%20(rc).zip">
-              <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
-            </a>
-          </p>
-        </td>
 	</tr>
     </table>
 	<hr/>

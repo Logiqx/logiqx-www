@@ -15,11 +15,3 @@ REM --- Generate CMPro ZIP
 zip "WinKawaks %WINKAWAKS_VER% (xml).zip" "WinKawaks %WINKAWAKS_VER%*"
 mv "WinKawaks %WINKAWAKS_VER% (xml).zip" "%LOGIQX%/WWW/Dats/WinKawaks/."
 
-REM --- Move to RomCenter directory
-
-cd "%LOGIQX%\Dats_RC\Recent\Multi"
-
-REM --- Generate RomCenter ZIP
-
-zip "WinKawaks %WINKAWAKS_VER% (rc).zip" "WinKawaks %WINKAWAKS_VER%*"
-mv "WinKawaks %WINKAWAKS_VER% (rc).zip" "%LOGIQX%/WWW/Dats/WinKawaks/."
