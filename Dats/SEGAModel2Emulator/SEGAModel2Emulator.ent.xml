@@ -4,7 +4,7 @@
 	<version>v0.9</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>06/02/2009</date>
+	<date>08/02/2009</date>
 	<games>53</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -17,6 +17,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>8 February 2009</date>
+			<comment>Added redumped sound ROM for Sega Water Ski.</comment>
+		</revision>
 		<revision>
 			<date>6 February 2009</date>
 			<comment>Added missing some SHA-1 information and made better use of model2.zip.</comment>

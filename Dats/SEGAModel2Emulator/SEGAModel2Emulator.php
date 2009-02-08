@@ -58,6 +58,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>8 February 2009</b> - 
+			
+			Added redumped sound ROM for Sega Water Ski.
+		</p>
+    <p>
       <b>6 February 2009</b> - 
 			
 			Added missing some SHA-1 information and made better use of model2.zip.

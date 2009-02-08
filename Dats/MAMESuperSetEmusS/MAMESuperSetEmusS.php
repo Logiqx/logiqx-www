@@ -60,6 +60,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>8 February 2009</b> - 
+			
+			Added redumped sound ROM for Sega Water Ski in Sega Model 2 Emulator v0.9.
+		</p>
+    <p>
       <b>6 February 2009</b> - 
 			
 			Updated SEGA Model 2 Emulator v0.9 supplement.
