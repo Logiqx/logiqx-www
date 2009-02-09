@@ -32,7 +32,7 @@
 						<tr>
 							<?php
 								echo '<td><p>' . LF;
-								foreach (glob("MAME v*.* (cm).zip") as $filename)
+								foreach (glob("MAME v*.* (*m*).zip") as $filename)
 								{
    									echo INDENT . TAB . TAB . TAB . '<a href="' . $filename . '">' . $filename . '</a>';
 									echo ' (' . ceil(filesize($filename)/1024) . 'KB)<br />' . LF;
