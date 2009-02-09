@@ -32,7 +32,7 @@
 						<tr>
 							<?php
 								echo '<td><p>' . LF;
-								foreach (glob("*.* (*m*).zip") as $filename)
+								foreach (glob("*Supplements*(*m*).zip") as $filename)
 								{
    									echo INDENT . TAB . TAB . TAB . '<a href="' . $filename . '">' . $filename . '</a>';
 									echo ' (' . ceil(filesize($filename)/1024) . 'KB)<br />' . LF;
@@ -40,7 +40,7 @@
 								echo INDENT . TAB . TAB . '</p></td>' . LF;
 
 								echo '<td><p>' . LF;
-								foreach (glob("*.* (rc).zip") as $filename)
+								foreach (glob("*Supplements*(rc).zip") as $filename)
 								{
    									echo INDENT . TAB . TAB . TAB . '<a href="' . $filename . '">' . $filename . '</a>';
 									echo ' (' . ceil(filesize($filename)/1024) . 'KB)<br />' . LF;
