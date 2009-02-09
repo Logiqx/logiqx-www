@@ -3,7 +3,6 @@ XTOPTS=
 
 CONTENTS=Dats.php
 ROMCENTER=RomCenter.php
-ROMCENTER_INF=RomCenter.inf
 FILELIST=Files.lst
 
 EMULATORS= \
@@ -32,7 +31,7 @@ EMULATORS= \
 	CPS-2/CPS-2.php \
 	Neo-Geo/Neo-Geo.php \
 
-all: $(CONTENTS) $(ROMCENTER) $(ROMCENTER_INF) $(FILELIST) $(EMULATORS)
+all: $(CONTENTS) $(ROMCENTER) $(FILELIST) $(EMULATORS)
 
 $(CONTENTS): $(EMULATORS) Dats.xml xsl/contents.xsl xsl/comments.xsl
 	@echo Building $@...
@@ -41,10 +40,6 @@ $(CONTENTS): $(EMULATORS) Dats.xml xsl/contents.xsl xsl/comments.xsl
 $(ROMCENTER): $(EMULATORS) RomCenter.xml xsl/romcenter.xsl xsl/comments.xsl
 	@echo Building $@...
 	$(XT) $(XTOPTS) xsl/romcenter.xsl RomCenter.xml $@
-
-$(ROMCENTER_INF): $(EMULATORS) RomCenter.xml xsl/romcenter_inf.xsl
-	@echo Building $@...
-	$(XT) $(XTOPTS) xsl/romcenter_inf.xsl RomCenter.xml $@
 
 $(FILELIST): $(EMULATORS) Dats.xml xsl/filelist.xsl
 	@echo Building $@...

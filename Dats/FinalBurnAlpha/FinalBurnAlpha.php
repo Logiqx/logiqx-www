@@ -41,7 +41,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="FBA%20v0.2.97.02%20(xml).zip">FBA dat for CMPro + RC3</a> (638KB)</p>
+          <p>Download <a href="FBA%20v0.2.97.02%20(xml).zip">FBA dat for CMPro + RC3</a> (639KB)</p>
           <p>
             <a href="FBA%20v0.2.97.02%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -54,6 +54,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>8 February 2009</b> - 
+			
+			Added missing SHA-1 information.
+		</p>
     <p>
       <b>3 February 2009</b> - 
 			

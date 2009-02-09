@@ -4,16 +4,20 @@
 	<version>v0.2.97.02</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>03/02/2009</date>
+	<date>08/02/2009</date>
 	<games>1751</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
 		<dat>
 			&Generic;
-			<file name="FBA%20v0.2.97.02%20(xml).zip" size="638"/>
+			<file name="FBA%20v0.2.97.02%20(xml).zip" size="639"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>8 February 2009</date>
+			<comment>Added missing SHA-1 information.</comment>
+		</revision>
 		<revision>
 			<date>3 February 2009</date>
 			<comment>Updated for FBA v0.2.97.02 but missing SHA-1 data for some Phoenix games.</comment>

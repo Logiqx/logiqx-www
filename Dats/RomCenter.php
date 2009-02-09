@@ -65,7 +65,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.97.02%20(xml).zip"><b>FBA</b></a></td><td>v0.2.97.02</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1751</td><td>03/02/2009</td></tr>
+					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.97.02%20(xml).zip"><b>FBA</b></a></td><td>v0.2.97.02</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1751</td><td>08/02/2009</td></tr>
 
 
 <tr><td class="status"><b>

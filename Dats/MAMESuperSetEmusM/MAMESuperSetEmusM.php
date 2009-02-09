@@ -60,7 +60,12 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
-      <b>8 February 2009</b> - 
+      <b>8 February 2009 #2</b> - 
+			
+			Updated FBA v0.2.97.02 supplement (additional SHA-1 information).
+		</p>
+    <p>
+      <b>8 February 2009 #1</b> - 
 			
 			Added redumped sound ROM for Sega Water Ski in Sega Model 2 Emulator v0.9.
 		</p>
