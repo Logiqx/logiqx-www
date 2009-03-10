@@ -514,32 +514,44 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="CPS-2/">CPS-2 20090105</a>
+          <a href="CPS-2/">CPS-2 20090310</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>07/01/2009</p>
+          <p>
+            <b>10/03/2009</b>
+          </p>
         </td>
         <td>
-          <p>237</p>
+          <p>
+            <b>240</b>
+          </p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="Neo-Geo/">Neo-Geo 20090105</a>
+          <a href="Neo-Geo/">Neo-Geo 20090310</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>07/01/2009</p>
+          <p>
+            <b>10/03/2009</b>
+          </p>
         </td>
         <td>
-          <p>267</p>
+          <p>
+            <b>267</b>
+          </p>
         </td>
       </tr>
 

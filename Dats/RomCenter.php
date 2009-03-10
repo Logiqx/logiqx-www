@@ -134,13 +134,13 @@
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="CPS-2/CPS-2%2020090105%20(xml).zip"><b>CPS-2</b></a></td><td>20090105</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>237</td><td>07/01/2009</td></tr>
+						updated
+					</b></td><td><a href="CPS-2/CPS-2%2020090310%20(xml).zip"><b>CPS-2</b></a></td><td>20090310</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>240</td><td>10/03/2009</td></tr>
 
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="Neo-Geo/Neo-Geo%2020090105%20(xml).zip"><b>Neo-Geo</b></a></td><td>20090105</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>267</td><td>07/01/2009</td></tr>
+						updated
+					</b></td><td><a href="Neo-Geo/Neo-Geo%2020090310%20(xml).zip"><b>Neo-Geo</b></a></td><td>20090310</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>267</td><td>10/03/2009</td></tr>
 
 		</table>
 	
