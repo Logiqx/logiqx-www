@@ -1,19 +1,23 @@
 <emulator id="FinalBurnAlpha">
 	<img src="FinalBurnAlpha.png" width="195" height="40"/>
 	<name>FBA</name>
-	<version>v0.2.97.02</version>
+	<version>v0.2.97.04</version>
 	<suitability></suitability>
 	<status>Updated</status>
-	<date>08/02/2009</date>
-	<games>1751</games>
+	<date>10/03/2009</date>
+	<games>1806</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<dats>
 		<dat>
 			&Generic;
-			<file name="FBA%20v0.2.97.02%20(xml).zip" size="639"/>
+			<file name="FBA%20v0.2.97.04%20(xml).zip" size="656"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>10 March 2009</date>
+			<comment>Updated for FBA v0.2.97.04.</comment>
+		</revision>
 		<revision>
 			<date>8 February 2009</date>
 			<comment>Added missing SHA-1 information.</comment>

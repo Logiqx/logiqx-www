@@ -9,28 +9,28 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>Emulator</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 
 <tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMEBeta/MAME%20v0.129%20(xml).zip"><b>MAME</b></a></td><td>v0.129</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>7439</td><td>07/01/2009</td></tr>
-
-<tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMESuperSet/MAME%20SuperSet%20v0.129%20(xml).zip"><b>MAME SuperSet</b></a></td><td>v0.129</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>7480</td><td>07/01/2009</td></tr>
-
-<tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMESuperSetSuppM/MAME%20SuperSet%20v0.129%20(Fully-merged%20MAME%20Supplement)%20(xml).zip"><b>MAME SuperSet (Fully-merged MAME Supplement)</b></a></td><td>v0.129</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>07/01/2009</td></tr>
-
-<tr><td class="status"><b>
-						-
-					</b></td><td><a href="MAMESuperSetSuppS/MAME%20SuperSet%20v0.129%20(Split-merged%20MAME%20Supplement)%20(xml).zip"><b>MAME SuperSet (Split-merged MAME Supplement)</b></a></td><td>v0.129</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>07/01/2009</td></tr>
+						updated
+					</b></td><td><a href="MAMEBeta/MAME%20v0.130%20(xml).zip"><b>MAME</b></a></td><td>v0.130</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>7842</td><td>10/03/2009</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.129%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.129</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>08/02/2009</td></tr>
+					</b></td><td><a href="MAMESuperSet/MAME%20SuperSet%20v0.130%20(xml).zip"><b>MAME SuperSet</b></a></td><td>v0.130</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>7883</td><td>10/03/2009</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.129%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.129</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>08/02/2009</td></tr>
+					</b></td><td><a href="MAMESuperSetSuppM/MAME%20SuperSet%20v0.130%20(Fully-merged%20MAME%20Supplement)%20(xml).zip"><b>MAME SuperSet (Fully-merged MAME Supplement)</b></a></td><td>v0.130</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>10/03/2009</td></tr>
+
+<tr><td class="status"><b>
+						updated
+					</b></td><td><a href="MAMESuperSetSuppS/MAME%20SuperSet%20v0.130%20(Split-merged%20MAME%20Supplement)%20(xml).zip"><b>MAME SuperSet (Split-merged MAME Supplement)</b></a></td><td>v0.130</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>10/03/2009</td></tr>
+
+<tr><td class="status"><b>
+						updated
+					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.130%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.130</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>10/03/2009</td></tr>
+
+<tr><td class="status"><b>
+						updated
+					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.130%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.130</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>10/03/2009</td></tr>
 
 		</table>
 	
@@ -65,7 +65,7 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.97.02%20(xml).zip"><b>FBA</b></a></td><td>v0.2.97.02</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1751</td><td>08/02/2009</td></tr>
+					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.97.04%20(xml).zip"><b>FBA</b></a></td><td>v0.2.97.04</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>1806</td><td>10/03/2009</td></tr>
 
 
 <tr><td class="status"><b>
@@ -94,11 +94,11 @@
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="RAINE/RAINE%20v0.51.0%20(xml).zip"><b>RAINE</b></a></td><td>v0.51.0</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>781</td><td>03/02/2009</td></tr>
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="SEGAModel2Emulator/SEGA%20Model%202%20Emulator%20v0.9%20(xml).zip"><b>SEGA Model 2 Emulator</b></a></td><td>v0.9</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>53</td><td>08/02/2009</td></tr>
 
 <tr><td class="status"><b>

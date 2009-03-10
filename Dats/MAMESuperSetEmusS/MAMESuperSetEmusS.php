@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Various Emulators (Split-merged SuperSet Supplements) v0.129</title>
+    <title>Various Emulators (Split-merged SuperSet Supplements) v0.130</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="../VariousEmulators.png" width="219" height="40" alt="../VariousEmulators.png"/>
     </p>
-	<p>Non-MAME games for Various Emulators (Split-merged SuperSet Supplements) v0.129</p>
+	<p>Non-MAME games for Various Emulators (Split-merged SuperSet Supplements) v0.130</p>
 	
 	
 	
@@ -46,9 +46,9 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.129%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro + RC3</a> (112KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.130%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip">Various Emulators (Split-merged SuperSet Supplements) dat for CMPro + RC3</a> (112KB)</p>
           <p>
-            <a href="Various%20Emulators%20v0.129%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip">
+            <a href="Various%20Emulators%20v0.130%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -59,6 +59,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>10 March 2009</b> - 
+			
+			Uploaded dats for MAME v0.130.
+		</p>
     <p>
       <b>8 February 2009 #2</b> - 
 			
