@@ -47,7 +47,7 @@
 .\cutenews\data	auto_archive.db.php	0
 .\cutenews\data	cat.num.php	1
 .\cutenews\data	category.db.php	16
-.\cutenews\data	comments.txt	105
+.\cutenews\data	comments.txt	14
 .\cutenews\data	config.php	1324
 .\cutenews\data	Default.tpl	2184
 .\cutenews\data	flood.db.php	0
@@ -55,7 +55,7 @@
 .\cutenews\data	index.html	117
 .\cutenews\data	ipban.db.php	0
 .\cutenews\data	Logiqx.tpl	1653
-.\cutenews\data	news.txt	1667
+.\cutenews\data	news.txt	201
 .\cutenews\data	postponed_news.txt	0
 .\cutenews\data	rss.tpl	564
 .\cutenews\data	rss_config.php	186
@@ -71,6 +71,8 @@
 .\cutenews\data\archives	1224412308.news.arch	1419
 .\cutenews\data\archives	1231110319.comments.arch	84
 .\cutenews\data\archives	1231110319.news.arch	753
+.\cutenews\data\archives	1239640681.comments.arch	119
+.\cutenews\data\archives	1239640681.news.arch	1784
 .\cutenews\data\archives	index.htm	117
 .\cutenews\data\archives\CVS	Entries	606
 .\cutenews\data\archives\CVS	Repository	28
