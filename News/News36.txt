@@ -1,0 +1,42 @@
+<h1>10 March 2009</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded data files for MAME v0.130 and FBA v0.2.97.04</p></td>
+  </tr>
+</table><h1>08 February 2009</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded another update to the datafiles for SEGA Model 2 Emulator v0.9. This update includes the redumped sound ROM for Sega Water Ski, resulting in fully working sound.<br /><br />Also receiving a minor update is the datafile for FBA v0.2.97.02 which now includes all of the missing SHA-1 information.<br /><br />Finally, I have removed the RomCenter 2 datafiles from my site. The generic XML datafiles work for CMPro and RomCenter 3 and there is no reason to spend the effort generating datafiles for RomCenter 2. No-one should still be using RomCenter 2 anymore. ;)</p></td>
+  </tr>
+</table><h1>06 February 2009</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded slightly improved versions of the Sega Model 2 datafiles.</p></td>
+  </tr>
+</table><h1>03 February 2009</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded datafiles for RAINE v0.51.0 and FBA v0.2.97.02.</p></td>
+  </tr>
+</table><h1>02 February 2009</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded a preliminary data file for SEGA Model 2 Emulator v0.9</p></td>
+  </tr>
+</table><h1>09 January 2009</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released DatLib v2.35 and DatUtil v2.45 to deal with an issue that I noticed after generating a datafile for Kawaks v1.60.</p></td>
+  </tr>
+</table><h1>08 January 2009</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released ROMBuild v2.12 which includes some changes relating to MAME v0.129.</p></td>
+  </tr>
+</table><h1>07 January 2009</h1>
+<table class="news">
+  <tr>
+    <td><p>Happy New Year.<br /><br />I have uploaded data files for MAME v0.129, Kawaks v1.60 and FBA v0.2.97.01.<br /><br />Note: This may be the last time that I upload the RomCenter 2 data files. By now, everyone should be using RomCenter 3 which uses the generic XML format.</p></td>
+  </tr>
+</table>
+
