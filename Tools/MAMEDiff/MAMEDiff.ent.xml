@@ -3,9 +3,9 @@
 	<img src="MAMEDiff.png" width="123" height="40"/>
 
 	<name>MAMEDiff</name>
-	<version>v2.30</version>
-	<status></status>
-	<date>28/10/2008</date>
+	<version>v2.31</version>
+	<status>Updated</status>
+	<date>13/04/2008</date>
 
 	<description>Data file comparison tool</description>
 
@@ -15,11 +15,20 @@
 
 	<downloads>
 		<download>
-			<file name="mdiff230.zip" size="223"/>
+			<file name="mdiff231.zip" size="224"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>13 April 2009</date>
+			<version>v2.31</version>
+			<comment>
+				- Uses DatLib v2.36.<br/>
+            			- Added support for 64-bit ROM sizes (n.b. not for directory scan).<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>28 October 2008</date>
 			<version>v2.30</version>

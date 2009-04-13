@@ -3,9 +3,9 @@
 	<img src="ZIPIdent.png" width="104" height="40"/>
 
 	<name>ZIPIdent</name>
-	<version>v2.10</version>
-	<status></status>
-	<date>24/03/2008</date>
+	<version>v2.11</version>
+	<status>Updated</status>
+	<date>13/04/2009</date>
 
 	<description>Game identification tool (for groups of ROMs)</description>
 
@@ -20,11 +20,20 @@
 
 	<downloads>
 		<download>
-			<file name="zident210.zip" size="184"/>
+			<file name="zident211.zip" size="201"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>13 April 2009</date>
+			<version>v2.11</version>
+			<comment>
+				- Uses DatLib v2.36.<br/>
+            			- Added partial support for 64-bit ROM sizes (not usable yet).<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>24 March 2008</date>
 			<version>v2.10</version>

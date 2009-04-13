@@ -3,9 +3,9 @@
 	<img src="DatLib.png" width="78" height="40"/>
 
 	<name>DatLib</name>
-	<version>v2.35</version>
+	<version>v2.36</version>
 	<status>Updated</status>
-	<date>09/01/2009</date>
+	<date>13/04/2009</date>
 
 	<description>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</description>
 
@@ -22,11 +22,19 @@
 
 	<downloads>
 		<download>
-			<file name="datlib235.zip" size="107"/>
+			<file name="datlib236.zip" size="107"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>13 April 2009</date>
+			<version>v2.36</version>
+			<comment>
+				- Added support for 64-bit ROM sizes (n.b. not for directory scan).<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>9 January 2009</date>
 			<version>v2.35</version>

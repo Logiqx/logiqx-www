@@ -3,9 +3,9 @@
 	<img src="DatUtil.png" width="81" height="40"/>
 
 	<name>DatUtil</name>
-	<version>v2.45</version>
+	<version>v2.46</version>
 	<status>Updated</status>
-	<date>09/01/2009</date>
+	<date>13/04/2009</date>
 
 	<description>Data file creation/conversion tool</description>
 
@@ -45,11 +45,20 @@
 
 	<downloads>
 		<download>
-			<file name="dutil245.zip" size="204"/>
+			<file name="dutil246.zip" size="205"/>
 		</download>
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>13 April 2009</date>
+			<version>v2.46</version>
+			<comment>
+				- Uses DatLib v2.36.<br/>
+            			- Added support for 64-bit ROM sizes (n.b. not for directory scan).<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>9 January 2009</date>
 			<version>v2.45</version>
