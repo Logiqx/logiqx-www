@@ -2,7 +2,7 @@
 .	error.php	2183
 .	favicon.ico	894
 .	index.php	1834
-.	news.php	4029
+.	news.php	4108
 .	robots.txt	0
 .	_archive_bit_clear.bat	133
 .	_filelist.py	1336
@@ -246,13 +246,13 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3320
-.\Dats	Dats.php	11461
+.\Dats	Dats.php	12113
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3163
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	1014
+.\Dats	MAMESuperSet.zip	985
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
@@ -260,15 +260,15 @@
 .\Dats	RecentEmus.laptop.txt	546
 .\Dats	RecentEmus.png	2121
 .\Dats	RecentEmus.txt	550
-.\Dats	RecentEmus.zip	1001
+.\Dats	RecentEmus.zip	996
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.php	8481
+.\Dats	RomCenter.php	8505
 .\Dats	RomCenter.xml	3132
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
 .\Dats	Systems.txt	100
-.\Dats	Systems.zip	506
+.\Dats	Systems.zip	516
 .\Dats	VariousEmulators.png	3158
 .\Dats	_rebuild_all.bat	55
 .\Dats	_rebuild_all.mak	1437
@@ -284,8 +284,8 @@
 .\Dats\AAE\CVS	Repository	31
 .\Dats\AAE\CVS	Root	25
 .\Dats\CPS-1	CPS-1 20090105 (xml).zip	54371
-.\Dats\CPS-1	CPS-1.ent.xml	9132
-.\Dats\CPS-1	CPS-1.php	8412
+.\Dats\CPS-1	CPS-1.ent.xml	9247
+.\Dats\CPS-1	CPS-1.php	8500
 .\Dats\CPS-1	CPS-1.png	1149
 .\Dats\CPS-1	CPS-1.xml	167
 .\Dats\CPS-1	_cvs_purge_add.bat	50
@@ -293,9 +293,9 @@
 .\Dats\CPS-1\CVS	Entries	348
 .\Dats\CPS-1\CVS	Repository	33
 .\Dats\CPS-1\CVS	Root	25
-.\Dats\CPS-2	CPS-2 20090105 (xml).zip	81798
-.\Dats\CPS-2	CPS-2.ent.xml	20000
-.\Dats\CPS-2	CPS-2.php	17596
+.\Dats\CPS-2	CPS-2 20090310 (xml).zip	83498
+.\Dats\CPS-2	CPS-2.ent.xml	20116
+.\Dats\CPS-2	CPS-2.php	17678
 .\Dats\CPS-2	CPS-2.png	1268
 .\Dats\CPS-2	CPS-2.xml	167
 .\Dats\CPS-2	_cvs_purge_add.bat	48
@@ -350,9 +350,9 @@
 .\Dats\DTD\CVS	Entries	45
 .\Dats\DTD\CVS	Repository	31
 .\Dats\DTD\CVS	Root	25
-.\Dats\FinalBurnAlpha	FBA v0.2.97.02 (xml).zip	653394
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	10098
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	9105
+.\Dats\FinalBurnAlpha	FBA v0.2.97.04 (xml).zip	671497
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	10205
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	9185
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.png	2202
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
@@ -390,9 +390,9 @@
 .\Dats\Nebula\CVS	Entries	353
 .\Dats\Nebula\CVS	Repository	34
 .\Dats\Nebula\CVS	Root	25
-.\Dats\Neo-Geo	Neo-Geo 20090105 (xml).zip	95513
-.\Dats\Neo-Geo	Neo-Geo.ent.xml	12669
-.\Dats\Neo-Geo	Neo-Geo.php	11297
+.\Dats\Neo-Geo	Neo-Geo 20090310 (xml).zip	95495
+.\Dats\Neo-Geo	Neo-Geo.ent.xml	12785
+.\Dats\Neo-Geo	Neo-Geo.php	11379
 .\Dats\Neo-Geo	Neo-Geo.png	1501
 .\Dats\Neo-Geo	Neo-Geo.xml	173
 .\Dats\Neo-Geo	_cvs_purge_add.bat	48
@@ -423,7 +423,7 @@
 .\Dats\OldSpark\CVS	Repository	36
 .\Dats\OldSpark\CVS	Root	25
 .\Dats\RAINE	RAINE v0.51.0 (xml).zip	275329
-.\Dats\RAINE	RAINE.ent.xml	11893
+.\Dats\RAINE	RAINE.ent.xml	11886
 .\Dats\RAINE	RAINE.php	10547
 .\Dats\RAINE	RAINE.png	1339
 .\Dats\RAINE	RAINE.xml	169
@@ -433,7 +433,7 @@
 .\Dats\RAINE\CVS	Repository	33
 .\Dats\RAINE\CVS	Root	25
 .\Dats\SEGAModel2Emulator	SEGA Model 2 Emulator v0.9 (xml).zip	29562
-.\Dats\SEGAModel2Emulator	SEGAModel2Emulator.ent.xml	5516
+.\Dats\SEGAModel2Emulator	SEGAModel2Emulator.ent.xml	5509
 .\Dats\SEGAModel2Emulator	SEGAModel2Emulator.php	5692
 .\Dats\SEGAModel2Emulator	SEGAModel2Emulator.png	3339
 .\Dats\SEGAModel2Emulator	SEGAModel2Emulator.xml	208
@@ -600,8 +600,9 @@
 .\News	News33.txt	4358
 .\News	News34.txt	1786
 .\News	News35.txt	1001
+.\News	News36.txt	2089
 .\News	Shredder.png	3449
-.\News\CVS	Entries	1691
+.\News\CVS	Entries	1735
 .\News\CVS	Repository	27
 .\News\CVS	Root	25
 .\pi	.ftpquota	13
@@ -820,7 +821,7 @@
 .\team\wisdom\zip\CVS	Entries	425
 .\team\wisdom\zip\CVS	Repository	38
 .\team\wisdom\zip\CVS	Root	25
-.\Tools	Tools.php	3966
+.\Tools	Tools.php	4108
 .\Tools	Tools.png	859
 .\Tools	Tools.xml	899
 .\Tools	_rebuild_all.bat	55
@@ -829,18 +830,18 @@
 .\Tools\AVI2CDVC	AVI2CDVC.php	2104
 .\Tools\AVI2CDVC	AVI2CDVC.png	1794
 .\Tools\AVI2CDVC	AVI2CDVC.xml	179
-.\Tools\AVI2CDVC	avi2cdvc.zip	16838
+.\Tools\AVI2CDVC	avi2cdvc.zip	16716
 .\Tools\AVI2CDVC\CVS	Entries	243
 .\Tools\AVI2CDVC\CVS	Repository	37
 .\Tools\AVI2CDVC\CVS	Root	25
 .\Tools\CVS	Entries	392
 .\Tools\CVS	Repository	28
 .\Tools\CVS	Root	25
-.\Tools\DatLib	DatLib.ent.xml	19076
-.\Tools\DatLib	DatLib.php	18638
+.\Tools\DatLib	DatLib.ent.xml	19270
+.\Tools\DatLib	DatLib.php	18804
 .\Tools\DatLib	DatLib.png	1150
 .\Tools\DatLib	DatLib.xml	173
-.\Tools\DatLib	datlib235.zip	109184
+.\Tools\DatLib	datlib236.zip	109484
 .\Tools\DatLib\CVS	dlib10.zip,t	0
 .\Tools\DatLib\CVS	dlib19.zip,t	0
 .\Tools\DatLib\CVS	Entries	238
@@ -848,11 +849,11 @@
 .\Tools\DatLib\CVS	Root	25
 .\Tools\DatUtil	CMProRC.png	11264
 .\Tools\DatUtil	Compatibility.xml	954
-.\Tools\DatUtil	DatUtil.ent.xml	35708
-.\Tools\DatUtil	DatUtil.php	34286
+.\Tools\DatUtil	DatUtil.ent.xml	35943
+.\Tools\DatUtil	DatUtil.php	34494
 .\Tools\DatUtil	DatUtil.png	1379
 .\Tools\DatUtil	DatUtil.xml	176
-.\Tools\DatUtil	dutil245.zip	208240
+.\Tools\DatUtil	dutil246.zip	209577
 .\Tools\DatUtil\CVS	Entries	340
 .\Tools\DatUtil\CVS	Repository	36
 .\Tools\DatUtil\CVS	Root	25
@@ -868,18 +869,18 @@
 .\Tools\ImgChk\CVS	Entries	238
 .\Tools\ImgChk\CVS	Repository	35
 .\Tools\ImgChk\CVS	Root	25
-.\Tools\MAMEDiff	MAMEDiff.ent.xml	20098
-.\Tools\MAMEDiff	MAMEDiff.php	19553
+.\Tools\MAMEDiff	MAMEDiff.ent.xml	20340
+.\Tools\MAMEDiff	MAMEDiff.php	19762
 .\Tools\MAMEDiff	MAMEDiff.png	2002
 .\Tools\MAMEDiff	MAMEDiff.xml	179
 .\Tools\MAMEDiff	MAMEMAME.png	8243
-.\Tools\MAMEDiff	mdiff230.zip	227425
+.\Tools\MAMEDiff	mdiff231.zip	229171
 .\Tools\MAMEDiff\CVS	Entries	294
 .\Tools\MAMEDiff\CVS	Repository	37
 .\Tools\MAMEDiff\CVS	Root	25
-.\Tools\ROMBuild	rbmame80.zip	52512
+.\Tools\ROMBuild	rbmame80.zip	52439
 .\Tools\ROMBuild	rbuild212.zip	108517
-.\Tools\ROMBuild	ROMBuild.ent.xml	10831
+.\Tools\ROMBuild	ROMBuild.ent.xml	10824
 .\Tools\ROMBuild	ROMBuild.php	11153
 .\Tools\ROMBuild	ROMBuild.png	1890
 .\Tools\ROMBuild	ROMBuild.xml	179
@@ -909,9 +910,9 @@
 .\Tools\ZIPFind\CVS	Entries	238
 .\Tools\ZIPFind\CVS	Repository	36
 .\Tools\ZIPFind\CVS	Root	25
-.\Tools\ZIPIdent	zident210.zip	188181
-.\Tools\ZIPIdent	ZIPIdent.ent.xml	4888
-.\Tools\ZIPIdent	ZIPIdent.php	5562
+.\Tools\ZIPIdent	zident211.zip	204997
+.\Tools\ZIPIdent	ZIPIdent.ent.xml	5125
+.\Tools\ZIPIdent	ZIPIdent.php	5766
 .\Tools\ZIPIdent	ZIPIdent.png	1244
 .\Tools\ZIPIdent	ZIPIdent.xml	179
 .\Tools\ZIPIdent\CVS	Entries	246
