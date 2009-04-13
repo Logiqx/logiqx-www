@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAMEDiff v2.30</title>
+    <title>MAMEDiff v2.31</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -44,9 +44,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="mdiff230.zip">MAMEDiff v2.30</a> (223KB)</p>
+          <p>Download <a href="mdiff231.zip">MAMEDiff v2.31</a> (224KB)</p>
           <p>
-            <a href="mdiff230.zip">
+            <a href="mdiff231.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>13 April 2009</b> - MAMEDiff v2.31</p>
+    <p>
+			
+			
+			
+				- Uses DatLib v2.36.<br/>
+            			- Added support for 64-bit ROM sizes (n.b. not for directory scan).<br/>
+    			
+		</p>
     <p>
       <b>28 October 2008</b> - MAMEDiff v2.30</p>
     <p>

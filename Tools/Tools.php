@@ -50,7 +50,7 @@
 
 			<tr>
         <td>
-          <a href="DatLib/">DatLib v2.35</a>
+          <a href="DatLib/">DatLib v2.36</a>
         </td>
         <td>Core to all of my tools it provides data file loading, cleansing, conversion and saving routines</td>
         <td>
@@ -60,14 +60,14 @@
         </td>
         <td>
           <p>
-            <strong>09/01/2009</strong>
+            <strong>13/04/2009</strong>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="DatUtil/">DatUtil v2.45</a>
+          <a href="DatUtil/">DatUtil v2.46</a>
         </td>
         <td>Data file creation/conversion tool</td>
         <td>
@@ -77,7 +77,7 @@
         </td>
         <td>
           <p>
-            <strong>09/01/2009</strong>
+            <strong>13/04/2009</strong>
           </p>
         </td>
       </tr>
@@ -97,14 +97,18 @@
 
 			<tr>
         <td>
-          <a href="MAMEDiff/">MAMEDiff v2.30</a>
+          <a href="MAMEDiff/">MAMEDiff v2.31</a>
         </td>
         <td>Data file comparison tool</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>28/10/2008</p>
+          <p>
+            <strong>13/04/2008</strong>
+          </p>
         </td>
       </tr>
 
@@ -114,14 +118,10 @@
         </td>
         <td>ROM manipulation tool that can convert modern day ROMs to older formats</td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <strong>08/01/2009</strong>
-          </p>
+          <p>08/01/2009</p>
         </td>
       </tr>
 
@@ -153,14 +153,18 @@
 
 			<tr>
         <td>
-          <a href="ZIPIdent/">ZIPIdent v2.10</a>
+          <a href="ZIPIdent/">ZIPIdent v2.11</a>
         </td>
         <td>Game identification tool (for groups of ROMs)</td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>24/03/2008</p>
+          <p>
+            <strong>13/04/2009</strong>
+          </p>
         </td>
       </tr>
 
