@@ -2,11 +2,11 @@
 <emulator id="CPS-2">
 	<img src="CPS-2.png" width="80" height="40"/>
 	<name>CPS-2</name>
-	<version>20090310</version>
+	<version>20090426</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>10/03/2009</date>
-	<games>240</games>
+	<date>26/04/2009</date>
+	<games>242</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Still includes XOR details for emulators that need them</p>
@@ -14,10 +14,14 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="CPS-2%2020090310%20(xml).zip" size="82"/>
+			<file name="CPS-2%2020090426%20(xml).zip" size="82"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>26 April 2009</date>
+			<comment>Updated to match MAME v0.131.</comment>
+		</revision>
 		<revision>
 			<date>10 March 2009</date>
 			<comment>Updated to match MAME v0.130.</comment>

@@ -2,11 +2,11 @@
 <emulator id="MAMEBeta">
 	<img src="MAME.png" width="80" height="40"/>
 	<name>MAME</name>
-	<version>v0.130</version>
+	<version>v0.131</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>10/03/2009</date>
-	<games>7842</games>
+	<date>26/04/2009</date>
+	<games>7986</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Both dats were generated using DatUtil.</p>
@@ -15,10 +15,14 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="MAME%20v0.130%20(xml).zip" size="2457"/>
+			<file name="MAME%20v0.131%20(xml).zip" size="2493"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>26 April 2009</date>
+			<comment>Uploaded dats for MAME v0.131.</comment>
+		</revision>
 		<revision>
 			<date>10 March 2009</date>
 			<comment>Uploaded dats for MAME v0.130.</comment>
