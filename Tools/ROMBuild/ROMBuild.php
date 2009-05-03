@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>ROMBuild v2.12</title>
+    <title>ROMBuild v2.13</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -50,9 +50,9 @@
 	<table>
       <tr>
 		<td>
-          <p>Download <a href="rbuild212.zip">ROMBuild v2.12</a> (106KB)</p>
+          <p>Download <a href="rbuild213.zip">ROMBuild v2.13</a> (107KB)</p>
           <p>
-            <a href="rbuild212.zip">
+            <a href="rbuild213.zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -83,6 +83,17 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>2 May 2009</b> - ROMBuild v2.13</p>
+    <p>
+			
+			
+			
+				Changes related to MAME v0.130 and MAME v0.131:<br/>
+				Updated a few existing definitions to account for MAME ROM renames.<br/>
+				Added a couple of Neo-Geo sound ROMs.<br/>
+    			
+		</p>
     <p>
       <b>8 January 2009</b> - ROMBuild v2.12</p>
     <p>
