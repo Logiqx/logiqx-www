@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-WWW=/home2/lac/www
+WWW=/home/lac/www
 
 cd $WWW
 unzip -o upload/all.zip

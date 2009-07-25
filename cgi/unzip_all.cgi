@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-WWW=/home2/lac/www
+WWW=/home/lac/www
 
 echo "Content-type: text/html"
 echo
