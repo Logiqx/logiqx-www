@@ -1,0 +1,22 @@
+<h1>08 June 2009</h1>
+<table class="news">
+  <tr>
+    <td><p>I have uploaded data files for MAME v0.132 and FBA v0.2.97.06</p></td>
+  </tr>
+</table><h1>03 May 2009</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released ROMBuild v2.13 - just a minor update really.</p></td>
+  </tr>
+</table><h1>26 April 2009</h1>
+<table class="news">
+  <tr>
+    <td><p>The data files for MAME v0.131 and FBA v0.2.97.05 are now online</p></td>
+  </tr>
+</table><h1>13 April 2009</h1>
+<table class="news">
+  <tr>
+    <td><p>I have released DatLib v2.36, DatUtil v2.46, MAMEDiff v2.31 and ZIPIdent v2.11 which now handle 64-bit ROM sizes.</p></td>
+  </tr>
+</table>
+

@@ -1,1 +1,1 @@
-1239640818|logiqx|DatLib v2.36, DatUtil v2.46, MAMEDiff v2.31 and ZIPIdent v2.11|I have released DatLib v2.36, DatUtil v2.46, MAMEDiff v2.31 and ZIPIdent v2.11 which now handle 64-bit ROM sizes.|||1||
+1248511905|logiqx|MAME v0.133|Data files for MAME v0.133 are now online.|||1||
