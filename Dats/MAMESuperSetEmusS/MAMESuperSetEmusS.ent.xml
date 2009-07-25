@@ -1,10 +1,10 @@
 <emulator id="MAMESuperSetEmusS">
 	<img src="../VariousEmulators.png" width="219" height="40"/>
 	<name>Various Emulators (Split-merged SuperSet Supplements)</name>
-	<version>v0.131</version>
+	<version>v0.133</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>26/04/2009</date>
+	<date>25/07/2009</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,10 +15,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="Various%20Emulators%20v0.131%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip" size="115"/>
+			<file name="Various%20Emulators%20v0.133%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip" size="127"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>25 July 2009</date>
+			<comment>Uploaded dats for MAME v0.133.</comment>
+		</revision>
+		<revision>
+			<date>8 June 2009</date>
+			<comment>Uploaded dats for MAME v0.132 and FBA v0.2.97.06.</comment>
+		</revision>
 		<revision>
 			<date>26 April 2009</date>
 			<comment>Uploaded dats for MAME v0.131 and FBA v0.2.97.05.</comment>

@@ -74,7 +74,7 @@
 .\cutenews\data\archives	1239640681.comments.arch	119
 .\cutenews\data\archives	1239640681.news.arch	1784
 .\cutenews\data\archives	index.htm	117
-.\cutenews\data\archives\CVS	Entries	606
+.\cutenews\data\archives\CVS	Entries	718
 .\cutenews\data\archives\CVS	Repository	28
 .\cutenews\data\archives\CVS	Root	26
 .\cutenews\data\backup	index.html	117
@@ -248,13 +248,13 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3320
-.\Dats	Dats.php	12113
+.\Dats	Dats.php	11950
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3163
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	985
+.\Dats	MAMESuperSet.zip	986
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
@@ -262,15 +262,15 @@
 .\Dats	RecentEmus.laptop.txt	546
 .\Dats	RecentEmus.png	2121
 .\Dats	RecentEmus.txt	550
-.\Dats	RecentEmus.zip	996
+.\Dats	RecentEmus.zip	998
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.php	8505
+.\Dats	RomCenter.php	8499
 .\Dats	RomCenter.xml	3132
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
 .\Dats	Systems.txt	100
-.\Dats	Systems.zip	516
+.\Dats	Systems.zip	515
 .\Dats	VariousEmulators.png	3158
 .\Dats	_rebuild_all.bat	55
 .\Dats	_rebuild_all.mak	1437
@@ -285,19 +285,20 @@
 .\Dats\AAE\CVS	Entries	338
 .\Dats\AAE\CVS	Repository	31
 .\Dats\AAE\CVS	Root	25
-.\Dats\CPS-1	CPS-1 20090105 (xml).zip	54371
-.\Dats\CPS-1	CPS-1.ent.xml	9247
-.\Dats\CPS-1	CPS-1.php	8500
+.\Dats\CPS-1	CPS-1 20090608 (xml).zip	54872
+.\Dats\CPS-1	CPS-1.ent.xml	9476
+.\Dats\CPS-1	CPS-1.php	8668
 .\Dats\CPS-1	CPS-1.png	1149
 .\Dats\CPS-1	CPS-1.xml	167
 .\Dats\CPS-1	_cvs_purge_add.bat	50
 .\Dats\CPS-1	_zip_cps1.bat	399
-.\Dats\CPS-1\CVS	Entries	348
+.\Dats\CPS-1\CVS	CPS-1 20090608 (xml).zip,t	0
+.\Dats\CPS-1\CVS	Entries	416
 .\Dats\CPS-1\CVS	Repository	33
 .\Dats\CPS-1\CVS	Root	25
-.\Dats\CPS-2	CPS-2 20090310 (xml).zip	83498
-.\Dats\CPS-2	CPS-2.ent.xml	20116
-.\Dats\CPS-2	CPS-2.php	17678
+.\Dats\CPS-2	CPS-2 20090426 (xml).zip	83886
+.\Dats\CPS-2	CPS-2.ent.xml	20331
+.\Dats\CPS-2	CPS-2.php	17846
 .\Dats\CPS-2	CPS-2.png	1268
 .\Dats\CPS-2	CPS-2.xml	167
 .\Dats\CPS-2	_cvs_purge_add.bat	48
@@ -315,7 +316,7 @@
 .\Dats\CPS3Emulator\CVS	Entries	401
 .\Dats\CPS3Emulator\CVS	Repository	40
 .\Dats\CPS3Emulator\CVS	Root	25
-.\Dats\CVS	Entries	1840
+.\Dats\CVS	Entries	1843
 .\Dats\CVS	Repository	27
 .\Dats\CVS	Root	25
 .\Dats\Daphne	Daphne v0.99.7 (xml).zip	11575
@@ -352,14 +353,15 @@
 .\Dats\DTD\CVS	Entries	45
 .\Dats\DTD\CVS	Repository	31
 .\Dats\DTD\CVS	Root	25
-.\Dats\FinalBurnAlpha	FBA v0.2.97.04 (xml).zip	671497
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	10205
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	9185
+.\Dats\FinalBurnAlpha	FBA v0.2.97.06 (xml).zip	736338
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	10417
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	9343
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.png	2202
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
 .\Dats\FinalBurnAlpha	_zip_fba.bat	386
-.\Dats\FinalBurnAlpha\CVS	Entries	383
+.\Dats\FinalBurnAlpha\CVS	Entries	451
+.\Dats\FinalBurnAlpha\CVS	FBA v0.2.97.06 (xml).zip,t	0
 .\Dats\FinalBurnAlpha\CVS	Repository	42
 .\Dats\FinalBurnAlpha\CVS	Root	25
 .\Dats\M1	M1 v0.7.8a6 (xml).zip	203473
@@ -392,9 +394,9 @@
 .\Dats\Nebula\CVS	Entries	353
 .\Dats\Nebula\CVS	Repository	34
 .\Dats\Nebula\CVS	Root	25
-.\Dats\Neo-Geo	Neo-Geo 20090310 (xml).zip	95495
-.\Dats\Neo-Geo	Neo-Geo.ent.xml	12785
-.\Dats\Neo-Geo	Neo-Geo.php	11379
+.\Dats\Neo-Geo	Neo-Geo 20090426 (xml).zip	96245
+.\Dats\Neo-Geo	Neo-Geo.ent.xml	13000
+.\Dats\Neo-Geo	Neo-Geo.php	11547
 .\Dats\Neo-Geo	Neo-Geo.png	1501
 .\Dats\Neo-Geo	Neo-Geo.xml	173
 .\Dats\Neo-Geo	_cvs_purge_add.bat	48
@@ -823,7 +825,7 @@
 .\team\wisdom\zip\CVS	Entries	425
 .\team\wisdom\zip\CVS	Repository	38
 .\team\wisdom\zip\CVS	Root	25
-.\Tools	Tools.php	4108
+.\Tools	Tools.php	3682
 .\Tools	Tools.png	859
 .\Tools	Tools.xml	899
 .\Tools	_rebuild_all.bat	55
@@ -839,7 +841,7 @@
 .\Tools\CVS	Entries	392
 .\Tools\CVS	Repository	28
 .\Tools\CVS	Root	25
-.\Tools\DatLib	DatLib.ent.xml	19270
+.\Tools\DatLib	DatLib.ent.xml	19263
 .\Tools\DatLib	DatLib.php	18804
 .\Tools\DatLib	DatLib.png	1150
 .\Tools\DatLib	DatLib.xml	173
@@ -851,7 +853,7 @@
 .\Tools\DatLib\CVS	Root	25
 .\Tools\DatUtil	CMProRC.png	11264
 .\Tools\DatUtil	Compatibility.xml	954
-.\Tools\DatUtil	DatUtil.ent.xml	35943
+.\Tools\DatUtil	DatUtil.ent.xml	35936
 .\Tools\DatUtil	DatUtil.php	34494
 .\Tools\DatUtil	DatUtil.png	1379
 .\Tools\DatUtil	DatUtil.xml	176
@@ -871,7 +873,7 @@
 .\Tools\ImgChk\CVS	Entries	238
 .\Tools\ImgChk\CVS	Repository	35
 .\Tools\ImgChk\CVS	Root	25
-.\Tools\MAMEDiff	MAMEDiff.ent.xml	20340
+.\Tools\MAMEDiff	MAMEDiff.ent.xml	20333
 .\Tools\MAMEDiff	MAMEDiff.php	19762
 .\Tools\MAMEDiff	MAMEDiff.png	2002
 .\Tools\MAMEDiff	MAMEDiff.xml	179
@@ -881,9 +883,9 @@
 .\Tools\MAMEDiff\CVS	Repository	37
 .\Tools\MAMEDiff\CVS	Root	25
 .\Tools\ROMBuild	rbmame80.zip	52439
-.\Tools\ROMBuild	rbuild212.zip	108517
-.\Tools\ROMBuild	ROMBuild.ent.xml	10824
-.\Tools\ROMBuild	ROMBuild.php	11153
+.\Tools\ROMBuild	rbuild213.zip	108829
+.\Tools\ROMBuild	ROMBuild.ent.xml	11126
+.\Tools\ROMBuild	ROMBuild.php	11422
 .\Tools\ROMBuild	ROMBuild.png	1890
 .\Tools\ROMBuild	ROMBuild.xml	179
 .\Tools\ROMBuild\CVS	Entries	295
@@ -913,13 +915,14 @@
 .\Tools\ZIPFind\CVS	Repository	36
 .\Tools\ZIPFind\CVS	Root	25
 .\Tools\ZIPIdent	zident211.zip	204997
-.\Tools\ZIPIdent	ZIPIdent.ent.xml	5125
+.\Tools\ZIPIdent	ZIPIdent.ent.xml	5118
 .\Tools\ZIPIdent	ZIPIdent.php	5766
 .\Tools\ZIPIdent	ZIPIdent.png	1244
 .\Tools\ZIPIdent	ZIPIdent.xml	179
 .\Tools\ZIPIdent\CVS	Entries	246
 .\Tools\ZIPIdent\CVS	Repository	37
 .\Tools\ZIPIdent\CVS	Root	25
+.\upload	all.zip	6302971
 .\upload	_upload.bat	166
 .\upload\CVS	Entries	48
 .\upload\CVS	Repository	29

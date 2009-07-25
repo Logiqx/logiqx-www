@@ -1,10 +1,10 @@
 <emulator id="MAMESuperSetSuppM">
 	<img src="../MAMESuperSet.png" width="198" height="40"/>
 	<name>MAME SuperSet (Fully-merged MAME Supplement)</name>
-	<version>v0.131</version>
+	<version>v0.133</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>26/04/2009</date>
+	<date>25/07/2009</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -14,10 +14,18 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="MAME%20SuperSet%20v0.131%20(Fully-merged%20MAME%20Supplement)%20(xml).zip" size="34"/>
+			<file name="MAME%20SuperSet%20v0.133%20(Fully-merged%20MAME%20Supplement)%20(xml).zip" size="38"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>25 July 2009</date>
+			<comment>Uploaded dats for MAME v0.133.</comment>
+		</revision>
+		<revision>
+			<date>8 June 2009</date>
+			<comment>Uploaded dats for MAME v0.132.</comment>
+		</revision>
 		<revision>
 			<date>26 April 2009</date>
 			<comment>Uploaded dats for MAME v0.131.</comment>
