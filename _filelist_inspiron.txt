@@ -605,7 +605,7 @@
 .\News	News36.txt	2089
 .\News	News37.txt	671
 .\News	Shredder.png	3449
-.\News\CVS	Entries	1735
+.\News\CVS	Entries	1779
 .\News\CVS	Repository	27
 .\News\CVS	Root	25
 .\pi	.ftpquota	13
