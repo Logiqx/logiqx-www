@@ -3,9 +3,9 @@
 	<img src="ROMBuild.png" width="120" height="40"/>
 
 	<name>ROMBuild</name>
-	<version>v2.13</version>
+	<version>v2.14</version>
 	<status>Updated</status>
-	<date>02/05/2009</date>
+	<date>19/12/2009</date>
 
 	<description>ROM manipulation tool that can convert modern day ROMs to older formats</description>
 
@@ -21,7 +21,7 @@
 
 	<downloads>
 		<download>
-			<file name="rbuild213.zip" size="107"/>
+			<file name="rbuild214.zip" size="108"/>
 		</download>
 	</downloads>
 
@@ -38,6 +38,24 @@
 	</downloads>
 
 	<revisions>
+		<revision>
+			<date>19 December 2009</date>
+			<version>v2.14</version>
+			<comment>
+				Changes related to MAME v0.133:<br/>
+				Updated a few existing definitions to account for MAME ROM renames.<br/>
+				Added some additional ROMs for minasan and hachamf.<br/>
+				<br/>
+				Changes related to MAME v0.134:<br/>
+				Updated a existing definitions to account for MAME ROM renames.<br/>
+				Added tROMbone v0.11<br/>
+				<br/>
+				Changes related to MAME v0.135:<br/>
+				Updated a few existing definitions to account for MAME ROM renames.<br/>
+				Added some additional ROMs for androdun and shogwarr.<br/>
+    			</comment>
+		</revision>
+
 		<revision>
 			<date>2 May 2009</date>
 			<version>v2.13</version>
