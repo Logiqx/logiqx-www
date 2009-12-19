@@ -5,13 +5,15 @@
 .	news.php	4166
 .	robots.txt	0
 .	_archive_bit_clear.bat	133
-.	_filelist.py	1336
+.	_filelist.py	1348
 .	_filelist_compare.py	2373
 .	_prepare_upload.bat	603
 .\backup\cron	crontab.txt	167
 .\backup\forwarder	aliases-logiqx.com.20070210.gz	152
 .\backup\forwarder	aliases-logiqx.com.20071118.gz	185
 .\backup\forwarder	aliases-logiqx.com.20090104.gz	148
+.\backup\forwarder	aliases-logiqx.com.20090925.gz	190
+.\backup\forwarder	spamarrest.PNG	114030
 .\backup\mysql	rss.gz	280877
 .\backup\mysql	rss_20090104.sql.gz	1161567
 .\backup\mysql	xmb1.gz	231762
@@ -55,7 +57,7 @@
 .\cutenews\data	index.html	117
 .\cutenews\data	ipban.db.php	0
 .\cutenews\data	Logiqx.tpl	1653
-.\cutenews\data	news.txt	201
+.\cutenews\data	news.txt	79
 .\cutenews\data	postponed_news.txt	0
 .\cutenews\data	rss.tpl	564
 .\cutenews\data	rss_config.php	186
@@ -73,8 +75,10 @@
 .\cutenews\data\archives	1231110319.news.arch	753
 .\cutenews\data\archives	1239640681.comments.arch	119
 .\cutenews\data\archives	1239640681.news.arch	1784
+.\cutenews\data\archives	1248511883.comments.arch	56
+.\cutenews\data\archives	1248511883.news.arch	538
 .\cutenews\data\archives	index.htm	117
-.\cutenews\data\archives\CVS	Entries	718
+.\cutenews\data\archives\CVS	Entries	830
 .\cutenews\data\archives\CVS	Repository	28
 .\cutenews\data\archives\CVS	Root	26
 .\cutenews\data\backup	index.html	117
@@ -248,13 +252,13 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3320
-.\Dats	Dats.php	11950
+.\Dats	Dats.php	12276
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3163
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	984
+.\Dats	MAMESuperSet.zip	989
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
@@ -265,12 +269,12 @@
 .\Dats	RecentEmus.zip	1002
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.php	8499
+.\Dats	RomCenter.php	8511
 .\Dats	RomCenter.xml	3132
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
 .\Dats	Systems.txt	100
-.\Dats	Systems.zip	511
+.\Dats	Systems.zip	503
 .\Dats	VariousEmulators.png	3158
 .\Dats	_rebuild_all.bat	55
 .\Dats	_rebuild_all.mak	1437
@@ -285,24 +289,26 @@
 .\Dats\AAE\CVS	Entries	338
 .\Dats\AAE\CVS	Repository	31
 .\Dats\AAE\CVS	Root	25
-.\Dats\CPS-1	CPS-1 20090725 (xml).zip	55324
-.\Dats\CPS-1	CPS-1.ent.xml	9584
-.\Dats\CPS-1	CPS-1.php	8749
+.\Dats\CPS-1	CPS-1 20091103 (xml).zip	55698
+.\Dats\CPS-1	CPS-1.ent.xml	9808
+.\Dats\CPS-1	CPS-1.php	8919
 .\Dats\CPS-1	CPS-1.png	1149
 .\Dats\CPS-1	CPS-1.xml	167
 .\Dats\CPS-1	_cvs_purge_add.bat	50
 .\Dats\CPS-1	_zip_cps1.bat	399
-.\Dats\CPS-1\CVS	Entries	348
+.\Dats\CPS-1\CVS	CPS-1 20091103 (xml).zip,t	0
+.\Dats\CPS-1\CVS	Entries	416
 .\Dats\CPS-1\CVS	Repository	33
 .\Dats\CPS-1\CVS	Root	25
-.\Dats\CPS-2	CPS-2 20090426 (xml).zip	83891
-.\Dats\CPS-2	CPS-2.ent.xml	20331
-.\Dats\CPS-2	CPS-2.php	17846
+.\Dats\CPS-2	CPS-2 20091103 (xml).zip	84352
+.\Dats\CPS-2	CPS-2.ent.xml	20562
+.\Dats\CPS-2	CPS-2.php	18016
 .\Dats\CPS-2	CPS-2.png	1268
 .\Dats\CPS-2	CPS-2.xml	167
 .\Dats\CPS-2	_cvs_purge_add.bat	48
 .\Dats\CPS-2	_zip_cps2.bat	399
-.\Dats\CPS-2\CVS	Entries	348
+.\Dats\CPS-2\CVS	CPS-2 20091103 (xml).zip,t	0
+.\Dats\CPS-2\CVS	Entries	416
 .\Dats\CPS-2\CVS	Repository	33
 .\Dats\CPS-2\CVS	Root	25
 .\Dats\CPS3Emulator	Capcom Play System 3 Emulator v1.0a (xml).zip	3118
@@ -352,14 +358,15 @@
 .\Dats\DTD\CVS	Entries	45
 .\Dats\DTD\CVS	Repository	31
 .\Dats\DTD\CVS	Root	25
-.\Dats\FinalBurnAlpha	FBA v0.2.97.06 (xml).zip	736338
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	10410
-.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	9343
+.\Dats\FinalBurnAlpha	FBA v0.2.97.07 (xml).zip	827546
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.ent.xml	10526
+.\Dats\FinalBurnAlpha	FinalBurnAlpha.php	9425
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.png	2202
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
 .\Dats\FinalBurnAlpha	_zip_fba.bat	386
-.\Dats\FinalBurnAlpha\CVS	Entries	383
+.\Dats\FinalBurnAlpha\CVS	Entries	451
+.\Dats\FinalBurnAlpha\CVS	FBA v0.2.97.07 (xml).zip,t	0
 .\Dats\FinalBurnAlpha\CVS	Repository	42
 .\Dats\FinalBurnAlpha\CVS	Root	25
 .\Dats\M1	M1 v0.7.8a6 (xml).zip	203473
@@ -392,14 +399,15 @@
 .\Dats\Nebula\CVS	Entries	353
 .\Dats\Nebula\CVS	Repository	34
 .\Dats\Nebula\CVS	Root	25
-.\Dats\Neo-Geo	Neo-Geo 20090725 (xml).zip	96480
-.\Dats\Neo-Geo	Neo-Geo.ent.xml	13115
-.\Dats\Neo-Geo	Neo-Geo.php	11628
+.\Dats\Neo-Geo	Neo-Geo 20091103 (xml).zip	96854
+.\Dats\Neo-Geo	Neo-Geo.ent.xml	13339
+.\Dats\Neo-Geo	Neo-Geo.php	11798
 .\Dats\Neo-Geo	Neo-Geo.png	1501
 .\Dats\Neo-Geo	Neo-Geo.xml	173
 .\Dats\Neo-Geo	_cvs_purge_add.bat	48
 .\Dats\Neo-Geo	_zip_neogeo.bat	425
-.\Dats\Neo-Geo\CVS	Entries	360
+.\Dats\Neo-Geo\CVS	Entries	432
+.\Dats\Neo-Geo\CVS	Neo-Geo 20091103 (xml).zip,t	0
 .\Dats\Neo-Geo\CVS	Repository	35
 .\Dats\Neo-Geo\CVS	Root	25
 .\Dats\OlderEmus	CMZIPContents.php	1129

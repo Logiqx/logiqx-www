@@ -7,6 +7,7 @@ import os, platform
 ignoreDirs = \
 [
 	# Non-synchronised directories
+	'./addon',
 	'./forum',
 	'./rss',
 	'./team/download',

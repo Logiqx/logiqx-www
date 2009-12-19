@@ -1,11 +1,11 @@
 <emulator id="CPS-1">
 	<img src="CPS-1.png" width="77" height="40"/>
 	<name>CPS-1</name>
-	<version>20090915</version>
+	<version>20091103</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>16/09/2009</date>
-	<games>139</games>
+	<date>08/11/2009</date>
+	<games>142</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 
 	<comment>
@@ -15,11 +15,15 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="CPS-1%2020090915%20(xml).zip" size="55"/>
+			<file name="CPS-1%2020091103%20(xml).zip" size="55"/>
 		</dat>
 	</dats>
 
 	<revisions>
+		<revision>
+			<date>8 November 2009</date>
+			<comment>Updated to match MAME v0.135.</comment>
+		</revision>
 		<revision>
 			<date>16 September 2009</date>
 			<comment>Updated to match MAME v0.134.</comment>
