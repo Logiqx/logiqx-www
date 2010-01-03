@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAME SuperSet v0.135</title>
+    <title>MAME SuperSet v0.136</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="../MAMESuperSet.png" width="198" height="40" alt="../MAMESuperSet.png"/>
     </p>
-	<p>8375 games for MAME SuperSet v0.135</p>
+	<p>8509 games for MAME SuperSet v0.136</p>
 	
 	
 	
@@ -45,9 +45,9 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.135%20(xml).zip">MAME SuperSet dat for CMPro + RC3</a> (2614KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.136%20(xml).zip">MAME SuperSet dat for CMPro + RC3</a> (2643KB)</p>
           <p>
-            <a href="MAME%20SuperSet%20v0.135%20(xml).zip">
+            <a href="MAME%20SuperSet%20v0.136%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>3 January 2010</b> - 
+			
+			Uploaded dats for MAME v0.136.
+		</p>
     <p>
       <b>8 November 2009</b> - 
 			

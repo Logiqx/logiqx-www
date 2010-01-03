@@ -10,27 +10,27 @@
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMEBeta/MAME%20v0.135%20(xml).zip"><b>MAME</b></a></td><td>v0.135</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>8334</td><td>08/11/2009</td></tr>
+					</b></td><td><a href="MAMEBeta/MAME%20v0.136%20(xml).zip"><b>MAME</b></a></td><td>v0.136</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>8468</td><td>03/01/2010</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSet/MAME%20SuperSet%20v0.135%20(xml).zip"><b>MAME SuperSet</b></a></td><td>v0.135</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>8375</td><td>08/11/2009</td></tr>
+					</b></td><td><a href="MAMESuperSet/MAME%20SuperSet%20v0.136%20(xml).zip"><b>MAME SuperSet</b></a></td><td>v0.136</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>8509</td><td>03/01/2010</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetSuppM/MAME%20SuperSet%20v0.135%20(Fully-merged%20MAME%20Supplement)%20(xml).zip"><b>MAME SuperSet (Fully-merged MAME Supplement)</b></a></td><td>v0.135</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>08/11/2009</td></tr>
+					</b></td><td><a href="MAMESuperSetSuppM/MAME%20SuperSet%20v0.136%20(Fully-merged%20MAME%20Supplement)%20(xml).zip"><b>MAME SuperSet (Fully-merged MAME Supplement)</b></a></td><td>v0.136</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>03/01/2010</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetSuppS/MAME%20SuperSet%20v0.135%20(Split-merged%20MAME%20Supplement)%20(xml).zip"><b>MAME SuperSet (Split-merged MAME Supplement)</b></a></td><td>v0.135</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>08/11/2009</td></tr>
+					</b></td><td><a href="MAMESuperSetSuppS/MAME%20SuperSet%20v0.136%20(Split-merged%20MAME%20Supplement)%20(xml).zip"><b>MAME SuperSet (Split-merged MAME Supplement)</b></a></td><td>v0.136</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>03/01/2010</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.135%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.135</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>08/11/2009</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusM/Various%20Emulators%20v0.136%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip"><b>Various Emulators (Fully-merged SuperSet Supplements)</b></a></td><td>v0.136</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>03/01/2010</td></tr>
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.135%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.135</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>08/11/2009</td></tr>
+					</b></td><td><a href="MAMESuperSetEmusS/Various%20Emulators%20v0.136%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip"><b>Various Emulators (Split-merged SuperSet Supplements)</b></a></td><td>v0.136</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>Non-MAME</td><td>03/01/2010</td></tr>
 
 		</table>
 	
@@ -64,7 +64,7 @@
 					</b></td><td><a href="DSP/DSP%20v0.9%20(xml).zip"><b>DSP</b></a></td><td>v0.9</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>35</td><td>03/11/2008</td></tr>
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="FinalBurnAlpha/FBA%20v0.2.97.07%20(xml).zip"><b>FBA</b></a></td><td>v0.2.97.07</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>2192</td><td>08/11/2009</td></tr>
 
 
@@ -130,16 +130,16 @@
 		<table cellspacing="0" cellpadding="0"><tr><th>Status</th><th>System</th><th>Version</th><th>Author</th><th>Games</th><th>Update date</th></tr>
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="CPS-1/CPS-1%2020091103%20(xml).zip"><b>CPS-1</b></a></td><td>20091103</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>142</td><td>08/11/2009</td></tr>
+					</b></td><td><a href="CPS-1/CPS-1%2020100103%20(xml).zip"><b>CPS-1</b></a></td><td>20100103</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>143</td><td>03/01/2010</td></tr>
 
 
 <tr><td class="status"><b>
 						updated
-					</b></td><td><a href="CPS-2/CPS-2%2020091103%20(xml).zip"><b>CPS-2</b></a></td><td>20091103</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>244</td><td>08/11/2009</td></tr>
+					</b></td><td><a href="CPS-2/CPS-2%2020100103%20(xml).zip"><b>CPS-2</b></a></td><td>20100103</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>249</td><td>03/01/2010</td></tr>
 
 
 <tr><td class="status"><b>
-						updated
+						-
 					</b></td><td><a href="Neo-Geo/Neo-Geo%2020091103%20(xml).zip"><b>Neo-Geo</b></a></td><td>20091103</td><td><a href="http://www.logiqx.com"><b>Logiqx</b></a></td><td>272</td><td>08/11/2009</td></tr>
 
 		</table>

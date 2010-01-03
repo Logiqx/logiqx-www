@@ -57,7 +57,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMEBeta/">MAME v0.135</a>
+          <a href="MAMEBeta/">MAME v0.136</a>
         </td>
         <td>
           <p>
@@ -66,19 +66,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>08/11/2009</b>
+            <b>03/01/2010</b>
           </p>
         </td>
         <td>
           <p>
-            <b>8334</b>
+            <b>8468</b>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="MAMESuperSet/">MAME SuperSet v0.135</a>
+          <a href="MAMESuperSet/">MAME SuperSet v0.136</a>
         </td>
         <td>
           <p>
@@ -87,19 +87,19 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>08/11/2009</b>
+            <b>03/01/2010</b>
           </p>
         </td>
         <td>
           <p>
-            <b>8375</b>
+            <b>8509</b>
           </p>
         </td>
       </tr>
 
 			<tr>
         <td>
-          <a href="MAMESuperSetSuppM/">MAME SuperSet (Fully-merged MAME Supplement) v0.135</a>
+          <a href="MAMESuperSetSuppM/">MAME SuperSet (Fully-merged MAME Supplement) v0.136</a>
         </td>
         <td>
           <p>
@@ -108,7 +108,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>08/11/2009</b>
+            <b>03/01/2010</b>
           </p>
         </td>
         <td>
@@ -120,7 +120,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="MAMESuperSetSuppS/">MAME SuperSet (Split-merged MAME Supplement) v0.135</a>
+          <a href="MAMESuperSetSuppS/">MAME SuperSet (Split-merged MAME Supplement) v0.136</a>
         </td>
         <td>
           <p>
@@ -129,7 +129,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>08/11/2009</b>
+            <b>03/01/2010</b>
           </p>
         </td>
         <td>
@@ -141,7 +141,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="MAMESuperSetEmusM/">Various Emulators (Fully-merged SuperSet Supplements) v0.135</a>
+          <a href="MAMESuperSetEmusM/">Various Emulators (Fully-merged SuperSet Supplements) v0.136</a>
         </td>
         <td>
           <p>
@@ -150,7 +150,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>08/11/2009</b>
+            <b>03/01/2010</b>
           </p>
         </td>
         <td>
@@ -162,7 +162,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="MAMESuperSetEmusS/">Various Emulators (Split-merged SuperSet Supplements) v0.135</a>
+          <a href="MAMESuperSetEmusS/">Various Emulators (Split-merged SuperSet Supplements) v0.136</a>
         </td>
         <td>
           <p>
@@ -171,7 +171,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>08/11/2009</b>
+            <b>03/01/2010</b>
           </p>
         </td>
         <td>
@@ -287,19 +287,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="FinalBurnAlpha/">FBA v0.2.97.07</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>08/11/2009</b>
-          </p>
+          <p>08/11/2009</p>
         </td>
         <td>
-          <p>
-            <b>2192</b>
-          </p>
+          <p>2192</p>
         </td>
       </tr>
 
@@ -498,7 +492,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
       </tr>
 			<tr>
         <td>
-          <a href="CPS-1/">CPS-1 20091103</a>
+          <a href="CPS-1/">CPS-1 20100103</a>
         </td>
         <td>
           <p>
@@ -507,12 +501,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>08/11/2009</b>
+            <b>03/01/2010</b>
           </p>
         </td>
         <td>
           <p>
-            <b>142</b>
+            <b>143</b>
           </p>
         </td>
       </tr>
@@ -520,7 +514,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="CPS-2/">CPS-2 20091103</a>
+          <a href="CPS-2/">CPS-2 20100103</a>
         </td>
         <td>
           <p>
@@ -529,12 +523,12 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>08/11/2009</b>
+            <b>03/01/2010</b>
           </p>
         </td>
         <td>
           <p>
-            <b>244</b>
+            <b>249</b>
           </p>
         </td>
       </tr>
@@ -545,19 +539,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="Neo-Geo/">Neo-Geo 20091103</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>08/11/2009</b>
-          </p>
+          <p>08/11/2009</p>
         </td>
         <td>
-          <p>
-            <b>272</b>
-          </p>
+          <p>272</p>
         </td>
       </tr>
 

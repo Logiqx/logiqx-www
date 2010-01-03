@@ -54,6 +54,8 @@
 					<hr />
 
 					<p>
+						<a href="news.php?page=39">October to December 2009</a> -
+						<a href="news.php?page=38">July to September 2009</a> -
 						<a href="news.php?page=37">April to June 2009</a> -
 						<a href="news.php?page=36">January to March 2009</a>
 					</p>
