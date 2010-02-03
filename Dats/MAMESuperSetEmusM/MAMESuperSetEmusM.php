@@ -60,6 +60,11 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>3 February 2010</b> - 
+			
+			Updated for Kawaks v1.61.
+		</p>
+    <p>
       <b>3 January 2010</b> - 
 			
 			Uploaded dats for MAME v0.136.

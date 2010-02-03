@@ -4,7 +4,7 @@
 	<version>v0.136</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>03/01/2010</date>
+	<date>03/02/2010</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -19,6 +19,10 @@
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>3 February 2010</date>
+			<comment>Updated for Kawaks v1.61.</comment>
+		</revision>
 		<revision>
 			<date>3 January 2010</date>
 			<comment>Uploaded dats for MAME v0.136.</comment>

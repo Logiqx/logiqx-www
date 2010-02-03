@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Kawaks v1.60</title>
+    <title>Kawaks v1.61</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="WinKawaks.png" width="141" height="40" alt="WinKawaks.png"/>
     </p>
-	<p>590 games for Kawaks v1.60</p>
+	<p>612 games for Kawaks v1.61</p>
 	
 	
 	
@@ -45,9 +45,9 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="WinKawaks%20v1.60%20(xml).zip">Kawaks dat for CMPro + RC3</a> (169KB)</p>
+          <p>Download <a href="WinKawaks%20v1.61%20(xml).zip">Kawaks dat for CMPro + RC3</a> (173KB)</p>
           <p>
-            <a href="WinKawaks%20v1.60%20(xml).zip">
+            <a href="WinKawaks%20v1.61%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>3 February 2010</b> - 
+			
+			Updated for Kawaks v1.61.
+		</p>
     <p>
       <b>9 January 2009</b> - 
 			
