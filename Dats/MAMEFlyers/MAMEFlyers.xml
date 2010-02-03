@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE emulator_page SYSTEM "../dtd/dats.dtd" [
-	<!ENTITY MAMEFlyers SYSTEM "MAMEFlyers.ent.xml">
-]>
-
-<emulator_page>
-	&MAMEFlyers;
-</emulator_page>
