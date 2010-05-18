@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>FBA v0.2.97.07</title>
+    <title>FBA v0.2.97.08</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="FinalBurnAlpha.png" width="195" height="40" alt="FinalBurnAlpha.png"/>
     </p>
-	<p>2192 games for FBA v0.2.97.07</p>
+	<p>2320 games for FBA v0.2.97.08</p>
 	
 	
 	
@@ -41,9 +41,9 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="FBA%20v0.2.97.07%20(xml).zip">FBA dat for CMPro + RC3</a> (809KB)</p>
+          <p>Download <a href="FBA%20v0.2.97.08%20(xml).zip">FBA dat for CMPro + RC3</a> (848KB)</p>
           <p>
-            <a href="FBA%20v0.2.97.07%20(xml).zip">
+            <a href="FBA%20v0.2.97.08%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -54,6 +54,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>13 March 2010</b> - 
+			
+			Updated for FBA v0.2.97.08.
+		</p>
     <p>
       <b>8 November 2009</b> - 
 			

@@ -59,6 +59,16 @@
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
     <p>
+      <b>18 May 2010</b> - 
+			
+			No change required for MAME v0.138.
+		</p>
+    <p>
+      <b>13 March 2010</b> - 
+			
+			No change required for MAME v0.137.
+		</p>
+    <p>
       <b>3 January 2010</b> - 
 			
 			No change required for MAME v0.136.

@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAME v0.136</title>
+    <title>MAME v0.138</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="MAME.png" width="80" height="40" alt="MAME.png"/>
     </p>
-	<p>8468 games for MAME v0.136</p>
+	<p>8685 games for MAME v0.138</p>
 	
 	
 	
@@ -46,9 +46,9 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20v0.136%20(xml).zip">MAME dat for CMPro + RC3</a> (2614KB)</p>
+          <p>Download <a href="MAME%20v0.138%20(xml).zip">MAME dat for CMPro + RC3</a> (2665KB)</p>
           <p>
-            <a href="MAME%20v0.136%20(xml).zip">
+            <a href="MAME%20v0.138%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -59,6 +59,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>18 May 2010</b> - 
+			
+			Uploaded dats for MAME v0.138.
+		</p>
+    <p>
+      <b>13 March 2010</b> - 
+			
+			Uploaded dats for MAME v0.137.
+		</p>
     <p>
       <b>3 January 2010</b> - 
 			

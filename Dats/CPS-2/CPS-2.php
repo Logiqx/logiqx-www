@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>CPS-2 20100103</title>
+    <title>CPS-2 20100518</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="CPS-2.png" width="80" height="40" alt="CPS-2.png"/>
     </p>
-	<p>249 games for CPS-2 20100103</p>
+	<p>255 games for CPS-2 20100518</p>
 	
 	
 	
@@ -45,9 +45,9 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="CPS-2%2020100103%20(xml).zip">CPS-2 dat for CMPro + RC3</a> (84KB)</p>
+          <p>Download <a href="CPS-2%2020100518%20(xml).zip">CPS-2 dat for CMPro + RC3</a> (84KB)</p>
           <p>
-            <a href="CPS-2%2020100103%20(xml).zip">
+            <a href="CPS-2%2020100518%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,16 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>18 May 2010</b> - 
+			
+			Updated to match MAME v0.138.
+		</p>
+    <p>
+      <b>13 March 2010</b> - 
+			
+			Updated to match MAME v0.137.
+		</p>
     <p>
       <b>3 January 2010</b> - 
 			

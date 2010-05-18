@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>M1 v0.7.8a6</title>
+    <title>M1 v0.7.8a10</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="M1.png" width="35" height="40" alt="M1.png"/>
     </p>
-	<p>1454 games for M1 v0.7.8a6</p>
+	<p>1508 games for M1 v0.7.8a10</p>
 	
 	
 	
@@ -38,16 +38,16 @@
 	
 	
 	
-		<p>Arcade machine sound player.</p>
+		<p>Arcade and pinball machine sound player (Sega Genesis games have been removed from this data file).</p>
 	
 	<table>
       <colgroup span="1" width="50%"/>
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="M1%20v0.7.8a6%20(xml).zip">M1 dat for CMPro + RC3</a> (199KB)</p>
+          <p>Download <a href="M1%20v0.7.8a10%20(xml).zip">M1 dat for CMPro + RC3</a> (208KB)</p>
           <p>
-            <a href="M1%20v0.7.8a6%20(xml).zip">
+            <a href="M1%20v0.7.8a10%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>13 March 2008</b> - 
+			
+			Updated for M1 v0.7.8a10.
+		</p>
     <p>
       <b>15 July 2008</b> - 
 			
