@@ -4,7 +4,7 @@
 	<version>v0.138</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>18/05/2010</date>
+	<date>27/06/2010</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,10 +15,14 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="Various%20Emulators%20v0.138%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip" size="128"/>
+			<file name="Various%20Emulators%20v0.138%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip" size="129"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>27 June 2010</date>
+			<comment>Updated for Kawaks v1.62.</comment>
+		</revision>
 		<revision>
 			<date>18 May 2010</date>
 			<comment>Uploaded dats for MAME v0.138.</comment>

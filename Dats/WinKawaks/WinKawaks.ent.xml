@@ -2,11 +2,11 @@
 <emulator id="WinKawaks">
 	<img src="WinKawaks.png" width="141" height="40"/>
 	<name>Kawaks</name>
-	<version>v1.61</version>
+	<version>v1.62</version>
 	<suitability/>
-	<status></status>
-	<date>03/02/2010</date>
-	<games>612</games>
+	<status>Updated</status>
+	<date>27/06/2010</date>
+	<games>626</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>Kawaks emulates CPS-1, CPS-2 and Neo-Geo games.</p>
@@ -14,10 +14,14 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="WinKawaks%20v1.61%20(xml).zip" size="173"/>
+			<file name="WinKawaks%20v1.62%20(xml).zip" size="176"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>27 June 2010</date>
+			<comment>Updated for Kawaks v1.62.</comment>
+		</revision>
 		<revision>
 			<date>3 February 2010</date>
 			<comment>Updated for Kawaks v1.61.</comment>

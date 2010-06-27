@@ -46,7 +46,7 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Various%20Emulators%20v0.138%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro + RC3</a> (128KB)</p>
+          <p>Download <a href="Various%20Emulators%20v0.138%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">Various Emulators (Fully-merged SuperSet Supplements) dat for CMPro + RC3</a> (129KB)</p>
           <p>
             <a href="Various%20Emulators%20v0.138%20(Fully-merged%20SuperSet%20Supplements)%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
@@ -59,6 +59,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>27 June 2010</b> - 
+			
+			Updated for Kawaks v1.62.
+		</p>
     <p>
       <b>18 May 2010</b> - 
 			

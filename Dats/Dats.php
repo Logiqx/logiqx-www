@@ -60,19 +60,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="MAMEBeta/">MAME v0.138</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>18/05/2010</b>
-          </p>
+          <p>18/05/2010</p>
         </td>
         <td>
-          <p>
-            <b>8685</b>
-          </p>
+          <p>8685</p>
         </td>
       </tr>
 
@@ -81,19 +75,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="MAMESuperSet/">MAME SuperSet v0.138</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>18/05/2010</b>
-          </p>
+          <p>18/05/2010</p>
         </td>
         <td>
-          <p>
-            <b>8726</b>
-          </p>
+          <p>8726</p>
         </td>
       </tr>
 
@@ -102,19 +90,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="MAMESuperSetSuppM/">MAME SuperSet (Fully-merged MAME Supplement) v0.138</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>18/05/2010</b>
-          </p>
+          <p>18/05/2010</p>
         </td>
         <td>
-          <p>
-            <b>Non-MAME</b>
-          </p>
+          <p>Non-MAME</p>
         </td>
       </tr>
 
@@ -123,19 +105,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="MAMESuperSetSuppS/">MAME SuperSet (Split-merged MAME Supplement) v0.138</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>18/05/2010</b>
-          </p>
+          <p>18/05/2010</p>
         </td>
         <td>
-          <p>
-            <b>Non-MAME</b>
-          </p>
+          <p>Non-MAME</p>
         </td>
       </tr>
 
@@ -150,7 +126,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>18/05/2010</b>
+            <b>27/06/2010</b>
           </p>
         </td>
         <td>
@@ -171,7 +147,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>18/05/2010</b>
+            <b>27/06/2010</b>
           </p>
         </td>
         <td>
@@ -300,16 +276,22 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="WinKawaks/">Kawaks v1.61</a>
+          <a href="WinKawaks/">Kawaks v1.62</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>03/02/2010</p>
+          <p>
+            <b>27/06/2010</b>
+          </p>
         </td>
         <td>
-          <p>612</p>
+          <p>
+            <b>626</b>
+          </p>
         </td>
       </tr>
 
@@ -495,19 +477,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="CPS-1/">CPS-1 20100518</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>18/05/2010</b>
-          </p>
+          <p>18/05/2010</p>
         </td>
         <td>
-          <p>
-            <b>147</b>
-          </p>
+          <p>147</p>
         </td>
       </tr>
 
@@ -517,19 +493,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="CPS-2/">CPS-2 20100518</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>18/05/2010</b>
-          </p>
+          <p>18/05/2010</p>
         </td>
         <td>
-          <p>
-            <b>255</b>
-          </p>
+          <p>255</p>
         </td>
       </tr>
 

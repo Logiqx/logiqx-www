@@ -50,7 +50,7 @@
 .\cutenews\data	auto_archive.db.php	0
 .\cutenews\data	cat.num.php	1
 .\cutenews\data	category.db.php	16
-.\cutenews\data	comments.txt	0
+.\cutenews\data	comments.txt	14
 .\cutenews\data	config.php	1324
 .\cutenews\data	Default.tpl	2184
 .\cutenews\data	flood.db.php	0
@@ -58,7 +58,7 @@
 .\cutenews\data	index.html	117
 .\cutenews\data	ipban.db.php	0
 .\cutenews\data	Logiqx.tpl	1653
-.\cutenews\data	news.txt	0
+.\cutenews\data	news.txt	87
 .\cutenews\data	postponed_news.txt	0
 .\cutenews\data	rss.tpl	564
 .\cutenews\data	rss_config.php	186
@@ -80,6 +80,8 @@
 .\cutenews\data\archives	1248511883.news.arch	538
 .\cutenews\data\archives	1262549687.comments.arch	56
 .\cutenews\data\archives	1262549687.news.arch	457
+.\cutenews\data\archives	1274209572.comments.arch	42
+.\cutenews\data\archives	1274209572.news.arch	464
 .\cutenews\data\archives	index.htm	117
 .\cutenews\data\archives\CVS	Entries	942
 .\cutenews\data\archives\CVS	Repository	28
@@ -299,8 +301,7 @@
 .\Dats\CPS-1	CPS-1.xml	167
 .\Dats\CPS-1	_cvs_purge_add.bat	50
 .\Dats\CPS-1	_zip_cps1.bat	399
-.\Dats\CPS-1\CVS	CPS-1 20100518 (xml).zip,t	0
-.\Dats\CPS-1\CVS	Entries	416
+.\Dats\CPS-1\CVS	Entries	348
 .\Dats\CPS-1\CVS	Repository	33
 .\Dats\CPS-1\CVS	Root	25
 .\Dats\CPS-2	CPS-2 20100518 (xml).zip	85607
@@ -310,8 +311,7 @@
 .\Dats\CPS-2	CPS-2.xml	167
 .\Dats\CPS-2	_cvs_purge_add.bat	48
 .\Dats\CPS-2	_zip_cps2.bat	399
-.\Dats\CPS-2\CVS	CPS-2 20100518 (xml).zip,t	0
-.\Dats\CPS-2\CVS	Entries	416
+.\Dats\CPS-2\CVS	Entries	348
 .\Dats\CPS-2\CVS	Repository	33
 .\Dats\CPS-2\CVS	Root	25
 .\Dats\CPS3Emulator	Capcom Play System 3 Emulator v1.0a (xml).zip	3118
@@ -368,8 +368,7 @@
 .\Dats\FinalBurnAlpha	FinalBurnAlpha.xml	196
 .\Dats\FinalBurnAlpha	_cvs_purge_add.bat	48
 .\Dats\FinalBurnAlpha	_zip_fba.bat	386
-.\Dats\FinalBurnAlpha\CVS	Entries	451
-.\Dats\FinalBurnAlpha\CVS	FBA v0.2.97.08 (xml).zip,t	0
+.\Dats\FinalBurnAlpha\CVS	Entries	383
 .\Dats\FinalBurnAlpha\CVS	Repository	42
 .\Dats\FinalBurnAlpha\CVS	Root	25
 .\Dats\M1	M1 v0.7.8a10 (xml).zip	212236
@@ -379,8 +378,7 @@
 .\Dats\M1	M1.xml	160
 .\Dats\M1	_cvs_purge_add.bat	48
 .\Dats\M1	_zip_m1.bat	362
-.\Dats\M1\CVS	Entries	395
-.\Dats\M1\CVS	M1 v0.7.8a10 (xml).zip,t	0
+.\Dats\M1\CVS	Entries	332
 .\Dats\M1\CVS	Repository	30
 .\Dats\M1\CVS	Root	25
 .\Dats\Mjolnir	Mjolnir v0.3.1 (xml).zip	20066
@@ -619,7 +617,7 @@
 .\News	News39.txt	350
 .\News	News40.txt	612
 .\News	Shredder.png	3449
-.\News\CVS	Entries	1867
+.\News\CVS	Entries	1911
 .\News\CVS	Repository	27
 .\News\CVS	Root	25
 .\pi	.ftpquota	13
