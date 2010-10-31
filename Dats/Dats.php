@@ -57,67 +57,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 			
 <tr>
         <td>
-          <a href="MAMEBeta/">MAME v0.138</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>18/05/2010</p>
-        </td>
-        <td>
-          <p>8685</p>
-        </td>
-      </tr>
-
-			<tr>
-        <td>
-          <a href="MAMESuperSet/">MAME SuperSet v0.138</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>18/05/2010</p>
-        </td>
-        <td>
-          <p>8726</p>
-        </td>
-      </tr>
-
-			<tr>
-        <td>
-          <a href="MAMESuperSetSuppM/">MAME SuperSet (Fully-merged MAME Supplement) v0.138</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>18/05/2010</p>
-        </td>
-        <td>
-          <p>Non-MAME</p>
-        </td>
-      </tr>
-
-			<tr>
-        <td>
-          <a href="MAMESuperSetSuppS/">MAME SuperSet (Split-merged MAME Supplement) v0.138</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>18/05/2010</p>
-        </td>
-        <td>
-          <p>Non-MAME</p>
-        </td>
-      </tr>
-
-			<tr>
-        <td>
-          <a href="MAMESuperSetEmusM/">Various Emulators (Fully-merged SuperSet Supplements) v0.138</a>
+          <a href="MAMEBeta/">MAME v0.140</a>
         </td>
         <td>
           <p>
@@ -126,7 +66,49 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>27/06/2010</b>
+            <b>31/10/2010</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>8959</b>
+          </p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
+          <a href="MAMESuperSet/">MAME SuperSet v0.140</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>31/10/2010</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>8726</b>
+          </p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
+          <a href="MAMESuperSetSuppM/">MAME SuperSet (Fully-merged MAME Supplement) v0.140</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>31/10/2010</b>
           </p>
         </td>
         <td>
@@ -138,7 +120,7 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
 
 			<tr>
         <td>
-          <a href="MAMESuperSetEmusS/">Various Emulators (Split-merged SuperSet Supplements) v0.138</a>
+          <a href="MAMESuperSetSuppS/">MAME SuperSet (Split-merged MAME Supplement) v0.140</a>
         </td>
         <td>
           <p>
@@ -147,7 +129,49 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
         </td>
         <td>
           <p>
-            <b>27/06/2010</b>
+            <b>31/10/2010</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>Non-MAME</b>
+          </p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
+          <a href="MAMESuperSetEmusM/">Various Emulators (Fully-merged SuperSet Supplements) v0.140</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>31/10/2010</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>Non-MAME</b>
+          </p>
+        </td>
+      </tr>
+
+			<tr>
+        <td>
+          <a href="MAMESuperSetEmusS/">Various Emulators (Split-merged SuperSet Supplements) v0.140</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>31/10/2010</b>
           </p>
         </td>
         <td>
@@ -279,19 +303,13 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
           <a href="WinKawaks/">Kawaks v1.62</a>
         </td>
         <td>
-          <p>
-            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
-          </p>
+          <p/>
         </td>
         <td>
-          <p>
-            <b>27/06/2010</b>
-          </p>
+          <p>27/06/2010</p>
         </td>
         <td>
-          <p>
-            <b>626</b>
-          </p>
+          <p>626</p>
         </td>
       </tr>
 
@@ -474,48 +492,66 @@ and I'll issue them to Roman (CMPro) and Eric (ROMCenter), ensuring that they wo
       </tr>
 			<tr>
         <td>
-          <a href="CPS-1/">CPS-1 20100518</a>
+          <a href="CPS-1/">CPS-1 20101027</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>18/05/2010</p>
+          <p>
+            <b>27/10/2010</b>
+          </p>
         </td>
         <td>
-          <p>147</p>
-        </td>
-      </tr>
-
-			
-<tr>
-        <td>
-          <a href="CPS-2/">CPS-2 20100518</a>
-        </td>
-        <td>
-          <p/>
-        </td>
-        <td>
-          <p>18/05/2010</p>
-        </td>
-        <td>
-          <p>255</p>
+          <p>
+            <b>154</b>
+          </p>
         </td>
       </tr>
 
 			
 <tr>
         <td>
-          <a href="Neo-Geo/">Neo-Geo 20091103</a>
+          <a href="CPS-2/">CPS-2 20101027</a>
         </td>
         <td>
-          <p/>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
         </td>
         <td>
-          <p>08/11/2009</p>
+          <p>
+            <b>27/10/2010</b>
+          </p>
         </td>
         <td>
-          <p>272</p>
+          <p>
+            <b>271</b>
+          </p>
+        </td>
+      </tr>
+
+			
+<tr>
+        <td>
+          <a href="Neo-Geo/">Neo-Geo 20101027</a>
+        </td>
+        <td>
+          <p>
+            <img src="../Resources/Updated.png" width="73" height="14" alt="Updated"/>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>27/10/2010</b>
+          </p>
+        </td>
+        <td>
+          <p>
+            <b>275</b>
+          </p>
         </td>
       </tr>
 

@@ -2,11 +2,11 @@
 <emulator id="Neo-Geo">
 	<img src="Neo-Geo.png" width="108" height="40"/>
 	<name>Neo-Geo</name>
-	<version>20091103</version>
+	<version>20101027</version>
 	<suitability/>
-	<status></status>
-	<date>08/11/2009</date>
-	<games>272</games>
+	<status>Updated</status>
+	<date>27/10/2010</date>
+	<games>275</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
 		<p>SNK Neo-Geo</p>
@@ -14,10 +14,14 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="Neo-Geo%2020091103%20(xml).zip" size="95"/>
+			<file name="Neo-Geo%2020101027%20(xml).zip" size="96"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>31 Oct 2010</date>
+			<comment>Updated to match MAME v0.140.</comment>
+		</revision>
 		<revision>
 			<date>18 May 2010</date>
 			<comment>No change required for MAME v0.138.</comment>

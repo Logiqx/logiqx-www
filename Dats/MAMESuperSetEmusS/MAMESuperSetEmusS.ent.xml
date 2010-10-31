@@ -1,10 +1,10 @@
 <emulator id="MAMESuperSetEmusS">
 	<img src="../VariousEmulators.png" width="219" height="40"/>
 	<name>Various Emulators (Split-merged SuperSet Supplements)</name>
-	<version>v0.138</version>
+	<version>v0.140</version>
 	<suitability/>
 	<status>Updated</status>
-	<date>27/06/2010</date>
+	<date>31/10/2010</date>
 	<games>Non-MAME</games>
 	<author href="http://www.logiqx.com">Logiqx</author>
 	<comment>
@@ -15,10 +15,14 @@
 	<dats>
 		<dat>
 			&Generic;
-			<file name="Various%20Emulators%20v0.138%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip" size="146"/>
+			<file name="Various%20Emulators%20v0.140%20(Split-merged%20SuperSet%20Supplements)%20(xml).zip" size="188"/>
 		</dat>
 	</dats>
 	<revisions>
+		<revision>
+			<date>31 Oct 2010</date>
+			<comment>Uploaded dats for MAME v0.140.</comment>
+		</revision>
 		<revision>
 			<date>27 June 2010</date>
 			<comment>Updated for Kawaks v1.62.</comment>

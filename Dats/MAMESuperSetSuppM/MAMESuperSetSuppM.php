@@ -8,7 +8,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>MAME SuperSet (Fully-merged MAME Supplement) v0.138</title>
+    <title>MAME SuperSet (Fully-merged MAME Supplement) v0.140</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -29,7 +29,7 @@
 	<p>
       <img src="../MAMESuperSet.png" width="198" height="40" alt="../MAMESuperSet.png"/>
     </p>
-	<p>Non-MAME games for MAME SuperSet (Fully-merged MAME Supplement) v0.138</p>
+	<p>Non-MAME games for MAME SuperSet (Fully-merged MAME Supplement) v0.140</p>
 	
 	
 	
@@ -45,9 +45,9 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="MAME%20SuperSet%20v0.138%20(Fully-merged%20MAME%20Supplement)%20(xml).zip">MAME SuperSet (Fully-merged MAME Supplement) dat for CMPro + RC3</a> (33KB)</p>
+          <p>Download <a href="MAME%20SuperSet%20v0.140%20(Fully-merged%20MAME%20Supplement)%20(xml).zip">MAME SuperSet (Fully-merged MAME Supplement) dat for CMPro + RC3</a> (34KB)</p>
           <p>
-            <a href="MAME%20SuperSet%20v0.138%20(Fully-merged%20MAME%20Supplement)%20(xml).zip">
+            <a href="MAME%20SuperSet%20v0.140%20(Fully-merged%20MAME%20Supplement)%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>31 Oct 2010</b> - 
+			
+			Uploaded dats for MAME v0.140.
+		</p>
     <p>
       <b>18 May 2010</b> - 
 			

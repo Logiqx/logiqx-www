@@ -9,7 +9,7 @@
 					include ('../../Resources/Include.php');
 
 				</script>
-    <title>Neo-Geo 20091103</title>
+    <title>Neo-Geo 20101027</title>
     <script language="php">
 					// Include standard &lt;head> metadata
 
@@ -30,7 +30,7 @@
 	<p>
       <img src="Neo-Geo.png" width="108" height="40" alt="Neo-Geo.png"/>
     </p>
-	<p>272 games for Neo-Geo 20091103</p>
+	<p>275 games for Neo-Geo 20101027</p>
 	
 	
 	
@@ -45,9 +45,9 @@
       <colgroup span="1" width="50%"/>
       <tr>
 		<td>
-          <p>Download <a href="Neo-Geo%2020091103%20(xml).zip">Neo-Geo dat for CMPro + RC3</a> (95KB)</p>
+          <p>Download <a href="Neo-Geo%2020101027%20(xml).zip">Neo-Geo dat for CMPro + RC3</a> (96KB)</p>
           <p>
-            <a href="Neo-Geo%2020091103%20(xml).zip">
+            <a href="Neo-Geo%2020101027%20(xml).zip">
               <img src="../../Resources/Disk.png" width="38" height="38" alt="Download"/>
             </a>
           </p>
@@ -58,6 +58,11 @@
     <p>
       <img src="../../Resources/History.png" width="85" height="40" alt="History"/>
     </p>
+    <p>
+      <b>31 Oct 2010</b> - 
+			
+			Updated to match MAME v0.140.
+		</p>
     <p>
       <b>18 May 2010</b> - 
 			
