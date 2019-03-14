@@ -2,7 +2,7 @@
 .	error.php	2183
 .	favicon.ico	894
 .	index.php	1834
-.	news.php	4371
+.	news.php	4491
 .	robots.txt	0
 .	_archive_bit_clear.bat	133
 .	_filelist.py	1348
@@ -258,29 +258,29 @@
 .\DatFAQs\CVS	Repository	30
 .\DatFAQs\CVS	Root	25
 .\Dats	datafile.dtd	3320
-.\Dats	Dats.php	11136
+.\Dats	Dats.php	12114
 .\Dats	Dats.png	1033
 .\Dats	Dats.xml	3163
 .\Dats	EmulatorSupplements.png	3532
 .\Dats	MAMESuperSet.png	3261
 .\Dats	MAMESuperSet.txt	308
-.\Dats	MAMESuperSet.zip	854
+.\Dats	MAMESuperSet.zip	990
 .\Dats	OlderEmus.laptop.txt	44
 .\Dats	OlderEmus.png	1948
 .\Dats	OlderEmus.txt	40
-.\Dats	OlderEmus.zip	4243
+.\Dats	OlderEmus.zip	4431
 .\Dats	RecentEmus.laptop.txt	546
 .\Dats	RecentEmus.png	2121
 .\Dats	RecentEmus.txt	550
-.\Dats	RecentEmus.zip	881
+.\Dats	RecentEmus.zip	1006
 .\Dats	ResourceFiles.png	1885
 .\Dats	RomCenter.css	906
-.\Dats	RomCenter.php	8471
+.\Dats	RomCenter.php	8507
 .\Dats	RomCenter.xml	3132
 .\Dats	Systems.laptop.txt	112
 .\Dats	Systems.png	1413
 .\Dats	Systems.txt	100
-.\Dats	Systems.zip	403
+.\Dats	Systems.zip	487
 .\Dats	VariousEmulators.png	3158
 .\Dats	_rebuild_all.bat	55
 .\Dats	_rebuild_all.mak	1437
@@ -295,9 +295,9 @@
 .\Dats\AAE\CVS	Entries	338
 .\Dats\AAE\CVS	Repository	31
 .\Dats\AAE\CVS	Root	25
-.\Dats\CPS-1	CPS-1 20100518 (xml).zip	57221
-.\Dats\CPS-1	CPS-1.ent.xml	10127
-.\Dats\CPS-1	CPS-1.php	9164
+.\Dats\CPS-1	CPS-1 20101027 (xml).zip	62548
+.\Dats\CPS-1	CPS-1.ent.xml	10241
+.\Dats\CPS-1	CPS-1.php	9244
 .\Dats\CPS-1	CPS-1.png	1149
 .\Dats\CPS-1	CPS-1.xml	167
 .\Dats\CPS-1	_cvs_purge_add.bat	50
@@ -305,9 +305,9 @@
 .\Dats\CPS-1\CVS	Entries	348
 .\Dats\CPS-1\CVS	Repository	33
 .\Dats\CPS-1\CVS	Root	25
-.\Dats\CPS-2	CPS-2 20100518 (xml).zip	85607
-.\Dats\CPS-2	CPS-2.ent.xml	20881
-.\Dats\CPS-2	CPS-2.php	18261
+.\Dats\CPS-2	CPS-2 20101027 (xml).zip	91311
+.\Dats\CPS-2	CPS-2.ent.xml	20995
+.\Dats\CPS-2	CPS-2.php	18341
 .\Dats\CPS-2	CPS-2.png	1268
 .\Dats\CPS-2	CPS-2.xml	167
 .\Dats\CPS-2	_cvs_purge_add.bat	48
@@ -402,9 +402,9 @@
 .\Dats\Nebula\CVS	Entries	353
 .\Dats\Nebula\CVS	Repository	34
 .\Dats\Nebula\CVS	Root	25
-.\Dats\Neo-Geo	Neo-Geo 20091103 (xml).zip	96854
-.\Dats\Neo-Geo	Neo-Geo.ent.xml	13676
-.\Dats\Neo-Geo	Neo-Geo.php	12061
+.\Dats\Neo-Geo	Neo-Geo 20101027 (xml).zip	97985
+.\Dats\Neo-Geo	Neo-Geo.ent.xml	13790
+.\Dats\Neo-Geo	Neo-Geo.php	12141
 .\Dats\Neo-Geo	Neo-Geo.png	1501
 .\Dats\Neo-Geo	Neo-Geo.xml	173
 .\Dats\Neo-Geo	_cvs_purge_add.bat	48
@@ -455,7 +455,7 @@
 .\Dats\SEGAModel2Emulator\CVS	Repository	46
 .\Dats\SEGAModel2Emulator\CVS	Root	25
 .\Dats\WinKawaks	WinKawaks v1.62 (xml).zip	179792
-.\Dats\WinKawaks	WinKawaks.ent.xml	11225
+.\Dats\WinKawaks	WinKawaks.ent.xml	11218
 .\Dats\WinKawaks	WinKawaks.php	10056
 .\Dats\WinKawaks	WinKawaks.png	1885
 .\Dats\WinKawaks	WinKawaks.xml	181
@@ -617,8 +617,10 @@
 .\News	News38.txt	326
 .\News	News39.txt	350
 .\News	News40.txt	612
+.\News	News41.txt	284
+.\News	News42.txt	32
 .\News	Shredder.png	3449
-.\News\CVS	Entries	1911
+.\News\CVS	Entries	1999
 .\News\CVS	Repository	27
 .\News\CVS	Root	25
 .\pi	.ftpquota	13
@@ -934,7 +936,6 @@
 .\Tools\ZIPIdent\CVS	Entries	246
 .\Tools\ZIPIdent\CVS	Repository	37
 .\Tools\ZIPIdent\CVS	Root	25
-.\upload	all.zip	5924981
 .\upload	_upload.bat	166
 .\upload\CVS	Entries	48
 .\upload\CVS	Repository	29
