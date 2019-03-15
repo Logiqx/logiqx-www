@@ -73,33 +73,10 @@
 						echo INDENT . '<p><a href="' . $www_root . 'Links/"><img src="' . $www_root . 'Menu/LinksOff.png"' . LF;
 						echo INDENT . TAB . 'onmouseover="menuOn(' . "'" . 'Links' . "'" . ')" onmouseout="menuOff(' . "'" . 'Links' . "'" . ')"' . LF;
 						echo INDENT . TAB . 'alt="Links" width="37" height="20" id="Links" /></a></p>' . LF . LF;
-
-						echo INDENT . '<hr />' . LF . LF;
-
-						// Adverts
-
-						if (@$_GET['ads'] != 'no')
-						{
-							echo INDENT . '<p>' . LF;
-							echo INDENT . TAB . '<!-- Cube Advert -->' . LF;
-							echo INDENT . TAB . '<a href="http://www.x-arcade.com/landingpage.shtml?kbid=72062&amp;img=banner.gif"><img src="http://xgaming.com/ShowBanner.php?id=72062&amp;img=banner.gif" alt="X-Arcade"/></a>' . LF;
-							echo INDENT . '</p>' . LF;
-						}
 					?>
 				</td>
 
 				<td></td>
 
 				<td>
-					<?php
-						if (@$_GET['ads'] != 'no')
-						{
-							echo '<p>' . LF;
-							echo INDENT . TAB . '<!-- Banner Advert -->' . LF;
-							echo INDENT . TAB . '<a href="http://www.x-arcade.com/landingpage.shtml?kbid=72062"><img src="http://www.xgaming.com/Rotate1.php?id=72062" alt="X-Arcade"/></a>' . LF;
-							echo INDENT . '</p>' . LF;
-						}
-					?>
-
-					<hr />
 
