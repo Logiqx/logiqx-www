@@ -3,27 +3,27 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <script language="php">
+    <?php
 					// Standard PHP includes (database connection and constants)
 
 					include ('../../Resources/Include.php');
 
-				</script>
+				?>
     <title>Kawaks v1.62</title>
-    <script language="php">
+    <?php
 					// Include standard &lt;head> metadata
 
 					include('../../Resources/Head.php');
-				</script>
+				?>
   </head>
   <body>
-    <script language="php">
+    <?php
 					// The main page content is a 3 column table (left column is the menu, right one is the news)
 
 					echo '' . LF . LF;
 
 					include('../../Resources/Top.php');
-				</script>
+				?>
     <p>
       <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
@@ -488,11 +488,11 @@
 			
 			Uploaded dats for Kawaks v1.00.
 		</p>
-<script language="php">
+<?php
 					// Standard page footer (counter)
 
 					include('../../Resources/Bottom.php');
-				</script>
+				?>
   </body>
 </html>
 

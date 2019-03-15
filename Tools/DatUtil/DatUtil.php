@@ -2,27 +2,27 @@
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <script language="php">
+    <?php
 					// Standard PHP includes (database connection and constants)
 
 					include ('../../Resources/Include.php');
 
-				</script>
+				?>
     <title>DatUtil v2.46</title>
-    <script language="php">
+    <?php
 					// Include standard &lt;head> metadata
 
 					include('../../Resources/Head.php');
-				</script>
+				?>
   </head>
   <body>
-    <script language="php">
+    <?php
 					// The main page content is a 3 column table (left column is the menu, right one is the news)
 
 					echo '' . LF . LF;
 
 					include('../../Resources/Top.php');
-				</script>
+				?>
 	<p>
       <img src="CMProRC.png" width="233" height="142" alt="CMProRC.png"/>
     </p>
@@ -1150,11 +1150,11 @@
 				- Initial version.<br/>
 			
 		</p>
-<script language="php">
+<?php
 					// Standard page footer (counter)
 
 					include('../../Resources/Bottom.php');
-				</script>
+				?>
   </body>
 </html>
 

@@ -3,27 +3,27 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <script language="php">
+    <?php
 					// Standard PHP includes (database connection and constants)
 
 					include ('../../Resources/Include.php');
 
-				</script>
+				?>
     <title>CPS-2 20101027</title>
-    <script language="php">
+    <?php
 					// Include standard &lt;head> metadata
 
 					include('../../Resources/Head.php');
-				</script>
+				?>
   </head>
   <body>
-    <script language="php">
+    <?php
 					// The main page content is a 3 column table (left column is the menu, right one is the news)
 
 					echo '' . LF . LF;
 
 					include('../../Resources/Top.php');
-				</script>
+				?>
     <p>
       <img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
     </p>
@@ -765,11 +765,11 @@
 			Released v1.82a of the dats (version number corresponds to Naz's FAQ).<br/>These dats are consistent with Naz's FAQ and the information at CPS2Shock.<br/>Thanks to Dr. Zero for his contribution.<br/>
 				<br/>There were other CPS-2 dats before this but now CPS2Shock, ClrMamePro and RomCenter all match. :)
 		</p>
-<script language="php">
+<?php
 					// Standard page footer (counter)
 
 					include('../../Resources/Bottom.php');
-				</script>
+				?>
   </body>
 </html>
 
