@@ -78,38 +78,38 @@
 	<xsl:template match="tool">
 		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 			<head>
-				<script language="php">
+				&lt;?php
 					// Standard PHP includes (database connection and constants)
 
 					include ('../../Resources/Include.php');
 
-				</script>
+				?&gt;
 
 				<title><xsl:value-of select="name"/><xsl:text> </xsl:text><xsl:value-of select="version"/></title>
 
-				<script language="php">
+				&lt;?php
 					// Include standard &lt;head> metadata
 
 					include('../../Resources/Head.php');
-				</script>
+				?&gt;
 			</head>
 
 			<body>
-				<script language="php">
+				&lt;?php
 					// The main page content is a 3 column table (left column is the menu, right one is the news)
 
 					echo '<!-- Logiqx pages are basically a table with one row and three columns -->' . LF . LF;
 
 					include('../../Resources/Top.php');
-				</script>
+				?&gt;
 
 				<xsl:apply-templates/>
 
-				<script language="php">
+				&lt;?php
 					// Standard page footer (counter)
 
 					include('../../Resources/Bottom.php');
-				</script>
+				?&gt;
 			</body>
 		</html>
 	</xsl:template>
