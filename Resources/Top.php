@@ -22,26 +22,6 @@
 
 						echo INDENT . '<hr />' . LF . LF;
 
-						if (!isset($non_xhtml_compliant))
-						{
-							echo '<p>' . LF;
-							echo INDENT . TAB . '<a href="http://validator.w3.org/check?uri=referer">' . LF;
-							echo INDENT . TAB . TAB . '<img src="' . $www_root . 'Resources/valid-xhtml10.png"' . LF;
-							echo INDENT . TAB . TAB . ' alt="Valid XHTML 1.0!" height="31" width="88" />' . LF;
-							echo INDENT . TAB . '</a>' . LF;
-							echo INDENT . TAB . '<br />' . LF;
-							echo INDENT . '</p>' . LF;
-						}
-
-						echo '<p>' . LF;
-						echo INDENT . TAB . '<a href="http://jigsaw.w3.org/css-validator/check/referer">' . LF;
-						echo INDENT . TAB . TAB . '<img src="' . $www_root . 'Resources/valid-css.png"' . LF;
-						echo INDENT . TAB . TAB . ' alt="Valid CSS!" height="31" width="88" />' . LF;
-						echo INDENT . TAB . '</a>' . LF;
-						echo INDENT . TAB . '<br />' . LF;
-						echo INDENT . '</p>' . LF . LF;
-						echo INDENT . '<hr />' . LF . LF;
-
 						echo INDENT . '<p><a href="' . $www_root . '"><img src="' . $www_root . 'Menu/NewsOff.png"' . LF;
 						echo INDENT . TAB . 'onmouseover="menuOn(' . "'" . 'News' . "'" . ')" onmouseout="menuOff(' . "'" . 'News' . "'" . ')"' . LF;
 						echo INDENT . TAB . 'alt="News" width="40" height="20" id="News" /></a></p>' . LF . LF;
@@ -73,6 +53,25 @@
 						echo INDENT . '<p><a href="' . $www_root . 'Links/"><img src="' . $www_root . 'Menu/LinksOff.png"' . LF;
 						echo INDENT . TAB . 'onmouseover="menuOn(' . "'" . 'Links' . "'" . ')" onmouseout="menuOff(' . "'" . 'Links' . "'" . ')"' . LF;
 						echo INDENT . TAB . 'alt="Links" width="37" height="20" id="Links" /></a></p>' . LF . LF;
+
+						echo INDENT . '<hr />' . LF . LF;
+
+						if (!isset($non_xhtml_compliant))
+						{
+							echo '<p>' . LF;
+							echo INDENT . TAB . '<a href="http://validator.w3.org/check?uri=referer">' . LF;
+							echo INDENT . TAB . TAB . '<img src="' . $www_root . 'Resources/valid-xhtml10.png"' . LF;
+							echo INDENT . TAB . TAB . ' alt="Valid XHTML 1.0!" height="31" width="88" />' . LF;
+							echo INDENT . TAB . '</a>' . LF;
+							echo INDENT . '</p>' . LF;
+						}
+
+						echo '<p>' . LF;
+						echo INDENT . TAB . '<a href="http://jigsaw.w3.org/css-validator/check/referer">' . LF;
+						echo INDENT . TAB . TAB . '<img src="' . $www_root . 'Resources/valid-css.png"' . LF;
+						echo INDENT . TAB . TAB . ' alt="Valid CSS!" height="31" width="88" />' . LF;
+						echo INDENT . TAB . '</a>' . LF;
+						echo INDENT . '</p>' . LF . LF;
 					?>
 				</td>
 
