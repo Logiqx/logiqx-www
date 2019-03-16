@@ -27,31 +27,7 @@ RewriteRule ^.+\.(jpe?g|gif|png|zip)$ - [F,NC]
 RewriteCond %{HTTP_HOST} ^logiqx.com$ [NC]
 RewriteRule ^(.*)$ http://www.logiqx.com/$1 [R=301,L]
 
-# Directories that have been moved (process before the shortened URL stuff)
-
-RewriteRule ^DatLib/(.*)$ /Tools/DatLib/$1 [R=301,L]
-RewriteRule ^DatUtil/(.*)$ /Tools/DatUtil/$1 [R=301,L]
-RewriteRule ^FAQs/(.*)$ /DatFAQs/$1 [R=301,L]
-RewriteRule ^ImgChk/(.*)$ /Tools/ImgChk/$1 [R=301,L]
-RewriteRule ^MAMEDiff/(.*)$ /Tools/MAMEDiff/$1 [R=301,L]
-RewriteRule ^ROMBuild/(.*)$ /Tools/ROMBuild/$1 [R=301,L]
-RewriteRule ^ROMInfo/(.*)$ /Tools/ROMInfo/$1 [R=301,L]
-RewriteRule ^ZIPIdent/(.*)$ /Tools/ZIPIdent/$1 [R=301,L]
-
 # Rewrite shortened URLs (e.g. http://www.logiqx.com/Tools/)
 
 RewriteRule ^([^/]+)/$ /$1/$1.php [L]
 RewriteRule ^(.+)/([^/]+)/$ /$1/$2/$2.php [L]
-
-# Pages that have been renamed or moved
-
-RewriteRule ^Dats/Dats\.s?html?$ /Dats/ [R=301,L]
-RewriteRule ^Dats/RomCenter\.s?html?$ /Dats/RomCenter.php [R=301,L]
-RewriteRule ^Dats/([^/]+)\.s?html?$ /Dats/$1/ [R=301,L]
-RewriteRule ^E-Mail/CPS-2\.s?html?$ http://cps2shock.retrogames.com/ [R=301,L]
-RewriteRule ^HowTo/Compiling\.s?html?$ /HowTo/ [R=301,L]
-RewriteRule ^News/News\.php$ / [R=301,L]
-RewriteRule ^News/News([0-9]+)\.s?html?$ /?page=$1 [R=301,L]
-RewriteRule ^(.+)\.s?html?$ /$1.php [R=301,L]
-RewriteRule ^(.+)\.gif$ /$1.png [R=301,L]
-
