@@ -38,8 +38,7 @@
 	
 	
 	
-		<p>You can view the contents of the ZIPs for <a href="CMZIPContents.php">ClrMamePro</a> and
-		<a href="RCZIPContents.php">RomCenter</a>.</p>
+		<p>You can <a href="ZIPContents.php">view the contents</a> of the ZIP prior to downloading.</p>
 	
 	<table>
       <colgroup span="1" width="50%"/>
