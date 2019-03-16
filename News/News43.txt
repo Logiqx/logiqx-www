@@ -1,0 +1,6 @@
+<h1>31 October 2010</h1>
+<table class="news">
+  <tr>
+    <td><p>It was a busy summer in 2010 so it was unfortunate that I didn't have any time for this website. Anyway, autumn is here so I am going to try to get on top of things again.<br /><br />To get things started I have uploaded the data files relating to MAME v0.140.</p></td>
+  </tr>
+</table>
