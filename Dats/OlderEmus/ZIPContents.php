@@ -8,7 +8,7 @@
 
 			// Display the page title
 
-			echo '<title>Logiqx - RomCenter ZIP Contents</title>' . LF . LF;
+			echo '<title>Logiqx - Older Emus Contents</title>' . LF . LF;
 
 			// Include standard <head> metadata
 
@@ -24,9 +24,14 @@
 			include('../../Resources/Top.php');
 		?>
 
-					<p><img src="OlderEmus.png" width="140" height="40" alt="MAME" /></p>
+		<p>
+			<img src="../../Resources/Logiqx.png" width="327" height="68" alt="../../Resources/Logiqx.png"/>
+		</p>
+		<p>
+			<img src="OlderEmus.png" width="140" height="40" alt="OlderEmus.png"/>
+		</p>
+		<p>Thousands of games for Older Emus 20080420</p>
 
-					<pre>
 <pre>
 Archive:  Older Emus 20080420 (xml).zip
  Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
@@ -241,7 +246,7 @@ Archive:  Older Emus 20080420 (xml).zip
 --------          -------  ---                            -------
  4900838          1269652  74%                            207 files
 </pre>
-					</pre>
+
 		<?php
 			// Standard page footer (counter)
 
