@@ -18,11 +18,11 @@
 						echo INDENT . TAB . '//-->' . LF;
 						echo INDENT . '</script>' . LF . LF;
 
-						echo INDENT . '<p><a href="/"><img src="' . $www_root . 'Menu/Arcade.png" alt="Arcade Cabinet" width="87" height="164" /></a></p>' . LF . LF;
+						echo INDENT . '<p><a href="' . $www_root . '"><img src="' . $www_root . 'Menu/Arcade.png" alt="Arcade Cabinet" width="87" height="164" /></a></p>' . LF . LF;
 
 						echo INDENT . '<hr />' . LF . LF;
 
-						echo INDENT . '<p><a href="' . $www_root . '/"><img src="' . $www_root . 'Menu/NewsOff.png"' . LF;
+						echo INDENT . '<p><a href="' . $www_root . '"><img src="' . $www_root . 'Menu/NewsOff.png"' . LF;
 						echo INDENT . TAB . 'onmouseover="menuOn(' . "'" . 'News' . "'" . ')" onmouseout="menuOff(' . "'" . 'News' . "'" . ')"' . LF;
 						echo INDENT . TAB . 'alt="News" width="40" height="20" id="News" /></a></p>' . LF . LF;
 
