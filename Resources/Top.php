@@ -18,7 +18,7 @@
 						echo INDENT . TAB . '//-->' . LF;
 						echo INDENT . '</script>' . LF . LF;
 
-						echo INDENT . '<a href="/"><p><img src="' . $www_root . 'Menu/Arcade.png" alt="Arcade Cabinet" width="87" height="164" /></p></a>' . LF . LF;
+						echo INDENT . '<p><a href="/"><img src="' . $www_root . 'Menu/Arcade.png" alt="Arcade Cabinet" width="87" height="164" /></a></p>' . LF . LF;
 
 						echo INDENT . '<hr />' . LF . LF;
 
