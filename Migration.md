@@ -398,6 +398,7 @@ nothing to commit, working directory clean
 Push the local repository to GitHub:
 
 ```bash
+mike@MIKE-ENVY:/mnt/c/Logiqx/WWW$ git remote add origin https://github.com/Logiqx/logiqx-www.git
 mike@MIKE-ENVY:/mnt/c/Logiqx/WWW$ git push -u origin --all
 Username for 'https://github.com': Logiqx
 Password for 'https://Logiqx@github.com':
