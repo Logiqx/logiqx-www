@@ -1,0 +1,50 @@
+@ECHO OFF
+
+ECHO Creating backups...
+ECHO.
+
+cd ..\Logiqx
+
+tar cvbfz 20 ../Logiqx.gz/Bin.tar.gz Bin Bin.BenJos >nul
+ls -l ../Logiqx.gz/Bin.tar.gz
+
+tar cvbfz 20 ../Logiqx.gz/Dats.tar.gz Dats >nul
+ls -l ../Logiqx.gz/Dats.tar.gz
+
+tar cvbfz 20 ../Logiqx.gz/Dats_RC.tar.gz Dats_RC >nul
+ls -l ../Logiqx.gz/Dats_RC.tar.gz
+
+tar cvbfz 20 ../Logiqx.gz/Dev.tar.gz Dev >nul
+ls -l ../Logiqx.gz/Dev.tar.gz
+
+tar cvbfz 20 ../Logiqx.gz/WWW.tar.gz --exclude=CVS WWW >nul
+ls -l ../Logiqx.gz/WWW.tar.gz
+
+cd ..\Logiqx.gz
+
+ECHO.
+ECHO Transferring backups to %LOGIQX_FTP%/web/team/download...
+
+ECHO open %LOGIQX_FTP%       >_backup.ftp
+ECHO user %LOGIQX_LOGIN%    >>_backup.ftp
+ECHO cd web/team/download   >>_backup.ftp
+ECHO bin                    >>_backup.ftp
+ECHO put Bin.tar.gz         >>_backup.ftp
+ECHO dir Bin.tar.gz         >>_backup.ftp
+ECHO put Dats.tar.gz        >>_backup.ftp
+ECHO dir Dats.tar.gz        >>_backup.ftp
+ECHO put Dats_RC.tar.gz     >>_backup.ftp
+ECHO dir Dats_RC.tar.gz     >>_backup.ftp
+ECHO put Dev.tar.gz         >>_backup.ftp
+ECHO dir Dev.tar.gz         >>_backup.ftp
+ECHO put WWW.tar.gz         >>_backup.ftp
+ECHO dir WWW.tar.gz         >>_backup.ftp
+ECHO bye                    >>_backup.ftp
+
+ECHO.
+FTP -i -n <_backup.ftp
+
+rm -f _backup.ftp
+
+ECHO.
+PAUSE
