@@ -22,7 +22,7 @@
 
 						echo INDENT . '<hr />' . LF . LF;
 
-						echo INDENT . '<p><a href="' . $www_root . '"><img src="' . $www_root . 'Menu/NewsOff.png"' . LF;
+						echo INDENT . '<p><a href="' . $www_root . '/"><img src="' . $www_root . 'Menu/NewsOff.png"' . LF;
 						echo INDENT . TAB . 'onmouseover="menuOn(' . "'" . 'News' . "'" . ')" onmouseout="menuOff(' . "'" . 'News' . "'" . ')"' . LF;
 						echo INDENT . TAB . 'alt="News" width="40" height="20" id="News" /></a></p>' . LF . LF;
 
