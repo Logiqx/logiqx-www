@@ -15,7 +15,7 @@ services:
     build:
       context: ./php
       args:
-        PHP_VERSION: ${PHP_VERSION}
         ALPINE_VERSION: ${ALPINE_VERSION}
+        PHP_VERSION: ${PHP_VERSION}
     volumes:
       - ${WWW_ROOT}:/www
