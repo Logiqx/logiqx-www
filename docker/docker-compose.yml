@@ -5,6 +5,7 @@ services:
       context: ./nginx
       args:
         NGINX_VERSION: ${NGINX_VERSION}
+    image: ${COMPOSE_PROJECT_NAME:-logiqx}_nginx:${PROJECT_NGINX_VERSION:-latest}
     ports:
       - "80:80"
     depends_on:
@@ -17,5 +18,6 @@ services:
       args:
         ALPINE_VERSION: ${ALPINE_VERSION}
         PHP_VERSION: ${PHP_VERSION}
+    image: ${COMPOSE_PROJECT_NAME:-logiqx}_php:${PROJECT_PHP_VERSION:-latest}
     volumes:
       - ${WWW_ROOT}:/www
