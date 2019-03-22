@@ -5,7 +5,7 @@ services:
       context: ./nginx
       args:
         NGINX_VERSION: ${NGINX_VERSION}
-    image: ${COMPOSE_PROJECT_NAME:-logiqx}_nginx:${PROJECT_NGINX_VERSION:-latest}-nginx-${NGINX_VERSION:-latest}
+    image: ${COMPOSE_PROJECT_NAME:-logiqx}_nginx:${PROJECT_NGINX_VERSION:-latest}-nginx-${NGINX_VERSION:-stable}
     ports:
       - "80:80"
     depends_on:
