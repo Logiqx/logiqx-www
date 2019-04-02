@@ -60,7 +60,7 @@
 						{
 							echo '<p>' . LF;
 							echo INDENT . TAB . '<a href="http://validator.w3.org/check?uri=referer">' . LF;
-							echo INDENT . TAB . TAB . '<img src="' . $www_root . 'Resources/valid-xhtml10.png"' . LF;
+							echo INDENT . TAB . TAB . '<img src="' . $www_root . 'Resources/valid-xhtml10-blue.png"' . LF;
 							echo INDENT . TAB . TAB . ' alt="Valid XHTML 1.0!" height="31" width="88" />' . LF;
 							echo INDENT . TAB . '</a>' . LF;
 							echo INDENT . '</p>' . LF;
@@ -68,7 +68,7 @@
 
 						echo '<p>' . LF;
 						echo INDENT . TAB . '<a href="http://jigsaw.w3.org/css-validator/check/referer">' . LF;
-						echo INDENT . TAB . TAB . '<img src="' . $www_root . 'Resources/valid-css.png"' . LF;
+						echo INDENT . TAB . TAB . '<img src="' . $www_root . 'Resources/valid-css-blue.png"' . LF;
 						echo INDENT . TAB . TAB . ' alt="Valid CSS!" height="31" width="88" />' . LF;
 						echo INDENT . TAB . '</a>' . LF;
 						echo INDENT . '</p>' . LF . LF;
